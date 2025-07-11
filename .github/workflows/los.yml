@@ -1,0 +1,41 @@
+name: 📜 LineageOS Source Changes Tracker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 */3 * *'
+
+jobs:
+  lineage:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout workflow repo
+        uses: actions/checkout@v4
+
+      - name: 🛠 Install dependencies and repo tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-core python3-pip
+          pip install GitPython lxml
+          wget https://storage.googleapis.com/git-repo-downloads/repo
+          sudo mv repo /usr/bin/repo
+          sudo chmod a+x /usr/bin/repo
+
+      - name: 📦 Init LineageOS manifest
+        run: |
+          mkdir workspace && cd workspace
+          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b lineage-23.0 -g default,-mips,-darwin,-notdefault
+          repo manifest -o source_manifest.xml
+
+      - name: 📝 Run parser script
+        run: |
+          python3 scripts/parse_source.py
+
+      - name: 📤 Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🔄 Update LineageOS Source Changes"
+          git push
