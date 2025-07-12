@@ -25,7 +25,7 @@ jobs:
       - name: 📦 Init LineageOS manifest
         run: |
           mkdir workspace && cd workspace
-          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b lineage-23.0 -g default,-mips,-darwin,-notdefault
+          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b lineage-22.2 -g default,-mips,-darwin,-notdefault
           repo manifest -o source_manifest.xml
 
       - name: 📝 Run parser script
