@@ -28,11 +28,6 @@
   Author: Bruno Martins  
   Date: Sat Jul 5 12:56:57 2025 +0100
 
-- [8de3399](https://github.com/LineageOS/android/commit/8de3399) manifest: Track vendor/qcom/opensource/audio
-  
-  Author: LuK1337  
-  Date: Thu Jun 19 12:25:18 2025 +0200
-
 
 </details>
 
@@ -199,6 +194,61 @@
   
   Author: Chirayu Desai  
   Date: Tue May 31 01:17:08 2022 +0530
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b></summary>
+
+- [9cc3432](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/9cc3432) Update Chromium Webview to 138.0.7204.63
+  
+  Author: Kevin F. Haggerty  
+  Date: Sun Jul 6 07:38:28 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b></summary>
+
+- [b263912](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/b263912) Update Chromium Webview arm to 138.0.7204.63
+  
+  Author: Kevin F. Haggerty  
+  Date: Mon Jul 7 05:43:26 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm64</b></summary>
+
+- [f6f994f](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/f6f994f) Update Chromium Webview arm64 to 138.0.7204.63
+  
+  Author: Kevin F. Haggerty  
+  Date: Mon Jul 7 05:43:27 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86</b></summary>
+
+- [fff97d5](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/fff97d5) Update Chromium Webview x86 to 138.0.7204.63
+  
+  Author: Kevin F. Haggerty  
+  Date: Mon Jul 7 05:43:28 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b></summary>
+
+- [248528f](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/248528f) Update Chromium Webview x86_64 to 138.0.7204.63
+  
+  Author: Kevin F. Haggerty  
+  Date: Mon Jul 7 05:43:29 2025 -0600
 
 
 </details>
@@ -734,16 +784,6 @@
   Author: Luca Stefani  
   Date: Wed Jun 11 16:01:59 2025 +0200
 
-- [77df6b0](https://github.com/LineageOS/android_packages_apps_Twelve/commit/77df6b0) Twelve: Jellyfin: Use parent album thumbnail if available for items
-  
-  Author: Luca Stefani  
-  Date: Tue Jul 1 13:53:44 2025 +0200
-
-- [6bc2ad2](https://github.com/LineageOS/android_packages_apps_Twelve/commit/6bc2ad2) Twelve: Jellyfin: Request thumbnails with specific size
-  
-  Author: Luca Stefani  
-  Date: Tue Jul 1 13:32:55 2025 +0200
-
 
 </details>
 
@@ -886,11 +926,6 @@
   
   Author: SpiritCroc  
   Date: Wed Jul 2 08:09:38 2025 +0200
-
-- [281bef7](https://github.com/LineageOS/android_vendor_lineage/commit/281bef7) apn: Update China Telecom for MCC 460 MNC 11
-  
-  Author: Marc Bourgoin  
-  Date: Sun Jun 15 12:52:57 2025 -0600
 
 
 </details>
@@ -1409,6 +1444,11 @@
 <details>
 <summary><b>lineage/hudson</b></summary>
 
+- [facb972](https://github.com/LineageOS/hudson/commit/facb972) making miracles happen
+  
+  Author: Han Sol Jin  
+  Date: Fri Jul 11 06:58:29 2025 -0700
+
 - [034ffcd](https://github.com/LineageOS/hudson/commit/034ffcd) One spicy pillow later, we&#x27;re so back
   
   Author: Sebastiano Barezzi  
@@ -1419,6 +1459,11 @@
 
 <details>
 <summary><b>lineage/wiki</b></summary>
+
+- [f7ded40](https://github.com/LineageOS/lineage_wiki/commit/f7ded40) Promote gtowifi to 22
+  
+  Author: Han Sol Jin  
+  Date: Fri Jul 11 06:58:06 2025 -0700
 
 - [4a5ada0](https://github.com/LineageOS/lineage_wiki/commit/4a5ada0) wiki: Add peripherals sorting script
   
@@ -1455,31 +1500,16 @@
   Author: Inhishonor  
   Date: Tue Jul 1 14:40:45 2025 -0700
 
-- [c9305e5](https://github.com/LineageOS/lineage_wiki/commit/c9305e5) wiki: Improve navbar with new links
-  
-  Author: Inhishonor  
-  Date: Tue Jul 1 14:46:57 2025 -0700
-
-- [e7c6d79](https://github.com/LineageOS/lineage_wiki/commit/e7c6d79) contributing_to_apps: Mention that _some_ apps use gradle-generatebp
-  
-  Author: Luca Stefani  
-  Date: Tue Jul 1 17:57:44 2025 +0200
-
-- [048d022](https://github.com/LineageOS/lineage_wiki/commit/048d022) contributing_to_apps: Add DeskClock
-  
-  Author: Luca Stefani  
-  Date: Tue Jul 1 17:57:10 2025 +0200
-
-- [7e06c05](https://github.com/LineageOS/lineage_wiki/commit/7e06c05) contributing_to_apps: Sort apps
-  
-  Author: Luca Stefani  
-  Date: Tue Jul 1 17:54:48 2025 +0200
-
 
 </details>
 
 <details>
 <summary><b>lineage/mirror</b></summary>
+
+- [477c6dd](https://github.com/LineageOS/mirror/commit/477c6dd) Updated to 11-Jul-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Jul 12 00:01:27 2025 +0200
 
 - [a8b9372](https://github.com/LineageOS/mirror/commit/a8b9372) Updated to 07-Jul-2025 10:01 UTC
   
@@ -1501,6 +1531,11 @@
 
 <details>
 <summary><b>lineage/scripts</b></summary>
+
+- [bc80ce8](https://github.com/LineageOS/scripts/commit/bc80ce8) build-webview: Update default webview to 138.0.7204.63
+  
+  Author: Kevin F. Haggerty  
+  Date: Sun Jul 6 07:15:58 2025 -0600
 
 - [b55311a](https://github.com/LineageOS/scripts/commit/b55311a) add-repo: Support adding remotes
   
