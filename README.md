@@ -791,11 +791,6 @@
   Author: Han Sol Jin  
   Date: Fri Jul 11 06:58:29 2025 -0700
 
-- [034ffcd](https://github.com/LineageOS/hudson/commit/034ffcd) One spicy pillow later, we&#x27;re so back
-  
-  Author: Sebastiano Barezzi  
-  Date: Thu Jul 3 04:29:30 2025 +0200
-
 
 </details>
 
