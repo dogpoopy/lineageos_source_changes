@@ -100,7 +100,7 @@ with open(output_file, "w") as out:
             log_cmd = [
                 "git", "-C", repo_path, "log",
                 f'--since={since_date}',
-                '--pretty=format:%h|%s|%an|%ad'
+                '--pretty=format:%h|%s|%an|%cd'
             ]
             log_output = subprocess.check_output(log_cmd, text=True).strip()
 
