@@ -8,7 +8,7 @@ import html
 # Config
 manifest_file = "workspace/source_manifest.xml"
 output_file = "README.md"
-since_date = (datetime.datetime.now(datetime.UTC) - datetime.timedelta(days=10)).strftime("%Y-%m-%d")
+since_date = (datetime.datetime.now(datetime.UTC) - datetime.timedelta(days=30)).strftime("%Y-%m-%d")
 temp_dir = "temp_repos"
 
 # Prepare workspace
@@ -36,7 +36,7 @@ for remote in root.findall("remote"):
         remotes[name] = fetch
 
 with open(output_file, "w") as out:
-    out.write("## 📜 LineageOS Source Changes (Last 10 Days)\n\n")
+    out.write("## 📜 LineageOS Source Changes (Last 30 Days)\n\n")
 
     for project in root.findall("project"):
         name = project.attrib["name"]
