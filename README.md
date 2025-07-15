@@ -152,22 +152,6 @@
 </details>
 
 <details>
-<summary><b>hardware/lineage/interfaces</b></summary>
-
-- [421905c](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/421905c) aidl: light: Scan for backlight devices
-  
-  Author: Yumi Yukimura  
-  Date: Sat Jul 5 03:33:25 2025 +0800
-
-- [ebdc336](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/ebdc336) aidl: light: Add LEDs with &quot;:status&quot; suffix
-  
-  Author: Yumi Yukimura  
-  Date: Fri Jul 4 19:32:40 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/common</b></summary>
 
 - [7f93034](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/7f93034) common: add support for sun platform
@@ -379,6 +363,32 @@
   
   Author: Michael Bestas  
   Date: Sun Jul 6 08:30:51 2025 -0700
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/TvSettings</b></summary>
+
+- [56deadc](https://github.com/LineageOS/android_packages_apps_TvSettings/commit/56deadc) [TvSettings] fix PendingIntent conflict in RowBuilder actions
+  
+  Author: joe.y.huang  
+  Date: Sat Jul 12 23:14:15 2025 -0500
+
+- [6d20244](https://github.com/LineageOS/android_packages_apps_TvSettings/commit/6d20244) [TvSettings] Fix crash in pairing screen after standby resume
+  
+  Author: joe.y.huang  
+  Date: Sat Jul 12 23:13:59 2025 -0500
+
+- [25218ec](https://github.com/LineageOS/android_packages_apps_TvSettings/commit/25218ec) AddAccessoryPreferenceFragment: Switch to Drawable.ConstantState caching
+  
+  Author: Artem Anashkin  
+  Date: Sat Jul 12 23:13:41 2025 -0500
+
+- [2d583fd](https://github.com/LineageOS/android_packages_apps_TvSettings/commit/2d583fd) Respect WIFI_ALWAYS_REQUESTED setting
+  
+  Author: Alexander Zemlyakov  
+  Date: Sat Jul 12 23:13:23 2025 -0500
 
 
 </details>
@@ -706,26 +716,6 @@
   
   Author: Han Sol Jin  
   Date: Fri Jul 11 06:58:06 2025 -0700
-
-- [4a5ada0](https://github.com/LineageOS/lineage_wiki/commit/4a5ada0) wiki: Add peripherals sorting script
-  
-  Author: LuK1337  
-  Date: Fri Jul 4 09:58:38 2025 +0200
-
-- [ebdd875](https://github.com/LineageOS/lineage_wiki/commit/ebdd875) wiki: hudson_sync: Remove unused import
-  
-  Author: LuK1337  
-  Date: Fri Jul 4 09:57:29 2025 +0200
-
-- [967f824](https://github.com/LineageOS/lineage_wiki/commit/967f824) wiki: Sort peripherals according to schema
-  
-  Author: LuK1337  
-  Date: Fri Jul 4 09:57:14 2025 +0200
-
-- [83a6e20](https://github.com/LineageOS/lineage_wiki/commit/83a6e20) wiki: marble: Add 3.5mm jack peripheral
-  
-  Author: LuK1337  
-  Date: Fri Jul 4 09:47:24 2025 +0200
 
 
 </details>
