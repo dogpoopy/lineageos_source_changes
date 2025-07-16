@@ -610,36 +610,6 @@
   Author: Hirohito Higashi  
   Date: Mon Jun 16 19:39:24 2025 +0200
 
-- [e5297e3](https://github.com/LineageOS/android_external_vim/commit/e5297e3) patch 9.1.1460: MS-Windows: too many strlen() calls in os_win32.c
-  
-  Author: John Marriott  
-  Date: Sun Jun 15 16:50:38 2025 +0200
-
-- [f548ec4](https://github.com/LineageOS/android_external_vim/commit/f548ec4) runtime(keymaps): Add Azerbaijani keymap
-  
-  Author: Rasul Samadzade  
-  Date: Sun Jun 15 16:33:35 2025 +0200
-
-- [6897f18](https://github.com/LineageOS/android_external_vim/commit/6897f18) patch 9.1.1459: xxd: coloring output is inefficient
-  
-  Author: Emanuel Krollmann  
-  Date: Sun Jun 15 16:24:09 2025 +0200
-
-- [f5aa269](https://github.com/LineageOS/android_external_vim/commit/f5aa269) patch 9.1.1458: tabpanel: tabs not properly updated with &#x27;stpl&#x27;
-  
-  Author: Hirohito Higashi  
-  Date: Sun Jun 15 16:09:22 2025 +0200
-
-- [631a50c](https://github.com/LineageOS/android_external_vim/commit/631a50c) runtime(doc): mention cannot ignored events in eventignorewin
-  
-  Author: glepnir  
-  Date: Sun Jun 15 16:05:10 2025 +0200
-
-- [7e47c1e](https://github.com/LineageOS/android_external_vim/commit/7e47c1e) runtime(netrw): remove g:netrw_quiet and reindent to 4 spaces
-  
-  Author: Luca Saccarola  
-  Date: Sun Jun 15 15:26:44 2025 +0200
-
 
 </details>
 
@@ -657,10 +627,10 @@
 <details>
 <summary><b>frameworks/base</b></summary>
 
-- [a100bc30](https://github.com/LineageOS/android_frameworks_base/commit/a100bc30) Automatic translation import
+- [06a7b91e](https://github.com/LineageOS/android_frameworks_base/commit/06a7b91e) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:32 2025 +0000
+  Date: Tue Jul 15 17:08:17 2025 +0000
 
 
 </details>
@@ -947,21 +917,26 @@
 <details>
 <summary><b>lineage-sdk</b></summary>
 
+- [49a8ae3](https://github.com/LineageOS/android_lineage-sdk/commit/49a8ae3) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:21 2025 +0000
+
 - [987c5b8](https://github.com/LineageOS/android_lineage-sdk/commit/987c5b8) Android.bp: use defaults and file groups
   
   Author: Alexander Martinz  
   Date: Tue Jun 17 06:43:57 2025 +0000
-
-- [146083f](https://github.com/LineageOS/android_lineage-sdk/commit/146083f) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:36 2025 +0000
 
 
 </details>
 
 <details>
 <summary><b>packages/apps/Aperture</b></summary>
+
+- [2f9d472](https://github.com/LineageOS/android_packages_apps_Aperture/commit/2f9d472) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:22 2025 +0000
 
 - [625df08](https://github.com/LineageOS/android_packages_apps_Aperture/commit/625df08) Aperture: Update gradle-generatebp to 1.25
   
@@ -973,16 +948,38 @@
   Author: Luca Stefani  
   Date: Sun Jul 6 10:47:34 2025 +0200
 
-- [1676229](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1676229) Automatic translation import
+
+</details>
+
+<details>
+<summary><b>packages/apps/AudioFX</b></summary>
+
+- [381264b](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/381264b) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:36 2025 +0000
+  Date: Tue Jul 15 17:08:22 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Backgrounds</b></summary>
+
+- [c6324a2](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/c6324a2) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:22 2025 +0000
 
 
 </details>
 
 <details>
 <summary><b>packages/apps/Camelot</b></summary>
+
+- [841eccc](https://github.com/LineageOS/android_packages_apps_Camelot/commit/841eccc) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:22 2025 +0000
 
 - [06312c6](https://github.com/LineageOS/android_packages_apps_Camelot/commit/06312c6) Camelot: Update gradle-generatebp to 1.25
   
@@ -994,21 +991,16 @@
   Author: Luca Stefani  
   Date: Sun Jul 6 11:05:24 2025 +0200
 
-- [82ccdb3](https://github.com/LineageOS/android_packages_apps_Camelot/commit/82ccdb3) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:37 2025 +0000
-
 
 </details>
 
 <details>
 <summary><b>packages/apps/Catapult</b></summary>
 
-- [52af81a](https://github.com/LineageOS/android_packages_apps_Catapult/commit/52af81a) Automatic translation import
+- [5e7895d](https://github.com/LineageOS/android_packages_apps_Catapult/commit/5e7895d) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:37 2025 +0000
+  Date: Tue Jul 15 17:08:23 2025 +0000
 
 
 </details>
@@ -1016,10 +1008,10 @@
 <details>
 <summary><b>packages/apps/Contacts</b></summary>
 
-- [15fd96e](https://github.com/LineageOS/android_packages_apps_Contacts/commit/15fd96e) Revert &quot;Add README with details about the status of support for this app&quot;
+- [8664308](https://github.com/LineageOS/android_packages_apps_Contacts/commit/8664308) Automatic translation import
   
-  Author: Michael Bestas  
-  Date: Sun Jun 15 21:06:14 2025 +0300
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:23 2025 +0000
 
 
 </details>
@@ -1027,10 +1019,21 @@
 <details>
 <summary><b>packages/apps/DeskClock</b></summary>
 
-- [4c237b4](https://github.com/LineageOS/android_packages_apps_DeskClock/commit/4c237b4) Automatic translation import
+- [353fccc](https://github.com/LineageOS/android_packages_apps_DeskClock/commit/353fccc) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:37 2025 +0000
+  Date: Tue Jul 15 17:08:23 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Dialer</b></summary>
+
+- [5a211f9](https://github.com/LineageOS/android_packages_apps_Dialer/commit/5a211f9) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:24 2025 +0000
 
 
 </details>
@@ -1058,18 +1061,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/FlipFlap</b></summary>
+<summary><b>packages/apps/Glimpse</b></summary>
 
-- [bbf2703](https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/bbf2703) Automatic translation import
+- [22730be](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/22730be) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:39 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Glimpse</b></summary>
+  Date: Tue Jul 15 17:08:25 2025 +0000
 
 - [5116f7f](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/5116f7f) Glimpse: Update gradle-generatebp to 1.25
   
@@ -1087,15 +1084,15 @@
 <details>
 <summary><b>packages/apps/Jelly</b></summary>
 
+- [ebca57c](https://github.com/LineageOS/android_packages_apps_Jelly/commit/ebca57c) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:26 2025 +0000
+
 - [c90a982](https://github.com/LineageOS/android_packages_apps_Jelly/commit/c90a982) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Tue Jul 1 17:02:04 2025 +0000
-
-- [531ff09](https://github.com/LineageOS/android_packages_apps_Jelly/commit/531ff09) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:39 2025 +0000
 
 
 </details>
@@ -1103,10 +1100,21 @@
 <details>
 <summary><b>packages/apps/LineageParts</b></summary>
 
-- [f8a1221](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/f8a1221) Automatic translation import
+- [3fcb39c](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3fcb39c) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:40 2025 +0000
+  Date: Tue Jul 15 17:08:26 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Messaging</b></summary>
+
+- [e9bfc32](https://github.com/LineageOS/android_packages_apps_Messaging/commit/e9bfc32) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:26 2025 +0000
 
 
 </details>
@@ -1114,15 +1122,15 @@
 <details>
 <summary><b>packages/apps/Settings</b></summary>
 
+- [69d881ff](https://github.com/LineageOS/android_packages_apps_Settings/commit/69d881ff) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:27 2025 +0000
+
 - [ecfdb903](https://github.com/LineageOS/android_packages_apps_Settings/commit/ecfdb903) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Tue Jul 1 17:02:04 2025 +0000
-
-- [55a22294](https://github.com/LineageOS/android_packages_apps_Settings/commit/55a22294) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:41 2025 +0000
 
 
 </details>
@@ -1130,10 +1138,10 @@
 <details>
 <summary><b>packages/apps/SetupWizard</b></summary>
 
-- [c881f51](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/c881f51) Automatic translation import
+- [c5e8e2c](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/c5e8e2c) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:42 2025 +0000
+  Date: Tue Jul 15 17:08:28 2025 +0000
 
 
 </details>
@@ -1152,25 +1160,25 @@
 <details>
 <summary><b>packages/apps/Trebuchet</b></summary>
 
-- [6217ec6a](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/6217ec6a) Trebuchet: Make taskbar start aligned in all grid sizes
+- [cda0471](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/cda0471) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:28 2025 +0000
+
+- [6217ec6](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/6217ec6) Trebuchet: Make taskbar start aligned in all grid sizes
   
   Author: Michael Bestas  
   Date: Sun Jul 6 08:30:51 2025 -0700
 
-- [e2420642](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e2420642) Trebuchet: Hide 2x2 grid from foldables
+- [e242064](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e242064) Trebuchet: Hide 2x2 grid from foldables
   
   Author: Michael Bestas  
   Date: Sun Jul 6 08:30:51 2025 -0700
 
-- [d0003fde](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/d0003fde) Trebuchet: Make landscape tablet taskbar start aligned
+- [d0003fd](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/d0003fd) Trebuchet: Make landscape tablet taskbar start aligned
   
   Author: Han Sol Jin  
   Date: Mon Jun 23 07:22:16 2025 +0000
-
-- [e4f5623a](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e4f5623a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:43 2025 +0000
 
 
 </details>
@@ -1204,6 +1212,11 @@
 <details>
 <summary><b>packages/apps/Twelve</b></summary>
 
+- [4ec1145](https://github.com/LineageOS/android_packages_apps_Twelve/commit/4ec1145) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Tue Jul 15 17:08:29 2025 +0000
+
 - [db31b2c](https://github.com/LineageOS/android_packages_apps_Twelve/commit/db31b2c) Twelve: Fix contrast issues on chip
   
   Author: Inhishonor  
@@ -1234,10 +1247,16 @@
   Author: Luca Stefani  
   Date: Tue Jul 1 13:54:42 2025 +0200
 
-- [f3240ef](https://github.com/LineageOS/android_packages_apps_Twelve/commit/f3240ef) Automatic translation import
+
+</details>
+
+<details>
+<summary><b>packages/apps/Updater</b></summary>
+
+- [c77f449](https://github.com/LineageOS/android_packages_apps_Updater/commit/c77f449) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:43 2025 +0000
+  Date: Tue Jul 15 17:08:29 2025 +0000
 
 
 </details>
@@ -1249,17 +1268,6 @@
   
   Author: LineageOS Infra  
   Date: Tue Jul 1 17:02:06 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/resources/devicesettings</b></summary>
-
-- [a0b65b9](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/a0b65b9) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:44 2025 +0000
 
 
 </details>
@@ -1333,17 +1341,6 @@
   
   Author: Michael Bestas  
   Date: Sun Jul 6 09:00:15 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>vendor/crowdin</b></summary>
-
-- [1ec53f7](https://github.com/LineageOS/android_vendor_crowdin/commit/1ec53f7) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sun Jun 15 14:13:51 2025 +0000
 
 
 </details>
@@ -1930,11 +1927,6 @@
   
   Author: Mohammad Hasan Keramat J  
   Date: Tue Jun 17 16:30:43 2025 +0000
-
-- [97f097a](https://github.com/LineageOS/lineage_wiki/commit/97f097a) wiki: fogos_variant2 supposedly has SM6375-AC
-  
-  Author: LuK1337  
-  Date: Sun Jun 15 15:37:09 2025 +0200
 
 
 </details>
