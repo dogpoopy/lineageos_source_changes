@@ -565,51 +565,6 @@
   Author: Eisuke Kawashima  
   Date: Tue Jun 17 20:30:52 2025 +0200
 
-- [acd04b2](https://github.com/LineageOS/android_external_vim/commit/acd04b2) patch 9.1.1465: tabpanel: not correctly drawn with &#x27;equalalways&#x27;
-  
-  Author: Hirohito Higashi  
-  Date: Mon Jun 16 20:26:08 2025 +0200
-
-- [b7ebe61](https://github.com/LineageOS/android_external_vim/commit/b7ebe61) translation(de): update German messages translation
-  
-  Author: Christian Brabandt  
-  Date: Mon Jun 16 20:23:00 2025 +0200
-
-- [234c728](https://github.com/LineageOS/android_external_vim/commit/234c728) runtime(optwin): fix tabpanel typo in optwin
-  
-  Author: Christian Brabandt  
-  Date: Mon Jun 16 20:22:30 2025 +0200
-
-- [cb27992](https://github.com/LineageOS/android_external_vim/commit/cb27992) patch 9.1.1464: gv does not work in operator-pending mode
-  
-  Author: phanium  
-  Date: Mon Jun 16 20:19:15 2025 +0200
-
-- [93318a9](https://github.com/LineageOS/android_external_vim/commit/93318a9) patch 9.1.1463: Integer overflow in getmarklist() after linewise operation
-  
-  Author: zeertzjq  
-  Date: Mon Jun 16 20:10:38 2025 +0200
-
-- [8ae8b30](https://github.com/LineageOS/android_external_vim/commit/8ae8b30) patch 9.1.1462: missing change from patch v9.1.1461
-  
-  Author: Christian Brabandt  
-  Date: Mon Jun 16 20:07:54 2025 +0200
-
-- [152a450](https://github.com/LineageOS/android_external_vim/commit/152a450) runtime(sh): reset g:sh_fold_enabled after outputting its value in syntax script
-  
-  Author: hakkadaikon  
-  Date: Mon Jun 16 19:54:37 2025 +0200
-
-- [7841ca1](https://github.com/LineageOS/android_external_vim/commit/7841ca1) runtime(vimtutor): vimtutor throws Access Denied Error on MS-Windows
-  
-  Author: Christian Brabandt  
-  Date: Mon Jun 16 19:48:03 2025 +0200
-
-- [e5c96e3](https://github.com/LineageOS/android_external_vim/commit/e5c96e3) patch 9.1.1461: tabpanel: tabpanel vanishes with popup menu
-  
-  Author: Hirohito Higashi  
-  Date: Mon Jun 16 19:39:24 2025 +0200
-
 
 </details>
 
@@ -738,17 +693,6 @@
   
   Author: dianlujitao  
   Date: Sat Jul 5 10:26:30 2025 +0100
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8450/display</b></summary>
-
-- [3559c46](https://github.com/LineageOS/android_hardware_qcom_display/commit/3559c46) sdm: mark FOD pressed layer by setting a bit on ZPOS
-  
-  Author: Demon000  
-  Date: Mon Jun 16 12:35:40 2025 +0000
 
 
 </details>
