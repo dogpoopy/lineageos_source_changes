@@ -342,17 +342,6 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/sm8650</b></summary>
-
-- [5c41161](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/5c41161) Merge e56520fd7d6e52669937f80aa91fe8db80ea7908 on remote branch
-  
-  Author: Linux Build Service Account  
-  Date: Wed Jun 18 17:43:58 2025 -0700
-
-
-</details>
-
-<details>
 <summary><b>device/qcom/sepolicy_vndr/sm8750</b></summary>
 
 - [a424b15](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a424b15) qva: Label snxxx AIDL service
@@ -530,11 +519,6 @@
   Author: LuK1337  
   Date: Sun Jun 22 23:31:48 2025 +0200
 
-- [35db544](https://github.com/LineageOS/android_external_htop/commit/35db544) htop: remove &quot;-pedantic&quot;
-  
-  Author: Skyblueborb  
-  Date: Wed Jun 18 19:42:24 2025 +0000
-
 
 </details>
 
@@ -586,6 +570,22 @@
   
   Author: LuK1337  
   Date: Thu Jun 26 09:00:35 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>external/ntfs-3g</b></summary>
+
+- [e2415df](https://github.com/LineageOS/android_external_ntfs-3g/commit/e2415df) config.h: Update version to 2022.10.3
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 14:50:01 2025 +0300
+
+- [6fafa7f](https://github.com/LineageOS/android_external_ntfs-3g/commit/6fafa7f) Merge tag &#x27;2022.10.3&#x27; of https://github.com/tuxera/ntfs-3g into lineage-22.2
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 14:48:04 2025 +0300
 
 
 </details>
@@ -695,56 +695,6 @@
   Author: Zdenek Dohnal  
   Date: Thu Jun 19 19:35:32 2025 +0200
 
-- [5fbe72e](https://github.com/LineageOS/android_external_vim/commit/5fbe72e) patch 9.1.1471: completion: inconsistent ordering with CTRL-P
-  
-  Author: Girish Palya  
-  Date: Wed Jun 18 19:15:45 2025 +0200
-
-- [1c00af2](https://github.com/LineageOS/android_external_vim/commit/1c00af2) runtime(doc): Remove obsolete labelling from &#x27;h&#x27; occasion in :help &#x27;highlight&#x27;
-  
-  Author: Doug Kearns  
-  Date: Wed Jun 18 19:12:07 2025 +0200
-
-- [8b92af6](https://github.com/LineageOS/android_external_vim/commit/8b92af6) runtime(hgcommit): set comments and commentstring options in filetype plugin
-  
-  Author: Riley Bruins  
-  Date: Wed Jun 18 18:47:57 2025 +0200
-
-- [736cd18](https://github.com/LineageOS/android_external_vim/commit/736cd18) runtime(ishd): set comments and commentstring options in filetype plugin
-  
-  Author: Riley Bruins  
-  Date: Wed Jun 18 18:46:12 2025 +0200
-
-- [e4c157b](https://github.com/LineageOS/android_external_vim/commit/e4c157b) runtime(nroff,groff): update commentstyle in filetype plugins
-  
-  Author: jtmr05  
-  Date: Wed Jun 18 18:41:14 2025 +0200
-
-- [8e83105](https://github.com/LineageOS/android_external_vim/commit/8e83105) patch 9.1.1470: use-after-free with popup callback on error
-  
-  Author: Christian Brabandt  
-  Date: Wed Jun 18 18:33:31 2025 +0200
-
-- [9d065a4](https://github.com/LineageOS/android_external_vim/commit/9d065a4) patch 9.1.1469: potential buffer-underflow with invalid hl_id
-  
-  Author: Christian Brabandt  
-  Date: Wed Jun 18 18:31:19 2025 +0200
-
-- [03e5ee2](https://github.com/LineageOS/android_external_vim/commit/03e5ee2) patch 9.1.1468: filetype: bright(er)script files are not recognized
-  
-  Author: Riley Bruins  
-  Date: Wed Jun 18 18:23:05 2025 +0200
-
-- [fff0132](https://github.com/LineageOS/android_external_vim/commit/fff0132) patch 9.1.1467: too many strlen() calls
-  
-  Author: John Marriott  
-  Date: Wed Jun 18 18:20:11 2025 +0200
-
-- [8311e7d](https://github.com/LineageOS/android_external_vim/commit/8311e7d) runtime(vim): fix incorrect highlighting of User autocmds
-  
-  Author: zeertzjq  
-  Date: Wed Jun 18 18:02:47 2025 +0200
-
 
 </details>
 
@@ -761,6 +711,26 @@
 
 <details>
 <summary><b>hardware/lineage/compat</b></summary>
+
+- [8a4285c](https://github.com/LineageOS/android_hardware_lineage_compat/commit/8a4285c) libwfdservice: Update for 16
+  
+  Author: basamaryan  
+  Date: Sun Jul 6 12:23:15 2025 +0300
+
+- [17bd779](https://github.com/LineageOS/android_hardware_lineage_compat/commit/17bd779) libgui: Add virtual destructor for Transaction
+  
+  Author: basamaryan  
+  Date: Sun Jul 6 12:23:15 2025 +0300
+
+- [0f7efba](https://github.com/LineageOS/android_hardware_lineage_compat/commit/0f7efba) libgui: Update createVirtualDisplay symbol for Android 25Q2
+  
+  Author: Skyblueborb  
+  Date: Sun Jul 6 12:23:15 2025 +0300
+
+- [8ea1fee](https://github.com/LineageOS/android_hardware_lineage_compat/commit/8ea1fee) libbinder_shim: Expose some more symbols
+  
+  Author: Michael Bestas  
+  Date: Sun Jul 6 12:23:15 2025 +0300
 
 - [6cc7892](https://github.com/LineageOS/android_hardware_lineage_compat/commit/6cc7892) compat: Run bpfix
   
@@ -1241,11 +1211,6 @@
   Author: Chirayu Desai  
   Date: Fri Jul 4 21:06:29 2025 +0300
 
-- [19b5abf](https://github.com/LineageOS/android_hardware_qcom_thermal/commit/19b5abf) Merge 5ce9681278b7b7374999f3137dffe65db67525a5 on remote branch
-  
-  Author: Linux Build Service Account  
-  Date: Wed Jun 18 17:32:40 2025 -0700
-
 
 </details>
 
@@ -1271,11 +1236,6 @@
   
   Author: Michael Bestas  
   Date: Sat Jul 5 13:02:21 2025 +0000
-
-- [19b5abf](https://github.com/LineageOS/android_hardware_qcom_thermal/commit/19b5abf) Merge 5ce9681278b7b7374999f3137dffe65db67525a5 on remote branch
-  
-  Author: Linux Build Service Account  
-  Date: Wed Jun 18 17:32:40 2025 -0700
 
 
 </details>
@@ -1854,6 +1814,245 @@
 </details>
 
 <details>
+<summary><b>hardware/qcom-caf/sm8450/audio/graphservices</b></summary>
+
+- [75d5e46](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/75d5e46) Add missing speaker protection ch_enable VI and RX structs and constants
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [1d2e822](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/1d2e822) Disable 32 bit variants of audio libraries for 64 bit audio targets
+  
+  Author: Arian  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [49a735b](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/49a735b) ar_osal: Use /dev/msm_audio_ion since /dev/msm_audio_mem does not exist
+  
+  Author: anonymix007  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [3d48a45](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/3d48a45) Remove typedef from unnamed enum
+  
+  Author: dianlujitao  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [1215914](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/1215914) Avoid discarding the packed attribute
+  
+  Author: dianlujitao  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [68ffcf3](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/68ffcf3) Remove usage of comdef.h
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [b4592ab](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/b4592ab) Allow usage without PD notifiers
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [e0e10ee](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/e0e10ee) Fix incompatible-pointer-types-discards-qualifiers error
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [2815f79](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/2815f79) Ignore address-of-packed-member errors
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [c69f2f0](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/c69f2f0) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Fri Jul 11 13:28:12 2025 +0300
+
+- [0754e17](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/0754e17) Revert &quot;ar_osal: Revert the stub implementation of ar_osal_log_pkt to support RTGM&quot;
+  
+  Author: dianlujitao  
+  Date: Fri Jul 11 13:27:46 2025 +0300
+
+- [d2d42cf](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/d2d42cf) Disable usage of libdiag
+  
+  Author: anonymix007  
+  Date: Fri Jul 11 13:27:46 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8550/audio/graphservices</b></summary>
+
+- [1d2e822](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/1d2e822) Disable 32 bit variants of audio libraries for 64 bit audio targets
+  
+  Author: Arian  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [49a735b](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/49a735b) ar_osal: Use /dev/msm_audio_ion since /dev/msm_audio_mem does not exist
+  
+  Author: anonymix007  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [3d48a45](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/3d48a45) Remove typedef from unnamed enum
+  
+  Author: dianlujitao  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [1215914](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/1215914) Avoid discarding the packed attribute
+  
+  Author: dianlujitao  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [68ffcf3](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/68ffcf3) Remove usage of comdef.h
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [b4592ab](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/b4592ab) Allow usage without PD notifiers
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [e0e10ee](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/e0e10ee) Fix incompatible-pointer-types-discards-qualifiers error
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [2815f79](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/2815f79) Ignore address-of-packed-member errors
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [c69f2f0](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/c69f2f0) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Fri Jul 11 13:28:12 2025 +0300
+
+- [0754e17](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/0754e17) Revert &quot;ar_osal: Revert the stub implementation of ar_osal_log_pkt to support RTGM&quot;
+  
+  Author: dianlujitao  
+  Date: Fri Jul 11 13:27:46 2025 +0300
+
+- [d2d42cf](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/d2d42cf) Disable usage of libdiag
+  
+  Author: anonymix007  
+  Date: Fri Jul 11 13:27:46 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8650/audio/graphservices</b></summary>
+
+- [49a735b](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/49a735b) ar_osal: Use /dev/msm_audio_ion since /dev/msm_audio_mem does not exist
+  
+  Author: anonymix007  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [3d48a45](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/3d48a45) Remove typedef from unnamed enum
+  
+  Author: dianlujitao  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [1215914](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/1215914) Avoid discarding the packed attribute
+  
+  Author: dianlujitao  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [68ffcf3](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/68ffcf3) Remove usage of comdef.h
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [b4592ab](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/b4592ab) Allow usage without PD notifiers
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [e0e10ee](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/e0e10ee) Fix incompatible-pointer-types-discards-qualifiers error
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [2815f79](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/2815f79) Ignore address-of-packed-member errors
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [c69f2f0](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/c69f2f0) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Fri Jul 11 13:28:12 2025 +0300
+
+- [0754e17](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/0754e17) Revert &quot;ar_osal: Revert the stub implementation of ar_osal_log_pkt to support RTGM&quot;
+  
+  Author: dianlujitao  
+  Date: Fri Jul 11 13:27:46 2025 +0300
+
+- [d2d42cf](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/d2d42cf) Disable usage of libdiag
+  
+  Author: anonymix007  
+  Date: Fri Jul 11 13:27:46 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8750/audio/graphservices</b></summary>
+
+- [49a735b](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/49a735b) ar_osal: Use /dev/msm_audio_ion since /dev/msm_audio_mem does not exist
+  
+  Author: anonymix007  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [3d48a45](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/3d48a45) Remove typedef from unnamed enum
+  
+  Author: dianlujitao  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [1215914](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/1215914) Avoid discarding the packed attribute
+  
+  Author: dianlujitao  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [68ffcf3](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/68ffcf3) Remove usage of comdef.h
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [b4592ab](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/b4592ab) Allow usage without PD notifiers
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [e0e10ee](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/e0e10ee) Fix incompatible-pointer-types-discards-qualifiers error
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [2815f79](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/2815f79) Ignore address-of-packed-member errors
+  
+  Author: Cosmin Tanislav  
+  Date: Fri Jul 18 15:27:42 2025 +0300
+
+- [c69f2f0](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/c69f2f0) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Fri Jul 11 13:28:12 2025 +0300
+
+- [0754e17](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/0754e17) Revert &quot;ar_osal: Revert the stub implementation of ar_osal_log_pkt to support RTGM&quot;
+  
+  Author: dianlujitao  
+  Date: Fri Jul 11 13:27:46 2025 +0300
+
+- [d2d42cf](https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/d2d42cf) Disable usage of libdiag
+  
+  Author: anonymix007  
+  Date: Fri Jul 11 13:27:46 2025 +0300
+
+
+</details>
+
+<details>
 <summary><b>vendor/qcom/opensource/core-utils-vendor</b></summary>
 
 - [ab23cec](https://github.com/LineageOS/android_vendor_qcom_opensource_core-utils-vendor/commit/ab23cec) qspaframework: Convert to blueprint
@@ -1999,11 +2198,6 @@
   Author: Chirayu Desai  
   Date: Wed Jul 16 15:34:41 2025 +0300
 
-- [c1ed0e1](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/c1ed0e1) Merge 598b3927b2495cf4807d959ecbc613eabe159a8b on remote branch
-  
-  Author: Linux Build Service Account  
-  Date: Wed Jun 18 17:31:17 2025 -0700
-
 
 </details>
 
@@ -2057,11 +2251,6 @@
   Author: Michael Bestas  
   Date: Wed Jul 16 15:39:40 2025 +0300
 
-- [8bf6bc1](https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/8bf6bc1) Merge 21da23f1e5a42f22cbc49f56cd1fa1fe55014849 on remote branch
-  
-  Author: Linux Build Service Account  
-  Date: Wed Jun 18 17:52:42 2025 -0700
-
 
 </details>
 
@@ -2072,17 +2261,6 @@
   
   Author: Michael Bestas  
   Date: Wed Jul 16 16:05:20 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>vendor/qcom/opensource/dataservices</b></summary>
-
-- [74ea427](https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices/commit/74ea427) datatop: Drop -pedantic
-  
-  Author: basamaryan  
-  Date: Wed Jun 18 17:45:13 2025 +0000
 
 
 </details>
@@ -2442,11 +2620,6 @@
   
   Author: Chirayu Desai  
   Date: Sat Jul 5 13:11:03 2025 +0300
-
-- [b4daf1e](https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/b4daf1e) Merge 5c6ba9e0e87a128a9a00e03d53fed6229adac727 on remote branch
-  
-  Author: Linux Build Service Account  
-  Date: Wed Jun 18 17:32:58 2025 -0700
 
 
 </details>
@@ -2827,6 +3000,17 @@
   
   Author: LuK1337  
   Date: Sun Jun 22 22:22:17 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/website</b></summary>
+
+- [c9995a2](https://github.com/LineageOS/www/commit/c9995a2) www: Update mastodon SVG icon
+  
+  Author: LuK1337  
+  Date: Fri Jul 18 22:43:18 2025 +0200
 
 
 </details>
