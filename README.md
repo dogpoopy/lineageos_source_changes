@@ -256,6 +256,11 @@
 <details>
 <summary><b>device/lineage/sepolicy</b></summary>
 
+- [a118e89](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/a118e89) common: Update compatibility mapping files
+  
+  Author: Michael Bestas  
+  Date: Mon Jul 7 18:30:20 2025 +0300
+
 - [5b40e27](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/5b40e27) common: Remove Touch HIDL rules
   
   Author: Bruno Martins  
@@ -303,6 +308,26 @@
 <details>
 <summary><b>device/qcom/sepolicy_vndr/legacy-um</b></summary>
 
+- [43df9b9](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/43df9b9) sepolicy_vndr: Allow USB HAL to read display brightness
+  
+  Author: Wesley Cheng  
+  Date: Thu Jul 17 19:54:00 2025 +0300
+
+- [c899aae](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c899aae) sepolicy: Remove sysfs_udc label
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 17:14:05 2025 +0300
+
+- [1e21b69](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1e21b69) sepolicy_vndr: Allow USB HAL to access udc sysfs nodes
+  
+  Author: Akash Kumar  
+  Date: Thu Jul 17 17:13:42 2025 +0300
+
+- [c1470c4](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c1470c4) sepolicy: Remove mem_sleep sysfs label
+  
+  Author: ViShal69x  
+  Date: Thu Jul 17 16:26:54 2025 +0300
+
 - [2b65a8c](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2b65a8c) sepolicy_vndr: lahaina: Label some more wakeup nodes
   
   Author: Michael Bestas  
@@ -342,6 +367,393 @@
 </details>
 
 <details>
+<summary><b>device/qcom/sepolicy_vndr/sm8450</b></summary>
+
+- [1859384](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1859384) sepolicy_vndr: Allow USB HAL to read display brightness
+  
+  Author: Wesley Cheng  
+  Date: Thu Jul 17 18:41:46 2025 +0300
+
+- [2d3f4b5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2d3f4b5) sepolicy: Remove sysfs_udc label
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [f67ab6e](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f67ab6e) sepolicy: Remove mem_sleep sysfs label
+  
+  Author: ViShal69x  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [abb66ea](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/abb66ea) taro: Label additional read_ahead_kb node
+  
+  Author: Nolen Johnson  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [07c7566](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/07c7566) sepolicy: Drop hal_fingerprint_fpc rules
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [86079dc](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/86079dc) sepolicy: NFC: Label NXP NFC 2.0 HIDL
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [fdc21e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/fdc21e5) sepolicy: NFC: Add support for snxxx AIDL service
+  
+  Author: Khageswararao Rao B  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [de6e834](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/de6e834) sepolicy_vndr: allow sensors HAL to do binder call to system_server
+  
+  Author: Jun-Hyung Kwon  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [9fc6e45](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9fc6e45) sepolicy: Add default permission for aidl hal_bootctl
+  
+  Author: Anthony Adamo  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [f16b4c3](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f16b4c3) common: Label /sys/class/qcom-battery for everyone
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [d8873a1](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d8873a1) sepolicy: Allow USB HAL to rw usb_data_enabled nodes
+  
+  Author: LuK1337  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [a476a43](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a476a43) common: Switch to AIDL USB HALs
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [66290bf](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/66290bf) common: Switch to AIDL thermal HAL
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [9be61fa](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9be61fa) sepolicy_vndr: Allow init/vendor_init to write proc firmware config
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [265585b](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/265585b) sepolicy_vndr: Label proc firmware config node
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 16:44:16 2025 +0300
+
+- [55d72ab](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/55d72ab) qva: Label qcom,battery_charger extcon
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [4a1ea85](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4a1ea85) qva: Extend extcon rules
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [b4bc81b](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b4bc81b) Add IQtiRadio in vendor
+  
+  Author: Suresh Koleti  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [70fa599](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/70fa599) sepolicy: Label vendor.qti.ims.factoryaidlservice.IImsFactory
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [fc0897f](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/fc0897f) sepolicy: Move some AIDL rules to common policy
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [64eb4f7](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/64eb4f7) sepolicy_vndr: Add IQtiOemHook and IDeviceInfo
+  
+  Author: Sridhar Kasukurthi  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [fd46a0d](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/fd46a0d) taro: Label discard_max_bytes sysfs
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [a975e44](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a975e44) generic: Allow init write to discard_max_bytes
+  
+  Author: dianlujitao  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [27f6322](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/27f6322) sepolicy: enable vibrator HAL to access qcom-haptics class sysfs
+  
+  Author: xuanpeng  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [556c970](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/556c970) device/qcom/sepolicy_vndr : Support Widevine AIDL
+  
+  Author: Phalguni Bumhyavarapu  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [f3e929d](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f3e929d) device/qcom/sepolicy_vndr : Support Widevine AIDL
+  
+  Author: Phalguni Bumhyavarapu  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [5fab010](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/5fab010) sepolicy_vndr: Allow qti_init_shell to set watermark boost factor
+  
+  Author: Alexander Winkowski  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [5c4fd73](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/5c4fd73) sepolicy_vndr: allow init_shell to access proc_watermark_scale_factor.
+  
+  Author: Divyanand Rangu  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [b8ee654](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b8ee654) sepolicy_vndr: update sepolicy for health HAL service
+  
+  Author: Fenglin Wu  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [2fabad0](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2fabad0) sepolicy_vndr: Remove vendor_service.
+  
+  Author: Steven Moreland  
+  Date: Thu Jul 17 16:44:15 2025 +0300
+
+- [6246ee9](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6246ee9) sepolicy_vndr: isolated_app -&gt; isolated_app_all
+  
+  Author: LuK1337  
+  Date: Thu Jul 17 16:34:27 2025 +0300
+
+- [940e228](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/940e228) sepolicy_vndr: common: Label UCSI power supply
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 16:34:27 2025 +0300
+
+- [c65b0f0](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c65b0f0) sepolicy_vndr: Remove duplicate hwservice_contexts
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 16:34:27 2025 +0300
+
+- [f1da331](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f1da331) sepolicy_vndr: qva: Update QTI USB HAL to v1.3
+  
+  Author: Alexander Koskovich  
+  Date: Thu Jul 17 16:34:24 2025 +0300
+
+- [2b434d6](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2b434d6) sepolicy_vndr: qva: Allow vendor_cnd to read wifi_hal_prop
+  
+  Author: Arian  
+  Date: Thu Jul 17 16:34:24 2025 +0300
+
+- [21ddbc3](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/21ddbc3) sepolicy_vndr: generic: Add app_data_file_type to vendor_radio_data_file
+  
+  Author: Arian  
+  Date: Thu Jul 17 16:34:24 2025 +0300
+
+- [01ef581](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/01ef581) sepolicy_vndr: generic: Fix compilation issues for newer upgrade
+  
+  Author: Himanshu Agrawal  
+  Date: Thu Jul 17 16:34:24 2025 +0300
+
+- [96a963f](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/96a963f) sepolicy_vndr: Switch to SYSTEM_EXT_{PUBLIC,PRIVATE}_SEPOLICY_DIRS
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:34:23 2025 +0300
+
+- [1c5a4a7](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1c5a4a7) sepolicy_vndr: Switch to BOARD_VENDOR_SEPOLICY_DIRS
+  
+  Author: Aayush Gupta  
+  Date: Thu Jul 17 16:34:23 2025 +0300
+
+- [960cbfe](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/960cbfe) sepolicy: Update paths for new repository location
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:34:23 2025 +0300
+
+- [dd6ac51](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd6ac51) sepolicy_vndr: Remove QCOM guards
+  
+  Author: Pig  
+  Date: Thu Jul 17 16:34:23 2025 +0300
+
+- [c1a7869](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c1a7869) Add .gitupstream file
+  
+  Author: Chirayu Desai  
+  Date: Thu Jul 17 16:34:23 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>device/qcom/sepolicy_vndr/sm8550</b></summary>
+
+- [e28bbda](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e28bbda) sepolicy_vndr: Allow USB HAL to read display brightness
+  
+  Author: Wesley Cheng  
+  Date: Thu Jul 17 18:42:11 2025 +0300
+
+- [b63ca4c](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b63ca4c) sepolicy: Remove sysfs_udc label
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:48:58 2025 +0300
+
+- [091adb1](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/091adb1) sepolicy_vndr: Allow USB HAL to access udc sysfs nodes
+  
+  Author: Akash Kumar  
+  Date: Thu Jul 17 16:48:51 2025 +0300
+
+- [0b90ffb](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0b90ffb) sepolicy: Remove mem_sleep sysfs label
+  
+  Author: ViShal69x  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [5bdc9f7](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/5bdc9f7) sepolicy: Drop hal_fingerprint_fpc rules
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [be4b456](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/be4b456) sepolicy: NFC: Label NXP NFC 2.0 HIDL
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [4f32151](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4f32151) sepolicy: NFC: Add support for snxxx AIDL service
+  
+  Author: Khageswararao Rao B  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [8b34ab0](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8b34ab0) sepolicy: Add default permission for aidl hal_bootctl
+  
+  Author: Anthony Adamo  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [8b0d92b](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8b0d92b) common: Label /sys/class/qcom-battery for everyone
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [0f1d1bd](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0f1d1bd) sepolicy: Allow USB HAL to rw usb_data_enabled nodes
+  
+  Author: LuK1337  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [deebddb](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/deebddb) common: Switch to AIDL USB HALs
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [d48a339](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d48a339) common: Switch to AIDL thermal HAL
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [43387c0](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/43387c0) sepolicy_vndr: Allow init/vendor_init to write proc firmware config
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [a2bb15a](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a2bb15a) sepolicy_vndr: Label proc firmware config node
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 16:48:29 2025 +0300
+
+- [426f591](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/426f591) sepolicy: add missing sepolicy rules for kalama
+  
+  Author: someone5678  
+  Date: Thu Jul 17 16:48:24 2025 +0300
+
+- [e7c285d](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e7c285d) sepolicy: add sys_module capability for hal_wifi_default
+  
+  Author: Hu Wang  
+  Date: Thu Jul 17 16:47:22 2025 +0300
+
+- [d0f1554](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d0f1554) sepolicy: Label vendor.qti.ims.factoryaidlservice.IImsFactory
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:47:22 2025 +0300
+
+- [0d8eeac](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0d8eeac) sepolicy: Move some AIDL rules to common policy
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:47:22 2025 +0300
+
+- [2ad686a](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2ad686a) Relax neverallows for vendor to use /system/bin/sh
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 16:47:22 2025 +0300
+
+- [ea9c967](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ea9c967) qva: Fix test compilation
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 16:47:22 2025 +0300
+
+- [f272b70](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f272b70) sepolicy_vndr: Remove vendor_service.
+  
+  Author: Steven Moreland  
+  Date: Thu Jul 17 16:47:17 2025 +0300
+
+- [113b7c9](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/113b7c9) sepolicy_vndr: isolated_app -&gt; isolated_app_all
+  
+  Author: LuK1337  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [29f7009](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/29f7009) sepolicy_vndr: Extend extcon rules
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [c05d8fc](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c05d8fc) sepolicy_vndr: common: Label UCSI power supply
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [e8c6b8c](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8c6b8c) sepolicy_vndr: Remove duplicate hwservice_contexts
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [833d361](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/833d361) sepolicy_vndr: qva: Update QTI USB HAL to v1.3
+  
+  Author: Alexander Koskovich  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [17cf661](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/17cf661) sepolicy_vndr: qva: Allow vendor_cnd to read wifi_hal_prop
+  
+  Author: Arian  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [3745589](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3745589) sepolicy_vndr: generic: Add app_data_file_type to vendor_radio_data_file
+  
+  Author: Arian  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [885afcb](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/885afcb) sepolicy_vndr: generic: Fix compilation issues for newer upgrade
+  
+  Author: Himanshu Agrawal  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [a6e38cd](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a6e38cd) sepolicy_vndr: Switch to BOARD_VENDOR_SEPOLICY_DIRS
+  
+  Author: Aayush Gupta  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [80616ba](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/80616ba) sepolicy: Update paths for new repository location
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [3f92569](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3f92569) sepolicy_vndr: Remove QCOM guards
+  
+  Author: Pig  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+- [2801a61](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2801a61) Add .gitupstream file
+  
+  Author: Chirayu Desai  
+  Date: Thu Jul 17 16:47:16 2025 +0300
+
+
+</details>
+
+<details>
 <summary><b>device/qcom/sepolicy_vndr/sm8750</b></summary>
 
 - [a424b15](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a424b15) qva: Label snxxx AIDL service
@@ -368,11 +780,6 @@
   
   Author: Chirayu Desai  
   Date: Fri Jul 4 01:00:46 2025 +0100
-
-- [9495e35](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9495e35) Merge 9f6826fd8461a2ac25a4781760a3da349417c3d0 on remote branch
-  
-  Author: Linux Build Service Account  
-  Date: Thu Jun 19 13:19:01 2025 -0700
 
 
 </details>
@@ -685,16 +1092,6 @@
   Author: Yee Cheng Chin  
   Date: Fri Jun 20 18:44:18 2025 +0200
 
-- [476b65e](https://github.com/LineageOS/android_external_vim/commit/476b65e) runtime(doc): mention using &lt;script&gt; instead of &lt;sfile&gt; in :autocmd
-  
-  Author: zeertzjq  
-  Date: Thu Jun 19 19:40:51 2025 +0200
-
-- [c50f4d0](https://github.com/LineageOS/android_external_vim/commit/c50f4d0) patch 9.1.1472: if_python: PySequence_Fast_{GET_SIZE,GET_ITEM} removed
-  
-  Author: Zdenek Dohnal  
-  Date: Thu Jun 19 19:35:32 2025 +0200
-
 
 </details>
 
@@ -711,6 +1108,26 @@
 
 <details>
 <summary><b>hardware/lineage/compat</b></summary>
+
+- [00c45bb](https://github.com/LineageOS/android_hardware_lineage_compat/commit/00c45bb) compat: Enable ELF checks
+  
+  Author: basamaryan  
+  Date: Fri Jul 18 21:16:15 2025 +0000
+
+- [84e648a](https://github.com/LineageOS/android_hardware_lineage_compat/commit/84e648a) compat: Drop unused libbinder-v32 blobs
+  
+  Author: Michael Bestas  
+  Date: Fri Jul 18 21:15:52 2025 +0000
+
+- [d6c865c](https://github.com/LineageOS/android_hardware_lineage_compat/commit/d6c865c) compat: Drop unused libui-v30 blobs
+  
+  Author: Michael Bestas  
+  Date: Fri Jul 18 21:15:17 2025 +0000
+
+- [e7565ff](https://github.com/LineageOS/android_hardware_lineage_compat/commit/e7565ff) compat: Drop ndk_platform libs
+  
+  Author: Michael Bestas  
+  Date: Fri Jul 18 22:17:31 2025 +0300
 
 - [8a4285c](https://github.com/LineageOS/android_hardware_lineage_compat/commit/8a4285c) libwfdservice: Update for 16
   
@@ -768,6 +1185,36 @@
 
 <details>
 <summary><b>hardware/qcom-caf/common</b></summary>
+
+- [dea8337](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/dea8337) qcom: Add sm8550 audio soong configs
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 16:38:32 2025 +0300
+
+- [ec9e71c](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/ec9e71c) qcom: Define android_hardware_qtiaudio_config_defaults
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 13:44:32 2025 +0300
+
+- [65b5198](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/65b5198) qcom: Add legacy-um sound trigger soong configs
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 13:44:32 2025 +0300
+
+- [cb77912](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/cb77912) qcom: Changes for sound trigger HAL blueprint conversion
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 13:44:32 2025 +0300
+
+- [cf9b849](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/cf9b849) qcom: Add sm8450 audio soong configs
+  
+  Author: Arian  
+  Date: Sat Jul 12 09:02:11 2025 +0300
+
+- [b6f63ed](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/b6f63ed) qcom: Migrate qtiaudio configuration to soong_config_set
+  
+  Author: Michael Bestas  
+  Date: Fri Jul 11 21:19:55 2025 +0300
 
 - [b5edacb](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/b5edacb) qcom: Include additional wlan soong namespace
   
@@ -908,6 +1355,66 @@
 <details>
 <summary><b>hardware/qcom-caf/sm8450/audio/primary-hal</b></summary>
 
+- [247b6cc](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/247b6cc) libbatterylistener: Switch to AIDL health HAL for everyone
+  
+  Author: Michael Bestas  
+  Date: Wed Jul 16 22:46:34 2025 +0300
+
+- [819819a](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/819819a) hal: Add LVACFS microphone feature
+  
+  Author: pjgowtham  
+  Date: Wed Jul 16 22:46:34 2025 +0300
+
+- [91659bb](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/91659bb) hal: Add ultrasound proximity support
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:46:34 2025 +0300
+
+- [fdfe3b6](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/fdfe3b6) configs: Allow setsockopt syscall for qcom c2audio
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:46:33 2025 +0300
+
+- [685c2db](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/685c2db) hal: Replace direct pid writes with setting task profiles for audio interfaces
+  
+  Author: Suren Baghdasaryan  
+  Date: Wed Jul 16 22:46:33 2025 +0300
+
+- [28f0e7c](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/28f0e7c) audio-ar: Add attribute [[fallthrough]]
+  
+  Author: Swapnil Kangralkar(Temp)  
+  Date: Wed Jul 16 22:46:33 2025 +0300
+
+- [e5c35e3](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/e5c35e3) hal: Add dependency on libarpal_headers
+  
+  Author: Bruno Martins  
+  Date: Wed Jul 16 22:46:33 2025 +0300
+
+- [2306bb5](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/2306bb5) Disable 32 bit variants of audio libraries for 64 bit audio targets
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:46:19 2025 +0300
+
+- [d84c318](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/d84c318) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:46:18 2025 +0300
+
+- [ec28d44](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/ec28d44) audio-ar: compilation fix for KS sync path change.
+  
+  Author: Tejaswinee Langhe  
+  Date: Fri Jul 11 14:42:35 2025 +0300
+
+- [cd63ab1](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/cd63ab1) adsprpcd: Drop dependency on proprietary headers and fix build errors
+  
+  Author: LuK1337  
+  Date: Fri Jul 11 14:32:10 2025 +0300
+
+- [7878381](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/7878381) audio-effects: post_proc: Drop unused defines
+  
+  Author: Arian  
+  Date: Fri Jul 11 14:24:07 2025 +0300
+
 - [00d2f8f](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/00d2f8f) Add .gitupstream file
   
   Author: Chirayu Desai  
@@ -918,6 +1425,51 @@
 
 <details>
 <summary><b>hardware/qcom-caf/sm8550/audio/primary-hal</b></summary>
+
+- [55c412e](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/55c412e) libbatterylistener: Switch to AIDL health HAL for everyone
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 17 01:44:46 2025 +0300
+
+- [8e38165](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/8e38165) hal: Replace direct pid writes with setting task profiles for audio interfaces
+  
+  Author: Suren Baghdasaryan  
+  Date: Thu Jul 17 01:44:46 2025 +0300
+
+- [f3ffa09](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/f3ffa09) hal: Add dependency on libarpal_headers
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 17 01:44:45 2025 +0300
+
+- [11ec4db](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/11ec4db) Disable 32 bit variants of audio libraries for 64 bit audio targets
+  
+  Author: Arian  
+  Date: Thu Jul 17 01:44:41 2025 +0300
+
+- [0d8d544](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0d8d544) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Thu Jul 17 01:44:38 2025 +0300
+
+- [933eafe](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/933eafe) audio-ar: compilation fix for KS sync path change.
+  
+  Author: Tejaswinee Langhe  
+  Date: Sat Jul 12 16:08:50 2025 +0300
+
+- [40b1a0a](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/40b1a0a) adsprpcd: Import missing string.h header
+  
+  Author: chandu078  
+  Date: Sat Jul 12 16:08:50 2025 +0300
+
+- [09b7106](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/09b7106) adsprpcd: Drop dependency on proprietary headers and fix build errors
+  
+  Author: LuK1337  
+  Date: Sat Jul 12 16:02:02 2025 +0300
+
+- [07d7a5d](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/07d7a5d) audio-effects: post_proc: Drop unused defines
+  
+  Author: Arian  
+  Date: Sat Jul 12 15:56:57 2025 +0300
 
 - [0d32b2c](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0d32b2c) Add .gitupstream file
   
@@ -1122,6 +1674,96 @@
 <details>
 <summary><b>hardware/qcom-caf/sm8450/display</b></summary>
 
+- [91c56a5](https://github.com/LineageOS/android_hardware_qcom_display/commit/91c56a5) sdm: mark FOD pressed layer by setting a bit on ZPOS
+  
+  Author: Demon000  
+  Date: Sat Jul 12 16:53:05 2025 +0300
+
+- [8bc6ad2](https://github.com/LineageOS/android_hardware_qcom_display/commit/8bc6ad2) sdm: hwc: Allow enabling doze mode support with a property
+  
+  Author: danielml  
+  Date: Sat Jul 12 16:53:05 2025 +0300
+
+- [d28490f](https://github.com/LineageOS/android_hardware_qcom_display/commit/d28490f) display: fix remaining code issues
+  
+  Author: chandu078  
+  Date: Sat Jul 12 16:53:05 2025 +0300
+
+- [2b72699](https://github.com/LineageOS/android_hardware_qcom_display/commit/2b72699) display: silence format compilation issues
+  
+  Author: chandu078  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [ea39c53](https://github.com/LineageOS/android_hardware_qcom_display/commit/ea39c53) gralloc: drop unused variables
+  
+  Author: Anay Wadhera  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [435ec59](https://github.com/LineageOS/android_hardware_qcom_display/commit/435ec59) Fix -Wformat errors with explicit void* -&gt; char* cast.
+  
+  Author: Stephen Hines  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [4a38119](https://github.com/LineageOS/android_hardware_qcom_display/commit/4a38119) gralloc: add checks for reserved size of allocation requests
+  
+  Author: Vikas batchu  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [9c3b499](https://github.com/LineageOS/android_hardware_qcom_display/commit/9c3b499) vmmem: Add dummy libvmmem shared_lib
+  
+  Author: Bruno Martins  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [e17507d](https://github.com/LineageOS/android_hardware_qcom_display/commit/e17507d) vmmem: Make libvmmem_headers available
+  
+  Author: SGCMarkus  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [7c968dd](https://github.com/LineageOS/android_hardware_qcom_display/commit/7c968dd) composer: Separate rc and xml from service
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [c35fc25](https://github.com/LineageOS/android_hardware_qcom_display/commit/c35fc25) composer: Replace writepid with task_profiles command for cgroup migration
+  
+  Author: Suren Baghdasaryan  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [6825eb4](https://github.com/LineageOS/android_hardware_qcom_display/commit/6825eb4) display: Remove deprecated clang property
+  
+  Author: basamaryan  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [7a6e532](https://github.com/LineageOS/android_hardware_qcom_display/commit/7a6e532) composer: change ndk_platform dependencies to ndk
+  
+  Author: SGCMarkus  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [770c284](https://github.com/LineageOS/android_hardware_qcom_display/commit/770c284) display: Define init script modules properly.
+  
+  Author: Alexander Koskovich  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [59f1ec8](https://github.com/LineageOS/android_hardware_qcom_display/commit/59f1ec8) display: Remove CleanSpec.mk
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [bec8677](https://github.com/LineageOS/android_hardware_qcom_display/commit/bec8677) Revert &quot;display: Add QMCS image generation&quot;
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [e57cdc0](https://github.com/LineageOS/android_hardware_qcom_display/commit/e57cdc0) libcopybit: C2D deprecation and cleanup
+  
+  Author: Rosa Chen  
+  Date: Sat Jul 12 16:53:04 2025 +0300
+
+- [27acf84](https://github.com/LineageOS/android_hardware_qcom_display/commit/27acf84) display: Fix conflicting soong_namespace imports
+  
+  Author: Bruno Martins  
+  Date: Fri Jul 11 17:22:11 2025 +0300
+
 - [01b134f](https://github.com/LineageOS/android_hardware_qcom_display/commit/01b134f) Add .gitupstream file
   
   Author: Chirayu Desai  
@@ -1132,6 +1774,76 @@
 
 <details>
 <summary><b>hardware/qcom-caf/sm8550/display</b></summary>
+
+- [0b7e674](https://github.com/LineageOS/android_hardware_qcom_display/commit/0b7e674) display: fix remaining code issues
+  
+  Author: chandu078  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [77e49fa](https://github.com/LineageOS/android_hardware_qcom_display/commit/77e49fa) display: silence format compilation issues
+  
+  Author: chandu078  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [df32de2](https://github.com/LineageOS/android_hardware_qcom_display/commit/df32de2) gralloc: drop unused variables
+  
+  Author: Anay Wadhera  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [51540e1](https://github.com/LineageOS/android_hardware_qcom_display/commit/51540e1) Fix -Wformat errors with explicit void* -&gt; char* cast.
+  
+  Author: Stephen Hines  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [c966512](https://github.com/LineageOS/android_hardware_qcom_display/commit/c966512) gralloc: add checks for reserved size of allocation requests
+  
+  Author: Vikas batchu  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [aeb0f67](https://github.com/LineageOS/android_hardware_qcom_display/commit/aeb0f67) vmmem: Add dummy libvmmem shared_lib
+  
+  Author: Bruno Martins  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [ae072b9](https://github.com/LineageOS/android_hardware_qcom_display/commit/ae072b9) vmmem: Make libvmmem_headers available
+  
+  Author: SGCMarkus  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [c84d977](https://github.com/LineageOS/android_hardware_qcom_display/commit/c84d977) composer: Separate rc and xml from service
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [9278d94](https://github.com/LineageOS/android_hardware_qcom_display/commit/9278d94) composer: Replace writepid with task_profiles command for cgroup migration
+  
+  Author: Suren Baghdasaryan  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [b1db538](https://github.com/LineageOS/android_hardware_qcom_display/commit/b1db538) display: Remove deprecated clang property
+  
+  Author: basamaryan  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [a0f041a](https://github.com/LineageOS/android_hardware_qcom_display/commit/a0f041a) display: Define init script modules properly.
+  
+  Author: Alexander Koskovich  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [44684ac](https://github.com/LineageOS/android_hardware_qcom_display/commit/44684ac) display: Remove CleanSpec.mk
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [3e0d819](https://github.com/LineageOS/android_hardware_qcom_display/commit/3e0d819) Revert &quot;display: Add QMCS image generation&quot;
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 12 16:54:45 2025 +0300
+
+- [d220c31](https://github.com/LineageOS/android_hardware_qcom_display/commit/d220c31) display: Fix conflicting soong_namespace imports
+  
+  Author: Bruno Martins  
+  Date: Sat Jul 12 16:43:31 2025 +0300
 
 - [f183f38](https://github.com/LineageOS/android_hardware_qcom_display/commit/f183f38) Add .gitupstream file
   
@@ -1343,11 +2055,6 @@
   
   Author: Chirayu Desai  
   Date: Sat Jul 5 11:41:25 2025 +0300
-
-- [3f2b575](https://github.com/LineageOS/android_hardware_qcom_wlan/commit/3f2b575) Merge c297af736b8b3e4f01d2729eb62a3ae282eca10a on remote branch
-  
-  Author: Linux Build Service Account  
-  Date: Thu Jun 19 04:55:43 2025 -0700
 
 
 </details>
@@ -1680,6 +2387,46 @@
 <details>
 <summary><b>hardware/qcom-caf/sm8450/audio/agm</b></summary>
 
+- [10bbf42](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/10bbf42) agm_ipc_service: Include libagm_headers
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 03:31:08 2025 +0300
+
+- [16f8fef](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/16f8fef) ipc: Replace direct pid writes with setting task profiles for audio interfaces
+  
+  Author: Suren Baghdasaryan  
+  Date: Wed Jul 16 22:50:34 2025 +0300
+
+- [825a866](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/825a866) Ignore incompatible-pointer-types and pointer-integer-compare errors
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:49:22 2025 +0300
+
+- [632d2de](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/632d2de) plugins: tinyalsa: fix build
+  
+  Author: dianlujitao  
+  Date: Wed Jul 16 22:49:22 2025 +0300
+
+- [8330e1f](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/8330e1f) agm: plugins: Fix incompatible function pointer type error
+  
+  Author: LuK1337  
+  Date: Wed Jul 16 22:49:22 2025 +0300
+
+- [0f08bbf](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/0f08bbf) Disable 32 bit variants for 64 bit audio
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:49:22 2025 +0300
+
+- [d87f442](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/d87f442) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:49:20 2025 +0300
+
+- [4708128](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/4708128) agm: fix compilation for ks sync path change
+  
+  Author: Tejaswinee Langhe  
+  Date: Fri Jul 11 11:50:24 2025 +0300
+
 - [e4c2e7a](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/e4c2e7a) Add .gitupstream file
   
   Author: Chirayu Desai  
@@ -1690,6 +2437,46 @@
 
 <details>
 <summary><b>hardware/qcom-caf/sm8550/audio/agm</b></summary>
+
+- [153175c](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/153175c) agm_ipc_service: Include libagm_headers
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 03:30:32 2025 +0300
+
+- [d412b99](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/d412b99) ipc: Replace direct pid writes with setting task profiles for audio interfaces
+  
+  Author: Suren Baghdasaryan  
+  Date: Wed Jul 16 22:51:53 2025 +0300
+
+- [20ad567](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/20ad567) Ignore incompatible-pointer-types and pointer-integer-compare errors
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:51:53 2025 +0300
+
+- [7598894](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/7598894) plugins: tinyalsa: fix build
+  
+  Author: dianlujitao  
+  Date: Wed Jul 16 22:51:53 2025 +0300
+
+- [0001b72](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/0001b72) agm: plugins: Fix incompatible function pointer type error
+  
+  Author: LuK1337  
+  Date: Wed Jul 16 22:51:53 2025 +0300
+
+- [b670ae0](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/b670ae0) Disable 32 bit variants for 64 bit audio
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:51:53 2025 +0300
+
+- [ac3d351](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/ac3d351) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:51:53 2025 +0300
+
+- [87e3a92](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/87e3a92) agm: fix compilation for ks sync path change
+  
+  Author: Tejaswinee Langhe  
+  Date: Sat Jul 12 15:08:05 2025 +0300
 
 - [d896ee7](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/d896ee7) Add .gitupstream file
   
@@ -1713,6 +2500,101 @@
 <details>
 <summary><b>hardware/qcom-caf/sm8450/audio/pal</b></summary>
 
+- [65d0274](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/65d0274) pal: Parse LVACFS microphone feature parameter
+  
+  Author: pjgowtham  
+  Date: Wed Jul 16 22:32:05 2025 +0300
+
+- [dfb5304](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/dfb5304) PayloadBuilder: Fix retrieving KVs with a custom config
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:32:05 2025 +0300
+
+- [aa9e27c](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/aa9e27c) ResourceManager: Add cirrus speaker calibration support
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:32:05 2025 +0300
+
+- [4c28225](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/4c28225) Session: Allow to set initial master gain for stereo streams
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:32:05 2025 +0300
+
+- [5ef0842](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/5ef0842) Session: Correct volume payload size
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:32:05 2025 +0300
+
+- [2c07ccd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2c07ccd) PayloadBuilder: Populate key vector for ultrasound RX
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:32:05 2025 +0300
+
+- [3b428f1](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/3b428f1) libar-pal: Allow overriding speaker protection calibration path
+  
+  Author: Michael Bestas  
+  Date: Wed Jul 16 22:32:04 2025 +0300
+
+- [6a933d3](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6a933d3) pal: Expose more headers under libarpal_headers module
+  
+  Author: SGCMarkus  
+  Date: Wed Jul 16 22:32:04 2025 +0300
+
+- [cdeb723](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/cdeb723) Disable 32 bit variants of audio libraries for 64 bit audio targets
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:32:04 2025 +0300
+
+- [c25190c](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/c25190c) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Wed Jul 16 22:32:04 2025 +0300
+
+- [27496d1](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/27496d1) pal: adapt VI structs usage to graphservices definitions
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:32:04 2025 +0300
+
+- [a5d390c](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/a5d390c) Include generated kernel headers for adsp_sleepmon.h
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:32:04 2025 +0300
+
+- [62700bd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/62700bd) pal: Make libcapiv2_headers available
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:32:02 2025 +0300
+
+- [05b0ef4](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/05b0ef4) Add missing sampling rates
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:32:02 2025 +0300
+
+- [ca51908](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/ca51908) pal: Make libacdb_headers available
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:31:59 2025 +0300
+
+- [f585503](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/f585503) pal: Make liblisten_headers available
+  
+  Author: Albert Tang  
+  Date: Wed Jul 16 22:31:57 2025 +0300
+
+- [68e7afd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/68e7afd) Guard mic occlusion events
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:13:43 2025 +0300
+
+- [47ec541](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/47ec541) Guard setting of voice calibration key values
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:13:43 2025 +0300
+
+- [0a9616b](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0a9616b) pal: compilation fix for ks path sync change.
+  
+  Author: Tejaswinee Langhe  
+  Date: Fri Jul 11 16:01:10 2025 +0300
+
 - [bbcc8b6](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/bbcc8b6) Add .gitupstream file
   
   Author: Chirayu Desai  
@@ -1723,6 +2605,61 @@
 
 <details>
 <summary><b>hardware/qcom-caf/sm8550/audio/pal</b></summary>
+
+- [58842c6](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/58842c6) pal: Expose more headers under libarpal_headers module
+  
+  Author: SGCMarkus  
+  Date: Thu Jul 17 18:26:39 2025 +0100
+
+- [18051b9](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/18051b9) Disable 32 bit variants of audio libraries for 64 bit audio targets
+  
+  Author: Arian  
+  Date: Thu Jul 17 18:26:39 2025 +0100
+
+- [f90bff2](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/f90bff2) pal: Add dummy libPeripheralStateUtils shared_lib
+  
+  Author: Luofan Chen  
+  Date: Thu Jul 17 18:26:25 2025 +0100
+
+- [9086e24](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/9086e24) Convert audio makefiles to blueprint
+  
+  Author: Arian  
+  Date: Thu Jul 17 12:39:58 2025 +0300
+
+- [e520f67](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/e520f67) Add mink, peripheralstate and libvui_dmgr headers
+  
+  Author: anonymix007  
+  Date: Thu Jul 17 12:39:58 2025 +0300
+
+- [2ed563d](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2ed563d) Include generated kernel headers for adsp_sleepmon.h
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:35:53 2025 +0300
+
+- [2d9dd03](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2d9dd03) pal: Make libcapiv2_headers available
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:35:05 2025 +0300
+
+- [76821fd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/76821fd) Add missing sampling rates
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:34:50 2025 +0300
+
+- [ee2ca9a](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/ee2ca9a) pal: Make libacdb_headers available
+  
+  Author: Cosmin Tanislav  
+  Date: Wed Jul 16 22:34:47 2025 +0300
+
+- [5ccbecd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/5ccbecd) pal: Make liblisten_headers available
+  
+  Author: Albert Tang  
+  Date: Wed Jul 16 22:34:42 2025 +0300
+
+- [42e50cc](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/42e50cc) pal: compilation fix for ks path sync change.
+  
+  Author: Tejaswinee Langhe  
+  Date: Sat Jul 12 15:22:51 2025 +0300
 
 - [77eeed9](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/77eeed9) Add .gitupstream file
   
@@ -1783,6 +2720,26 @@
 <details>
 <summary><b>vendor/qcom/opensource/audio-hal/st-hal</b></summary>
 
+- [6a578e4](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commit/6a578e4) Convert sound trigger makefile to blueprint
+  
+  Author: Michael Bestas  
+  Date: Wed Jul 16 13:30:21 2025 +0300
+
+- [74d8014](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commit/74d8014) st-hal: Correct reversed struct definitions
+  
+  Author: dianlujitao  
+  Date: Sat Jul 12 10:07:05 2025 +0300
+
+- [e385d9a](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commit/e385d9a) Fix compilation error if LSM_DET_EVENT_TYPE_GENERIC isn&#x27;t defined.
+  
+  Author: Quallenauge  
+  Date: Sat Jul 12 10:07:05 2025 +0300
+
+- [81a6e17](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commit/81a6e17) st-hal: Add missing struct definitions
+  
+  Author: AngeloGioacchino Del Regno  
+  Date: Sat Jul 12 10:07:05 2025 +0300
+
 - [1a3f569](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commit/1a3f569) Add .gitupstream file
   
   Author: Chirayu Desai  
@@ -1804,6 +2761,31 @@
 
 <details>
 <summary><b>vendor/qcom/opensource/audio-hal/st-hal-ar-legacy</b></summary>
+
+- [0ae95ee](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/0ae95ee) STHAL: Add null pointer check
+  
+  Author: Ankit Mishra  
+  Date: Wed Jul 16 13:31:13 2025 +0300
+
+- [1c03718](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/1c03718) ST-HAL: Update check for stream state in destructor
+  
+  Author: Ankit Mishra  
+  Date: Wed Jul 16 13:31:13 2025 +0300
+
+- [f8bde3d](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/f8bde3d) Disable 32 bit variants of audio libraries for 64 bit audio targets
+  
+  Author: Arian  
+  Date: Wed Jul 16 13:31:13 2025 +0300
+
+- [3e4ff53](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/3e4ff53) st-hal-ar: Add dependency on libarpal_headers
+  
+  Author: Bruno Martins  
+  Date: Wed Jul 16 13:31:13 2025 +0300
+
+- [bcb251b](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/bcb251b) Convert sound trigger makefile to blueprint
+  
+  Author: Michael Bestas  
+  Date: Wed Jul 16 13:31:10 2025 +0300
 
 - [a589d04](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/a589d04) Add .gitupstream file
   
@@ -2743,6 +3725,11 @@
 <details>
 <summary><b>lineage/hudson</b></summary>
 
+- [634d24a](https://github.com/LineageOS/hudson/commit/634d24a) hudson: Add Motorola Defy 2021 (bathena)
+  
+  Author: Deivid21  
+  Date: Sat Jul 19 15:55:10 2025 +0000
+
 - [b1432a5](https://github.com/LineageOS/hudson/commit/b1432a5) The Porsche Cayman are mid-engine two-seater sports cars manufactured and marketed by German automobile manufacturer Porsche
   
   Author: Andrey Sprynga  
@@ -2798,6 +3785,16 @@
 
 <details>
 <summary><b>lineage/wiki</b></summary>
+
+- [7628074](https://github.com/LineageOS/lineage_wiki/commit/7628074) wiki: Add Motorola Defy 2021 (bathena)
+  
+  Author: Deivid21  
+  Date: Sat Jul 19 15:55:00 2025 +0000
+
+- [7b539e3](https://github.com/LineageOS/lineage_wiki/commit/7b539e3) wiki: guam: Update maintainers
+  
+  Author: Deivid21  
+  Date: Tue Jul 15 14:25:17 2025 -0400
 
 - [2191852](https://github.com/LineageOS/lineage_wiki/commit/2191852) wiki: devices: Add LG Velvet (caymanslm)
   
@@ -2919,21 +3916,16 @@
   Author: Bruno Martins  
   Date: Mon Jun 23 20:30:56 2025 +0000
 
-- [3904ae6](https://github.com/LineageOS/lineage_wiki/commit/3904ae6) devices: Label Nokia devices shipping firmware
-  
-  Author: Tuan Anh  
-  Date: Fri Jun 20 09:14:21 2025 +0700
-
-- [4e2adbc](https://github.com/LineageOS/lineage_wiki/commit/4e2adbc) wiki: &quot;website and/or software&quot; -&gt; &quot;online services&quot;
-  
-  Author: LuK1337  
-  Date: Thu Jun 19 19:55:10 2025 +0200
-
 
 </details>
 
 <details>
 <summary><b>lineage/mirror</b></summary>
+
+- [da0b4f7](https://github.com/LineageOS/mirror/commit/da0b4f7) Updated to 19-Jul-2025 16:08 UTC
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 19 19:08:46 2025 +0300
 
 - [477c6dd](https://github.com/LineageOS/mirror/commit/477c6dd) Updated to 11-Jul-2025 22:01 UTC
   
