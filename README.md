@@ -3,6 +3,11 @@
 <details>
 <summary><b>android</b></summary>
 
+- [dd093eb](https://github.com/LineageOS/android/commit/dd093eb) manifest: Unfork repos with no changes
+  
+  Author: Michael Bestas  
+  Date: Mon Jul 21 14:20:45 2025 +0300
+
 - [5ff2a5a](https://github.com/LineageOS/android/commit/5ff2a5a) manifest: Remove Android.mk guards for sm8150/sm8250/sm8350
   
   Author: Michael Bestas  
@@ -53,6 +58,156 @@
 
 <details>
 <summary><b>build/make</b></summary>
+
+- [e9e3c97](https://github.com/LineageOS/android_build/commit/e9e3c97) releasetools: squash backuptool support
+  
+  Author: Chris Soyars  
+  Date: Sun Jul 20 16:56:17 2025 +0300
+
+- [69ccf41](https://github.com/LineageOS/android_build/commit/69ccf41) build: ota: Support for install tools in /tmp/install
+  
+  Author: Tom Marshall  
+  Date: Sun Jul 20 16:55:32 2025 +0300
+
+- [81341d0](https://github.com/LineageOS/android_build/commit/81341d0) Add build support for XZ ramdisks
+  
+  Author: Luca Stefani  
+  Date: Sun Jul 20 16:52:52 2025 +0300
+
+- [f20f923](https://github.com/LineageOS/android_build/commit/f20f923) Fix recovery image generation with LZ4 compressed ramdisk
+  
+  Author: Arne Coucheron  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [d39d7ac](https://github.com/LineageOS/android_build/commit/d39d7ac) build: Introduce android-info-extra.txt support
+  
+  Author: Bruno Martins  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [2f8f168](https://github.com/LineageOS/android_build/commit/2f8f168) core: Treat vendor/lineage-priv/* as release-keys
+  
+  Author: LuK1337  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [583d986](https://github.com/LineageOS/android_build/commit/583d986) Conditionally use Unix epoch time for build incremental
+  
+  Author: Michael Bestas  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [da5e0f6](https://github.com/LineageOS/android_build/commit/da5e0f6) core: Allow overriding device/model/name/fingerprint properties
+  
+  Author: LuK1337  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [74630ce](https://github.com/LineageOS/android_build/commit/74630ce) Export PRODUCT_BUILD_PROP_OVERRIDES to soong
+  
+  Author: Luca Stefani  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [fef05fc](https://github.com/LineageOS/android_build/commit/fef05fc) releasetools: Handle build description not ending in -keys
+  
+  Author: Michael Bestas  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [adb5003](https://github.com/LineageOS/android_build/commit/adb5003) releasetools: Fix fstab path detection when input_file is a path to zip
+  
+  Author: LuK1337  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [02d080f](https://github.com/LineageOS/android_build/commit/02d080f) releasetools: Add script to sign zips
+  
+  Author: Gabriele M  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [9c625a2](https://github.com/LineageOS/android_build/commit/9c625a2) releasetools: support reading release keys out of some sort of command
+  
+  Author: Tom Powell  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [f3f13de](https://github.com/LineageOS/android_build/commit/f3f13de) Add bluetooth to default key map
+  
+  Author: HZ  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [de770fc](https://github.com/LineageOS/android_build/commit/de770fc) Don&#x27;t set PRODUCT_ENABLE_UFFD_GC by default
+  
+  Author: Chirayu Desai  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [4b90ddb](https://github.com/LineageOS/android_build/commit/4b90ddb) Add `CHRE_DAEMON_LOAD_INTO_SENSORSPD` to soong_config_variable
+  
+  Author: Michael Bestas  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [feaa8bf](https://github.com/LineageOS/android_build/commit/feaa8bf) layoutlib: Use wildcard to find device overlays
+  
+  Author: Dmitrii  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [f824af2](https://github.com/LineageOS/android_build/commit/f824af2) Remove non-existent com.android.ranging package
+  
+  Author: Thomas Turner  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [c0add17](https://github.com/LineageOS/android_build/commit/c0add17) Disable Traceur for non eng-builds
+  
+  Author: Aaron Kling  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [e45b7fa](https://github.com/LineageOS/android_build/commit/e45b7fa) Unset BOARD_EXT4_SHARE_DUP_BLOCKS
+  
+  Author: LuK1337  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [25c709c](https://github.com/LineageOS/android_build/commit/25c709c) build_image: Allow disabling custom inode count calculation
+  
+  Author: Christian Oder  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [1e56910](https://github.com/LineageOS/android_build/commit/1e56910) releasetools: Use the first entry of a mount point when reading fstab
+  
+  Author: Brint E. Kriebel  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [eea3865](https://github.com/LineageOS/android_build/commit/eea3865) Edify: Add abort message for bootloader asserts
+  
+  Author: Matt Mower  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [4f58a70](https://github.com/LineageOS/android_build/commit/4f58a70) ota: Disable downgrade check
+  
+  Author: Andrew Dodd  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [4963706](https://github.com/LineageOS/android_build/commit/4963706) Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag
+  
+  Author: LuK1337  
+  Date: Sun Jul 20 16:52:51 2025 +0300
+
+- [0c0e9a3](https://github.com/LineageOS/android_build/commit/0c0e9a3) Remove unused locale data for recovery
+  
+  Author: Alessandro Astone  
+  Date: Sun Jul 20 16:52:50 2025 +0300
+
+- [f4cbb91](https://github.com/LineageOS/android_build/commit/f4cbb91) Add blank_unblank_on_init to PRIVATE_RECOVERY_UI_PROPERTIES
+  
+  Author: Michael Bestas  
+  Date: Sun Jul 20 16:52:50 2025 +0300
+
+- [df6b67a](https://github.com/LineageOS/android_build/commit/df6b67a) Allow setting the recovery density separately from the aapt config
+  
+  Author: Chirayu Desai  
+  Date: Sun Jul 20 16:52:50 2025 +0300
+
+- [c3049a9](https://github.com/LineageOS/android_build/commit/c3049a9) Don&#x27;t enable ADB by default on userdebug builds
+  
+  Author: Michael Bestas  
+  Date: Sun Jul 20 16:52:50 2025 +0300
+
+- [9a71028](https://github.com/LineageOS/android_build/commit/9a71028) Allow override of device asserts, including multi-device support.
+  
+  Author: Steve Kondik  
+  Date: Sun Jul 20 16:52:50 2025 +0300
 
 - [5d2fe16](https://github.com/LineageOS/android_build/commit/5d2fe16) envsetup: Set INLINE_KERNEL_BUILDING based on TARGET_PREBUILT_KERNEL
   
@@ -281,6 +436,26 @@
 
 <details>
 <summary><b>device/qcom/sepolicy</b></summary>
+
+- [7d2161a](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7d2161a) Revert &quot;sepolicy: Allow isolated_compute_app to be a client of DSP HAL&quot;
+  
+  Author: Michael Bestas  
+  Date: Mon Jul 21 14:15:20 2025 +0300
+
+- [775be6b](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/775be6b) Revert &quot;Add LocAidlGnss service in hal_gnss_service domain&quot;
+  
+  Author: Michael Bestas  
+  Date: Mon Jul 21 14:15:20 2025 +0300
+
+- [0cac00c](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0cac00c) Move qti-testscripts definition out of userdebug_or_eng check
+  
+  Author: Michael Bestas  
+  Date: Thu Jul 3 09:55:38 2025 +0300
+
+- [95ed22f](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/95ed22f) generic: Add typeattribute definitions for 30.0 compat
+  
+  Author: LuK1337  
+  Date: Thu Jul 3 09:55:38 2025 +0300
 
 - [7556ede](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7556ede) generic: Don&#x27;t dontaudit vendor_persist_camera_prop read denials
   
@@ -1163,11 +1338,6 @@
   
   Author: basamaryan  
   Date: Sat Jun 28 23:55:32 2025 +0100
-
-- [5e88271](https://github.com/LineageOS/android_hardware_lineage_compat/commit/5e88271) compat: Rework libgui shim
-  
-  Author: LuK1337  
-  Date: Sat Jun 21 20:28:15 2025 +0200
 
 
 </details>
@@ -2417,6 +2587,11 @@
 
 <details>
 <summary><b>packages/apps/Twelve</b></summary>
+
+- [040bd2d](https://github.com/LineageOS/android_packages_apps_Twelve/commit/040bd2d) Twelve: Let the app handle view intents with genre content URIs
+  
+  Author: Sebastiano Barezzi  
+  Date: Sun Jul 20 18:08:46 2025 +0200
 
 - [5298370](https://github.com/LineageOS/android_packages_apps_Twelve/commit/5298370) Twelve: Don&#x27;t hardcode MediaStore mime types
   
@@ -3757,6 +3932,31 @@
 <details>
 <summary><b>vendor/qcom/opensource/interfaces</b></summary>
 
+- [dd3c9a9](https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/dd3c9a9) interfaces: Introduce vendor.qti.hardware.perf interfaces
+  
+  Author: dianlujitao  
+  Date: Fri Jul 4 20:47:04 2025 +0300
+
+- [1591a79](https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/1591a79) interfaces: Introduce vendor.qti.hardware.btconfigstore interfaces
+  
+  Author: TheStrix  
+  Date: Fri Jul 4 20:47:03 2025 +0300
+
+- [c566cb8](https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/c566cb8) interfaces: Introduce vendor.qti.hardware.capabilityconfigstore@1.0 interface
+  
+  Author: Alexander Koskovich  
+  Date: Fri Jul 4 20:47:03 2025 +0300
+
+- [a11937e](https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/a11937e) Add Script to generate vendor hal make files
+  
+  Author: Vinay Verma  
+  Date: Fri Jul 4 20:47:03 2025 +0300
+
+- [1b1bc4d](https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/1b1bc4d) interfaces: update current path as package root path
+  
+  Author: Ananth Sadvi Bogavalli  
+  Date: Fri Jul 4 20:47:03 2025 +0300
+
 - [c29cd1d](https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commit/c29cd1d) Add .gitupstream file
   
   Author: Chirayu Desai  
@@ -4328,6 +4528,11 @@
 <details>
 <summary><b>lineage/mirror</b></summary>
 
+- [86ff047](https://github.com/LineageOS/mirror/commit/86ff047) Updated to 21-Jul-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Jul 22 00:01:31 2025 +0200
+
 - [da0b4f7](https://github.com/LineageOS/mirror/commit/da0b4f7) Updated to 19-Jul-2025 16:08 UTC
   
   Author: Michael Bestas  
@@ -4404,6 +4609,11 @@
 
 <details>
 <summary><b>lineage/website</b></summary>
+
+- [cff40b5](https://github.com/LineageOS/www/commit/cff40b5) www: Use `clip-path: border-box` for longevity section
+  
+  Author: LuK1337  
+  Date: Sat Jul 19 12:00:02 2025 +0200
 
 - [c9995a2](https://github.com/LineageOS/www/commit/c9995a2) www: Update mastodon SVG icon
   
