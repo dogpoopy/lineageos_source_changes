@@ -48,11 +48,6 @@
   Author: Michael Bestas  
   Date: Thu Jun 26 10:10:40 2025 +0300
 
-- [ecdf4a3](https://github.com/LineageOS/android/commit/ecdf4a3) manifest: Remove deprecated ANT+ repos
-  
-  Author: Michael Bestas  
-  Date: Mon Jun 23 04:32:01 2025 +0300
-
 
 </details>
 
@@ -436,6 +431,11 @@
 
 <details>
 <summary><b>device/qcom/sepolicy</b></summary>
+
+- [e9336a0](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e9336a0) AKS: sepolicy for gamepad
+  
+  Author: quic_farenl  
+  Date: Mon Jul 21 14:15:20 2025 +0300
 
 - [7d2161a](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7d2161a) Revert &quot;sepolicy: Allow isolated_compute_app to be a client of DSP HAL&quot;
   
@@ -1056,106 +1056,12 @@
 </details>
 
 <details>
-<summary><b>external/e2fsprogs</b></summary>
-
-- [91e9b8b](https://github.com/LineageOS/android_external_e2fsprogs/commit/91e9b8b) Mark e2fsck/resize2fs/tune2fs as `recovery_available`
-  
-  Author: Michael Bestas  
-  Date: Sun Jun 22 09:27:12 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>external/exfatprogs</b></summary>
-
-- [f2640cf](https://github.com/LineageOS/android_external_exfatprogs/commit/f2640cf) Merge tag &#x27;1.2.9&#x27; of https://github.com/exfatprogs/exfatprogs into lineage-22.2
-  
-  Author: Michael Bestas  
-  Date: Mon Jun 23 04:13:48 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>external/gptfdisk</b></summary>
-
-- [78e852b](https://github.com/LineageOS/android_external_gptfdisk/commit/78e852b) gptfdisk: Make libsgdisk visible to libvolume_manager
-  
-  Author: Michael Bestas  
-  Date: Sun Jun 22 09:18:33 2025 +0300
-
-- [aabb0c7](https://github.com/LineageOS/android_external_gptfdisk/commit/aabb0c7) sgdisk: Make sgdisk recovery_available
-  
-  Author: Nolen Johnson  
-  Date: Sun Jun 22 09:18:33 2025 +0300
-
-- [115f731](https://github.com/LineageOS/android_external_gptfdisk/commit/115f731) gptfdisk: include gptcl.h after sgdisk.h
-  
-  Author: Tom Marshall  
-  Date: Sun Jun 22 09:18:33 2025 +0300
-
-- [9e5fb02](https://github.com/LineageOS/android_external_gptfdisk/commit/9e5fb02) gptfdisk: Provide sgdisk_read for direct reads of the partition table
-  
-  Author: Tom Marshall  
-  Date: Sun Jun 22 09:18:31 2025 +0300
-
-- [3c3c156](https://github.com/LineageOS/android_external_gptfdisk/commit/3c3c156) gptfdisk: Build lib for recovery
-  
-  Author: Tom Marshall  
-  Date: Sun Jun 22 09:17:55 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>external/htop</b></summary>
-
-- [ff411eb](https://github.com/LineageOS/android_external_htop/commit/ff411eb) htop: Update srcs[], shared_libs[] and config.h
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 00:11:15 2025 +0200
-
-- [67a9913](https://github.com/LineageOS/android_external_htop/commit/67a9913) Merge tag &#x27;3.4.1&#x27; of https://github.com/htop-dev/htop into lineage-22.2
-  
-  Author: LuK1337  
-  Date: Sun Jun 22 23:31:48 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>external/libncurses</b></summary>
 
 - [cf8d1a3](https://github.com/LineageOS/android_external_libncurses/commit/cf8d1a3) Partially Reapply &quot;libncurses: Add recovery variant&quot;
   
   Author: Yumi Yukimura  
   Date: Sun Jul 6 06:25:09 2025 +0800
-
-- [c0109e6](https://github.com/LineageOS/android_external_libncurses/commit/c0109e6) Update libncurses cflags
-  
-  Author: LuK1337  
-  Date: Sun Jun 22 23:17:51 2025 +0200
-
-- [2a03fa1](https://github.com/LineageOS/android_external_libncurses/commit/2a03fa1) Regenerate headers and source files
-  
-  Author: LuK1337  
-  Date: Sun Jun 22 22:35:33 2025 +0200
-
-- [a2fcb14](https://github.com/LineageOS/android_external_libncurses/commit/a2fcb14) Import https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.5.tar.gz
-  
-  Author: LuK1337  
-  Date: Sun Jun 22 21:31:35 2025 +0200
-
-- [2f33558](https://github.com/LineageOS/android_external_libncurses/commit/2f33558) Import https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz
-  
-  Author: LuK1337  
-  Date: Sun Jun 22 21:31:31 2025 +0200
-
-- [579c9af](https://github.com/LineageOS/android_external_libncurses/commit/579c9af) Import https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.3.tar.gz
-  
-  Author: LuK1337  
-  Date: Sun Jun 22 21:31:26 2025 +0200
 
 
 </details>
@@ -1225,57 +1131,6 @@
   
   Author: LuK1337  
   Date: Mon Jun 23 18:09:30 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>external/vim</b></summary>
-
-- [0b9e59e](https://github.com/LineageOS/android_external_vim/commit/0b9e59e) vim: Remove src/auto/config.mk
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 01:25:18 2025 +0200
-
-- [38ced84](https://github.com/LineageOS/android_external_vim/commit/38ced84) vim: Update srcs[] and config.h
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 01:23:52 2025 +0200
-
-- [ae414d4](https://github.com/LineageOS/android_external_vim/commit/ae414d4) Merge tag &#x27;v9.1.1475&#x27; of https://github.com/vim/vim into lineage-22.2
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 00:18:21 2025 +0200
-
-- [cd68f21](https://github.com/LineageOS/android_external_vim/commit/cd68f21) patch 9.1.1475: completion: regression when &quot;nearest&quot; in &#x27;completeopt&#x27;
-  
-  Author: Girish Palya  
-  Date: Sun Jun 22 20:23:54 2025 +0200
-
-- [1cbe3e8](https://github.com/LineageOS/android_external_vim/commit/1cbe3e8) runtime(comment): add &lt;Plug&gt;-mappings
-  
-  Author: Mark Woods  
-  Date: Sun Jun 22 20:20:34 2025 +0200
-
-- [c877057](https://github.com/LineageOS/android_external_vim/commit/c877057) runtime(openPlugin): add &lt;Plug&gt;-mappings
-  
-  Author: Mark Woods  
-  Date: Sun Jun 22 20:20:23 2025 +0200
-
-- [46b0260](https://github.com/LineageOS/android_external_vim/commit/46b0260) patch 9.1.1474: missing out-of-memory check in mark.c
-  
-  Author: John Marriott  
-  Date: Sun Jun 22 19:44:27 2025 +0200
-
-- [8d9d2b2](https://github.com/LineageOS/android_external_vim/commit/8d9d2b2) runtime(tutor): Make all tutor files utf-8 only
-  
-  Author: Damien Lejay  
-  Date: Sun Jun 22 19:42:43 2025 +0200
-
-- [dcff497](https://github.com/LineageOS/android_external_vim/commit/dcff497) runtime(vim): Update base-syntax, match bare mark ranges
-  
-  Author: Doug Kearns  
-  Date: Sun Jun 22 18:47:49 2025 +0200
 
 
 </details>
@@ -2801,6 +2656,51 @@
 
 <details>
 <summary><b>vendor/lineage</b></summary>
+
+- [e41ae16](https://github.com/LineageOS/android_vendor_lineage/commit/e41ae16) kernel: Fix building x86 kernel with GCC
+  
+  Author: Yumi Yukimura  
+  Date: Tue Jul 22 20:27:25 2025 +0000
+
+- [c8ecd22](https://github.com/LineageOS/android_vendor_lineage/commit/c8ecd22) kernel: Sign kernel modules only if CONFIG_MODULE_SIG_FORMAT=y
+  
+  Author: Yumi Yukimura  
+  Date: Tue Jul 22 20:27:25 2025 +0000
+
+- [8c65077](https://github.com/LineageOS/android_vendor_lineage/commit/8c65077) kernel: Fix build when device does not set BOARD_SYSTEM_KERNEL_MODULES_LOAD
+  
+  Author: Yumi Yukimura  
+  Date: Tue Jul 22 20:27:25 2025 +0000
+
+- [56ed385](https://github.com/LineageOS/android_vendor_lineage/commit/56ed385) kernel: Support installing kernel modules to system
+  
+  Author: Yumi Yukimura  
+  Date: Tue Jul 22 20:27:25 2025 +0000
+
+- [2bd07a4](https://github.com/LineageOS/android_vendor_lineage/commit/2bd07a4) kernel: Add support for external kernel configs (v2)
+  
+  Author: Yumi Yukimura  
+  Date: Tue Jul 22 20:27:25 2025 +0000
+
+- [751388d](https://github.com/LineageOS/android_vendor_lineage/commit/751388d) kernel: Enhancements to searching DTBs during non-QCOM DTB image generation
+  
+  Author: Yumi Yukimura  
+  Date: Tue Jul 22 20:27:25 2025 +0000
+
+- [8d9c8c0](https://github.com/LineageOS/android_vendor_lineage/commit/8d9c8c0) overlay: tablet: Enable config_canInternalDisplayHostDesktops
+  
+  Author: Yumi Yukimura  
+  Date: Tue Jul 22 20:27:25 2025 +0000
+
+- [205806c](https://github.com/LineageOS/android_vendor_lineage/commit/205806c) overlay: tablet: Update lockscreen widget feature config for 16
+  
+  Author: Yumi Yukimura  
+  Date: Tue Jul 22 20:27:25 2025 +0000
+
+- [089fa84](https://github.com/LineageOS/android_vendor_lineage/commit/089fa84) common: Allow vendors to exclude bp paths
+  
+  Author: Aaron Kling  
+  Date: Tue Jul 22 06:01:23 2025 +0000
 
 - [a356ad6](https://github.com/LineageOS/android_vendor_lineage/commit/a356ad6) build: Move qti_kernel_headers to hardware/qcom-caf/common
   
@@ -4331,6 +4231,11 @@
 <details>
 <summary><b>lineage/hudson</b></summary>
 
+- [0815403](https://github.com/LineageOS/hudson/commit/0815403) Akershus Castle is a medieval castle in the Norwegian capital Oslo that was built to protect and provide a royal residence for the city.
+  
+  Author: Andrey Sprynga  
+  Date: Tue Jul 22 01:35:53 2025 +0700
+
 - [634d24a](https://github.com/LineageOS/hudson/commit/634d24a) hudson: Add Motorola Defy 2021 (bathena)
   
   Author: Deivid21  
@@ -4391,6 +4296,11 @@
 
 <details>
 <summary><b>lineage/wiki</b></summary>
+
+- [cc19403](https://github.com/LineageOS/lineage_wiki/commit/cc19403) wiki: devices: Add ZTE Axon 9 Pro (akershus)
+  
+  Author: Andrey Sprynga  
+  Date: Tue Jul 22 13:57:10 2025 +0700
 
 - [7628074](https://github.com/LineageOS/lineage_wiki/commit/7628074) wiki: Add Motorola Defy 2021 (bathena)
   
@@ -4598,11 +4508,6 @@
   
   Author: LuK1337  
   Date: Sat Jun 28 10:13:10 2025 +0000
-
-- [ca0b4b9](https://github.com/LineageOS/scripts/commit/ca0b4b9) lineage-priv-template: Skip dirs ending in .apk
-  
-  Author: LuK1337  
-  Date: Sun Jun 22 22:22:17 2025 +0200
 
 
 </details>
