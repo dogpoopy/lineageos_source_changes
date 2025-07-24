@@ -416,16 +416,6 @@
   Author: Michael Bestas  
   Date: Mon Jul 7 18:30:20 2025 +0300
 
-- [5b40e27](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/5b40e27) common: Remove Touch HIDL rules
-  
-  Author: Bruno Martins  
-  Date: Tue Jun 24 00:43:26 2025 +0100
-
-- [e0e358b](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/e0e358b) Use hal_attribute_hwservice and hal_attribute_service when possible
-  
-  Author: Bruno Martins  
-  Date: Tue Jun 24 00:43:25 2025 +0100
-
 
 </details>
 
@@ -987,16 +977,6 @@
   Author: Thomas Turner  
   Date: Tue Jun 24 22:26:12 2025 +0000
 
-- [9c4eca8](https://github.com/LineageOS/android_external_bash/commit/9c4eca8) bash: Regenerate headers and source files
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 13:09:33 2025 +0200
-
-- [56a7bfe](https://github.com/LineageOS/android_external_bash/commit/56a7bfe) Merge tag &#x27;bash-5.2&#x27; of https://git.savannah.gnu.org/git/bash into lineage-22.2
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 08:32:42 2025 +0200
-
 
 </details>
 
@@ -1099,54 +1079,6 @@
 </details>
 
 <details>
-<summary><b>external/rsync</b></summary>
-
-- [6a2e628](https://github.com/LineageOS/android_external_rsync/commit/6a2e628) rsync: Compile with c17 for legacy K&amp;R compatibility
-  
-  Author: Thomas Turner  
-  Date: Mon Jun 23 16:37:38 2025 +0200
-
-- [e4e120f](https://github.com/LineageOS/android_external_rsync/commit/e4e120f) rsync: Regenerate srcs[] and config.h
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 16:37:38 2025 +0200
-
-- [735371e](https://github.com/LineageOS/android_external_rsync/commit/735371e) Merge tag &#x27;v3.4.1&#x27; of https://github.com/RsyncProject/rsync into lineage-22.2
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 16:04:06 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>external/unrar</b></summary>
-
-- [5c1331d](https://github.com/LineageOS/android_external_unrar/commit/5c1331d) unrar: Update srcs[]
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 18:17:01 2025 +0200
-
-- [76a253c](https://github.com/LineageOS/android_external_unrar/commit/76a253c) Merge https://github.com/pmachapman/unrar into lineage-22.2
-  
-  Author: LuK1337  
-  Date: Mon Jun 23 18:09:30 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>hardware/google/pixel-sepolicy</b></summary>
-
-- [7c1888f](https://github.com/LineageOS/android_hardware_google_pixel-sepolicy/commit/7c1888f) Add missing pixelstats sepolicy
-  
-  Author: Michael Bestas  
-  Date: Mon Jun 23 22:44:50 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>hardware/lineage/compat</b></summary>
 
 - [00c45bb](https://github.com/LineageOS/android_hardware_lineage_compat/commit/00c45bb) compat: Enable ELF checks
@@ -1209,11 +1141,6 @@
   
   Author: Yumi Yukimura  
   Date: Sat Jul 12 19:01:08 2025 +0300
-
-- [0a60f17](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/0a60f17) touch: Sunset HIDL
-  
-  Author: Bruno Martins  
-  Date: Mon Jun 23 20:54:51 2025 +0000
 
 
 </details>
@@ -2171,6 +2098,86 @@
 <details>
 <summary><b>packages/apps/Etar</b></summary>
 
+- [b428755](https://github.com/LineageOS/android_packages_apps_Etar/commit/b428755) New version 1.0.50
+  
+  Author: Gitsaibot  
+  Date: Wed Jul 23 03:20:21 2025 +0200
+
+- [1777ff2](https://github.com/LineageOS/android_packages_apps_Etar/commit/1777ff2) Translated using Weblate (German)
+  
+  Author: nautilusx  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [56279f1](https://github.com/LineageOS/android_packages_apps_Etar/commit/56279f1) Translated using Weblate (Slovak)
+  
+  Author: Milan Šalka  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [e6d7e2a](https://github.com/LineageOS/android_packages_apps_Etar/commit/e6d7e2a) Translated using Weblate (Swedish)
+  
+  Author: Kristoffer Grundström  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [5eddc53](https://github.com/LineageOS/android_packages_apps_Etar/commit/5eddc53) Translated using Weblate (Swedish)
+  
+  Author: Kristoffer Grundström  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [4b6373d](https://github.com/LineageOS/android_packages_apps_Etar/commit/4b6373d) Translated using Weblate (Dutch)
+  
+  Author: Stephan Paternotte  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [e0cff50](https://github.com/LineageOS/android_packages_apps_Etar/commit/e0cff50) Translated using Weblate (Dutch)
+  
+  Author: Stephan Paternotte  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [76dacec](https://github.com/LineageOS/android_packages_apps_Etar/commit/76dacec) Translated using Weblate (Latvian)
+  
+  Author: Edgars Andersons  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [d257640](https://github.com/LineageOS/android_packages_apps_Etar/commit/d257640) Translated using Weblate (Italian)
+  
+  Author: Random  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [8a76d27](https://github.com/LineageOS/android_packages_apps_Etar/commit/8a76d27) Translated using Weblate (Hebrew)
+  
+  Author: Yaron Shahrabani  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [113691f](https://github.com/LineageOS/android_packages_apps_Etar/commit/113691f) Translated using Weblate (Czech)
+  
+  Author: Fjuro  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [a5b17c0](https://github.com/LineageOS/android_packages_apps_Etar/commit/a5b17c0) Translated using Weblate (German)
+  
+  Author: nautilusx  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [26b2e92](https://github.com/LineageOS/android_packages_apps_Etar/commit/26b2e92) Translated using Weblate (Korean)
+  
+  Author: 안세훈  
+  Date: Wed Jul 23 03:08:19 2025 +0200
+
+- [bff4a83](https://github.com/LineageOS/android_packages_apps_Etar/commit/bff4a83) fix datePicker returns incorrect date
+  
+  Author: Gitsaibot  
+  Date: Wed Jul 23 03:04:59 2025 +0200
+
+- [9a3ad0d](https://github.com/LineageOS/android_packages_apps_Etar/commit/9a3ad0d) Set input mode to clock for TimePicker
+  
+  Author: Gitsaibot  
+  Date: Mon Jul 21 18:24:16 2025 +0200
+
+- [9f94053](https://github.com/LineageOS/android_packages_apps_Etar/commit/9f94053) Add missing style attribute for label of the 4th day
+  
+  Author: Gitsaibot  
+  Date: Mon Jul 21 18:23:40 2025 +0200
+
 - [6dcc687](https://github.com/LineageOS/android_packages_apps_Etar/commit/6dcc687) Make key non-nullable in CalendarDataStore
   
   Author: Michael Bestas  
@@ -2340,86 +2347,6 @@
   
   Author: F Bausch  
   Date: Sat Jun 28 17:03:59 2025 +0200
-
-- [dd94616](https://github.com/LineageOS/android_packages_apps_Etar/commit/dd94616) Fix multiple substitutions specified in non-positional format of string
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:09 2025 +0200
-
-- [b8b4aa7](https://github.com/LineageOS/android_packages_apps_Etar/commit/b8b4aa7) Drop deprecated package name from gradle file
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:08 2025 +0200
-
-- [aa518c4](https://github.com/LineageOS/android_packages_apps_Etar/commit/aa518c4) Drop jitpack
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:08 2025 +0200
-
-- [3af87f0](https://github.com/LineageOS/android_packages_apps_Etar/commit/3af87f0) Drop remaining submodule stuff
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:08 2025 +0200
-
-- [72213c5](https://github.com/LineageOS/android_packages_apps_Etar/commit/72213c5) Replaced the popup height calculation with new entity count calculation
-  
-  Author: Kavita Patil  
-  Date: Sat Jun 28 10:33:08 2025 +0200
-
-- [f2f957f](https://github.com/LineageOS/android_packages_apps_Etar/commit/f2f957f) Drop unused chips files
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:08 2025 +0200
-
-- [8f3fc8c](https://github.com/LineageOS/android_packages_apps_Etar/commit/8f3fc8c) Update chips package and imports
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:08 2025 +0200
-
-- [7755fa0](https://github.com/LineageOS/android_packages_apps_Etar/commit/7755fa0) Move chips into Etar source
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:08 2025 +0200
-
-- [a138ee0](https://github.com/LineageOS/android_packages_apps_Etar/commit/a138ee0) Integrate chips attrs res into Etar
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:08 2025 +0200
-
-- [aa35f28](https://github.com/LineageOS/android_packages_apps_Etar/commit/aa35f28) Integrate chips dimenions res into Etar
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:07 2025 +0200
-
-- [28be883](https://github.com/LineageOS/android_packages_apps_Etar/commit/28be883) Drop unknown argument in styles file
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:33:07 2025 +0200
-
-- [64e3c34](https://github.com/LineageOS/android_packages_apps_Etar/commit/64e3c34) Integrate chips styles res into Etar
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:29:59 2025 +0200
-
-- [db499f1](https://github.com/LineageOS/android_packages_apps_Etar/commit/db499f1) Integrate chips colors res into Etar
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:29:59 2025 +0200
-
-- [1dce24c](https://github.com/LineageOS/android_packages_apps_Etar/commit/1dce24c) Integrate chips translations
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:29:42 2025 +0200
-
-- [d1f8b6a](https://github.com/LineageOS/android_packages_apps_Etar/commit/d1f8b6a) Fix package name in layout files
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:29:40 2025 +0200
-
-- [74053ae](https://github.com/LineageOS/android_packages_apps_Etar/commit/74053ae) Move chips ressources into Etar source
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jun 28 10:18:33 2025 +0200
 
 
 </details>
@@ -4286,11 +4213,6 @@
   Author: WenHao2130  
   Date: Tue Jun 24 19:01:48 2025 +0800
 
-- [ad8bf17](https://github.com/LineageOS/hudson/commit/ad8bf17) hudson: Ship Galaxy Tab S7 (Wi-Fi)
-  
-  Author: Bruno Martins  
-  Date: Mon Jun 23 20:30:40 2025 +0000
-
 
 </details>
 
@@ -4427,11 +4349,6 @@
   Author: WenHao2130  
   Date: Tue Jun 24 11:13:15 2025 +0800
 
-- [e1a8bd2](https://github.com/LineageOS/lineage_wiki/commit/e1a8bd2) devices: Add Galaxy Tab S7 (Wi-Fi)
-  
-  Author: Bruno Martins  
-  Date: Mon Jun 23 20:30:56 2025 +0000
-
 
 </details>
 
@@ -4477,11 +4394,6 @@
   
   Author: Tim Schumacher  
   Date: Fri Jun 27 12:01:58 2025 +0200
-
-- [7d5a8af](https://github.com/LineageOS/mirror/commit/7d5a8af) Updated to 24-Jun-2025 00:08 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Jun 24 02:08:03 2025 +0200
 
 
 </details>
