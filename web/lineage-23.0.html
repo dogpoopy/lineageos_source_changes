@@ -2,19 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>📜 LineageOS Source Changes - lineage-23.0</title>
+  <title>📜 lineage-23.0 – Source Changes (Last 30 Days)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: sans-serif; padding: 2rem; background: #f9f9f9; }
-    h1 { font-size: 1.8em; }
-    details { margin-bottom: 1rem; border: 1px solid #ccc; padding: 1rem; background: white; }
-    summary { font-weight: bold; font-size: 1.1em; cursor: pointer; }
-    a { color: #0070f3; text-decoration: none; }
-    small { color: #666; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 2rem;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: white;
+      padding: 1rem;
+      border-bottom: 1px solid #ddd;
+      z-index: 10;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    details {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 1px solid #ddd;
+    }
+    summary {
+      font-weight: bold;
+      font-size: 1.1rem;
+      cursor: pointer;
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #0070f3;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    small {
+      color: #666;
+    }
+    button {
+      background: #0070f3;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      margin-right: 0.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    button:hover {
+      background: #005dc1;
+    }
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
   </style>
 </head>
 <body>
-  <h1>📜 LineageOS Source Changes – lineage-23.0</h1>
+  <header>
+    <h1>📜 LineageOS – lineage-23.0</h1>
+    <p><strong>Manifest:</strong> <code>https://github.com/LineageOS/android.git</code></p>
+    <p><strong>Showing changes in the last 30 days</strong> (since <code>2025-06-24</code>)</p>
+    <div>
+      <button onclick="toggleAll(true)">Expand All</button>
+      <button onclick="toggleAll(false)">Collapse All</button>
+    </div>
+  </header>
+
+  <script>
+    function toggleAll(open) {
+      document.querySelectorAll("details").forEach(d => d.open = open);
+    }
+  </script>
 <details><summary>android</summary><br>
 <p><a href='https://github.com/LineageOS/android/commit/dd093eb' target='_blank'>dd093eb</a> - manifest: Unfork repos with no changes<br>
 <small>👤 Michael Bestas | 🕓 Mon Jul 21 14:20:45 2025 +0300</small></p>
@@ -63,7 +137,7 @@
 <small>👤 Gabriele M | 🕓 Sun Jul 20 16:52:51 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_build/commit/9c625a2' target='_blank'>9c625a2</a> - releasetools: support reading release keys out of some sort of command<br>
 <small>👤 Tom Powell | 🕓 Sun Jul 20 16:52:51 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_build/commit/f3f13de' target='_blank'>f3f13de</a> - Add bluetooth to default key map<br>
+<p><a href='https://github.com/LineageOS/android_build/commit/f3f13de' target='_blank'>f3f13de</a> - Add bluetooth to default key map 🔵<br>
 <small>👤 HZ | 🕓 Sun Jul 20 16:52:51 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_build/commit/de770fc' target='_blank'>de770fc</a> - Don&#x27;t set PRODUCT_ENABLE_UFFD_GC by default<br>
 <small>👤 Chirayu Desai | 🕓 Sun Jul 20 16:52:51 2025 +0300</small></p>
@@ -97,9 +171,9 @@
 <small>👤 Michael Bestas | 🕓 Sun Jul 20 16:52:50 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_build/commit/9a71028' target='_blank'>9a71028</a> - Allow override of device asserts, including multi-device support.<br>
 <small>👤 Steve Kondik | 🕓 Sun Jul 20 16:52:50 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_build/commit/5d2fe16' target='_blank'>5d2fe16</a> - envsetup: Set INLINE_KERNEL_BUILDING based on TARGET_PREBUILT_KERNEL<br>
+<p><a href='https://github.com/LineageOS/android_build/commit/5d2fe16' target='_blank'>5d2fe16</a> - envsetup: Set INLINE_KERNEL_BUILDING based on TARGET_PREBUILT_KERNEL 🧠<br>
 <small>👤 Aaron Kling | 🕓 Thu Jul 10 09:22:28 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_build/commit/2856161' target='_blank'>2856161</a> - envsetup: Set INLINE_KERNEL_BUILDING based on TARGET_NO_KERNEL<br>
+<p><a href='https://github.com/LineageOS/android_build/commit/2856161' target='_blank'>2856161</a> - envsetup: Set INLINE_KERNEL_BUILDING based on TARGET_NO_KERNEL 🧠<br>
 <small>👤 Michael Bestas | 🕓 Thu Jul 10 09:22:28 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_build/commit/04b91a6' target='_blank'>04b91a6</a> - build/target: Include Lineage platform jar in system server.<br>
 <small>👤 Adnan Begovic | 🕓 Thu Jul 10 09:22:28 2025 +0300</small></p>
@@ -122,7 +196,7 @@
 </details>
 
 <details><summary>build/soong</summary><br>
-<p><a href='https://github.com/LineageOS/android_build_soong/commit/877867f' target='_blank'>877867f</a> - Revert &quot;Replace qti_kernel_headers with generated_kernel_headers&quot;<br>
+<p><a href='https://github.com/LineageOS/android_build_soong/commit/877867f' target='_blank'>877867f</a> - Revert &quot;Replace qti_kernel_headers with generated_kernel_headers&quot; 🧠<br>
 <small>👤 Michael Bestas | 🕓 Sun Jul 20 17:40:25 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_build_soong/commit/3c38cfe' target='_blank'>3c38cfe</a> - Rust: Use nehalem cpu-target when building with sandybridge arch variant<br>
 <small>👤 hmtheboy154 | 🕓 Wed Jul 9 18:48:09 2025 +0300</small></p>
@@ -164,13 +238,13 @@
 <small>👤 dianlujitao | 🕓 Wed Jul 9 18:48:09 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_build_soong/commit/e736b51' target='_blank'>e736b51</a> - Add exported-to-kati namespaces to root namespace<br>
 <small>👤 LuK1337 | 🕓 Wed Jul 9 18:48:09 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_build_soong/commit/a0310f9' target='_blank'>a0310f9</a> - Support prebuilt_kernel_headers<br>
+<p><a href='https://github.com/LineageOS/android_build_soong/commit/a0310f9' target='_blank'>a0310f9</a> - Support prebuilt_kernel_headers 🧠<br>
 <small>👤 Aaron Kling | 🕓 Wed Jul 9 18:48:09 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_build_soong/commit/0d23c01' target='_blank'>0d23c01</a> - Replace {device,qti}_kernel_headers only when building inline<br>
+<p><a href='https://github.com/LineageOS/android_build_soong/commit/0d23c01' target='_blank'>0d23c01</a> - Replace {device,qti}_kernel_headers only when building inline 🧠<br>
 <small>👤 Chirayu Desai | 🕓 Wed Jul 9 18:48:09 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_build_soong/commit/3eaf137' target='_blank'>3eaf137</a> - Replace qti_kernel_headers with generated_kernel_headers<br>
+<p><a href='https://github.com/LineageOS/android_build_soong/commit/3eaf137' target='_blank'>3eaf137</a> - Replace qti_kernel_headers with generated_kernel_headers 🧠<br>
 <small>👤 Nolen Johnson | 🕓 Wed Jul 9 18:48:09 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_build_soong/commit/f8da489' target='_blank'>f8da489</a> - Replace device_kernel_headers with generated_kernel_headers<br>
+<p><a href='https://github.com/LineageOS/android_build_soong/commit/f8da489' target='_blank'>f8da489</a> - Replace device_kernel_headers with generated_kernel_headers 🧠<br>
 <small>👤 Chirayu Desai | 🕓 Wed Jul 9 18:48:09 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_build_soong/commit/a24154f' target='_blank'>a24154f</a> - soong: Add PathForSourceRelaxed<br>
 <small>👤 Sam Mortimer | 🕓 Wed Jul 9 17:51:20 2025 +0300</small></p>
@@ -196,9 +270,9 @@
 <small>👤 Michael Bestas | 🕓 Thu Jul 3 09:55:38 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy/commit/95ed22f' target='_blank'>95ed22f</a> - generic: Add typeattribute definitions for 30.0 compat<br>
 <small>👤 LuK1337 | 🕓 Thu Jul 3 09:55:38 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7556ede' target='_blank'>7556ede</a> - generic: Don&#x27;t dontaudit vendor_persist_camera_prop read denials<br>
+<p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7556ede' target='_blank'>7556ede</a> - generic: Don&#x27;t dontaudit vendor_persist_camera_prop read denials 📸<br>
 <small>👤 Arian | 🕓 Thu Jul 3 09:55:37 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8a125d6' target='_blank'>8a125d6</a> - sepolicy: Unlabel aux camera whitelist prop<br>
+<p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8a125d6' target='_blank'>8a125d6</a> - sepolicy: Unlabel aux camera whitelist prop 📸<br>
 <small>👤 dianlujitao | 🕓 Thu Jul 3 09:55:02 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy/commit/2af8ac0' target='_blank'>2af8ac0</a> - sepolicy: Remove QCOM guards<br>
 <small>👤 Pig | 🕓 Thu Jul 3 09:55:02 2025 +0300</small></p>
@@ -486,7 +560,7 @@
 </details>
 
 <details><summary>hardware/qcom-caf/common</summary><br>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/9c45155' target='_blank'>9c45155</a> - qcom: Map kernel headers to generated_kernel_headers<br>
+<p><a href='https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/9c45155' target='_blank'>9c45155</a> - qcom: Map kernel headers to generated_kernel_headers 🧠<br>
 <small>👤 Michael Bestas | 🕓 Sun Jul 20 23:36:59 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/3be73bc' target='_blank'>3be73bc</a> - qcom: Split soong configs for STHAL<br>
 <small>👤 Michael Bestas | 🕓 Sun Jul 20 23:36:56 2025 +0300</small></p>
@@ -669,7 +743,7 @@
 <small>👤 LuK1337 | 🕓 Thu Jul 10 08:48:46 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_bootctrl/commit/6074f2b' target='_blank'>6074f2b</a> - gpt-utils: Address the warnings<br>
 <small>👤 Tao Bao | 🕓 Thu Jul 10 08:48:46 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_bootctrl/commit/9f5c812' target='_blank'>9f5c812</a> - gpt-utils: Use generated_kernel_headers<br>
+<p><a href='https://github.com/LineageOS/android_hardware_qcom_bootctrl/commit/9f5c812' target='_blank'>9f5c812</a> - gpt-utils: Use generated_kernel_headers 🧠<br>
 <small>👤 LuK1337 | 🕓 Thu Jul 10 08:48:46 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_bootctrl/commit/871afdd' target='_blank'>871afdd</a> - Import gpt-utils from LA.VENDOR.14.3.0.r1-19100-lanai.QSSI16.0<br>
 <small>👤 Alexander Koskovich | 🕓 Thu Jul 10 08:48:46 2025 +0300</small></p>
@@ -682,7 +756,7 @@
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_bootctrl/commit/8306131' target='_blank'>8306131</a> - Add function to get active boot slot<br>
 <small>👤 Tianjie | 🕓 Thu Jul 10 08:48:46 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_bootctrl/commit/f258c56' target='_blank'>f258c56</a> - bootcontrol: count slots correctly<br>
-<small>👤 Connor O'Brien | 🕓 Thu Jul 10 08:48:46 2025 +0300</small></p>
+<small>👤 Connor O&#x27;Brien | 🕓 Thu Jul 10 08:48:46 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_bootctrl/commit/4571299' target='_blank'>4571299</a> - [LSC] Add LOCAL_LICENSE_KINDS to hardware/qcom/bootctrl<br>
 <small>👤 Bob Badour | 🕓 Thu Jul 10 08:48:46 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_bootctrl/commit/e8d1787' target='_blank'>e8d1787</a> - Add METADATA to bootctrl: BSD=NOTICE<br>
@@ -1075,7 +1149,7 @@
 <p><a href='https://github.com/LineageOS/android_tools_extract-utils/commit/c59d687' target='_blank'>c59d687</a> - extract_utils: Remove deprecated bash utils<br>
 <small>👤 Michael Bestas | 🕓 Sun Jun 29 21:38:23 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/android_tools_extract-utils/commit/84f9c38' target='_blank'>84f9c38</a> - extract_utils: T <br>
-<small>👤  T -> Union[T, T] | 🕓 LuK1337|Sat Jun 28 12:15:28 2025 +0200</small></p>
+<small>👤  T -&gt; Union[T, T] | 🕓 LuK1337|Sat Jun 28 12:15:28 2025 +0200</small></p>
 </details>
 
 <details><summary>vendor/codeaurora/telephony</summary><br>
@@ -1092,17 +1166,17 @@
 </details>
 
 <details><summary>vendor/lineage</summary><br>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/e41ae16' target='_blank'>e41ae16</a> - kernel: Fix building x86 kernel with GCC<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/e41ae16' target='_blank'>e41ae16</a> - kernel: Fix building x86 kernel with GCC 🧠<br>
 <small>👤 Yumi Yukimura | 🕓 Tue Jul 22 20:27:25 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/c8ecd22' target='_blank'>c8ecd22</a> - kernel: Sign kernel modules only if CONFIG_MODULE_SIG_FORMAT=y<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/c8ecd22' target='_blank'>c8ecd22</a> - kernel: Sign kernel modules only if CONFIG_MODULE_SIG_FORMAT=y 🧠<br>
 <small>👤 Yumi Yukimura | 🕓 Tue Jul 22 20:27:25 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/8c65077' target='_blank'>8c65077</a> - kernel: Fix build when device does not set BOARD_SYSTEM_KERNEL_MODULES_LOAD<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/8c65077' target='_blank'>8c65077</a> - kernel: Fix build when device does not set BOARD_SYSTEM_KERNEL_MODULES_LOAD 🧠<br>
 <small>👤 Yumi Yukimura | 🕓 Tue Jul 22 20:27:25 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/56ed385' target='_blank'>56ed385</a> - kernel: Support installing kernel modules to system<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/56ed385' target='_blank'>56ed385</a> - kernel: Support installing kernel modules to system 🧠<br>
 <small>👤 Yumi Yukimura | 🕓 Tue Jul 22 20:27:25 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/2bd07a4' target='_blank'>2bd07a4</a> - kernel: Add support for external kernel configs (v2)<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/2bd07a4' target='_blank'>2bd07a4</a> - kernel: Add support for external kernel configs (v2) 🧠<br>
 <small>👤 Yumi Yukimura | 🕓 Tue Jul 22 20:27:25 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/751388d' target='_blank'>751388d</a> - kernel: Enhancements to searching DTBs during non-QCOM DTB image generation<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/751388d' target='_blank'>751388d</a> - kernel: Enhancements to searching DTBs during non-QCOM DTB image generation 🧠<br>
 <small>👤 Yumi Yukimura | 🕓 Tue Jul 22 20:27:25 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/8d9c8c0' target='_blank'>8d9c8c0</a> - overlay: tablet: Enable config_canInternalDisplayHostDesktops<br>
 <small>👤 Yumi Yukimura | 🕓 Tue Jul 22 20:27:25 2025 +0000</small></p>
@@ -1110,13 +1184,13 @@
 <small>👤 Yumi Yukimura | 🕓 Tue Jul 22 20:27:25 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/089fa84' target='_blank'>089fa84</a> - common: Allow vendors to exclude bp paths<br>
 <small>👤 Aaron Kling | 🕓 Tue Jul 22 06:01:23 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/a356ad6' target='_blank'>a356ad6</a> - build: Move qti_kernel_headers to hardware/qcom-caf/common<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/a356ad6' target='_blank'>a356ad6</a> - build: Move qti_kernel_headers to hardware/qcom-caf/common 🧠<br>
 <small>👤 Michael Bestas | 🕓 Sun Jul 20 19:42:46 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/91f3650' target='_blank'>91f3650</a> - release: Bump Security String to 2025-07-01<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/91f3650' target='_blank'>91f3650</a> - release: Bump Security String to 2025-07-01 🔒<br>
 <small>👤 Michael Bestas | 🕓 Fri Jul 11 04:31:50 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/f4fe770' target='_blank'>f4fe770</a> - release: Update SVN from BP2A.250705.008<br>
 <small>👤 Michael Bestas | 🕓 Fri Jul 11 04:31:50 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/54fe338' target='_blank'>54fe338</a> - vars: July 2025 &quot;Security update&quot;<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/54fe338' target='_blank'>54fe338</a> - vars: July 2025 &quot;Security update&quot; 🔒<br>
 <small>👤 Michael Bestas | 🕓 Fri Jul 11 04:31:50 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/2acacf2' target='_blank'>2acacf2</a> - apns-conf: Remove deprecated Cosmote Romania entries<br>
 <small>👤 PixelThrived | 🕓 Mon Jul 7 12:54:27 2025 +0000</small></p>
@@ -1128,7 +1202,7 @@
 <small>👤 Michael Bestas | 🕓 Sun Jul 6 09:38:36 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/00d9415' target='_blank'>00d9415</a> - vars: Add sun tags<br>
 <small>👤 Bruno Martins | 🕓 Sun Jul 6 09:37:22 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/74d4aec' target='_blank'>74d4aec</a> - kernel: Automatically adapt path suffix for GKI modules<br>
+<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/74d4aec' target='_blank'>74d4aec</a> - kernel: Automatically adapt path suffix for GKI modules 🧠<br>
 <small>👤 dianlujitao | 🕓 Sun Jul 6 00:39:44 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/426b8a4' target='_blank'>426b8a4</a> - repopick: Fix showing help when no arguments given the correct way<br>
 <small>👤 Julian Veit | 🕓 Sat Jul 5 12:10:29 2025 +0200</small></p>
@@ -1246,7 +1320,7 @@
 <small>👤 Arian | 🕓 Wed Jul 16 22:32:04 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/27496d1' target='_blank'>27496d1</a> - pal: adapt VI structs usage to graphservices definitions<br>
 <small>👤 Cosmin Tanislav | 🕓 Wed Jul 16 22:32:04 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/a5d390c' target='_blank'>a5d390c</a> - Include generated kernel headers for adsp_sleepmon.h<br>
+<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/a5d390c' target='_blank'>a5d390c</a> - Include generated kernel headers for adsp_sleepmon.h 🧠<br>
 <small>👤 Cosmin Tanislav | 🕓 Wed Jul 16 22:32:04 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/62700bd' target='_blank'>62700bd</a> - pal: Make libcapiv2_headers available<br>
 <small>👤 Cosmin Tanislav | 🕓 Wed Jul 16 22:32:02 2025 +0300</small></p>
@@ -1277,7 +1351,7 @@
 <small>👤 Arian | 🕓 Thu Jul 17 12:39:58 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/e520f67' target='_blank'>e520f67</a> - Add mink, peripheralstate and libvui_dmgr headers<br>
 <small>👤 anonymix007 | 🕓 Thu Jul 17 12:39:58 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2ed563d' target='_blank'>2ed563d</a> - Include generated kernel headers for adsp_sleepmon.h<br>
+<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2ed563d' target='_blank'>2ed563d</a> - Include generated kernel headers for adsp_sleepmon.h 🧠<br>
 <small>👤 Cosmin Tanislav | 🕓 Wed Jul 16 22:35:53 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2d9dd03' target='_blank'>2d9dd03</a> - pal: Make libcapiv2_headers available<br>
 <small>👤 Cosmin Tanislav | 🕓 Wed Jul 16 22:35:05 2025 +0300</small></p>
@@ -1322,7 +1396,7 @@
 <small>👤 Arian | 🕓 Thu Jul 17 12:21:05 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/cbdbdd3' target='_blank'>cbdbdd3</a> - Add mink, peripheralstate and libvui_dmgr headers<br>
 <small>👤 anonymix007 | 🕓 Thu Jul 17 12:21:04 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d6fef2b' target='_blank'>d6fef2b</a> - Include generated kernel headers for adsp_sleepmon.h<br>
+<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d6fef2b' target='_blank'>d6fef2b</a> - Include generated kernel headers for adsp_sleepmon.h 🧠<br>
 <small>👤 Cosmin Tanislav | 🕓 Wed Jul 16 22:55:08 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/bca042d' target='_blank'>bca042d</a> - pal: Make libcapiv2_headers available<br>
 <small>👤 Cosmin Tanislav | 🕓 Wed Jul 16 22:54:35 2025 +0300</small></p>
@@ -1573,7 +1647,7 @@
 <small>👤 Bruno Martins | 🕓 Sun Jul 13 00:19:27 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5080ee9' target='_blank'>5080ee9</a> - dataipa: libipanat: Ignore all errors<br>
 <small>👤 Bruno Martins | 🕓 Sun Jul 13 00:19:10 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/69816d2' target='_blank'>69816d2</a> - dataipa: Disable kernel modules and tests<br>
+<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/69816d2' target='_blank'>69816d2</a> - dataipa: Disable kernel modules and tests 🧠<br>
 <small>👤 Michael Bestas | 🕓 Sat Jul 12 20:43:25 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/cc0af4c' target='_blank'>cc0af4c</a> - dataipa: Remove clang usage from make files<br>
 <small>👤 Pavan Kumar M | 🕓 Sat Jul 12 20:42:45 2025 +0300</small></p>
@@ -1586,7 +1660,7 @@
 <small>👤 Bruno Martins | 🕓 Wed Jul 16 15:40:29 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/f7ac174' target='_blank'>f7ac174</a> - dataipa: libipanat: Ignore all errors<br>
 <small>👤 Bruno Martins | 🕓 Wed Jul 16 15:40:21 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/b13f675' target='_blank'>b13f675</a> - dataipa: Disable kernel modules and tests<br>
+<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/b13f675' target='_blank'>b13f675</a> - dataipa: Disable kernel modules and tests 🧠<br>
 <small>👤 Michael Bestas | 🕓 Wed Jul 16 15:39:40 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/3b735e1' target='_blank'>3b735e1</a> - Add .gitupstream file<br>
 <small>👤 Michael Bestas | 🕓 Wed Jul 16 15:39:40 2025 +0300</small></p>
@@ -1834,8 +1908,6 @@
 <small>👤 Andrey Sprynga | 🕓 Sat Jun 28 01:45:13 2025 +0700</small></p>
 <p><a href='https://github.com/LineageOS/hudson/commit/662a799' target='_blank'>662a799</a> - hudson: Revive rosemary<br>
 <small>👤 Matsvei Niaverau | 🕓 Thu Jun 26 10:52:36 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/hudson/commit/5317ff9' target='_blank'>5317ff9</a> - fuxi devised the eight trigrams<br>
-<small>👤 lolipuru | 🕓 Tue Jun 24 17:50:46 2025 +0000</small></p>
 </details>
 
 <details><summary>lineage/wiki</summary><br>
@@ -1859,7 +1931,7 @@
 <small>👤 LuK1337 | 🕓 Fri Jul 4 09:57:14 2025 +0200</small></p>
 <p><a href='https://github.com/LineageOS/lineage_wiki/commit/83a6e20' target='_blank'>83a6e20</a> - wiki: marble: Add 3.5mm jack peripheral<br>
 <small>👤 LuK1337 | 🕓 Fri Jul 4 09:47:24 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/lineage_wiki/commit/3133a82' target='_blank'>3133a82</a> - wiki: vayu: Change kernel repository<br>
+<p><a href='https://github.com/LineageOS/lineage_wiki/commit/3133a82' target='_blank'>3133a82</a> - wiki: vayu: Change kernel repository 🧠<br>
 <small>👤 Sebastiano Barezzi | 🕓 Fri Jul 4 01:12:19 2025 +0200</small></p>
 <p><a href='https://github.com/LineageOS/lineage_wiki/commit/bc2a42e' target='_blank'>bc2a42e</a> - wiki: Resume support for vayu<br>
 <small>👤 Sebastiano Barezzi | 🕓 Thu Jul 3 10:54:33 2025 +0000</small></p>
@@ -1887,8 +1959,6 @@
 <small>👤 Michael W | 🕓 Fri Jun 27 07:06:46 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/lineage_wiki/commit/4c2ce5f' target='_blank'>4c2ce5f</a> - wiki: devices: Revive rosemary<br>
 <small>👤 Matsvei Niaverau | 🕓 Thu Jun 26 10:56:04 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/lineage_wiki/commit/b191459' target='_blank'>b191459</a> - wiki: devices: add xiaomi 13 (fuxi)<br>
-<small>👤 lolipuru | 🕓 Tue Jun 24 16:30:25 2025 +0000</small></p>
 </details>
 
 <details><summary>lineage/mirror</summary><br>
@@ -1928,5 +1998,11 @@
 <small>👤 LuK1337 | 🕓 Fri Jul 18 22:43:18 2025 +0200</small></p>
 </details>
 
-<hr><p><em>Auto-generated by GitHub Actions.</em></p>
-</body></html>
+
+  <footer>
+    <hr>
+    <p>📅 Auto-generated on <strong>2025-07-24</strong></p>
+    <p>📜 GitHub Actions-powered source tracker by <a href="https://github.com/dogpoopy">dogpoopy</a>.</p>
+  </footer>
+</body>
+</html>
