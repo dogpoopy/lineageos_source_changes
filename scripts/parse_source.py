@@ -191,19 +191,8 @@ with open(html_output_file, "w") as out_html:
                     sha, message, author, date = line.split("|", 3)
                     message_escaped = html.escape(message)
 
-                    # Optional emoji highlight
-                    highlight = ""
-                    if "security" in message.lower():
-                        highlight = " 🔒"
-                    elif "camera" in message.lower():
-                        highlight = " 📸"
-                    elif "bluetooth" in message.lower():
-                        highlight = " 🔵"
-                    elif "kernel" in message.lower():
-                        highlight = " 🧠"
-
                     commit_url = f"{remote_fetch}{repo_name}/commit/{sha}"
-                    out_html.write(f"<p><a href='{commit_url}' target='_blank'>{sha}</a> - {message_escaped}{highlight}<br>\n")
+                    out_html.write(f"<p><a href='{commit_url}' target='_blank'>{sha}</a> - {message_escaped}<br>\n")
                     out_html.write(f"<small>👤 {html.escape(author)} | 🕓 {html.escape(date)}</small></p>\n")
 
                 out_html.write("</details>\n\n")
