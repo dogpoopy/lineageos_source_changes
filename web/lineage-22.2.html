@@ -77,7 +77,7 @@
   <header>
     <h1>📜 LineageOS – lineage-22.2</h1>
     <p><strong>Manifest:</strong> <code>https://github.com/LineageOS/android.git</code></p>
-    <p><strong>Showing changes in the last 30 days</strong> (since <code>2025-07-05</code>)</p>
+    <p><strong>Showing changes in the last 30 days</strong> (since <code>2025-07-06</code>)</p>
     <div>
       <button onclick="toggleAll(true)">Expand All</button>
       <button onclick="toggleAll(false)">Collapse All</button>
@@ -89,21 +89,14 @@
       document.querySelectorAll("details").forEach(d => d.open = open);
     }
   </script>
-<details><summary>android</summary><br>
-<p><a href='https://github.com/LineageOS/android/commit/e64bf2e' target='_blank'>e64bf2e</a> - lineage: Remove commented out NXP repos<br>
-<small>👤 Michael Bestas | 🕓 Sat Jul 5 18:04:41 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android/commit/2e5a46e' target='_blank'>2e5a46e</a> - lineage: Track sun repos<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 13:50:50 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android/commit/a177be6' target='_blank'>a177be6</a> - lineage: Move current sthal-ar and thermal to legacy<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 13:50:43 2025 +0000</small></p>
-</details>
-
 <details><summary>build/release</summary><br>
 <p><a href='https://github.com/LineageOS/android_build_release/commit/80d2b3a' target='_blank'>80d2b3a</a> - Bump Security String to 2025-07-01<br>
 <small>👤 Michael Bestas | 🕓 Wed Jul 9 14:26:08 2025 +0300</small></p>
 </details>
 
 <details><summary>device/qcom/sepolicy_vndr/legacy-um</summary><br>
+<p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d94d104' target='_blank'>d94d104</a> - sepolicy: holi: Label pmr735a power supply nodes<br>
+<small>👤 LuK1337 | 🕓 Mon Aug 4 15:54:40 2025 +0200</small></p>
 <p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2b65a8c' target='_blank'>2b65a8c</a> - sepolicy_vndr: lahaina: Label some more wakeup nodes<br>
 <small>👤 Michael Bestas | 🕓 Mon Jul 7 10:50:02 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/fcfeeec' target='_blank'>fcfeeec</a> - sepolicy_vndr: kona: Label additional nodes<br>
@@ -164,11 +157,6 @@
 <small>👤 Kevin F. Haggerty | 🕓 Mon Jul 7 05:43:29 2025 -0600</small></p>
 </details>
 
-<details><summary>external/libncurses</summary><br>
-<p><a href='https://github.com/LineageOS/android_external_libncurses/commit/cf8d1a3' target='_blank'>cf8d1a3</a> - Partially Reapply &quot;libncurses: Add recovery variant&quot;<br>
-<small>👤 Yumi Yukimura | 🕓 Sun Jul 6 06:25:09 2025 +0800</small></p>
-</details>
-
 <details><summary>external/ntfs-3g</summary><br>
 <p><a href='https://github.com/LineageOS/android_external_ntfs-3g/commit/e2415df' target='_blank'>e2415df</a> - config.h: Update version to 2022.10.3<br>
 <small>👤 Michael Bestas | 🕓 Thu Jul 17 14:50:01 2025 +0300</small></p>
@@ -189,27 +177,6 @@
 <details><summary>hardware/qcom-caf/common</summary><br>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/4253860' target='_blank'>4253860</a> - common: Add liboemcrypto.so to vendor linker config<br>
 <small>👤 LuK1337 | 🕓 Sun Jul 20 21:57:56 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/7f93034' target='_blank'>7f93034</a> - common: add support for sun platform<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 15:03:54 2025 +0100</small></p>
-</details>
-
-<details><summary>hardware/qcom-caf/sm8750/audio/primary-hal</summary><br>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/fe9b113' target='_blank'>fe9b113</a> - hal: opt-out audio HAL and effects<br>
-<small>👤 dianlujitao | 🕓 Sun Jul 6 00:32:21 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/05ca3eb' target='_blank'>05ca3eb</a> - adsprpcd: Import missing string.h header<br>
-<small>👤 chandu078 | 🕓 Sun Jul 6 00:31:09 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/6463ce0' target='_blank'>6463ce0</a> - hal: effects: add missing header libraries<br>
-<small>👤 dianlujitao | 🕓 Sun Jul 6 00:29:43 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/608addf' target='_blank'>608addf</a> - hal: fix initialization order for class member variables<br>
-<small>👤 dianlujitao | 🕓 Sun Jul 6 00:29:43 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/15d2777' target='_blank'>15d2777</a> - hal: update and use global AIDL versions<br>
-<small>👤 dianlujitao | 🕓 Sun Jul 6 00:29:43 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/4b2511b' target='_blank'>4b2511b</a> - hal: Add dependency on libarpal_headers<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 23:29:16 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/a8ede9f' target='_blank'>a8ede9f</a> - adsprpcd: Drop dependency on proprietary headers and fix build errors<br>
-<small>👤 LuK1337 | 🕓 Sat Jul 5 10:26:34 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/2d53e97' target='_blank'>2d53e97</a> - hal: remove hardcoded include paths<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 10:26:30 2025 +0100</small></p>
 </details>
 
 <details><summary>hardware/qcom-caf/msm8953/display</summary><br>
@@ -225,40 +192,11 @@
 <details><summary>hardware/qcom-caf/sm8650/display</summary><br>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/b586b40' target='_blank'>b586b40</a> - sdm: Define page size if it&#x27;s not defined<br>
 <small>👤 Baldev Sahu | 🕓 Tue Jul 29 21:25:27 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/954dc72' target='_blank'>954dc72</a> - Revert &quot;display: Add QMCS image generation&quot;<br>
-<small>👤 Michael Bestas | 🕓 Sat Jul 5 11:33:59 2025 +0100</small></p>
-</details>
-
-<details><summary>hardware/qcom-caf/sm8750/display/hal</summary><br>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/9f68111' target='_blank'>9f68111</a> - gralloc: Fix unannotated fall-through compilation errors<br>
-<small>👤 Bruno Martins | 🕓 Sun Jul 6 02:52:49 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/61702e1' target='_blank'>61702e1</a> - composer: Specify `v2` explicitly in composer3_defaults<br>
-<small>👤 Bruno Martins | 🕓 Sun Jul 6 02:52:48 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/f921058' target='_blank'>f921058</a> - gralloc: Remove libubwcp_headers dependency<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 23:17:20 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/870100b' target='_blank'>870100b</a> - display: Remove smmu-proxy and ubwcp headers defaults<br>
-<small>👤 chandu078 | 🕓 Sat Jul 5 23:16:55 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/0897535' target='_blank'>0897535</a> - vmmem: Add dummy libvmmem shared_lib<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 23:16:55 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/dcc42f1' target='_blank'>dcc42f1</a> - vmmem: Make libvmmem_headers available<br>
-<small>👤 SGCMarkus | 🕓 Sat Jul 5 23:16:55 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/63aa818' target='_blank'>63aa818</a> - hwfence_client: Disable module<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 23:16:55 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/1d5a3cb' target='_blank'>1d5a3cb</a> - display: Remove dependencies of display specific kernel headers<br>
-<small>👤 chandu078 | 🕓 Sat Jul 5 22:14:56 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/9b6f6ff' target='_blank'>9b6f6ff</a> - composer: Separate rc and xml from service<br>
-<small>👤 Michael Bestas | 🕓 Sat Jul 5 16:18:02 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/0f7761a' target='_blank'>0f7761a</a> - composer: Replace writepid with task_profiles command for cgroup migration<br>
-<small>👤 Suren Baghdasaryan | 🕓 Sat Jul 5 16:18:02 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_display/commit/5a556b1' target='_blank'>5a556b1</a> - display: Define init script modules properly.<br>
-<small>👤 Alexander Koskovich | 🕓 Sat Jul 5 16:18:02 2025 +0100</small></p>
 </details>
 
 <details><summary>hardware/qcom-caf/thermal</summary><br>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_thermal/commit/47fd390' target='_blank'>47fd390</a> - Merge tag &#x27;LA.VENDOR.15.4.0.r1-18000-pakala.QSSI16.0&#x27; into staging/lineage-22.2_merge-LA.VENDOR.15.4.0.r1-18000-pakala.QSSI16.0<br>
 <small>👤 Michael Bestas | 🕓 Sun Jul 6 08:58:29 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_thermal/commit/03bafb8' target='_blank'>03bafb8</a> - thermal: Guard with soong namespace<br>
-<small>👤 Michael Bestas | 🕓 Sat Jul 5 15:00:57 2025 +0100</small></p>
 </details>
 
 <details><summary>hardware/qcom-caf/thermal-legacy-um</summary><br>
@@ -268,8 +206,6 @@
 <small>👤 Michael Bestas | 🕓 Sun Jul 6 13:23:20 2025 +0300</small></p>
 <p><a href='https://github.com/LineageOS/android_hardware_qcom_thermal/commit/e1d0034' target='_blank'>e1d0034</a> - Merge tag &#x27;LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0&#x27; into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0<br>
 <small>👤 Michael Bestas | 🕓 Sun Jul 6 08:54:44 2025 +0300</small></p>
-<p><a href='https://github.com/LineageOS/android_hardware_qcom_thermal/commit/9cfce74' target='_blank'>9cfce74</a> - thermal: Guard with soong namespace<br>
-<small>👤 Michael Bestas | 🕓 Sat Jul 5 13:02:21 2025 +0000</small></p>
 </details>
 
 <details><summary>hardware/qcom-caf/wlan</summary><br>
@@ -527,8 +463,6 @@
 <small>👤 LuK1337 | 🕓 Sun Jul 6 12:42:52 2025 +0200</small></p>
 <p><a href='https://github.com/LineageOS/android_tools_extract-utils/commit/9727c4e' target='_blank'>9727c4e</a> - extract_utils: avoid passing non existent paths to git add<br>
 <small>👤 bengris32 | 🕓 Sun Jul 6 12:42:01 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/android_tools_extract-utils/commit/ef904a8' target='_blank'>ef904a8</a> - extract_utils: Consider path prefixes other than `smali/`<br>
-<small>👤 bengris32 | 🕓 Sat Jul 5 14:28:54 2025 +0100</small></p>
 </details>
 
 <details><summary>vendor/codeaurora/telephony</summary><br>
@@ -562,12 +496,6 @@
 <small>👤 PixelThrived | 🕓 Mon Jul 7 12:53:41 2025 +0000</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/59ff593' target='_blank'>59ff593</a> - merge_dtbs: allow one overlay to depend on multiple others<br>
 <small>👤 Cosmin Tanislav | 🕓 Mon Jul 7 08:58:50 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/290dabd' target='_blank'>290dabd</a> - kernel: Automatically adapt path suffix for GKI modules<br>
-<small>👤 dianlujitao | 🕓 Sun Jul 6 00:18:15 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/e3b4bf2' target='_blank'>e3b4bf2</a> - vars: Add sun tags<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 22:50:34 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_lineage/commit/cf6429a' target='_blank'>cf6429a</a> - repopick: Fix showing help when no arguments given the correct way<br>
-<small>👤 Julian Veit | 🕓 Sat Jul 5 12:09:53 2025 +0200</small></p>
 </details>
 
 <details><summary>hardware/qcom-caf/sm8750/audio/agm</summary><br>
@@ -646,10 +574,6 @@
 <small>👤 Albert Tang | 🕓 Sat Jul 19 09:29:50 2025 +0100</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/be3db3d' target='_blank'>be3db3d</a> - Include generated kernel headers for adsp_sleepmon.h<br>
 <small>👤 Cosmin Tanislav | 🕓 Sat Jul 19 00:41:17 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/3b7a0f5' target='_blank'>3b7a0f5</a> - pal: Unset LOCAL_USE_VNDK<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 22:48:51 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/b1268c7' target='_blank'>b1268c7</a> - libpalclient: Drop unnecessary include<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 22:42:20 2025 +0000</small></p>
 </details>
 
 <details><summary>vendor/qcom/opensource/commonsys-intf/audio</summary><br>
@@ -660,29 +584,6 @@
 <details><summary>vendor/qcom/opensource/audio-hal/st-hal-ar</summary><br>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/65e7c6a' target='_blank'>65e7c6a</a> - Disable 32 bit variants of audio libraries for 64 bit audio targets<br>
 <small>👤 Arian | 🕓 Sun Jul 6 09:37:21 2025 +0200</small></p>
-</details>
-
-<details><summary>hardware/qcom-caf/sm8750/audio/graphservices</summary><br>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/6123643' target='_blank'>6123643</a> - Add definition for PARAM_ID_HAPTICS_RX_PCMV_PLAYBACK<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 10:06:23 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/4cf48d4' target='_blank'>4cf48d4</a> - ar_osal: Use /dev/msm_audio_ion since /dev/msm_audio_mem does not exist<br>
-<small>👤 anonymix007 | 🕓 Sat Jul 5 10:06:23 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/8544e4e' target='_blank'>8544e4e</a> - Remove typedef from unnamed enum<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 10:06:23 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/f981fd6' target='_blank'>f981fd6</a> - Revert &quot;ar_osal: Revert the stub implementation of ar_osal_log_pkt to support RTGM&quot;<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 10:06:23 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/0e42512' target='_blank'>0e42512</a> - Disable usage of libdiag<br>
-<small>👤 anonymix007 | 🕓 Sat Jul 5 10:06:23 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/3ce97bf' target='_blank'>3ce97bf</a> - Avoid discarding the packed attribute<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 10:06:19 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/dd07c6c' target='_blank'>dd07c6c</a> - Remove usage of comdef.h<br>
-<small>👤 Cosmin Tanislav | 🕓 Sat Jul 5 09:50:47 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/c4e21f7' target='_blank'>c4e21f7</a> - Allow usage without PD notifiers<br>
-<small>👤 Cosmin Tanislav | 🕓 Sat Jul 5 09:50:47 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/7a2e542' target='_blank'>7a2e542</a> - Fix incompatible-pointer-types-discards-qualifiers error<br>
-<small>👤 Cosmin Tanislav | 🕓 Sat Jul 5 09:50:47 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_audioreach-graphservices/commit/d29b9c4' target='_blank'>d29b9c4</a> - Ignore address-of-packed-member errors<br>
-<small>👤 Cosmin Tanislav | 🕓 Sat Jul 5 09:50:47 2025 +0100</small></p>
 </details>
 
 <details><summary>vendor/qcom/opensource/commonsys-intf/bluetooth</summary><br>
@@ -700,25 +601,9 @@
 <small>👤 Michael Bestas | 🕓 Sun Jul 6 08:46:40 2025 +0300</small></p>
 </details>
 
-<details><summary>hardware/qcom-caf/sm8750/data-ipa-cfg-mgr</summary><br>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/c518feb' target='_blank'>c518feb</a> - data-ipa-cfg-mgr: Disable all the debugging<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 10:32:22 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/a3540f3' target='_blank'>a3540f3</a> - ipacm: drop dependency on qti_ipa_kernel_headers<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 10:32:20 2025 +0100</small></p>
-</details>
-
 <details><summary>hardware/qcom-caf/sm8650/dataipa</summary><br>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/4f32f7d' target='_blank'>4f32f7d</a> - Merge tag &#x27;LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0&#x27; into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0<br>
 <small>👤 Michael Bestas | 🕓 Sun Jul 6 08:46:45 2025 +0300</small></p>
-</details>
-
-<details><summary>hardware/qcom-caf/sm8750/dataipa</summary><br>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/97ec202' target='_blank'>97ec202</a> - dataipa: Disable all the debugging<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 10:31:20 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0396c1c' target='_blank'>0396c1c</a> - dataipa: libipanat: Ignore all errors<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 10:31:20 2025 +0100</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/a67fb96' target='_blank'>a67fb96</a> - ipanat: drop dependency on qti_ipa_kernel_headers<br>
-<small>👤 dianlujitao | 🕓 Sat Jul 5 10:31:18 2025 +0100</small></p>
 </details>
 
 <details><summary>hardware/qcom-caf/sm8750/display/core</summary><br>
@@ -730,10 +615,6 @@
 <small>👤 Jim Wang | 🕓 Tue Jul 29 20:35:49 2025 +0200</small></p>
 <p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/f0831ee' target='_blank'>f0831ee</a> - Revert &quot;snapalloc: Fix unannotated fall-through compilation errors&quot;<br>
 <small>👤 LuK1337 | 🕓 Tue Jul 29 20:35:47 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/0d3e18e' target='_blank'>0d3e18e</a> - snapalloc: Fix unannotated fall-through compilation errors<br>
-<small>👤 Bruno Martins | 🕓 Sat Jul 5 22:19:38 2025 +0000</small></p>
-<p><a href='https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/199082e' target='_blank'>199082e</a> - display-core: Remove smmu-proxy headers defaults<br>
-<small>👤 chandu078 | 🕓 Sat Jul 5 22:19:33 2025 +0000</small></p>
 </details>
 
 <details><summary>vendor/qcom/opensource/commonsys/fm</summary><br>
@@ -825,8 +706,6 @@
 <small>👤 Tim Schumacher | 🕓 Mon Jul 7 12:01:26 2025 +0200</small></p>
 <p><a href='https://github.com/LineageOS/mirror/commit/1272486' target='_blank'>1272486</a> - Updated lineage-minimal to 06-Jul-2025 10:01 UTC<br>
 <small>👤 Tim Schumacher | 🕓 Sun Jul 6 12:01:43 2025 +0200</small></p>
-<p><a href='https://github.com/LineageOS/mirror/commit/98bb897' target='_blank'>98bb897</a> - Updated to 05-Jul-2025 22:01 UTC<br>
-<small>👤 Tim Schumacher | 🕓 Sun Jul 6 00:01:15 2025 +0200</small></p>
 </details>
 
 <details><summary>lineage/scripts</summary><br>
@@ -844,7 +723,7 @@
 
   <footer>
     <hr>
-    <p>📅 Auto-generated on <strong>2025-08-04</strong></p>
+    <p>📅 Auto-generated on <strong>2025-08-05</strong></p>
     <p>📜 GitHub Actions-powered source tracker by <a href="https://github.com/dogpoopy">dogpoopy</a>.</p>
   </footer>
 </body>
