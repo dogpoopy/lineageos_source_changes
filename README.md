@@ -1026,6 +1026,27 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Aperture</b></summary>
+
+- [82d6068](https://github.com/LineageOS/android_packages_apps_Aperture/commit/82d6068) Aperture: Update CameraX to 1.5.0-rc01
+  
+  Author: LuK1337  
+  Date: Wed Aug 13 20:29:33 2025 +0200
+
+- [f1d7cb0](https://github.com/LineageOS/android_packages_apps_Aperture/commit/f1d7cb0) Aperture: Update CameraX to 1.5.0-beta02
+  
+  Author: LuK1337  
+  Date: Wed Aug 13 19:38:01 2025 +0200
+
+- [7f948a8](https://github.com/LineageOS/android_packages_apps_Aperture/commit/7f948a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:43 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/DocumentsUI</b></summary>
 
 - [deb341e](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/deb341e) DocumentsUI: add icons for shortcuts
@@ -1527,11 +1548,6 @@
   
   Author: Timi  
   Date: Fri Jul 18 12:49:01 2025 +0000
-
-- [4ec1145](https://github.com/LineageOS/android_packages_apps_Twelve/commit/4ec1145) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Tue Jul 15 17:08:29 2025 +0000
 
 
 </details>
@@ -2524,11 +2540,6 @@
   
   Author: Deivid21  
   Date: Sat Jul 19 15:55:00 2025 +0000
-
-- [7b539e3](https://github.com/LineageOS/lineage_wiki/commit/7b539e3) wiki: guam: Update maintainers
-  
-  Author: Deivid21  
-  Date: Tue Jul 15 14:25:17 2025 -0400
 
 
 </details>
