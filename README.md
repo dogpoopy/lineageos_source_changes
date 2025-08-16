@@ -3,6 +3,11 @@
 <details>
 <summary><b>android</b></summary>
 
+- [56057a7](https://github.com/LineageOS/android/commit/56057a7) manifest: Unfork cronet
+  
+  Author: Nolen Johnson  
+  Date: Fri Aug 15 20:01:41 2025 +0000
+
 - [050d4d5](https://github.com/LineageOS/android/commit/050d4d5) manifest: Unfork more repos
   
   Author: Michael Bestas  
@@ -880,88 +885,6 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8450/audio/primary-hal</b></summary>
-
-- [247b6cc](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/247b6cc) libbatterylistener: Switch to AIDL health HAL for everyone
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 16 22:46:34 2025 +0300
-
-- [819819a](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/819819a) hal: Add LVACFS microphone feature
-  
-  Author: pjgowtham  
-  Date: Wed Jul 16 22:46:34 2025 +0300
-
-- [91659bb](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/91659bb) hal: Add ultrasound proximity support
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:46:34 2025 +0300
-
-- [fdfe3b6](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/fdfe3b6) configs: Allow setsockopt syscall for qcom c2audio
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:46:33 2025 +0300
-
-- [685c2db](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/685c2db) hal: Replace direct pid writes with setting task profiles for audio interfaces
-  
-  Author: Suren Baghdasaryan  
-  Date: Wed Jul 16 22:46:33 2025 +0300
-
-- [28f0e7c](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/28f0e7c) audio-ar: Add attribute [[fallthrough]]
-  
-  Author: Swapnil Kangralkar(Temp)  
-  Date: Wed Jul 16 22:46:33 2025 +0300
-
-- [e5c35e3](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/e5c35e3) hal: Add dependency on libarpal_headers
-  
-  Author: Bruno Martins  
-  Date: Wed Jul 16 22:46:33 2025 +0300
-
-- [2306bb5](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/2306bb5) Disable 32 bit variants of audio libraries for 64 bit audio targets
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:46:19 2025 +0300
-
-- [d84c318](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/d84c318) Convert audio makefiles to blueprint
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:46:18 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8550/audio/primary-hal</b></summary>
-
-- [55c412e](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/55c412e) libbatterylistener: Switch to AIDL health HAL for everyone
-  
-  Author: Michael Bestas  
-  Date: Thu Jul 17 01:44:46 2025 +0300
-
-- [8e38165](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/8e38165) hal: Replace direct pid writes with setting task profiles for audio interfaces
-  
-  Author: Suren Baghdasaryan  
-  Date: Thu Jul 17 01:44:46 2025 +0300
-
-- [f3ffa09](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/f3ffa09) hal: Add dependency on libarpal_headers
-  
-  Author: Bruno Martins  
-  Date: Thu Jul 17 01:44:45 2025 +0300
-
-- [11ec4db](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/11ec4db) Disable 32 bit variants of audio libraries for 64 bit audio targets
-  
-  Author: Arian  
-  Date: Thu Jul 17 01:44:41 2025 +0300
-
-- [0d8d544](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0d8d544) Convert audio makefiles to blueprint
-  
-  Author: Arian  
-  Date: Thu Jul 17 01:44:38 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8650/audio/primary-hal</b></summary>
 
 - [b9a2ccf](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/b9a2ccf) libbaterylistener: Remove unused HIDL health dependencies
@@ -978,33 +901,6 @@
   
   Author: Bruno Martins  
   Date: Fri Jul 18 15:47:50 2025 +0300
-
-- [9e1add0](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/9e1add0) Convert audio makefiles to blueprint
-  
-  Author: Arian  
-  Date: Thu Jul 17 01:43:34 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8650/display</b></summary>
-
-- [9a0e246](https://github.com/LineageOS/android_hardware_qcom_display/commit/9a0e246) Add .gitupstream file
-  
-  Author: Chirayu Desai  
-  Date: Wed Jul 16 15:45:09 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/display/hal</b></summary>
-
-- [85e88ca](https://github.com/LineageOS/android_hardware_qcom_display/commit/85e88ca) Add .gitupstream file
-  
-  Author: Chirayu Desai  
-  Date: Wed Jul 16 16:34:06 2025 +0300
 
 
 </details>
@@ -1695,88 +1591,6 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8450/audio/agm</b></summary>
-
-- [10bbf42](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/10bbf42) agm_ipc_service: Include libagm_headers
-  
-  Author: Luofan Chen  
-  Date: Thu Jul 17 03:31:08 2025 +0300
-
-- [16f8fef](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/16f8fef) ipc: Replace direct pid writes with setting task profiles for audio interfaces
-  
-  Author: Suren Baghdasaryan  
-  Date: Wed Jul 16 22:50:34 2025 +0300
-
-- [825a866](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/825a866) Ignore incompatible-pointer-types and pointer-integer-compare errors
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:49:22 2025 +0300
-
-- [632d2de](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/632d2de) plugins: tinyalsa: fix build
-  
-  Author: dianlujitao  
-  Date: Wed Jul 16 22:49:22 2025 +0300
-
-- [8330e1f](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/8330e1f) agm: plugins: Fix incompatible function pointer type error
-  
-  Author: LuK1337  
-  Date: Wed Jul 16 22:49:22 2025 +0300
-
-- [0f08bbf](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/0f08bbf) Disable 32 bit variants for 64 bit audio
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:49:22 2025 +0300
-
-- [d87f442](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/d87f442) Convert audio makefiles to blueprint
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:49:20 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8550/audio/agm</b></summary>
-
-- [153175c](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/153175c) agm_ipc_service: Include libagm_headers
-  
-  Author: Luofan Chen  
-  Date: Thu Jul 17 03:30:32 2025 +0300
-
-- [d412b99](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/d412b99) ipc: Replace direct pid writes with setting task profiles for audio interfaces
-  
-  Author: Suren Baghdasaryan  
-  Date: Wed Jul 16 22:51:53 2025 +0300
-
-- [20ad567](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/20ad567) Ignore incompatible-pointer-types and pointer-integer-compare errors
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:51:53 2025 +0300
-
-- [7598894](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/7598894) plugins: tinyalsa: fix build
-  
-  Author: dianlujitao  
-  Date: Wed Jul 16 22:51:53 2025 +0300
-
-- [0001b72](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/0001b72) agm: plugins: Fix incompatible function pointer type error
-  
-  Author: LuK1337  
-  Date: Wed Jul 16 22:51:53 2025 +0300
-
-- [b670ae0](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/b670ae0) Disable 32 bit variants for 64 bit audio
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:51:53 2025 +0300
-
-- [ac3d351](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/ac3d351) Convert audio makefiles to blueprint
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:51:53 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8650/audio/agm</b></summary>
 
 - [fcb0b23](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/fcb0b23) agm_ipc_service: Include libagm_headers
@@ -1809,11 +1623,6 @@
   Author: LuK1337  
   Date: Fri Jul 18 15:45:31 2025 +0300
 
-- [7d8b866](https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/7d8b866) Convert audio makefiles to blueprint
-  
-  Author: Arian  
-  Date: Thu Jul 17 01:40:54 2025 +0300
-
 
 </details>
 
@@ -1824,96 +1633,6 @@
   
   Author: Tommaso Fonda  
   Date: Sat Jul 26 21:31:55 2025 +0000
-
-- [65d0274](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/65d0274) pal: Parse LVACFS microphone feature parameter
-  
-  Author: pjgowtham  
-  Date: Wed Jul 16 22:32:05 2025 +0300
-
-- [dfb5304](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/dfb5304) PayloadBuilder: Fix retrieving KVs with a custom config
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:32:05 2025 +0300
-
-- [aa9e27c](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/aa9e27c) ResourceManager: Add cirrus speaker calibration support
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:32:05 2025 +0300
-
-- [4c28225](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/4c28225) Session: Allow to set initial master gain for stereo streams
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:32:05 2025 +0300
-
-- [5ef0842](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/5ef0842) Session: Correct volume payload size
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:32:05 2025 +0300
-
-- [2c07ccd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2c07ccd) PayloadBuilder: Populate key vector for ultrasound RX
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:32:05 2025 +0300
-
-- [3b428f1](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/3b428f1) libar-pal: Allow overriding speaker protection calibration path
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 16 22:32:04 2025 +0300
-
-- [6a933d3](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6a933d3) pal: Expose more headers under libarpal_headers module
-  
-  Author: SGCMarkus  
-  Date: Wed Jul 16 22:32:04 2025 +0300
-
-- [cdeb723](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/cdeb723) Disable 32 bit variants of audio libraries for 64 bit audio targets
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:32:04 2025 +0300
-
-- [c25190c](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/c25190c) Convert audio makefiles to blueprint
-  
-  Author: Arian  
-  Date: Wed Jul 16 22:32:04 2025 +0300
-
-- [27496d1](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/27496d1) pal: adapt VI structs usage to graphservices definitions
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:32:04 2025 +0300
-
-- [a5d390c](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/a5d390c) Include generated kernel headers for adsp_sleepmon.h
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:32:04 2025 +0300
-
-- [62700bd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/62700bd) pal: Make libcapiv2_headers available
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:32:02 2025 +0300
-
-- [05b0ef4](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/05b0ef4) Add missing sampling rates
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:32:02 2025 +0300
-
-- [ca51908](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/ca51908) pal: Make libacdb_headers available
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:31:59 2025 +0300
-
-- [f585503](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/f585503) pal: Make liblisten_headers available
-  
-  Author: Albert Tang  
-  Date: Wed Jul 16 22:31:57 2025 +0300
-
-- [68e7afd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/68e7afd) Guard mic occlusion events
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:13:43 2025 +0300
-
-- [47ec541](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/47ec541) Guard setting of voice calibration key values
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:13:43 2025 +0300
 
 
 </details>
@@ -1945,31 +1664,6 @@
   
   Author: anonymix007  
   Date: Thu Jul 17 12:39:58 2025 +0300
-
-- [2ed563d](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2ed563d) Include generated kernel headers for adsp_sleepmon.h
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:35:53 2025 +0300
-
-- [2d9dd03](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/2d9dd03) pal: Make libcapiv2_headers available
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:35:05 2025 +0300
-
-- [76821fd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/76821fd) Add missing sampling rates
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:34:50 2025 +0300
-
-- [ee2ca9a](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/ee2ca9a) pal: Make libacdb_headers available
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:34:47 2025 +0300
-
-- [5ccbecd](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/5ccbecd) pal: Make liblisten_headers available
-  
-  Author: Albert Tang  
-  Date: Wed Jul 16 22:34:42 2025 +0300
 
 
 </details>
@@ -2047,42 +1741,6 @@
   Author: anonymix007  
   Date: Thu Jul 17 12:21:04 2025 +0300
 
-- [d6fef2b](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d6fef2b) Include generated kernel headers for adsp_sleepmon.h
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:55:08 2025 +0300
-
-- [bca042d](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/bca042d) pal: Make libcapiv2_headers available
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:54:35 2025 +0300
-
-- [e26e82c](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/e26e82c) Add missing sampling rates
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:54:22 2025 +0300
-
-- [0f0f509](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0f0f509) pal: Make libacdb_headers available
-  
-  Author: Cosmin Tanislav  
-  Date: Wed Jul 16 22:54:19 2025 +0300
-
-- [7cedecc](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/7cedecc) pal: Make liblisten_headers available
-  
-  Author: Albert Tang  
-  Date: Wed Jul 16 22:54:17 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>vendor/qcom/opensource/audio-hal/st-hal</b></summary>
-
-- [6a578e4](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commit/6a578e4) Convert sound trigger makefile to blueprint
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 16 13:30:21 2025 +0300
-
 
 </details>
 
@@ -2093,31 +1751,6 @@
   
   Author: Michael Bestas  
   Date: Sat Jul 19 13:52:03 2025 +0000
-
-- [0ae95ee](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/0ae95ee) STHAL: Add null pointer check
-  
-  Author: Ankit Mishra  
-  Date: Wed Jul 16 13:31:13 2025 +0300
-
-- [1c03718](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/1c03718) ST-HAL: Update check for stream state in destructor
-  
-  Author: Ankit Mishra  
-  Date: Wed Jul 16 13:31:13 2025 +0300
-
-- [f8bde3d](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/f8bde3d) Disable 32 bit variants of audio libraries for 64 bit audio targets
-  
-  Author: Arian  
-  Date: Wed Jul 16 13:31:13 2025 +0300
-
-- [3e4ff53](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/3e4ff53) st-hal-ar: Add dependency on libarpal_headers
-  
-  Author: Bruno Martins  
-  Date: Wed Jul 16 13:31:13 2025 +0300
-
-- [bcb251b](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/bcb251b) Convert sound trigger makefile to blueprint
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 16 13:31:10 2025 +0300
 
 
 </details>
@@ -2297,122 +1930,6 @@
   
   Author: Cosmin Tanislav  
   Date: Fri Jul 18 15:27:42 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8650/data-ipa-cfg-mgr</b></summary>
-
-- [1f3443a](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/1f3443a) ipacm: Address ipacm start failure
-  
-  Author: dianlujitao  
-  Date: Wed Jul 16 15:37:48 2025 +0300
-
-- [e544d94](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/e544d94) ipacm: Get rid of `using namespace std;`
-  
-  Author: Yumi Yukimura  
-  Date: Wed Jul 16 15:37:48 2025 +0300
-
-- [39a24b0](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/39a24b0) ipacm: Remove compilation dependency for in_addr_t on bionic
-  
-  Author: Praveen Kurapati  
-  Date: Wed Jul 16 15:37:47 2025 +0300
-
-- [8ddd477](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/8ddd477) data-ipa-cfg-mgr: Disable all the debugging
-  
-  Author: Bruno Martins  
-  Date: Wed Jul 16 15:37:47 2025 +0300
-
-- [ec2ff2f](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/ec2ff2f) data-ipa-cfg-mgr: Remove verbose cflag
-  
-  Author: Luca Stefani  
-  Date: Wed Jul 16 15:37:47 2025 +0300
-
-- [47ab72d](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/47ab72d) data-ipa-cfg-mgr: Import hardware/qcom-caf/sm8650 namespace
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 16 15:37:47 2025 +0300
-
-- [eb4e9f4](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/eb4e9f4) data-ipa-cfg-mgr: Define soong namespace
-  
-  Author: razorloves  
-  Date: Wed Jul 16 15:34:41 2025 +0300
-
-- [571769e](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/571769e) Add .gitupstream file
-  
-  Author: Chirayu Desai  
-  Date: Wed Jul 16 15:34:41 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/data-ipa-cfg-mgr</b></summary>
-
-- [c7b0cc1](https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commit/c7b0cc1) Add .gitupstream file
-  
-  Author: Chirayu Desai  
-  Date: Wed Jul 16 16:04:19 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8650/dataipa</b></summary>
-
-- [617ae45](https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/617ae45) dataipa: Disable all the debugging
-  
-  Author: Bruno Martins  
-  Date: Wed Jul 16 15:40:29 2025 +0300
-
-- [f7ac174](https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/f7ac174) dataipa: libipanat: Ignore all errors
-  
-  Author: Bruno Martins  
-  Date: Wed Jul 16 15:40:21 2025 +0300
-
-- [b13f675](https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/b13f675) dataipa: Disable kernel modules and tests
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 16 15:39:40 2025 +0300
-
-- [3b735e1](https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/3b735e1) Add .gitupstream file
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 16 15:39:40 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/dataipa</b></summary>
-
-- [447cdfd](https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/447cdfd) Add .gitupstream file
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 16 16:05:20 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/display/core</b></summary>
-
-- [9faf8c9](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/9faf8c9) Add .gitupstream file
-  
-  Author: Chirayu Desai  
-  Date: Wed Jul 16 16:29:50 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/display/intf</b></summary>
-
-- [0b8e0b3](https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf/commit/0b8e0b3) Add .gitupstream file
-  
-  Author: Chirayu Desai  
-  Date: Wed Jul 16 16:36:32 2025 +0300
 
 
 </details>
