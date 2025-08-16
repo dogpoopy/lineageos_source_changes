@@ -1,0 +1,26 @@
+{
+  "name": "aosp-rom-monitor",
+  "version": "1.0.0",
+  "description": "Monitoring website for AOSP custom ROM projects",
+  "main": "generate-site.js",
+  "scripts": {
+    "build": "node generate-site.js",
+    "dev": "node generate-site.js && cd dist && python -m http.server 8000",
+    "test": "node generate-site.js"
+  },
+  "keywords": [
+    "aosp",
+    "android",
+    "rom",
+    "lineageos",
+    "monitoring"
+  ],
+  "author": "dogpoopy",
+  "license": "MIT",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
