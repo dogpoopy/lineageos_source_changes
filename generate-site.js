@@ -648,7 +648,9 @@ class ROMMonitor {
     <div class="footer">
         <p>Last updated: ${new Date().toLocaleString()} | Monitoring ${validProjects.reduce((sum, p) => sum + p.processedRepos, 0)} repositories</p>
     </div>
-
+</body>
+</html>
+`;
     <script>
         function toggleRepo(repoId) {
             const element = document.getElementById(repoId);
