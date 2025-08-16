@@ -1,0 +1,40 @@
+name: Update ROM Monitor
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'generate-site.js'
+      - '.github/workflows/update-site.yml'
+
+jobs:
+  update-site:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm install @xmldom/xmldom
+        
+      - name: Generate ROM monitor site
+        run: node generate-site.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Upload site artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: rom-monitor-site
+          path: dist/
