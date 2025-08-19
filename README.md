@@ -3,6 +3,11 @@
 <details>
 <summary><b>android</b></summary>
 
+- [e3425b2](https://github.com/LineageOS/android/commit/e3425b2) lineage: Sunset LiveDisplay HIDL
+  
+  Author: Bruno Martins  
+  Date: Mon Aug 18 19:21:26 2025 +0000
+
 - [c624338](https://github.com/LineageOS/android/commit/c624338) manifest: Drop superproject tag
   
   Author: Alexander Koskovich  
@@ -246,6 +251,36 @@
 <details>
 <summary><b>device/lineage/sepolicy</b></summary>
 
+- [2337132](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/2337132) lineage: Remove LiveDisplay HIDL rules
+  
+  Author: Bruno Martins  
+  Date: Sun Aug 17 00:00:52 2025 +0100
+
+- [f17befc](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/f17befc) common: Add AIDL LiveDisplay sysfs HAL
+  
+  Author: Yumi Yukimura  
+  Date: Sat Aug 16 23:03:35 2025 +0100
+
+- [2438a2a](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/2438a2a) qcom: Label AIDL LiveDisplay SDM HAL
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 23:03:03 2025 +0100
+
+- [80894be](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/80894be) common: Add LiveDisplay AIDL interface
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 23:03:03 2025 +0100
+
+- [a9abdf4](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/a9abdf4) common: Remove fastcharge HIDL rules
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 16 23:03:03 2025 +0100
+
+- [ecde594](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/ecde594) common: Label vendor.lineage.health.IFastCharge/default
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 23:03:03 2025 +0100
+
 - [5844045](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/5844045) qcom: Remove cryptfshw remnants
   
   Author: Bruno Martins  
@@ -282,27 +317,6 @@
   
   Author: LuK1337  
   Date: Mon Aug 4 15:56:22 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>device/qcom/sepolicy_vndr/sm8750</b></summary>
-
-- [89c7b4d](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/89c7b4d) qva: Extend extcon rules
-  
-  Author: Bruno Martins  
-  Date: Sun Jul 20 01:22:03 2025 +0100
-
-- [abaa654](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/abaa654) generic: Allow init write to discard_max_bytes
-  
-  Author: dianlujitao  
-  Date: Sun Jul 20 01:02:31 2025 +0100
-
-- [76ca314](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/76ca314) sun: Label discard_max_bytes sysfs
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 01:02:31 2025 +0100
 
 
 </details>
@@ -434,6 +448,41 @@
 <details>
 <summary><b>hardware/lineage/interfaces</b></summary>
 
+- [8f9bf70](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/8f9bf70) livedisplay: Sunset HIDL
+  
+  Author: Bruno Martins  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [24128f2](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/24128f2) fastcharge: Sunset HIDL
+  
+  Author: Michael Bestas  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [ffee52d](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/ffee52d) livedisplay: sdm: Initial AIDL port
+  
+  Author: LuK1337  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [7c08240](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7c08240) livedisplay: Add AIDL interface
+  
+  Author: LuK1337  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [92b86da](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/92b86da) health: Clean up ChargingControl includes
+  
+  Author: Bruno Martins  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [b1cb282](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/b1cb282) health: Explicitly declare AIDL version in VINTF
+  
+  Author: Bruno Martins  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [06f759c](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/06f759c) health: Implement IFastCharge interface
+  
+  Author: LuK1337  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
 - [08503d5](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/08503d5) Remove old Broadcom NFC impl
   
   Author: Bruno Martins  
@@ -470,6 +519,21 @@
 
 <details>
 <summary><b>lineage-sdk</b></summary>
+
+- [3831b61](https://github.com/LineageOS/android_lineage-sdk/commit/3831b61) sdk: Remove LiveDisplay HIDL support
+  
+  Author: Bruno Martins  
+  Date: Sat Aug 16 20:42:12 2025 +0200
+
+- [ff48520](https://github.com/LineageOS/android_lineage-sdk/commit/ff48520) Wire up AIDL LiveDisplay HAL
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:37:46 2025 +0200
+
+- [e3790a3](https://github.com/LineageOS/android_lineage-sdk/commit/e3790a3) sdk: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:37:44 2025 +0200
 
 - [16a2a81](https://github.com/LineageOS/android_lineage-sdk/commit/16a2a81) LineageHardwareManager: Restore FEATURE_SUNLIGHT_ENHANCEMENT case
   
@@ -819,21 +883,6 @@
   Author: Michael Bestas  
   Date: Mon Jul 21 00:13:38 2025 +0200
 
-- [99d1684](https://github.com/LineageOS/android_packages_apps_Etar/commit/99d1684) Update CircularImageView package name (Closes: #1903)
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jul 19 07:48:46 2025 +0200
-
-- [b7e59ff](https://github.com/LineageOS/android_packages_apps_Etar/commit/b7e59ff) Move CircularImageView to Etar source
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jul 19 07:46:04 2025 +0200
-
-- [8db2731](https://github.com/LineageOS/android_packages_apps_Etar/commit/8db2731) Restore CircularImageView.java from f0c693139
-  
-  Author: Jochen Sprickerhof  
-  Date: Sat Jul 19 07:44:42 2025 +0200
-
 
 </details>
 
@@ -997,6 +1046,17 @@
 </details>
 
 <details>
+<summary><b>prebuilts/tools-lineage</b></summary>
+
+- [6122a66](https://github.com/LineageOS/android_prebuilts_tools-lineage/commit/6122a66) tools-lineage: Expose `mogrify` as `prebuilt_build_tool`
+  
+  Author: Yumi Yukimura  
+  Date: Fri Aug 15 17:26:44 2025 +0800
+
+
+</details>
+
+<details>
 <summary><b>tools/extract-utils</b></summary>
 
 - [65b9f3a](https://github.com/LineageOS/android_tools_extract-utils/commit/65b9f3a) extract_utils: sort only groups of blobs
@@ -1009,6 +1069,46 @@
 
 <details>
 <summary><b>vendor/lineage</b></summary>
+
+- [b3e6f3a](https://github.com/LineageOS/android_vendor_lineage/commit/b3e6f3a) charger: Convert to Android.bp
+  
+  Author: Yumi Yukimura  
+  Date: Mon Aug 18 19:26:28 2025 +0000
+
+- [3b29ed3](https://github.com/LineageOS/android_vendor_lineage/commit/3b29ed3) bootanimation: Convert to Android.bp
+  
+  Author: Yumi Yukimura  
+  Date: Mon Aug 18 19:26:28 2025 +0000
+
+- [2d4dffd](https://github.com/LineageOS/android_vendor_lineage/commit/2d4dffd) lineage: Convert build-manifest.xml to Android.bp
+  
+  Author: Yumi Yukimura  
+  Date: Mon Aug 18 19:26:28 2025 +0000
+
+- [6d29d0c](https://github.com/LineageOS/android_vendor_lineage/commit/6d29d0c) config: Remove LiveDisplay HIDL from FCM
+  
+  Author: Bruno Martins  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [b105652](https://github.com/LineageOS/android_vendor_lineage/commit/b105652) config: Remove fastcharge HIDL from FCM
+  
+  Author: Michael Bestas  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [d52e994](https://github.com/LineageOS/android_vendor_lineage/commit/d52e994) config: Add vendor.lineage.livedisplay V1
+  
+  Author: LuK1337  
+  Date: Mon Aug 18 19:21:25 2025 +0000
+
+- [c0b4337](https://github.com/LineageOS/android_vendor_lineage/commit/c0b4337) config: Use a more accurate approach to locate device makefile for EPPE
+  
+  Author: Yumi Yukimura  
+  Date: Mon Aug 18 15:14:27 2025 +0000
+
+- [94968e7](https://github.com/LineageOS/android_vendor_lineage/commit/94968e7) APNs: Add Inwi (Morocco)
+  
+  Author: Onelots  
+  Date: Sun Aug 17 20:43:26 2025 +0200
 
 - [b9bca14](https://github.com/LineageOS/android_vendor_lineage/commit/b9bca14) kernel: Introduce macros for comparing versions and make use of them
   
@@ -1166,17 +1266,6 @@
 </details>
 
 <details>
-<summary><b>vendor/qcom/opensource/audio-hal/st-hal-ar-legacy</b></summary>
-
-- [219a0a3](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/219a0a3) sthal-ar: Migrate to legacy specific namespaces
-  
-  Author: Michael Bestas  
-  Date: Sat Jul 19 13:52:03 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>lineage/hudson</b></summary>
 
 - [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
@@ -1203,11 +1292,6 @@
   
   Author: Andrey Sprynga  
   Date: Tue Jul 22 01:35:53 2025 +0700
-
-- [634d24a](https://github.com/LineageOS/hudson/commit/634d24a) hudson: Add Motorola Defy 2021 (bathena)
-  
-  Author: Deivid21  
-  Date: Sat Jul 19 15:55:10 2025 +0000
 
 
 </details>
@@ -1295,11 +1379,6 @@
   Author: Andrey Sprynga  
   Date: Tue Jul 22 13:57:10 2025 +0700
 
-- [7628074](https://github.com/LineageOS/lineage_wiki/commit/7628074) wiki: Add Motorola Defy 2021 (bathena)
-  
-  Author: Deivid21  
-  Date: Sat Jul 19 15:55:00 2025 +0000
-
 
 </details>
 
@@ -1320,22 +1399,6 @@
   
   Author: Tim Schumacher  
   Date: Tue Jul 22 00:01:31 2025 +0200
-
-- [da0b4f7](https://github.com/LineageOS/mirror/commit/da0b4f7) Updated to 19-Jul-2025 16:08 UTC
-  
-  Author: Michael Bestas  
-  Date: Sat Jul 19 19:08:46 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>lineage/website</b></summary>
-
-- [cff40b5](https://github.com/LineageOS/www/commit/cff40b5) www: Use `clip-path: border-box` for longevity section
-  
-  Author: LuK1337  
-  Date: Sat Jul 19 12:00:02 2025 +0200
 
 
 </details>
