@@ -84,167 +84,6 @@
   Author: Tom Marshall  
   Date: Sat Jul 26 15:09:49 2025 +0100
 
-- [e9e3c97](https://github.com/LineageOS/android_build/commit/e9e3c97) releasetools: squash backuptool support
-  
-  Author: Chris Soyars  
-  Date: Sun Jul 20 16:56:17 2025 +0300
-
-- [69ccf41](https://github.com/LineageOS/android_build/commit/69ccf41) build: ota: Support for install tools in /tmp/install
-  
-  Author: Tom Marshall  
-  Date: Sun Jul 20 16:55:32 2025 +0300
-
-- [81341d0](https://github.com/LineageOS/android_build/commit/81341d0) Add build support for XZ ramdisks
-  
-  Author: Luca Stefani  
-  Date: Sun Jul 20 16:52:52 2025 +0300
-
-- [f20f923](https://github.com/LineageOS/android_build/commit/f20f923) Fix recovery image generation with LZ4 compressed ramdisk
-  
-  Author: Arne Coucheron  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [d39d7ac](https://github.com/LineageOS/android_build/commit/d39d7ac) build: Introduce android-info-extra.txt support
-  
-  Author: Bruno Martins  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [2f8f168](https://github.com/LineageOS/android_build/commit/2f8f168) core: Treat vendor/lineage-priv/* as release-keys
-  
-  Author: LuK1337  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [583d986](https://github.com/LineageOS/android_build/commit/583d986) Conditionally use Unix epoch time for build incremental
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [da5e0f6](https://github.com/LineageOS/android_build/commit/da5e0f6) core: Allow overriding device/model/name/fingerprint properties
-  
-  Author: LuK1337  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [74630ce](https://github.com/LineageOS/android_build/commit/74630ce) Export PRODUCT_BUILD_PROP_OVERRIDES to soong
-  
-  Author: Luca Stefani  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [fef05fc](https://github.com/LineageOS/android_build/commit/fef05fc) releasetools: Handle build description not ending in -keys
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [adb5003](https://github.com/LineageOS/android_build/commit/adb5003) releasetools: Fix fstab path detection when input_file is a path to zip
-  
-  Author: LuK1337  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [02d080f](https://github.com/LineageOS/android_build/commit/02d080f) releasetools: Add script to sign zips
-  
-  Author: Gabriele M  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [9c625a2](https://github.com/LineageOS/android_build/commit/9c625a2) releasetools: support reading release keys out of some sort of command
-  
-  Author: Tom Powell  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [f3f13de](https://github.com/LineageOS/android_build/commit/f3f13de) Add bluetooth to default key map
-  
-  Author: HZ  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [de770fc](https://github.com/LineageOS/android_build/commit/de770fc) Don&#x27;t set PRODUCT_ENABLE_UFFD_GC by default
-  
-  Author: Chirayu Desai  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [4b90ddb](https://github.com/LineageOS/android_build/commit/4b90ddb) Add `CHRE_DAEMON_LOAD_INTO_SENSORSPD` to soong_config_variable
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [feaa8bf](https://github.com/LineageOS/android_build/commit/feaa8bf) layoutlib: Use wildcard to find device overlays
-  
-  Author: Dmitrii  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [f824af2](https://github.com/LineageOS/android_build/commit/f824af2) Remove non-existent com.android.ranging package
-  
-  Author: Thomas Turner  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [c0add17](https://github.com/LineageOS/android_build/commit/c0add17) Disable Traceur for non eng-builds
-  
-  Author: Aaron Kling  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [e45b7fa](https://github.com/LineageOS/android_build/commit/e45b7fa) Unset BOARD_EXT4_SHARE_DUP_BLOCKS
-  
-  Author: LuK1337  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [25c709c](https://github.com/LineageOS/android_build/commit/25c709c) build_image: Allow disabling custom inode count calculation
-  
-  Author: Christian Oder  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [1e56910](https://github.com/LineageOS/android_build/commit/1e56910) releasetools: Use the first entry of a mount point when reading fstab
-  
-  Author: Brint E. Kriebel  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [eea3865](https://github.com/LineageOS/android_build/commit/eea3865) Edify: Add abort message for bootloader asserts
-  
-  Author: Matt Mower  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [4f58a70](https://github.com/LineageOS/android_build/commit/4f58a70) ota: Disable downgrade check
-  
-  Author: Andrew Dodd  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [4963706](https://github.com/LineageOS/android_build/commit/4963706) Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag
-  
-  Author: LuK1337  
-  Date: Sun Jul 20 16:52:51 2025 +0300
-
-- [0c0e9a3](https://github.com/LineageOS/android_build/commit/0c0e9a3) Remove unused locale data for recovery
-  
-  Author: Alessandro Astone  
-  Date: Sun Jul 20 16:52:50 2025 +0300
-
-- [f4cbb91](https://github.com/LineageOS/android_build/commit/f4cbb91) Add blank_unblank_on_init to PRIVATE_RECOVERY_UI_PROPERTIES
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 16:52:50 2025 +0300
-
-- [df6b67a](https://github.com/LineageOS/android_build/commit/df6b67a) Allow setting the recovery density separately from the aapt config
-  
-  Author: Chirayu Desai  
-  Date: Sun Jul 20 16:52:50 2025 +0300
-
-- [c3049a9](https://github.com/LineageOS/android_build/commit/c3049a9) Don&#x27;t enable ADB by default on userdebug builds
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 16:52:50 2025 +0300
-
-- [9a71028](https://github.com/LineageOS/android_build/commit/9a71028) Allow override of device asserts, including multi-device support.
-  
-  Author: Steve Kondik  
-  Date: Sun Jul 20 16:52:50 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>build/soong</b></summary>
-
-- [877867f](https://github.com/LineageOS/android_build_soong/commit/877867f) Revert &quot;Replace qti_kernel_headers with generated_kernel_headers&quot;
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 17:40:25 2025 +0300
-
 
 </details>
 
@@ -292,6 +131,26 @@
 <details>
 <summary><b>device/qcom/sepolicy</b></summary>
 
+- [bfdfc5c](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/bfdfc5c) sepolicy: Added attributes for Aware QSEC services.
+  
+  Author: Sameer P Amingad  
+  Date: Mon Jul 21 14:15:21 2025 +0300
+
+- [8d63d92](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8d63d92) Add sepolicy change for qrs service
+  
+  Author: Raghavender Reddy Bujala  
+  Date: Mon Jul 21 14:15:21 2025 +0300
+
+- [96ab3c2](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/96ab3c2) Adding Attributes for QRS
+  
+  Author: Sanchit Sharma  
+  Date: Mon Jul 21 14:15:20 2025 +0300
+
+- [15b6c61](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/15b6c61) sepolicy: Added attributes for bluetooth_fmd
+  
+  Author: Amarender Kanchugatla  
+  Date: Mon Jul 21 14:15:20 2025 +0300
+
 - [e9336a0](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e9336a0) AKS: sepolicy for gamepad
   
   Author: quic_farenl  
@@ -317,6 +176,57 @@
   
   Author: LuK1337  
   Date: Mon Aug 4 15:56:22 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>device/qcom/sepolicy_vndr/sm8650</b></summary>
+
+- [d918ef2](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d918ef2) sepolicy_vndr: Allow USB HAL to read display brightness
+  
+  Author: Wesley Cheng  
+  Date: Sat Jul 26 13:29:32 2025 +0300
+
+- [3af629c](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3af629c) sepolicy: Remove sysfs_udc label
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 26 13:29:32 2025 +0300
+
+- [ce481bc](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ce481bc) sepolicy_vndr: Allow USB HAL to access udc sysfs nodes
+  
+  Author: Akash Kumar  
+  Date: Sat Jul 26 13:29:32 2025 +0300
+
+- [db9d8b6](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/db9d8b6) sepolicy: Remove mem_sleep sysfs label
+  
+  Author: ViShal69x  
+  Date: Sat Jul 26 13:29:32 2025 +0300
+
+- [791bef2](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/791bef2) generic: Allow init write to discard_max_bytes
+  
+  Author: dianlujitao  
+  Date: Sat Jul 26 13:29:32 2025 +0300
+
+- [bd7be83](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/bd7be83) generic: Label discard_max_bytes sysfs
+  
+  Author: Michael Bestas  
+  Date: Sat Jul 26 13:29:32 2025 +0300
+
+- [b379507](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b379507) sepolicy_vndr: Move qti-media file contexts to genfs
+  
+  Author: Priyanka Gujjula  
+  Date: Thu Jul 24 14:42:59 2025 +0300
+
+- [824ca74](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/824ca74) seapp_context: Fix build error.
+  
+  Author: Siddeswar Aluganti  
+  Date: Thu Jul 24 14:42:54 2025 +0300
+
+- [bf7667f](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/bf7667f) qva: Extend extcon rules
+  
+  Author: Bruno Martins  
+  Date: Thu Jul 24 14:42:25 2025 +0300
 
 
 </details>
@@ -498,21 +408,6 @@
   
   Author: kmiit  
   Date: Sun Aug 10 08:43:34 2025 +0000
-
-- [9c45155](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/9c45155) qcom: Map kernel headers to generated_kernel_headers
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 23:36:59 2025 +0300
-
-- [3be73bc](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/3be73bc) qcom: Split soong configs for STHAL
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 23:36:56 2025 +0300
-
-- [76dca5b](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/76dca5b) common: Add liboemcrypto.so to vendor linker config
-  
-  Author: LuK1337  
-  Date: Sun Jul 20 22:01:03 2025 +0200
 
 
 </details>
@@ -878,11 +773,6 @@
   Author: Gitsaibot  
   Date: Mon Jul 21 18:23:40 2025 +0200
 
-- [6dcc687](https://github.com/LineageOS/android_packages_apps_Etar/commit/6dcc687) Make key non-nullable in CalendarDataStore
-  
-  Author: Michael Bestas  
-  Date: Mon Jul 21 00:13:38 2025 +0200
-
 
 </details>
 
@@ -986,61 +876,6 @@
   
   Author: Inhishonor  
   Date: Fri Aug 1 19:45:36 2025 +0000
-
-- [040bd2d](https://github.com/LineageOS/android_packages_apps_Twelve/commit/040bd2d) Twelve: Let the app handle view intents with genre content URIs
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 18:08:46 2025 +0200
-
-- [5298370](https://github.com/LineageOS/android_packages_apps_Twelve/commit/5298370) Twelve: Don&#x27;t hardcode MediaStore mime types
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 17:46:02 2025 +0200
-
-- [51e1521](https://github.com/LineageOS/android_packages_apps_Twelve/commit/51e1521) Twelve: ProviderSelectorDialogFragment: Highlight current provider
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 14:42:36 2025 +0200
-
-- [2c9e9fa](https://github.com/LineageOS/android_packages_apps_Twelve/commit/2c9e9fa) Twelve: BaseMediaItemView: Implement states
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 14:42:36 2025 +0200
-
-- [9359d9a](https://github.com/LineageOS/android_packages_apps_Twelve/commit/9359d9a) Twelve: ListItem: Implement states, dim support and rounded corners
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 14:42:36 2025 +0200
-
-- [82dce9f](https://github.com/LineageOS/android_packages_apps_Twelve/commit/82dce9f) Twelve: Add missing content description
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 14:42:36 2025 +0200
-
-- [b8c325c](https://github.com/LineageOS/android_packages_apps_Twelve/commit/b8c325c) Twelve: Move KAPT block to the right place
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 14:42:36 2025 +0200
-
-- [10e7cb2](https://github.com/LineageOS/android_packages_apps_Twelve/commit/10e7cb2) Twelve: Random code cleanup
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 14:42:36 2025 +0200
-
-- [1aebdd7](https://github.com/LineageOS/android_packages_apps_Twelve/commit/1aebdd7) Twelve: New now playing stats bottom sheet
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 13:39:53 2025 +0200
-
-- [42fd32a](https://github.com/LineageOS/android_packages_apps_Twelve/commit/42fd32a) Twelve: Remove unused import
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Jul 20 13:39:53 2025 +0200
-
-- [463325a](https://github.com/LineageOS/android_packages_apps_Twelve/commit/463325a) Twelve: Add Jellyfin suggestions
-  
-  Author: Timi  
-  Date: Sun Jul 20 13:02:16 2025 +0300
 
 
 </details>
@@ -1234,11 +1069,6 @@
   
   Author: Aaron Kling  
   Date: Tue Jul 22 06:01:23 2025 +0000
-
-- [a356ad6](https://github.com/LineageOS/android_vendor_lineage/commit/a356ad6) build: Move qti_kernel_headers to hardware/qcom-caf/common
-  
-  Author: Michael Bestas  
-  Date: Sun Jul 20 19:42:46 2025 +0300
 
 
 </details>
