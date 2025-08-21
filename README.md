@@ -23,11 +23,6 @@
   Author: Michael Bestas  
   Date: Wed Jul 23 19:31:26 2025 +0300
 
-- [dd093eb](https://github.com/LineageOS/android/commit/dd093eb) manifest: Unfork repos with no changes
-  
-  Author: Michael Bestas  
-  Date: Mon Jul 21 14:20:45 2025 +0300
-
 
 </details>
 
@@ -124,47 +119,6 @@
   
   Author: Bruno Martins  
   Date: Sat Aug 16 23:03:01 2025 +0100
-
-
-</details>
-
-<details>
-<summary><b>device/qcom/sepolicy</b></summary>
-
-- [bfdfc5c](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/bfdfc5c) sepolicy: Added attributes for Aware QSEC services.
-  
-  Author: Sameer P Amingad  
-  Date: Mon Jul 21 14:15:21 2025 +0300
-
-- [8d63d92](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8d63d92) Add sepolicy change for qrs service
-  
-  Author: Raghavender Reddy Bujala  
-  Date: Mon Jul 21 14:15:21 2025 +0300
-
-- [96ab3c2](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/96ab3c2) Adding Attributes for QRS
-  
-  Author: Sanchit Sharma  
-  Date: Mon Jul 21 14:15:20 2025 +0300
-
-- [15b6c61](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/15b6c61) sepolicy: Added attributes for bluetooth_fmd
-  
-  Author: Amarender Kanchugatla  
-  Date: Mon Jul 21 14:15:20 2025 +0300
-
-- [e9336a0](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e9336a0) AKS: sepolicy for gamepad
-  
-  Author: quic_farenl  
-  Date: Mon Jul 21 14:15:20 2025 +0300
-
-- [7d2161a](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7d2161a) Revert &quot;sepolicy: Allow isolated_compute_app to be a client of DSP HAL&quot;
-  
-  Author: Michael Bestas  
-  Date: Mon Jul 21 14:15:20 2025 +0300
-
-- [775be6b](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/775be6b) Revert &quot;Add LocAidlGnss service in hal_gnss_service domain&quot;
-  
-  Author: Michael Bestas  
-  Date: Mon Jul 21 14:15:20 2025 +0300
 
 
 </details>
@@ -342,15 +296,30 @@
 <details>
 <summary><b>hardware/lineage/compat</b></summary>
 
+- [b799233](https://github.com/LineageOS/android_hardware_lineage_compat/commit/b799233) radio/config: Edit backend interface name
+  
+  Author: Yumi Yukimura  
+  Date: Thu Aug 14 17:52:51 2025 +0000
+
+- [04ed5c7](https://github.com/LineageOS/android_hardware_lineage_compat/commit/04ed5c7) radio/config: Add Android.bp
+  
+  Author: Yumi Yukimura  
+  Date: Thu Aug 14 17:51:00 2025 +0000
+
+- [65e9974](https://github.com/LineageOS/android_hardware_lineage_compat/commit/65e9974) radio/config: `hidl-gen -L c++ android.hardware.radio.config@1.{0..2}`
+  
+  Author: Yumi Yukimura  
+  Date: Thu Aug 14 17:50:50 2025 +0000
+
+- [f33a55b](https://github.com/LineageOS/android_hardware_lineage_compat/commit/f33a55b) radio/config: Remove the old implementation
+  
+  Author: Yumi Yukimura  
+  Date: Thu Aug 14 17:50:34 2025 +0000
+
 - [6fc7494](https://github.com/LineageOS/android_hardware_lineage_compat/commit/6fc7494) compat: Provide libui-v34
   
   Author: Frost  
   Date: Wed Jul 30 17:04:35 2025 +0300
-
-- [1628d05](https://github.com/LineageOS/android_hardware_lineage_compat/commit/1628d05) compat: Provide libaudioroute-v34
-  
-  Author: basamaryan  
-  Date: Mon Jul 21 11:41:18 2025 +0000
 
 
 </details>
@@ -763,16 +732,6 @@
   Author: Gitsaibot  
   Date: Wed Jul 23 03:04:59 2025 +0200
 
-- [9a3ad0d](https://github.com/LineageOS/android_packages_apps_Etar/commit/9a3ad0d) Set input mode to clock for TimePicker
-  
-  Author: Gitsaibot  
-  Date: Mon Jul 21 18:24:16 2025 +0200
-
-- [9f94053](https://github.com/LineageOS/android_packages_apps_Etar/commit/9f94053) Add missing style attribute for label of the 4th day
-  
-  Author: Gitsaibot  
-  Date: Mon Jul 21 18:23:40 2025 +0200
-
 
 </details>
 
@@ -1118,11 +1077,6 @@
   Author: Bruno Martins  
   Date: Wed Jul 23 21:24:45 2025 +0100
 
-- [0815403](https://github.com/LineageOS/hudson/commit/0815403) Akershus Castle is a medieval castle in the Norwegian capital Oslo that was built to protect and provide a royal residence for the city.
-  
-  Author: Andrey Sprynga  
-  Date: Tue Jul 22 01:35:53 2025 +0700
-
 
 </details>
 
@@ -1215,6 +1169,11 @@
 <details>
 <summary><b>lineage/mirror</b></summary>
 
+- [4148dda](https://github.com/LineageOS/mirror/commit/4148dda) Updated to 20-Aug-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Aug 21 00:01:32 2025 +0200
+
 - [357e63f](https://github.com/LineageOS/mirror/commit/357e63f) Updated to 13-Aug-2025 22:01 UTC
   
   Author: Tim Schumacher  
@@ -1224,11 +1183,6 @@
   
   Author: Tim Schumacher  
   Date: Sat Aug 9 23:24:49 2025 +0200
-
-- [86ff047](https://github.com/LineageOS/mirror/commit/86ff047) Updated to 21-Jul-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Jul 22 00:01:31 2025 +0200
 
 
 </details>
