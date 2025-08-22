@@ -1,429 +1,247 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>android</b></summary>
+<summary><b>android</b> (1 commits)</summary>
 
-- [e3425b2](https://github.com/LineageOS/android/commit/e3425b2) lineage: Sunset LiveDisplay HIDL
-  
-  Author: Bruno Martins  
-  Date: Mon Aug 18 19:21:26 2025 +0000
-
-- [c624338](https://github.com/LineageOS/android/commit/c624338) manifest: Drop superproject tag
+- [51cbbb8](https://github.com/LineageOS/android/commit/51cbbb8) manifest: Drop superproject tag
   
   Author: Alexander Koskovich  
-  Date: Sun Aug 17 22:12:20 2025 +0000
-
-- [56057a7](https://github.com/LineageOS/android/commit/56057a7) manifest: Unfork cronet
-  
-  Author: Nolen Johnson  
-  Date: Fri Aug 15 20:01:41 2025 +0000
-
-- [050d4d5](https://github.com/LineageOS/android/commit/050d4d5) manifest: Unfork more repos
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 23 19:31:26 2025 +0300
+  Date: Sun Aug 17 22:12:22 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>build/make</b></summary>
+<summary><b>build/make</b> (1 commits)</summary>
 
-- [396fc58](https://github.com/LineageOS/android_build/commit/396fc58) envsetup: lunch: Generate build-manifest.xml after roomservice finishes
+- [cc3952e](https://github.com/LineageOS/android_build/commit/cc3952e) envsetup: lunch: Generate build-manifest.xml after roomservice finishes
   
   Author: Yumi Yukimura  
-  Date: Wed Aug 20 21:16:59 2025 +0800
+  Date: Wed Aug 20 21:30:52 2025 +0800
 
-- [7631c3c](https://github.com/LineageOS/android_build/commit/7631c3c) Revert &quot;Drop legacy vboot support.&quot;
+
+</details>
+
+<details>
+<summary><b>build/release</b> (1 commits)</summary>
+
+- [f966e5e](https://github.com/LineageOS/android_build_release/commit/f966e5e) Bump Security String to 2025-08-01
   
-  Author: Nolen Johnson  
-  Date: Mon Aug 11 14:25:30 2025 -0400
+  Author: althafvly  
+  Date: Fri Aug 15 17:30:18 2025 +0000
 
-- [8401cef](https://github.com/LineageOS/android_build/commit/8401cef) releasetools: Unconditionally store recovery.img in non-A/B OTA
+
+</details>
+
+<details>
+<summary><b>device/lineage/sepolicy</b> (4 commits)</summary>
+
+- [792d024](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/792d024) qcom: Label AIDL LiveDisplay SDM HAL
   
   Author: LuK1337  
-  Date: Mon Aug 11 14:23:48 2025 -0400
+  Date: Mon Aug 18 19:13:29 2025 +0000
 
-- [5316e57](https://github.com/LineageOS/android_build/commit/5316e57) releasetools: Make recovery patch use bsdiff exclusively
+- [fac5591](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/fac5591) common: Add LiveDisplay AIDL interface
   
-  Author: Gérard Parat  
-  Date: Mon Aug 11 14:23:47 2025 -0400
+  Author: LuK1337  
+  Date: Mon Aug 18 19:13:28 2025 +0000
 
-- [745a0b1](https://github.com/LineageOS/android_build/commit/745a0b1) build: Enable super image build rules depending on single super block device
+- [4dde0da](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/4dde0da) common: Label vendor.lineage.health.IFastCharge/default
   
-  Author: Yumi Yukimura  
-  Date: Mon Aug 11 14:21:32 2025 -0400
+  Author: LuK1337  
+  Date: Mon Aug 18 19:13:11 2025 +0000
 
-- [60a3fda](https://github.com/LineageOS/android_build/commit/60a3fda) releasetools: Pass non-sparse super_empty.img to update_dynamic_partitions()
-  
-  Author: Yumi Yukimura  
-  Date: Mon Aug 11 14:21:32 2025 -0400
-
-- [670cbe1](https://github.com/LineageOS/android_build/commit/670cbe1) releasetools: build_super_image: Do not set readonly attr
-  
-  Author: Yumi Yukimura  
-  Date: Mon Aug 11 14:21:32 2025 -0400
-
-- [3469556](https://github.com/LineageOS/android_build/commit/3469556) Fix unified a/b zip generation failure
-  
-  Author: Aaron Kling  
-  Date: Sun Jul 27 23:22:14 2025 -0400
-
-- [d27fe35](https://github.com/LineageOS/android_build/commit/d27fe35) releasetools: Fallback to calculated fp if partition fp is missing
-  
-  Author: Aaron Kling  
-  Date: Sun Jul 27 23:22:05 2025 -0400
-
-- [fcc3738](https://github.com/LineageOS/android_build/commit/fcc3738) build: Separate commands in recovery foreach loops
-  
-  Author: Matt Mower  
-  Date: Sat Jul 26 15:22:42 2025 +0100
-
-- [6d27abb](https://github.com/LineageOS/android_build/commit/6d27abb) build: recovery: Support adding device-specific items
-  
-  Author: Tom Marshall  
-  Date: Sat Jul 26 15:09:49 2025 +0100
-
-
-</details>
-
-<details>
-<summary><b>device/lineage/sepolicy</b></summary>
-
-- [2337132](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/2337132) lineage: Remove LiveDisplay HIDL rules
+- [f0ecd81](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/f0ecd81) qcom: Remove cryptfshw remnants
   
   Author: Bruno Martins  
-  Date: Sun Aug 17 00:00:52 2025 +0100
-
-- [f17befc](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/f17befc) common: Add AIDL LiveDisplay sysfs HAL
-  
-  Author: Yumi Yukimura  
-  Date: Sat Aug 16 23:03:35 2025 +0100
-
-- [2438a2a](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/2438a2a) qcom: Label AIDL LiveDisplay SDM HAL
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 23:03:03 2025 +0100
-
-- [80894be](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/80894be) common: Add LiveDisplay AIDL interface
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 23:03:03 2025 +0100
-
-- [a9abdf4](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/a9abdf4) common: Remove fastcharge HIDL rules
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 16 23:03:03 2025 +0100
-
-- [ecde594](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/ecde594) common: Label vendor.lineage.health.IFastCharge/default
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 23:03:03 2025 +0100
-
-- [5844045](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/5844045) qcom: Remove cryptfshw remnants
-  
-  Author: Bruno Martins  
-  Date: Sat Aug 16 23:03:01 2025 +0100
+  Date: Sat Aug 16 23:01:46 2025 +0100
 
 
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/legacy-um</b></summary>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
 
-- [fc367b4](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/fc367b4) sepolicy: holi: Label pmr735a power supply nodes
+- [d94d104](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d94d104) sepolicy: holi: Label pmr735a power supply nodes
   
   Author: LuK1337  
-  Date: Mon Aug 4 15:56:22 2025 +0200
+  Date: Mon Aug 4 15:54:40 2025 +0200
 
 
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/sm8650</b></summary>
+<summary><b>device/qcom/sepolicy_vndr/sm8650</b> (2 commits)</summary>
 
-- [d918ef2](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d918ef2) sepolicy_vndr: Allow USB HAL to read display brightness
-  
-  Author: Wesley Cheng  
-  Date: Sat Jul 26 13:29:32 2025 +0300
-
-- [3af629c](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3af629c) sepolicy: Remove sysfs_udc label
-  
-  Author: Michael Bestas  
-  Date: Sat Jul 26 13:29:32 2025 +0300
-
-- [ce481bc](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ce481bc) sepolicy_vndr: Allow USB HAL to access udc sysfs nodes
-  
-  Author: Akash Kumar  
-  Date: Sat Jul 26 13:29:32 2025 +0300
-
-- [db9d8b6](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/db9d8b6) sepolicy: Remove mem_sleep sysfs label
-  
-  Author: ViShal69x  
-  Date: Sat Jul 26 13:29:32 2025 +0300
-
-- [791bef2](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/791bef2) generic: Allow init write to discard_max_bytes
+- [4ab0332](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4ab0332) generic: Allow init write to discard_max_bytes
   
   Author: dianlujitao  
-  Date: Sat Jul 26 13:29:32 2025 +0300
+  Date: Fri Jul 25 07:29:30 2025 -0400
 
-- [bd7be83](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/bd7be83) generic: Label discard_max_bytes sysfs
+- [a11bf61](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a11bf61) generic: Label discard_max_bytes sysfs
   
   Author: Michael Bestas  
-  Date: Sat Jul 26 13:29:32 2025 +0300
-
-- [b379507](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b379507) sepolicy_vndr: Move qti-media file contexts to genfs
-  
-  Author: Priyanka Gujjula  
-  Date: Thu Jul 24 14:42:59 2025 +0300
-
-- [824ca74](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/824ca74) seapp_context: Fix build error.
-  
-  Author: Siddeswar Aluganti  
-  Date: Thu Jul 24 14:42:54 2025 +0300
-
-- [bf7667f](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/bf7667f) qva: Extend extcon rules
-  
-  Author: Bruno Martins  
-  Date: Thu Jul 24 14:42:25 2025 +0300
+  Date: Fri Jul 25 07:29:14 2025 -0400
 
 
 </details>
 
 <details>
-<summary><b>frameworks/av</b></summary>
+<summary><b>device/qcom/sepolicy_vndr/sm8750</b> (1 commits)</summary>
 
-- [5cad168](https://github.com/LineageOS/android_frameworks_av/commit/5cad168) libstagefright: Conditionally disable `thumbnail_block_model`
+- [44ffcf4](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/44ffcf4) qva: Label AOSP NXP keymint and weaver HALs
   
-  Author: ahnet-69  
-  Date: Wed Jul 30 16:57:26 2025 +0000
+  Author: dianlujitao  
+  Date: Wed Aug 6 21:31:46 2025 +0800
 
 
 </details>
 
 <details>
-<summary><b>frameworks/native</b></summary>
+<summary><b>frameworks/base</b> (2 commits)</summary>
 
-- [3ae992f8](https://github.com/LineageOS/android_frameworks_native/commit/3ae992f8) libgui: reset buffer count to max slots instead of returning BAD_VALUE.
+- [8e028104](https://github.com/LineageOS/android_frameworks_base/commit/8e028104) Defer remove splash screen while device is locked
   
-  Author: Rajat Yadav  
-  Date: Wed Jul 30 01:30:55 2025 +0300
+  Author: wilsonshih  
+  Date: Thu Aug 14 12:38:42 2025 +0530
+
+- [2f8ad755](https://github.com/LineageOS/android_frameworks_base/commit/2f8ad755) Handle exceptions from querying appinfo in RemoteViews#addAppWidget.
+  
+  Author: Sunny Goyal  
+  Date: Wed Aug 13 11:47:57 2025 +0530
 
 
 </details>
 
 <details>
-<summary><b>hardware/interfaces</b></summary>
+<summary><b>hardware/google/pixel</b> (1 commits)</summary>
 
-- [a29bff7](https://github.com/LineageOS/android_hardware_interfaces/commit/a29bff7) compatibility_matrices: Bring HIDL Radio entries to FCM 7
-  
-  Author: Yumi Yukimura  
-  Date: Mon Aug 11 19:31:45 2025 -0400
-
-- [481d0d8](https://github.com/LineageOS/android_hardware_interfaces/commit/481d0d8) cec: Don&#x27;t spam &quot;Machine is not on the network&quot;
-  
-  Author: Nolen Johnson  
-  Date: Sun Aug 10 22:19:20 2025 -0400
-
-- [9d787eb](https://github.com/LineageOS/android_hardware_interfaces/commit/9d787eb) bluetooth: do not fatally error on unknown packet types
-  
-  Author: Billy Laws  
-  Date: Sun Aug 10 22:19:20 2025 -0400
-
-- [d3e0390](https://github.com/LineageOS/android_hardware_interfaces/commit/d3e0390) audio: Verify that hal implements get_audio_port before calling
-  
-  Author: Aaron Kling  
-  Date: Sun Aug 10 22:19:20 2025 -0400
-
-- [2ac433b](https://github.com/LineageOS/android_hardware_interfaces/commit/2ac433b) compatibility_matrices: Add kernel_config_s_4.14
+- [1dee182](https://github.com/LineageOS/android_hardware_google_pixel/commit/1dee182) Revert &quot;pixel: Disable lineage health HAL&quot;
   
   Author: Michael Bestas  
-  Date: Thu Jul 31 00:46:02 2025 +0300
-
-- [ed83fec](https://github.com/LineageOS/android_hardware_interfaces/commit/ed83fec) interfaces: fix disable_configstore
-  
-  Author: Dmitrii  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [308d97f](https://github.com/LineageOS/android_hardware_interfaces/commit/308d97f) radiocompat: Implement iccCloseLogicalChannelWithSessionInfo()
-  
-  Author: LuK1337  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [add589f](https://github.com/LineageOS/android_hardware_interfaces/commit/add589f) compatibility_matrices: Allow radio 1.5 on target-level 6
-  
-  Author: Yumi Yukimura  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [f1b0dfc](https://github.com/LineageOS/android_hardware_interfaces/commit/f1b0dfc) Camera: Remap camera IDs by property if it is defined
-  
-  Author: Ivan Vecera  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [e8b756c](https://github.com/LineageOS/android_hardware_interfaces/commit/e8b756c) Camera: Maintain set of non-external cameras
-  
-  Author: Ivan Vecera  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [3f55060](https://github.com/LineageOS/android_hardware_interfaces/commit/3f55060) fpc: Fix potential nullptr derefs
-  
-  Author: LuK1337  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [53af31a](https://github.com/LineageOS/android_hardware_interfaces/commit/53af31a) Revert &quot;fpc: keep fpc in system-background&quot;
-  
-  Author: Jake Weinstein  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [ace5734](https://github.com/LineageOS/android_hardware_interfaces/commit/ace5734) btaudio: aidl: add 16 bit sample rate for aptX offloading
-  
-  Author: klozz  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [a3647b0](https://github.com/LineageOS/android_hardware_interfaces/commit/a3647b0) btaudio: aidl: Support offloading all LDAC qualities
-  
-  Author: Adithya R  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [94b0639](https://github.com/LineageOS/android_hardware_interfaces/commit/94b0639) camera: Make overrideFormat from reserved fields opt-in
-  
-  Author: Rohit Sekhar  
-  Date: Thu Jul 31 00:46:01 2025 +0300
-
-- [3965516](https://github.com/LineageOS/android_hardware_interfaces/commit/3965516) frameworks: Update HIDL overrideFormat from HAL
-  
-  Author: Abhijit Trivedi  
-  Date: Thu Jul 31 00:46:01 2025 +0300
+  Date: Wed Jul 30 00:09:15 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>hardware/lineage/compat</b></summary>
+<summary><b>hardware/lineage/interfaces</b> (6 commits)</summary>
 
-- [b799233](https://github.com/LineageOS/android_hardware_lineage_compat/commit/b799233) radio/config: Edit backend interface name
+- [41de4ce](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/41de4ce) livedisplay: sdm: Initial AIDL port
   
-  Author: Yumi Yukimura  
-  Date: Thu Aug 14 17:52:51 2025 +0000
+  Author: LuK1337  
+  Date: Mon Aug 18 19:13:29 2025 +0000
 
-- [04ed5c7](https://github.com/LineageOS/android_hardware_lineage_compat/commit/04ed5c7) radio/config: Add Android.bp
+- [60cc965](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/60cc965) livedisplay: Add AIDL interface
   
-  Author: Yumi Yukimura  
-  Date: Thu Aug 14 17:51:00 2025 +0000
+  Author: LuK1337  
+  Date: Mon Aug 18 19:13:28 2025 +0000
 
-- [65e9974](https://github.com/LineageOS/android_hardware_lineage_compat/commit/65e9974) radio/config: `hidl-gen -L c++ android.hardware.radio.config@1.{0..2}`
+- [45dc39c](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/45dc39c) health: Clean up ChargingControl includes
   
-  Author: Yumi Yukimura  
-  Date: Thu Aug 14 17:50:50 2025 +0000
+  Author: Bruno Martins  
+  Date: Mon Aug 18 19:13:28 2025 +0000
 
-- [f33a55b](https://github.com/LineageOS/android_hardware_lineage_compat/commit/f33a55b) radio/config: Remove the old implementation
+- [45b11ff](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/45b11ff) health: Explicitly declare AIDL version in VINTF
   
-  Author: Yumi Yukimura  
-  Date: Thu Aug 14 17:50:34 2025 +0000
+  Author: Bruno Martins  
+  Date: Mon Aug 18 19:13:28 2025 +0000
 
-- [6fc7494](https://github.com/LineageOS/android_hardware_lineage_compat/commit/6fc7494) compat: Provide libui-v34
+- [ea235df](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/ea235df) health: Implement IFastCharge interface
   
-  Author: Frost  
-  Date: Wed Jul 30 17:04:35 2025 +0300
+  Author: LuK1337  
+  Date: Mon Aug 18 19:13:11 2025 +0000
+
+- [d12792c](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/d12792c) Remove old Broadcom NFC impl
+  
+  Author: Bruno Martins  
+  Date: Sun Aug 17 00:54:35 2025 +0100
 
 
 </details>
 
 <details>
-<summary><b>hardware/lineage/interfaces</b></summary>
+<summary><b>hardware/qcom-caf/common</b> (1 commits)</summary>
 
-- [8f9bf70](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/8f9bf70) livedisplay: Sunset HIDL
-  
-  Author: Bruno Martins  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [24128f2](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/24128f2) fastcharge: Sunset HIDL
-  
-  Author: Michael Bestas  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [ffee52d](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/ffee52d) livedisplay: sdm: Initial AIDL port
-  
-  Author: LuK1337  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [7c08240](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7c08240) livedisplay: Add AIDL interface
-  
-  Author: LuK1337  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [92b86da](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/92b86da) health: Clean up ChargingControl includes
-  
-  Author: Bruno Martins  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [b1cb282](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/b1cb282) health: Explicitly declare AIDL version in VINTF
-  
-  Author: Bruno Martins  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [06f759c](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/06f759c) health: Implement IFastCharge interface
-  
-  Author: LuK1337  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [08503d5](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/08503d5) Remove old Broadcom NFC impl
-  
-  Author: Bruno Martins  
-  Date: Sun Aug 17 17:44:24 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/common</b></summary>
-
-- [8e91e46](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/8e91e46) rfs: Add modem_firmware to RFS install targets
+- [99d7aac](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/99d7aac) rfs: Add modem_firmware to RFS install targets
   
   Author: kmiit  
-  Date: Sun Aug 10 08:43:34 2025 +0000
+  Date: Sun Aug 10 08:43:15 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>lineage-sdk</b></summary>
+<summary><b>hardware/qcom-caf/msm8953/display</b> (1 commits)</summary>
 
-- [3831b61](https://github.com/LineageOS/android_lineage-sdk/commit/3831b61) sdk: Remove LiveDisplay HIDL support
-  
-  Author: Bruno Martins  
-  Date: Sat Aug 16 20:42:12 2025 +0200
-
-- [ff48520](https://github.com/LineageOS/android_lineage-sdk/commit/ff48520) Wire up AIDL LiveDisplay HAL
+- [6cfaebb](https://github.com/LineageOS/android_hardware_qcom_display/commit/6cfaebb) sdm: Remove VIDEO_MODE_DEFER_RETIRE_FENCE ifdef
   
   Author: LuK1337  
-  Date: Sat Aug 16 20:37:46 2025 +0200
-
-- [e3790a3](https://github.com/LineageOS/android_lineage-sdk/commit/e3790a3) sdk: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:37:44 2025 +0200
-
-- [16a2a81](https://github.com/LineageOS/android_lineage-sdk/commit/16a2a81) LineageHardwareManager: Restore FEATURE_SUNLIGHT_ENHANCEMENT case
-  
-  Author: Bruno Martins  
-  Date: Sat Aug 16 15:09:44 2025 +0100
-
-- [c4ce388](https://github.com/LineageOS/android_lineage-sdk/commit/c4ce388) health: Fix limit notification
-  
-  Author: Luofan Chen  
-  Date: Wed Jul 30 01:44:48 2025 +0300
-
-- [cea2b3c](https://github.com/LineageOS/android_lineage-sdk/commit/cea2b3c) health: Implement new charging control battery listener
-  
-  Author: Luofan Chen  
-  Date: Wed Jul 30 01:44:46 2025 +0300
+  Date: Tue Jul 29 23:17:20 2025 +0200
 
 
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b></summary>
+<summary><b>hardware/qcom-caf/sdm660/display</b> (1 commits)</summary>
+
+- [dfcc000](https://github.com/LineageOS/android_hardware_qcom_display/commit/dfcc000) sdm: Remove VIDEO_MODE_DEFER_RETIRE_FENCE ifdef
+  
+  Author: LuK1337  
+  Date: Tue Jul 29 23:15:26 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8650/display</b> (1 commits)</summary>
+
+- [b586b40](https://github.com/LineageOS/android_hardware_qcom_display/commit/b586b40) sdm: Define page size if it&#x27;s not defined
+  
+  Author: Baldev Sahu  
+  Date: Tue Jul 29 21:25:27 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage-sdk</b> (5 commits)</summary>
+
+- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [68106a6](https://github.com/LineageOS/android_lineage-sdk/commit/68106a6) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:43 2025 +0000
+
+- [05e3e33](https://github.com/LineageOS/android_lineage-sdk/commit/05e3e33) health: Fix limit notification
+  
+  Author: Luofan Chen  
+  Date: Mon Jul 28 12:44:43 2025 +0000
+
+- [12ab886](https://github.com/LineageOS/android_lineage-sdk/commit/12ab886) health: Implement new charging control battery listener
+  
+  Author: Luofan Chen  
+  Date: Mon Jul 28 12:44:39 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Aperture</b> (4 commits)</summary>
+
+- [8400f48](https://github.com/LineageOS/android_packages_apps_Aperture/commit/8400f48) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:41 2025 +0000
 
 - [82d6068](https://github.com/LineageOS/android_packages_apps_Aperture/commit/82d6068) Aperture: Update CameraX to 1.5.0-rc01
   
@@ -444,392 +262,222 @@
 </details>
 
 <details>
-<summary><b>packages/apps/DocumentsUI</b></summary>
+<summary><b>packages/apps/Catapult</b> (2 commits)</summary>
 
-- [deb341e](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/deb341e) DocumentsUI: add icons for shortcuts
+- [f6e4332](https://github.com/LineageOS/android_packages_apps_Catapult/commit/f6e4332) Automatic translation import
   
-  Author: Timi Rautamäki  
-  Date: Wed Jul 30 01:27:22 2025 +0300
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:41 2025 +0000
 
-- [12dabaa](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/12dabaa) DocumentsUI: add feature for adding shortcuts to launcher
+- [47bb118](https://github.com/LineageOS/android_packages_apps_Catapult/commit/47bb118) Automatic translation import
   
-  Author: Timi Rautamäki  
-  Date: Wed Jul 30 01:27:22 2025 +0300
-
-- [e4f8af6](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/e4f8af6) DocumentsUI: Bring in the new icon
-  
-  Author: Asher Simonds  
-  Date: Wed Jul 30 01:27:17 2025 +0300
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:44 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b></summary>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
-- [a776cef](https://github.com/LineageOS/android_packages_apps_Etar/commit/a776cef) Etar: ./gradlew generateBp
+- [71be011](https://github.com/LineageOS/android_packages_apps_Dialer/commit/71be011) Automatic translation import
   
-  Author: LuK1337  
-  Date: Fri Aug 1 10:42:49 2025 +0200
-
-- [1d22fbf](https://github.com/LineageOS/android_packages_apps_Etar/commit/1d22fbf) Merge tag &#x27;v1.0.51&#x27; of https://github.com/Etar-Group/Etar-Calendar into lineage-23.0
-  
-  Author: LuK1337  
-  Date: Fri Aug 1 10:39:45 2025 +0200
-
-- [4ad343e](https://github.com/LineageOS/android_packages_apps_Etar/commit/4ad343e) New version 1.0.51
-  
-  Author: Gitsaibot  
-  Date: Fri Aug 1 09:20:46 2025 +0200
-
-- [5b1382a](https://github.com/LineageOS/android_packages_apps_Etar/commit/5b1382a) Bump gradle version
-  
-  Author: Jochen Sprickerhof  
-  Date: Fri Aug 1 08:57:35 2025 +0200
-
-- [cbda6f1](https://github.com/LineageOS/android_packages_apps_Etar/commit/cbda6f1) Update time zone database to 2025b
-  
-  Author: Jochen Sprickerhof  
-  Date: Fri Aug 1 08:46:30 2025 +0200
-
-- [f67a527](https://github.com/LineageOS/android_packages_apps_Etar/commit/f67a527) Fix Event date picker for end date always preselects start
-  
-  Author: Gitsaibot  
-  Date: Fri Aug 1 08:20:47 2025 +0200
-
-- [ce5e43d](https://github.com/LineageOS/android_packages_apps_Etar/commit/ce5e43d) Bump org.jetbrains.gradle.plugin.idea-ext from 1.1.10 to 1.2
-  
-  Author: dependabot[bot]  
-  Date: Fri Aug 1 08:06:03 2025 +0200
-
-- [529b1b7](https://github.com/LineageOS/android_packages_apps_Etar/commit/529b1b7) Bump androidx.lifecycle:lifecycle-livedata-ktx from 2.9.1 to 2.9.2
-  
-  Author: dependabot[bot]  
-  Date: Fri Aug 1 08:04:31 2025 +0200
-
-- [5ac014f](https://github.com/LineageOS/android_packages_apps_Etar/commit/5ac014f) Bump agp from 8.11.0 to 8.11.1
-  
-  Author: dependabot[bot]  
-  Date: Fri Aug 1 08:04:08 2025 +0200
-
-- [72d13f7](https://github.com/LineageOS/android_packages_apps_Etar/commit/72d13f7) Translated using Weblate (Korean)
-  
-  Author: 안세훈  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [c3fb32a](https://github.com/LineageOS/android_packages_apps_Etar/commit/c3fb32a) Translated using Weblate (Ukrainian)
-  
-  Author: Максим Горпиніч  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [85b6063](https://github.com/LineageOS/android_packages_apps_Etar/commit/85b6063) Translated using Weblate (Latvian)
-  
-  Author: Edgars Andersons  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [ba766fb](https://github.com/LineageOS/android_packages_apps_Etar/commit/ba766fb) Translated using Weblate (French)
-  
-  Author: Antonin Del Fabbro  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [af6186b](https://github.com/LineageOS/android_packages_apps_Etar/commit/af6186b) Translated using Weblate (French)
-  
-  Author: Antonin Del Fabbro  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [0198526](https://github.com/LineageOS/android_packages_apps_Etar/commit/0198526) Translated using Weblate (Dutch)
-  
-  Author: Stephan Paternotte  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [813508a](https://github.com/LineageOS/android_packages_apps_Etar/commit/813508a) Translated using Weblate (Japanese)
-  
-  Author: Kazushi Hayama  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [0320df9](https://github.com/LineageOS/android_packages_apps_Etar/commit/0320df9) Translated using Weblate (German)
-  
-  Author: skdubg  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [dea7730](https://github.com/LineageOS/android_packages_apps_Etar/commit/dea7730) Translated using Weblate (Czech)
-  
-  Author: Fjuro  
-  Date: Fri Aug 1 08:00:51 2025 +0200
-
-- [6f2ca62](https://github.com/LineageOS/android_packages_apps_Etar/commit/6f2ca62) Replace Activity with Context so that the function isSystemInDarkTheme() can be called with any context.
-  
-  Author: Gitsaibot  
-  Date: Thu Jul 31 19:47:19 2025 +0200
-
-- [3739be8](https://github.com/LineageOS/android_packages_apps_Etar/commit/3739be8) Improve readability of &quot;guest badge&quot; and solve lint warnings
-  
-  Author: Gitsaibot  
-  Date: Thu Jul 31 19:47:19 2025 +0200
-
-- [d894020](https://github.com/LineageOS/android_packages_apps_Etar/commit/d894020) Replace deprecated onBackPressed() with getOnBackPressedDispatcher()
-  
-  Author: Gitsaibot  
-  Date: Thu Jul 31 19:47:19 2025 +0200
-
-- [7878e3c](https://github.com/LineageOS/android_packages_apps_Etar/commit/7878e3c) Improve guest selection style so that the colors match the different themes. Also added support for vectorDrawables.
-  
-  Author: Gitsaibot  
-  Date: Mon Jul 28 14:11:10 2025 +0200
-
-- [e30b6fe](https://github.com/LineageOS/android_packages_apps_Etar/commit/e30b6fe) Replace baseline vector icon with the corresponding outline version.
-  
-  Author: Gitsaibot  
-  Date: Sun Jul 27 14:06:09 2025 +0200
-
-- [7328e28](https://github.com/LineageOS/android_packages_apps_Etar/commit/7328e28) Revert &quot;Enable automatic per-app language support (Closes: #1497)&quot;
-  
-  Author: LuK1337  
-  Date: Fri Jul 25 23:52:56 2025 +0200
-
-- [be205f6](https://github.com/LineageOS/android_packages_apps_Etar/commit/be205f6) Etar: Hardcode Build.VERSION_CODES.VANILLA_ICE_CREAM to 35
-  
-  Author: LuK1337  
-  Date: Fri Jul 25 23:52:56 2025 +0200
-
-- [d529679](https://github.com/LineageOS/android_packages_apps_Etar/commit/d529679) Etar: Override androidx.startup.InitializationProvider authority name
-  
-  Author: Michael Bestas  
-  Date: Fri Jul 25 23:52:56 2025 +0200
-
-- [d25bdf4](https://github.com/LineageOS/android_packages_apps_Etar/commit/d25bdf4) Etar: Switch back to AOSP application name
-  
-  Author: Michael Bestas  
-  Date: Fri Jul 25 23:52:56 2025 +0200
-
-- [f20d1fb](https://github.com/LineageOS/android_packages_apps_Etar/commit/f20d1fb) Etar: Dynamic icon
-  
-  Author: Asher Simonds  
-  Date: Fri Jul 25 23:52:56 2025 +0200
-
-- [2fef515](https://github.com/LineageOS/android_packages_apps_Etar/commit/2fef515) Etar: Bring in the new icon
-  
-  Author: Asher Simonds  
-  Date: Fri Jul 25 23:52:56 2025 +0200
-
-- [fecffe4](https://github.com/LineageOS/android_packages_apps_Etar/commit/fecffe4) Etar: Add GitHub actions build workflow
-  
-  Author: LuK1337  
-  Date: Fri Jul 25 23:52:56 2025 +0200
-
-- [0a0b7b1](https://github.com/LineageOS/android_packages_apps_Etar/commit/0a0b7b1) Etar: Switch to non-ktx androidx.preference:preference
-  
-  Author: LuK1337  
-  Date: Fri Jul 25 23:52:56 2025 +0200
-
-- [725cc98](https://github.com/LineageOS/android_packages_apps_Etar/commit/725cc98) Etar: Setup AOSP build
-  
-  Author: LuK1337  
-  Date: Fri Jul 25 23:52:55 2025 +0200
-
-- [7c3911c](https://github.com/LineageOS/android_packages_apps_Etar/commit/7c3911c) Drop checkPermission
-  
-  Author: Jochen Sprickerhof  
-  Date: Fri Jul 25 20:55:34 2025 +0200
-
-- [c02baf3](https://github.com/LineageOS/android_packages_apps_Etar/commit/c02baf3) Replace PI_FLAG_IMMUTABLE by it&#x27;s definition
-  
-  Author: Jochen Sprickerhof  
-  Date: Fri Jul 25 20:55:34 2025 +0200
-
-- [d6cb2f8](https://github.com/LineageOS/android_packages_apps_Etar/commit/d6cb2f8) Remove more unneeded functions
-  
-  Author: Gitsaibot  
-  Date: Fri Jul 25 20:32:28 2025 +0200
-
-- [1cfdee9](https://github.com/LineageOS/android_packages_apps_Etar/commit/1cfdee9) Remove unneeded functions
-  
-  Author: Gitsaibot  
-  Date: Fri Jul 25 20:32:28 2025 +0200
-
-- [4ad602b](https://github.com/LineageOS/android_packages_apps_Etar/commit/4ad602b) Remove unnecessary SDK checks
-  
-  Author: Gitsaibot  
-  Date: Fri Jul 25 20:32:28 2025 +0200
-
-- [bb94136](https://github.com/LineageOS/android_packages_apps_Etar/commit/bb94136) Remove PrimaryColor Pref
-  
-  Author: Gitsaibot  
-  Date: Fri Jul 25 20:32:28 2025 +0200
-
-- [a4a8036](https://github.com/LineageOS/android_packages_apps_Etar/commit/a4a8036) Fix &quot;jvmTarget is deprecated&quot;
-  
-  Author: Gitsaibot  
-  Date: Fri Jul 25 20:32:28 2025 +0200
-
-- [e6b4e1e](https://github.com/LineageOS/android_packages_apps_Etar/commit/e6b4e1e) Remove unused import directive
-  
-  Author: Gitsaibot  
-  Date: Fri Jul 25 20:32:28 2025 +0200
-
-- [b428755](https://github.com/LineageOS/android_packages_apps_Etar/commit/b428755) New version 1.0.50
-  
-  Author: Gitsaibot  
-  Date: Wed Jul 23 03:20:21 2025 +0200
-
-- [1777ff2](https://github.com/LineageOS/android_packages_apps_Etar/commit/1777ff2) Translated using Weblate (German)
-  
-  Author: nautilusx  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [56279f1](https://github.com/LineageOS/android_packages_apps_Etar/commit/56279f1) Translated using Weblate (Slovak)
-  
-  Author: Milan Šalka  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [e6d7e2a](https://github.com/LineageOS/android_packages_apps_Etar/commit/e6d7e2a) Translated using Weblate (Swedish)
-  
-  Author: Kristoffer Grundström  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [5eddc53](https://github.com/LineageOS/android_packages_apps_Etar/commit/5eddc53) Translated using Weblate (Swedish)
-  
-  Author: Kristoffer Grundström  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [4b6373d](https://github.com/LineageOS/android_packages_apps_Etar/commit/4b6373d) Translated using Weblate (Dutch)
-  
-  Author: Stephan Paternotte  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [e0cff50](https://github.com/LineageOS/android_packages_apps_Etar/commit/e0cff50) Translated using Weblate (Dutch)
-  
-  Author: Stephan Paternotte  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [76dacec](https://github.com/LineageOS/android_packages_apps_Etar/commit/76dacec) Translated using Weblate (Latvian)
-  
-  Author: Edgars Andersons  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [d257640](https://github.com/LineageOS/android_packages_apps_Etar/commit/d257640) Translated using Weblate (Italian)
-  
-  Author: Random  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [8a76d27](https://github.com/LineageOS/android_packages_apps_Etar/commit/8a76d27) Translated using Weblate (Hebrew)
-  
-  Author: Yaron Shahrabani  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [113691f](https://github.com/LineageOS/android_packages_apps_Etar/commit/113691f) Translated using Weblate (Czech)
-  
-  Author: Fjuro  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [a5b17c0](https://github.com/LineageOS/android_packages_apps_Etar/commit/a5b17c0) Translated using Weblate (German)
-  
-  Author: nautilusx  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [26b2e92](https://github.com/LineageOS/android_packages_apps_Etar/commit/26b2e92) Translated using Weblate (Korean)
-  
-  Author: 안세훈  
-  Date: Wed Jul 23 03:08:19 2025 +0200
-
-- [bff4a83](https://github.com/LineageOS/android_packages_apps_Etar/commit/bff4a83) fix datePicker returns incorrect date
-  
-  Author: Gitsaibot  
-  Date: Wed Jul 23 03:04:59 2025 +0200
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:45 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>packages/apps/Launcher3</b></summary>
+<summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
 
-- [9748f62](https://github.com/LineageOS/android_packages_apps_Launcher3/commit/9748f62) Launcher3: Add permission for contextual search
+- [f7d17ba](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/f7d17ba) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:46 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+
+- [d312f41](https://github.com/LineageOS/android_packages_apps_Etar/commit/d312f41) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:47 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/FMRadio</b> (1 commits)</summary>
+
+- [0823949](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/0823949) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:48 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/FlipFlap</b> (1 commits)</summary>
+
+- [638533e](https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/638533e) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:48 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+
+- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:49 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
+
+- [aad4d12](https://github.com/LineageOS/android_packages_apps_Jelly/commit/aad4d12) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:50 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
+
+- [25f3e4e](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/25f3e4e) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:43 2025 +0000
+
+- [564c276](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/564c276) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:50 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
+
+- [e5e9566](https://github.com/LineageOS/android_packages_apps_Messaging/commit/e5e9566) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:51 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
+
+- [0c8bad3](https://github.com/LineageOS/android_packages_apps_Recorder/commit/0c8bad3) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/SetupWizard</b> (4 commits)</summary>
+
+- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
+  
+  Author: Inhishonor  
+  Date: Fri Aug 15 22:37:46 2025 +0000
+
+- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:43 2025 +0000
+
+- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
+  
+  Author: LuK1337  
+  Date: Tue Aug 12 14:52:00 2025 +0200
+
+- [06bff70](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/06bff70) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:53 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
+
+- [5228c51](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/5228c51) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:54 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 19:26:05 2025 +0000
+
+- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
+
+- [30555e2](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/30555e2) Launcher3: Add permission for contextual search
   
   Author: Pranav Vashi  
-  Date: Tue Aug 12 20:58:47 2025 +0200
+  Date: Tue Aug 12 21:04:21 2025 +0200
 
-- [55d16d8](https://github.com/LineageOS/android_packages_apps_Launcher3/commit/55d16d8) Launcher3: Make taskbar start aligned in all grid sizes
+- [7c5366b](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7c5366b) Automatic translation import
   
-  Author: Michael Bestas  
-  Date: Tue Jul 29 14:37:17 2025 +0000
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:54 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>packages/apps/SettingsIntelligence</b></summary>
+<summary><b>packages/apps/Twelve</b> (5 commits)</summary>
 
-- [cc1a49f](https://github.com/LineageOS/android_packages_apps_SettingsIntelligence/commit/cc1a49f) SettingsIntelligence: Search: Skip showing a few packages
-  
-  Author: Michael W  
-  Date: Thu Jul 31 01:14:56 2025 +0300
-
-- [47fa3d3](https://github.com/LineageOS/android_packages_apps_SettingsIntelligence/commit/47fa3d3) SettingsIntelligence: Regen database on build version change
+- [892bdbb](https://github.com/LineageOS/android_packages_apps_Twelve/commit/892bdbb) Twelve: TwelveAudioSink: Add missing delegates to defaultAudioSink
   
   Author: Luca Stefani  
-  Date: Thu Jul 31 01:14:56 2025 +0300
+  Date: Wed Aug 20 21:45:44 2025 +0000
 
-- [8e09c77](https://github.com/LineageOS/android_packages_apps_SettingsIntelligence/commit/8e09c77) SettingsIntelligence: Bring in the new icon
+- [e632271](https://github.com/LineageOS/android_packages_apps_Twelve/commit/e632271) Twelve: Update to media3 1.8.0
   
-  Author: Asher Simonds  
-  Date: Thu Jul 31 01:14:52 2025 +0300
+  Author: Luca Stefani  
+  Date: Mon Aug 18 13:32:17 2025 +0200
 
-
-</details>
-
-<details>
-<summary><b>packages/apps/ThemePicker</b></summary>
-
-- [a4c51d0](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/a4c51d0) ThemePicker: default to TONAL_SPOT for invalid Styles
+- [c5d94ea](https://github.com/LineageOS/android_packages_apps_Twelve/commit/c5d94ea) Automatic translation import
   
-  Author: Cosmin Tanislav  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-- [2a30e8d](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/2a30e8d) ThemePicker: Fix hardcoded launcher package name
-  
-  Author: basamaryan  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-- [78101bd](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/78101bd) ThemePicker: Allow text scroll in options title
-  
-  Author: Ido Ben-Hur  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-- [80a03b3](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/80a03b3) ThemePicker: Use the new material switch to match with settings
-  
-  Author: Ido Ben-Hur  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-- [effcdd3](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/effcdd3) ThemePicker: Many UI / layout consistency fixes &amp; improvements
-  
-  Author: Ido Ben-Hur  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-- [7d7505c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/7d7505c) ThemePicker: Show our apps in icon previews
-  
-  Author: Demon000  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-- [921a622](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/921a622) ThemePicker: Vertically center the text of customization options
-  
-  Author: Ido Ben-Hur  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-- [8d4c0a3](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/8d4c0a3) ThemePicker: Bring back fonts, icon pack, shape customization
-  
-  Author: Anay Wadhera  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-- [877d588](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/877d588) stub: Import extra color bundles from TQ2A.230305.008.C1
-  
-  Author: Michael Bestas  
-  Date: Thu Jul 31 15:25:00 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Twelve</b></summary>
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:44 2025 +0000
 
 - [397c8ca](https://github.com/LineageOS/android_packages_apps_Twelve/commit/397c8ca) Automatic translation import
   
@@ -845,7 +493,56 @@
 </details>
 
 <details>
-<summary><b>prebuilts/tools-lineage</b></summary>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+
+- [88f35f1](https://github.com/LineageOS/android_packages_apps_Updater/commit/88f35f1) Updater: push-update: Allow specifying serial number
+  
+  Author: Nolen Johnson  
+  Date: Thu Aug 14 18:15:00 2025 -0400
+
+- [a689cb3](https://github.com/LineageOS/android_packages_apps_Updater/commit/a689cb3) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:56 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/inputmethods/LatinIME</b> (1 commits)</summary>
+
+- [34ff6b2](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/34ff6b2) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:57 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/providers/DownloadProvider</b> (1 commits)</summary>
+
+- [723daf6](https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/723daf6) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:57 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/resources/devicesettings</b> (1 commits)</summary>
+
+- [85e6e4a](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/85e6e4a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:58 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>prebuilts/tools-lineage</b> (1 commits)</summary>
 
 - [6122a66](https://github.com/LineageOS/android_prebuilts_tools-lineage/commit/6122a66) tools-lineage: Expose `mogrify` as `prebuilt_build_tool`
   
@@ -856,165 +553,194 @@
 </details>
 
 <details>
-<summary><b>tools/extract-utils</b></summary>
+<summary><b>tools/extract-utils</b> (1 commits)</summary>
 
-- [65b9f3a](https://github.com/LineageOS/android_tools_extract-utils/commit/65b9f3a) extract_utils: sort only groups of blobs
+- [b166df5](https://github.com/LineageOS/android_tools_extract-utils/commit/b166df5) extract_utils: sort only groups of blobs
   
   Author: LuK1337  
-  Date: Thu Aug 7 08:53:25 2025 +0200
+  Date: Thu Aug 7 00:31:31 2025 +0200
 
 
 </details>
 
 <details>
-<summary><b>vendor/lineage</b></summary>
+<summary><b>vendor/lineage</b> (16 commits)</summary>
 
-- [b72f886](https://github.com/LineageOS/android_vendor_lineage/commit/b72f886) lineage: Move build-manifest.xml generation to a separate script
+- [e69f4b9](https://github.com/LineageOS/android_vendor_lineage/commit/e69f4b9) lineage: Move build-manifest.xml generation to a separate script
   
   Author: Yumi Yukimura  
-  Date: Wed Aug 20 21:07:33 2025 +0800
+  Date: Wed Aug 20 21:31:53 2025 +0800
 
-- [597f534](https://github.com/LineageOS/android_vendor_lineage/commit/597f534) fixup! lineage: Convert build-manifest.xml to Android.bp
+- [88c9f6b](https://github.com/LineageOS/android_vendor_lineage/commit/88c9f6b) fixup! lineage: Convert build-manifest.xml to Android.bp
   
   Author: Yumi Yukimura  
-  Date: Wed Aug 20 21:05:54 2025 +0800
+  Date: Wed Aug 20 21:31:53 2025 +0800
 
-- [b3e6f3a](https://github.com/LineageOS/android_vendor_lineage/commit/b3e6f3a) charger: Convert to Android.bp
-  
-  Author: Yumi Yukimura  
-  Date: Mon Aug 18 19:26:28 2025 +0000
-
-- [3b29ed3](https://github.com/LineageOS/android_vendor_lineage/commit/3b29ed3) bootanimation: Convert to Android.bp
-  
-  Author: Yumi Yukimura  
-  Date: Mon Aug 18 19:26:28 2025 +0000
-
-- [2d4dffd](https://github.com/LineageOS/android_vendor_lineage/commit/2d4dffd) lineage: Convert build-manifest.xml to Android.bp
-  
-  Author: Yumi Yukimura  
-  Date: Mon Aug 18 19:26:28 2025 +0000
-
-- [6d29d0c](https://github.com/LineageOS/android_vendor_lineage/commit/6d29d0c) config: Remove LiveDisplay HIDL from FCM
-  
-  Author: Bruno Martins  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [b105652](https://github.com/LineageOS/android_vendor_lineage/commit/b105652) config: Remove fastcharge HIDL from FCM
-  
-  Author: Michael Bestas  
-  Date: Mon Aug 18 19:21:25 2025 +0000
-
-- [d52e994](https://github.com/LineageOS/android_vendor_lineage/commit/d52e994) config: Add vendor.lineage.livedisplay V1
+- [73be49e](https://github.com/LineageOS/android_vendor_lineage/commit/73be49e) config: Add vendor.lineage.livedisplay V1
   
   Author: LuK1337  
-  Date: Mon Aug 18 19:21:25 2025 +0000
+  Date: Mon Aug 18 19:13:28 2025 +0000
 
-- [c0b4337](https://github.com/LineageOS/android_vendor_lineage/commit/c0b4337) config: Use a more accurate approach to locate device makefile for EPPE
+- [c612466](https://github.com/LineageOS/android_vendor_lineage/commit/c612466) config: common: Correct build-manifest package name
   
-  Author: Yumi Yukimura  
-  Date: Mon Aug 18 15:14:27 2025 +0000
+  Author: Nolen Johnson  
+  Date: Mon Aug 18 11:43:01 2025 -0400
 
-- [94968e7](https://github.com/LineageOS/android_vendor_lineage/commit/94968e7) APNs: Add Inwi (Morocco)
+- [6274644](https://github.com/LineageOS/android_vendor_lineage/commit/6274644) APNs: Add Inwi (Morocco)
   
   Author: Onelots  
-  Date: Sun Aug 17 20:43:26 2025 +0200
+  Date: Mon Aug 18 13:37:52 2025 +0000
 
-- [b9bca14](https://github.com/LineageOS/android_vendor_lineage/commit/b9bca14) kernel: Introduce macros for comparing versions and make use of them
+- [c578471](https://github.com/LineageOS/android_vendor_lineage/commit/c578471) charger: Convert to Android.bp
+  
+  Author: Yumi Yukimura  
+  Date: Mon Aug 18 13:37:27 2025 +0000
+
+- [c570b18](https://github.com/LineageOS/android_vendor_lineage/commit/c570b18) bootanimation: Convert to Android.bp
+  
+  Author: Yumi Yukimura  
+  Date: Mon Aug 18 13:37:27 2025 +0000
+
+- [918ad74](https://github.com/LineageOS/android_vendor_lineage/commit/918ad74) lineage: Convert build-manifest.xml to Android.bp
+  
+  Author: Yumi Yukimura  
+  Date: Mon Aug 18 13:37:27 2025 +0000
+
+- [cb8e4e2](https://github.com/LineageOS/android_vendor_lineage/commit/cb8e4e2) kernel: Introduce macros for comparing versions and make use of them
   
   Author: LuK1337  
-  Date: Sun Aug 17 17:45:37 2025 +0200
+  Date: Sun Aug 17 17:45:56 2025 +0200
 
-- [305124a](https://github.com/LineageOS/android_vendor_lineage/commit/305124a) release: Bump Security String to 2025-08-01
-  
-  Author: Michael Bestas  
-  Date: Wed Aug 13 03:31:34 2025 +0000
-
-- [1ab1a74](https://github.com/LineageOS/android_vendor_lineage/commit/1ab1a74) vars: August 2025 Security Update
-  
-  Author: Michael Bestas  
-  Date: Tue Aug 12 19:02:02 2025 +0000
-
-- [a3cc137](https://github.com/LineageOS/android_vendor_lineage/commit/a3cc137) Reapply &quot;lineage: Add framework compatibility matrix for Lineage HALs&quot;
-  
-  Author: LuK1337  
-  Date: Sat Aug 9 11:09:16 2025 +0200
-
-- [69945d6](https://github.com/LineageOS/android_vendor_lineage/commit/69945d6) Update APN settings for Odido/T-Mobile NL
+- [cb1091b](https://github.com/LineageOS/android_vendor_lineage/commit/cb1091b) Update APN settings for Odido/T-Mobile NL
   
   Author: Yannick Binnenweg  
-  Date: Mon Aug 4 18:05:15 2025 +0000
+  Date: Mon Aug 4 18:01:24 2025 +0000
 
-- [fd1f593](https://github.com/LineageOS/android_vendor_lineage/commit/fd1f593) build: Make {aosp,clo}remote work when not in the root dir of the repo
-  
-  Author: LuK1337  
-  Date: Wed Jul 30 21:46:20 2025 +0000
-
-- [fa57999](https://github.com/LineageOS/android_vendor_lineage/commit/fa57999) build: Drop VARIANT_DEFCONFIG/SELINUX_DEFCONFIG support
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 30 14:03:05 2025 +0000
-
-- [46fea3f](https://github.com/LineageOS/android_vendor_lineage/commit/46fea3f) build: Drop separate recovery kernel support
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 30 14:03:05 2025 +0000
-
-- [ca679dc](https://github.com/LineageOS/android_vendor_lineage/commit/ca679dc) release: Remove no longer used Pixel flags
-  
-  Author: Michael Bestas  
-  Date: Wed Jul 30 03:07:13 2025 +0300
-
-- [47a3088](https://github.com/LineageOS/android_vendor_lineage/commit/47a3088) apns: Update US Mobile APNs
+- [ac32edd](https://github.com/LineageOS/android_vendor_lineage/commit/ac32edd) apns: Update US Mobile APNs
   
   Author: Alexander Koskovich  
-  Date: Tue Jul 29 22:45:19 2025 +0000
+  Date: Tue Jul 29 18:34:20 2025 -0400
 
-- [b3a50f2](https://github.com/LineageOS/android_vendor_lineage/commit/b3a50f2) apns: Add AT&amp;T 5G NSA &amp; SA APNs (310
+- [2565e14](https://github.com/LineageOS/android_vendor_lineage/commit/2565e14) apns: Add AT&amp;T 5G NSA &amp; SA APNs (310
   
   Author: 410) from att5g[sa]_us-64000000006  
-  Date: Alexander Koskovich|Sat Jul 26 19:27:45 2025 +0000
+  Date: Alexander Koskovich|Sat Jul 26 15:22:10 2025 -0400
 
-- [0904318](https://github.com/LineageOS/android_vendor_lineage/commit/0904318) Revert &quot;soong: Make mkdir install dir optional&quot;
-  
-  Author: LuK1337  
-  Date: Sat Jul 26 10:51:22 2025 +0200
-
-- [a69dfb1](https://github.com/LineageOS/android_vendor_lineage/commit/a69dfb1) apns-conf: Update carriers from the Philippines
+- [98873ba](https://github.com/LineageOS/android_vendor_lineage/commit/98873ba) apns-conf: Update carriers from the Philippines
   
   Author: Marc Bourgoin  
-  Date: Fri Jul 25 18:22:57 2025 +0000
+  Date: Fri Jul 25 19:52:53 2025 +0000
 
-- [39d7fef](https://github.com/LineageOS/android_vendor_lineage/commit/39d7fef) apns: Update Verizon (311
+- [3b3131f](https://github.com/LineageOS/android_vendor_lineage/commit/3b3131f) apns: Update Verizon (311
   
   Author: 480) from verizon_us-64000000022  
-  Date: Alexander Koskovich|Fri Jul 25 09:55:14 2025 -0400
+  Date: Alexander Koskovich|Fri Jul 25 08:43:02 2025 -0400
 
-- [69dee3f](https://github.com/LineageOS/android_vendor_lineage/commit/69dee3f) apns: Update Xfinity Mobile MVNO (311
+- [49aab7e](https://github.com/LineageOS/android_vendor_lineage/commit/49aab7e) apns: Update Xfinity Mobile MVNO (311
   
   Author: 480) from xfinity_us-64000000012  
-  Date: Alexander Koskovich|Fri Jul 25 09:55:10 2025 -0400
+  Date: Alexander Koskovich|Fri Jul 25 08:43:02 2025 -0400
 
-- [6453756](https://github.com/LineageOS/android_vendor_lineage/commit/6453756) Add mvno_match_data to StraightTalk Verizon
+- [eac47c1](https://github.com/LineageOS/android_vendor_lineage/commit/eac47c1) Add mvno_match_data to StraightTalk Verizon
   
   Author: Alexander Koskovich  
-  Date: Fri Jul 25 09:55:06 2025 -0400
+  Date: Fri Jul 25 08:42:30 2025 -0400
 
 
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8450/audio/pal</b></summary>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
 
-- [45d066e](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/45d066e) ResourceManager: fix activeStreams check
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
+
+- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:14:06 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8450/audio/pal</b> (1 commits)</summary>
+
+- [16bdaec](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/16bdaec) ResourceManager: fix activeStreams check
   
   Author: Tommaso Fonda  
-  Date: Sat Jul 26 21:31:55 2025 +0000
+  Date: Sat Jul 26 18:11:46 2025 +0200
 
 
 </details>
 
 <details>
-<summary><b>lineage/hudson</b></summary>
+<summary><b>hardware/qcom-caf/sm8750/display/core</b> (4 commits)</summary>
+
+- [100ac95](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/100ac95) Revert &quot;Revert^2 &quot;sdm: add support for DS merge mode&quot;&quot;
+  
+  Author: LuK1337  
+  Date: Thu Jul 31 01:54:14 2025 +0200
+
+- [557a72d](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/557a72d) display-core: Make IsGPUHWAvailable() non-virtual and force it to true
+  
+  Author: LuK1337  
+  Date: Tue Jul 29 22:39:05 2025 +0200
+
+- [8cdf166](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/8cdf166) display-core: fix compilation for Android 16
+  
+  Author: Jim Wang  
+  Date: Tue Jul 29 20:35:49 2025 +0200
+
+- [f0831ee](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/f0831ee) Revert &quot;snapalloc: Fix unannotated fall-through compilation errors&quot;
+  
+  Author: LuK1337  
+  Date: Tue Jul 29 20:35:47 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>vendor/qcom/opensource/commonsys/fm</b> (2 commits)</summary>
+
+- [2c03486](https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/2c03486) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:45 2025 +0000
+
+- [6f3546e](https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/6f3546e) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:59 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (3 commits)</summary>
+
+- [4148dda](https://github.com/LineageOS/mirror/commit/4148dda) Updated to 20-Aug-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Aug 21 00:01:32 2025 +0200
+
+- [357e63f](https://github.com/LineageOS/mirror/commit/357e63f) Updated to 13-Aug-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Aug 14 00:01:31 2025 +0200
+
+- [ad7d32a](https://github.com/LineageOS/mirror/commit/ad7d32a) Updated aosp-minimal to 09-Aug-2025 21:24 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Aug 9 23:24:49 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/hudson</b> (4 commits)</summary>
 
 - [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
   
@@ -1040,7 +766,7 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b></summary>
+<summary><b>lineage/wiki</b> (15 commits)</summary>
 
 - [60e568e](https://github.com/LineageOS/lineage_wiki/commit/60e568e) wiki: Update Pong battery tech and models
   
@@ -1116,27 +842,6 @@
   
   Author: Bruno Martins  
   Date: Thu Jul 24 20:58:07 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b></summary>
-
-- [4148dda](https://github.com/LineageOS/mirror/commit/4148dda) Updated to 20-Aug-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Aug 21 00:01:32 2025 +0200
-
-- [357e63f](https://github.com/LineageOS/mirror/commit/357e63f) Updated to 13-Aug-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Aug 14 00:01:31 2025 +0200
-
-- [ad7d32a](https://github.com/LineageOS/mirror/commit/ad7d32a) Updated aosp-minimal to 09-Aug-2025 21:24 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Aug 9 23:24:49 2025 +0200
 
 
 </details>
