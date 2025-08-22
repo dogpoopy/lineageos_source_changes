@@ -29,6 +29,11 @@
 <details>
 <summary><b>build/make</b></summary>
 
+- [396fc58](https://github.com/LineageOS/android_build/commit/396fc58) envsetup: lunch: Generate build-manifest.xml after roomservice finishes
+  
+  Author: Yumi Yukimura  
+  Date: Wed Aug 20 21:16:59 2025 +0800
+
 - [7631c3c](https://github.com/LineageOS/android_build/commit/7631c3c) Revert &quot;Drop legacy vboot support.&quot;
   
   Author: Nolen Johnson  
@@ -864,6 +869,16 @@
 <details>
 <summary><b>vendor/lineage</b></summary>
 
+- [b72f886](https://github.com/LineageOS/android_vendor_lineage/commit/b72f886) lineage: Move build-manifest.xml generation to a separate script
+  
+  Author: Yumi Yukimura  
+  Date: Wed Aug 20 21:07:33 2025 +0800
+
+- [597f534](https://github.com/LineageOS/android_vendor_lineage/commit/597f534) fixup! lineage: Convert build-manifest.xml to Android.bp
+  
+  Author: Yumi Yukimura  
+  Date: Wed Aug 20 21:05:54 2025 +0800
+
 - [b3e6f3a](https://github.com/LineageOS/android_vendor_lineage/commit/b3e6f3a) charger: Convert to Android.bp
   
   Author: Yumi Yukimura  
@@ -984,51 +999,6 @@
   Author: Alexander Koskovich  
   Date: Fri Jul 25 09:55:06 2025 -0400
 
-- [e41ae16](https://github.com/LineageOS/android_vendor_lineage/commit/e41ae16) kernel: Fix building x86 kernel with GCC
-  
-  Author: Yumi Yukimura  
-  Date: Tue Jul 22 20:27:25 2025 +0000
-
-- [c8ecd22](https://github.com/LineageOS/android_vendor_lineage/commit/c8ecd22) kernel: Sign kernel modules only if CONFIG_MODULE_SIG_FORMAT=y
-  
-  Author: Yumi Yukimura  
-  Date: Tue Jul 22 20:27:25 2025 +0000
-
-- [8c65077](https://github.com/LineageOS/android_vendor_lineage/commit/8c65077) kernel: Fix build when device does not set BOARD_SYSTEM_KERNEL_MODULES_LOAD
-  
-  Author: Yumi Yukimura  
-  Date: Tue Jul 22 20:27:25 2025 +0000
-
-- [56ed385](https://github.com/LineageOS/android_vendor_lineage/commit/56ed385) kernel: Support installing kernel modules to system
-  
-  Author: Yumi Yukimura  
-  Date: Tue Jul 22 20:27:25 2025 +0000
-
-- [2bd07a4](https://github.com/LineageOS/android_vendor_lineage/commit/2bd07a4) kernel: Add support for external kernel configs (v2)
-  
-  Author: Yumi Yukimura  
-  Date: Tue Jul 22 20:27:25 2025 +0000
-
-- [751388d](https://github.com/LineageOS/android_vendor_lineage/commit/751388d) kernel: Enhancements to searching DTBs during non-QCOM DTB image generation
-  
-  Author: Yumi Yukimura  
-  Date: Tue Jul 22 20:27:25 2025 +0000
-
-- [8d9c8c0](https://github.com/LineageOS/android_vendor_lineage/commit/8d9c8c0) overlay: tablet: Enable config_canInternalDisplayHostDesktops
-  
-  Author: Yumi Yukimura  
-  Date: Tue Jul 22 20:27:25 2025 +0000
-
-- [205806c](https://github.com/LineageOS/android_vendor_lineage/commit/205806c) overlay: tablet: Update lockscreen widget feature config for 16
-  
-  Author: Yumi Yukimura  
-  Date: Tue Jul 22 20:27:25 2025 +0000
-
-- [089fa84](https://github.com/LineageOS/android_vendor_lineage/commit/089fa84) common: Allow vendors to exclude bp paths
-  
-  Author: Aaron Kling  
-  Date: Tue Jul 22 06:01:23 2025 +0000
-
 
 </details>
 
@@ -1039,17 +1009,6 @@
   
   Author: Tommaso Fonda  
   Date: Sat Jul 26 21:31:55 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8650/audio/pal</b></summary>
-
-- [1233949](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/1233949) vui_interface: Address more compilation errors
-  
-  Author: Bruno Martins  
-  Date: Tue Jul 22 17:46:52 2025 +0530
 
 
 </details>
@@ -1157,11 +1116,6 @@
   
   Author: Bruno Martins  
   Date: Thu Jul 24 20:58:07 2025 +0000
-
-- [cc19403](https://github.com/LineageOS/lineage_wiki/commit/cc19403) wiki: devices: Add ZTE Axon 9 Pro (akershus)
-  
-  Author: Andrey Sprynga  
-  Date: Tue Jul 22 13:57:10 2025 +0700
 
 
 </details>
