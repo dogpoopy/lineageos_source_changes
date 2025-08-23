@@ -12,7 +12,12 @@
 </details>
 
 <details>
-<summary><b>build/make</b> (1 commits)</summary>
+<summary><b>build/make</b> (2 commits)</summary>
+
+- [ea2c302](https://github.com/LineageOS/android_build/commit/ea2c302) gen_build-manifest: Ensure that we in TOP when executed
+  
+  Author: Nolen Johnson  
+  Date: Fri Aug 22 00:37:45 2025 +0000
 
 - [cc3952e](https://github.com/LineageOS/android_build/commit/cc3952e) envsetup: lunch: Generate build-manifest.xml after roomservice finishes
   
@@ -93,6 +98,61 @@
   
   Author: dianlujitao  
   Date: Wed Aug 6 21:31:46 2025 +0800
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:51:16 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:48 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+
+- [f96b15f](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/f96b15f) Update Chromium Webview arm64 to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:52 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
+
+- [7696271](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/7696271) Update Chromium Webview x86 to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:55 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
+
+- [3edd0fb](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/3edd0fb) Update Chromium Webview x86_64 to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:59 2025 -0600
 
 
 </details>
@@ -205,6 +265,32 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Aperture</b> (4 commits)</summary>
+
+- [8400f48](https://github.com/LineageOS/android_packages_apps_Aperture/commit/8400f48) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:41 2025 +0000
+
+- [82d6068](https://github.com/LineageOS/android_packages_apps_Aperture/commit/82d6068) Aperture: Update CameraX to 1.5.0-rc01
+  
+  Author: LuK1337  
+  Date: Wed Aug 13 20:29:33 2025 +0200
+
+- [f1d7cb0](https://github.com/LineageOS/android_packages_apps_Aperture/commit/f1d7cb0) Aperture: Update CameraX to 1.5.0-beta02
+  
+  Author: LuK1337  
+  Date: Wed Aug 13 19:38:01 2025 +0200
+
+- [7f948a8](https://github.com/LineageOS/android_packages_apps_Aperture/commit/7f948a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:43 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>lineage-sdk</b> (5 commits)</summary>
 
 - [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
@@ -231,32 +317,6 @@
   
   Author: Luofan Chen  
   Date: Mon Jul 28 12:44:39 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Aperture</b> (4 commits)</summary>
-
-- [8400f48](https://github.com/LineageOS/android_packages_apps_Aperture/commit/8400f48) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:41 2025 +0000
-
-- [82d6068](https://github.com/LineageOS/android_packages_apps_Aperture/commit/82d6068) Aperture: Update CameraX to 1.5.0-rc01
-  
-  Author: LuK1337  
-  Date: Wed Aug 13 20:29:33 2025 +0200
-
-- [f1d7cb0](https://github.com/LineageOS/android_packages_apps_Aperture/commit/f1d7cb0) Aperture: Update CameraX to 1.5.0-beta02
-  
-  Author: LuK1337  
-  Date: Wed Aug 13 19:38:01 2025 +0200
-
-- [7f948a8](https://github.com/LineageOS/android_packages_apps_Aperture/commit/7f948a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:43 2025 +0000
 
 
 </details>
@@ -333,23 +393,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
-
-- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:49 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Jelly</b> (1 commits)</summary>
 
 - [aad4d12](https://github.com/LineageOS/android_packages_apps_Jelly/commit/aad4d12) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:50 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+
+- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:49 2025 +0000
 
 
 </details>
@@ -430,22 +490,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
-
-- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 19:26:05 2025 +0000
-
-- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:52 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
 
 - [30555e2](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/30555e2) Launcher3: Add permission for contextual search
@@ -488,6 +532,22 @@
   
   Author: Inhishonor  
   Date: Fri Aug 1 19:45:36 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 19:26:05 2025 +0000
+
+- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
 
 
 </details>
@@ -559,6 +619,22 @@
   
   Author: LuK1337  
   Date: Thu Aug 7 00:31:31 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
+
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
+
+- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:14:06 2025 +0000
 
 
 </details>
@@ -650,22 +726,6 @@
 </details>
 
 <details>
-<summary><b>vendor/crowdin</b> (2 commits)</summary>
-
-- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:52 2025 +0000
-
-- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:14:06 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8450/audio/pal</b> (1 commits)</summary>
 
 - [16bdaec](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/16bdaec) ResourceManager: fix activeStreams check
@@ -740,7 +800,7 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (4 commits)</summary>
+<summary><b>lineage/hudson</b> (3 commits)</summary>
 
 - [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
   
@@ -757,10 +817,16 @@
   Author: chandu078  
   Date: Sun Jul 27 11:37:10 2025 +0530
 
-- [96ade60](https://github.com/LineageOS/hudson/commit/96ade60) hudson: Add Galaxy Tab S7 (LTE)
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (1 commits)</summary>
+
+- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
   
-  Author: Bruno Martins  
-  Date: Wed Jul 23 21:24:45 2025 +0100
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:46:36 2025 -0600
 
 
 </details>
