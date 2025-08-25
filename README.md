@@ -76,22 +76,6 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/sm8650</b> (2 commits)</summary>
-
-- [4ab0332](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4ab0332) generic: Allow init write to discard_max_bytes
-  
-  Author: dianlujitao  
-  Date: Fri Jul 25 07:29:30 2025 -0400
-
-- [a11bf61](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a11bf61) generic: Label discard_max_bytes sysfs
-  
-  Author: Michael Bestas  
-  Date: Fri Jul 25 07:29:14 2025 -0400
-
-
-</details>
-
-<details>
 <summary><b>device/qcom/sepolicy_vndr/sm8750</b> (1 commits)</summary>
 
 - [44ffcf4](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/44ffcf4) qva: Label AOSP NXP keymint and weaver HALs
@@ -103,23 +87,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Wed Aug 20 05:51:16 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
   Date: Thu Aug 21 05:59:48 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:51:16 2025 -0600
 
 
 </details>
@@ -158,7 +142,17 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (2 commits)</summary>
+<summary><b>frameworks/base</b> (4 commits)</summary>
+
+- [9b41d790](https://github.com/LineageOS/android_frameworks_base/commit/9b41d790) PowerShareTile: Mark is unavailable if enabled state can&#x27;t be read
+  
+  Author: LuK1337  
+  Date: Sat Aug 23 13:41:24 2025 +0200
+
+- [efa267fe](https://github.com/LineageOS/android_frameworks_base/commit/efa267fe) PowerShareTile: Catch all exceptions
+  
+  Author: LuK1337  
+  Date: Sat Aug 23 13:35:49 2025 +0200
 
 - [8e028104](https://github.com/LineageOS/android_frameworks_base/commit/8e028104) Defer remove splash screen while device is locked
   
@@ -338,23 +332,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
-
-- [71be011](https://github.com/LineageOS/android_packages_apps_Dialer/commit/71be011) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:45 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
 
 - [f7d17ba](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/f7d17ba) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:46 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
+
+- [71be011](https://github.com/LineageOS/android_packages_apps_Dialer/commit/71be011) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:45 2025 +0000
 
 
 </details>
@@ -371,12 +365,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/FMRadio</b> (1 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
-- [0823949](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/0823949) Automatic translation import
+- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:48 2025 +0000
+  Date: Fri Aug 1 21:13:49 2025 +0000
 
 
 </details>
@@ -404,12 +398,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+<summary><b>packages/apps/FMRadio</b> (1 commits)</summary>
 
-- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
+- [0823949](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/0823949) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:49 2025 +0000
+  Date: Fri Aug 1 21:13:48 2025 +0000
 
 
 </details>
@@ -431,23 +425,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
-
-- [e5e9566](https://github.com/LineageOS/android_packages_apps_Messaging/commit/e5e9566) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:51 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Recorder</b> (1 commits)</summary>
 
 - [0c8bad3](https://github.com/LineageOS/android_packages_apps_Recorder/commit/0c8bad3) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:52 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
+
+- [e5e9566](https://github.com/LineageOS/android_packages_apps_Messaging/commit/e5e9566) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:51 2025 +0000
 
 
 </details>
@@ -640,7 +634,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (16 commits)</summary>
+<summary><b>vendor/lineage</b> (13 commits)</summary>
+
+- [dff1d96](https://github.com/LineageOS/android_vendor_lineage/commit/dff1d96) github: Run `apt update`
+  
+  Author: LuK1337  
+  Date: Sun Aug 24 20:45:33 2025 +0000
 
 - [e69f4b9](https://github.com/LineageOS/android_vendor_lineage/commit/e69f4b9) lineage: Move build-manifest.xml generation to a separate script
   
@@ -702,26 +701,6 @@
   Author: 410) from att5g[sa]_us-64000000006  
   Date: Alexander Koskovich|Sat Jul 26 15:22:10 2025 -0400
 
-- [98873ba](https://github.com/LineageOS/android_vendor_lineage/commit/98873ba) apns-conf: Update carriers from the Philippines
-  
-  Author: Marc Bourgoin  
-  Date: Fri Jul 25 19:52:53 2025 +0000
-
-- [3b3131f](https://github.com/LineageOS/android_vendor_lineage/commit/3b3131f) apns: Update Verizon (311
-  
-  Author: 480) from verizon_us-64000000022  
-  Date: Alexander Koskovich|Fri Jul 25 08:43:02 2025 -0400
-
-- [49aab7e](https://github.com/LineageOS/android_vendor_lineage/commit/49aab7e) apns: Update Xfinity Mobile MVNO (311
-  
-  Author: 480) from xfinity_us-64000000012  
-  Date: Alexander Koskovich|Fri Jul 25 08:43:02 2025 -0400
-
-- [eac47c1](https://github.com/LineageOS/android_vendor_lineage/commit/eac47c1) Add mvno_match_data to StraightTalk Verizon
-  
-  Author: Alexander Koskovich  
-  Date: Fri Jul 25 08:42:30 2025 -0400
-
 
 </details>
 
@@ -779,7 +758,23 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (3 commits)</summary>
+<summary><b>lineage/crowdin</b> (1 commits)</summary>
+
+- [76223ef](https://github.com/LineageOS/cm_crowdin/commit/76223ef) github: Run `apt update`
+  
+  Author: LuK1337  
+  Date: Sun Aug 24 20:47:55 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (4 commits)</summary>
+
+- [cbb0815](https://github.com/LineageOS/mirror/commit/cbb0815) Updated to 20-Aug-2025 06:15 UTC
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 23 09:15:59 2025 +0300
 
 - [4148dda](https://github.com/LineageOS/mirror/commit/4148dda) Updated to 20-Aug-2025 22:01 UTC
   
@@ -800,27 +795,6 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (3 commits)</summary>
-
-- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
-  
-  Author: Wiktor Rudzki  
-  Date: Wed Aug 6 18:52:52 2025 +0200
-
-- [25bbe2a](https://github.com/LineageOS/hudson/commit/25bbe2a) hudson: Revive r8q
-  
-  Author: Atakan  
-  Date: Sun Jul 27 15:32:45 2025 +0000
-
-- [48fecb4](https://github.com/LineageOS/hudson/commit/48fecb4) hudson: Add Nothing Phone (2) (Pong)
-  
-  Author: chandu078  
-  Date: Sun Jul 27 11:37:10 2025 +0530
-
-
-</details>
-
-<details>
 <summary><b>lineage/scripts</b> (1 commits)</summary>
 
 - [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
@@ -832,7 +806,27 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (15 commits)</summary>
+<summary><b>lineage/wiki</b> (18 commits)</summary>
+
+- [152b359](https://github.com/LineageOS/lineage_wiki/commit/152b359) wiki: Newest Ubuntu still has no ncurses5
+  
+  Author: LuK1337  
+  Date: Sun Aug 24 23:56:52 2025 +0200
+
+- [b11dd5e](https://github.com/LineageOS/lineage_wiki/commit/b11dd5e) wiki: device_variants: Pass `page.folder` to `device_link`
+  
+  Author: LuK1337  
+  Date: Sat Aug 23 12:15:58 2025 +0200
+
+- [b3e316f](https://github.com/LineageOS/lineage_wiki/commit/b3e316f) wiki: Append `device_link` leading slash automatically
+  
+  Author: LuK1337  
+  Date: Sat Aug 23 12:15:58 2025 +0200
+
+- [9e93034](https://github.com/LineageOS/lineage_wiki/commit/9e93034) wiki: Get rid of &quot;folder: info&quot;
+  
+  Author: LuK1337  
+  Date: Sat Aug 23 12:15:58 2025 +0200
 
 - [60e568e](https://github.com/LineageOS/lineage_wiki/commit/60e568e) wiki: Update Pong battery tech and models
   
@@ -904,10 +898,26 @@
   Author: LuK1337  
   Date: Sun Jul 27 11:24:04 2025 +0200
 
-- [697f827](https://github.com/LineageOS/lineage_wiki/commit/697f827) wiki: Add Galaxy Tab S7 (LTE)
+
+</details>
+
+<details>
+<summary><b>lineage/hudson</b> (3 commits)</summary>
+
+- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
   
-  Author: Bruno Martins  
-  Date: Thu Jul 24 20:58:07 2025 +0000
+  Author: Wiktor Rudzki  
+  Date: Wed Aug 6 18:52:52 2025 +0200
+
+- [25bbe2a](https://github.com/LineageOS/hudson/commit/25bbe2a) hudson: Revive r8q
+  
+  Author: Atakan  
+  Date: Sun Jul 27 15:32:45 2025 +0000
+
+- [48fecb4](https://github.com/LineageOS/hudson/commit/48fecb4) hudson: Add Nothing Phone (2) (Pong)
+  
+  Author: chandu078  
+  Date: Sun Jul 27 11:37:10 2025 +0530
 
 
 </details>
