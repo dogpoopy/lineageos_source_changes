@@ -12,7 +12,12 @@
 </details>
 
 <details>
-<summary><b>build/make</b> (2 commits)</summary>
+<summary><b>build/make</b> (3 commits)</summary>
+
+- [a2c2b23](https://github.com/LineageOS/android_build/commit/a2c2b23) Remove build-manifest.xml generation
+  
+  Author: Yumi Yukimura  
+  Date: Mon Aug 25 09:17:36 2025 +0000
 
 - [ea2c302](https://github.com/LineageOS/android_build/commit/ea2c302) gen_build-manifest: Ensure that we in TOP when executed
   
@@ -87,23 +92,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:48 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
   Date: Wed Aug 20 05:51:16 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:48 2025 -0600
 
 
 </details>
@@ -120,23 +125,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
-
-- [7696271](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/7696271) Update Chromium Webview x86 to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:55 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
 
 - [3edd0fb](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/3edd0fb) Update Chromium Webview x86_64 to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
   Date: Thu Aug 21 05:59:59 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
+
+- [7696271](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/7696271) Update Chromium Webview x86 to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:55 2025 -0600
 
 
 </details>
@@ -226,6 +231,17 @@
 </details>
 
 <details>
+<summary><b>hardware/interfaces</b> (1 commits)</summary>
+
+- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+  
+  Author: Nolen Johnson  
+  Date: Mon Aug 25 19:29:07 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>hardware/qcom-caf/msm8953/display</b> (1 commits)</summary>
 
 - [6cfaebb](https://github.com/LineageOS/android_hardware_qcom_display/commit/6cfaebb) sdm: Remove VIDEO_MODE_DEFER_RETIRE_FENCE ifdef
@@ -254,32 +270,6 @@
   
   Author: Baldev Sahu  
   Date: Tue Jul 29 21:25:27 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Aperture</b> (4 commits)</summary>
-
-- [8400f48](https://github.com/LineageOS/android_packages_apps_Aperture/commit/8400f48) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:41 2025 +0000
-
-- [82d6068](https://github.com/LineageOS/android_packages_apps_Aperture/commit/82d6068) Aperture: Update CameraX to 1.5.0-rc01
-  
-  Author: LuK1337  
-  Date: Wed Aug 13 20:29:33 2025 +0200
-
-- [f1d7cb0](https://github.com/LineageOS/android_packages_apps_Aperture/commit/f1d7cb0) Aperture: Update CameraX to 1.5.0-beta02
-  
-  Author: LuK1337  
-  Date: Wed Aug 13 19:38:01 2025 +0200
-
-- [7f948a8](https://github.com/LineageOS/android_packages_apps_Aperture/commit/7f948a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:43 2025 +0000
 
 
 </details>
@@ -316,6 +306,32 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Aperture</b> (4 commits)</summary>
+
+- [8400f48](https://github.com/LineageOS/android_packages_apps_Aperture/commit/8400f48) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:41 2025 +0000
+
+- [82d6068](https://github.com/LineageOS/android_packages_apps_Aperture/commit/82d6068) Aperture: Update CameraX to 1.5.0-rc01
+  
+  Author: LuK1337  
+  Date: Wed Aug 13 20:29:33 2025 +0200
+
+- [f1d7cb0](https://github.com/LineageOS/android_packages_apps_Aperture/commit/f1d7cb0) Aperture: Update CameraX to 1.5.0-beta02
+  
+  Author: LuK1337  
+  Date: Wed Aug 13 19:38:01 2025 +0200
+
+- [7f948a8](https://github.com/LineageOS/android_packages_apps_Aperture/commit/7f948a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:43 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Catapult</b> (2 commits)</summary>
 
 - [f6e4332](https://github.com/LineageOS/android_packages_apps_Catapult/commit/f6e4332) Automatic translation import
@@ -343,17 +359,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
-
-- [71be011](https://github.com/LineageOS/android_packages_apps_Dialer/commit/71be011) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:45 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Etar</b> (1 commits)</summary>
 
 - [d312f41](https://github.com/LineageOS/android_packages_apps_Etar/commit/d312f41) Automatic translation import
@@ -365,12 +370,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
-- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
+- [71be011](https://github.com/LineageOS/android_packages_apps_Dialer/commit/71be011) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:49 2025 +0000
+  Date: Fri Aug 1 21:13:45 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/FMRadio</b> (1 commits)</summary>
+
+- [0823949](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/0823949) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:48 2025 +0000
 
 
 </details>
@@ -387,23 +403,23 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+
+- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:49 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Jelly</b> (1 commits)</summary>
 
 - [aad4d12](https://github.com/LineageOS/android_packages_apps_Jelly/commit/aad4d12) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:50 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/FMRadio</b> (1 commits)</summary>
-
-- [0823949](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/0823949) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:48 2025 +0000
 
 
 </details>
@@ -442,6 +458,37 @@
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:51 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Seedvault</b> (5 commits)</summary>
+
+- [da6d54a](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/da6d54a) Merge tag &#x27;15-5.7&#x27; of https://github.com/seedvault-app/seedvault into HEAD
+  
+  Author: Michael Bestas  
+  Date: Fri Aug 22 19:00:24 2025 +0300
+
+- [20388b4](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/20388b4) Merge pull request #950 from mikeNG/15-5.7
+  
+  Author: Michael Bestas  
+  Date: Tue Aug 12 22:55:51 2025 +0300
+
+- [4fff329](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/4fff329) Release 15-5.7
+  
+  Author: Michael Bestas  
+  Date: Tue Aug 12 14:17:34 2025 -0400
+
+- [8bc2f54](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/8bc2f54) Merge pull request #922 from weblate/weblate-calyxos-seedvault
+  
+  Author: Michael Bestas  
+  Date: Tue Aug 12 21:06:54 2025 +0300
+
+- [f7a7978](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/f7a7978) Import translations from Weblate
+  
+  Author: Hosted Weblate  
+  Date: Sun Aug 3 13:02:07 2025 +0200
 
 
 </details>
@@ -500,6 +547,22 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 19:26:05 2025 +0000
+
+- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Twelve</b> (5 commits)</summary>
 
 - [892bdbb](https://github.com/LineageOS/android_packages_apps_Twelve/commit/892bdbb) Twelve: TwelveAudioSink: Add missing delegates to defaultAudioSink
@@ -526,22 +589,6 @@
   
   Author: Inhishonor  
   Date: Fri Aug 1 19:45:36 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
-
-- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 19:26:05 2025 +0000
-
-- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:52 2025 +0000
 
 
 </details>
@@ -618,23 +665,17 @@
 </details>
 
 <details>
-<summary><b>vendor/crowdin</b> (2 commits)</summary>
+<summary><b>vendor/lineage</b> (14 commits)</summary>
 
-- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+- [1157d47](https://github.com/LineageOS/android_vendor_lineage/commit/1157d47) lineage: Move build-manifest.xml build rule into `build/tasks`
   
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:52 2025 +0000
+  Author: Yumi Yukimura  
+  Date: Mon Aug 25 15:12:21 2025 +0000
 
-- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
+- [8ffd60b](https://github.com/LineageOS/android_vendor_lineage/commit/8ffd60b) lineage: Restore Android.mk based build-manifest.xml build rule
   
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:14:06 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>vendor/lineage</b> (13 commits)</summary>
+  Author: Yumi Yukimura  
+  Date: Sun Aug 24 21:26:51 2025 -0400
 
 - [dff1d96](https://github.com/LineageOS/android_vendor_lineage/commit/dff1d96) github: Run `apt update`
   
@@ -696,21 +737,21 @@
   Author: Alexander Koskovich  
   Date: Tue Jul 29 18:34:20 2025 -0400
 
-- [2565e14](https://github.com/LineageOS/android_vendor_lineage/commit/2565e14) apns: Add AT&amp;T 5G NSA &amp; SA APNs (310
-  
-  Author: 410) from att5g[sa]_us-64000000006  
-  Date: Alexander Koskovich|Sat Jul 26 15:22:10 2025 -0400
-
 
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8450/audio/pal</b> (1 commits)</summary>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
 
-- [16bdaec](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/16bdaec) ResourceManager: fix activeStreams check
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
   
-  Author: Tommaso Fonda  
-  Date: Sat Jul 26 18:11:46 2025 +0200
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
+
+- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:14:06 2025 +0000
 
 
 </details>
@@ -790,6 +831,27 @@
   
   Author: Tim Schumacher  
   Date: Sat Aug 9 23:24:49 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/hudson</b> (3 commits)</summary>
+
+- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
+  
+  Author: Wiktor Rudzki  
+  Date: Wed Aug 6 18:52:52 2025 +0200
+
+- [25bbe2a](https://github.com/LineageOS/hudson/commit/25bbe2a) hudson: Revive r8q
+  
+  Author: Atakan  
+  Date: Sun Jul 27 15:32:45 2025 +0000
+
+- [48fecb4](https://github.com/LineageOS/hudson/commit/48fecb4) hudson: Add Nothing Phone (2) (Pong)
+  
+  Author: chandu078  
+  Date: Sun Jul 27 11:37:10 2025 +0530
 
 
 </details>
@@ -897,27 +959,6 @@
   
   Author: LuK1337  
   Date: Sun Jul 27 11:24:04 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (3 commits)</summary>
-
-- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
-  
-  Author: Wiktor Rudzki  
-  Date: Wed Aug 6 18:52:52 2025 +0200
-
-- [25bbe2a](https://github.com/LineageOS/hudson/commit/25bbe2a) hudson: Revive r8q
-  
-  Author: Atakan  
-  Date: Sun Jul 27 15:32:45 2025 +0000
-
-- [48fecb4](https://github.com/LineageOS/hudson/commit/48fecb4) hudson: Add Nothing Phone (2) (Pong)
-  
-  Author: chandu078  
-  Date: Sun Jul 27 11:37:10 2025 +0530
 
 
 </details>
