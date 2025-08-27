@@ -92,23 +92,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Wed Aug 20 05:51:16 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
   Date: Thu Aug 21 05:59:48 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:51:16 2025 -0600
 
 
 </details>
@@ -125,23 +125,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
-
-- [3edd0fb](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/3edd0fb) Update Chromium Webview x86_64 to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:59 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
 
 - [7696271](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/7696271) Update Chromium Webview x86 to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
   Date: Thu Aug 21 05:59:55 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
+
+- [3edd0fb](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/3edd0fb) Update Chromium Webview x86_64 to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:59 2025 -0600
 
 
 </details>
@@ -441,23 +441,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
-
-- [0c8bad3](https://github.com/LineageOS/android_packages_apps_Recorder/commit/0c8bad3) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:52 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Messaging</b> (1 commits)</summary>
 
 - [e5e9566](https://github.com/LineageOS/android_packages_apps_Messaging/commit/e5e9566) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:51 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
+
+- [0c8bad3](https://github.com/LineageOS/android_packages_apps_Recorder/commit/0c8bad3) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
 
 
 </details>
@@ -531,22 +531,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
-
-- [30555e2](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/30555e2) Launcher3: Add permission for contextual search
-  
-  Author: Pranav Vashi  
-  Date: Tue Aug 12 21:04:21 2025 +0200
-
-- [7c5366b](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7c5366b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:54 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Settings</b> (2 commits)</summary>
 
 - [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
@@ -558,6 +542,22 @@
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:52 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
+
+- [30555e2](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/30555e2) Launcher3: Add permission for contextual search
+  
+  Author: Pranav Vashi  
+  Date: Tue Aug 12 21:04:21 2025 +0200
+
+- [7c5366b](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7c5366b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:54 2025 +0000
 
 
 </details>
@@ -665,7 +665,28 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (14 commits)</summary>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
+
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
+
+- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:14:06 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>vendor/lineage</b> (15 commits)</summary>
+
+- [14ab8c6](https://github.com/LineageOS/android_vendor_lineage/commit/14ab8c6) Ignore prebuilt/generated directory
+  
+  Author: Nolen Johnson  
+  Date: Tue Aug 26 00:04:21 2025 +0000
 
 - [1157d47](https://github.com/LineageOS/android_vendor_lineage/commit/1157d47) lineage: Move build-manifest.xml build rule into `build/tasks`
   
@@ -736,22 +757,6 @@
   
   Author: Alexander Koskovich  
   Date: Tue Jul 29 18:34:20 2025 -0400
-
-
-</details>
-
-<details>
-<summary><b>vendor/crowdin</b> (2 commits)</summary>
-
-- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:52 2025 +0000
-
-- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:14:06 2025 +0000
 
 
 </details>
@@ -836,39 +841,18 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (3 commits)</summary>
+<summary><b>lineage/hudson</b> (1 commits)</summary>
 
 - [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
   
   Author: Wiktor Rudzki  
   Date: Wed Aug 6 18:52:52 2025 +0200
 
-- [25bbe2a](https://github.com/LineageOS/hudson/commit/25bbe2a) hudson: Revive r8q
-  
-  Author: Atakan  
-  Date: Sun Jul 27 15:32:45 2025 +0000
-
-- [48fecb4](https://github.com/LineageOS/hudson/commit/48fecb4) hudson: Add Nothing Phone (2) (Pong)
-  
-  Author: chandu078  
-  Date: Sun Jul 27 11:37:10 2025 +0530
-
 
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (1 commits)</summary>
-
-- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Wed Aug 20 05:46:36 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (18 commits)</summary>
+<summary><b>lineage/wiki</b> (14 commits)</summary>
 
 - [152b359](https://github.com/LineageOS/lineage_wiki/commit/152b359) wiki: Newest Ubuntu still has no ncurses5
   
@@ -940,25 +924,21 @@
   Author: Inhishonor  
   Date: Mon Jul 28 17:55:45 2025 -0700
 
-- [f93d830](https://github.com/LineageOS/lineage_wiki/commit/f93d830) wiki: devices: Revive r8q
-  
-  Author: Atakan  
-  Date: Sun Jul 27 18:20:06 2025 +0300
 
-- [597c567](https://github.com/LineageOS/lineage_wiki/commit/597c567) wiki: Add `current_branch` validation
-  
-  Author: LuK1337  
-  Date: Sun Jul 27 11:44:17 2025 +0200
+</details>
 
-- [49ddbc9](https://github.com/LineageOS/lineage_wiki/commit/49ddbc9) wiki: Add Nothing Phone (2)
-  
-  Author: chandu078  
-  Date: Sun Jul 27 09:43:45 2025 +0000
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
 
-- [ab3acc6](https://github.com/LineageOS/lineage_wiki/commit/ab3acc6) wiki: Sort nuwa&#x27;s peripherals
+- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
   
-  Author: LuK1337  
-  Date: Sun Jul 27 11:24:04 2025 +0200
+  Author: Michael Bestas  
+  Date: Tue Aug 26 20:10:24 2025 +0300
+
+- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:46:36 2025 -0600
 
 
 </details>
