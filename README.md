@@ -92,23 +92,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:48 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
   Date: Wed Aug 20 05:51:16 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:48 2025 -0600
 
 
 </details>
@@ -275,37 +275,6 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (5 commits)</summary>
-
-- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [68106a6](https://github.com/LineageOS/android_lineage-sdk/commit/68106a6) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:43 2025 +0000
-
-- [05e3e33](https://github.com/LineageOS/android_lineage-sdk/commit/05e3e33) health: Fix limit notification
-  
-  Author: Luofan Chen  
-  Date: Mon Jul 28 12:44:43 2025 +0000
-
-- [12ab886](https://github.com/LineageOS/android_lineage-sdk/commit/12ab886) health: Implement new charging control battery listener
-  
-  Author: Luofan Chen  
-  Date: Mon Jul 28 12:44:39 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Aperture</b> (4 commits)</summary>
 
 - [8400f48](https://github.com/LineageOS/android_packages_apps_Aperture/commit/8400f48) Automatic translation import
@@ -324,6 +293,27 @@
   Date: Wed Aug 13 19:38:01 2025 +0200
 
 - [7f948a8](https://github.com/LineageOS/android_packages_apps_Aperture/commit/7f948a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:43 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage-sdk</b> (3 commits)</summary>
+
+- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [68106a6](https://github.com/LineageOS/android_lineage-sdk/commit/68106a6) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:43 2025 +0000
@@ -463,6 +453,32 @@
 </details>
 
 <details>
+<summary><b>packages/apps/SetupWizard</b> (4 commits)</summary>
+
+- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
+  
+  Author: Inhishonor  
+  Date: Fri Aug 15 22:37:46 2025 +0000
+
+- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:43 2025 +0000
+
+- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
+  
+  Author: LuK1337  
+  Date: Tue Aug 12 14:52:00 2025 +0200
+
+- [06bff70](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/06bff70) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:53 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Seedvault</b> (5 commits)</summary>
 
 - [da6d54a](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/da6d54a) Merge tag &#x27;15-5.7&#x27; of https://github.com/seedvault-app/seedvault into HEAD
@@ -494,54 +510,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/SetupWizard</b> (4 commits)</summary>
-
-- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
-  
-  Author: Inhishonor  
-  Date: Fri Aug 15 22:37:46 2025 +0000
-
-- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:43 2025 +0000
-
-- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
-  
-  Author: LuK1337  
-  Date: Tue Aug 12 14:52:00 2025 +0200
-
-- [06bff70](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/06bff70) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:53 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
 
 - [5228c51](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/5228c51) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:54 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
-
-- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 19:26:05 2025 +0000
-
-- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:52 2025 +0000
 
 
 </details>
@@ -589,6 +563,22 @@
   
   Author: Inhishonor  
   Date: Fri Aug 1 19:45:36 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 19:26:05 2025 +0000
+
+- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
 
 
 </details>
@@ -815,7 +805,23 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (4 commits)</summary>
+<summary><b>lineage/hudson</b> (1 commits)</summary>
+
+- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
+  
+  Author: Wiktor Rudzki  
+  Date: Wed Aug 6 18:52:52 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (5 commits)</summary>
+
+- [05c5c6a](https://github.com/LineageOS/mirror/commit/05c5c6a) Updated to 27-Aug-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Aug 27 12:01:28 2025 +0200
 
 - [cbb0815](https://github.com/LineageOS/mirror/commit/cbb0815) Updated to 20-Aug-2025 06:15 UTC
   
@@ -841,18 +847,33 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (1 commits)</summary>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
 
-- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
+- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
   
-  Author: Wiktor Rudzki  
-  Date: Wed Aug 6 18:52:52 2025 +0200
+  Author: Michael Bestas  
+  Date: Tue Aug 26 20:10:24 2025 +0300
+
+- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:46:36 2025 -0600
 
 
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (14 commits)</summary>
+<summary><b>lineage/wiki</b> (16 commits)</summary>
+
+- [8af0e9e](https://github.com/LineageOS/lineage_wiki/commit/8af0e9e) wiki: Add a reminder to not submit bugs for heavily modified devices
+  
+  Author: Inhishonor  
+  Date: Wed Aug 27 15:09:55 2025 +0000
+
+- [87eb908](https://github.com/LineageOS/lineage_wiki/commit/87eb908) wiki: Add a faq for rooting
+  
+  Author: Inhishonor  
+  Date: Wed Aug 27 15:09:37 2025 +0000
 
 - [152b359](https://github.com/LineageOS/lineage_wiki/commit/152b359) wiki: Newest Ubuntu still has no ncurses5
   
@@ -923,22 +944,6 @@
   
   Author: Inhishonor  
   Date: Mon Jul 28 17:55:45 2025 -0700
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
-  
-  Author: Michael Bestas  
-  Date: Tue Aug 26 20:10:24 2025 +0300
-
-- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Wed Aug 20 05:46:36 2025 -0600
 
 
 </details>
