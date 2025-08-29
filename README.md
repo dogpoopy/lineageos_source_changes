@@ -44,7 +44,17 @@
 </details>
 
 <details>
-<summary><b>device/lineage/sepolicy</b> (4 commits)</summary>
+<summary><b>device/lineage/sepolicy</b> (6 commits)</summary>
+
+- [794b496](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/794b496) qcom: Label common LiveDisplay sysfs nodes
+  
+  Author: Giovanni Ricca  
+  Date: Sat Aug 23 12:28:30 2025 +0200
+
+- [374e8c8](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/374e8c8) common: Add AIDL LiveDisplay sysfs HAL
+  
+  Author: Yumi Yukimura  
+  Date: Fri Aug 22 23:12:56 2025 +0200
 
 - [792d024](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/792d024) qcom: Label AIDL LiveDisplay SDM HAL
   
@@ -173,18 +183,12 @@
 </details>
 
 <details>
-<summary><b>hardware/google/pixel</b> (1 commits)</summary>
+<summary><b>hardware/lineage/interfaces</b> (7 commits)</summary>
 
-- [1dee182](https://github.com/LineageOS/android_hardware_google_pixel/commit/1dee182) Revert &quot;pixel: Disable lineage health HAL&quot;
+- [b3fc9d1](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/b3fc9d1) livedisplay: aidl: Initial LiveDisplay sysfs AIDL implementation
   
-  Author: Michael Bestas  
-  Date: Wed Jul 30 00:09:15 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/lineage/interfaces</b> (6 commits)</summary>
+  Author: Giovanni Ricca  
+  Date: Tue Aug 26 23:11:36 2025 +0200
 
 - [41de4ce](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/41de4ce) livedisplay: sdm: Initial AIDL port
   
@@ -242,23 +246,23 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/msm8953/display</b> (1 commits)</summary>
+<summary><b>hardware/qcom-caf/sm8450/display</b> (1 commits)</summary>
 
-- [6cfaebb](https://github.com/LineageOS/android_hardware_qcom_display/commit/6cfaebb) sdm: Remove VIDEO_MODE_DEFER_RETIRE_FENCE ifdef
+- [b44742b](https://github.com/LineageOS/android_hardware_qcom_display/commit/b44742b) gralloc: avoid calling property_get() on every buffer allocation
   
-  Author: LuK1337  
-  Date: Tue Jul 29 23:17:20 2025 +0200
+  Author: Cosmin Tanislav  
+  Date: Thu Aug 28 10:08:21 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sdm660/display</b> (1 commits)</summary>
+<summary><b>hardware/qcom-caf/sm8550/display</b> (1 commits)</summary>
 
-- [dfcc000](https://github.com/LineageOS/android_hardware_qcom_display/commit/dfcc000) sdm: Remove VIDEO_MODE_DEFER_RETIRE_FENCE ifdef
+- [ccdf85d](https://github.com/LineageOS/android_hardware_qcom_display/commit/ccdf85d) gralloc: avoid calling property_get() on every buffer allocation
   
-  Author: LuK1337  
-  Date: Tue Jul 29 23:15:26 2025 +0200
+  Author: Cosmin Tanislav  
+  Date: Thu Aug 28 10:12:03 2025 +0000
 
 
 </details>
@@ -266,10 +270,31 @@
 <details>
 <summary><b>hardware/qcom-caf/sm8650/display</b> (1 commits)</summary>
 
-- [b586b40](https://github.com/LineageOS/android_hardware_qcom_display/commit/b586b40) sdm: Define page size if it&#x27;s not defined
+- [4d9c891](https://github.com/LineageOS/android_hardware_qcom_display/commit/4d9c891) gralloc: avoid calling property_get() on every buffer allocation
   
-  Author: Baldev Sahu  
-  Date: Tue Jul 29 21:25:27 2025 +0200
+  Author: Cosmin Tanislav  
+  Date: Thu Aug 28 10:13:15 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage-sdk</b> (3 commits)</summary>
+
+- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [68106a6](https://github.com/LineageOS/android_lineage-sdk/commit/68106a6) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:43 2025 +0000
 
 
 </details>
@@ -293,27 +318,6 @@
   Date: Wed Aug 13 19:38:01 2025 +0200
 
 - [7f948a8](https://github.com/LineageOS/android_packages_apps_Aperture/commit/7f948a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:43 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage-sdk</b> (3 commits)</summary>
-
-- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [68106a6](https://github.com/LineageOS/android_lineage-sdk/commit/68106a6) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:43 2025 +0000
@@ -393,23 +397,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
-
-- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:49 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Jelly</b> (1 commits)</summary>
 
 - [aad4d12](https://github.com/LineageOS/android_packages_apps_Jelly/commit/aad4d12) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:50 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+
+- [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:49 2025 +0000
 
 
 </details>
@@ -453,32 +457,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/SetupWizard</b> (4 commits)</summary>
-
-- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
-  
-  Author: Inhishonor  
-  Date: Fri Aug 15 22:37:46 2025 +0000
-
-- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:43 2025 +0000
-
-- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
-  
-  Author: LuK1337  
-  Date: Tue Aug 12 14:52:00 2025 +0200
-
-- [06bff70](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/06bff70) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:53 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Seedvault</b> (5 commits)</summary>
 
 - [da6d54a](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/da6d54a) Merge tag &#x27;15-5.7&#x27; of https://github.com/seedvault-app/seedvault into HEAD
@@ -505,6 +483,32 @@
   
   Author: Hosted Weblate  
   Date: Sun Aug 3 13:02:07 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/SetupWizard</b> (4 commits)</summary>
+
+- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
+  
+  Author: Inhishonor  
+  Date: Fri Aug 15 22:37:46 2025 +0000
+
+- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:43 2025 +0000
+
+- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
+  
+  Author: LuK1337  
+  Date: Tue Aug 12 14:52:00 2025 +0200
+
+- [06bff70](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/06bff70) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:53 2025 +0000
 
 
 </details>
@@ -568,22 +572,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
-
-- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 19:26:05 2025 +0000
-
-- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:52 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Updater</b> (2 commits)</summary>
 
 - [88f35f1](https://github.com/LineageOS/android_packages_apps_Updater/commit/88f35f1) Updater: push-update: Allow specifying serial number
@@ -595,6 +583,42 @@
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:56 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (6 commits)</summary>
+
+- [63fe7e22](https://github.com/LineageOS/android_packages_apps_Settings/commit/63fe7e22) Settings: DevicePicker: Adapt to S style
+  
+  Author: ReallySnow  
+  Date: Thu Aug 28 11:18:04 2025 +0000
+
+- [b55b67e5](https://github.com/LineageOS/android_packages_apps_Settings/commit/b55b67e5) SlicesDatabaseHelper: Use Build.VERSION.INCREMENTAL
+  
+  Author: jhenrique09  
+  Date: Thu Aug 28 11:17:57 2025 +0000
+
+- [5f7b2693](https://github.com/LineageOS/android_packages_apps_Settings/commit/5f7b2693) Settings: fix typo in settings namespace for qr scanner on ls
+  
+  Author: maxwen  
+  Date: Thu Aug 28 11:17:52 2025 +0000
+
+- [719ca665](https://github.com/LineageOS/android_packages_apps_Settings/commit/719ca665) fixup! Revert &quot;[Sim UI enhancement] remove the &quot;Tap to show info&quot;&quot;
+  
+  Author: Adithya R  
+  Date: Mon Aug 25 09:38:27 2025 +0000
+
+- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 19:26:05 2025 +0000
+
+- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
 
 
 </details>
@@ -655,23 +679,7 @@
 </details>
 
 <details>
-<summary><b>vendor/crowdin</b> (2 commits)</summary>
-
-- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:52 2025 +0000
-
-- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:14:06 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>vendor/lineage</b> (15 commits)</summary>
+<summary><b>vendor/lineage</b> (14 commits)</summary>
 
 - [14ab8c6](https://github.com/LineageOS/android_vendor_lineage/commit/14ab8c6) Ignore prebuilt/generated directory
   
@@ -743,36 +751,32 @@
   Author: Yannick Binnenweg  
   Date: Mon Aug 4 18:01:24 2025 +0000
 
-- [ac32edd](https://github.com/LineageOS/android_vendor_lineage/commit/ac32edd) apns: Update US Mobile APNs
+
+</details>
+
+<details>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
+
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
   
-  Author: Alexander Koskovich  
-  Date: Tue Jul 29 18:34:20 2025 -0400
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
+
+- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:14:06 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8750/display/core</b> (4 commits)</summary>
+<summary><b>hardware/qcom-caf/sm8750/display/core</b> (1 commits)</summary>
 
 - [100ac95](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/100ac95) Revert &quot;Revert^2 &quot;sdm: add support for DS merge mode&quot;&quot;
   
   Author: LuK1337  
   Date: Thu Jul 31 01:54:14 2025 +0200
-
-- [557a72d](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/557a72d) display-core: Make IsGPUHWAvailable() non-virtual and force it to true
-  
-  Author: LuK1337  
-  Date: Tue Jul 29 22:39:05 2025 +0200
-
-- [8cdf166](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/8cdf166) display-core: fix compilation for Android 16
-  
-  Author: Jim Wang  
-  Date: Tue Jul 29 20:35:49 2025 +0200
-
-- [f0831ee](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/f0831ee) Revert &quot;snapalloc: Fix unannotated fall-through compilation errors&quot;
-  
-  Author: LuK1337  
-  Date: Tue Jul 29 20:35:47 2025 +0200
 
 
 </details>
@@ -805,7 +809,17 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (1 commits)</summary>
+<summary><b>lineage/hudson</b> (3 commits)</summary>
+
+- [88904d7](https://github.com/LineageOS/hudson/commit/88904d7) hudson: Add Motorola Moto G Stylus 5G 2022 (milanf)
+  
+  Author: AnierinB  
+  Date: Thu Aug 28 22:56:42 2025 +0000
+
+- [c8f857a](https://github.com/LineageOS/hudson/commit/c8f857a) best vietnamese gaming phone
+  
+  Author: Tuan Anh  
+  Date: Thu Aug 28 04:45:24 2025 +0000
 
 - [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
   
@@ -847,23 +861,32 @@
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
+<summary><b>lineage/wiki</b> (19 commits)</summary>
 
-- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
+- [de536e1](https://github.com/LineageOS/lineage_wiki/commit/de536e1) wiki: Add Motorola Moto G Stylus 5G 2022 (milanf)
   
-  Author: Michael Bestas  
-  Date: Tue Aug 26 20:10:24 2025 +0300
+  Author: AnierinB  
+  Date: Thu Aug 28 22:56:27 2025 +0000
 
-- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
+- [b244805](https://github.com/LineageOS/lineage_wiki/commit/b244805) wiki: Use correct before_install for bangkk/fogo/fogos/miami
   
-  Author: Kevin F. Haggerty  
-  Date: Wed Aug 20 05:46:36 2025 -0600
+  Author: LuK1337  
+  Date: Thu Aug 28 14:49:16 2025 +0000
 
+- [b42731b](https://github.com/LineageOS/lineage_wiki/commit/b42731b) wiki: Use correct before_install for moto-6225
+  
+  Author: LuK1337  
+  Date: Thu Aug 28 14:29:19 2025 +0000
 
-</details>
+- [8a78118](https://github.com/LineageOS/lineage_wiki/commit/8a78118) wiki: devices: Add Vsmart Joy 3 (casuarina)
+  
+  Author: Tuan Anh  
+  Date: Thu Aug 28 05:16:22 2025 +0000
 
-<details>
-<summary><b>lineage/wiki</b> (16 commits)</summary>
+- [727c22d](https://github.com/LineageOS/lineage_wiki/commit/727c22d) wiki: schema: Add Vsmart in the list
+  
+  Author: Tuan Anh  
+  Date: Thu Aug 28 04:20:43 2025 +0000
 
 - [8af0e9e](https://github.com/LineageOS/lineage_wiki/commit/8af0e9e) wiki: Add a reminder to not submit bugs for heavily modified devices
   
@@ -935,15 +958,21 @@
   Author: LuK1337  
   Date: Wed Jul 30 17:26:33 2025 +0200
 
-- [b321d04](https://github.com/LineageOS/lineage_wiki/commit/b321d04) wiki: Improve wording of the adb_flash_success tip
-  
-  Author: Inhishonor  
-  Date: Mon Jul 28 17:55:52 2025 -0700
 
-- [69d8033](https://github.com/LineageOS/lineage_wiki/commit/69d8033) wiki: Change formatting of commands in install and upgrade
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
   
-  Author: Inhishonor  
-  Date: Mon Jul 28 17:55:45 2025 -0700
+  Author: Michael Bestas  
+  Date: Tue Aug 26 20:10:24 2025 +0300
+
+- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:46:36 2025 -0600
 
 
 </details>
