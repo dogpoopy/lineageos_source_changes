@@ -80,7 +80,12 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (2 commits)</summary>
+
+- [b125574](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b125574) sepolicy_vndr: lito: Label pm8150 power-on wakeup node
+  
+  Author: Giovanni Ricca  
+  Date: Tue Aug 19 02:56:23 2025 +0200
 
 - [d94d104](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d94d104) sepolicy: holi: Label pmr735a power supply nodes
   
@@ -183,6 +188,28 @@
 </details>
 
 <details>
+<summary><b>hardware/qcom-caf/common</b> (1 commits)</summary>
+
+- [99d7aac](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/99d7aac) rfs: Add modem_firmware to RFS install targets
+  
+  Author: kmiit  
+  Date: Sun Aug 10 08:43:15 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/interfaces</b> (1 commits)</summary>
+
+- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+  
+  Author: Nolen Johnson  
+  Date: Mon Aug 25 19:29:07 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>hardware/lineage/interfaces</b> (7 commits)</summary>
 
 - [b3fc9d1](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/b3fc9d1) livedisplay: aidl: Initial LiveDisplay sysfs AIDL implementation
@@ -224,23 +251,73 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/common</b> (1 commits)</summary>
+<summary><b>hardware/qcom-caf/sdm660/audio</b> (6 commits)</summary>
 
-- [99d7aac](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/99d7aac) rfs: Add modem_firmware to RFS install targets
+- [56d409b](https://github.com/LineageOS/android_hardware_qcom_audio/commit/56d409b) hal: Convert audio extensions to blueprint
   
-  Author: kmiit  
-  Date: Sun Aug 10 08:43:15 2025 +0000
+  Author: Michael Bestas  
+  Date: Fri Aug 29 13:05:23 2025 +0200
+
+- [35ace1e](https://github.com/LineageOS/android_hardware_qcom_audio/commit/35ace1e) hal: Convert primary HAL to blueprint
+  
+  Author: Michael Bestas  
+  Date: Fri Aug 29 13:02:26 2025 +0200
+
+- [0cebbf7](https://github.com/LineageOS/android_hardware_qcom_audio/commit/0cebbf7) hal: Remove unused libmaxxaudio extension
+  
+  Author: Michael Bestas  
+  Date: Fri Aug 29 12:59:52 2025 +0200
+
+- [47e9fbc](https://github.com/LineageOS/android_hardware_qcom_audio/commit/47e9fbc) hal: Remove feature manager leftovers
+  
+  Author: Michael Bestas  
+  Date: Fri Aug 29 12:58:52 2025 +0200
+
+- [cfe3b51](https://github.com/LineageOS/android_hardware_qcom_audio/commit/cfe3b51) audio: Remove all unsupported platforms &amp; flags
+  
+  Author: Michael Bestas  
+  Date: Fri Aug 29 12:57:12 2025 +0200
+
+- [b35e1f5](https://github.com/LineageOS/android_hardware_qcom_audio/commit/b35e1f5) hal: audio_extn: Add argument to pthread routines
+  
+  Author: danielml  
+  Date: Fri Aug 29 11:09:43 2025 +0200
 
 
 </details>
 
 <details>
-<summary><b>hardware/interfaces</b> (1 commits)</summary>
+<summary><b>hardware/qcom-caf/sdm660/display</b> (6 commits)</summary>
 
-- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+- [0ce1694](https://github.com/LineageOS/android_hardware_qcom_display/commit/0ce1694) Convert remaining Android.mk to blueprint
   
-  Author: Nolen Johnson  
-  Date: Mon Aug 25 19:29:07 2025 +0000
+  Author: Michael Bestas  
+  Date: Sun Aug 10 09:15:22 2025 +0200
+
+- [98fa317](https://github.com/LineageOS/android_hardware_qcom_display/commit/98fa317) sdm: Convert hwcomposer.qcom to soong
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 09:02:36 2025 +0200
+
+- [da17b15](https://github.com/LineageOS/android_hardware_qcom_display/commit/da17b15) Convert libsdmcore to blueprint
+  
+  Author: LuK1337  
+  Date: Sun Aug 10 09:02:36 2025 +0200
+
+- [e963862](https://github.com/LineageOS/android_hardware_qcom_display/commit/e963862) Convert libgrallocutils and gpu_tonemapper to blueprint
+  
+  Author: EndCredits  
+  Date: Sun Aug 10 09:02:36 2025 +0200
+
+- [8ede0ab](https://github.com/LineageOS/android_hardware_qcom_display/commit/8ede0ab) gralloc: Make MASTER_SIDE_CP as default Making MASTER_SIDE_CP as default
+  
+  Author: Prabhakar Reddy Krishnappa  
+  Date: Sun Aug 10 08:49:50 2025 +0200
+
+- [6881b29](https://github.com/LineageOS/android_hardware_qcom_display/commit/6881b29) gralloc: Drop support for hypervisor
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 08:49:09 2025 +0200
 
 
 </details>
@@ -274,6 +351,72 @@
   
   Author: Cosmin Tanislav  
   Date: Thu Aug 28 10:13:15 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sdm660/media</b> (12 commits)</summary>
+
+- [16a6426](https://github.com/LineageOS/android_hardware_qcom_media/commit/16a6426) mm-core: Remove no longer used codecs
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 01:10:48 2025 +0200
+
+- [4063d59](https://github.com/LineageOS/android_hardware_qcom_media/commit/4063d59) media: Drop libsidebandstreamhandle
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 01:10:48 2025 +0200
+
+- [938ec76](https://github.com/LineageOS/android_hardware_qcom_media/commit/938ec76) mm-core: Convert to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 01:10:48 2025 +0200
+
+- [e7f1cd9](https://github.com/LineageOS/android_hardware_qcom_media/commit/e7f1cd9) mm-core: Remove unused files &amp; flags
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 01:10:48 2025 +0200
+
+- [89d8171](https://github.com/LineageOS/android_hardware_qcom_media/commit/89d8171) mm-video-v4l2: Convert to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 01:10:47 2025 +0200
+
+- [77e4cbc](https://github.com/LineageOS/android_hardware_qcom_media/commit/77e4cbc) mm-video-v4l2: vidc: Drop support for hypervisor
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 01:10:12 2025 +0200
+
+- [382754a](https://github.com/LineageOS/android_hardware_qcom_media/commit/382754a) mm-video-v4l2: Remove SW OMX codecs, unused files &amp; flags
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 01:10:02 2025 +0200
+
+- [5c6c2a6](https://github.com/LineageOS/android_hardware_qcom_media/commit/5c6c2a6) mm-video-v4l2: Make MASTER_SIDE_CP as default  Making MASTER_SIDE_CP as default
+  
+  Author: Prabhakar Reddy Krishnappa  
+  Date: Sun Aug 10 00:23:20 2025 +0200
+
+- [8197551](https://github.com/LineageOS/android_hardware_qcom_media/commit/8197551) libstagefrighthw: Convert to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 00:21:22 2025 +0200
+
+- [18790b4](https://github.com/LineageOS/android_hardware_qcom_media/commit/18790b4) libc2dcolorconvert: Cleanup dependencies &amp; convert to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 00:16:58 2025 +0200
+
+- [6481dc3](https://github.com/LineageOS/android_hardware_qcom_media/commit/6481dc3) media: Remove autoconf/automake configuration
+  
+  Author: Michael Bestas  
+  Date: Sun Aug 10 00:12:25 2025 +0200
+
+- [652710c](https://github.com/LineageOS/android_hardware_qcom_media/commit/652710c) Revert &quot;libaac: Add test code for AAC encoder and decoder&quot;
+  
+  Author: Indranil  
+  Date: Sun Aug 10 00:12:24 2025 +0200
 
 
 </details>
@@ -342,23 +485,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
-
-- [f7d17ba](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/f7d17ba) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:46 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Etar</b> (1 commits)</summary>
 
 - [d312f41](https://github.com/LineageOS/android_packages_apps_Etar/commit/d312f41) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:47 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
+
+- [f7d17ba](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/f7d17ba) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:46 2025 +0000
 
 
 </details>
@@ -397,23 +540,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
-
-- [aad4d12](https://github.com/LineageOS/android_packages_apps_Jelly/commit/aad4d12) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:50 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
 - [01654bb](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/01654bb) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 1 21:13:49 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
+
+- [aad4d12](https://github.com/LineageOS/android_packages_apps_Jelly/commit/aad4d12) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:50 2025 +0000
 
 
 </details>
@@ -514,6 +657,42 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Settings</b> (6 commits)</summary>
+
+- [63fe7e22](https://github.com/LineageOS/android_packages_apps_Settings/commit/63fe7e22) Settings: DevicePicker: Adapt to S style
+  
+  Author: ReallySnow  
+  Date: Thu Aug 28 11:18:04 2025 +0000
+
+- [b55b67e5](https://github.com/LineageOS/android_packages_apps_Settings/commit/b55b67e5) SlicesDatabaseHelper: Use Build.VERSION.INCREMENTAL
+  
+  Author: jhenrique09  
+  Date: Thu Aug 28 11:17:57 2025 +0000
+
+- [5f7b2693](https://github.com/LineageOS/android_packages_apps_Settings/commit/5f7b2693) Settings: fix typo in settings namespace for qr scanner on ls
+  
+  Author: maxwen  
+  Date: Thu Aug 28 11:17:52 2025 +0000
+
+- [719ca665](https://github.com/LineageOS/android_packages_apps_Settings/commit/719ca665) fixup! Revert &quot;[Sim UI enhancement] remove the &quot;Tap to show info&quot;&quot;
+  
+  Author: Adithya R  
+  Date: Mon Aug 25 09:38:27 2025 +0000
+
+- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 19:26:05 2025 +0000
+
+- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
 
 - [5228c51](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/5228c51) Automatic translation import
@@ -588,42 +767,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (6 commits)</summary>
-
-- [63fe7e22](https://github.com/LineageOS/android_packages_apps_Settings/commit/63fe7e22) Settings: DevicePicker: Adapt to S style
-  
-  Author: ReallySnow  
-  Date: Thu Aug 28 11:18:04 2025 +0000
-
-- [b55b67e5](https://github.com/LineageOS/android_packages_apps_Settings/commit/b55b67e5) SlicesDatabaseHelper: Use Build.VERSION.INCREMENTAL
-  
-  Author: jhenrique09  
-  Date: Thu Aug 28 11:17:57 2025 +0000
-
-- [5f7b2693](https://github.com/LineageOS/android_packages_apps_Settings/commit/5f7b2693) Settings: fix typo in settings namespace for qr scanner on ls
-  
-  Author: maxwen  
-  Date: Thu Aug 28 11:17:52 2025 +0000
-
-- [719ca665](https://github.com/LineageOS/android_packages_apps_Settings/commit/719ca665) fixup! Revert &quot;[Sim UI enhancement] remove the &quot;Tap to show info&quot;&quot;
-  
-  Author: Adithya R  
-  Date: Mon Aug 25 09:38:27 2025 +0000
-
-- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 19:26:05 2025 +0000
-
-- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:52 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/inputmethods/LatinIME</b> (1 commits)</summary>
 
 - [34ff6b2](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/34ff6b2) Automatic translation import
@@ -674,6 +817,22 @@
   
   Author: LuK1337  
   Date: Thu Aug 7 00:31:31 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
+
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
+
+- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:14:06 2025 +0000
 
 
 </details>
@@ -755,33 +914,6 @@
 </details>
 
 <details>
-<summary><b>vendor/crowdin</b> (2 commits)</summary>
-
-- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:52 2025 +0000
-
-- [ddd8d75](https://github.com/LineageOS/android_vendor_crowdin/commit/ddd8d75) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:14:06 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/display/core</b> (1 commits)</summary>
-
-- [100ac95](https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/100ac95) Revert &quot;Revert^2 &quot;sdm: add support for DS merge mode&quot;&quot;
-  
-  Author: LuK1337  
-  Date: Thu Jul 31 01:54:14 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>vendor/qcom/opensource/commonsys/fm</b> (2 commits)</summary>
 
 - [2c03486](https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/2c03486) Automatic translation import
@@ -809,28 +941,12 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (3 commits)</summary>
+<summary><b>lineage/mirror</b> (6 commits)</summary>
 
-- [88904d7](https://github.com/LineageOS/hudson/commit/88904d7) hudson: Add Motorola Moto G Stylus 5G 2022 (milanf)
+- [a39cfbd](https://github.com/LineageOS/mirror/commit/a39cfbd) Updated to 29-Aug-2025 10:01 UTC
   
-  Author: AnierinB  
-  Date: Thu Aug 28 22:56:42 2025 +0000
-
-- [c8f857a](https://github.com/LineageOS/hudson/commit/c8f857a) best vietnamese gaming phone
-  
-  Author: Tuan Anh  
-  Date: Thu Aug 28 04:45:24 2025 +0000
-
-- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
-  
-  Author: Wiktor Rudzki  
-  Date: Wed Aug 6 18:52:52 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b> (5 commits)</summary>
+  Author: Tim Schumacher  
+  Date: Fri Aug 29 12:01:33 2025 +0200
 
 - [05c5c6a](https://github.com/LineageOS/mirror/commit/05c5c6a) Updated to 27-Aug-2025 10:01 UTC
   
@@ -861,7 +977,54 @@
 </details>
 
 <details>
+<summary><b>lineage/hudson</b> (3 commits)</summary>
+
+- [88904d7](https://github.com/LineageOS/hudson/commit/88904d7) hudson: Add Motorola Moto G Stylus 5G 2022 (milanf)
+  
+  Author: AnierinB  
+  Date: Thu Aug 28 22:56:42 2025 +0000
+
+- [c8f857a](https://github.com/LineageOS/hudson/commit/c8f857a) best vietnamese gaming phone
+  
+  Author: Tuan Anh  
+  Date: Thu Aug 28 04:45:24 2025 +0000
+
+- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
+  
+  Author: Wiktor Rudzki  
+  Date: Wed Aug 6 18:52:52 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
+  
+  Author: Michael Bestas  
+  Date: Tue Aug 26 20:10:24 2025 +0300
+
+- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:46:36 2025 -0600
+
+
+</details>
+
+<details>
 <summary><b>lineage/wiki</b> (19 commits)</summary>
+
+- [bac888e](https://github.com/LineageOS/lineage_wiki/commit/bac888e) wiki: Regenerate pages/info/milanf.md
+  
+  Author: LuK1337  
+  Date: Fri Aug 29 10:21:34 2025 +0200
+
+- [f4eaab3](https://github.com/LineageOS/lineage_wiki/commit/f4eaab3) wiki: device_install: Remove abnormal large gap
+  
+  Author: razorloves  
+  Date: Fri Aug 29 07:58:12 2025 +0000
 
 - [de536e1](https://github.com/LineageOS/lineage_wiki/commit/de536e1) wiki: Add Motorola Moto G Stylus 5G 2022 (milanf)
   
@@ -947,32 +1110,6 @@
   
   Author: Inhishonor  
   Date: Thu Jul 31 18:48:01 2025 +0000
-
-- [8532bf2](https://github.com/LineageOS/lineage_wiki/commit/8532bf2) wiki: Remove links to OnePlus softwareupgrade page
-  
-  Author: LuK1337  
-  Date: Wed Jul 30 17:31:22 2025 +0200
-
-- [75f7b3d](https://github.com/LineageOS/lineage_wiki/commit/75f7b3d) wiki: Link to the latest payload-dumper-go release
-  
-  Author: LuK1337  
-  Date: Wed Jul 30 17:26:33 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
-  
-  Author: Michael Bestas  
-  Date: Tue Aug 26 20:10:24 2025 +0300
-
-- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Wed Aug 20 05:46:36 2025 -0600
 
 
 </details>
