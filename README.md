@@ -44,7 +44,12 @@
 </details>
 
 <details>
-<summary><b>device/lineage/sepolicy</b> (6 commits)</summary>
+<summary><b>device/lineage/sepolicy</b> (7 commits)</summary>
+
+- [65e58b0](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/65e58b0) common: Label AIDL camera provider HAL
+  
+  Author: Skyblueborb  
+  Date: Sat Aug 30 14:28:24 2025 +0000
 
 - [794b496](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/794b496) qcom: Label common LiveDisplay sysfs nodes
   
@@ -188,29 +193,32 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/common</b> (1 commits)</summary>
+<summary><b>hardware/lineage/interfaces</b> (12 commits)</summary>
 
-- [99d7aac](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/99d7aac) rfs: Add modem_firmware to RFS install targets
+- [7cb075b](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7cb075b) camera: aidl: Remove `in_`/`out_` prefixes
   
-  Author: kmiit  
-  Date: Sun Aug 10 08:43:15 2025 +0000
+  Author: LuK1337  
+  Date: Sat Aug 30 14:28:24 2025 +0000
 
-
-</details>
-
-<details>
-<summary><b>hardware/interfaces</b> (1 commits)</summary>
-
-- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+- [7fbd870](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7fbd870) camera: aidl: Use std::to_string() for int -&gt; std::string
   
-  Author: Nolen Johnson  
-  Date: Mon Aug 25 19:29:07 2025 +0000
+  Author: LuK1337  
+  Date: Sat Aug 30 14:28:24 2025 +0000
 
+- [1d5d332](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/1d5d332) camera: aidl: Remap camera IDs by property if it is defined
+  
+  Author: Ivan Vecera  
+  Date: Sat Aug 30 14:28:24 2025 +0000
 
-</details>
+- [d26191b](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/d26191b) camera: aidl: Maintain set of non-external cameras
+  
+  Author: Ivan Vecera  
+  Date: Sat Aug 30 14:28:24 2025 +0000
 
-<details>
-<summary><b>hardware/lineage/interfaces</b> (7 commits)</summary>
+- [bdb296c](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/bdb296c) camera: aidl: Implement camera device/provider HALs
+  
+  Author: Tim Zimmermann  
+  Date: Sat Aug 30 14:28:24 2025 +0000
 
 - [b3fc9d1](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/b3fc9d1) livedisplay: aidl: Initial LiveDisplay sysfs AIDL implementation
   
@@ -246,6 +254,28 @@
   
   Author: Bruno Martins  
   Date: Sun Aug 17 00:54:35 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/common</b> (1 commits)</summary>
+
+- [99d7aac](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/99d7aac) rfs: Add modem_firmware to RFS install targets
+  
+  Author: kmiit  
+  Date: Sun Aug 10 08:43:15 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/interfaces</b> (1 commits)</summary>
+
+- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+  
+  Author: Nolen Johnson  
+  Date: Mon Aug 25 19:29:07 2025 +0000
 
 
 </details>
@@ -422,27 +452,6 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (3 commits)</summary>
-
-- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [68106a6](https://github.com/LineageOS/android_lineage-sdk/commit/68106a6) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:43 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Aperture</b> (4 commits)</summary>
 
 - [8400f48](https://github.com/LineageOS/android_packages_apps_Aperture/commit/8400f48) Automatic translation import
@@ -469,6 +478,27 @@
 </details>
 
 <details>
+<summary><b>lineage-sdk</b> (3 commits)</summary>
+
+- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [68106a6](https://github.com/LineageOS/android_lineage-sdk/commit/68106a6) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:43 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Catapult</b> (2 commits)</summary>
 
 - [f6e4332](https://github.com/LineageOS/android_packages_apps_Catapult/commit/f6e4332) Automatic translation import
@@ -485,12 +515,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
-- [d312f41](https://github.com/LineageOS/android_packages_apps_Etar/commit/d312f41) Automatic translation import
+- [71be011](https://github.com/LineageOS/android_packages_apps_Dialer/commit/71be011) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:47 2025 +0000
+  Date: Fri Aug 1 21:13:45 2025 +0000
 
 
 </details>
@@ -507,12 +537,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
 
-- [71be011](https://github.com/LineageOS/android_packages_apps_Dialer/commit/71be011) Automatic translation import
+- [d312f41](https://github.com/LineageOS/android_packages_apps_Etar/commit/d312f41) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:45 2025 +0000
+  Date: Fri Aug 1 21:13:47 2025 +0000
 
 
 </details>
@@ -657,42 +687,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (6 commits)</summary>
-
-- [63fe7e22](https://github.com/LineageOS/android_packages_apps_Settings/commit/63fe7e22) Settings: DevicePicker: Adapt to S style
-  
-  Author: ReallySnow  
-  Date: Thu Aug 28 11:18:04 2025 +0000
-
-- [b55b67e5](https://github.com/LineageOS/android_packages_apps_Settings/commit/b55b67e5) SlicesDatabaseHelper: Use Build.VERSION.INCREMENTAL
-  
-  Author: jhenrique09  
-  Date: Thu Aug 28 11:17:57 2025 +0000
-
-- [5f7b2693](https://github.com/LineageOS/android_packages_apps_Settings/commit/5f7b2693) Settings: fix typo in settings namespace for qr scanner on ls
-  
-  Author: maxwen  
-  Date: Thu Aug 28 11:17:52 2025 +0000
-
-- [719ca665](https://github.com/LineageOS/android_packages_apps_Settings/commit/719ca665) fixup! Revert &quot;[Sim UI enhancement] remove the &quot;Tap to show info&quot;&quot;
-  
-  Author: Adithya R  
-  Date: Mon Aug 25 09:38:27 2025 +0000
-
-- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 19:26:05 2025 +0000
-
-- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 1 21:13:52 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
 
 - [5228c51](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/5228c51) Automatic translation import
@@ -746,6 +740,42 @@
   
   Author: Inhishonor  
   Date: Fri Aug 1 19:45:36 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (6 commits)</summary>
+
+- [63fe7e22](https://github.com/LineageOS/android_packages_apps_Settings/commit/63fe7e22) Settings: DevicePicker: Adapt to S style
+  
+  Author: ReallySnow  
+  Date: Thu Aug 28 11:18:04 2025 +0000
+
+- [b55b67e5](https://github.com/LineageOS/android_packages_apps_Settings/commit/b55b67e5) SlicesDatabaseHelper: Use Build.VERSION.INCREMENTAL
+  
+  Author: jhenrique09  
+  Date: Thu Aug 28 11:17:57 2025 +0000
+
+- [5f7b2693](https://github.com/LineageOS/android_packages_apps_Settings/commit/5f7b2693) Settings: fix typo in settings namespace for qr scanner on ls
+  
+  Author: maxwen  
+  Date: Thu Aug 28 11:17:52 2025 +0000
+
+- [719ca665](https://github.com/LineageOS/android_packages_apps_Settings/commit/719ca665) fixup! Revert &quot;[Sim UI enhancement] remove the &quot;Tap to show info&quot;&quot;
+  
+  Author: Adithya R  
+  Date: Mon Aug 25 09:38:27 2025 +0000
+
+- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 19:26:05 2025 +0000
+
+- [608e3772](https://github.com/LineageOS/android_packages_apps_Settings/commit/608e3772) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 1 21:13:52 2025 +0000
 
 
 </details>
@@ -941,6 +971,27 @@
 </details>
 
 <details>
+<summary><b>lineage/hudson</b> (3 commits)</summary>
+
+- [88904d7](https://github.com/LineageOS/hudson/commit/88904d7) hudson: Add Motorola Moto G Stylus 5G 2022 (milanf)
+  
+  Author: AnierinB  
+  Date: Thu Aug 28 22:56:42 2025 +0000
+
+- [c8f857a](https://github.com/LineageOS/hudson/commit/c8f857a) best vietnamese gaming phone
+  
+  Author: Tuan Anh  
+  Date: Thu Aug 28 04:45:24 2025 +0000
+
+- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
+  
+  Author: Wiktor Rudzki  
+  Date: Wed Aug 6 18:52:52 2025 +0200
+
+
+</details>
+
+<details>
 <summary><b>lineage/mirror</b> (6 commits)</summary>
 
 - [a39cfbd](https://github.com/LineageOS/mirror/commit/a39cfbd) Updated to 29-Aug-2025 10:01 UTC
@@ -977,27 +1028,6 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (3 commits)</summary>
-
-- [88904d7](https://github.com/LineageOS/hudson/commit/88904d7) hudson: Add Motorola Moto G Stylus 5G 2022 (milanf)
-  
-  Author: AnierinB  
-  Date: Thu Aug 28 22:56:42 2025 +0000
-
-- [c8f857a](https://github.com/LineageOS/hudson/commit/c8f857a) best vietnamese gaming phone
-  
-  Author: Tuan Anh  
-  Date: Thu Aug 28 04:45:24 2025 +0000
-
-- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
-  
-  Author: Wiktor Rudzki  
-  Date: Wed Aug 6 18:52:52 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>lineage/scripts</b> (2 commits)</summary>
 
 - [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
@@ -1014,7 +1044,12 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (19 commits)</summary>
+<summary><b>lineage/wiki</b> (18 commits)</summary>
+
+- [3095fc6](https://github.com/LineageOS/lineage_wiki/commit/3095fc6) wiki: Add OnePlus 6/7/8/9 series T-Mobile variants
+  
+  Author: LuK1337  
+  Date: Sat Aug 30 09:39:05 2025 +0000
 
 - [bac888e](https://github.com/LineageOS/lineage_wiki/commit/bac888e) wiki: Regenerate pages/info/milanf.md
   
@@ -1100,16 +1135,6 @@
   
   Author: LuK1337  
   Date: Sat Aug 2 15:56:40 2025 +0200
-
-- [f844c2d](https://github.com/LineageOS/lineage_wiki/commit/f844c2d) wiki: Improve wording and commands in blob extraction
-  
-  Author: Inhishonor  
-  Date: Thu Jul 31 14:50:38 2025 -0400
-
-- [e01bffa](https://github.com/LineageOS/lineage_wiki/commit/e01bffa) wiki: Fix wording in brotli archive extraction
-  
-  Author: Inhishonor  
-  Date: Thu Jul 31 18:48:01 2025 +0000
 
 
 </details>
