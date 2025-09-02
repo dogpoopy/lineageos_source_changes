@@ -150,17 +150,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
-
-- [3edd0fb](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/3edd0fb) Update Chromium Webview x86_64 to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:59 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
 
 - [7696271](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/7696271) Update Chromium Webview x86 to 139.0.7258.143
@@ -172,7 +161,23 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (4 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
+
+- [3edd0fb](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/3edd0fb) Update Chromium Webview x86_64 to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:59 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>frameworks/base</b> (5 commits)</summary>
+
+- [6fa82a0c](https://github.com/LineageOS/android_frameworks_base/commit/6fa82a0c) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:26 2025 +0000
 
 - [9b41d790](https://github.com/LineageOS/android_frameworks_base/commit/9b41d790) PowerShareTile: Mark is unavailable if enabled state can&#x27;t be read
   
@@ -198,7 +203,12 @@
 </details>
 
 <details>
-<summary><b>hardware/lineage/interfaces</b> (12 commits)</summary>
+<summary><b>hardware/lineage/interfaces</b> (13 commits)</summary>
+
+- [eaa88af](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/eaa88af) livedisplay: sysfs: chown on init
+  
+  Author: Marc Bourgoin  
+  Date: Sat Aug 30 10:40:38 2025 -0600
 
 - [7cb075b](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7cb075b) camera: aidl: Remove `in_`/`out_` prefixes
   
@@ -358,6 +368,17 @@
 </details>
 
 <details>
+<summary><b>hardware/qcom-caf/sm8450/display</b> (1 commits)</summary>
+
+- [b44742b](https://github.com/LineageOS/android_hardware_qcom_display/commit/b44742b) gralloc: avoid calling property_get() on every buffer allocation
+  
+  Author: Cosmin Tanislav  
+  Date: Thu Aug 28 10:08:21 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>hardware/qcom-caf/sm8550/display</b> (1 commits)</summary>
 
 - [ccdf85d](https://github.com/LineageOS/android_hardware_qcom_display/commit/ccdf85d) gralloc: avoid calling property_get() on every buffer allocation
@@ -375,17 +396,6 @@
   
   Author: Cosmin Tanislav  
   Date: Thu Aug 28 10:13:15 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8450/display</b> (1 commits)</summary>
-
-- [b44742b](https://github.com/LineageOS/android_hardware_qcom_display/commit/b44742b) gralloc: avoid calling property_get() on every buffer allocation
-  
-  Author: Cosmin Tanislav  
-  Date: Thu Aug 28 10:08:21 2025 +0000
 
 
 </details>
@@ -457,7 +467,12 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (2 commits)</summary>
+<summary><b>lineage-sdk</b> (3 commits)</summary>
+
+- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
 
 - [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
   
@@ -473,7 +488,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b> (3 commits)</summary>
+<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
+
+- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Aperture</b> (4 commits)</summary>
+
+- [98000dc](https://github.com/LineageOS/android_packages_apps_Aperture/commit/98000dc) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
 
 - [8400f48](https://github.com/LineageOS/android_packages_apps_Aperture/commit/8400f48) Automatic translation import
   
@@ -494,6 +525,28 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Backgrounds</b> (1 commits)</summary>
+
+- [3cdba90](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:32 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+
+- [cbb578e](https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:32 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Catapult</b> (1 commits)</summary>
 
 - [f6e4332](https://github.com/LineageOS/android_packages_apps_Catapult/commit/f6e4332) Automatic translation import
@@ -505,12 +558,153 @@
 </details>
 
 <details>
-<summary><b>packages/apps/LineageParts</b> (1 commits)</summary>
+<summary><b>packages/apps/DeskClock</b> (1 commits)</summary>
+
+- [c1f46ef](https://github.com/LineageOS/android_packages_apps_DeskClock/commit/c1f46ef) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:32 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+
+- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:35 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
+
+- [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:34 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
+
+- [0cc2e07](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:34 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/FMRadio</b> (1 commits)</summary>
+
+- [4d4f98b](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4d4f98b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:35 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/FlipFlap</b> (1 commits)</summary>
+
+- [e7ffef4](https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/e7ffef4) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:35 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+
+- [7bd917b](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:36 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
+
+- [751734f](https://github.com/LineageOS/android_packages_apps_Jelly/commit/751734f) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:36 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
+
+- [a069cf5](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/a069cf5) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:36 2025 +0000
 
 - [25f3e4e](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/25f3e4e) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Fri Aug 15 18:36:43 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
+
+- [f624ed2](https://github.com/LineageOS/android_packages_apps_Messaging/commit/f624ed2) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:37 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
+
+- [4bf7948](https://github.com/LineageOS/android_packages_apps_Recorder/commit/4bf7948) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:37 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/SetupWizard</b> (4 commits)</summary>
+
+- [f129f96](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/f129f96) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:38 2025 +0000
+
+- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
+  
+  Author: Inhishonor  
+  Date: Fri Aug 15 22:37:46 2025 +0000
+
+- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:43 2025 +0000
+
+- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
+  
+  Author: LuK1337  
+  Date: Tue Aug 12 14:52:00 2025 +0200
 
 
 </details>
@@ -547,39 +741,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/SetupWizard</b> (3 commits)</summary>
+<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
 
-- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
-  
-  Author: Inhishonor  
-  Date: Fri Aug 15 22:37:46 2025 +0000
-
-- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
+- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:43 2025 +0000
-
-- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
-  
-  Author: LuK1337  
-  Date: Tue Aug 12 14:52:00 2025 +0200
+  Date: Mon Sep 1 14:54:39 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>packages/apps/Trebuchet</b> (1 commits)</summary>
+<summary><b>packages/apps/Settings</b> (6 commits)</summary>
 
-- [30555e2](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/30555e2) Launcher3: Add permission for contextual search
+- [e27df4fd](https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd) Automatic translation import
   
-  Author: Pranav Vashi  
-  Date: Tue Aug 12 21:04:21 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (5 commits)</summary>
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:38 2025 +0000
 
 - [63fe7e22](https://github.com/LineageOS/android_packages_apps_Settings/commit/63fe7e22) Settings: DevicePicker: Adapt to S style
   
@@ -610,7 +788,28 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Twelve</b> (3 commits)</summary>
+<summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
+
+- [e1f28ba](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e1f28ba) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:39 2025 +0000
+
+- [30555e2](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/30555e2) Launcher3: Add permission for contextual search
+  
+  Author: Pranav Vashi  
+  Date: Tue Aug 12 21:04:21 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Twelve</b> (4 commits)</summary>
+
+- [3bfeb98](https://github.com/LineageOS/android_packages_apps_Twelve/commit/3bfeb98) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:40 2025 +0000
 
 - [892bdbb](https://github.com/LineageOS/android_packages_apps_Twelve/commit/892bdbb) Twelve: TwelveAudioSink: Add missing delegates to defaultAudioSink
   
@@ -631,12 +830,50 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Updater</b> (1 commits)</summary>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+
+- [77a204b](https://github.com/LineageOS/android_packages_apps_Updater/commit/77a204b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:40 2025 +0000
 
 - [88f35f1](https://github.com/LineageOS/android_packages_apps_Updater/commit/88f35f1) Updater: push-update: Allow specifying serial number
   
   Author: Nolen Johnson  
   Date: Thu Aug 14 18:15:00 2025 -0400
+
+
+</details>
+
+<details>
+<summary><b>packages/inputmethods/LatinIME</b> (1 commits)</summary>
+
+- [001e9c6](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/001e9c6) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:40 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/providers/DownloadProvider</b> (1 commits)</summary>
+
+- [eb2ea38](https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/eb2ea38) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:41 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/resources/devicesettings</b> (1 commits)</summary>
+
+- [65352f2](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/65352f2) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:41 2025 +0000
 
 
 </details>
@@ -664,6 +901,17 @@
   
   Author: LuK1337  
   Date: Thu Aug 7 00:31:31 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>vendor/crowdin</b> (1 commits)</summary>
+
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
 
 
 </details>
@@ -745,18 +993,12 @@
 </details>
 
 <details>
-<summary><b>vendor/crowdin</b> (1 commits)</summary>
+<summary><b>vendor/qcom/opensource/commonsys/fm</b> (2 commits)</summary>
 
-- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+- [0d72753](https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0d72753) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:52 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>vendor/qcom/opensource/commonsys/fm</b> (1 commits)</summary>
+  Date: Mon Sep 1 14:54:41 2025 +0000
 
 - [2c03486](https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/2c03486) Automatic translation import
   
@@ -778,7 +1020,12 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (3 commits)</summary>
+<summary><b>lineage/hudson</b> (4 commits)</summary>
+
+- [43a9eb8](https://github.com/LineageOS/hudson/commit/43a9eb8) hudson: Add Motorola moto g Stylus 5G
+  
+  Author: Vivekachooz  
+  Date: Mon Sep 1 10:41:01 2025 +0530
 
 - [88904d7](https://github.com/LineageOS/hudson/commit/88904d7) hudson: Add Motorola Moto G Stylus 5G 2022 (milanf)
   
@@ -852,6 +1099,11 @@
 
 <details>
 <summary><b>lineage/wiki</b> (18 commits)</summary>
+
+- [d85dd7a](https://github.com/LineageOS/lineage_wiki/commit/d85dd7a) wiki: Add Motorola moto g Stylus 5G
+  
+  Author: Vivekachooz  
+  Date: Mon Sep 1 10:39:54 2025 +0530
 
 - [3095fc6](https://github.com/LineageOS/lineage_wiki/commit/3095fc6) wiki: Add OnePlus 6/7/8/9 series T-Mobile variants
   
@@ -937,11 +1189,6 @@
   
   Author: Wiktor Rudzki  
   Date: Wed Aug 6 18:56:04 2025 +0200
-
-- [9fe2afe](https://github.com/LineageOS/lineage_wiki/commit/9fe2afe) wiki: Switch Oxygen Updater download URL from Google Play to GitHub
-  
-  Author: LuK1337  
-  Date: Sat Aug 2 15:56:40 2025 +0200
 
 
 </details>
