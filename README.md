@@ -1,7 +1,12 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>android</b> (2 commits)</summary>
+<summary><b>android</b> (3 commits)</summary>
+
+- [8eb98ef](https://github.com/LineageOS/android/commit/8eb98ef) lineage: Remove Android.mk guard for msm8953
+  
+  Author: Yumi Yukimura  
+  Date: Mon Sep 1 16:37:28 2025 +0800
 
 - [e22380c](https://github.com/LineageOS/android/commit/e22380c) lineage: Remove Android.mk guard for sdm660
   
@@ -117,6 +122,17 @@
 </details>
 
 <details>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+
+- [f96b15f](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/f96b15f) Update Chromium Webview arm64 to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:52 2025 -0600
+
+
+</details>
+
+<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
@@ -139,12 +155,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
 
-- [f96b15f](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/f96b15f) Update Chromium Webview arm64 to 139.0.7258.143
+- [3edd0fb](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/3edd0fb) Update Chromium Webview x86_64 to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:52 2025 -0600
+  Date: Thu Aug 21 05:59:59 2025 -0600
 
 
 </details>
@@ -156,17 +172,6 @@
   
   Author: Kevin F. Haggerty  
   Date: Thu Aug 21 05:59:55 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
-
-- [3edd0fb](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/3edd0fb) Update Chromium Webview x86_64 to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:59 2025 -0600
 
 
 </details>
@@ -198,6 +203,17 @@
   
   Author: Sunny Goyal  
   Date: Wed Aug 13 11:47:57 2025 +0530
+
+
+</details>
+
+<details>
+<summary><b>hardware/interfaces</b> (1 commits)</summary>
+
+- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+  
+  Author: Nolen Johnson  
+  Date: Mon Aug 25 19:29:07 2025 +0000
 
 
 </details>
@@ -285,12 +301,42 @@
 </details>
 
 <details>
-<summary><b>hardware/interfaces</b> (1 commits)</summary>
+<summary><b>hardware/qcom-caf/msm8953/audio</b> (7 commits)</summary>
 
-- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+- [f9ff4f2](https://github.com/LineageOS/android_hardware_qcom_audio/commit/f9ff4f2) hal: Convert audio extensions to blueprint
   
-  Author: Nolen Johnson  
-  Date: Mon Aug 25 19:29:07 2025 +0000
+  Author: Michael Bestas  
+  Date: Sat Aug 30 21:34:14 2025 +0800
+
+- [06e0412](https://github.com/LineageOS/android_hardware_qcom_audio/commit/06e0412) ssr: Fix building with OSS materials
+  
+  Author: Ricardo Cerqueira  
+  Date: Sat Aug 30 21:33:49 2025 +0800
+
+- [ca80109](https://github.com/LineageOS/android_hardware_qcom_audio/commit/ca80109) hal: Convert primary HAL to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 21:31:23 2025 +0800
+
+- [2ebe70c](https://github.com/LineageOS/android_hardware_qcom_audio/commit/2ebe70c) hal: Remove unused libmaxxaudio extension
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 21:23:54 2025 +0800
+
+- [17df495](https://github.com/LineageOS/android_hardware_qcom_audio/commit/17df495) hal: Remove feature manager leftovers
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 21:23:33 2025 +0800
+
+- [dd04d99](https://github.com/LineageOS/android_hardware_qcom_audio/commit/dd04d99) audio: Remove all unsupported platforms &amp; flags
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 21:23:28 2025 +0800
+
+- [0ad6d86](https://github.com/LineageOS/android_hardware_qcom_audio/commit/0ad6d86) hal: audio_extn: Add argument to pthread routines
+  
+  Author: danielml  
+  Date: Sat Aug 30 20:58:33 2025 +0800
 
 
 </details>
@@ -327,6 +373,37 @@
   
   Author: danielml  
   Date: Fri Aug 29 11:09:43 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/msm8953/display</b> (5 commits)</summary>
+
+- [fd1cfe0](https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0) Convert remaining Android.mk to blueprint
+  
+  Author: Michael Bestas  
+  Date: Mon Sep 1 16:35:07 2025 +0800
+
+- [c337f56](https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56) sdm: Convert hwcomposer.qcom to soong
+  
+  Author: Michael Bestas  
+  Date: Mon Sep 1 16:35:07 2025 +0800
+
+- [f6e4d6d](https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d) hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps
+  
+  Author: Steven Moreland  
+  Date: Mon Sep 1 16:35:03 2025 +0800
+
+- [fe4a261](https://github.com/LineageOS/android_hardware_qcom_display/commit/fe4a261) Convert libsdmcore to blueprint
+  
+  Author: LuK1337  
+  Date: Sat Aug 30 21:53:59 2025 +0800
+
+- [f39a4b3](https://github.com/LineageOS/android_hardware_qcom_display/commit/f39a4b3) Convert libgrallocutils and gpu_tonemapper to blueprint
+  
+  Author: EndCredits  
+  Date: Sat Aug 30 21:52:32 2025 +0800
 
 
 </details>
@@ -396,6 +473,62 @@
   
   Author: Cosmin Tanislav  
   Date: Thu Aug 28 10:13:15 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/msm8953/media</b> (10 commits)</summary>
+
+- [96c7956](https://github.com/LineageOS/android_hardware_qcom_media/commit/96c7956) media: Drop libsidebandstreamhandle
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 23:12:01 2025 +0800
+
+- [04ae467](https://github.com/LineageOS/android_hardware_qcom_media/commit/04ae467) mm-core: Convert to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 23:11:23 2025 +0800
+
+- [4f58783](https://github.com/LineageOS/android_hardware_qcom_media/commit/4f58783) mm-core: Remove unused files &amp; flags
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 23:09:10 2025 +0800
+
+- [cc73684](https://github.com/LineageOS/android_hardware_qcom_media/commit/cc73684) mm-video-v4l2: Convert to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 23:04:41 2025 +0800
+
+- [9ac70bf](https://github.com/LineageOS/android_hardware_qcom_media/commit/9ac70bf) mm-video-v4l2: vidc: Drop support for hypervisor
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 22:53:33 2025 +0800
+
+- [48f646f](https://github.com/LineageOS/android_hardware_qcom_media/commit/48f646f) mm-video-v4l2: Remove SW OMX codecs, unused files &amp; flags
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 22:51:57 2025 +0800
+
+- [1e364f6](https://github.com/LineageOS/android_hardware_qcom_media/commit/1e364f6) libstagefrighthw: Convert to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 22:32:35 2025 +0800
+
+- [4650bb6](https://github.com/LineageOS/android_hardware_qcom_media/commit/4650bb6) libc2dcolorconvert: Cleanup dependencies &amp; convert to blueprint
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 22:32:25 2025 +0800
+
+- [4bead84](https://github.com/LineageOS/android_hardware_qcom_media/commit/4bead84) media: Remove autoconf/automake configuration
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 30 22:31:25 2025 +0800
+
+- [c8ef438](https://github.com/LineageOS/android_hardware_qcom_media/commit/c8ef438) Revert &quot;libaac: Add test code for AAC encoder and decoder&quot;
+  
+  Author: Indranil  
+  Date: Sat Aug 30 22:31:18 2025 +0800
 
 
 </details>
@@ -488,17 +621,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
-
-- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Aperture</b> (4 commits)</summary>
 
 - [98000dc](https://github.com/LineageOS/android_packages_apps_Aperture/commit/98000dc) Automatic translation import
@@ -525,12 +647,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Backgrounds</b> (1 commits)</summary>
+<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
 
-- [3cdba90](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90) Automatic translation import
+- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:32 2025 +0000
+  Date: Mon Sep 1 14:54:31 2025 +0000
 
 
 </details>
@@ -539,6 +661,17 @@
 <summary><b>packages/apps/Camelot</b> (1 commits)</summary>
 
 - [cbb578e](https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:32 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Backgrounds</b> (1 commits)</summary>
+
+- [3cdba90](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:32 2025 +0000
@@ -569,12 +702,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+<summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
 
-- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
+- [0cc2e07](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:35 2025 +0000
+  Date: Mon Sep 1 14:54:34 2025 +0000
 
 
 </details>
@@ -591,12 +724,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
 
-- [0cc2e07](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07) Automatic translation import
+- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:34 2025 +0000
+  Date: Mon Sep 1 14:54:35 2025 +0000
 
 
 </details>
@@ -684,33 +817,7 @@
 </details>
 
 <details>
-<summary><b>packages/apps/SetupWizard</b> (4 commits)</summary>
-
-- [f129f96](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/f129f96) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:38 2025 +0000
-
-- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
-  
-  Author: Inhishonor  
-  Date: Fri Aug 15 22:37:46 2025 +0000
-
-- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:43 2025 +0000
-
-- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
-  
-  Author: LuK1337  
-  Date: Tue Aug 12 14:52:00 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Seedvault</b> (5 commits)</summary>
+<summary><b>packages/apps/Seedvault</b> (4 commits)</summary>
 
 - [da6d54a](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/da6d54a) Merge tag &#x27;15-5.7&#x27; of https://github.com/seedvault-app/seedvault into HEAD
   
@@ -732,21 +839,31 @@
   Author: Michael Bestas  
   Date: Tue Aug 12 21:06:54 2025 +0300
 
-- [f7a7978](https://github.com/LineageOS/android_packages_apps_Seedvault/commit/f7a7978) Import translations from Weblate
-  
-  Author: Hosted Weblate  
-  Date: Sun Aug 3 13:02:07 2025 +0200
-
 
 </details>
 
 <details>
-<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
+<summary><b>packages/apps/SetupWizard</b> (4 commits)</summary>
 
-- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
+- [f129f96](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/f129f96) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:39 2025 +0000
+  Date: Mon Sep 1 14:54:38 2025 +0000
+
+- [bf0afd2](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/bf0afd2) SetupWizard: Add option to skip setup wizard on eng builds
+  
+  Author: Inhishonor  
+  Date: Fri Aug 15 22:37:46 2025 +0000
+
+- [ff8446a](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/ff8446a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:43 2025 +0000
+
+- [00fff59](https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/00fff59) SetupWizard: Update wizard scripts for 15
+  
+  Author: LuK1337  
+  Date: Tue Aug 12 14:52:00 2025 +0200
 
 
 </details>
@@ -783,6 +900,17 @@
   
   Author: LuK1337  
   Date: Sat Aug 16 19:26:05 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
+
+- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:39 2025 +0000
 
 
 </details>
@@ -1046,59 +1174,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (6 commits)</summary>
+<summary><b>lineage/wiki</b> (19 commits)</summary>
 
-- [a39cfbd](https://github.com/LineageOS/mirror/commit/a39cfbd) Updated to 29-Aug-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Fri Aug 29 12:01:33 2025 +0200
-
-- [05c5c6a](https://github.com/LineageOS/mirror/commit/05c5c6a) Updated to 27-Aug-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Aug 27 12:01:28 2025 +0200
-
-- [cbb0815](https://github.com/LineageOS/mirror/commit/cbb0815) Updated to 20-Aug-2025 06:15 UTC
+- [10e564b](https://github.com/LineageOS/lineage_wiki/commit/10e564b) wiki: Allow 15 fw for FP5
   
   Author: Michael Bestas  
-  Date: Sat Aug 23 09:15:59 2025 +0300
-
-- [4148dda](https://github.com/LineageOS/mirror/commit/4148dda) Updated to 20-Aug-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Aug 21 00:01:32 2025 +0200
-
-- [357e63f](https://github.com/LineageOS/mirror/commit/357e63f) Updated to 13-Aug-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Aug 14 00:01:31 2025 +0200
-
-- [ad7d32a](https://github.com/LineageOS/mirror/commit/ad7d32a) Updated aosp-minimal to 09-Aug-2025 21:24 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Aug 9 23:24:49 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
-  
-  Author: Michael Bestas  
-  Date: Tue Aug 26 20:10:24 2025 +0300
-
-- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Wed Aug 20 05:46:36 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (18 commits)</summary>
+  Date: Tue Sep 2 15:50:42 2025 +0300
 
 - [d85dd7a](https://github.com/LineageOS/lineage_wiki/commit/d85dd7a) wiki: Add Motorola moto g Stylus 5G
   
@@ -1189,6 +1270,63 @@
   
   Author: Wiktor Rudzki  
   Date: Wed Aug 6 18:56:04 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (7 commits)</summary>
+
+- [111f0d8](https://github.com/LineageOS/mirror/commit/111f0d8) Updated to 02-Sep-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Sep 2 12:01:31 2025 +0200
+
+- [a39cfbd](https://github.com/LineageOS/mirror/commit/a39cfbd) Updated to 29-Aug-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Fri Aug 29 12:01:33 2025 +0200
+
+- [05c5c6a](https://github.com/LineageOS/mirror/commit/05c5c6a) Updated to 27-Aug-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Aug 27 12:01:28 2025 +0200
+
+- [cbb0815](https://github.com/LineageOS/mirror/commit/cbb0815) Updated to 20-Aug-2025 06:15 UTC
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 23 09:15:59 2025 +0300
+
+- [4148dda](https://github.com/LineageOS/mirror/commit/4148dda) Updated to 20-Aug-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Aug 21 00:01:32 2025 +0200
+
+- [357e63f](https://github.com/LineageOS/mirror/commit/357e63f) Updated to 13-Aug-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Aug 14 00:01:31 2025 +0200
+
+- [ad7d32a](https://github.com/LineageOS/mirror/commit/ad7d32a) Updated aosp-minimal to 09-Aug-2025 21:24 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Aug 9 23:24:49 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
+  
+  Author: Michael Bestas  
+  Date: Tue Aug 26 20:10:24 2025 +0300
+
+- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:46:36 2025 -0600
 
 
 </details>
