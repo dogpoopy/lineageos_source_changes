@@ -95,17 +95,12 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (2 commits)</summary>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
 
 - [b125574](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/b125574) sepolicy_vndr: lito: Label pm8150 power-on wakeup node
   
   Author: Giovanni Ricca  
   Date: Tue Aug 19 02:56:23 2025 +0200
-
-- [d94d104](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d94d104) sepolicy: holi: Label pmr735a power supply nodes
-  
-  Author: LuK1337  
-  Date: Mon Aug 4 15:54:40 2025 +0200
 
 
 </details>
@@ -122,12 +117,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
-- [f96b15f](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/f96b15f) Update Chromium Webview arm64 to 139.0.7258.143
+- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:52 2025 -0600
+  Date: Thu Aug 21 05:59:48 2025 -0600
 
 
 </details>
@@ -144,12 +139,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
 
-- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
+- [f96b15f](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/f96b15f) Update Chromium Webview arm64 to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:48 2025 -0600
+  Date: Thu Aug 21 05:59:52 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
+
+- [7696271](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/7696271) Update Chromium Webview x86 to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:55 2025 -0600
 
 
 </details>
@@ -166,12 +172,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
+<summary><b>frameworks/av</b> (1 commits)</summary>
 
-- [7696271](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/7696271) Update Chromium Webview x86 to 139.0.7258.143
+- [75929cd3](https://github.com/LineageOS/android_frameworks_av/commit/75929cd3) audioflinger: Do not allow DAP effect to be suspended
   
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:55 2025 -0600
+  Author: Adithya R  
+  Date: Mon Sep 1 17:07:30 2025 +0000
 
 
 </details>
@@ -600,22 +606,12 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (3 commits)</summary>
+<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
 
-- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
+- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:31 2025 +0000
-
-- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
 
 
 </details>
@@ -647,23 +643,22 @@
 </details>
 
 <details>
-<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
+<summary><b>lineage-sdk</b> (3 commits)</summary>
 
-- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
+- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:31 2025 +0000
 
-
-</details>
-
-<details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
-
-- [cbb578e](https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e) Automatic translation import
+- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
   
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:32 2025 +0000
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
 
 
 </details>
@@ -672,6 +667,17 @@
 <summary><b>packages/apps/Backgrounds</b> (1 commits)</summary>
 
 - [3cdba90](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:32 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+
+- [cbb578e](https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:32 2025 +0000
@@ -746,23 +752,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/FlipFlap</b> (1 commits)</summary>
-
-- [e7ffef4](https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/e7ffef4) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:35 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
 - [7bd917b](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:36 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/FlipFlap</b> (1 commits)</summary>
+
+- [e7ffef4](https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/e7ffef4) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:35 2025 +0000
 
 
 </details>
@@ -905,17 +911,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
-
-- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:39 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
 
 - [e1f28ba](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e1f28ba) Automatic translation import
@@ -927,6 +922,33 @@
   
   Author: Pranav Vashi  
   Date: Tue Aug 12 21:04:21 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
+
+- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:39 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+
+- [77a204b](https://github.com/LineageOS/android_packages_apps_Updater/commit/77a204b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:40 2025 +0000
+
+- [88f35f1](https://github.com/LineageOS/android_packages_apps_Updater/commit/88f35f1) Updater: push-update: Allow specifying serial number
+  
+  Author: Nolen Johnson  
+  Date: Thu Aug 14 18:15:00 2025 -0400
 
 
 </details>
@@ -953,22 +975,6 @@
   
   Author: LineageOS Infra  
   Date: Fri Aug 15 18:36:44 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Updater</b> (2 commits)</summary>
-
-- [77a204b](https://github.com/LineageOS/android_packages_apps_Updater/commit/77a204b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:40 2025 +0000
-
-- [88f35f1](https://github.com/LineageOS/android_packages_apps_Updater/commit/88f35f1) Updater: push-update: Allow specifying serial number
-  
-  Author: Nolen Johnson  
-  Date: Thu Aug 14 18:15:00 2025 -0400
 
 
 </details>
@@ -1045,7 +1051,7 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (14 commits)</summary>
+<summary><b>vendor/lineage</b> (13 commits)</summary>
 
 - [14ab8c6](https://github.com/LineageOS/android_vendor_lineage/commit/14ab8c6) Ignore prebuilt/generated directory
   
@@ -1112,11 +1118,6 @@
   Author: LuK1337  
   Date: Sun Aug 17 17:45:56 2025 +0200
 
-- [cb1091b](https://github.com/LineageOS/android_vendor_lineage/commit/cb1091b) Update APN settings for Odido/T-Mobile NL
-  
-  Author: Yannick Binnenweg  
-  Date: Mon Aug 4 18:01:24 2025 +0000
-
 
 </details>
 
@@ -1148,6 +1149,52 @@
 </details>
 
 <details>
+<summary><b>lineage/mirror</b> (8 commits)</summary>
+
+- [1e1e1e0](https://github.com/LineageOS/mirror/commit/1e1e1e0) Updated to 03-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Sep 4 00:01:29 2025 +0200
+
+- [111f0d8](https://github.com/LineageOS/mirror/commit/111f0d8) Updated to 02-Sep-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Sep 2 12:01:31 2025 +0200
+
+- [a39cfbd](https://github.com/LineageOS/mirror/commit/a39cfbd) Updated to 29-Aug-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Fri Aug 29 12:01:33 2025 +0200
+
+- [05c5c6a](https://github.com/LineageOS/mirror/commit/05c5c6a) Updated to 27-Aug-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Aug 27 12:01:28 2025 +0200
+
+- [cbb0815](https://github.com/LineageOS/mirror/commit/cbb0815) Updated to 20-Aug-2025 06:15 UTC
+  
+  Author: Michael Bestas  
+  Date: Sat Aug 23 09:15:59 2025 +0300
+
+- [4148dda](https://github.com/LineageOS/mirror/commit/4148dda) Updated to 20-Aug-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Aug 21 00:01:32 2025 +0200
+
+- [357e63f](https://github.com/LineageOS/mirror/commit/357e63f) Updated to 13-Aug-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Aug 14 00:01:31 2025 +0200
+
+- [ad7d32a](https://github.com/LineageOS/mirror/commit/ad7d32a) Updated aosp-minimal to 09-Aug-2025 21:24 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Aug 9 23:24:49 2025 +0200
+
+
+</details>
+
+<details>
 <summary><b>lineage/hudson</b> (4 commits)</summary>
 
 - [43a9eb8](https://github.com/LineageOS/hudson/commit/43a9eb8) hudson: Add Motorola moto g Stylus 5G
@@ -1174,7 +1221,12 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (19 commits)</summary>
+<summary><b>lineage/wiki</b> (20 commits)</summary>
+
+- [981d713](https://github.com/LineageOS/lineage_wiki/commit/981d713) gtowifi: align installation and firmware update steps with gts4lv
+  
+  Author: Han Sol Jin  
+  Date: Wed Sep 3 17:21:38 2025 +0000
 
 - [10e564b](https://github.com/LineageOS/lineage_wiki/commit/10e564b) wiki: Allow 15 fw for FP5
   
@@ -1270,47 +1322,6 @@
   
   Author: Wiktor Rudzki  
   Date: Wed Aug 6 18:56:04 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b> (7 commits)</summary>
-
-- [111f0d8](https://github.com/LineageOS/mirror/commit/111f0d8) Updated to 02-Sep-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Sep 2 12:01:31 2025 +0200
-
-- [a39cfbd](https://github.com/LineageOS/mirror/commit/a39cfbd) Updated to 29-Aug-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Fri Aug 29 12:01:33 2025 +0200
-
-- [05c5c6a](https://github.com/LineageOS/mirror/commit/05c5c6a) Updated to 27-Aug-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Aug 27 12:01:28 2025 +0200
-
-- [cbb0815](https://github.com/LineageOS/mirror/commit/cbb0815) Updated to 20-Aug-2025 06:15 UTC
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 23 09:15:59 2025 +0300
-
-- [4148dda](https://github.com/LineageOS/mirror/commit/4148dda) Updated to 20-Aug-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Aug 21 00:01:32 2025 +0200
-
-- [357e63f](https://github.com/LineageOS/mirror/commit/357e63f) Updated to 13-Aug-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Aug 14 00:01:31 2025 +0200
-
-- [ad7d32a](https://github.com/LineageOS/mirror/commit/ad7d32a) Updated aosp-minimal to 09-Aug-2025 21:24 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Aug 9 23:24:49 2025 +0200
 
 
 </details>
