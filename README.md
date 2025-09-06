@@ -106,12 +106,12 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/sm8750</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
-- [44ffcf4](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/44ffcf4) qva: Label AOSP NXP keymint and weaver HALs
+- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
   
-  Author: dianlujitao  
-  Date: Wed Aug 6 21:31:46 2025 +0800
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:48 2025 -0600
 
 
 </details>
@@ -123,17 +123,6 @@
   
   Author: Kevin F. Haggerty  
   Date: Wed Aug 20 05:51:16 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:48 2025 -0600
 
 
 </details>
@@ -214,28 +203,6 @@
 </details>
 
 <details>
-<summary><b>hardware/interfaces</b> (1 commits)</summary>
-
-- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
-  
-  Author: Nolen Johnson  
-  Date: Mon Aug 25 19:29:07 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/common</b> (1 commits)</summary>
-
-- [99d7aac](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/99d7aac) rfs: Add modem_firmware to RFS install targets
-  
-  Author: kmiit  
-  Date: Sun Aug 10 08:43:15 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/lineage/interfaces</b> (13 commits)</summary>
 
 - [eaa88af](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/eaa88af) livedisplay: sysfs: chown on init
@@ -302,6 +269,28 @@
   
   Author: Bruno Martins  
   Date: Sun Aug 17 00:54:35 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/common</b> (1 commits)</summary>
+
+- [99d7aac](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/99d7aac) rfs: Add modem_firmware to RFS install targets
+  
+  Author: kmiit  
+  Date: Sun Aug 10 08:43:15 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/interfaces</b> (1 commits)</summary>
+
+- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+  
+  Author: Nolen Johnson  
+  Date: Mon Aug 25 19:29:07 2025 +0000
 
 
 </details>
@@ -606,17 +595,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
-
-- [cbb578e](https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:32 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>lineage-sdk</b> (3 commits)</summary>
 
 - [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
@@ -633,17 +611,6 @@
   
   Author: LuK1337  
   Date: Sat Aug 16 20:38:11 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
-
-- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
 
 
 </details>
@@ -680,9 +647,31 @@
 </details>
 
 <details>
+<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
+
+- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Backgrounds</b> (1 commits)</summary>
 
 - [3cdba90](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:32 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+
+- [cbb578e](https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:32 2025 +0000
@@ -724,23 +713,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
-
-- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:35 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
 
 - [0cc2e07](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:34 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+
+- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:35 2025 +0000
 
 
 </details>
@@ -880,6 +869,17 @@
 </details>
 
 <details>
+<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
+
+- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:39 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Settings</b> (6 commits)</summary>
 
 - [e27df4fd](https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd) Automatic translation import
@@ -916,17 +916,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
-
-- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:39 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
 
 - [e1f28ba](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e1f28ba) Automatic translation import
@@ -938,22 +927,6 @@
   
   Author: Pranav Vashi  
   Date: Tue Aug 12 21:04:21 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Updater</b> (2 commits)</summary>
-
-- [77a204b](https://github.com/LineageOS/android_packages_apps_Updater/commit/77a204b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:40 2025 +0000
-
-- [88f35f1](https://github.com/LineageOS/android_packages_apps_Updater/commit/88f35f1) Updater: push-update: Allow specifying serial number
-  
-  Author: Nolen Johnson  
-  Date: Thu Aug 14 18:15:00 2025 -0400
 
 
 </details>
@@ -980,6 +953,22 @@
   
   Author: LineageOS Infra  
   Date: Fri Aug 15 18:36:44 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+
+- [77a204b](https://github.com/LineageOS/android_packages_apps_Updater/commit/77a204b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:40 2025 +0000
+
+- [88f35f1](https://github.com/LineageOS/android_packages_apps_Updater/commit/88f35f1) Updater: push-update: Allow specifying serial number
+  
+  Author: Nolen Johnson  
+  Date: Thu Aug 14 18:15:00 2025 -0400
 
 
 </details>
@@ -1029,28 +1018,12 @@
 </details>
 
 <details>
-<summary><b>tools/extract-utils</b> (2 commits)</summary>
+<summary><b>tools/extract-utils</b> (1 commits)</summary>
 
 - [01769aa](https://github.com/LineageOS/android_tools_extract-utils/commit/01769aa) extract_utils: support `REQUIRED` for bin/lib targets
   
   Author: LuK1337  
   Date: Sun Aug 31 23:25:04 2025 +0200
-
-- [b166df5](https://github.com/LineageOS/android_tools_extract-utils/commit/b166df5) extract_utils: sort only groups of blobs
-  
-  Author: LuK1337  
-  Date: Thu Aug 7 00:31:31 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>vendor/crowdin</b> (1 commits)</summary>
-
-- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:52 2025 +0000
 
 
 </details>
@@ -1127,6 +1100,17 @@
 </details>
 
 <details>
+<summary><b>vendor/crowdin</b> (1 commits)</summary>
+
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>vendor/qcom/opensource/commonsys/fm</b> (2 commits)</summary>
 
 - [0d72753](https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0d72753) Automatic translation import
@@ -1143,7 +1127,12 @@
 </details>
 
 <details>
-<summary><b>lineage/crowdin</b> (1 commits)</summary>
+<summary><b>lineage/crowdin</b> (2 commits)</summary>
+
+- [cf1accb](https://github.com/LineageOS/cm_crowdin/commit/cf1accb) config: Add hardware/oplus/Pen
+  
+  Author: LuK1337  
+  Date: Fri Sep 5 23:31:21 2025 +0200
 
 - [76223ef](https://github.com/LineageOS/cm_crowdin/commit/76223ef) github: Run `apt update`
   
@@ -1154,7 +1143,38 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (9 commits)</summary>
+<summary><b>lineage/hudson</b> (3 commits)</summary>
+
+- [43a9eb8](https://github.com/LineageOS/hudson/commit/43a9eb8) hudson: Add Motorola moto g Stylus 5G
+  
+  Author: Vivekachooz  
+  Date: Mon Sep 1 10:41:01 2025 +0530
+
+- [88904d7](https://github.com/LineageOS/hudson/commit/88904d7) hudson: Add Motorola Moto G Stylus 5G 2022 (milanf)
+  
+  Author: AnierinB  
+  Date: Thu Aug 28 22:56:42 2025 +0000
+
+- [c8f857a](https://github.com/LineageOS/hudson/commit/c8f857a) best vietnamese gaming phone
+  
+  Author: Tuan Anh  
+  Date: Thu Aug 28 04:45:24 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (11 commits)</summary>
+
+- [cf3a76c](https://github.com/LineageOS/mirror/commit/cf3a76c) Updated lineage-minimal to 05-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 6 00:01:56 2025 +0200
+
+- [109a48f](https://github.com/LineageOS/mirror/commit/109a48f) Updated aosp-minimal to 05-Sep-2025 10:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Fri Sep 5 12:02:01 2025 +0200
 
 - [165bd19](https://github.com/LineageOS/mirror/commit/165bd19) Updated to 04-Sep-2025 22:01 UTC
   
@@ -1205,33 +1225,7 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (4 commits)</summary>
-
-- [43a9eb8](https://github.com/LineageOS/hudson/commit/43a9eb8) hudson: Add Motorola moto g Stylus 5G
-  
-  Author: Vivekachooz  
-  Date: Mon Sep 1 10:41:01 2025 +0530
-
-- [88904d7](https://github.com/LineageOS/hudson/commit/88904d7) hudson: Add Motorola Moto G Stylus 5G 2022 (milanf)
-  
-  Author: AnierinB  
-  Date: Thu Aug 28 22:56:42 2025 +0000
-
-- [c8f857a](https://github.com/LineageOS/hudson/commit/c8f857a) best vietnamese gaming phone
-  
-  Author: Tuan Anh  
-  Date: Thu Aug 28 04:45:24 2025 +0000
-
-- [c38f087](https://github.com/LineageOS/hudson/commit/c38f087) nx659j is back to the game
-  
-  Author: Wiktor Rudzki  
-  Date: Wed Aug 6 18:52:52 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (20 commits)</summary>
+<summary><b>lineage/wiki</b> (19 commits)</summary>
 
 - [981d713](https://github.com/LineageOS/lineage_wiki/commit/981d713) gtowifi: align installation and firmware update steps with gts4lv
   
@@ -1327,11 +1321,6 @@
   
   Author: LuK1337  
   Date: Fri Aug 8 11:45:21 2025 +0200
-
-- [5b4f098](https://github.com/LineageOS/lineage_wiki/commit/5b4f098) wiki: Revive nx659j
-  
-  Author: Wiktor Rudzki  
-  Date: Wed Aug 6 18:56:04 2025 +0200
 
 
 </details>
