@@ -106,23 +106,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:48 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
   Date: Wed Aug 20 05:51:16 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:48 2025 -0600
 
 
 </details>
@@ -274,7 +274,17 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/common</b> (1 commits)</summary>
+<summary><b>hardware/qcom-caf/common</b> (3 commits)</summary>
+
+- [ce680e8](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/ce680e8) common: Unset MSM_VIDC_TARGET_LIST
+  
+  Author: Michael Bestas  
+  Date: Sat Sep 6 12:11:22 2025 +0300
+
+- [84699a5](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/84699a5) qcom: Remove no longer used TARGET_USES_DRM_PP
+  
+  Author: Michael Bestas  
+  Date: Sat Sep 6 12:11:22 2025 +0300
 
 - [99d7aac](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/99d7aac) rfs: Add modem_firmware to RFS install targets
   
@@ -451,23 +461,23 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8550/display</b> (1 commits)</summary>
-
-- [ccdf85d](https://github.com/LineageOS/android_hardware_qcom_display/commit/ccdf85d) gralloc: avoid calling property_get() on every buffer allocation
-  
-  Author: Cosmin Tanislav  
-  Date: Thu Aug 28 10:12:03 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8650/display</b> (1 commits)</summary>
 
 - [4d9c891](https://github.com/LineageOS/android_hardware_qcom_display/commit/4d9c891) gralloc: avoid calling property_get() on every buffer allocation
   
   Author: Cosmin Tanislav  
   Date: Thu Aug 28 10:13:15 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8550/display</b> (1 commits)</summary>
+
+- [ccdf85d](https://github.com/LineageOS/android_hardware_qcom_display/commit/ccdf85d) gralloc: avoid calling property_get() on every buffer allocation
+  
+  Author: Cosmin Tanislav  
+  Date: Thu Aug 28 10:12:03 2025 +0000
 
 
 </details>
@@ -595,27 +605,6 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (3 commits)</summary>
-
-- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
-
-- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Aperture</b> (5 commits)</summary>
 
 - [163d4bb](https://github.com/LineageOS/android_packages_apps_Aperture/commit/163d4bb) Aperture: Fix zoom level bar alignment in QR mode
@@ -647,12 +636,22 @@
 </details>
 
 <details>
-<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
+<summary><b>lineage-sdk</b> (3 commits)</summary>
 
-- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
+- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:31 2025 +0000
+
+- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
 
 
 </details>
@@ -664,6 +663,17 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:32 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
+
+- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
 
 
 </details>
@@ -702,12 +712,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
 
-- [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
+- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:34 2025 +0000
+  Date: Mon Sep 1 14:54:35 2025 +0000
 
 
 </details>
@@ -724,12 +734,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
-- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
+- [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:35 2025 +0000
+  Date: Mon Sep 1 14:54:34 2025 +0000
 
 
 </details>
@@ -746,23 +756,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/FlipFlap</b> (1 commits)</summary>
-
-- [e7ffef4](https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/e7ffef4) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:35 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
 - [7bd917b](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:36 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/FlipFlap</b> (1 commits)</summary>
+
+- [e7ffef4](https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/e7ffef4) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:35 2025 +0000
 
 
 </details>
@@ -869,17 +879,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
-
-- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:39 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Settings</b> (6 commits)</summary>
 
 - [e27df4fd](https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd) Automatic translation import
@@ -911,6 +910,17 @@
   
   Author: LuK1337  
   Date: Sat Aug 16 19:26:05 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
+
+- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:39 2025 +0000
 
 
 </details>
@@ -1029,6 +1039,17 @@
 </details>
 
 <details>
+<summary><b>vendor/crowdin</b> (1 commits)</summary>
+
+- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Fri Aug 15 18:36:52 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>vendor/lineage</b> (13 commits)</summary>
 
 - [14ab8c6](https://github.com/LineageOS/android_vendor_lineage/commit/14ab8c6) Ignore prebuilt/generated directory
@@ -1100,17 +1121,6 @@
 </details>
 
 <details>
-<summary><b>vendor/crowdin</b> (1 commits)</summary>
-
-- [0daf944](https://github.com/LineageOS/android_vendor_crowdin/commit/0daf944) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Fri Aug 15 18:36:52 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>vendor/qcom/opensource/commonsys/fm</b> (2 commits)</summary>
 
 - [0d72753](https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0d72753) Automatic translation import
@@ -1143,7 +1153,12 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (3 commits)</summary>
+<summary><b>lineage/hudson</b> (4 commits)</summary>
+
+- [efb5f20](https://github.com/LineageOS/hudson/commit/efb5f20) hudson: Add Xiaomi Mi Note 10 / Note 10 Pro / CC9 Pro (tucana)
+  
+  Author: Alexander Baransky  
+  Date: Fri Sep 5 09:37:43 2025 +0000
 
 - [43a9eb8](https://github.com/LineageOS/hudson/commit/43a9eb8) hudson: Add Motorola moto g Stylus 5G
   
@@ -1164,7 +1179,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (11 commits)</summary>
+<summary><b>lineage/mirror</b> (12 commits)</summary>
+
+- [1d6eb2e](https://github.com/LineageOS/mirror/commit/1d6eb2e) Updated to 06-Sep-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 6 12:01:19 2025 +0200
 
 - [cf3a76c](https://github.com/LineageOS/mirror/commit/cf3a76c) Updated lineage-minimal to 05-Sep-2025 22:01 UTC
   
@@ -1225,7 +1245,27 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (19 commits)</summary>
+<summary><b>lineage/wiki</b> (23 commits)</summary>
+
+- [1755668](https://github.com/LineageOS/lineage_wiki/commit/1755668) wiki: Dual speakers -&gt; Stereo speakers
+  
+  Author: LuK1337  
+  Date: Sun Sep 7 00:45:41 2025 +0200
+
+- [fb5332e](https://github.com/LineageOS/lineage_wiki/commit/fb5332e) wiki: Add Adreno 810/825/830
+  
+  Author: LuK1337  
+  Date: Sun Sep 7 00:27:29 2025 +0200
+
+- [1b571a6](https://github.com/LineageOS/lineage_wiki/commit/1b571a6) wiki: Add &#x27;Oryon&#x27; CPU
+  
+  Author: LuK1337  
+  Date: Sun Sep 7 00:18:11 2025 +0200
+
+- [3b8fdaa](https://github.com/LineageOS/lineage_wiki/commit/3b8fdaa) wiki: devices: Add Xiaomi Mi Note 10 (tucana)
+  
+  Author: Alexander Baransky  
+  Date: Sat Sep 6 04:54:14 2025 +0000
 
 - [981d713](https://github.com/LineageOS/lineage_wiki/commit/981d713) gtowifi: align installation and firmware update steps with gts4lv
   
