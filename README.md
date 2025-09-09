@@ -132,23 +132,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Thu Aug 21 05:59:48 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [667fc9a](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/667fc9a) Update Chromium Webview to 139.0.7258.143
   
   Author: Kevin F. Haggerty  
   Date: Wed Aug 20 05:51:16 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [e6e3d8c](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/e6e3d8c) Update Chromium Webview arm to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Aug 21 05:59:48 2025 -0600
 
 
 </details>
@@ -203,7 +203,23 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (6 commits)</summary>
+<summary><b>frameworks/native</b> (1 commits)</summary>
+
+- [a7f9cc63](https://github.com/LineageOS/android_frameworks_native/commit/a7f9cc63) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:51:23 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>frameworks/base</b> (7 commits)</summary>
+
+- [9fbbf5a1](https://github.com/LineageOS/android_frameworks_base/commit/9fbbf5a1) fixup! power: Explicitly check for silent ringtone
+  
+  Author: programminghoch10  
+  Date: Mon Sep 8 08:54:57 2025 +0300
 
 - [e94be3b8](https://github.com/LineageOS/android_frameworks_base/commit/e94be3b8) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
   
@@ -234,17 +250,6 @@
   
   Author: Sunny Goyal  
   Date: Wed Aug 13 11:47:57 2025 +0530
-
-
-</details>
-
-<details>
-<summary><b>frameworks/native</b> (1 commits)</summary>
-
-- [a7f9cc63](https://github.com/LineageOS/android_frameworks_native/commit/a7f9cc63) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:51:23 2025 +0300
 
 
 </details>
@@ -358,6 +363,17 @@
 </details>
 
 <details>
+<summary><b>hardware/interfaces</b> (1 commits)</summary>
+
+- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+  
+  Author: Nolen Johnson  
+  Date: Mon Aug 25 19:29:07 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>hardware/qcom-caf/msm8953/audio</b> (7 commits)</summary>
 
 - [f9ff4f2](https://github.com/LineageOS/android_hardware_qcom_audio/commit/f9ff4f2) hal: Convert audio extensions to blueprint
@@ -394,17 +410,6 @@
   
   Author: danielml  
   Date: Sat Aug 30 20:58:33 2025 +0800
-
-
-</details>
-
-<details>
-<summary><b>hardware/interfaces</b> (1 commits)</summary>
-
-- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
-  
-  Author: Nolen Johnson  
-  Date: Mon Aug 25 19:29:07 2025 +0000
 
 
 </details>
@@ -649,67 +654,33 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sdm660/media</b> (12 commits)</summary>
+<summary><b>lineage-sdk</b> (3 commits)</summary>
 
-- [16a6426](https://github.com/LineageOS/android_hardware_qcom_media/commit/16a6426) mm-core: Remove no longer used codecs
+- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
   
-  Author: Michael Bestas  
-  Date: Sun Aug 10 01:10:48 2025 +0200
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
 
-- [4063d59](https://github.com/LineageOS/android_hardware_qcom_media/commit/4063d59) media: Drop libsidebandstreamhandle
+- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
   
-  Author: Michael Bestas  
-  Date: Sun Aug 10 01:10:48 2025 +0200
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
 
-- [938ec76](https://github.com/LineageOS/android_hardware_qcom_media/commit/938ec76) mm-core: Convert to blueprint
+- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
   
-  Author: Michael Bestas  
-  Date: Sun Aug 10 01:10:48 2025 +0200
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
 
-- [e7f1cd9](https://github.com/LineageOS/android_hardware_qcom_media/commit/e7f1cd9) mm-core: Remove unused files &amp; flags
-  
-  Author: Michael Bestas  
-  Date: Sun Aug 10 01:10:48 2025 +0200
 
-- [89d8171](https://github.com/LineageOS/android_hardware_qcom_media/commit/89d8171) mm-video-v4l2: Convert to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sun Aug 10 01:10:47 2025 +0200
+</details>
 
-- [77e4cbc](https://github.com/LineageOS/android_hardware_qcom_media/commit/77e4cbc) mm-video-v4l2: vidc: Drop support for hypervisor
-  
-  Author: Michael Bestas  
-  Date: Sun Aug 10 01:10:12 2025 +0200
+<details>
+<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
 
-- [382754a](https://github.com/LineageOS/android_hardware_qcom_media/commit/382754a) mm-video-v4l2: Remove SW OMX codecs, unused files &amp; flags
+- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
   
-  Author: Michael Bestas  
-  Date: Sun Aug 10 01:10:02 2025 +0200
-
-- [5c6c2a6](https://github.com/LineageOS/android_hardware_qcom_media/commit/5c6c2a6) mm-video-v4l2: Make MASTER_SIDE_CP as default  Making MASTER_SIDE_CP as default
-  
-  Author: Prabhakar Reddy Krishnappa  
-  Date: Sun Aug 10 00:23:20 2025 +0200
-
-- [8197551](https://github.com/LineageOS/android_hardware_qcom_media/commit/8197551) libstagefrighthw: Convert to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sun Aug 10 00:21:22 2025 +0200
-
-- [18790b4](https://github.com/LineageOS/android_hardware_qcom_media/commit/18790b4) libc2dcolorconvert: Cleanup dependencies &amp; convert to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sun Aug 10 00:16:58 2025 +0200
-
-- [6481dc3](https://github.com/LineageOS/android_hardware_qcom_media/commit/6481dc3) media: Remove autoconf/automake configuration
-  
-  Author: Michael Bestas  
-  Date: Sun Aug 10 00:12:25 2025 +0200
-
-- [652710c](https://github.com/LineageOS/android_hardware_qcom_media/commit/652710c) Revert &quot;libaac: Add test code for AAC encoder and decoder&quot;
-  
-  Author: Indranil  
-  Date: Sun Aug 10 00:12:24 2025 +0200
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
 
 
 </details>
@@ -746,44 +717,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
-
-- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Backgrounds</b> (1 commits)</summary>
 
 - [3cdba90](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:32 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage-sdk</b> (3 commits)</summary>
-
-- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
-
-- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
-
-- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
 
 
 </details>
@@ -833,6 +772,22 @@
 </details>
 
 <details>
+<summary><b>packages/apps/DocumentsUI</b> (2 commits)</summary>
+
+- [dff9363](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:42:20 2025 +0300
+
+- [0cc2e07](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:34 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
 - [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
@@ -850,22 +805,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:35 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/DocumentsUI</b> (2 commits)</summary>
-
-- [dff9363](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:42:20 2025 +0300
-
-- [0cc2e07](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:34 2025 +0000
 
 
 </details>
@@ -893,9 +832,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
-- [751734f](https://github.com/LineageOS/android_packages_apps_Jelly/commit/751734f) Automatic translation import
+- [7bd917b](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:36 2025 +0000
@@ -904,9 +843,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
 
-- [7bd917b](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b) Automatic translation import
+- [751734f](https://github.com/LineageOS/android_packages_apps_Jelly/commit/751734f) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:36 2025 +0000
@@ -931,12 +870,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
+<summary><b>packages/apps/ManagedProvisioning</b> (1 commits)</summary>
 
-- [f624ed2](https://github.com/LineageOS/android_packages_apps_Messaging/commit/f624ed2) Automatic translation import
+- [5d236fc](https://github.com/LineageOS/android_packages_apps_ManagedProvisioning/commit/5d236fc) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
   
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:37 2025 +0000
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:42:21 2025 +0300
 
 
 </details>
@@ -953,12 +892,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/ManagedProvisioning</b> (1 commits)</summary>
+<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
 
-- [5d236fc](https://github.com/LineageOS/android_packages_apps_ManagedProvisioning/commit/5d236fc) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+- [f624ed2](https://github.com/LineageOS/android_packages_apps_Messaging/commit/f624ed2) Automatic translation import
   
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:42:21 2025 +0300
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:37 2025 +0000
 
 
 </details>
@@ -1269,7 +1208,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (14 commits)</summary>
+<summary><b>vendor/lineage</b> (15 commits)</summary>
+
+- [18c7a31](https://github.com/LineageOS/android_vendor_lineage/commit/18c7a31) apns: Add BICS
+  
+  Author: dianlujitao  
+  Date: Mon Sep 8 06:19:41 2025 +0000
 
 - [ad91ffc](https://github.com/LineageOS/android_vendor_lineage/commit/ad91ffc) vars: September 2025 Security Update
   
@@ -1377,7 +1321,12 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (4 commits)</summary>
+<summary><b>lineage/hudson</b> (5 commits)</summary>
+
+- [10f45e6](https://github.com/LineageOS/hudson/commit/10f45e6) Finally, waffles are on the breakfast menu for Hudson builds
+  
+  Author: chandu078  
+  Date: Sun Sep 7 14:41:44 2025 +0530
 
 - [efb5f20](https://github.com/LineageOS/hudson/commit/efb5f20) hudson: Add Xiaomi Mi Note 10 / Note 10 Pro / CC9 Pro (tucana)
   
@@ -1403,7 +1352,7 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (13 commits)</summary>
+<summary><b>lineage/mirror</b> (12 commits)</summary>
 
 - [8896d20](https://github.com/LineageOS/mirror/commit/8896d20) Updated lineage-minimal to 07-Sep-2025 22:01 UTC
   
@@ -1465,11 +1414,6 @@
   Author: Tim Schumacher  
   Date: Thu Aug 14 00:01:31 2025 +0200
 
-- [ad7d32a](https://github.com/LineageOS/mirror/commit/ad7d32a) Updated aosp-minimal to 09-Aug-2025 21:24 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Aug 9 23:24:49 2025 +0200
-
 
 </details>
 
@@ -1490,7 +1434,27 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (22 commits)</summary>
+<summary><b>lineage/wiki</b> (26 commits)</summary>
+
+- [0aaa61c](https://github.com/LineageOS/lineage_wiki/commit/0aaa61c) wiki: Remove `recovery_boot` from salami
+  
+  Author: LuK1337  
+  Date: Mon Sep 8 12:38:41 2025 +0200
+
+- [0814752](https://github.com/LineageOS/lineage_wiki/commit/0814752) wiki: Hide `recovery_boot` instructions if empty
+  
+  Author: LuK1337  
+  Date: Mon Sep 8 12:00:34 2025 +0200
+
+- [ed7ad34](https://github.com/LineageOS/lineage_wiki/commit/ed7ad34) wiki: Add OnePlus 12
+  
+  Author: chandu078  
+  Date: Mon Sep 8 11:40:45 2025 +0200
+
+- [9fe2d1b](https://github.com/LineageOS/lineage_wiki/commit/9fe2d1b) wiki: Remove `recovery_boot` from OnePlus 7/8/9/11 series
+  
+  Author: LuK1337  
+  Date: Mon Sep 8 10:57:32 2025 +0200
 
 - [1755668](https://github.com/LineageOS/lineage_wiki/commit/1755668) wiki: Dual speakers -&gt; Stereo speakers
   
