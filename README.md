@@ -1,7 +1,17 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>android</b> (5 commits)</summary>
+<summary><b>android</b> (7 commits)</summary>
+
+- [88f4b20](https://github.com/LineageOS/android/commit/88f4b20) manifest: Remove sm8150 HAL guards
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 10 18:17:14 2025 +0300
+
+- [60e32f9](https://github.com/LineageOS/android/commit/60e32f9) manifest: Remove sm7250 HAL guards
+  
+  Author: Michael Bestas  
+  Date: Tue Sep 9 22:53:30 2025 +0300
 
 - [7680485](https://github.com/LineageOS/android/commit/7680485) manifest: September 2025 Security Update
   
@@ -337,17 +347,6 @@
 </details>
 
 <details>
-<summary><b>hardware/interfaces</b> (1 commits)</summary>
-
-- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
-  
-  Author: Nolen Johnson  
-  Date: Mon Aug 25 19:29:07 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/common</b> (3 commits)</summary>
 
 - [4d5665c](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/4d5665c) qcom: Add msm8998 audio soong config
@@ -405,6 +404,17 @@
   
   Author: danielml  
   Date: Sat Aug 30 20:58:33 2025 +0800
+
+
+</details>
+
+<details>
+<summary><b>hardware/interfaces</b> (1 commits)</summary>
+
+- [bca3d9cf](https://github.com/LineageOS/android_hardware_interfaces/commit/bca3d9cf) compatibility_matrices: Add q/android-4.9 to FCM 6
+  
+  Author: Nolen Johnson  
+  Date: Mon Aug 25 19:29:07 2025 +0000
 
 
 </details>
@@ -524,23 +534,23 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8550/display</b> (1 commits)</summary>
-
-- [ccdf85d](https://github.com/LineageOS/android_hardware_qcom_display/commit/ccdf85d) gralloc: avoid calling property_get() on every buffer allocation
-  
-  Author: Cosmin Tanislav  
-  Date: Thu Aug 28 10:12:03 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8450/display</b> (1 commits)</summary>
 
 - [b44742b](https://github.com/LineageOS/android_hardware_qcom_display/commit/b44742b) gralloc: avoid calling property_get() on every buffer allocation
   
   Author: Cosmin Tanislav  
   Date: Thu Aug 28 10:08:21 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8550/display</b> (1 commits)</summary>
+
+- [ccdf85d](https://github.com/LineageOS/android_hardware_qcom_display/commit/ccdf85d) gralloc: avoid calling property_get() on every buffer allocation
+  
+  Author: Cosmin Tanislav  
+  Date: Thu Aug 28 10:12:03 2025 +0000
 
 
 </details>
@@ -613,33 +623,58 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (3 commits)</summary>
+<summary><b>hardware/qcom/sm8150/display</b> (8 commits)</summary>
 
-- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
+- [c13de98](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/c13de98) Convert remaining Android.mk to blueprint
   
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
+  Author: Michael Bestas  
+  Date: Wed Sep 10 19:31:29 2025 +0300
 
-- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
+- [ad7078c](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/ad7078c) sdm: Convert hwcomposer.qcom to soong
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 10 18:15:28 2025 +0300
+
+- [2a9e0e9](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/2a9e0e9) Revert &quot;sdm/hwc: add display indices property for client id init&quot;
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 10 18:15:28 2025 +0300
+
+- [49c36ba](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/49c36ba) sdm: Remove use_hwc2 conditional
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 10 18:15:28 2025 +0300
+
+- [99e4d3f](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/99e4d3f) Convert libhistogram/libsdmcore to blueprint
   
   Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
+  Date: Wed Sep 10 18:15:28 2025 +0300
 
-- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
+- [0278765](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/0278765) display: Squashed revert of hypervisor changes
   
-  Author: LuK1337  
-  Date: Sat Aug 16 20:38:11 2025 +0200
+  Author: Michael Bestas  
+  Date: Wed Sep 10 18:15:28 2025 +0300
+
+- [cd069e1](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cd069e1) Convert gpu_tonemapper to blueprint
+  
+  Author: EndCredits  
+  Date: Wed Sep 10 18:15:28 2025 +0300
+
+- [cf6f59d](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cf6f59d) Remove unused libcopybit sources
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 10 17:10:59 2025 +0300
 
 
 </details>
 
 <details>
-<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
+<summary><b>hardware/qcom/sm8150/gps</b> (1 commits)</summary>
 
-- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
+- [c102eca](https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca) Remove obsolete os_pickup.{bp,mk}
   
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
+  Author: Michael Bestas  
+  Date: Wed Sep 10 16:23:52 2025 +0300
 
 
 </details>
@@ -676,12 +711,33 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+<summary><b>lineage-sdk</b> (3 commits)</summary>
 
-- [cbb578e](https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e) Automatic translation import
+- [2700b68](https://github.com/LineageOS/android_lineage-sdk/commit/2700b68) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:32 2025 +0000
+  Date: Mon Sep 1 14:54:31 2025 +0000
+
+- [787a24e](https://github.com/LineageOS/android_lineage-sdk/commit/787a24e) Wire up AIDL LiveDisplay HAL
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+- [cf9f156](https://github.com/LineageOS/android_lineage-sdk/commit/cf9f156) sdk: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 20:38:11 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
+
+- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
 
 
 </details>
@@ -690,6 +746,17 @@
 <summary><b>packages/apps/Backgrounds</b> (1 commits)</summary>
 
 - [3cdba90](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:32 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+
+- [cbb578e](https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:32 2025 +0000
@@ -747,23 +814,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
-
-- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:35 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
 - [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:34 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+
+- [8e1aa09](https://github.com/LineageOS/android_packages_apps_Etar/commit/8e1aa09) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:35 2025 +0000
 
 
 </details>
@@ -925,47 +992,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (7 commits)</summary>
-
-- [3467f151](https://github.com/LineageOS/android_packages_apps_Settings/commit/3467f151) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 16:01:01 2025 +0300
-
-- [e27df4fd](https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:38 2025 +0000
-
-- [63fe7e22](https://github.com/LineageOS/android_packages_apps_Settings/commit/63fe7e22) Settings: DevicePicker: Adapt to S style
-  
-  Author: ReallySnow  
-  Date: Thu Aug 28 11:18:04 2025 +0000
-
-- [b55b67e5](https://github.com/LineageOS/android_packages_apps_Settings/commit/b55b67e5) SlicesDatabaseHelper: Use Build.VERSION.INCREMENTAL
-  
-  Author: jhenrique09  
-  Date: Thu Aug 28 11:17:57 2025 +0000
-
-- [5f7b2693](https://github.com/LineageOS/android_packages_apps_Settings/commit/5f7b2693) Settings: fix typo in settings namespace for qr scanner on ls
-  
-  Author: maxwen  
-  Date: Thu Aug 28 11:17:52 2025 +0000
-
-- [719ca665](https://github.com/LineageOS/android_packages_apps_Settings/commit/719ca665) fixup! Revert &quot;[Sim UI enhancement] remove the &quot;Tap to show info&quot;&quot;
-  
-  Author: Adithya R  
-  Date: Mon Aug 25 09:38:27 2025 +0000
-
-- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
-  
-  Author: LuK1337  
-  Date: Sat Aug 16 19:26:05 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
 
 - [e1f28ba](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e1f28ba) Automatic translation import
@@ -1035,6 +1061,47 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Settings</b> (7 commits)</summary>
+
+- [3467f151](https://github.com/LineageOS/android_packages_apps_Settings/commit/3467f151) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 16:01:01 2025 +0300
+
+- [e27df4fd](https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:38 2025 +0000
+
+- [63fe7e22](https://github.com/LineageOS/android_packages_apps_Settings/commit/63fe7e22) Settings: DevicePicker: Adapt to S style
+  
+  Author: ReallySnow  
+  Date: Thu Aug 28 11:18:04 2025 +0000
+
+- [b55b67e5](https://github.com/LineageOS/android_packages_apps_Settings/commit/b55b67e5) SlicesDatabaseHelper: Use Build.VERSION.INCREMENTAL
+  
+  Author: jhenrique09  
+  Date: Thu Aug 28 11:17:57 2025 +0000
+
+- [5f7b2693](https://github.com/LineageOS/android_packages_apps_Settings/commit/5f7b2693) Settings: fix typo in settings namespace for qr scanner on ls
+  
+  Author: maxwen  
+  Date: Thu Aug 28 11:17:52 2025 +0000
+
+- [719ca665](https://github.com/LineageOS/android_packages_apps_Settings/commit/719ca665) fixup! Revert &quot;[Sim UI enhancement] remove the &quot;Tap to show info&quot;&quot;
+  
+  Author: Adithya R  
+  Date: Mon Aug 25 09:38:27 2025 +0000
+
+- [6f25245d](https://github.com/LineageOS/android_packages_apps_Settings/commit/6f25245d) Settings: Add lineagehealth IFastCharge interface support
+  
+  Author: LuK1337  
+  Date: Sat Aug 16 19:26:05 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/modules/CellBroadcastService</b> (1 commits)</summary>
 
 - [ea7970b](https://github.com/LineageOS/android_packages_modules_CellBroadcastService/commit/ea7970b) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
@@ -1068,23 +1135,23 @@
 </details>
 
 <details>
-<summary><b>packages/modules/Bluetooth</b> (1 commits)</summary>
-
-- [b6a6b8a28](https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a28) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 16:08:42 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>packages/modules/Wifi</b> (1 commits)</summary>
 
 - [d6417247](https://github.com/LineageOS/android_packages_modules_Wifi/commit/d6417247) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
   
   Author: Michael Bestas  
   Date: Wed Sep 3 16:10:02 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>packages/modules/Bluetooth</b> (1 commits)</summary>
+
+- [b6a6b8a28](https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a28) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 16:08:42 2025 +0300
 
 
 </details>
@@ -1101,23 +1168,23 @@
 </details>
 
 <details>
-<summary><b>packages/providers/MediaProvider</b> (1 commits)</summary>
-
-- [47422d55](https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/47422d55) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:42:36 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>packages/resources/devicesettings</b> (1 commits)</summary>
 
 - [65352f2](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/65352f2) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:41 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/providers/MediaProvider</b> (1 commits)</summary>
+
+- [47422d55](https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/47422d55) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:42:36 2025 +0300
 
 
 </details>
@@ -1382,22 +1449,6 @@
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
-  
-  Author: Michael Bestas  
-  Date: Tue Aug 26 20:10:24 2025 +0300
-
-- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
-  
-  Author: Kevin F. Haggerty  
-  Date: Wed Aug 20 05:46:36 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>lineage/wiki</b> (26 commits)</summary>
 
 - [0aaa61c](https://github.com/LineageOS/lineage_wiki/commit/0aaa61c) wiki: Remove `recovery_boot` from salami
@@ -1529,6 +1580,22 @@
   
   Author: chandu078  
   Date: Tue Aug 12 09:16:15 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [996ce77](https://github.com/LineageOS/scripts/commit/996ce77) aosp-merger: Skip clo squash when using merge
+  
+  Author: Michael Bestas  
+  Date: Tue Aug 26 20:10:24 2025 +0300
+
+- [555bd7c](https://github.com/LineageOS/scripts/commit/555bd7c) build-webview: Update default webview to 139.0.7258.143
+  
+  Author: Kevin F. Haggerty  
+  Date: Wed Aug 20 05:46:36 2025 -0600
 
 
 </details>
