@@ -886,14 +886,14 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (2 commits)</summary>
+<summary><b>packages/apps/DocumentsUI</b> (2 commits)</summary>
 
-- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
+- [dff9363](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
   
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:03 2025 +0000
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:42:20 2025 +0300
 
-- [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
+- [0cc2e07](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:34 2025 +0000
@@ -918,14 +918,14 @@
 </details>
 
 <details>
-<summary><b>packages/apps/DocumentsUI</b> (2 commits)</summary>
+<summary><b>packages/apps/Dialer</b> (2 commits)</summary>
 
-- [dff9363](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
   
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:42:20 2025 +0300
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:03 2025 +0000
 
-- [0cc2e07](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07) Automatic translation import
+- [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:34 2025 +0000
@@ -934,7 +934,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/FMRadio</b> (3 commits)</summary>
+<summary><b>packages/apps/FMRadio</b> (4 commits)</summary>
+
+- [7e89b01](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01) FmService: Set RECEIVER_NOT_EXPORTED
+  
+  Author: Cyber Knight  
+  Date: Fri Sep 26 18:30:01 2025 +0000
 
 - [4372899](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899) FMRadio: Start ForegroundService with a type
   
@@ -1002,7 +1007,17 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Jelly</b> (11 commits)</summary>
+<summary><b>packages/apps/Jelly</b> (13 commits)</summary>
+
+- [2d8559b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/2d8559b) Jelly: Load scripts once
+  
+  Author: Luca Stefani  
+  Date: Fri Sep 26 14:00:41 2025 -0700
+
+- [67d7b58](https://github.com/LineageOS/android_packages_apps_Jelly/commit/67d7b58) Jelly: Implement Web Share API
+  
+  Author: SaeedDev94  
+  Date: Fri Sep 26 13:58:10 2025 -0700
 
 - [fe57ec1](https://github.com/LineageOS/android_packages_apps_Jelly/commit/fe57ec1) Jelly: Update generatebp to v1.28
   
@@ -1133,6 +1148,17 @@
 </details>
 
 <details>
+<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
+
+- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:39 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Settings</b> (6 commits)</summary>
 
 - [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
@@ -1169,17 +1195,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/ThemePicker</b> (1 commits)</summary>
-
-- [236070c](https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/236070c) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:39 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
 
 - [7220bfa](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7220bfa) Automatic translation import
@@ -1191,22 +1206,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:39 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Updater</b> (2 commits)</summary>
-
-- [be62451](https://github.com/LineageOS/android_packages_apps_Updater/commit/be62451) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:09 2025 +0000
-
-- [77a204b](https://github.com/LineageOS/android_packages_apps_Updater/commit/77a204b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:40 2025 +0000
 
 
 </details>
@@ -1308,6 +1307,22 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+
+- [be62451](https://github.com/LineageOS/android_packages_apps_Updater/commit/be62451) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:09 2025 +0000
+
+- [77a204b](https://github.com/LineageOS/android_packages_apps_Updater/commit/77a204b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:40 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/inputmethods/LatinIME</b> (3 commits)</summary>
 
 - [b1b807e](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/b1b807e) Add Turkish F layout
@@ -1351,23 +1366,23 @@
 </details>
 
 <details>
-<summary><b>packages/modules/Bluetooth</b> (1 commits)</summary>
-
-- [b6a6b8a28](https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a28) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 16:08:42 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>packages/modules/Permission</b> (1 commits)</summary>
 
 - [f9690ca9](https://github.com/LineageOS/android_packages_modules_Permission/commit/f9690ca9) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
   
   Author: Michael Bestas  
   Date: Wed Sep 3 15:42:31 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>packages/modules/Bluetooth</b> (1 commits)</summary>
+
+- [b6a6b8a28](https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a28) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 16:08:42 2025 +0300
 
 
 </details>
@@ -1400,17 +1415,6 @@
 </details>
 
 <details>
-<summary><b>packages/providers/MediaProvider</b> (1 commits)</summary>
-
-- [47422d55](https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/47422d55) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:42:36 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>packages/resources/devicesettings</b> (3 commits)</summary>
 
 - [61a0716](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/61a0716) Automatic translation import
@@ -1427,6 +1431,17 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:41 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/providers/MediaProvider</b> (1 commits)</summary>
+
+- [47422d55](https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/47422d55) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:42:36 2025 +0300
 
 
 </details>
@@ -1653,7 +1668,22 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (32 commits)</summary>
+<summary><b>lineage/wiki</b> (33 commits)</summary>
+
+- [cd0ce91](https://github.com/LineageOS/lineage_wiki/commit/cd0ce91) wiki: Swap aston.png to one that matches other OnePlus devices
+  
+  Author: LuK1337  
+  Date: Fri Sep 26 09:07:04 2025 +0200
+
+- [0c5e787](https://github.com/LineageOS/lineage_wiki/commit/0c5e787) wiki: Add OnePlus 12R (aston)
+  
+  Author: inferno0230  
+  Date: Fri Sep 26 02:40:04 2025 -0400
+
+- [afba45b](https://github.com/LineageOS/lineage_wiki/commit/afba45b) wiki: Add OnePlus Nord CE4 (benz)
+  
+  Author: inferno0230  
+  Date: Thu Sep 25 14:31:35 2025 +0530
 
 - [92b8aaa](https://github.com/LineageOS/lineage_wiki/commit/92b8aaa) wiki: Promote NB1 to 22.2
   
@@ -1805,21 +1835,21 @@
   Author: Tuan Anh  
   Date: Thu Aug 28 04:20:43 2025 +0000
 
-- [8af0e9e](https://github.com/LineageOS/lineage_wiki/commit/8af0e9e) wiki: Add a reminder to not submit bugs for heavily modified devices
-  
-  Author: Inhishonor  
-  Date: Wed Aug 27 15:09:55 2025 +0000
-
-- [87eb908](https://github.com/LineageOS/lineage_wiki/commit/87eb908) wiki: Add a faq for rooting
-  
-  Author: Inhishonor  
-  Date: Wed Aug 27 15:09:37 2025 +0000
-
 
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (11 commits)</summary>
+<summary><b>lineage/mirror</b> (12 commits)</summary>
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
 
 - [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
   
@@ -1870,11 +1900,6 @@
   
   Author: Tim Schumacher  
   Date: Fri Aug 29 12:01:33 2025 +0200
-
-- [05c5c6a](https://github.com/LineageOS/mirror/commit/05c5c6a) Updated to 27-Aug-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Aug 27 12:01:28 2025 +0200
 
 
 </details>
