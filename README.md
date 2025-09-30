@@ -86,17 +86,6 @@
 </details>
 
 <details>
-<summary><b>device/lineage/sepolicy</b> (1 commits)</summary>
-
-- [65e58b0](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/65e58b0) common: Label AIDL camera provider HAL
-  
-  Author: Skyblueborb  
-  Date: Sat Aug 30 14:28:24 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>device/qcom/sepolicy_vndr/sm8750</b> (3 commits)</summary>
 
 - [29adc09](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/29adc09) sun: Match all read_ahead_kb nodes
@@ -151,23 +140,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
-
-- [c18e219](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219) Update Chromium Webview x86 to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:49 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
 
 - [856f1ce](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce) Update Chromium Webview x86_64 to 140.0.7339.207
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:53 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
+
+- [c18e219](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219) Update Chromium Webview x86 to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Sep 27 08:22:49 2025 -0600
 
 
 </details>
@@ -240,23 +229,23 @@
 </details>
 
 <details>
-<summary><b>frameworks/native</b> (1 commits)</summary>
-
-- [a7f9cc63](https://github.com/LineageOS/android_frameworks_native/commit/a7f9cc63) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:51:23 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>hardware/broadcom/libbt</b> (1 commits)</summary>
 
 - [39a0c50](https://github.com/LineageOS/android_hardware_broadcom_libbt/commit/39a0c50) libbt: Convert to Android.bp
   
   Author: Yumi Yukimura  
   Date: Thu Sep 4 07:32:39 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>frameworks/native</b> (1 commits)</summary>
+
+- [a7f9cc63](https://github.com/LineageOS/android_frameworks_native/commit/a7f9cc63) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:51:23 2025 +0300
 
 
 </details>
@@ -284,6 +273,17 @@
 </details>
 
 <details>
+<summary><b>hardware/lineage/interfaces</b> (1 commits)</summary>
+
+- [01b0b5b](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/01b0b5b) sensors: Add a sensors 2.0 -&gt; 1.0 subhal wrapper
+  
+  Author: bengris32  
+  Date: Sat Sep 27 13:25:38 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>hardware/qcom-caf/common</b> (3 commits)</summary>
 
 - [4d5665c](https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/4d5665c) qcom: Add msm8998 audio soong config
@@ -300,88 +300,6 @@
   
   Author: Michael Bestas  
   Date: Sat Sep 6 12:11:22 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/lineage/interfaces</b> (7 commits)</summary>
-
-- [01b0b5b](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/01b0b5b) sensors: Add a sensors 2.0 -&gt; 1.0 subhal wrapper
-  
-  Author: bengris32  
-  Date: Sat Sep 27 13:25:38 2025 +0000
-
-- [eaa88af](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/eaa88af) livedisplay: sysfs: chown on init
-  
-  Author: Marc Bourgoin  
-  Date: Sat Aug 30 10:40:38 2025 -0600
-
-- [7cb075b](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7cb075b) camera: aidl: Remove `in_`/`out_` prefixes
-  
-  Author: LuK1337  
-  Date: Sat Aug 30 14:28:24 2025 +0000
-
-- [7fbd870](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7fbd870) camera: aidl: Use std::to_string() for int -&gt; std::string
-  
-  Author: LuK1337  
-  Date: Sat Aug 30 14:28:24 2025 +0000
-
-- [1d5d332](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/1d5d332) camera: aidl: Remap camera IDs by property if it is defined
-  
-  Author: Ivan Vecera  
-  Date: Sat Aug 30 14:28:24 2025 +0000
-
-- [d26191b](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/d26191b) camera: aidl: Maintain set of non-external cameras
-  
-  Author: Ivan Vecera  
-  Date: Sat Aug 30 14:28:24 2025 +0000
-
-- [bdb296c](https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/bdb296c) camera: aidl: Implement camera device/provider HALs
-  
-  Author: Tim Zimmermann  
-  Date: Sat Aug 30 14:28:24 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/msm8953/audio</b> (7 commits)</summary>
-
-- [f9ff4f2](https://github.com/LineageOS/android_hardware_qcom_audio/commit/f9ff4f2) hal: Convert audio extensions to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 21:34:14 2025 +0800
-
-- [06e0412](https://github.com/LineageOS/android_hardware_qcom_audio/commit/06e0412) ssr: Fix building with OSS materials
-  
-  Author: Ricardo Cerqueira  
-  Date: Sat Aug 30 21:33:49 2025 +0800
-
-- [ca80109](https://github.com/LineageOS/android_hardware_qcom_audio/commit/ca80109) hal: Convert primary HAL to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 21:31:23 2025 +0800
-
-- [2ebe70c](https://github.com/LineageOS/android_hardware_qcom_audio/commit/2ebe70c) hal: Remove unused libmaxxaudio extension
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 21:23:54 2025 +0800
-
-- [17df495](https://github.com/LineageOS/android_hardware_qcom_audio/commit/17df495) hal: Remove feature manager leftovers
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 21:23:33 2025 +0800
-
-- [dd04d99](https://github.com/LineageOS/android_hardware_qcom_audio/commit/dd04d99) audio: Remove all unsupported platforms &amp; flags
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 21:23:28 2025 +0800
-
-- [0ad6d86](https://github.com/LineageOS/android_hardware_qcom_audio/commit/0ad6d86) hal: audio_extn: Add argument to pthread routines
-  
-  Author: danielml  
-  Date: Sat Aug 30 20:58:33 2025 +0800
 
 
 </details>
@@ -450,32 +368,6 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom/bt</b> (4 commits)</summary>
-
-- [73ebd37](https://github.com/LineageOS/android_hardware_qcom_bt/commit/73ebd37) bt: Build with -Werror
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 20:04:52 2025 +0300
-
-- [4663baf](https://github.com/LineageOS/android_hardware_qcom_bt/commit/4663baf) bt: Remove SSR support
-  
-  Author: Gabriele M  
-  Date: Sun Sep 14 20:04:52 2025 +0300
-
-- [d0dfd8a](https://github.com/LineageOS/android_hardware_qcom_bt/commit/d0dfd8a) bt: Remove unused headers
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 19:41:09 2025 +0300
-
-- [3668362](https://github.com/LineageOS/android_hardware_qcom_bt/commit/3668362) bt: Convert libbt-vendor to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 19:22:44 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8750/audio/primary-hal</b> (1 commits)</summary>
 
 - [c5ae69f](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/c5ae69f) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into HEAD
@@ -503,7 +395,7 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/msm8953/display</b> (5 commits)</summary>
+<summary><b>hardware/qcom-caf/msm8953/display</b> (3 commits)</summary>
 
 - [fd1cfe0](https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0) Convert remaining Android.mk to blueprint
   
@@ -520,87 +412,31 @@
   Author: Steven Moreland  
   Date: Mon Sep 1 16:35:03 2025 +0800
 
-- [fe4a261](https://github.com/LineageOS/android_hardware_qcom_display/commit/fe4a261) Convert libsdmcore to blueprint
-  
-  Author: LuK1337  
-  Date: Sat Aug 30 21:53:59 2025 +0800
-
-- [f39a4b3](https://github.com/LineageOS/android_hardware_qcom_display/commit/f39a4b3) Convert libgrallocutils and gpu_tonemapper to blueprint
-  
-  Author: EndCredits  
-  Date: Sat Aug 30 21:52:32 2025 +0800
-
 
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/msm8953/media</b> (10 commits)</summary>
+<summary><b>hardware/qcom/bt</b> (4 commits)</summary>
 
-- [96c7956](https://github.com/LineageOS/android_hardware_qcom_media/commit/96c7956) media: Drop libsidebandstreamhandle
+- [73ebd37](https://github.com/LineageOS/android_hardware_qcom_bt/commit/73ebd37) bt: Build with -Werror
   
   Author: Michael Bestas  
-  Date: Sat Aug 30 23:12:01 2025 +0800
+  Date: Sun Sep 14 20:04:52 2025 +0300
 
-- [04ae467](https://github.com/LineageOS/android_hardware_qcom_media/commit/04ae467) mm-core: Convert to blueprint
+- [4663baf](https://github.com/LineageOS/android_hardware_qcom_bt/commit/4663baf) bt: Remove SSR support
+  
+  Author: Gabriele M  
+  Date: Sun Sep 14 20:04:52 2025 +0300
+
+- [d0dfd8a](https://github.com/LineageOS/android_hardware_qcom_bt/commit/d0dfd8a) bt: Remove unused headers
   
   Author: Michael Bestas  
-  Date: Sat Aug 30 23:11:23 2025 +0800
+  Date: Sun Sep 14 19:41:09 2025 +0300
 
-- [4f58783](https://github.com/LineageOS/android_hardware_qcom_media/commit/4f58783) mm-core: Remove unused files &amp; flags
+- [3668362](https://github.com/LineageOS/android_hardware_qcom_bt/commit/3668362) bt: Convert libbt-vendor to blueprint
   
   Author: Michael Bestas  
-  Date: Sat Aug 30 23:09:10 2025 +0800
-
-- [cc73684](https://github.com/LineageOS/android_hardware_qcom_media/commit/cc73684) mm-video-v4l2: Convert to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 23:04:41 2025 +0800
-
-- [9ac70bf](https://github.com/LineageOS/android_hardware_qcom_media/commit/9ac70bf) mm-video-v4l2: vidc: Drop support for hypervisor
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 22:53:33 2025 +0800
-
-- [48f646f](https://github.com/LineageOS/android_hardware_qcom_media/commit/48f646f) mm-video-v4l2: Remove SW OMX codecs, unused files &amp; flags
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 22:51:57 2025 +0800
-
-- [1e364f6](https://github.com/LineageOS/android_hardware_qcom_media/commit/1e364f6) libstagefrighthw: Convert to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 22:32:35 2025 +0800
-
-- [4650bb6](https://github.com/LineageOS/android_hardware_qcom_media/commit/4650bb6) libc2dcolorconvert: Cleanup dependencies &amp; convert to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 22:32:25 2025 +0800
-
-- [4bead84](https://github.com/LineageOS/android_hardware_qcom_media/commit/4bead84) media: Remove autoconf/automake configuration
-  
-  Author: Michael Bestas  
-  Date: Sat Aug 30 22:31:25 2025 +0800
-
-- [c8ef438](https://github.com/LineageOS/android_hardware_qcom_media/commit/c8ef438) Revert &quot;libaac: Add test code for AAC encoder and decoder&quot;
-  
-  Author: Indranil  
-  Date: Sat Aug 30 22:31:18 2025 +0800
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom/sdm845/gps</b> (2 commits)</summary>
-
-- [71438e3](https://github.com/LineageOS/android_hardware_qcom_sdm845_gps/commit/71438e3) Add hardware/qcom/sdm845/gps soong namespace
-  
-  Author: ChengYou Ho  
-  Date: Fri Sep 12 12:40:57 2025 +0300
-
-- [33255a1](https://github.com/LineageOS/android_hardware_qcom_sdm845_gps/commit/33255a1) Remove obsolete os_pickup.{bp,mk}
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 12 10:55:57 2025 +0300
+  Date: Sun Sep 14 19:22:44 2025 +0300
 
 
 </details>
@@ -652,6 +488,22 @@
   
   Author: Michael Bestas  
   Date: Fri Sep 12 10:57:31 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom/sdm845/gps</b> (2 commits)</summary>
+
+- [71438e3](https://github.com/LineageOS/android_hardware_qcom_sdm845_gps/commit/71438e3) Add hardware/qcom/sdm845/gps soong namespace
+  
+  Author: ChengYou Ho  
+  Date: Fri Sep 12 12:40:57 2025 +0300
+
+- [33255a1](https://github.com/LineageOS/android_hardware_qcom_sdm845_gps/commit/33255a1) Remove obsolete os_pickup.{bp,mk}
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 12 10:55:57 2025 +0300
 
 
 </details>
@@ -730,6 +582,53 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Aperture</b> (6 commits)</summary>
+
+- [1b0c843](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843) Aperture: No more jail escape
+  
+  Author: Luca Stefani  
+  Date: Tue Sep 16 10:01:45 2025 +0000
+
+- [340b187](https://github.com/LineageOS/android_packages_apps_Aperture/commit/340b187) Aperture: Update CameraX
+  
+  Author: Sebastiano Barezzi  
+  Date: Tue Sep 16 10:01:45 2025 +0000
+
+- [503b71d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/503b71d) Aperture: Update CameraX to 1.5.0
+  
+  Author: Luca Stefani  
+  Date: Tue Sep 16 10:01:45 2025 +0000
+
+- [b594427](https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:01 2025 +0000
+
+- [163d4bb](https://github.com/LineageOS/android_packages_apps_Aperture/commit/163d4bb) Aperture: Fix zoom level bar alignment in QR mode
+  
+  Author: LuK1337  
+  Date: Thu Sep 4 17:45:03 2025 +0200
+
+- [98000dc](https://github.com/LineageOS/android_packages_apps_Aperture/commit/98000dc) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
+
+- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:31 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Backgrounds</b> (1 commits)</summary>
 
 - [3cdba90](https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90) Automatic translation import
@@ -762,53 +661,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:32 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/AudioFX</b> (1 commits)</summary>
-
-- [28ddf22](https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Aperture</b> (6 commits)</summary>
-
-- [1b0c843](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843) Aperture: No more jail escape
-  
-  Author: Luca Stefani  
-  Date: Tue Sep 16 10:01:45 2025 +0000
-
-- [340b187](https://github.com/LineageOS/android_packages_apps_Aperture/commit/340b187) Aperture: Update CameraX
-  
-  Author: Sebastiano Barezzi  
-  Date: Tue Sep 16 10:01:45 2025 +0000
-
-- [503b71d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/503b71d) Aperture: Update CameraX to 1.5.0
-  
-  Author: Luca Stefani  
-  Date: Tue Sep 16 10:01:45 2025 +0000
-
-- [b594427](https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:01 2025 +0000
-
-- [163d4bb](https://github.com/LineageOS/android_packages_apps_Aperture/commit/163d4bb) Aperture: Fix zoom level bar alignment in QR mode
-  
-  Author: LuK1337  
-  Date: Thu Sep 4 17:45:03 2025 +0200
-
-- [98000dc](https://github.com/LineageOS/android_packages_apps_Aperture/commit/98000dc) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:31 2025 +0000
 
 
 </details>
@@ -877,22 +729,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (2 commits)</summary>
-
-- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:03 2025 +0000
-
-- [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:34 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/DocumentsUI</b> (2 commits)</summary>
 
 - [dff9363](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
@@ -920,6 +756,22 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:35 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Dialer</b> (2 commits)</summary>
+
+- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:03 2025 +0000
+
+- [4dc5fd4](https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd4) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:34 2025 +0000
 
 
 </details>
@@ -1085,6 +937,17 @@
 </details>
 
 <details>
+<summary><b>packages/apps/ManagedProvisioning</b> (1 commits)</summary>
+
+- [5d236fc](https://github.com/LineageOS/android_packages_apps_ManagedProvisioning/commit/5d236fc) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:42:21 2025 +0300
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Messaging</b> (2 commits)</summary>
 
 - [d65b136](https://github.com/LineageOS/android_packages_apps_Messaging/commit/d65b136) Automatic translation import
@@ -1112,17 +975,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:37 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/ManagedProvisioning</b> (1 commits)</summary>
-
-- [5d236fc](https://github.com/LineageOS/android_packages_apps_ManagedProvisioning/commit/5d236fc) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:42:21 2025 +0300
 
 
 </details>
@@ -1161,27 +1013,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 1 14:54:39 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (3 commits)</summary>
-
-- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:07 2025 +0000
-
-- [3467f151](https://github.com/LineageOS/android_packages_apps_Settings/commit/3467f151) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 16:01:01 2025 +0300
-
-- [e27df4fd](https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 1 14:54:38 2025 +0000
 
 
 </details>
@@ -1299,6 +1130,27 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Settings</b> (3 commits)</summary>
+
+- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:07 2025 +0000
+
+- [3467f151](https://github.com/LineageOS/android_packages_apps_Settings/commit/3467f151) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 16:01:01 2025 +0300
+
+- [e27df4fd](https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 1 14:54:38 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/inputmethods/LatinIME</b> (3 commits)</summary>
 
 - [b1b807e](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/b1b807e) Add Turkish F layout
@@ -1353,23 +1205,23 @@
 </details>
 
 <details>
-<summary><b>packages/modules/Bluetooth</b> (1 commits)</summary>
-
-- [b6a6b8a28](https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a28) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 16:08:42 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>packages/modules/Wifi</b> (1 commits)</summary>
 
 - [d6417247](https://github.com/LineageOS/android_packages_modules_Wifi/commit/d6417247) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
   
   Author: Michael Bestas  
   Date: Wed Sep 3 16:10:02 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>packages/modules/Bluetooth</b> (1 commits)</summary>
+
+- [b6a6b8a28](https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a28) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 16:08:42 2025 +0300
 
 
 </details>
@@ -1492,23 +1344,23 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8650/audio/pal</b> (1 commits)</summary>
-
-- [d19ff12](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d19ff12) Revert &quot;pal: fix redefinition of epoll_event&quot;
-  
-  Author: Arian  
-  Date: Thu Sep 18 14:11:25 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8750/audio/pal</b> (1 commits)</summary>
 
 - [6ead194](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6ead194) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into HEAD
   
   Author: Bruno Martins  
   Date: Sat Sep 20 15:31:29 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8650/audio/pal</b> (1 commits)</summary>
+
+- [d19ff12](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d19ff12) Revert &quot;pal: fix redefinition of epoll_event&quot;
+  
+  Author: Arian  
+  Date: Thu Sep 18 14:11:25 2025 +0000
 
 
 </details>
@@ -1583,7 +1435,12 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (11 commits)</summary>
+<summary><b>lineage/hudson</b> (12 commits)</summary>
+
+- [8ba4739](https://github.com/LineageOS/hudson/commit/8ba4739) Regenerate device dependency mappings
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 29 23:30:47 2025 +0000
 
 - [25b46d6](https://github.com/LineageOS/hudson/commit/25b46d6) Regenerate device dependency mappings
   
@@ -1726,7 +1583,7 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (27 commits)</summary>
+<summary><b>lineage/wiki</b> (26 commits)</summary>
 
 - [9264484](https://github.com/LineageOS/lineage_wiki/commit/9264484) wiki: Add erhai
   
@@ -1857,11 +1714,6 @@
   
   Author: Vivekachooz  
   Date: Mon Sep 1 10:39:54 2025 +0530
-
-- [3095fc6](https://github.com/LineageOS/lineage_wiki/commit/3095fc6) wiki: Add OnePlus 6/7/8/9 series T-Mobile variants
-  
-  Author: LuK1337  
-  Date: Sat Aug 30 09:39:05 2025 +0000
 
 
 </details>
