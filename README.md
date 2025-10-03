@@ -1,7 +1,7 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>android</b> (5 commits)</summary>
+<summary><b>android</b> (4 commits)</summary>
 
 - [e3c809a](https://github.com/LineageOS/android/commit/e3c809a) manifest: Remove sdm845 HAL guards
   
@@ -22,11 +22,6 @@
   
   Author: Michael Bestas  
   Date: Sun Sep 7 17:28:23 2025 +0000
-
-- [a015876](https://github.com/LineageOS/android/commit/a015876) lineage: Remove Android.mk guard for msm8998/sdm845
-  
-  Author: Nolen Johnson  
-  Date: Tue Sep 2 16:12:48 2025 +0000
 
 
 </details>
@@ -76,6 +71,17 @@
 </details>
 
 <details>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
+
+- [d7ffab3](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d7ffab3) sepolicy_vndr: lito: Label more wakeup nodes
+  
+  Author: Michael Bestas  
+  Date: Wed Oct 1 23:15:14 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>device/qcom/sepolicy_vndr/sm8750</b> (3 commits)</summary>
 
 - [29adc09](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/29adc09) sun: Match all read_ahead_kb nodes
@@ -97,23 +103,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:55:19 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:39 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:55:19 2025 -0600
 
 
 </details>
@@ -301,37 +307,12 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/msm8998/audio</b> (6 commits)</summary>
+<summary><b>hardware/qcom-caf/msm8998/audio</b> (1 commits)</summary>
 
 - [717b078](https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078) hal: audio_extn: Add argument to pthread routines
   
   Author: danielml  
   Date: Sun Sep 7 15:27:04 2025 +0000
-
-- [65a528c](https://github.com/LineageOS/android_hardware_qcom_audio/commit/65a528c) hal: Convert audio extensions to blueprint
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 2 11:21:55 2025 +0300
-
-- [fafeecc](https://github.com/LineageOS/android_hardware_qcom_audio/commit/fafeecc) hal: Convert primary HAL to blueprint
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 2 11:18:40 2025 +0300
-
-- [bf78414](https://github.com/LineageOS/android_hardware_qcom_audio/commit/bf78414) hal: Remove unused libmaxxaudio extension
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 2 11:13:46 2025 +0300
-
-- [05172d9](https://github.com/LineageOS/android_hardware_qcom_audio/commit/05172d9) hal: Remove feature manager leftovers
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 2 11:13:02 2025 +0300
-
-- [090308b](https://github.com/LineageOS/android_hardware_qcom_audio/commit/090308b) audio: Remove all unsupported platforms &amp; flags
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 2 11:11:55 2025 +0300
 
 
 </details>
@@ -525,12 +506,38 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (1 commits)</summary>
+<summary><b>lineage-sdk</b> (2 commits)</summary>
+
+- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:42 2025 +0000
 
 - [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Camelot</b> (3 commits)</summary>
+
+- [b6cff9a](https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a) Camelot: Update generatebp to v1.28
+  
+  Author: Sebastiano Barezzi  
+  Date: Wed Sep 24 19:36:25 2025 +0200
+
+- [bcfa1a7](https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7) Camelot: Update Gradle wrapper and AGP
+  
+  Author: Sebastiano Barezzi  
+  Date: Wed Sep 24 19:33:55 2025 +0200
+
+- [34fd95b](https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:02 2025 +0000
 
 
 </details>
@@ -562,27 +569,6 @@
   
   Author: LuK1337  
   Date: Thu Sep 4 17:45:03 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Camelot</b> (3 commits)</summary>
-
-- [b6cff9a](https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a) Camelot: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:36:25 2025 +0200
-
-- [bcfa1a7](https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7) Camelot: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:33:55 2025 +0200
-
-- [34fd95b](https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:02 2025 +0000
 
 
 </details>
@@ -646,6 +632,17 @@
 </details>
 
 <details>
+<summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
+
+- [dff9363](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:42:20 2025 +0300
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
 - [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
@@ -663,17 +660,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:04 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/DocumentsUI</b> (1 commits)</summary>
-
-- [dff9363](https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:42:20 2025 +0300
 
 
 </details>
@@ -711,7 +697,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (5 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (6 commits)</summary>
+
+- [bf55f6a](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:43 2025 +0000
 
 - [6fcd70c](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c) Glimpse: Add file size to media info
   
@@ -808,9 +799,25 @@
 </details>
 
 <details>
-<summary><b>packages/apps/LineageParts</b> (1 commits)</summary>
+<summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
+
+- [3621247](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3621247) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:44 2025 +0000
 
 - [84552e0](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/84552e0) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:06 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
+
+- [d65b136](https://github.com/LineageOS/android_packages_apps_Messaging/commit/d65b136) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:06 2025 +0000
@@ -830,17 +837,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
-
-- [d65b136](https://github.com/LineageOS/android_packages_apps_Messaging/commit/d65b136) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:06 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Recorder</b> (1 commits)</summary>
 
 - [1f9060b](https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b) Automatic translation import
@@ -852,7 +848,33 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Trebuchet</b> (1 commits)</summary>
+<summary><b>packages/apps/Settings</b> (3 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:07 2025 +0000
+
+- [3467f151](https://github.com/LineageOS/android_packages_apps_Settings/commit/3467f151) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 16:01:01 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
+
+- [3c1310f](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310f) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:46 2025 +0000
 
 - [7220bfa](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7220bfa) Automatic translation import
   
@@ -863,7 +885,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Twelve</b> (17 commits)</summary>
+<summary><b>packages/apps/Twelve</b> (18 commits)</summary>
+
+- [5463caa](https://github.com/LineageOS/android_packages_apps_Twelve/commit/5463caa) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:46 2025 +0000
 
 - [17169d4](https://github.com/LineageOS/android_packages_apps_Twelve/commit/17169d4) Automatic translation import
   
@@ -954,23 +981,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
 
-- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
+- [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:07 2025 +0000
-
-- [3467f151](https://github.com/LineageOS/android_packages_apps_Settings/commit/3467f151) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 16:01:01 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Updater</b> (1 commits)</summary>
+  Date: Wed Oct 1 23:32:47 2025 +0000
 
 - [be62451](https://github.com/LineageOS/android_packages_apps_Updater/commit/be62451) Automatic translation import
   
@@ -1019,23 +1035,23 @@
 </details>
 
 <details>
-<summary><b>packages/modules/Permission</b> (1 commits)</summary>
-
-- [f9690ca9](https://github.com/LineageOS/android_packages_modules_Permission/commit/f9690ca9) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 3 15:42:31 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>packages/modules/Bluetooth</b> (1 commits)</summary>
 
 - [b6a6b8a28](https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a28) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
   
   Author: Michael Bestas  
   Date: Wed Sep 3 16:08:42 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>packages/modules/Permission</b> (1 commits)</summary>
+
+- [f9690ca9](https://github.com/LineageOS/android_packages_modules_Permission/commit/f9690ca9) Merge tag &#x27;android-security-15.0.0_r10&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r10
+  
+  Author: Michael Bestas  
+  Date: Wed Sep 3 15:42:31 2025 +0300
 
 
 </details>
@@ -1063,7 +1079,12 @@
 </details>
 
 <details>
-<summary><b>packages/resources/devicesettings</b> (2 commits)</summary>
+<summary><b>packages/resources/devicesettings</b> (3 commits)</summary>
+
+- [885204a](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/885204a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:48 2025 +0000
 
 - [61a0716](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/61a0716) Automatic translation import
   
@@ -1148,23 +1169,23 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8750/audio/pal</b> (1 commits)</summary>
-
-- [6ead194](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6ead194) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into HEAD
-  
-  Author: Bruno Martins  
-  Date: Sat Sep 20 15:31:29 2025 +0100
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8650/audio/pal</b> (1 commits)</summary>
 
 - [d19ff12](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d19ff12) Revert &quot;pal: fix redefinition of epoll_event&quot;
   
   Author: Arian  
   Date: Thu Sep 18 14:11:25 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8750/audio/pal</b> (1 commits)</summary>
+
+- [6ead194](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6ead194) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into HEAD
+  
+  Author: Bruno Martins  
+  Date: Sat Sep 20 15:31:29 2025 +0100
 
 
 </details>
@@ -1234,7 +1255,7 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (12 commits)</summary>
+<summary><b>lineage/mirror</b> (11 commits)</summary>
 
 - [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
   
@@ -1290,11 +1311,6 @@
   
   Author: Tim Schumacher  
   Date: Thu Sep 4 00:01:29 2025 +0200
-
-- [111f0d8](https://github.com/LineageOS/mirror/commit/111f0d8) Updated to 02-Sep-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Sep 2 12:01:31 2025 +0200
 
 
 </details>
@@ -1377,7 +1393,17 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (25 commits)</summary>
+<summary><b>lineage/wiki</b> (26 commits)</summary>
+
+- [ee4ffa2](https://github.com/LineageOS/lineage_wiki/commit/ee4ffa2) devices: salami: Add init_boot to flash partitions before recovery
+  
+  Author: Bruno Martins  
+  Date: Thu Oct 2 22:40:54 2025 +0100
+
+- [fb02924](https://github.com/LineageOS/lineage_wiki/commit/fb02924) wiki: devices: aston/benz: Add init_boot to flash partitions before recovery
+  
+  Author: inferno0230  
+  Date: Thu Oct 2 15:59:06 2025 +0530
 
 - [9264484](https://github.com/LineageOS/lineage_wiki/commit/9264484) wiki: Add erhai
   
@@ -1498,11 +1524,6 @@
   
   Author: Han Sol Jin  
   Date: Wed Sep 3 17:21:38 2025 +0000
-
-- [10e564b](https://github.com/LineageOS/lineage_wiki/commit/10e564b) wiki: Allow 15 fw for FP5
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 2 15:50:42 2025 +0300
 
 
 </details>
