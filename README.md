@@ -92,23 +92,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:39 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
 
 - [6760647](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647) Update Chromium Webview arm64 to 140.0.7339.207
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:45 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Sep 27 08:22:39 2025 -0600
 
 
 </details>
@@ -136,7 +136,17 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (7 commits)</summary>
+<summary><b>frameworks/base</b> (9 commits)</summary>
+
+- [0641b6bc](https://github.com/LineageOS/android_frameworks_base/commit/0641b6bc) UdfpsHelper: Avoid hardcoding 4095 for maximum panel brightness
+  
+  Author: pjgowtham  
+  Date: Sat Oct 4 09:06:42 2025 +0000
+
+- [785756c9](https://github.com/LineageOS/android_frameworks_base/commit/785756c9) UdfpsHelper: Exclude dim layer from screenshots
+  
+  Author: pjgowtham  
+  Date: Fri Oct 3 02:59:15 2025 +0000
 
 - [b3f41dee](https://github.com/LineageOS/android_frameworks_base/commit/b3f41dee) Revert &quot;Fix biometric prompt appearing above shade&quot;
   
@@ -172,17 +182,6 @@
   
   Author: programminghoch10  
   Date: Mon Sep 8 08:54:57 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/broadcom/libbt</b> (1 commits)</summary>
-
-- [39a0c50](https://github.com/LineageOS/android_hardware_broadcom_libbt/commit/39a0c50) libbt: Convert to Android.bp
-  
-  Author: Yumi Yukimura  
-  Date: Thu Sep 4 07:32:39 2025 +0000
 
 
 </details>
@@ -247,23 +246,23 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sdm845/audio</b> (1 commits)</summary>
-
-- [d5ad5c1](https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1) hal: audio_extn: Add argument to pthread routines
-  
-  Author: danielml  
-  Date: Sun Sep 7 15:27:16 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/msm8998/audio</b> (1 commits)</summary>
 
 - [717b078](https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078) hal: audio_extn: Add argument to pthread routines
   
   Author: danielml  
   Date: Sun Sep 7 15:27:04 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sdm845/audio</b> (1 commits)</summary>
+
+- [d5ad5c1](https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1) hal: audio_extn: Add argument to pthread routines
+  
+  Author: danielml  
+  Date: Sun Sep 7 15:27:16 2025 +0000
 
 
 </details>
@@ -462,7 +461,7 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b> (5 commits)</summary>
+<summary><b>packages/apps/Aperture</b> (4 commits)</summary>
 
 - [1b0c843](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843) Aperture: No more jail escape
   
@@ -483,11 +482,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
-
-- [163d4bb](https://github.com/LineageOS/android_packages_apps_Aperture/commit/163d4bb) Aperture: Fix zoom level bar alignment in QR mode
-  
-  Author: LuK1337  
-  Date: Thu Sep 4 17:45:03 2025 +0200
 
 
 </details>
@@ -733,17 +727,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
-
-- [1f9060b](https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:06 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Messaging</b> (1 commits)</summary>
 
 - [d65b136](https://github.com/LineageOS/android_packages_apps_Messaging/commit/d65b136) Automatic translation import
@@ -755,17 +738,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
 
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+- [1f9060b](https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:07 2025 +0000
+  Date: Mon Sep 15 16:55:06 2025 +0000
 
 
 </details>
@@ -915,6 +893,22 @@
   
   Author: Berkay Yıldırım  
   Date: Thu Sep 11 07:13:45 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:07 2025 +0000
 
 
 </details>
@@ -1080,62 +1074,6 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (10 commits)</summary>
-
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Sep 21 01:30:24 2025 +0200
-
-- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 15 00:01:19 2025 +0200
-
-- [8896d20](https://github.com/LineageOS/mirror/commit/8896d20) Updated lineage-minimal to 07-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 8 00:01:43 2025 +0200
-
-- [1d6eb2e](https://github.com/LineageOS/mirror/commit/1d6eb2e) Updated to 06-Sep-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 6 12:01:19 2025 +0200
-
-- [cf3a76c](https://github.com/LineageOS/mirror/commit/cf3a76c) Updated lineage-minimal to 05-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 6 00:01:56 2025 +0200
-
-- [109a48f](https://github.com/LineageOS/mirror/commit/109a48f) Updated aosp-minimal to 05-Sep-2025 10:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Fri Sep 5 12:02:01 2025 +0200
-
-- [165bd19](https://github.com/LineageOS/mirror/commit/165bd19) Updated to 04-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Fri Sep 5 00:01:35 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>lineage/hudson</b> (11 commits)</summary>
 
 - [8ba4739](https://github.com/LineageOS/hudson/commit/8ba4739) Regenerate device dependency mappings
@@ -1197,6 +1135,57 @@
 </details>
 
 <details>
+<summary><b>lineage/mirror</b> (9 commits)</summary>
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Sep 21 01:30:24 2025 +0200
+
+- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 15 00:01:19 2025 +0200
+
+- [8896d20](https://github.com/LineageOS/mirror/commit/8896d20) Updated lineage-minimal to 07-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 8 00:01:43 2025 +0200
+
+- [1d6eb2e](https://github.com/LineageOS/mirror/commit/1d6eb2e) Updated to 06-Sep-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 6 12:01:19 2025 +0200
+
+- [cf3a76c](https://github.com/LineageOS/mirror/commit/cf3a76c) Updated lineage-minimal to 05-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 6 00:01:56 2025 +0200
+
+- [109a48f](https://github.com/LineageOS/mirror/commit/109a48f) Updated aosp-minimal to 05-Sep-2025 10:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Fri Sep 5 12:02:01 2025 +0200
+
+
+</details>
+
+<details>
 <summary><b>lineage/scripts</b> (2 commits)</summary>
 
 - [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
@@ -1213,7 +1202,12 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (25 commits)</summary>
+<summary><b>lineage/wiki</b> (26 commits)</summary>
+
+- [f816a22](https://github.com/LineageOS/lineage_wiki/commit/f816a22) wiki: Fix missing space before command in `pages/libvirt-qemu.md`
+  
+  Author: Benjamin Loison  
+  Date: Sat Oct 4 21:55:02 2025 +0000
 
 - [ee4ffa2](https://github.com/LineageOS/lineage_wiki/commit/ee4ffa2) devices: salami: Add init_boot to flash partitions before recovery
   
