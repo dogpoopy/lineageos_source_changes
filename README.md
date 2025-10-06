@@ -81,6 +81,17 @@
 </details>
 
 <details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Sep 27 08:22:39 2025 -0600
+
+
+</details>
+
+<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
@@ -98,17 +109,6 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:45 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:39 2025 -0600
 
 
 </details>
@@ -268,17 +268,6 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8750/audio/primary-hal</b> (1 commits)</summary>
-
-- [c5ae69f](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/c5ae69f) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into HEAD
-  
-  Author: Bruno Martins  
-  Date: Sat Sep 20 15:32:36 2025 +0100
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom/bt</b> (4 commits)</summary>
 
 - [73ebd37](https://github.com/LineageOS/android_hardware_qcom_bt/commit/73ebd37) bt: Build with -Werror
@@ -300,6 +289,17 @@
   
   Author: Michael Bestas  
   Date: Sun Sep 14 19:22:44 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8750/audio/primary-hal</b> (1 commits)</summary>
+
+- [c5ae69f](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/c5ae69f) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into HEAD
+  
+  Author: Bruno Martins  
+  Date: Sat Sep 20 15:32:36 2025 +0100
 
 
 </details>
@@ -555,17 +555,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
-
-- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:03 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Etar</b> (1 commits)</summary>
 
 - [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
@@ -577,22 +566,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/FMRadio</b> (3 commits)</summary>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
-- [7e89b01](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01) FmService: Set RECEIVER_NOT_EXPORTED
-  
-  Author: Cyber Knight  
-  Date: Fri Sep 26 18:30:01 2025 +0000
-
-- [4372899](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899) FMRadio: Start ForegroundService with a type
-  
-  Author: Cyber Knight  
-  Date: Wed Sep 24 20:26:24 2025 +0000
-
-- [5160538](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538) Automatic translation import
+- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:04 2025 +0000
+  Date: Mon Sep 15 16:55:03 2025 +0000
 
 
 </details>
@@ -640,6 +619,27 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:05 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/FMRadio</b> (3 commits)</summary>
+
+- [7e89b01](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01) FmService: Set RECEIVER_NOT_EXPORTED
+  
+  Author: Cyber Knight  
+  Date: Fri Sep 26 18:30:01 2025 +0000
+
+- [4372899](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899) FMRadio: Start ForegroundService with a type
+  
+  Author: Cyber Knight  
+  Date: Wed Sep 24 20:26:24 2025 +0000
+
+- [5160538](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:04 2025 +0000
 
 
 </details>
@@ -877,6 +877,22 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:07 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/inputmethods/LatinIME</b> (3 commits)</summary>
 
 - [da5086c](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c) Update Turkish Keyboard Layout XML Files
@@ -893,22 +909,6 @@
   
   Author: Berkay Yıldırım  
   Date: Thu Sep 11 07:13:45 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:07 2025 +0000
 
 
 </details>
@@ -988,23 +988,23 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/sm8650/audio/pal</b> (1 commits)</summary>
-
-- [d19ff12](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d19ff12) Revert &quot;pal: fix redefinition of epoll_event&quot;
-  
-  Author: Arian  
-  Date: Thu Sep 18 14:11:25 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>hardware/qcom-caf/sm8750/audio/pal</b> (1 commits)</summary>
 
 - [6ead194](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6ead194) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into HEAD
   
   Author: Bruno Martins  
   Date: Sat Sep 20 15:31:29 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/sm8650/audio/pal</b> (1 commits)</summary>
+
+- [d19ff12](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d19ff12) Revert &quot;pal: fix redefinition of epoll_event&quot;
+  
+  Author: Arian  
+  Date: Thu Sep 18 14:11:25 2025 +0000
 
 
 </details>
@@ -1043,7 +1043,7 @@
 </details>
 
 <details>
-<summary><b>lineage/crowdin</b> (5 commits)</summary>
+<summary><b>lineage/crowdin</b> (4 commits)</summary>
 
 - [3fd82ce](https://github.com/LineageOS/cm_crowdin/commit/3fd82ce) config: lineage-23.0: Add Etar lineage strings
   
@@ -1065,16 +1065,11 @@
   Author: Michael Bestas  
   Date: Mon Sep 15 20:16:55 2025 +0000
 
-- [cf1accb](https://github.com/LineageOS/cm_crowdin/commit/cf1accb) config: Add hardware/oplus/Pen
-  
-  Author: LuK1337  
-  Date: Fri Sep 5 23:31:21 2025 +0200
-
 
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (11 commits)</summary>
+<summary><b>lineage/hudson</b> (10 commits)</summary>
 
 - [8ba4739](https://github.com/LineageOS/hudson/commit/8ba4739) Regenerate device dependency mappings
   
@@ -1126,16 +1121,11 @@
   Author: chandu078  
   Date: Sun Sep 7 14:41:44 2025 +0530
 
-- [efb5f20](https://github.com/LineageOS/hudson/commit/efb5f20) hudson: Add Xiaomi Mi Note 10 / Note 10 Pro / CC9 Pro (tucana)
-  
-  Author: Alexander Baransky  
-  Date: Fri Sep 5 09:37:43 2025 +0000
-
 
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (9 commits)</summary>
+<summary><b>lineage/mirror</b> (7 commits)</summary>
 
 - [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
   
@@ -1172,16 +1162,6 @@
   Author: Tim Schumacher  
   Date: Sat Sep 6 12:01:19 2025 +0200
 
-- [cf3a76c](https://github.com/LineageOS/mirror/commit/cf3a76c) Updated lineage-minimal to 05-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 6 00:01:56 2025 +0200
-
-- [109a48f](https://github.com/LineageOS/mirror/commit/109a48f) Updated aosp-minimal to 05-Sep-2025 10:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Fri Sep 5 12:02:01 2025 +0200
-
 
 </details>
 
@@ -1202,7 +1182,12 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (26 commits)</summary>
+<summary><b>lineage/wiki</b> (27 commits)</summary>
+
+- [49d55cb](https://github.com/LineageOS/lineage_wiki/commit/49d55cb) wiki: Add new martini maintainer
+  
+  Author: basamaryan  
+  Date: Sun Oct 5 15:19:07 2025 -0700
 
 - [f816a22](https://github.com/LineageOS/lineage_wiki/commit/f816a22) wiki: Fix missing space before command in `pages/libvirt-qemu.md`
   
