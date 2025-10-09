@@ -76,23 +76,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:55:19 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:39 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:55:19 2025 -0600
 
 
 </details>
@@ -109,17 +109,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
-
-- [c18e219](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219) Update Chromium Webview x86 to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:49 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
 
 - [856f1ce](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce) Update Chromium Webview x86_64 to 140.0.7339.207
@@ -131,7 +120,18 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (9 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
+
+- [c18e219](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219) Update Chromium Webview x86 to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Sep 27 08:22:49 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>frameworks/base</b> (8 commits)</summary>
 
 - [0641b6bc](https://github.com/LineageOS/android_frameworks_base/commit/0641b6bc) UdfpsHelper: Avoid hardcoding 4095 for maximum panel brightness
   
@@ -172,11 +172,6 @@
   
   Author: Raphael Kim  
   Date: Sun Sep 14 08:41:08 2025 +0000
-
-- [9fbbf5a1](https://github.com/LineageOS/android_frameworks_base/commit/9fbbf5a1) fixup! power: Explicitly check for silent ringtone
-  
-  Author: programminghoch10  
-  Date: Mon Sep 8 08:54:57 2025 +0300
 
 
 </details>
@@ -397,22 +392,6 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (2 commits)</summary>
-
-- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:42 2025 +0000
-
-- [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:01 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Aperture</b> (4 commits)</summary>
 
 - [1b0c843](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843) Aperture: No more jail escape
@@ -431,6 +410,22 @@
   Date: Tue Sep 16 10:01:45 2025 +0000
 
 - [b594427](https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:01 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage-sdk</b> (2 commits)</summary>
+
+- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:42 2025 +0000
+
+- [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
@@ -507,23 +502,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
-
-- [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:04 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
 - [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:03 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+
+- [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:04 2025 +0000
 
 
 </details>
@@ -909,7 +904,7 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (5 commits)</summary>
+<summary><b>vendor/lineage</b> (4 commits)</summary>
 
 - [d89d58b](https://github.com/LineageOS/android_vendor_lineage/commit/d89d58b) vars: Update sun tags
   
@@ -930,11 +925,6 @@
   
   Author: inferno0230  
   Date: Tue Sep 9 10:03:38 2025 +0200
-
-- [18c7a31](https://github.com/LineageOS/android_vendor_lineage/commit/18c7a31) apns: Add BICS
-  
-  Author: dianlujitao  
-  Date: Mon Sep 8 06:19:41 2025 +0000
 
 
 </details>
@@ -1072,7 +1062,7 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (24 commits)</summary>
+<summary><b>lineage/wiki</b> (20 commits)</summary>
 
 - [d02f323](https://github.com/LineageOS/lineage_wiki/commit/d02f323) devices: deadpool: Don&#x27;t rely on burn mode
   
@@ -1173,26 +1163,6 @@
   
   Author: Nolen Johnson  
   Date: Thu Sep 11 21:55:54 2025 -0400
-
-- [0aaa61c](https://github.com/LineageOS/lineage_wiki/commit/0aaa61c) wiki: Remove `recovery_boot` from salami
-  
-  Author: LuK1337  
-  Date: Mon Sep 8 12:38:41 2025 +0200
-
-- [0814752](https://github.com/LineageOS/lineage_wiki/commit/0814752) wiki: Hide `recovery_boot` instructions if empty
-  
-  Author: LuK1337  
-  Date: Mon Sep 8 12:00:34 2025 +0200
-
-- [ed7ad34](https://github.com/LineageOS/lineage_wiki/commit/ed7ad34) wiki: Add OnePlus 12
-  
-  Author: chandu078  
-  Date: Mon Sep 8 11:40:45 2025 +0200
-
-- [9fe2d1b](https://github.com/LineageOS/lineage_wiki/commit/9fe2d1b) wiki: Remove `recovery_boot` from OnePlus 7/8/9/11 series
-  
-  Author: LuK1337  
-  Date: Mon Sep 8 10:57:32 2025 +0200
 
 
 </details>
