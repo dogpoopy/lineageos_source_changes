@@ -1,7 +1,7 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>android</b> (3 commits)</summary>
+<summary><b>android</b> (2 commits)</summary>
 
 - [e3c809a](https://github.com/LineageOS/android/commit/e3c809a) manifest: Remove sdm845 HAL guards
   
@@ -12,11 +12,6 @@
   
   Author: Michael Bestas  
   Date: Wed Sep 10 18:17:14 2025 +0300
-
-- [60e32f9](https://github.com/LineageOS/android/commit/60e32f9) manifest: Remove sm7250 HAL guards
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 9 22:53:30 2025 +0300
 
 
 </details>
@@ -33,7 +28,12 @@
 </details>
 
 <details>
-<summary><b>build/release</b> (1 commits)</summary>
+<summary><b>build/release</b> (2 commits)</summary>
+
+- [5708b4c](https://github.com/LineageOS/android_build_release/commit/5708b4c) Bump Security String to 2025-10-01
+  
+  Author: Michael Bestas  
+  Date: Wed Oct 8 17:19:20 2025 +0300
 
 - [b4e8130](https://github.com/LineageOS/android_build_release/commit/b4e8130) Bump Security String to 2025-09-01
   
@@ -76,17 +76,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:39 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
@@ -109,12 +98,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
-- [856f1ce](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce) Update Chromium Webview x86_64 to 140.0.7339.207
+- [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
   
   Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:53 2025 -0600
+  Date: Sat Sep 27 08:22:39 2025 -0600
 
 
 </details>
@@ -126,6 +115,17 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:49 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
+
+- [856f1ce](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce) Update Chromium Webview x86_64 to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Sep 27 08:22:53 2025 -0600
 
 
 </details>
@@ -392,6 +392,22 @@
 </details>
 
 <details>
+<summary><b>lineage-sdk</b> (2 commits)</summary>
+
+- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:42 2025 +0000
+
+- [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:01 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Aperture</b> (4 commits)</summary>
 
 - [1b0c843](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843) Aperture: No more jail escape
@@ -410,22 +426,6 @@
   Date: Tue Sep 16 10:01:45 2025 +0000
 
 - [b594427](https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:01 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage-sdk</b> (2 commits)</summary>
-
-- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:42 2025 +0000
-
-- [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
@@ -502,23 +502,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
-
-- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:03 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Etar</b> (1 commits)</summary>
 
 - [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:04 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
+
+- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:03 2025 +0000
 
 
 </details>
@@ -696,22 +696,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:07 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
 
 - [3c1310f](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310f) Automatic translation import
@@ -840,6 +824,22 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:07 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/inputmethods/LatinIME</b> (3 commits)</summary>
 
 - [da5086c](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c) Update Turkish Keyboard Layout XML Files
@@ -904,7 +904,7 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (4 commits)</summary>
+<summary><b>vendor/lineage</b> (3 commits)</summary>
 
 - [d89d58b](https://github.com/LineageOS/android_vendor_lineage/commit/d89d58b) vars: Update sun tags
   
@@ -920,11 +920,6 @@
   
   Author: Michael Bestas  
   Date: Thu Sep 11 10:13:21 2025 +0000
-
-- [b23dc5b](https://github.com/LineageOS/android_vendor_lineage/commit/b23dc5b) merge_dtbs: Use DeviceTreeInfo&#x27;s hash in get_name()
-  
-  Author: inferno0230  
-  Date: Tue Sep 9 10:03:38 2025 +0200
 
 
 </details>
@@ -1062,6 +1057,53 @@
 </details>
 
 <details>
+<summary><b>lineage/mirror</b> (5 commits)</summary>
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Sep 21 01:30:24 2025 +0200
+
+- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 15 00:01:19 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
+  
+  Author: LuK1337  
+  Date: Sun Sep 28 21:29:32 2025 +0200
+
+- [5147852](https://github.com/LineageOS/scripts/commit/5147852) build-webview: Update default webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:50:33 2025 -0600
+
+
+</details>
+
+<details>
 <summary><b>lineage/wiki</b> (20 commits)</summary>
 
 - [d02f323](https://github.com/LineageOS/lineage_wiki/commit/d02f323) devices: deadpool: Don&#x27;t rely on burn mode
@@ -1163,53 +1205,6 @@
   
   Author: Nolen Johnson  
   Date: Thu Sep 11 21:55:54 2025 -0400
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b> (5 commits)</summary>
-
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Sep 21 01:30:24 2025 +0200
-
-- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 15 00:01:19 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
-  
-  Author: LuK1337  
-  Date: Sun Sep 28 21:29:32 2025 +0200
-
-- [5147852](https://github.com/LineageOS/scripts/commit/5147852) build-webview: Update default webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:50:33 2025 -0600
 
 
 </details>
