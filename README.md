@@ -1,17 +1,12 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>android</b> (2 commits)</summary>
+<summary><b>android</b> (1 commits)</summary>
 
 - [e3c809a](https://github.com/LineageOS/android/commit/e3c809a) manifest: Remove sdm845 HAL guards
   
   Author: Michael Bestas  
   Date: Sun Sep 14 11:34:50 2025 +0300
-
-- [88f4b20](https://github.com/LineageOS/android/commit/88f4b20) manifest: Remove sm8150 HAL guards
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 10 18:17:14 2025 +0300
 
 
 </details>
@@ -87,23 +82,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
-
-- [6760647](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647) Update Chromium Webview arm64 to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:45 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:39 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+
+- [6760647](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647) Update Chromium Webview arm64 to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Sep 27 08:22:45 2025 -0600
 
 
 </details>
@@ -131,7 +126,12 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (8 commits)</summary>
+<summary><b>frameworks/base</b> (9 commits)</summary>
+
+- [e4fe97ca](https://github.com/LineageOS/android_frameworks_base/commit/e4fe97ca) services: core: wfd: extend check for qualcomm wfd jar
+  
+  Author: Alexander Martinz  
+  Date: Fri Oct 10 18:04:34 2025 +0000
 
 - [0641b6bc](https://github.com/LineageOS/android_frameworks_base/commit/0641b6bc) UdfpsHelper: Avoid hardcoding 4095 for maximum panel brightness
   
@@ -335,63 +335,6 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom/sm8150/display</b> (8 commits)</summary>
-
-- [c13de98](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/c13de98) Convert remaining Android.mk to blueprint
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 10 19:31:29 2025 +0300
-
-- [ad7078c](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/ad7078c) sdm: Convert hwcomposer.qcom to soong
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 10 18:15:28 2025 +0300
-
-- [2a9e0e9](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/2a9e0e9) Revert &quot;sdm/hwc: add display indices property for client id init&quot;
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 10 18:15:28 2025 +0300
-
-- [49c36ba](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/49c36ba) sdm: Remove use_hwc2 conditional
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 10 18:15:28 2025 +0300
-
-- [99e4d3f](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/99e4d3f) Convert libhistogram/libsdmcore to blueprint
-  
-  Author: LuK1337  
-  Date: Wed Sep 10 18:15:28 2025 +0300
-
-- [0278765](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/0278765) display: Squashed revert of hypervisor changes
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 10 18:15:28 2025 +0300
-
-- [cd069e1](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cd069e1) Convert gpu_tonemapper to blueprint
-  
-  Author: EndCredits  
-  Date: Wed Sep 10 18:15:28 2025 +0300
-
-- [cf6f59d](https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cf6f59d) Remove unused libcopybit sources
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 10 17:10:59 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom/sm8150/gps</b> (1 commits)</summary>
-
-- [c102eca](https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca) Remove obsolete os_pickup.{bp,mk}
-  
-  Author: Michael Bestas  
-  Date: Wed Sep 10 16:23:52 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>lineage-sdk</b> (2 commits)</summary>
 
 - [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
@@ -502,23 +445,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
-
-- [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:04 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
 - [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:03 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+
+- [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:04 2025 +0000
 
 
 </details>
@@ -904,7 +847,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (3 commits)</summary>
+<summary><b>vendor/lineage</b> (4 commits)</summary>
+
+- [ea91f9d](https://github.com/LineageOS/android_vendor_lineage/commit/ea91f9d) apns: Update for CTM(Macau)
+  
+  Author: Flicker372  
+  Date: Wed Oct 8 18:10:29 2025 +0800
 
 - [d89d58b](https://github.com/LineageOS/android_vendor_lineage/commit/d89d58b) vars: Update sun tags
   
@@ -1057,54 +1005,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (5 commits)</summary>
+<summary><b>lineage/wiki</b> (21 commits)</summary>
 
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+- [cef5f92](https://github.com/LineageOS/lineage_wiki/commit/cef5f92) wiki: borneo: Update maintainers
   
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Sep 21 01:30:24 2025 +0200
-
-- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 15 00:01:19 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
-  
-  Author: LuK1337  
-  Date: Sun Sep 28 21:29:32 2025 +0200
-
-- [5147852](https://github.com/LineageOS/scripts/commit/5147852) build-webview: Update default webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:50:33 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (20 commits)</summary>
+  Author: Deivid21  
+  Date: Fri Oct 10 17:41:00 2025 +0000
 
 - [d02f323](https://github.com/LineageOS/lineage_wiki/commit/d02f323) devices: deadpool: Don&#x27;t rely on burn mode
   
@@ -1205,6 +1111,53 @@
   
   Author: Nolen Johnson  
   Date: Thu Sep 11 21:55:54 2025 -0400
+
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (5 commits)</summary>
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Sep 21 01:30:24 2025 +0200
+
+- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 15 00:01:19 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
+  
+  Author: LuK1337  
+  Date: Sun Sep 28 21:29:32 2025 +0200
+
+- [5147852](https://github.com/LineageOS/scripts/commit/5147852) build-webview: Update default webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:50:33 2025 -0600
 
 
 </details>
