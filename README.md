@@ -71,17 +71,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:55:19 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
@@ -99,6 +88,17 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:45 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:55:19 2025 -0600
 
 
 </details>
@@ -335,22 +335,6 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (2 commits)</summary>
-
-- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:42 2025 +0000
-
-- [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:01 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Aperture</b> (4 commits)</summary>
 
 - [1b0c843](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843) Aperture: No more jail escape
@@ -369,6 +353,22 @@
   Date: Tue Sep 16 10:01:45 2025 +0000
 
 - [b594427](https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:01 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage-sdk</b> (2 commits)</summary>
+
+- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:42 2025 +0000
+
+- [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
@@ -751,22 +751,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Updater</b> (2 commits)</summary>
-
-- [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:47 2025 +0000
-
-- [be62451](https://github.com/LineageOS/android_packages_apps_Updater/commit/be62451) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:09 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Settings</b> (2 commits)</summary>
 
 - [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
@@ -783,7 +767,23 @@
 </details>
 
 <details>
-<summary><b>packages/inputmethods/LatinIME</b> (3 commits)</summary>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+
+- [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:47 2025 +0000
+
+- [be62451](https://github.com/LineageOS/android_packages_apps_Updater/commit/be62451) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:09 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/inputmethods/LatinIME</b> (2 commits)</summary>
 
 - [da5086c](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c) Update Turkish Keyboard Layout XML Files
   
@@ -794,11 +794,6 @@
   
   Author: Berkay Yıldırım  
   Date: Fri Sep 12 13:53:48 2025 +0300
-
-- [d565b60](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/d565b60) Add Turkish specific layout set
-  
-  Author: Berkay Yıldırım  
-  Date: Thu Sep 11 07:13:45 2025 +0000
 
 
 </details>
@@ -847,7 +842,7 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (4 commits)</summary>
+<summary><b>vendor/lineage</b> (2 commits)</summary>
 
 - [ea91f9d](https://github.com/LineageOS/android_vendor_lineage/commit/ea91f9d) apns: Update for CTM(Macau)
   
@@ -858,16 +853,6 @@
   
   Author: Bruno Martins  
   Date: Sat Sep 20 15:26:27 2025 +0100
-
-- [a5111a0](https://github.com/LineageOS/android_vendor_lineage/commit/a5111a0) vars: Point bluejay to archive.org
-  
-  Author: Michael Bestas  
-  Date: Thu Sep 11 13:23:28 2025 +0300
-
-- [d5fdacb](https://github.com/LineageOS/android_vendor_lineage/commit/d5fdacb) vars: Point sunfish to archive.org
-  
-  Author: Michael Bestas  
-  Date: Thu Sep 11 10:13:21 2025 +0000
 
 
 </details>
@@ -954,7 +939,17 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (9 commits)</summary>
+<summary><b>lineage/hudson</b> (11 commits)</summary>
+
+- [77a4942](https://github.com/LineageOS/hudson/commit/77a4942) despite Google&#x27;s best efforts
+  
+  Author: Nolen Johnson  
+  Date: Sat Oct 11 09:44:23 2025 -0600
+
+- [c0e674a](https://github.com/LineageOS/hudson/commit/c0e674a) 21 was fun but now it&#x27;s done
+  
+  Author: Nolen Johnson  
+  Date: Sat Oct 4 18:15:11 2025 +0200
 
 - [8ba4739](https://github.com/LineageOS/hudson/commit/8ba4739) Regenerate device dependency mappings
   
@@ -1005,7 +1000,58 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (21 commits)</summary>
+<summary><b>lineage/mirror</b> (5 commits)</summary>
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Sep 21 01:30:24 2025 +0200
+
+- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 15 00:01:19 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/wiki</b> (25 commits)</summary>
+
+- [20218ff](https://github.com/LineageOS/lineage_wiki/commit/20218ff) wiki: Initial promotions to 23.0
+  
+  Author: LuK1337  
+  Date: Sat Oct 11 18:13:36 2025 +0200
+
+- [cd45b0f](https://github.com/LineageOS/lineage_wiki/commit/cd45b0f) LineageOS 23.0
+  
+  Author: Nolen Johnson  
+  Date: Sat Oct 11 18:13:36 2025 +0200
+
+- [e7f718e](https://github.com/LineageOS/lineage_wiki/commit/e7f718e) wiki: Drop LineageOS 21.0
+  
+  Author: LuK1337  
+  Date: Sat Oct 11 18:13:36 2025 +0200
+
+- [cb4b17e](https://github.com/LineageOS/lineage_wiki/commit/cb4b17e) wiki: Use `ab_copy_partitions` for aston
+  
+  Author: LuK1337  
+  Date: Sat Oct 11 16:21:54 2025 +0200
 
 - [cef5f92](https://github.com/LineageOS/lineage_wiki/commit/cef5f92) wiki: borneo: Update maintainers
   
@@ -1116,38 +1162,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (5 commits)</summary>
+<summary><b>lineage/scripts</b> (3 commits)</summary>
 
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
   
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Sep 21 01:30:24 2025 +0200
-
-- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 15 00:01:19 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
+  Author: LuK1337  
+  Date: Sat Oct 11 23:45:28 2025 +0000
 
 - [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
   
@@ -1163,7 +1183,12 @@
 </details>
 
 <details>
-<summary><b>lineage/website</b> (1 commits)</summary>
+<summary><b>lineage/website</b> (2 commits)</summary>
+
+- [03fba08](https://github.com/LineageOS/www/commit/03fba08) LineageOS 23.0
+  
+  Author: Nolen Johnson  
+  Date: Sat Oct 11 18:14:07 2025 +0200
 
 - [24be82e](https://github.com/LineageOS/www/commit/24be82e) www: Add discord logo to footer
   
