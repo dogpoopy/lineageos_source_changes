@@ -71,6 +71,17 @@
 </details>
 
 <details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:55:19 2025 -0600
+
+
+</details>
+
+<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
@@ -88,17 +99,6 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:45 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:55:19 2025 -0600
 
 
 </details>
@@ -172,17 +172,6 @@
   
   Author: Raphael Kim  
   Date: Sun Sep 14 08:41:08 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/libhardware</b> (1 commits)</summary>
-
-- [dacf02a](https://github.com/LineageOS/android_hardware_libhardware/commit/dacf02a) Avoid log fatal when converting between pcm_format and audio_format_t.
-  
-  Author: jiabin  
-  Date: Fri Sep 12 11:49:56 2025 +0530
 
 
 </details>
@@ -268,7 +257,7 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom/sdm845/display</b> (9 commits)</summary>
+<summary><b>hardware/qcom/sdm845/display</b> (2 commits)</summary>
 
 - [0d74c81](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/0d74c81) display: histogram: Add missing epoll_event.h include
   
@@ -280,56 +269,21 @@
   Author: Michael Bestas  
   Date: Sun Sep 14 12:52:03 2025 +0300
 
-- [8e56e0e](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/8e56e0e) sdm: Convert hwcomposer.qcom to soong
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 12 11:20:07 2025 +0300
-
-- [fc078b2](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/fc078b2) sdm: Remove display_config_version conditionals
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 12 11:15:49 2025 +0300
-
-- [ede92e3](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/ede92e3) sdm: Remove use_hwc2 conditional
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 12 11:06:16 2025 +0300
-
-- [a04d353](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/a04d353) Convert libhistogram/libsdmcore to blueprint
-  
-  Author: LuK1337  
-  Date: Fri Sep 12 11:06:01 2025 +0300
-
-- [ce359a6](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/ce359a6) Convert gpu_tonemapper to blueprint
-  
-  Author: EndCredits  
-  Date: Fri Sep 12 11:06:01 2025 +0300
-
-- [9f8daaf](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/9f8daaf) gralloc: Make MASTER_SIDE_CP as default Making MASTER_SIDE_CP as default
-  
-  Author: Prabhakar Reddy Krishnappa  
-  Date: Fri Sep 12 11:06:01 2025 +0300
-
-- [fcef4ae](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/fcef4ae) Remove unused libcopybit sources
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 12 10:57:31 2025 +0300
-
 
 </details>
 
 <details>
-<summary><b>hardware/qcom/sdm845/gps</b> (2 commits)</summary>
+<summary><b>lineage-sdk</b> (2 commits)</summary>
 
-- [71438e3](https://github.com/LineageOS/android_hardware_qcom_sdm845_gps/commit/71438e3) Add hardware/qcom/sdm845/gps soong namespace
+- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
   
-  Author: ChengYou Ho  
-  Date: Fri Sep 12 12:40:57 2025 +0300
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:42 2025 +0000
 
-- [33255a1](https://github.com/LineageOS/android_hardware_qcom_sdm845_gps/commit/33255a1) Remove obsolete os_pickup.{bp,mk}
+- [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
   
-  Author: Michael Bestas  
-  Date: Fri Sep 12 10:55:57 2025 +0300
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:01 2025 +0000
 
 
 </details>
@@ -353,22 +307,6 @@
   Date: Tue Sep 16 10:01:45 2025 +0000
 
 - [b594427](https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:01 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage-sdk</b> (2 commits)</summary>
-
-- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:42 2025 +0000
-
-- [e622339](https://github.com/LineageOS/android_lineage-sdk/commit/e622339) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
@@ -445,23 +383,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
-
-- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:03 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Etar</b> (1 commits)</summary>
 
 - [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:04 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Dialer</b> (1 commits)</summary>
+
+- [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:03 2025 +0000
 
 
 </details>
@@ -617,9 +555,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
+<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
 
-- [d65b136](https://github.com/LineageOS/android_packages_apps_Messaging/commit/d65b136) Automatic translation import
+- [1f9060b](https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:06 2025 +0000
@@ -628,9 +566,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
+<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
 
-- [1f9060b](https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b) Automatic translation import
+- [d65b136](https://github.com/LineageOS/android_packages_apps_Messaging/commit/d65b136) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:06 2025 +0000
@@ -751,22 +689,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:07 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Updater</b> (2 commits)</summary>
 
 - [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
@@ -783,17 +705,28 @@
 </details>
 
 <details>
-<summary><b>packages/inputmethods/LatinIME</b> (2 commits)</summary>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:07 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/inputmethods/LatinIME</b> (1 commits)</summary>
 
 - [da5086c](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c) Update Turkish Keyboard Layout XML Files
   
   Author: sulincix  
   Date: Sat Sep 27 19:56:11 2025 +0000
-
-- [b1b807e](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/b1b807e) Add Turkish F layout
-  
-  Author: Berkay Yıldırım  
-  Date: Fri Sep 12 13:53:48 2025 +0300
 
 
 </details>
@@ -1031,7 +964,7 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (25 commits)</summary>
+<summary><b>lineage/wiki</b> (24 commits)</summary>
 
 - [20218ff](https://github.com/LineageOS/lineage_wiki/commit/20218ff) wiki: Initial promotions to 23.0
   
@@ -1152,11 +1085,6 @@
   
   Author: LuK1337  
   Date: Sat Sep 13 22:17:19 2025 +0200
-
-- [ea3a2cb](https://github.com/LineageOS/lineage_wiki/commit/ea3a2cb) devices: nx: Update fric&#x27;s name
-  
-  Author: Nolen Johnson  
-  Date: Thu Sep 11 21:55:54 2025 -0400
 
 
 </details>
