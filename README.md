@@ -289,6 +289,27 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Camelot</b> (3 commits)</summary>
+
+- [b6cff9a](https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a) Camelot: Update generatebp to v1.28
+  
+  Author: Sebastiano Barezzi  
+  Date: Wed Sep 24 19:36:25 2025 +0200
+
+- [bcfa1a7](https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7) Camelot: Update Gradle wrapper and AGP
+  
+  Author: Sebastiano Barezzi  
+  Date: Wed Sep 24 19:33:55 2025 +0200
+
+- [34fd95b](https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:02 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Aperture</b> (4 commits)</summary>
 
 - [1b0c843](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843) Aperture: No more jail escape
@@ -310,27 +331,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Camelot</b> (3 commits)</summary>
-
-- [b6cff9a](https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a) Camelot: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:36:25 2025 +0200
-
-- [bcfa1a7](https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7) Camelot: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:33:55 2025 +0200
-
-- [34fd95b](https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:02 2025 +0000
 
 
 </details>
@@ -383,23 +383,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
-
-- [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:04 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Dialer</b> (1 commits)</summary>
 
 - [0f46e4b](https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:03 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+
+- [26ac561](https://github.com/LineageOS/android_packages_apps_Etar/commit/26ac561) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:04 2025 +0000
 
 
 </details>
@@ -555,9 +555,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
+<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
 
-- [1f9060b](https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b) Automatic translation import
+- [d65b136](https://github.com/LineageOS/android_packages_apps_Messaging/commit/d65b136) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:06 2025 +0000
@@ -566,9 +566,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Messaging</b> (1 commits)</summary>
+<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
 
-- [d65b136](https://github.com/LineageOS/android_packages_apps_Messaging/commit/d65b136) Automatic translation import
+- [1f9060b](https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:06 2025 +0000
@@ -588,6 +588,22 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:08 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (2 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:07 2025 +0000
 
 
 </details>
@@ -705,22 +721,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (2 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-- [e54e5070](https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:07 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/inputmethods/LatinIME</b> (1 commits)</summary>
 
 - [da5086c](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c) Update Turkish Keyboard Layout XML Files
@@ -743,7 +743,7 @@
 </details>
 
 <details>
-<summary><b>packages/resources/devicesettings</b> (3 commits)</summary>
+<summary><b>packages/resources/devicesettings</b> (2 commits)</summary>
 
 - [885204a](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/885204a) Automatic translation import
   
@@ -754,11 +754,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:09 2025 +0000
-
-- [cd8846d](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/cd8846d) devicesettings: Add strings for StylusKeyHandler
-  
-  Author: AnierinB  
-  Date: Sat Sep 13 06:08:50 2025 +0000
 
 
 </details>
@@ -872,7 +867,43 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (11 commits)</summary>
+<summary><b>lineage/mirror</b> (5 commits)</summary>
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Sep 21 01:30:24 2025 +0200
+
+- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 15 00:01:19 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/hudson</b> (12 commits)</summary>
+
+- [1fb3447](https://github.com/LineageOS/hudson/commit/1fb3447) tucana: Promote to 23.0
+  
+  Author: Alexander Baransky  
+  Date: Mon Oct 13 19:22:19 2025 +0000
 
 - [77a4942](https://github.com/LineageOS/hudson/commit/77a4942) despite Google&#x27;s best efforts
   
@@ -933,38 +964,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (5 commits)</summary>
-
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Sep 21 01:30:24 2025 +0200
-
-- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 15 00:01:19 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>lineage/wiki</b> (24 commits)</summary>
+
+- [b22a204](https://github.com/LineageOS/lineage_wiki/commit/b22a204) devices: tucana: Promote to 23.0
+  
+  Author: Alexander Baransky  
+  Date: Mon Oct 13 22:22:43 2025 +0300
 
 - [20218ff](https://github.com/LineageOS/lineage_wiki/commit/20218ff) wiki: Initial promotions to 23.0
   
@@ -1080,11 +1085,6 @@
   
   Author: LuK1337  
   Date: Sun Sep 14 09:43:08 2025 +0200
-
-- [ca24d88](https://github.com/LineageOS/lineage_wiki/commit/ca24d88) wiki: Update pioneer maintainers
-  
-  Author: LuK1337  
-  Date: Sat Sep 13 22:17:19 2025 +0200
 
 
 </details>
