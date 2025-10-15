@@ -1,17 +1,6 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>android</b> (1 commits)</summary>
-
-- [e3c809a](https://github.com/LineageOS/android/commit/e3c809a) manifest: Remove sdm845 HAL guards
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 11:34:50 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>bootable/recovery</b> (1 commits)</summary>
 
 - [16fcc1f](https://github.com/LineageOS/android_bootable_recovery/commit/16fcc1f) recovery: Extend A/B downgrades for older SPL
@@ -126,7 +115,7 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (9 commits)</summary>
+<summary><b>frameworks/base</b> (5 commits)</summary>
 
 - [e4fe97ca](https://github.com/LineageOS/android_frameworks_base/commit/e4fe97ca) services: core: wfd: extend check for qualcomm wfd jar
   
@@ -153,26 +142,6 @@
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:54:57 2025 +0000
 
-- [353d8071](https://github.com/LineageOS/android_frameworks_base/commit/353d8071) SystemUI: Hide HEVC screen recording when no HW codec is available
-  
-  Author: Ido Ben-Hur  
-  Date: Sun Sep 14 19:37:06 2025 +0000
-
-- [373d214c](https://github.com/LineageOS/android_frameworks_base/commit/373d214c) Remove CompanionServicesRegister
-  
-  Author: Evan Chen  
-  Date: Sun Sep 14 08:41:08 2025 +0000
-
-- [8dbe445a](https://github.com/LineageOS/android_frameworks_base/commit/8dbe445a) Fix association XML parsing issues
-  
-  Author: Guojing Yuan  
-  Date: Sun Sep 14 08:41:08 2025 +0000
-
-- [da3bdd99](https://github.com/LineageOS/android_frameworks_base/commit/da3bdd99) Fix a bug where turning off Bluetooth before CDM BLE device discovery timeout results in a crash.
-  
-  Author: Raphael Kim  
-  Date: Sun Sep 14 08:41:08 2025 +0000
-
 
 </details>
 
@@ -183,22 +152,6 @@
   
   Author: bengris32  
   Date: Sat Sep 27 13:25:38 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom/audio</b> (2 commits)</summary>
-
-- [1b40af4](https://github.com/LineageOS/android_hardware_qcom_audio/commit/1b40af4) hal: Convert primary HAL to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 18:16:52 2025 +0300
-
-- [c895c94](https://github.com/LineageOS/android_hardware_qcom_audio/commit/c895c94) soundfx: Convert to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 15:31:32 2025 +0300
 
 
 </details>
@@ -215,64 +168,6 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom/bt</b> (4 commits)</summary>
-
-- [73ebd37](https://github.com/LineageOS/android_hardware_qcom_bt/commit/73ebd37) bt: Build with -Werror
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 20:04:52 2025 +0300
-
-- [4663baf](https://github.com/LineageOS/android_hardware_qcom_bt/commit/4663baf) bt: Remove SSR support
-  
-  Author: Gabriele M  
-  Date: Sun Sep 14 20:04:52 2025 +0300
-
-- [d0dfd8a](https://github.com/LineageOS/android_hardware_qcom_bt/commit/d0dfd8a) bt: Remove unused headers
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 19:41:09 2025 +0300
-
-- [3668362](https://github.com/LineageOS/android_hardware_qcom_bt/commit/3668362) bt: Convert libbt-vendor to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 19:22:44 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom/camera</b> (2 commits)</summary>
-
-- [bdff615](https://github.com/LineageOS/android_hardware_qcom_camera/commit/bdff615) camera: Remove unused libmmlib2d_interface
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 20:49:12 2025 +0300
-
-- [a7ae4d9](https://github.com/LineageOS/android_hardware_qcom_camera/commit/a7ae4d9) camera: Remove unused files
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 20:39:25 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom/sdm845/display</b> (2 commits)</summary>
-
-- [0d74c81](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/0d74c81) display: histogram: Add missing epoll_event.h include
-  
-  Author: razorloves  
-  Date: Sun Sep 14 12:52:03 2025 +0300
-
-- [a1cb4c2](https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/a1cb4c2) Convert remaining Android.mk to blueprint
-  
-  Author: Michael Bestas  
-  Date: Sun Sep 14 12:52:03 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>lineage-sdk</b> (2 commits)</summary>
 
 - [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
@@ -284,27 +179,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Camelot</b> (3 commits)</summary>
-
-- [b6cff9a](https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a) Camelot: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:36:25 2025 +0200
-
-- [bcfa1a7](https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7) Camelot: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:33:55 2025 +0200
-
-- [34fd95b](https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:02 2025 +0000
 
 
 </details>
@@ -331,6 +205,27 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:01 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Camelot</b> (3 commits)</summary>
+
+- [b6cff9a](https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a) Camelot: Update generatebp to v1.28
+  
+  Author: Sebastiano Barezzi  
+  Date: Wed Sep 24 19:36:25 2025 +0200
+
+- [bcfa1a7](https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7) Camelot: Update Gradle wrapper and AGP
+  
+  Author: Sebastiano Barezzi  
+  Date: Wed Sep 24 19:33:55 2025 +0200
+
+- [34fd95b](https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:02 2025 +0000
 
 
 </details>
@@ -577,22 +472,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
-
-- [3c1310f](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310f) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:46 2025 +0000
-
-- [7220bfa](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7220bfa) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Mon Sep 15 16:55:08 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Settings</b> (2 commits)</summary>
 
 - [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
@@ -604,6 +483,22 @@
   
   Author: LineageOS Infra  
   Date: Mon Sep 15 16:55:07 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Trebuchet</b> (2 commits)</summary>
+
+- [3c1310f](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310f) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:46 2025 +0000
+
+- [7220bfa](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7220bfa) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Mon Sep 15 16:55:08 2025 +0000
 
 
 </details>
@@ -867,38 +762,17 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (5 commits)</summary>
+<summary><b>lineage/hudson</b> (14 commits)</summary>
 
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+- [8f71c76](https://github.com/LineageOS/hudson/commit/8f71c76) Spacewar: Promote to 23.0
   
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
+  Author: BrainKub  
+  Date: Tue Oct 14 17:04:17 2025 +0300
 
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+- [a91a243](https://github.com/LineageOS/hudson/commit/a91a243) Regenerate device dependency mappings
   
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Sep 21 01:30:24 2025 +0200
-
-- [c18e2f2](https://github.com/LineageOS/mirror/commit/c18e2f2) Updated to 14-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 15 00:01:19 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (12 commits)</summary>
+  Author: LineageOS Infra  
+  Date: Tue Oct 14 06:55:48 2025 +0000
 
 - [1fb3447](https://github.com/LineageOS/hudson/commit/1fb3447) tucana: Promote to 23.0
   
@@ -964,7 +838,12 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (24 commits)</summary>
+<summary><b>lineage/wiki</b> (23 commits)</summary>
+
+- [ec0106c](https://github.com/LineageOS/lineage_wiki/commit/ec0106c) devices: Spacewar: Promote to 23.0
+  
+  Author: BrainKub  
+  Date: Tue Oct 14 14:08:03 2025 +0000
 
 - [b22a204](https://github.com/LineageOS/lineage_wiki/commit/b22a204) devices: tucana: Promote to 23.0
   
@@ -1076,15 +955,31 @@
   Author: LuK1337  
   Date: Mon Sep 15 19:47:25 2025 +0200
 
-- [97e9a68](https://github.com/LineageOS/lineage_wiki/commit/97e9a68) wiki: Add schema validation for `recovery_reboot`
-  
-  Author: LuK1337  
-  Date: Sun Sep 14 09:44:48 2025 +0200
 
-- [2744973](https://github.com/LineageOS/lineage_wiki/commit/2744973) wiki: Unset `recovery_reboot` for m5/odroidc4/radxa0/radxa02
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (4 commits)</summary>
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
   
-  Author: LuK1337  
-  Date: Sun Sep 14 09:43:08 2025 +0200
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Sep 21 01:30:24 2025 +0200
 
 
 </details>
