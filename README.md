@@ -12,17 +12,12 @@
 </details>
 
 <details>
-<summary><b>build/release</b> (2 commits)</summary>
+<summary><b>build/release</b> (1 commits)</summary>
 
 - [5708b4c](https://github.com/LineageOS/android_build_release/commit/5708b4c) Bump Security String to 2025-10-01
   
   Author: Michael Bestas  
   Date: Wed Oct 8 17:19:20 2025 +0300
-
-- [b4e8130](https://github.com/LineageOS/android_build_release/commit/b4e8130) Bump Security String to 2025-09-01
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 16 12:37:50 2025 +0000
 
 
 </details>
@@ -60,17 +55,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:55:19 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
@@ -88,6 +72,17 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:45 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:55:19 2025 -0600
 
 
 </details>
@@ -115,7 +110,12 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (4 commits)</summary>
+<summary><b>frameworks/base</b> (5 commits)</summary>
+
+- [ce12674e](https://github.com/LineageOS/android_frameworks_base/commit/ce12674e) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:34 2025 +0000
 
 - [e4fe97ca](https://github.com/LineageOS/android_frameworks_base/commit/e4fe97ca) services: core: wfd: extend check for qualcomm wfd jar
   
@@ -163,39 +163,12 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (1 commits)</summary>
+<summary><b>packages/apps/Camelot</b> (3 commits)</summary>
 
-- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
+- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:42 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Aperture</b> (3 commits)</summary>
-
-- [1b0c843](https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843) Aperture: No more jail escape
-  
-  Author: Luca Stefani  
-  Date: Tue Sep 16 10:01:45 2025 +0000
-
-- [340b187](https://github.com/LineageOS/android_packages_apps_Aperture/commit/340b187) Aperture: Update CameraX
-  
-  Author: Sebastiano Barezzi  
-  Date: Tue Sep 16 10:01:45 2025 +0000
-
-- [503b71d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/503b71d) Aperture: Update CameraX to 1.5.0
-  
-  Author: Luca Stefani  
-  Date: Tue Sep 16 10:01:45 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Camelot</b> (2 commits)</summary>
+  Date: Thu Oct 16 04:15:38 2025 +0000
 
 - [b6cff9a](https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a) Camelot: Update generatebp to v1.28
   
@@ -206,6 +179,28 @@
   
   Author: Sebastiano Barezzi  
   Date: Wed Sep 24 19:33:55 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
+
+- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:38 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage-sdk</b> (1 commits)</summary>
+
+- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:42 2025 +0000
 
 
 </details>
@@ -242,6 +237,17 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Etar</b> (1 commits)</summary>
+
+- [d7da2d8](https://github.com/LineageOS/android_packages_apps_Etar/commit/d7da2d8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:39 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/FMRadio</b> (2 commits)</summary>
 
 - [7e89b01](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01) FmService: Set RECEIVER_NOT_EXPORTED
@@ -258,7 +264,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (5 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (6 commits)</summary>
+
+- [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:40 2025 +0000
 
 - [bf55f6a](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a) Automatic translation import
   
@@ -350,12 +361,28 @@
 </details>
 
 <details>
-<summary><b>packages/apps/LineageParts</b> (1 commits)</summary>
+<summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
+
+- [56497d9](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/56497d9) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:40 2025 +0000
 
 - [3621247](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3621247) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Wed Oct 1 23:32:44 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
+
+- [35cf18a](https://github.com/LineageOS/android_packages_apps_Recorder/commit/35cf18a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:41 2025 +0000
 
 
 </details>
@@ -372,7 +399,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Twelve</b> (17 commits)</summary>
+<summary><b>packages/apps/Settings</b> (1 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Twelve</b> (18 commits)</summary>
+
+- [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:41 2025 +0000
 
 - [5463caa](https://github.com/LineageOS/android_packages_apps_Twelve/commit/5463caa) Automatic translation import
   
@@ -463,18 +506,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (1 commits)</summary>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
 
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+- [2b23036](https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Updater</b> (1 commits)</summary>
+  Date: Thu Oct 16 04:15:42 2025 +0000
 
 - [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
   
@@ -604,7 +641,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (5 commits)</summary>
+<summary><b>lineage/mirror</b> (6 commits)</summary>
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
 
 - [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
   
@@ -635,7 +677,17 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (15 commits)</summary>
+<summary><b>lineage/hudson</b> (16 commits)</summary>
+
+- [c30d8b9](https://github.com/LineageOS/hudson/commit/c30d8b9) Regenerate device dependency mappings
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 23:30:39 2025 +0000
+
+- [d125237](https://github.com/LineageOS/hudson/commit/d125237) hudson: Split aston models
+  
+  Author: inferno0230  
+  Date: Thu Oct 16 21:35:06 2025 +0530
 
 - [8c53562](https://github.com/LineageOS/hudson/commit/8c53562) Regenerate device dependency mappings
   
@@ -707,11 +759,6 @@
   Author: LineageOS Infra  
   Date: Sun Sep 21 23:31:02 2025 +0000
 
-- [6215c27](https://github.com/LineageOS/hudson/commit/6215c27) Regenerate device dependency mappings
-  
-  Author: LineageOS Infra  
-  Date: Tue Sep 16 17:00:41 2025 +0000
-
 
 </details>
 
@@ -737,7 +784,12 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (22 commits)</summary>
+<summary><b>lineage/wiki</b> (23 commits)</summary>
+
+- [925c95c](https://github.com/LineageOS/lineage_wiki/commit/925c95c) wiki: Split aston into variants
+  
+  Author: inferno0230  
+  Date: Thu Oct 16 17:50:23 2025 +0000
 
 - [ec0106c](https://github.com/LineageOS/lineage_wiki/commit/ec0106c) devices: Spacewar: Promote to 23.0
   
