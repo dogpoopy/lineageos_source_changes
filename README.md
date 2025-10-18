@@ -55,6 +55,17 @@
 </details>
 
 <details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:55:19 2025 -0600
+
+
+</details>
+
+<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
@@ -72,17 +83,6 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:45 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:55:19 2025 -0600
 
 
 </details>
@@ -110,7 +110,7 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (5 commits)</summary>
+<summary><b>frameworks/base</b> (4 commits)</summary>
 
 - [ce12674e](https://github.com/LineageOS/android_frameworks_base/commit/ce12674e) Automatic translation import
   
@@ -131,11 +131,6 @@
   
   Author: pjgowtham  
   Date: Fri Oct 3 02:59:15 2025 +0000
-
-- [b3f41dee](https://github.com/LineageOS/android_frameworks_base/commit/b3f41dee) Revert &quot;Fix biometric prompt appearing above shade&quot;
-  
-  Author: Austin Delgado  
-  Date: Wed Sep 17 11:43:28 2025 +0000
 
 
 </details>
@@ -163,6 +158,28 @@
 </details>
 
 <details>
+<summary><b>lineage-sdk</b> (1 commits)</summary>
+
+- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:42 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
+
+- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:38 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Camelot</b> (3 commits)</summary>
 
 - [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
@@ -184,29 +201,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
+<summary><b>packages/apps/Catapult</b> (6 commits)</summary>
 
-- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
+- [bfa94d4](https://github.com/LineageOS/android_packages_apps_Catapult/commit/bfa94d4) Catapult: Add blurred watch next art as background
   
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:38 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage-sdk</b> (1 commits)</summary>
-
-- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:42 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Catapult</b> (5 commits)</summary>
+  Author: Timi  
+  Date: Sat Sep 27 16:51:16 2025 +0300
 
 - [cde6f68](https://github.com/LineageOS/android_packages_apps_Catapult/commit/cde6f68) Catapult: Update generatebp to v1.28
   
@@ -259,42 +259,6 @@
   
   Author: Cyber Knight  
   Date: Wed Sep 24 20:26:24 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Glimpse</b> (6 commits)</summary>
-
-- [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:40 2025 +0000
-
-- [bf55f6a](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:43 2025 +0000
-
-- [6fcd70c](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c) Glimpse: Add file size to media info
-  
-  Author: Luca Stefani  
-  Date: Tue Sep 30 20:44:31 2025 +0200
-
-- [fa8b084](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Sep 24 20:06:43 2025 +0000
-
-- [b810f35](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35) Glimpse: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 18:40:48 2025 +0200
-
-- [a09a223](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a223) Glimpse: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Sep 21 11:17:05 2025 +0200
 
 
 </details>
@@ -361,6 +325,42 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Glimpse</b> (6 commits)</summary>
+
+- [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:40 2025 +0000
+
+- [bf55f6a](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:43 2025 +0000
+
+- [6fcd70c](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c) Glimpse: Add file size to media info
+  
+  Author: Luca Stefani  
+  Date: Tue Sep 30 20:44:31 2025 +0200
+
+- [fa8b084](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Sep 24 20:06:43 2025 +0000
+
+- [b810f35](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35) Glimpse: Update generatebp to v1.28
+  
+  Author: Sebastiano Barezzi  
+  Date: Wed Sep 24 18:40:48 2025 +0200
+
+- [a09a223](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a223) Glimpse: Update Gradle wrapper and AGP
+  
+  Author: Sebastiano Barezzi  
+  Date: Sun Sep 21 11:17:05 2025 +0200
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
 
 - [56497d9](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/56497d9) Automatic translation import
@@ -394,17 +394,6 @@
   
   Author: LineageOS Infra  
   Date: Wed Oct 1 23:32:46 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (1 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
 
 
 </details>
@@ -517,6 +506,17 @@
   
   Author: LineageOS Infra  
   Date: Wed Oct 1 23:32:47 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (1 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
 
 
 </details>
@@ -641,43 +641,27 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (6 commits)</summary>
+<summary><b>lineage/hudson</b> (20 commits)</summary>
 
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+- [864c910](https://github.com/LineageOS/hudson/commit/864c910) Regenerate device dependency mappings
   
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
+  Author: LineageOS Infra  
+  Date: Fri Oct 17 23:30:41 2025 +0000
 
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+- [86aeb8e](https://github.com/LineageOS/hudson/commit/86aeb8e) waffle: Promote to 23.0
   
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
+  Author: chandu078  
+  Date: Fri Oct 17 08:09:19 2025 +0000
 
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+- [86b25f9](https://github.com/LineageOS/hudson/commit/86b25f9) hudson: Ship avalon
   
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
+  Author: anky894  
+  Date: Fri Oct 17 07:46:13 2025 +0000
 
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+- [7a9f215](https://github.com/LineageOS/hudson/commit/7a9f215) hudson: Add Galaxy S20 Devices
   
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Sep 21 01:30:24 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (16 commits)</summary>
+  Author: ExtremeXT  
+  Date: Fri Oct 17 01:00:32 2025 +0000
 
 - [c30d8b9](https://github.com/LineageOS/hudson/commit/c30d8b9) Regenerate device dependency mappings
   
@@ -763,6 +747,42 @@
 </details>
 
 <details>
+<summary><b>lineage/mirror</b> (6 commits)</summary>
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Sep 21 01:30:24 2025 +0200
+
+
+</details>
+
+<details>
 <summary><b>lineage/scripts</b> (3 commits)</summary>
 
 - [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
@@ -784,7 +804,27 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (23 commits)</summary>
+<summary><b>lineage/wiki</b> (25 commits)</summary>
+
+- [d420d72](https://github.com/LineageOS/lineage_wiki/commit/d420d72) wiki: Hide `fastboot` for devices using Odin install method
+  
+  Author: LuK1337  
+  Date: Fri Oct 17 14:56:15 2025 +0200
+
+- [50f2737](https://github.com/LineageOS/lineage_wiki/commit/50f2737) devices: waffle: Promote to 23.0
+  
+  Author: chandu078  
+  Date: Fri Oct 17 08:13:29 2025 +0000
+
+- [5ab0fef](https://github.com/LineageOS/lineage_wiki/commit/5ab0fef) wiki: Add OnePlus Nord 4 (avalon)
+  
+  Author: anky894  
+  Date: Fri Oct 17 07:46:12 2025 +0000
+
+- [7987c5e](https://github.com/LineageOS/lineage_wiki/commit/7987c5e) wiki: Add Galaxy S20 Devices
+  
+  Author: ExtremeXT  
+  Date: Fri Oct 17 01:41:00 2025 +0000
 
 - [925c95c](https://github.com/LineageOS/lineage_wiki/commit/925c95c) wiki: Split aston into variants
   
@@ -890,16 +930,6 @@
   
   Author: Andrey Sprynga  
   Date: Fri Sep 19 23:31:01 2025 +0700
-
-- [f71dab2](https://github.com/LineageOS/lineage_wiki/commit/f71dab2) wiki: Update the push command for apps
-  
-  Author: Inhishonor  
-  Date: Wed Sep 17 23:49:10 2025 +0000
-
-- [17ad744](https://github.com/LineageOS/lineage_wiki/commit/17ad744) wiki: Update Docker installation guide
-  
-  Author: Inhishonor  
-  Date: Wed Sep 17 23:42:54 2025 +0000
 
 
 </details>
