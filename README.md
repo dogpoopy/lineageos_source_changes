@@ -45,22 +45,17 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/sm8750</b> (3 commits)</summary>
+<summary><b>external/chromium-webview/patches</b> (2 commits)</summary>
 
-- [29adc09](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/29adc09) sun: Match all read_ahead_kb nodes
+- [8a0b1f5](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5) Update Chromium Webview to 141.0.7390.111
   
-  Author: dianlujitao  
-  Date: Sat Sep 20 15:42:28 2025 +0100
+  Author: Kevin F. Haggerty  
+  Date: Fri Oct 17 12:55:28 2025 -0600
 
-- [3347e79](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3347e79) qva: Allow weaver HAL to request wakelock
+- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
   
-  Author: dianlujitao  
-  Date: Sat Sep 20 15:42:23 2025 +0100
-
-- [22134fa](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/22134fa) Merge tag &#x27;LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0&#x27; of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD
-  
-  Author: Bruno Martins  
-  Date: Sat Sep 20 15:23:01 2025 +0100
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:55:19 2025 -0600
 
 
 </details>
@@ -77,22 +72,6 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:39 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>external/chromium-webview/patches</b> (2 commits)</summary>
-
-- [8a0b1f5](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5) Update Chromium Webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Oct 17 12:55:28 2025 -0600
-
-- [22fb1dd](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd) Update Chromium Webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:55:19 2025 -0600
 
 
 </details>
@@ -189,17 +168,6 @@
   
   Author: bengris32  
   Date: Sat Sep 27 13:25:38 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/audio/primary-hal</b> (1 commits)</summary>
-
-- [c5ae69f](https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/c5ae69f) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into HEAD
-  
-  Author: Bruno Martins  
-  Date: Sat Sep 20 15:32:36 2025 +0100
 
 
 </details>
@@ -311,6 +279,42 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Glimpse</b> (6 commits)</summary>
+
+- [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:40 2025 +0000
+
+- [bf55f6a](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:43 2025 +0000
+
+- [6fcd70c](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c) Glimpse: Add file size to media info
+  
+  Author: Luca Stefani  
+  Date: Tue Sep 30 20:44:31 2025 +0200
+
+- [fa8b084](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Sep 24 20:06:43 2025 +0000
+
+- [b810f35](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35) Glimpse: Update generatebp to v1.28
+  
+  Author: Sebastiano Barezzi  
+  Date: Wed Sep 24 18:40:48 2025 +0200
+
+- [a09a223](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a223) Glimpse: Update Gradle wrapper and AGP
+  
+  Author: Sebastiano Barezzi  
+  Date: Sun Sep 21 11:17:05 2025 +0200
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Jelly</b> (11 commits)</summary>
 
 - [2d8559b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/2d8559b) Jelly: Load scripts once
@@ -372,42 +376,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (6 commits)</summary>
-
-- [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:40 2025 +0000
-
-- [bf55f6a](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:43 2025 +0000
-
-- [6fcd70c](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c) Glimpse: Add file size to media info
-  
-  Author: Luca Stefani  
-  Date: Tue Sep 30 20:44:31 2025 +0200
-
-- [fa8b084](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Sep 24 20:06:43 2025 +0000
-
-- [b810f35](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35) Glimpse: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 18:40:48 2025 +0200
-
-- [a09a223](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a223) Glimpse: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Sep 21 11:17:05 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
 
 - [56497d9](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/56497d9) Automatic translation import
@@ -435,6 +403,17 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Settings</b> (1 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Trebuchet</b> (1 commits)</summary>
 
 - [3c1310f](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310f) Automatic translation import
@@ -446,7 +425,7 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Twelve</b> (13 commits)</summary>
+<summary><b>packages/apps/Twelve</b> (6 commits)</summary>
 
 - [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
   
@@ -478,41 +457,6 @@
   Author: Sebastiano Barezzi  
   Date: Wed Sep 24 16:44:48 2025 +0200
 
-- [7d3ecde](https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3ecde) Twelve: Fix spacing around play buttons
-  
-  Author: Inhishonor  
-  Date: Sat Sep 20 19:56:01 2025 +0200
-
-- [3f0ff3d](https://github.com/LineageOS/android_packages_apps_Twelve/commit/3f0ff3d) Twelve: ListItem: Declare a new corner radius attribute
-  
-  Author: Sebastiano Barezzi  
-  Date: Sat Sep 20 19:56:01 2025 +0200
-
-- [08bb7f0](https://github.com/LineageOS/android_packages_apps_Twelve/commit/08bb7f0) Twelve: ListItem: Fix an API issue on older SDK versions
-  
-  Author: Sebastiano Barezzi  
-  Date: Sat Sep 20 19:56:01 2025 +0200
-
-- [77af37e](https://github.com/LineageOS/android_packages_apps_Twelve/commit/77af37e) Twelve: ListItem: `Context.getColorStateList` uses the current theme
-  
-  Author: Sebastiano Barezzi  
-  Date: Sat Sep 20 19:56:01 2025 +0200
-
-- [aca4e68](https://github.com/LineageOS/android_packages_apps_Twelve/commit/aca4e68) Twelve: Resize the window when using IME
-  
-  Author: Sebastiano Barezzi  
-  Date: Sat Sep 20 19:56:00 2025 +0200
-
-- [14c855f](https://github.com/LineageOS/android_packages_apps_Twelve/commit/14c855f) Twelve: Fix FAB text/icon tints
-  
-  Author: Luca Stefani  
-  Date: Sat Sep 20 19:56:00 2025 +0200
-
-- [bb6d425](https://github.com/LineageOS/android_packages_apps_Twelve/commit/bb6d425) Twelve: Specify KAPT version and add all plugins to classpath
-  
-  Author: Sebastiano Barezzi  
-  Date: Sat Sep 20 19:56:00 2025 +0200
-
 
 </details>
 
@@ -528,17 +472,6 @@
   
   Author: LineageOS Infra  
   Date: Wed Oct 1 23:32:47 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (1 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
 
 
 </details>
@@ -566,50 +499,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (2 commits)</summary>
+<summary><b>vendor/lineage</b> (1 commits)</summary>
 
 - [ea91f9d](https://github.com/LineageOS/android_vendor_lineage/commit/ea91f9d) apns: Update for CTM(Macau)
   
   Author: Flicker372  
   Date: Wed Oct 8 18:10:29 2025 +0800
-
-- [d89d58b](https://github.com/LineageOS/android_vendor_lineage/commit/d89d58b) vars: Update sun tags
-  
-  Author: Bruno Martins  
-  Date: Sat Sep 20 15:26:27 2025 +0100
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/audio/pal</b> (1 commits)</summary>
-
-- [6ead194](https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6ead194) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into HEAD
-  
-  Author: Bruno Martins  
-  Date: Sat Sep 20 15:31:29 2025 +0100
-
-
-</details>
-
-<details>
-<summary><b>vendor/qcom/opensource/audio-hal/st-hal-ar</b> (1 commits)</summary>
-
-- [368e7bd](https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/368e7bd) Merge tag &#x27;AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0&#x27; of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/audio-hal/st-hal-ar into HEAD
-  
-  Author: Bruno Martins  
-  Date: Sat Sep 20 15:35:20 2025 +0100
-
-
-</details>
-
-<details>
-<summary><b>hardware/qcom-caf/sm8750/dataipa</b> (1 commits)</summary>
-
-- [9924e25](https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/9924e25) Merge tag &#x27;LA.VENDOR.15.4.0.r1-18400-pakala.QSSI16.0&#x27; of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa into HEAD
-  
-  Author: Bruno Martins  
-  Date: Sat Sep 20 15:28:38 2025 +0100
 
 
 </details>
@@ -758,73 +653,6 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (7 commits)</summary>
-
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-- [e8d5c3e](https://github.com/LineageOS/mirror/commit/e8d5c3e) Updated to 20-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Sep 21 01:30:24 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (4 commits)</summary>
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
-  
-  Author: LuK1337  
-  Date: Sat Oct 11 23:45:28 2025 +0000
-
-- [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
-  
-  Author: LuK1337  
-  Date: Sun Sep 28 21:29:32 2025 +0200
-
-- [5147852](https://github.com/LineageOS/scripts/commit/5147852) build-webview: Update default webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:50:33 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>lineage/wiki</b> (25 commits)</summary>
 
 - [cc367dc](https://github.com/LineageOS/lineage_wiki/commit/cc367dc) wiki: Sort x1s/y2s/z3s peripherals
@@ -951,6 +779,68 @@
   
   Author: LuK1337  
   Date: Mon Sep 22 11:16:06 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (6 commits)</summary>
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (4 commits)</summary>
+
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
+
+- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
+  
+  Author: LuK1337  
+  Date: Sat Oct 11 23:45:28 2025 +0000
+
+- [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
+  
+  Author: LuK1337  
+  Date: Sun Sep 28 21:29:32 2025 +0200
+
+- [5147852](https://github.com/LineageOS/scripts/commit/5147852) build-webview: Update default webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:50:33 2025 -0600
 
 
 </details>
