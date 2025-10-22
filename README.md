@@ -1,17 +1,6 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>bootable/recovery</b> (1 commits)</summary>
-
-- [16fcc1f](https://github.com/LineageOS/android_bootable_recovery/commit/16fcc1f) recovery: Extend A/B downgrades for older SPL
-  
-  Author: pjgowtham  
-  Date: Sun Sep 21 19:00:30 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>build/release</b> (1 commits)</summary>
 
 - [5708b4c](https://github.com/LineageOS/android_build_release/commit/5708b4c) Bump Security String to 2025-10-01
@@ -216,7 +205,7 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Catapult</b> (6 commits)</summary>
+<summary><b>packages/apps/Catapult</b> (3 commits)</summary>
 
 - [bfa94d4](https://github.com/LineageOS/android_packages_apps_Catapult/commit/bfa94d4) Catapult: Add blurred watch next art as background
   
@@ -232,21 +221,6 @@
   
   Author: Sebastiano Barezzi  
   Date: Wed Sep 24 19:44:54 2025 +0200
-
-- [1986457](https://github.com/LineageOS/android_packages_apps_Catapult/commit/1986457) Catapult: Sync up Gradle setup with Twelve &amp; co.
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Sep 21 18:43:09 2025 +0200
-
-- [38dc5a4](https://github.com/LineageOS/android_packages_apps_Catapult/commit/38dc5a4) Catapult: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Sep 21 18:17:02 2025 +0200
-
-- [1190f61](https://github.com/LineageOS/android_packages_apps_Catapult/commit/1190f61) Catapult: Update card move overlay drawable dimens
-  
-  Author: Timi  
-  Date: Sun Sep 21 11:45:15 2025 +0300
 
 
 </details>
@@ -279,7 +253,7 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (6 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (5 commits)</summary>
 
 - [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
   
@@ -305,11 +279,6 @@
   
   Author: Sebastiano Barezzi  
   Date: Wed Sep 24 18:40:48 2025 +0200
-
-- [a09a223](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a223) Glimpse: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Sun Sep 21 11:17:05 2025 +0200
 
 
 </details>
@@ -425,6 +394,22 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+
+- [2b23036](https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:42 2025 +0000
+
+- [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:47 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Twelve</b> (6 commits)</summary>
 
 - [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
@@ -456,22 +441,6 @@
   
   Author: Sebastiano Barezzi  
   Date: Wed Sep 24 16:44:48 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Updater</b> (2 commits)</summary>
-
-- [2b23036](https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:42 2025 +0000
-
-- [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:47 2025 +0000
 
 
 </details>
@@ -547,7 +516,17 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (20 commits)</summary>
+<summary><b>lineage/hudson</b> (21 commits)</summary>
+
+- [ed5ac0b](https://github.com/LineageOS/hudson/commit/ed5ac0b) 彩虹
+  
+  Author: inferno0230  
+  Date: Tue Oct 21 16:08:28 2025 +0000
+
+- [4223a51](https://github.com/LineageOS/hudson/commit/4223a51) hudson: Ship vermeer
+  
+  Author: Lunark :3  
+  Date: Mon Oct 20 23:17:15 2025 -0500
 
 - [864c910](https://github.com/LineageOS/hudson/commit/864c910) Regenerate device dependency mappings
   
@@ -644,16 +623,31 @@
   Author: LuK1337  
   Date: Tue Sep 23 18:17:16 2025 +0200
 
-- [018ba04](https://github.com/LineageOS/hudson/commit/018ba04) Regenerate device dependency mappings
-  
-  Author: LineageOS Infra  
-  Date: Sun Sep 21 23:31:02 2025 +0000
-
 
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (25 commits)</summary>
+<summary><b>lineage/wiki</b> (29 commits)</summary>
+
+- [4c0d20c](https://github.com/LineageOS/lineage_wiki/commit/4c0d20c) wiki: Add OnePlus Pad Pro/2 (caihong)
+  
+  Author: inferno0230  
+  Date: Tue Oct 21 16:23:32 2025 +0000
+
+- [e6ff66c](https://github.com/LineageOS/lineage_wiki/commit/e6ff66c) wiki: Add POCO F6 Pro / Redmi K70 (vermeer)
+  
+  Author: Lunark :3  
+  Date: Tue Oct 21 17:09:39 2025 +0200
+
+- [0f22dd4](https://github.com/LineageOS/lineage_wiki/commit/0f22dd4) wiki: Add unit test for image ext and size
+  
+  Author: LuK1337  
+  Date: Tue Oct 21 09:16:32 2025 +0200
+
+- [38dde35](https://github.com/LineageOS/lineage_wiki/commit/38dde35) wiki: Resize dubai/lemonade images
+  
+  Author: LuK1337  
+  Date: Tue Oct 21 09:16:32 2025 +0200
 
 - [cc367dc](https://github.com/LineageOS/lineage_wiki/commit/cc367dc) wiki: Sort x1s/y2s/z3s peripherals
   
