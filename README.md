@@ -284,7 +284,7 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Jelly</b> (11 commits)</summary>
+<summary><b>packages/apps/Jelly</b> (5 commits)</summary>
 
 - [2d8559b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/2d8559b) Jelly: Load scripts once
   
@@ -310,36 +310,6 @@
   
   Author: LineageOS Infra  
   Date: Wed Sep 24 20:06:44 2025 +0000
-
-- [504ab40](https://github.com/LineageOS/android_packages_apps_Jelly/commit/504ab40) Jelly: Bump Kotlin to 1.9.23
-  
-  Author: Sebastiano Barezzi  
-  Date: Mon Sep 22 17:35:46 2025 +0200
-
-- [eca8410](https://github.com/LineageOS/android_packages_apps_Jelly/commit/eca8410) Jelly: Update gradle-generatebp to 1.26
-  
-  Author: Luca Stefani  
-  Date: Mon Sep 22 17:33:02 2025 +0200
-
-- [1f01f61](https://github.com/LineageOS/android_packages_apps_Jelly/commit/1f01f61) Jelly: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Mon Sep 22 17:30:07 2025 +0200
-
-- [3bb9fdb](https://github.com/LineageOS/android_packages_apps_Jelly/commit/3bb9fdb) Jelly: Sync up Gradle setup with Twelve &amp; co.
-  
-  Author: Sebastiano Barezzi  
-  Date: Mon Sep 22 17:19:05 2025 +0200
-
-- [d7059db](https://github.com/LineageOS/android_packages_apps_Jelly/commit/d7059db) Jelly: Move KAPT block to the right place
-  
-  Author: Sebastiano Barezzi  
-  Date: Mon Sep 22 17:19:05 2025 +0200
-
-- [0a8e529](https://github.com/LineageOS/android_packages_apps_Jelly/commit/0a8e529) Jelly: Specify KAPT version and add all plugins to classpath
-  
-  Author: Sebastiano Barezzi  
-  Date: Mon Sep 22 17:13:18 2025 +0200
 
 
 </details>
@@ -394,22 +364,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Updater</b> (2 commits)</summary>
-
-- [2b23036](https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:42 2025 +0000
-
-- [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:47 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Twelve</b> (6 commits)</summary>
 
 - [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
@@ -441,6 +395,22 @@
   
   Author: Sebastiano Barezzi  
   Date: Wed Sep 24 16:44:48 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+
+- [2b23036](https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:42 2025 +0000
+
+- [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:47 2025 +0000
 
 
 </details>
@@ -627,7 +597,43 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (29 commits)</summary>
+<summary><b>lineage/mirror</b> (6 commits)</summary>
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>lineage/wiki</b> (28 commits)</summary>
 
 - [4c0d20c](https://github.com/LineageOS/lineage_wiki/commit/4c0d20c) wiki: Add OnePlus Pad Pro/2 (caihong)
   
@@ -768,47 +774,6 @@
   
   Author: Tuan Anh  
   Date: Wed Sep 24 13:51:55 2025 -0400
-
-- [7194643](https://github.com/LineageOS/lineage_wiki/commit/7194643) wiki: Sort waffle&#x27;s peripherals
-  
-  Author: LuK1337  
-  Date: Mon Sep 22 11:16:06 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b> (6 commits)</summary>
-
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
 
 
 </details>
