@@ -173,17 +173,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
-
-- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:38 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Camelot</b> (3 commits)</summary>
 
 - [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
@@ -200,6 +189,17 @@
   
   Author: Sebastiano Barezzi  
   Date: Wed Sep 24 19:33:55 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
+
+- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:38 2025 +0000
 
 
 </details>
@@ -342,17 +342,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (1 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Trebuchet</b> (1 commits)</summary>
 
 - [3c1310f](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310f) Automatic translation import
@@ -400,6 +389,17 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Settings</b> (1 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Updater</b> (2 commits)</summary>
 
 - [2b23036](https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036) Automatic translation import
@@ -438,7 +438,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (1 commits)</summary>
+<summary><b>vendor/lineage</b> (2 commits)</summary>
+
+- [f6ae1ed](https://github.com/LineageOS/android_vendor_lineage/commit/f6ae1ed) apns: Update Vodafone DE
+  
+  Author: Tim Zimmermann  
+  Date: Thu Oct 23 16:53:28 2025 -0400
 
 - [ea91f9d](https://github.com/LineageOS/android_vendor_lineage/commit/ea91f9d) apns: Update for CTM(Macau)
   
@@ -465,28 +470,43 @@
 </details>
 
 <details>
-<summary><b>lineage/crowdin</b> (3 commits)</summary>
+<summary><b>lineage/mirror</b> (6 commits)</summary>
 
-- [3fd82ce](https://github.com/LineageOS/cm_crowdin/commit/3fd82ce) config: lineage-23.0: Add Etar lineage strings
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
   
   Author: Michael Bestas  
-  Date: Tue Sep 23 23:28:35 2025 +0300
-
-- [a1a8b68](https://github.com/LineageOS/cm_crowdin/commit/a1a8b68) config: lineage-23.0: Move Etar translations to vendor/crowdin
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 23 22:13:50 2025 +0300
-
-- [1ab912a](https://github.com/LineageOS/cm_crowdin/commit/1ab912a) config: Initial lineage-23.0 changes
-  
-  Author: Michael Bestas  
-  Date: Tue Sep 23 22:13:50 2025 +0300
+  Date: Fri Sep 26 14:59:28 2025 +0300
 
 
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (21 commits)</summary>
+<summary><b>lineage/hudson</b> (20 commits)</summary>
 
 - [ed5ac0b](https://github.com/LineageOS/hudson/commit/ed5ac0b) 彩虹
   
@@ -588,52 +608,63 @@
   Author: Tuan Anh  
   Date: Wed Sep 24 22:14:59 2025 +0000
 
-- [4e4ffbf](https://github.com/LineageOS/hudson/commit/4e4ffbf) Regenerate device dependency mappings
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (4 commits)</summary>
+
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
+
+- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
   
   Author: LuK1337  
-  Date: Tue Sep 23 18:17:16 2025 +0200
+  Date: Sat Oct 11 23:45:28 2025 +0000
+
+- [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
+  
+  Author: LuK1337  
+  Date: Sun Sep 28 21:29:32 2025 +0200
+
+- [5147852](https://github.com/LineageOS/scripts/commit/5147852) build-webview: Update default webview to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Sep 26 09:50:33 2025 -0600
 
 
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (6 commits)</summary>
+<summary><b>lineage/website</b> (2 commits)</summary>
 
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
   
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
+  Author: pnguyen879  
+  Date: Sat Oct 18 07:04:04 2025 +0000
 
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+- [03fba08](https://github.com/LineageOS/www/commit/03fba08) LineageOS 23.0
   
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
+  Author: Nolen Johnson  
+  Date: Sat Oct 11 18:14:07 2025 +0200
 
 
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (28 commits)</summary>
+<summary><b>lineage/wiki</b> (30 commits)</summary>
+
+- [b064a6b](https://github.com/LineageOS/lineage_wiki/commit/b064a6b) wiki: Improve bootloop definition
+  
+  Author: Inhishonor  
+  Date: Thu Oct 23 17:35:12 2025 +0000
+
+- [f9bc0a9](https://github.com/LineageOS/lineage_wiki/commit/f9bc0a9) wiki: Add definitions for ASB and QPR to glossary
+  
+  Author: Inhishonor  
+  Date: Thu Oct 23 17:35:12 2025 +0000
 
 - [4c0d20c](https://github.com/LineageOS/lineage_wiki/commit/4c0d20c) wiki: Add OnePlus Pad Pro/2 (caihong)
   
@@ -774,53 +805,6 @@
   
   Author: Tuan Anh  
   Date: Wed Sep 24 13:51:55 2025 -0400
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (4 commits)</summary>
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
-  
-  Author: LuK1337  
-  Date: Sat Oct 11 23:45:28 2025 +0000
-
-- [7b8ba9e](https://github.com/LineageOS/scripts/commit/7b8ba9e) best-caf-kernel: chmod +x
-  
-  Author: LuK1337  
-  Date: Sun Sep 28 21:29:32 2025 +0200
-
-- [5147852](https://github.com/LineageOS/scripts/commit/5147852) build-webview: Update default webview to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Sep 26 09:50:33 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>lineage/website</b> (3 commits)</summary>
-
-- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
-  
-  Author: pnguyen879  
-  Date: Sat Oct 18 07:04:04 2025 +0000
-
-- [03fba08](https://github.com/LineageOS/www/commit/03fba08) LineageOS 23.0
-  
-  Author: Nolen Johnson  
-  Date: Sat Oct 11 18:14:07 2025 +0200
-
-- [24be82e](https://github.com/LineageOS/www/commit/24be82e) www: Add discord logo to footer
-  
-  Author: Inhishonor  
-  Date: Tue Sep 23 07:16:06 2025 -0700
 
 
 </details>
