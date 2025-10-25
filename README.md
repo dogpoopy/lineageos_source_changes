@@ -173,27 +173,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Camelot</b> (3 commits)</summary>
-
-- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:38 2025 +0000
-
-- [b6cff9a](https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a) Camelot: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:36:25 2025 +0200
-
-- [bcfa1a7](https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7) Camelot: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:33:55 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Aperture</b> (1 commits)</summary>
 
 - [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
@@ -205,22 +184,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Catapult</b> (3 commits)</summary>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+
+- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:38 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Catapult</b> (1 commits)</summary>
 
 - [bfa94d4](https://github.com/LineageOS/android_packages_apps_Catapult/commit/bfa94d4) Catapult: Add blurred watch next art as background
   
   Author: Timi  
   Date: Sat Sep 27 16:51:16 2025 +0300
-
-- [cde6f68](https://github.com/LineageOS/android_packages_apps_Catapult/commit/cde6f68) Catapult: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:46:06 2025 +0200
-
-- [ca5d356](https://github.com/LineageOS/android_packages_apps_Catapult/commit/ca5d356) Catapult: Update AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 19:44:54 2025 +0200
 
 
 </details>
@@ -237,23 +217,18 @@
 </details>
 
 <details>
-<summary><b>packages/apps/FMRadio</b> (2 commits)</summary>
+<summary><b>packages/apps/FMRadio</b> (1 commits)</summary>
 
 - [7e89b01](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01) FmService: Set RECEIVER_NOT_EXPORTED
   
   Author: Cyber Knight  
   Date: Fri Sep 26 18:30:01 2025 +0000
 
-- [4372899](https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899) FMRadio: Start ForegroundService with a type
-  
-  Author: Cyber Knight  
-  Date: Wed Sep 24 20:26:24 2025 +0000
-
 
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (5 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (3 commits)</summary>
 
 - [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
   
@@ -270,21 +245,11 @@
   Author: Luca Stefani  
   Date: Tue Sep 30 20:44:31 2025 +0200
 
-- [fa8b084](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Sep 24 20:06:43 2025 +0000
-
-- [b810f35](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35) Glimpse: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 18:40:48 2025 +0200
-
 
 </details>
 
 <details>
-<summary><b>packages/apps/Jelly</b> (5 commits)</summary>
+<summary><b>packages/apps/Jelly</b> (2 commits)</summary>
 
 - [2d8559b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/2d8559b) Jelly: Load scripts once
   
@@ -295,21 +260,6 @@
   
   Author: SaeedDev94  
   Date: Fri Sep 26 13:58:10 2025 -0700
-
-- [fe57ec1](https://github.com/LineageOS/android_packages_apps_Jelly/commit/fe57ec1) Jelly: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Thu Sep 25 01:45:01 2025 +0200
-
-- [16c2153](https://github.com/LineageOS/android_packages_apps_Jelly/commit/16c2153) Jelly: Update AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Thu Sep 25 01:45:01 2025 +0200
-
-- [2a0c520](https://github.com/LineageOS/android_packages_apps_Jelly/commit/2a0c520) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Sep 24 20:06:44 2025 +0000
 
 
 </details>
@@ -353,7 +303,7 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Twelve</b> (6 commits)</summary>
+<summary><b>packages/apps/Twelve</b> (2 commits)</summary>
 
 - [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
   
@@ -364,37 +314,6 @@
   
   Author: LineageOS Infra  
   Date: Wed Oct 1 23:32:46 2025 +0000
-
-- [17169d4](https://github.com/LineageOS/android_packages_apps_Twelve/commit/17169d4) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Sep 24 20:06:50 2025 +0000
-
-- [adc7d1b](https://github.com/LineageOS/android_packages_apps_Twelve/commit/adc7d1b) Twelve: Update generatebp to v1.28
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 18:55:46 2025 +0200
-
-- [48e5a66](https://github.com/LineageOS/android_packages_apps_Twelve/commit/48e5a66) Twelve: `kapt` -&gt; `kotlin-kapt`
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 18:55:46 2025 +0200
-
-- [2829464](https://github.com/LineageOS/android_packages_apps_Twelve/commit/2829464) Twelve: Update Gradle wrapper and AGP
-  
-  Author: Sebastiano Barezzi  
-  Date: Wed Sep 24 16:44:48 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (1 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
 
 
 </details>
@@ -411,6 +330,17 @@
   
   Author: LineageOS Infra  
   Date: Wed Oct 1 23:32:47 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (1 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
 
 
 </details>
@@ -438,7 +368,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (2 commits)</summary>
+<summary><b>vendor/lineage</b> (3 commits)</summary>
+
+- [0351ebe](https://github.com/LineageOS/android_vendor_lineage/commit/0351ebe) apns: Add Altel and Tele2
+  
+  Author: tejas101k  
+  Date: Fri Oct 24 15:30:56 2025 +0000
 
 - [f6ae1ed](https://github.com/LineageOS/android_vendor_lineage/commit/f6ae1ed) apns: Update Vodafone DE
   
@@ -470,43 +405,7 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (6 commits)</summary>
-
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Sep 29 00:01:24 2025 +0200
-
-- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sat Sep 27 00:02:04 2025 +0200
-
-- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
-  
-  Author: Michael Bestas  
-  Date: Fri Sep 26 14:59:28 2025 +0300
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (20 commits)</summary>
+<summary><b>lineage/hudson</b> (19 commits)</summary>
 
 - [ed5ac0b](https://github.com/LineageOS/hudson/commit/ed5ac0b) 彩虹
   
@@ -603,10 +502,41 @@
   Author: inferno0230  
   Date: Thu Sep 25 11:55:04 2025 +0000
 
-- [70fa364](https://github.com/LineageOS/hudson/commit/70fa364) NB1 = NoBody wAnts
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (6 commits)</summary>
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
   
-  Author: Tuan Anh  
-  Date: Wed Sep 24 22:14:59 2025 +0000
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+- [2860df0](https://github.com/LineageOS/mirror/commit/2860df0) Updated to 28-Sep-2025 22:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Sep 29 00:01:24 2025 +0200
+
+- [6140202](https://github.com/LineageOS/mirror/commit/6140202) Updated lineage-minimal to 26-Sep-2025 22:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sat Sep 27 00:02:04 2025 +0200
+
+- [196583b](https://github.com/LineageOS/mirror/commit/196583b) Updated to 26-Sep-2025 11:59 UTC
+  
+  Author: Michael Bestas  
+  Date: Fri Sep 26 14:59:28 2025 +0300
 
 
 </details>
@@ -638,23 +568,7 @@
 </details>
 
 <details>
-<summary><b>lineage/website</b> (2 commits)</summary>
-
-- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
-  
-  Author: pnguyen879  
-  Date: Sat Oct 18 07:04:04 2025 +0000
-
-- [03fba08](https://github.com/LineageOS/www/commit/03fba08) LineageOS 23.0
-  
-  Author: Nolen Johnson  
-  Date: Sat Oct 11 18:14:07 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (30 commits)</summary>
+<summary><b>lineage/wiki</b> (28 commits)</summary>
 
 - [b064a6b](https://github.com/LineageOS/lineage_wiki/commit/b064a6b) wiki: Improve bootloop definition
   
@@ -796,15 +710,21 @@
   Author: inferno0230  
   Date: Thu Sep 25 14:31:35 2025 +0530
 
-- [92b8aaa](https://github.com/LineageOS/lineage_wiki/commit/92b8aaa) wiki: Promote NB1 to 22.2
-  
-  Author: Tuan Anh  
-  Date: Wed Sep 24 13:51:56 2025 -0400
 
-- [df7977d](https://github.com/LineageOS/lineage_wiki/commit/df7977d) wiki: Add instructions to install/upgrade from a non A/B RDAP to A/B RDAP build
+</details>
+
+<details>
+<summary><b>lineage/website</b> (2 commits)</summary>
+
+- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
   
-  Author: Tuan Anh  
-  Date: Wed Sep 24 13:51:55 2025 -0400
+  Author: pnguyen879  
+  Date: Sat Oct 18 07:04:04 2025 +0000
+
+- [03fba08](https://github.com/LineageOS/www/commit/03fba08) LineageOS 23.0
+  
+  Author: Nolen Johnson  
+  Date: Sat Oct 11 18:14:07 2025 +0200
 
 
 </details>
