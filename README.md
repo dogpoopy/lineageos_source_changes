@@ -50,22 +50,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (2 commits)</summary>
-
-- [10dcbc3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3) Update Chromium Webview arm to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:11 2025 -0600
-
-- [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:39 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm64</b> (2 commits)</summary>
 
 - [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
@@ -82,17 +66,17 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86</b> (2 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (2 commits)</summary>
 
-- [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
+- [10dcbc3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3) Update Chromium Webview arm to 141.0.7390.111
   
   Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:20 2025 -0600
+  Date: Sat Oct 18 07:57:11 2025 -0600
 
-- [c18e219](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219) Update Chromium Webview x86 to 140.0.7339.207
+- [35d15d3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3) Update Chromium Webview arm to 140.0.7339.207
   
   Author: Kevin F. Haggerty  
-  Date: Sat Sep 27 08:22:49 2025 -0600
+  Date: Sat Sep 27 08:22:39 2025 -0600
 
 
 </details>
@@ -109,6 +93,22 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Sep 27 08:22:53 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (2 commits)</summary>
+
+- [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:20 2025 -0600
+
+- [c18e219](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219) Update Chromium Webview x86 to 140.0.7339.207
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Sep 27 08:22:49 2025 -0600
 
 
 </details>
@@ -368,7 +368,17 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (3 commits)</summary>
+<summary><b>vendor/lineage</b> (5 commits)</summary>
+
+- [990ebab](https://github.com/LineageOS/android_vendor_lineage/commit/990ebab) apns: Add KKTCell APNs
+  
+  Author: Atakan  
+  Date: Sat Oct 25 11:50:52 2025 -0400
+
+- [4c1de85](https://github.com/LineageOS/android_vendor_lineage/commit/4c1de85) apns: Update APNs of Turkish carriers
+  
+  Author: Atakan  
+  Date: Sat Oct 25 11:50:44 2025 -0400
 
 - [0351ebe](https://github.com/LineageOS/android_vendor_lineage/commit/0351ebe) apns: Add Altel and Tele2
   
@@ -405,7 +415,7 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (19 commits)</summary>
+<summary><b>lineage/hudson</b> (17 commits)</summary>
 
 - [ed5ac0b](https://github.com/LineageOS/hudson/commit/ed5ac0b) 彩虹
   
@@ -492,16 +502,6 @@
   Author: LuK1337  
   Date: Sun Sep 28 11:20:01 2025 +0200
 
-- [7455f3c](https://github.com/LineageOS/hudson/commit/7455f3c) aston joins the race
-  
-  Author: inferno0230  
-  Date: Thu Sep 25 11:55:04 2025 +0000
-
-- [8fe97e9](https://github.com/LineageOS/hudson/commit/8fe97e9) benz joins the race
-  
-  Author: inferno0230  
-  Date: Thu Sep 25 11:55:04 2025 +0000
-
 
 </details>
 
@@ -568,7 +568,33 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (28 commits)</summary>
+<summary><b>lineage/website</b> (2 commits)</summary>
+
+- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
+  
+  Author: pnguyen879  
+  Date: Sat Oct 18 07:04:04 2025 +0000
+
+- [03fba08](https://github.com/LineageOS/www/commit/03fba08) LineageOS 23.0
+  
+  Author: Nolen Johnson  
+  Date: Sat Oct 11 18:14:07 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/wiki</b> (29 commits)</summary>
+
+- [ce1c8fe](https://github.com/LineageOS/lineage_wiki/commit/ce1c8fe) wiki: Add wikipedia links to IMS quirk description
+  
+  Author: LuK1337  
+  Date: Sat Oct 25 23:23:06 2025 +0200
+
+- [773dd83](https://github.com/LineageOS/lineage_wiki/commit/773dd83) firmware_update_oplus: Filter out oplusstanvbk for tablets
+  
+  Author: Bruno Martins  
+  Date: Sat Oct 25 00:52:38 2025 +0200
 
 - [b064a6b](https://github.com/LineageOS/lineage_wiki/commit/b064a6b) wiki: Improve bootloop definition
   
@@ -704,27 +730,6 @@
   
   Author: inferno0230  
   Date: Fri Sep 26 02:40:04 2025 -0400
-
-- [afba45b](https://github.com/LineageOS/lineage_wiki/commit/afba45b) wiki: Add OnePlus Nord CE4 (benz)
-  
-  Author: inferno0230  
-  Date: Thu Sep 25 14:31:35 2025 +0530
-
-
-</details>
-
-<details>
-<summary><b>lineage/website</b> (2 commits)</summary>
-
-- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
-  
-  Author: pnguyen879  
-  Date: Sat Oct 18 07:04:04 2025 +0000
-
-- [03fba08](https://github.com/LineageOS/www/commit/03fba08) LineageOS 23.0
-  
-  Author: Nolen Johnson  
-  Date: Sat Oct 11 18:14:07 2025 +0200
 
 
 </details>
