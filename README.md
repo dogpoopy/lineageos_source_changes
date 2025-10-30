@@ -12,7 +12,17 @@
 </details>
 
 <details>
-<summary><b>device/lineage/sepolicy</b> (1 commits)</summary>
+<summary><b>device/lineage/sepolicy</b> (3 commits)</summary>
+
+- [bcc0b83](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83) qcom: hal_soter -&gt; vendor_hal_soter
+  
+  Author: LuK1337  
+  Date: Wed Oct 29 11:55:32 2025 +0100
+
+- [97c91ea](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/97c91ea) qcom: Allow platform_app to use Soter HAL
+  
+  Author: dianlujitao  
+  Date: Wed Oct 29 08:04:32 2025 +0000
 
 - [253ba44](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/253ba44) Revert &quot;sepolicy: Label ro.telephony.use_old_mnc_mcc_format&quot;
   
@@ -23,23 +33,33 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
+<summary><b>device/qcom/sepolicy-legacy-um</b> (2 commits)</summary>
 
-- [d7ffab3](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d7ffab3) sepolicy_vndr: lito: Label more wakeup nodes
+- [7f5546d](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d) legacy: hal_soter -&gt; vendor_hal_soter
   
-  Author: Michael Bestas  
-  Date: Wed Oct 1 23:15:14 2025 +0000
+  Author: LuK1337  
+  Date: Wed Oct 29 12:06:27 2025 +0100
+
+- [84f88f7](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7) sepolicy: Move hal_soter attribute to public
+  
+  Author: LuK1337  
+  Date: Wed Oct 29 11:39:55 2025 +0100
 
 
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (2 commits)</summary>
 
-- [8a0b1f5](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5) Update Chromium Webview to 141.0.7390.111
+- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
   
-  Author: Kevin F. Haggerty  
-  Date: Fri Oct 17 12:55:28 2025 -0600
+  Author: LuK1337  
+  Date: Wed Oct 29 12:01:49 2025 +0100
+
+- [d7ffab3](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d7ffab3) sepolicy_vndr: lito: Label more wakeup nodes
+  
+  Author: Michael Bestas  
+  Date: Wed Oct 1 23:15:14 2025 +0000
 
 
 </details>
@@ -51,6 +71,17 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Oct 18 07:57:11 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [8a0b1f5](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5) Update Chromium Webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Oct 17 12:55:28 2025 -0600
 
 
 </details>
@@ -126,6 +157,17 @@
 </details>
 
 <details>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+
+- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Thu Oct 16 04:15:38 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>lineage-sdk</b> (1 commits)</summary>
 
 - [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
@@ -140,17 +182,6 @@
 <summary><b>packages/apps/Aperture</b> (1 commits)</summary>
 
 - [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:38 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
-
-- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:38 2025 +0000
@@ -229,17 +260,6 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Settings</b> (1 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Twelve</b> (2 commits)</summary>
 
 - [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
@@ -267,6 +287,17 @@
   
   Author: LineageOS Infra  
   Date: Wed Oct 1 23:32:47 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Settings</b> (1 commits)</summary>
+
+- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Wed Oct 1 23:32:45 2025 +0000
 
 
 </details>
@@ -335,33 +366,7 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (4 commits)</summary>
-
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
-
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (16 commits)</summary>
+<summary><b>lineage/hudson</b> (15 commits)</summary>
 
 - [8b59fe9](https://github.com/LineageOS/hudson/commit/8b59fe9) Regenerate device dependency mappings
   
@@ -438,10 +443,31 @@
   Author: Nolen Johnson  
   Date: Sat Oct 4 18:15:11 2025 +0200
 
-- [8ba4739](https://github.com/LineageOS/hudson/commit/8ba4739) Regenerate device dependency mappings
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (4 commits)</summary>
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
   
-  Author: LineageOS Infra  
-  Date: Mon Sep 29 23:30:47 2025 +0000
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
 
 
 </details>
