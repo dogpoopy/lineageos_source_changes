@@ -33,22 +33,6 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy-legacy-um</b> (2 commits)</summary>
-
-- [7f5546d](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d) legacy: hal_soter -&gt; vendor_hal_soter
-  
-  Author: LuK1337  
-  Date: Wed Oct 29 12:06:27 2025 +0100
-
-- [84f88f7](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7) sepolicy: Move hal_soter attribute to public
-  
-  Author: LuK1337  
-  Date: Wed Oct 29 11:39:55 2025 +0100
-
-
-</details>
-
-<details>
 <summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (2 commits)</summary>
 
 - [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
@@ -65,12 +49,28 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+<summary><b>device/qcom/sepolicy-legacy-um</b> (2 commits)</summary>
 
-- [10dcbc3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3) Update Chromium Webview arm to 141.0.7390.111
+- [7f5546d](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d) legacy: hal_soter -&gt; vendor_hal_soter
+  
+  Author: LuK1337  
+  Date: Wed Oct 29 12:06:27 2025 +0100
+
+- [84f88f7](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7) sepolicy: Move hal_soter attribute to public
+  
+  Author: LuK1337  
+  Date: Wed Oct 29 11:39:55 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+
+- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
   
   Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:11 2025 -0600
+  Date: Sat Oct 18 07:57:16 2025 -0600
 
 
 </details>
@@ -87,12 +87,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
-- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
+- [10dcbc3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3) Update Chromium Webview arm to 141.0.7390.111
   
   Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:16 2025 -0600
+  Date: Sat Oct 18 07:57:11 2025 -0600
 
 
 </details>
@@ -157,9 +157,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
 
-- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
+- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:38 2025 +0000
@@ -179,9 +179,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
 
-- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
+- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:38 2025 +0000
@@ -201,7 +201,7 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (3 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (2 commits)</summary>
 
 - [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
   
@@ -212,11 +212,6 @@
   
   Author: LineageOS Infra  
   Date: Wed Oct 1 23:32:43 2025 +0000
-
-- [6fcd70c](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c) Glimpse: Add file size to media info
-  
-  Author: Luca Stefani  
-  Date: Tue Sep 30 20:44:31 2025 +0200
 
 
 </details>
@@ -473,22 +468,6 @@
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
-  
-  Author: LuK1337  
-  Date: Sat Oct 11 23:45:28 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>lineage/wiki</b> (28 commits)</summary>
 
 - [5d68c6b](https://github.com/LineageOS/lineage_wiki/commit/5d68c6b) wiki: moto-sm6225: Update maintainers &amp; models
@@ -630,6 +609,22 @@
   
   Author: inferno0230  
   Date: Thu Oct 2 15:59:06 2025 +0530
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
+
+- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
+  
+  Author: LuK1337  
+  Date: Sat Oct 11 23:45:28 2025 +0000
 
 
 </details>
