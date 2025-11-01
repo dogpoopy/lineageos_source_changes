@@ -33,22 +33,6 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (2 commits)</summary>
-
-- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
-  
-  Author: LuK1337  
-  Date: Wed Oct 29 12:01:49 2025 +0100
-
-- [d7ffab3](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d7ffab3) sepolicy_vndr: lito: Label more wakeup nodes
-  
-  Author: Michael Bestas  
-  Date: Wed Oct 1 23:15:14 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>device/qcom/sepolicy-legacy-um</b> (2 commits)</summary>
 
 - [7f5546d](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d) legacy: hal_soter -&gt; vendor_hal_soter
@@ -65,12 +49,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
 
-- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
+- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
   
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:16 2025 -0600
+  Author: LuK1337  
+  Date: Wed Oct 29 12:01:49 2025 +0100
 
 
 </details>
@@ -98,12 +82,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
 
-- [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
+- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
   
   Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:20 2025 -0600
+  Date: Sat Oct 18 07:57:16 2025 -0600
 
 
 </details>
@@ -115,6 +99,17 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Oct 18 07:57:24 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
+
+- [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:20 2025 -0600
 
 
 </details>
@@ -168,17 +163,6 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (1 commits)</summary>
-
-- [a0ab6a8](https://github.com/LineageOS/android_lineage-sdk/commit/a0ab6a8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:42 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Camelot</b> (1 commits)</summary>
 
 - [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
@@ -201,33 +185,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (2 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
 - [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:40 2025 +0000
 
-- [bf55f6a](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:43 2025 +0000
-
 
 </details>
 
 <details>
-<summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
+<summary><b>packages/apps/LineageParts</b> (1 commits)</summary>
 
 - [56497d9](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/56497d9) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:40 2025 +0000
-
-- [3621247](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3621247) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:44 2025 +0000
 
 
 </details>
@@ -244,66 +218,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Trebuchet</b> (1 commits)</summary>
-
-- [3c1310f](https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310f) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:46 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Twelve</b> (2 commits)</summary>
+<summary><b>packages/apps/Twelve</b> (1 commits)</summary>
 
 - [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:41 2025 +0000
 
-- [5463caa](https://github.com/LineageOS/android_packages_apps_Twelve/commit/5463caa) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:46 2025 +0000
-
 
 </details>
 
 <details>
-<summary><b>packages/apps/Updater</b> (2 commits)</summary>
+<summary><b>packages/apps/Updater</b> (1 commits)</summary>
 
 - [2b23036](https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:42 2025 +0000
-
-- [312b283](https://github.com/LineageOS/android_packages_apps_Updater/commit/312b283) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:47 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Settings</b> (1 commits)</summary>
-
-- [02302c34](https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:45 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/resources/devicesettings</b> (1 commits)</summary>
-
-- [885204a](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/885204a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 1 23:32:48 2025 +0000
 
 
 </details>
@@ -361,7 +292,38 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (15 commits)</summary>
+<summary><b>lineage/mirror</b> (4 commits)</summary>
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/hudson</b> (16 commits)</summary>
+
+- [5bdec50](https://github.com/LineageOS/hudson/commit/5bdec50) Regenerate device dependency mappings
+  
+  Author: LineageOS Infra  
+  Date: Fri Oct 31 23:30:44 2025 +0000
 
 - [8b59fe9](https://github.com/LineageOS/hudson/commit/8b59fe9) Regenerate device dependency mappings
   
@@ -442,27 +404,17 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (4 commits)</summary>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
 
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
   
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
 
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
   
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
+  Author: LuK1337  
+  Date: Sat Oct 11 23:45:28 2025 +0000
 
 
 </details>
@@ -609,22 +561,6 @@
   
   Author: inferno0230  
   Date: Thu Oct 2 15:59:06 2025 +0530
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
-  
-  Author: LuK1337  
-  Date: Sat Oct 11 23:45:28 2025 +0000
 
 
 </details>
