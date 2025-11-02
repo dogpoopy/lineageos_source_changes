@@ -152,6 +152,17 @@
 </details>
 
 <details>
+<summary><b>lineage-sdk</b> (1 commits)</summary>
+
+- [4276ac2](https://github.com/LineageOS/android_lineage-sdk/commit/4276ac2) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:48 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>packages/apps/Aperture</b> (1 commits)</summary>
 
 - [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
@@ -185,7 +196,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (2 commits)</summary>
+
+- [7bf0e49](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:50 2025 +0000
 
 - [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
   
@@ -218,7 +234,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Twelve</b> (1 commits)</summary>
+<summary><b>packages/apps/Twelve</b> (2 commits)</summary>
+
+- [ca1535f](https://github.com/LineageOS/android_packages_apps_Twelve/commit/ca1535f) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:51 2025 +0000
 
 - [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
   
@@ -235,6 +256,60 @@
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:42 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/inputmethods/LatinIME</b> (1 commits)</summary>
+
+- [736ea87](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/736ea87) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:51 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/resources/devicesettings</b> (1 commits)</summary>
+
+- [b9895c3](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b9895c3) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:52 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>tools/extract-utils</b> (3 commits)</summary>
+
+- [3f351b8](https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8) extract_utils: sort-blobs-list.py: Use a single regex to get source name
+  
+  Author: Sebastiano Barezzi  
+  Date: Thu Oct 30 23:08:25 2025 +0100
+
+- [6e43900](https://github.com/LineageOS/android_tools_extract-utils/commit/6e43900) extract_utils: sort-blobs-list.py: Handle sha1sum argument
+  
+  Author: Sebastiano Barezzi  
+  Date: Thu Oct 30 23:08:25 2025 +0100
+
+- [e34475c](https://github.com/LineageOS/android_tools_extract-utils/commit/e34475c) extract_utils: sort-blobs-list.py: Fix lint warning
+  
+  Author: Sebastiano Barezzi  
+  Date: Thu Oct 30 23:08:25 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>vendor/crowdin</b> (1 commits)</summary>
+
+- [74fb135](https://github.com/LineageOS/android_vendor_crowdin/commit/74fb135) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:59 2025 +0000
 
 
 </details>
@@ -287,32 +362,6 @@
   
   Author: ExtremeXT  
   Date: Wed Oct 15 08:31:42 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b> (4 commits)</summary>
-
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
-
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
 
 
 </details>
@@ -404,23 +453,12 @@
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
+<summary><b>lineage/wiki</b> (27 commits)</summary>
 
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
+- [cee05e6](https://github.com/LineageOS/lineage_wiki/commit/cee05e6) wiki: Fix bluejay&#x27;s screen refresh rate
   
   Author: LuK1337  
-  Date: Sat Oct 11 23:45:28 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (28 commits)</summary>
+  Date: Sat Nov 1 22:39:42 2025 +0100
 
 - [5d68c6b](https://github.com/LineageOS/lineage_wiki/commit/5d68c6b) wiki: moto-sm6225: Update maintainers &amp; models
   
@@ -552,15 +590,47 @@
   Author: Benjamin Loison  
   Date: Sat Oct 4 21:55:02 2025 +0000
 
-- [ee4ffa2](https://github.com/LineageOS/lineage_wiki/commit/ee4ffa2) devices: salami: Add init_boot to flash partitions before recovery
-  
-  Author: Bruno Martins  
-  Date: Thu Oct 2 22:40:54 2025 +0100
 
-- [fb02924](https://github.com/LineageOS/lineage_wiki/commit/fb02924) wiki: devices: aston/benz: Add init_boot to flash partitions before recovery
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (4 commits)</summary>
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
   
-  Author: inferno0230  
-  Date: Thu Oct 2 15:59:06 2025 +0530
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
+
+- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
+  
+  Author: LuK1337  
+  Date: Sat Oct 11 23:45:28 2025 +0000
 
 
 </details>
