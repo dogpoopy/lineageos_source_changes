@@ -93,17 +93,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
-
-- [4f870f9](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9) Update Chromium Webview x86_64 to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:24 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
 
 - [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
@@ -115,7 +104,28 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (4 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
+
+- [4f870f9](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9) Update Chromium Webview x86_64 to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:24 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>frameworks/base</b> (5 commits)</summary>
+
+- [b655794c](https://github.com/LineageOS/android_frameworks_base/commit/b655794c) SystemUI: Fix media section constraints with Smartspace disabled
+  
+  Author: LuK1337  
+  Date: Sun Nov 2 01:20:35 2025 +0100
+
+- [95e02d28](https://github.com/LineageOS/android_frameworks_base/commit/95e02d28) SystemUI: Add KeyguardSliceViewSection to split shade blueprint
+  
+  Author: LuK1337  
+  Date: Sun Nov 2 01:17:37 2025 +0100
 
 - [ce12674e](https://github.com/LineageOS/android_frameworks_base/commit/ce12674e) Automatic translation import
   
@@ -132,11 +142,6 @@
   Author: pjgowtham  
   Date: Sat Oct 4 09:06:42 2025 +0000
 
-- [785756c9](https://github.com/LineageOS/android_frameworks_base/commit/785756c9) UdfpsHelper: Exclude dim layer from screenshots
-  
-  Author: pjgowtham  
-  Date: Fri Oct 3 02:59:15 2025 +0000
-
 
 </details>
 
@@ -147,6 +152,22 @@
   
   Author: Michael Bestas  
   Date: Wed Oct 15 21:12:02 2025 +0300
+
+
+</details>
+
+<details>
+<summary><b>hardware/qcom-caf/thermal-legacy-um</b> (2 commits)</summary>
+
+- [03845e4](https://github.com/LineageOS/android_hardware_qcom_thermal/commit/03845e4) thermal-hal: Update skin temperature threshold for kona
+  
+  Author: Edwin Moquete  
+  Date: Thu Oct 30 00:50:21 2025 +0000
+
+- [0878137](https://github.com/LineageOS/android_hardware_qcom_thermal/commit/0878137) thermal-hal: Revert &quot;Add tsens,bcl configuration for kona&quot;
+  
+  Author: armdebug  
+  Date: Wed Oct 29 13:31:46 2025 +0000
 
 
 </details>
@@ -163,9 +184,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
 
-- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
+- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:38 2025 +0000
@@ -174,9 +195,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
 
-- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
+- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:38 2025 +0000
@@ -367,7 +388,43 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (16 commits)</summary>
+<summary><b>lineage/mirror</b> (4 commits)</summary>
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/hudson</b> (18 commits)</summary>
+
+- [89aa388](https://github.com/LineageOS/hudson/commit/89aa388) bump gauguin to 23.0
+  
+  Author: Hridaya Prajapati  
+  Date: Sun Nov 2 13:05:33 2025 +0000
+
+- [a902755](https://github.com/LineageOS/hudson/commit/a902755) dodge joins the 23.0 race
+  
+  Author: chandu078  
+  Date: Sun Nov 2 10:20:14 2025 +0000
 
 - [5bdec50](https://github.com/LineageOS/hudson/commit/5bdec50) Regenerate device dependency mappings
   
@@ -453,7 +510,53 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (27 commits)</summary>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
+
+- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
+  
+  Author: LuK1337  
+  Date: Sat Oct 11 23:45:28 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/wiki</b> (33 commits)</summary>
+
+- [dff52d1](https://github.com/LineageOS/lineage_wiki/commit/dff52d1) aston: Add eSIM quirk
+  
+  Author: Bruno Martins  
+  Date: Sun Nov 2 14:12:21 2025 +0000
+
+- [0142858](https://github.com/LineageOS/lineage_wiki/commit/0142858) wiki: Promote gauguin to 23.0
+  
+  Author: Hridaya Prajapati  
+  Date: Sun Nov 2 13:06:04 2025 +0000
+
+- [36cd9b4](https://github.com/LineageOS/lineage_wiki/commit/36cd9b4) wiki: Add a note about signature verification
+  
+  Author: Inhishonor  
+  Date: Sun Nov 2 13:26:45 2025 +0100
+
+- [ff9f210](https://github.com/LineageOS/lineage_wiki/commit/ff9f210) wiki: Fix indentation in install guide
+  
+  Author: Inhishonor  
+  Date: Sun Nov 2 12:12:53 2025 +0000
+
+- [0541835](https://github.com/LineageOS/lineage_wiki/commit/0541835) salami/waffle/dodge: Add eSIM quirk
+  
+  Author: Bruno Martins  
+  Date: Sun Nov 2 11:00:07 2025 +0000
+
+- [e2e2162](https://github.com/LineageOS/lineage_wiki/commit/e2e2162) wiki: Add OnePlus 13
+  
+  Author: chandu078  
+  Date: Sun Nov 2 10:22:33 2025 +0000
 
 - [cee05e6](https://github.com/LineageOS/lineage_wiki/commit/cee05e6) wiki: Fix bluejay&#x27;s screen refresh rate
   
@@ -589,48 +692,6 @@
   
   Author: Benjamin Loison  
   Date: Sat Oct 4 21:55:02 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b> (4 commits)</summary>
-
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
-
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
-  
-  Author: LuK1337  
-  Date: Sat Oct 11 23:45:28 2025 +0000
 
 
 </details>
