@@ -115,7 +115,7 @@
 </details>
 
 <details>
-<summary><b>frameworks/base</b> (5 commits)</summary>
+<summary><b>frameworks/base</b> (4 commits)</summary>
 
 - [b655794c](https://github.com/LineageOS/android_frameworks_base/commit/b655794c) SystemUI: Fix media section constraints with Smartspace disabled
   
@@ -136,11 +136,6 @@
   
   Author: Alexander Martinz  
   Date: Fri Oct 10 18:04:34 2025 +0000
-
-- [0641b6bc](https://github.com/LineageOS/android_frameworks_base/commit/0641b6bc) UdfpsHelper: Avoid hardcoding 4095 for maximum panel brightness
-  
-  Author: pjgowtham  
-  Date: Sat Oct 4 09:06:42 2025 +0000
 
 
 </details>
@@ -184,9 +179,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
 
-- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
+- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:38 2025 +0000
@@ -195,9 +190,9 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
 
-- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
+- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:38 2025 +0000
@@ -336,7 +331,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (6 commits)</summary>
+<summary><b>vendor/lineage</b> (7 commits)</summary>
+
+- [77bf379](https://github.com/LineageOS/android_vendor_lineage/commit/77bf379) apns: Add APN for Netgsm
+  
+  Author: Doğancan yılmazer  
+  Date: Mon Nov 3 23:25:20 2025 +0000
 
 - [ab374ca](https://github.com/LineageOS/android_vendor_lineage/commit/ab374ca) apn: Add finetwork
   
@@ -388,33 +388,27 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (4 commits)</summary>
+<summary><b>lineage/hudson</b> (21 commits)</summary>
 
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+- [8cf57eb](https://github.com/LineageOS/hudson/commit/8cf57eb) hudson: Promote Galaxy A71 to 23.0
   
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
+  Author: Haky86  
+  Date: Mon Nov 3 16:04:01 2025 +0100
 
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+- [583128d](https://github.com/LineageOS/hudson/commit/583128d) Use tegu for exp 23
   
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
+  Author: LuK1337  
+  Date: Mon Nov 3 15:32:40 2025 +0100
 
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+- [48a9559](https://github.com/LineageOS/hudson/commit/48a9559) A wild lizard appears
   
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
+  Author: Michael Bestas  
+  Date: Mon Nov 3 14:32:19 2025 +0000
 
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+- [7c9f621](https://github.com/LineageOS/hudson/commit/7c9f621) No source?
   
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (18 commits)</summary>
+  Author: Michael Bestas  
+  Date: Mon Nov 3 14:32:19 2025 +0000
 
 - [89aa388](https://github.com/LineageOS/hudson/commit/89aa388) bump gauguin to 23.0
   
@@ -501,10 +495,31 @@
   Author: Nolen Johnson  
   Date: Sat Oct 11 09:44:23 2025 -0600
 
-- [c0e674a](https://github.com/LineageOS/hudson/commit/c0e674a) 21 was fun but now it&#x27;s done
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (4 commits)</summary>
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
   
-  Author: Nolen Johnson  
-  Date: Sat Oct 4 18:15:11 2025 +0200
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
 
 
 </details>
@@ -526,7 +541,37 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (33 commits)</summary>
+<summary><b>lineage/wiki</b> (38 commits)</summary>
+
+- [bc27c3a](https://github.com/LineageOS/lineage_wiki/commit/bc27c3a) wiki: Add a faq about fixing frp
+  
+  Author: Inhishonor  
+  Date: Mon Nov 3 18:27:19 2025 -0500
+
+- [eea58c6](https://github.com/LineageOS/lineage_wiki/commit/eea58c6) wiki: Add faq&#x27;s for gapps questions
+  
+  Author: Inhishonor  
+  Date: Mon Nov 3 23:25:56 2025 +0000
+
+- [cf4c291](https://github.com/LineageOS/lineage_wiki/commit/cf4c291) wiki: Promote Galaxy A71 to 23.0
+  
+  Author: Haky86  
+  Date: Mon Nov 3 15:13:57 2025 +0000
+
+- [2ec5ede](https://github.com/LineageOS/lineage_wiki/commit/2ec5ede) wiki: Link to kernel source manifest for tensor Pixels
+  
+  Author: Michael Bestas  
+  Date: Mon Nov 3 14:33:24 2025 +0000
+
+- [299347f](https://github.com/LineageOS/lineage_wiki/commit/299347f) wiki: Add Pixel 9a
+  
+  Author: Michael Bestas  
+  Date: Mon Nov 3 14:33:24 2025 +0000
+
+- [538c85e](https://github.com/LineageOS/lineage_wiki/commit/538c85e) wiki: Promote tensor Pixels to 23.0
+  
+  Author: Michael Bestas  
+  Date: Mon Nov 3 14:33:24 2025 +0000
 
 - [dff52d1](https://github.com/LineageOS/lineage_wiki/commit/dff52d1) aston: Add eSIM quirk
   
@@ -687,11 +732,6 @@
   
   Author: basamaryan  
   Date: Sun Oct 5 15:19:07 2025 -0700
-
-- [f816a22](https://github.com/LineageOS/lineage_wiki/commit/f816a22) wiki: Fix missing space before command in `pages/libvirt-qemu.md`
-  
-  Author: Benjamin Loison  
-  Date: Sat Oct 4 21:55:02 2025 +0000
 
 
 </details>
