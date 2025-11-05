@@ -115,6 +115,17 @@
 </details>
 
 <details>
+<summary><b>external/unrar</b> (1 commits)</summary>
+
+- [140cfb9](https://github.com/LineageOS/android_external_unrar/commit/140cfb9) Merge https://github.com/pmachapman/unrar into lineage-23.0
+  
+  Author: Thomas Turner  
+  Date: Mon Oct 27 22:04:13 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>frameworks/base</b> (4 commits)</summary>
 
 - [b655794c](https://github.com/LineageOS/android_frameworks_base/commit/b655794c) SystemUI: Fix media section constraints with Smartspace disabled
@@ -152,7 +163,12 @@
 </details>
 
 <details>
-<summary><b>hardware/qcom-caf/thermal-legacy-um</b> (2 commits)</summary>
+<summary><b>hardware/qcom-caf/thermal-legacy-um</b> (3 commits)</summary>
+
+- [5429698](https://github.com/LineageOS/android_hardware_qcom_thermal/commit/5429698) thermal-hal: Update skin temperature threshold for msmnile
+  
+  Author: Nick Reuter  
+  Date: Tue Nov 4 00:23:56 2025 -0600
 
 - [03845e4](https://github.com/LineageOS/android_hardware_qcom_thermal/commit/03845e4) thermal-hal: Update skin temperature threshold for kona
   
@@ -228,7 +244,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/LineageParts</b> (1 commits)</summary>
+<summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
+
+- [cd45989](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/cd45989) Regenerate contributors cloud (2025-11-02)
+  
+  Author: Kevin F. Haggerty  
+  Date: Mon Nov 3 20:49:52 2025 -0700
 
 - [56497d9](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/56497d9) Automatic translation import
   
@@ -331,7 +352,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (7 commits)</summary>
+<summary><b>vendor/lineage</b> (8 commits)</summary>
+
+- [f8445b5](https://github.com/LineageOS/android_vendor_lineage/commit/f8445b5) wipe-frp: Allow overriding FRP_BLOCK
+  
+  Author: LuK1337  
+  Date: Tue Nov 4 12:47:51 2025 +0100
 
 - [77bf379](https://github.com/LineageOS/android_vendor_lineage/commit/77bf379) apns: Add APN for Netgsm
   
@@ -372,7 +398,12 @@
 </details>
 
 <details>
-<summary><b>lineage/charter</b> (2 commits)</summary>
+<summary><b>lineage/charter</b> (3 commits)</summary>
+
+- [873eada](https://github.com/LineageOS/charter/commit/873eada) device-support-requirements: Allow prebuilt GKI
+  
+  Author: Nolen Johnson  
+  Date: Sun Oct 26 19:13:26 2025 -0400
 
 - [60e6839](https://github.com/LineageOS/charter/commit/60e6839) device-support-requirements: Allow the usage of ssg I/O scheduler
   
@@ -525,7 +556,12 @@
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
+<summary><b>lineage/scripts</b> (3 commits)</summary>
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
 
 - [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
   
@@ -541,7 +577,17 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (38 commits)</summary>
+<summary><b>lineage/wiki</b> (39 commits)</summary>
+
+- [718fb6c](https://github.com/LineageOS/lineage_wiki/commit/718fb6c) wiki: Fix wipe-frp/reboot commands
+  
+  Author: LuK1337  
+  Date: Tue Nov 4 10:02:28 2025 +0100
+
+- [9c17c89](https://github.com/LineageOS/lineage_wiki/commit/9c17c89) fixup! wiki: Add a faq about fixing frp
+  
+  Author: Tuan Anh  
+  Date: Tue Nov 4 03:29:43 2025 +0000
 
 - [bc27c3a](https://github.com/LineageOS/lineage_wiki/commit/bc27c3a) wiki: Add a faq about fixing frp
   
@@ -727,11 +773,6 @@
   
   Author: Nolen Johnson  
   Date: Tue Oct 7 00:55:38 2025 -0400
-
-- [49d55cb](https://github.com/LineageOS/lineage_wiki/commit/49d55cb) wiki: Add new martini maintainer
-  
-  Author: basamaryan  
-  Date: Sun Oct 5 15:19:07 2025 -0700
 
 
 </details>
