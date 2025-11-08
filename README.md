@@ -1,17 +1,6 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
-<summary><b>build/release</b> (1 commits)</summary>
-
-- [5708b4c](https://github.com/LineageOS/android_build_release/commit/5708b4c) Bump Security String to 2025-10-01
-  
-  Author: Michael Bestas  
-  Date: Wed Oct 8 17:19:20 2025 +0300
-
-
-</details>
-
-<details>
 <summary><b>device/lineage/sepolicy</b> (3 commits)</summary>
 
 - [bcc0b83](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83) qcom: hal_soter -&gt; vendor_hal_soter
@@ -93,23 +82,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
-
-- [4f870f9](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9) Update Chromium Webview x86_64 to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:24 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
 
 - [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
   
   Author: Kevin F. Haggerty  
   Date: Sat Oct 18 07:57:20 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
+
+- [4f870f9](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9) Update Chromium Webview x86_64 to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:24 2025 -0600
 
 
 </details>
@@ -184,12 +173,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+<summary><b>lineage-sdk</b> (1 commits)</summary>
 
-- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
+- [4276ac2](https://github.com/LineageOS/android_lineage-sdk/commit/4276ac2) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:38 2025 +0000
+  Date: Sat Nov 1 21:55:48 2025 +0000
 
 
 </details>
@@ -206,12 +195,12 @@
 </details>
 
 <details>
-<summary><b>lineage-sdk</b> (1 commits)</summary>
+<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
 
-- [4276ac2](https://github.com/LineageOS/android_lineage-sdk/commit/4276ac2) Automatic translation import
+- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Sat Nov 1 21:55:48 2025 +0000
+  Date: Thu Oct 16 04:15:38 2025 +0000
 
 
 </details>
@@ -244,7 +233,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/LineageParts</b> (2 commits)</summary>
+<summary><b>packages/apps/LineageParts</b> (3 commits)</summary>
+
+- [866bc5d](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/866bc5d) Regenerate contributors cloud (2025-11-05)
+  
+  Author: Kevin F. Haggerty  
+  Date: Thu Nov 6 05:52:55 2025 -0700
 
 - [cd45989](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/cd45989) Regenerate contributors cloud (2025-11-02)
   
@@ -354,6 +348,11 @@
 <details>
 <summary><b>vendor/lineage</b> (8 commits)</summary>
 
+- [6fe4342](https://github.com/LineageOS/android_vendor_lineage/commit/6fe4342) apns: Revert US Mobile Warp changes
+  
+  Author: _  
+  Date: Fri Nov 7 10:23:15 2025 +0000
+
 - [f8445b5](https://github.com/LineageOS/android_vendor_lineage/commit/f8445b5) wipe-frp: Allow overriding FRP_BLOCK
   
   Author: LuK1337  
@@ -388,11 +387,6 @@
   
   Author: Tim Zimmermann  
   Date: Thu Oct 23 16:53:28 2025 -0400
-
-- [ea91f9d](https://github.com/LineageOS/android_vendor_lineage/commit/ea91f9d) apns: Update for CTM(Macau)
-  
-  Author: Flicker372  
-  Date: Wed Oct 8 18:10:29 2025 +0800
 
 
 </details>
@@ -541,54 +535,17 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (4 commits)</summary>
+<summary><b>lineage/wiki</b> (44 commits)</summary>
 
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+- [1ebd275](https://github.com/LineageOS/lineage_wiki/commit/1ebd275) wiki: Correct vermeer&#x27;s ram specifications to LPDDR5X
   
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
+  Author: Leviscape  
+  Date: Sat Nov 8 01:37:23 2025 +0530
 
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+- [ad5d627](https://github.com/LineageOS/lineage_wiki/commit/ad5d627) aston/waffle: Remove eSIM quirk
   
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (3 commits)</summary>
-
-- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
-  
-  Author: Yumi Yukimura  
-  Date: Tue Nov 4 22:02:54 2025 +0000
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
-  
-  Author: LuK1337  
-  Date: Sat Oct 11 23:45:28 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (42 commits)</summary>
+  Author: Bruno Martins  
+  Date: Fri Nov 7 08:36:57 2025 +0000
 
 - [49347c5](https://github.com/LineageOS/lineage_wiki/commit/49347c5) salami/dodge: Remove eSIM quirk
   
@@ -799,6 +756,53 @@
   
   Author: Deivid21  
   Date: Fri Oct 10 17:41:00 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (4 commits)</summary>
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (3 commits)</summary>
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
+
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
+
+- [2619421](https://github.com/LineageOS/scripts/commit/2619421) device-deps-regenerator: Add lineage-23.0 branch
+  
+  Author: LuK1337  
+  Date: Sat Oct 11 23:45:28 2025 +0000
 
 
 </details>
