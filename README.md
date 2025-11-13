@@ -1,6 +1,17 @@
 ## 📜 LineageOS Source Changes (Last 30 Days)
 
 <details>
+<summary><b>android</b> (1 commits)</summary>
+
+- [fff92ac](https://github.com/LineageOS/android/commit/fff92ac) manifest: Track vendor/apn
+  
+  Author: LuK1337  
+  Date: Wed Nov 12 04:31:17 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>device/lineage/sepolicy</b> (3 commits)</summary>
 
 - [bcc0b83](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83) qcom: hal_soter -&gt; vendor_hal_soter
@@ -97,22 +108,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86</b> (2 commits)</summary>
-
-- [84c74ff](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff) Update Chromium Webview x86 to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:58:08 2025 -0700
-
-- [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:20 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86_64</b> (2 commits)</summary>
 
 - [69244c6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6) Update Chromium Webview x86_64 to 142.0.7444.138
@@ -124,6 +119,22 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Oct 18 07:57:24 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (2 commits)</summary>
+
+- [84c74ff](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff) Update Chromium Webview x86 to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Nov 8 08:58:08 2025 -0700
+
+- [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:20 2025 -0600
 
 
 </details>
@@ -356,6 +367,22 @@
 </details>
 
 <details>
+<summary><b>vendor/apn</b> (2 commits)</summary>
+
+- [2341ff2](https://github.com/LineageOS/android_vendor_apn/commit/2341ff2) Add a helper to pretty format apn xmls and run it
+  
+  Author: Arian  
+  Date: Tue Nov 11 10:34:07 2025 +0100
+
+- [ebf7f73](https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73) Initial commit
+  
+  Author: LuK1337  
+  Date: Tue Nov 11 10:34:07 2025 +0100
+
+
+</details>
+
+<details>
 <summary><b>tools/extract-utils</b> (3 commits)</summary>
 
 - [3f351b8](https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8) extract_utils: sort-blobs-list.py: Use a single regex to get source name
@@ -388,7 +415,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (8 commits)</summary>
+<summary><b>vendor/lineage</b> (9 commits)</summary>
+
+- [d48b990](https://github.com/LineageOS/android_vendor_lineage/commit/d48b990) Move APNs data to vendor/apn
+  
+  Author: LuK1337  
+  Date: Wed Nov 12 04:31:10 2025 +0000
 
 - [6fe4342](https://github.com/LineageOS/android_vendor_lineage/commit/6fe4342) apns: Revert US Mobile Warp changes
   
@@ -466,53 +498,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (8 commits)</summary>
-
-- [136c0a7](https://github.com/LineageOS/mirror/commit/136c0a7) Updated aosp-minimal to 11-Nov-2025 23:22 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 00:22:50 2025 +0100
-
-- [f918fe2](https://github.com/LineageOS/mirror/commit/f918fe2) aosp-minimal: Include release branches
-  
-  Author: Tim Schumacher  
-  Date: Tue Nov 11 23:20:32 2025 +0000
-
-- [d7ea5e6](https://github.com/LineageOS/mirror/commit/d7ea5e6) Updated to 11-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 00:01:34 2025 +0100
-
-- [7556153](https://github.com/LineageOS/mirror/commit/7556153) Updated to 09-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Nov 10 00:01:27 2025 +0100
-
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
-
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
-
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
-
-
-</details>
-
-<details>
 <summary><b>lineage/hudson</b> (21 commits)</summary>
+
+- [362cfeb](https://github.com/LineageOS/hudson/commit/362cfeb) Two-face
+  
+  Author: Andrey Sprynga  
+  Date: Wed Nov 12 03:43:47 2025 +0000
 
 - [c529ac8](https://github.com/LineageOS/hudson/commit/c529ac8) Regenerate device dependency mappings
   
@@ -614,10 +605,56 @@
   Author: LineageOS Infra  
   Date: Tue Oct 14 06:55:48 2025 +0000
 
-- [1fb3447](https://github.com/LineageOS/hudson/commit/1fb3447) tucana: Promote to 23.0
+
+</details>
+
+<details>
+<summary><b>lineage/mirror</b> (9 commits)</summary>
+
+- [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
   
-  Author: Alexander Baransky  
-  Date: Mon Oct 13 19:22:19 2025 +0000
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 12:02:11 2025 +0100
+
+- [136c0a7](https://github.com/LineageOS/mirror/commit/136c0a7) Updated aosp-minimal to 11-Nov-2025 23:22 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 00:22:50 2025 +0100
+
+- [f918fe2](https://github.com/LineageOS/mirror/commit/f918fe2) aosp-minimal: Include release branches
+  
+  Author: Tim Schumacher  
+  Date: Tue Nov 11 23:20:32 2025 +0000
+
+- [d7ea5e6](https://github.com/LineageOS/mirror/commit/d7ea5e6) Updated to 11-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 00:01:34 2025 +0100
+
+- [7556153](https://github.com/LineageOS/mirror/commit/7556153) Updated to 09-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Nov 10 00:01:27 2025 +0100
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Thu Oct 16 12:01:54 2025 +0200
+
+- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Oct 15 12:01:37 2025 +0200
 
 
 </details>
@@ -644,7 +681,17 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (42 commits)</summary>
+<summary><b>lineage/wiki</b> (43 commits)</summary>
+
+- [4567d9f](https://github.com/LineageOS/lineage_wiki/commit/4567d9f) wiki: Add Changing screen resolution quirk for some devices
+  
+  Author: Andrey Sprynga  
+  Date: Wed Nov 12 20:48:56 2025 +0700
+
+- [2bccf08](https://github.com/LineageOS/lineage_wiki/commit/2bccf08) wiki: Add Nubia X
+  
+  Author: Andrey Sprynga  
+  Date: Wed Nov 12 03:53:48 2025 +0000
 
 - [0c60a8a](https://github.com/LineageOS/lineage_wiki/commit/0c60a8a) wiki: Rewrite extracting proprietary blobs page
   
@@ -850,11 +897,6 @@
   
   Author: BrainKub  
   Date: Tue Oct 14 14:08:03 2025 +0000
-
-- [b22a204](https://github.com/LineageOS/lineage_wiki/commit/b22a204) devices: tucana: Promote to 23.0
-  
-  Author: Alexander Baransky  
-  Date: Mon Oct 13 22:22:43 2025 +0300
 
 
 </details>
