@@ -12,7 +12,7 @@
 </details>
 
 <details>
-<summary><b>device/lineage/sepolicy</b> (3 commits)</summary>
+<summary><b>device/lineage/sepolicy</b> (2 commits)</summary>
 
 - [bcc0b83](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83) qcom: hal_soter -&gt; vendor_hal_soter
   
@@ -23,11 +23,6 @@
   
   Author: dianlujitao  
   Date: Wed Oct 29 08:04:32 2025 +0000
-
-- [253ba44](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/253ba44) Revert &quot;sepolicy: Label ro.telephony.use_old_mnc_mcc_format&quot;
-  
-  Author: Michael Bestas  
-  Date: Wed Oct 15 21:13:01 2025 +0300
 
 
 </details>
@@ -60,22 +55,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (2 commits)</summary>
-
-- [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:58:03 2025 -0700
-
-- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:16 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (2 commits)</summary>
 
 - [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
@@ -87,6 +66,22 @@
   
   Author: Kevin F. Haggerty  
   Date: Fri Oct 17 12:55:28 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (2 commits)</summary>
+
+- [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Nov 8 08:58:03 2025 -0700
+
+- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:16 2025 -0600
 
 
 </details>
@@ -108,22 +103,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (2 commits)</summary>
-
-- [69244c6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6) Update Chromium Webview x86_64 to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:58:13 2025 -0700
-
-- [4f870f9](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9) Update Chromium Webview x86_64 to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:24 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86</b> (2 commits)</summary>
 
 - [84c74ff](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff) Update Chromium Webview x86 to 142.0.7444.138
@@ -135,6 +114,22 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Oct 18 07:57:20 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (2 commits)</summary>
+
+- [69244c6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6) Update Chromium Webview x86_64 to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Nov 8 08:58:13 2025 -0700
+
+- [4f870f9](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9) Update Chromium Webview x86_64 to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:24 2025 -0600
 
 
 </details>
@@ -167,17 +162,6 @@
   
   Author: LineageOS Infra  
   Date: Thu Oct 16 04:15:34 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>frameworks/opt/telephony</b> (1 commits)</summary>
-
-- [44c4732a](https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44c4732a) Revert &quot;RIL: Fix manual network selection with old modem&quot;
-  
-  Author: Michael Bestas  
-  Date: Wed Oct 15 21:12:02 2025 +0300
 
 
 </details>
@@ -367,27 +351,6 @@
 </details>
 
 <details>
-<summary><b>vendor/apn</b> (3 commits)</summary>
-
-- [060d567](https://github.com/LineageOS/android_vendor_apn/commit/060d567) Add WE EG
-  
-  Author: keosh1  
-  Date: Thu Nov 13 21:27:36 2025 +0000
-
-- [2341ff2](https://github.com/LineageOS/android_vendor_apn/commit/2341ff2) Add a helper to pretty format apn xmls and run it
-  
-  Author: Arian  
-  Date: Tue Nov 11 10:34:07 2025 +0100
-
-- [ebf7f73](https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73) Initial commit
-  
-  Author: LuK1337  
-  Date: Tue Nov 11 10:34:07 2025 +0100
-
-
-</details>
-
-<details>
 <summary><b>tools/extract-utils</b> (3 commits)</summary>
 
 - [3f351b8](https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8) extract_utils: sort-blobs-list.py: Use a single regex to get source name
@@ -409,6 +372,27 @@
 </details>
 
 <details>
+<summary><b>vendor/apn</b> (3 commits)</summary>
+
+- [060d567](https://github.com/LineageOS/android_vendor_apn/commit/060d567) Add WE EG
+  
+  Author: keosh1  
+  Date: Thu Nov 13 21:27:36 2025 +0000
+
+- [2341ff2](https://github.com/LineageOS/android_vendor_apn/commit/2341ff2) Add a helper to pretty format apn xmls and run it
+  
+  Author: Arian  
+  Date: Tue Nov 11 10:34:07 2025 +0100
+
+- [ebf7f73](https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73) Initial commit
+  
+  Author: LuK1337  
+  Date: Tue Nov 11 10:34:07 2025 +0100
+
+
+</details>
+
+<details>
 <summary><b>vendor/crowdin</b> (1 commits)</summary>
 
 - [74fb135](https://github.com/LineageOS/android_vendor_crowdin/commit/74fb135) Automatic translation import
@@ -420,7 +404,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (9 commits)</summary>
+<summary><b>vendor/lineage</b> (10 commits)</summary>
+
+- [5e5b332](https://github.com/LineageOS/android_vendor_lineage/commit/5e5b332) products: gsi_car*: Add credential permission to artifact list
+  
+  Author: Nolen Johnson  
+  Date: Fri Nov 14 21:04:14 2025 +0000
 
 - [d48b990](https://github.com/LineageOS/android_vendor_lineage/commit/d48b990) Move APNs data to vendor/apn
   
@@ -471,6 +460,17 @@
 </details>
 
 <details>
+<summary><b>lineage/charter</b> (1 commits)</summary>
+
+- [873eada](https://github.com/LineageOS/charter/commit/873eada) device-support-requirements: Allow prebuilt GKI
+  
+  Author: Nolen Johnson  
+  Date: Sun Oct 26 19:13:26 2025 -0400
+
+
+</details>
+
+<details>
 <summary><b>lineage/crowdin</b> (1 commits)</summary>
 
 - [70783f1](https://github.com/LineageOS/cm_crowdin/commit/70783f1) config: Add OplusEsimSwitcher
@@ -482,28 +482,7 @@
 </details>
 
 <details>
-<summary><b>lineage/charter</b> (3 commits)</summary>
-
-- [873eada](https://github.com/LineageOS/charter/commit/873eada) device-support-requirements: Allow prebuilt GKI
-  
-  Author: Nolen Johnson  
-  Date: Sun Oct 26 19:13:26 2025 -0400
-
-- [60e6839](https://github.com/LineageOS/charter/commit/60e6839) device-support-requirements: Allow the usage of ssg I/O scheduler
-  
-  Author: ExtremeXT  
-  Date: Wed Oct 15 08:31:50 2025 +0000
-
-- [cd37d09](https://github.com/LineageOS/charter/commit/cd37d09) device-support-requirements: Allow the usage of energy_aware and energy_step governors
-  
-  Author: ExtremeXT  
-  Date: Wed Oct 15 08:31:42 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (19 commits)</summary>
+<summary><b>lineage/hudson</b> (18 commits)</summary>
 
 - [362cfeb](https://github.com/LineageOS/hudson/commit/362cfeb) Two-face
   
@@ -595,16 +574,11 @@
   Author: inferno0230  
   Date: Thu Oct 16 21:35:06 2025 +0530
 
-- [8c53562](https://github.com/LineageOS/hudson/commit/8c53562) Regenerate device dependency mappings
-  
-  Author: LineageOS Infra  
-  Date: Wed Oct 15 23:30:46 2025 +0000
-
 
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (9 commits)</summary>
+<summary><b>lineage/mirror</b> (8 commits)</summary>
 
 - [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
   
@@ -646,10 +620,26 @@
   Author: Tim Schumacher  
   Date: Thu Oct 16 12:01:54 2025 +0200
 
-- [b838e95](https://github.com/LineageOS/mirror/commit/b838e95) Updated to 15-Oct-2025 10:01 UTC
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (3 commits)</summary>
+
+- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
   
-  Author: Tim Schumacher  
-  Date: Wed Oct 15 12:01:37 2025 +0200
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:50:50 2025 -0700
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
+
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
 
 
 </details>
@@ -866,27 +856,6 @@
   
   Author: inferno0230  
   Date: Thu Oct 16 17:50:23 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (3 commits)</summary>
-
-- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:50:50 2025 -0700
-
-- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
-  
-  Author: Yumi Yukimura  
-  Date: Tue Nov 4 22:02:54 2025 +0000
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
 
 
 </details>
