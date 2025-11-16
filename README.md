@@ -71,22 +71,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (2 commits)</summary>
-
-- [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:58:03 2025 -0700
-
-- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:16 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (2 commits)</summary>
 
 - [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
@@ -98,6 +82,22 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Oct 18 07:57:11 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (2 commits)</summary>
+
+- [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Nov 8 08:58:03 2025 -0700
+
+- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:16 2025 -0600
 
 
 </details>
@@ -148,6 +148,11 @@
 <details>
 <summary><b>frameworks/base</b> (3 commits)</summary>
 
+- [90dca394](https://github.com/LineageOS/android_frameworks_base/commit/90dca394) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:17 2025 +0000
+
 - [b655794c](https://github.com/LineageOS/android_frameworks_base/commit/b655794c) SystemUI: Fix media section constraints with Smartspace disabled
   
   Author: LuK1337  
@@ -157,11 +162,6 @@
   
   Author: LuK1337  
   Date: Sun Nov 2 01:17:37 2025 +0100
-
-- [ce12674e](https://github.com/LineageOS/android_frameworks_base/commit/ce12674e) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:34 2025 +0000
 
 
 </details>
@@ -188,18 +188,12 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Aperture</b> (1 commits)</summary>
+<summary><b>lineage-sdk</b> (2 commits)</summary>
 
-- [12f690d](https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d) Automatic translation import
+- [935e689](https://github.com/LineageOS/android_lineage-sdk/commit/935e689) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:38 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage-sdk</b> (1 commits)</summary>
+  Date: Sat Nov 15 20:11:24 2025 +0000
 
 - [4276ac2](https://github.com/LineageOS/android_lineage-sdk/commit/4276ac2) Automatic translation import
   
@@ -210,45 +204,45 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Camelot</b> (1 commits)</summary>
+<summary><b>packages/apps/DeskClock</b> (1 commits)</summary>
 
-- [f3007f2](https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2) Automatic translation import
+- [1cb5d3d](https://github.com/LineageOS/android_packages_apps_DeskClock/commit/1cb5d3d) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:38 2025 +0000
+  Date: Sat Nov 15 20:11:25 2025 +0000
 
 
 </details>
 
 <details>
-<summary><b>packages/apps/Etar</b> (1 commits)</summary>
-
-- [d7da2d8](https://github.com/LineageOS/android_packages_apps_Etar/commit/d7da2d8) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:39 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Glimpse</b> (2 commits)</summary>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
 - [7bf0e49](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Sat Nov 1 21:55:50 2025 +0000
 
-- [c20bdc7](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7) Automatic translation import
+
+</details>
+
+<details>
+<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
+
+- [7736f3b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/7736f3b) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:40 2025 +0000
+  Date: Sat Nov 15 20:11:26 2025 +0000
 
 
 </details>
 
 <details>
 <summary><b>packages/apps/LineageParts</b> (3 commits)</summary>
+
+- [defaecb](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/defaecb) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:27 2025 +0000
 
 - [866bc5d](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/866bc5d) Regenerate contributors cloud (2025-11-05)
   
@@ -259,22 +253,6 @@
   
   Author: Kevin F. Haggerty  
   Date: Mon Nov 3 20:49:52 2025 -0700
-
-- [56497d9](https://github.com/LineageOS/android_packages_apps_LineageParts/commit/56497d9) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:40 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>packages/apps/Recorder</b> (1 commits)</summary>
-
-- [35cf18a](https://github.com/LineageOS/android_packages_apps_Recorder/commit/35cf18a) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:41 2025 +0000
 
 
 </details>
@@ -293,15 +271,15 @@
 <details>
 <summary><b>packages/apps/Twelve</b> (2 commits)</summary>
 
+- [4c1fd1f](https://github.com/LineageOS/android_packages_apps_Twelve/commit/4c1fd1f) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:28 2025 +0000
+
 - [ca1535f](https://github.com/LineageOS/android_packages_apps_Twelve/commit/ca1535f) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Sat Nov 1 21:55:51 2025 +0000
-
-- [36a44d6](https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:41 2025 +0000
 
 
 </details>
@@ -309,10 +287,10 @@
 <details>
 <summary><b>packages/apps/Updater</b> (1 commits)</summary>
 
-- [2b23036](https://github.com/LineageOS/android_packages_apps_Updater/commit/2b23036) Automatic translation import
+- [d24eeaa](https://github.com/LineageOS/android_packages_apps_Updater/commit/d24eeaa) Automatic translation import
   
   Author: LineageOS Infra  
-  Date: Thu Oct 16 04:15:42 2025 +0000
+  Date: Sat Nov 15 20:11:29 2025 +0000
 
 
 </details>
@@ -329,7 +307,12 @@
 </details>
 
 <details>
-<summary><b>packages/resources/devicesettings</b> (1 commits)</summary>
+<summary><b>packages/resources/devicesettings</b> (2 commits)</summary>
+
+- [2175ffe](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/2175ffe) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:30 2025 +0000
 
 - [b9895c3](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b9895c3) Automatic translation import
   
@@ -393,7 +376,12 @@
 </details>
 
 <details>
-<summary><b>vendor/crowdin</b> (1 commits)</summary>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
+
+- [4ff0272](https://github.com/LineageOS/android_vendor_crowdin/commit/4ff0272) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:37 2025 +0000
 
 - [74fb135](https://github.com/LineageOS/android_vendor_crowdin/commit/74fb135) Automatic translation import
   
@@ -482,7 +470,7 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (18 commits)</summary>
+<summary><b>lineage/hudson</b> (16 commits)</summary>
 
 - [362cfeb](https://github.com/LineageOS/hudson/commit/362cfeb) Two-face
   
@@ -564,21 +552,11 @@
   Author: ExtremeXT  
   Date: Fri Oct 17 01:00:32 2025 +0000
 
-- [c30d8b9](https://github.com/LineageOS/hudson/commit/c30d8b9) Regenerate device dependency mappings
-  
-  Author: LineageOS Infra  
-  Date: Thu Oct 16 23:30:39 2025 +0000
-
-- [d125237](https://github.com/LineageOS/hudson/commit/d125237) hudson: Split aston models
-  
-  Author: inferno0230  
-  Date: Thu Oct 16 21:35:06 2025 +0530
-
 
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (8 commits)</summary>
+<summary><b>lineage/mirror</b> (7 commits)</summary>
 
 - [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
   
@@ -615,11 +593,6 @@
   Author: Tim Schumacher  
   Date: Sun Oct 19 12:01:24 2025 +0200
 
-- [a050a59](https://github.com/LineageOS/mirror/commit/a050a59) Updated to 16-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Thu Oct 16 12:01:54 2025 +0200
-
 
 </details>
 
@@ -645,7 +618,18 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (42 commits)</summary>
+<summary><b>lineage/website</b> (1 commits)</summary>
+
+- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
+  
+  Author: pnguyen879  
+  Date: Sat Oct 18 07:04:04 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/wiki</b> (41 commits)</summary>
 
 - [4567d9f](https://github.com/LineageOS/lineage_wiki/commit/4567d9f) wiki: Add Changing screen resolution quirk for some devices
   
@@ -851,22 +835,6 @@
   
   Author: ExtremeXT  
   Date: Fri Oct 17 01:41:00 2025 +0000
-
-- [925c95c](https://github.com/LineageOS/lineage_wiki/commit/925c95c) wiki: Split aston into variants
-  
-  Author: inferno0230  
-  Date: Thu Oct 16 17:50:23 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/website</b> (1 commits)</summary>
-
-- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
-  
-  Author: pnguyen879  
-  Date: Sat Oct 18 07:04:04 2025 +0000
 
 
 </details>
