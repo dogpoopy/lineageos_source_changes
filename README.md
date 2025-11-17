@@ -55,22 +55,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (2 commits)</summary>
-
-- [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:56:50 2025 -0700
-
-- [8a0b1f5](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5) Update Chromium Webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Oct 17 12:55:28 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (2 commits)</summary>
 
 - [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
@@ -82,6 +66,17 @@
   
   Author: Kevin F. Haggerty  
   Date: Sat Oct 18 07:57:11 2025 -0600
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:56:50 2025 -0700
 
 
 </details>
@@ -470,7 +465,7 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (16 commits)</summary>
+<summary><b>lineage/hudson</b> (12 commits)</summary>
 
 - [362cfeb](https://github.com/LineageOS/hudson/commit/362cfeb) Two-face
   
@@ -532,25 +527,26 @@
   Author: Lunark :3  
   Date: Mon Oct 20 23:17:15 2025 -0500
 
-- [864c910](https://github.com/LineageOS/hudson/commit/864c910) Regenerate device dependency mappings
-  
-  Author: LineageOS Infra  
-  Date: Fri Oct 17 23:30:41 2025 +0000
 
-- [86aeb8e](https://github.com/LineageOS/hudson/commit/86aeb8e) waffle: Promote to 23.0
-  
-  Author: chandu078  
-  Date: Fri Oct 17 08:09:19 2025 +0000
+</details>
 
-- [86b25f9](https://github.com/LineageOS/hudson/commit/86b25f9) hudson: Ship avalon
-  
-  Author: anky894  
-  Date: Fri Oct 17 07:46:13 2025 +0000
+<details>
+<summary><b>lineage/scripts</b> (3 commits)</summary>
 
-- [7a9f215](https://github.com/LineageOS/hudson/commit/7a9f215) hudson: Add Galaxy S20 Devices
+- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
   
-  Author: ExtremeXT  
-  Date: Fri Oct 17 01:00:32 2025 +0000
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:50:50 2025 -0700
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
+
+- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Oct 18 07:57:50 2025 -0600
 
 
 </details>
@@ -597,39 +593,7 @@
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (3 commits)</summary>
-
-- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:50:50 2025 -0700
-
-- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
-  
-  Author: Yumi Yukimura  
-  Date: Tue Nov 4 22:02:54 2025 +0000
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>lineage/website</b> (1 commits)</summary>
-
-- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
-  
-  Author: pnguyen879  
-  Date: Sat Oct 18 07:04:04 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (41 commits)</summary>
+<summary><b>lineage/wiki</b> (37 commits)</summary>
 
 - [4567d9f](https://github.com/LineageOS/lineage_wiki/commit/4567d9f) wiki: Add Changing screen resolution quirk for some devices
   
@@ -816,25 +780,16 @@
   Author: LuK1337  
   Date: Sun Oct 19 18:03:59 2025 +0200
 
-- [d420d72](https://github.com/LineageOS/lineage_wiki/commit/d420d72) wiki: Hide `fastboot` for devices using Odin install method
-  
-  Author: LuK1337  
-  Date: Fri Oct 17 14:56:15 2025 +0200
 
-- [50f2737](https://github.com/LineageOS/lineage_wiki/commit/50f2737) devices: waffle: Promote to 23.0
-  
-  Author: chandu078  
-  Date: Fri Oct 17 08:13:29 2025 +0000
+</details>
 
-- [5ab0fef](https://github.com/LineageOS/lineage_wiki/commit/5ab0fef) wiki: Add OnePlus Nord 4 (avalon)
-  
-  Author: anky894  
-  Date: Fri Oct 17 07:46:12 2025 +0000
+<details>
+<summary><b>lineage/website</b> (1 commits)</summary>
 
-- [7987c5e](https://github.com/LineageOS/lineage_wiki/commit/7987c5e) wiki: Add Galaxy S20 Devices
+- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
   
-  Author: ExtremeXT  
-  Date: Fri Oct 17 01:41:00 2025 +0000
+  Author: pnguyen879  
+  Date: Sat Oct 18 07:04:04 2025 +0000
 
 
 </details>
