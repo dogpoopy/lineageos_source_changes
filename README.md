@@ -12,6 +12,17 @@
 </details>
 
 <details>
+<summary><b>build/release</b> (1 commits)</summary>
+
+- [636c4ea](https://github.com/LineageOS/android_build_release/commit/636c4ea) Bump Security String to 2025-11-01
+  
+  Author: Michael Bestas  
+  Date: Wed Nov 12 10:48:34 2025 +0200
+
+
+</details>
+
+<details>
 <summary><b>device/lineage/sepolicy</b> (2 commits)</summary>
 
 - [bcc0b83](https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83) qcom: hal_soter -&gt; vendor_hal_soter
@@ -55,22 +66,6 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (2 commits)</summary>
-
-- [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:57:57 2025 -0700
-
-- [10dcbc3](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3) Update Chromium Webview arm to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:11 2025 -0600
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
@@ -82,49 +77,45 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (2 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
 
 - [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
   Date: Sat Nov 8 08:58:03 2025 -0700
 
-- [30034c7](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7) Update Chromium Webview arm64 to 141.0.7390.111
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:16 2025 -0600
+  Date: Sat Nov 8 08:57:57 2025 -0700
 
 
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86</b> (2 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
 
 - [84c74ff](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff) Update Chromium Webview x86 to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
   Date: Sat Nov 8 08:58:08 2025 -0700
 
-- [c1498b6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6) Update Chromium Webview x86 to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:20 2025 -0600
-
 
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (2 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
 
 - [69244c6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6) Update Chromium Webview x86_64 to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
   Date: Sat Nov 8 08:58:13 2025 -0700
-
-- [4f870f9](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9) Update Chromium Webview x86_64 to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:24 2025 -0600
 
 
 </details>
@@ -302,6 +293,17 @@
 </details>
 
 <details>
+<summary><b>packages/modules/Bluetooth</b> (1 commits)</summary>
+
+- [eceb06387](https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/eceb06387) Merge tag &#x27;android-security-15.0.0_r11&#x27; into staging/lineage-22.2_merge-android-security-15.0.0_r11
+  
+  Author: Michael Bestas  
+  Date: Wed Nov 12 10:43:16 2025 +0200
+
+
+</details>
+
+<details>
 <summary><b>packages/resources/devicesettings</b> (2 commits)</summary>
 
 - [2175ffe](https://github.com/LineageOS/android_packages_resources_devicesettings/commit/2175ffe) Automatic translation import
@@ -387,7 +389,12 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (10 commits)</summary>
+<summary><b>vendor/lineage</b> (11 commits)</summary>
+
+- [fc879c9](https://github.com/LineageOS/android_vendor_lineage/commit/fc879c9) vars: November 2025 Security update
+  
+  Author: Michael Bestas  
+  Date: Mon Nov 17 10:58:54 2025 +0000
 
 - [5e5b332](https://github.com/LineageOS/android_vendor_lineage/commit/5e5b332) products: gsi_car*: Add credential permission to artifact list
   
@@ -526,68 +533,6 @@
   
   Author: Lunark :3  
   Date: Mon Oct 20 23:17:15 2025 -0500
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (3 commits)</summary>
-
-- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:50:50 2025 -0700
-
-- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
-  
-  Author: Yumi Yukimura  
-  Date: Tue Nov 4 22:02:54 2025 +0000
-
-- [196059e](https://github.com/LineageOS/scripts/commit/196059e) build-webview: Update default webview to 141.0.7390.111
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Oct 18 07:57:50 2025 -0600
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b> (7 commits)</summary>
-
-- [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 12:02:11 2025 +0100
-
-- [136c0a7](https://github.com/LineageOS/mirror/commit/136c0a7) Updated aosp-minimal to 11-Nov-2025 23:22 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 00:22:50 2025 +0100
-
-- [f918fe2](https://github.com/LineageOS/mirror/commit/f918fe2) aosp-minimal: Include release branches
-  
-  Author: Tim Schumacher  
-  Date: Tue Nov 11 23:20:32 2025 +0000
-
-- [d7ea5e6](https://github.com/LineageOS/mirror/commit/d7ea5e6) Updated to 11-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 00:01:34 2025 +0100
-
-- [7556153](https://github.com/LineageOS/mirror/commit/7556153) Updated to 09-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Nov 10 00:01:27 2025 +0100
-
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
-
-- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Sun Oct 19 12:01:24 2025 +0200
 
 
 </details>
@@ -784,12 +729,74 @@
 </details>
 
 <details>
+<summary><b>lineage/mirror</b> (8 commits)</summary>
+
+- [1d16a33](https://github.com/LineageOS/mirror/commit/1d16a33) Updated to 17-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Nov 18 00:01:35 2025 +0100
+
+- [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 12:02:11 2025 +0100
+
+- [136c0a7](https://github.com/LineageOS/mirror/commit/136c0a7) Updated aosp-minimal to 11-Nov-2025 23:22 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 00:22:50 2025 +0100
+
+- [f918fe2](https://github.com/LineageOS/mirror/commit/f918fe2) aosp-minimal: Include release branches
+  
+  Author: Tim Schumacher  
+  Date: Tue Nov 11 23:20:32 2025 +0000
+
+- [d7ea5e6](https://github.com/LineageOS/mirror/commit/d7ea5e6) Updated to 11-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 00:01:34 2025 +0100
+
+- [7556153](https://github.com/LineageOS/mirror/commit/7556153) Updated to 09-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Nov 10 00:01:27 2025 +0100
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+- [faee62f](https://github.com/LineageOS/mirror/commit/faee62f) Updated to 19-Oct-2025 10:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Sun Oct 19 12:01:24 2025 +0200
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:50:50 2025 -0700
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>lineage/website</b> (1 commits)</summary>
 
-- [cb99d09](https://github.com/LineageOS/www/commit/cb99d09) www: drop unused developer relations
+- [8591b4f](https://github.com/LineageOS/www/commit/8591b4f) www: Update homepage images for themes
   
-  Author: pnguyen879  
-  Date: Sat Oct 18 07:04:04 2025 +0000
+  Author: Asher S  
+  Date: Mon Nov 17 23:56:37 2025 +0000
 
 
 </details>
