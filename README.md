@@ -66,23 +66,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
-
-- [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:56:50 2025 -0700
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
 
 - [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
   Date: Sat Nov 8 08:57:57 2025 -0700
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+
+- [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:56:50 2025 -0700
 
 
 </details>
@@ -201,23 +201,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
-
-- [7736f3b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/7736f3b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sat Nov 15 20:11:26 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
 - [7bf0e49](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Sat Nov 1 21:55:50 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
+
+- [7736f3b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/7736f3b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:26 2025 +0000
 
 
 </details>
@@ -331,27 +331,6 @@
 </details>
 
 <details>
-<summary><b>vendor/apn</b> (3 commits)</summary>
-
-- [060d567](https://github.com/LineageOS/android_vendor_apn/commit/060d567) Add WE EG
-  
-  Author: keosh1  
-  Date: Thu Nov 13 21:27:36 2025 +0000
-
-- [2341ff2](https://github.com/LineageOS/android_vendor_apn/commit/2341ff2) Add a helper to pretty format apn xmls and run it
-  
-  Author: Arian  
-  Date: Tue Nov 11 10:34:07 2025 +0100
-
-- [ebf7f73](https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73) Initial commit
-  
-  Author: LuK1337  
-  Date: Tue Nov 11 10:34:07 2025 +0100
-
-
-</details>
-
-<details>
 <summary><b>tools/extract-utils</b> (3 commits)</summary>
 
 - [3f351b8](https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8) extract_utils: sort-blobs-list.py: Use a single regex to get source name
@@ -368,6 +347,27 @@
   
   Author: Sebastiano Barezzi  
   Date: Thu Oct 30 23:08:25 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>vendor/apn</b> (3 commits)</summary>
+
+- [060d567](https://github.com/LineageOS/android_vendor_apn/commit/060d567) Add WE EG
+  
+  Author: keosh1  
+  Date: Thu Nov 13 21:27:36 2025 +0000
+
+- [2341ff2](https://github.com/LineageOS/android_vendor_apn/commit/2341ff2) Add a helper to pretty format apn xmls and run it
+  
+  Author: Arian  
+  Date: Tue Nov 11 10:34:07 2025 +0100
+
+- [ebf7f73](https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73) Initial commit
+  
+  Author: LuK1337  
+  Date: Tue Nov 11 10:34:07 2025 +0100
 
 
 </details>
@@ -472,23 +472,12 @@
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
+<summary><b>lineage/mirror</b> (9 commits)</summary>
 
-- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
+- [78d0a5a](https://github.com/LineageOS/mirror/commit/78d0a5a) Updated aosp-minimal to 19-Nov-2025 11:02 UTC
   
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:50:50 2025 -0700
-
-- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
-  
-  Author: Yumi Yukimura  
-  Date: Tue Nov 4 22:02:54 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/mirror</b> (8 commits)</summary>
+  Author: Tim Schumacher  
+  Date: Wed Nov 19 12:02:00 2025 +0100
 
 - [8c18f7d](https://github.com/LineageOS/mirror/commit/8c18f7d) Updated aosp-minimal to 18-Nov-2025 23:01 UTC
   
@@ -600,7 +589,39 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (36 commits)</summary>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:50:50 2025 -0700
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/website</b> (1 commits)</summary>
+
+- [8591b4f](https://github.com/LineageOS/www/commit/8591b4f) www: Update homepage images for themes
+  
+  Author: Asher S  
+  Date: Mon Nov 17 23:56:37 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/wiki</b> (37 commits)</summary>
+
+- [3a49e26](https://github.com/LineageOS/lineage_wiki/commit/3a49e26) wiki: quirks: encryption: Fix typo
+  
+  Author: Ferdinand Saurenbach  
+  Date: Wed Nov 19 19:32:09 2025 +0100
 
 - [4567d9f](https://github.com/LineageOS/lineage_wiki/commit/4567d9f) wiki: Add Changing screen resolution quirk for some devices
   
@@ -781,17 +802,6 @@
   
   Author: LuK1337  
   Date: Tue Oct 21 09:16:32 2025 +0200
-
-
-</details>
-
-<details>
-<summary><b>lineage/website</b> (1 commits)</summary>
-
-- [8591b4f](https://github.com/LineageOS/www/commit/8591b4f) www: Update homepage images for themes
-  
-  Author: Asher S  
-  Date: Mon Nov 17 23:56:37 2025 +0000
 
 
 </details>
