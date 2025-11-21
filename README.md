@@ -66,23 +66,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:57:57 2025 -0700
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
   Date: Fri Nov 7 15:56:50 2025 -0700
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Nov 8 08:57:57 2025 -0700
 
 
 </details>
@@ -99,23 +99,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
-
-- [69244c6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6) Update Chromium Webview x86_64 to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:58:13 2025 -0700
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/x86</b> (1 commits)</summary>
 
 - [84c74ff](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff) Update Chromium Webview x86 to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
   Date: Sat Nov 8 08:58:08 2025 -0700
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/x86_64</b> (1 commits)</summary>
+
+- [69244c6](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6) Update Chromium Webview x86_64 to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Nov 8 08:58:13 2025 -0700
 
 
 </details>
@@ -523,7 +523,7 @@
 </details>
 
 <details>
-<summary><b>lineage/hudson</b> (12 commits)</summary>
+<summary><b>lineage/hudson</b> (10 commits)</summary>
 
 - [362cfeb](https://github.com/LineageOS/hudson/commit/362cfeb) Two-face
   
@@ -575,16 +575,6 @@
   Author: LineageOS Infra  
   Date: Mon Oct 27 23:30:44 2025 +0000
 
-- [ed5ac0b](https://github.com/LineageOS/hudson/commit/ed5ac0b) 彩虹
-  
-  Author: inferno0230  
-  Date: Tue Oct 21 16:08:28 2025 +0000
-
-- [4223a51](https://github.com/LineageOS/hudson/commit/4223a51) hudson: Ship vermeer
-  
-  Author: Lunark :3  
-  Date: Mon Oct 20 23:17:15 2025 -0500
-
 
 </details>
 
@@ -605,18 +595,7 @@
 </details>
 
 <details>
-<summary><b>lineage/website</b> (1 commits)</summary>
-
-- [8591b4f](https://github.com/LineageOS/www/commit/8591b4f) www: Update homepage images for themes
-  
-  Author: Asher S  
-  Date: Mon Nov 17 23:56:37 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (37 commits)</summary>
+<summary><b>lineage/wiki</b> (33 commits)</summary>
 
 - [3a49e26](https://github.com/LineageOS/lineage_wiki/commit/3a49e26) wiki: quirks: encryption: Fix typo
   
@@ -783,25 +762,16 @@
   Author: Inhishonor  
   Date: Thu Oct 23 17:35:12 2025 +0000
 
-- [4c0d20c](https://github.com/LineageOS/lineage_wiki/commit/4c0d20c) wiki: Add OnePlus Pad Pro/2 (caihong)
-  
-  Author: inferno0230  
-  Date: Tue Oct 21 16:23:32 2025 +0000
 
-- [e6ff66c](https://github.com/LineageOS/lineage_wiki/commit/e6ff66c) wiki: Add POCO F6 Pro / Redmi K70 (vermeer)
-  
-  Author: Lunark :3  
-  Date: Tue Oct 21 17:09:39 2025 +0200
+</details>
 
-- [0f22dd4](https://github.com/LineageOS/lineage_wiki/commit/0f22dd4) wiki: Add unit test for image ext and size
-  
-  Author: LuK1337  
-  Date: Tue Oct 21 09:16:32 2025 +0200
+<details>
+<summary><b>lineage/website</b> (1 commits)</summary>
 
-- [38dde35](https://github.com/LineageOS/lineage_wiki/commit/38dde35) wiki: Resize dubai/lemonade images
+- [8591b4f](https://github.com/LineageOS/www/commit/8591b4f) www: Update homepage images for themes
   
-  Author: LuK1337  
-  Date: Tue Oct 21 09:16:32 2025 +0200
+  Author: Asher S  
+  Date: Mon Nov 17 23:56:37 2025 +0000
 
 
 </details>
