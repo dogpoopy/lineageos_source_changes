@@ -39,6 +39,17 @@
 </details>
 
 <details>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
+
+- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
+  
+  Author: LuK1337  
+  Date: Wed Oct 29 12:01:49 2025 +0100
+
+
+</details>
+
+<details>
 <summary><b>device/qcom/sepolicy-legacy-um</b> (2 commits)</summary>
 
 - [7f5546d](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d) legacy: hal_soter -&gt; vendor_hal_soter
@@ -50,17 +61,6 @@
   
   Author: LuK1337  
   Date: Wed Oct 29 11:39:55 2025 +0100
-
-
-</details>
-
-<details>
-<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
-
-- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
-  
-  Author: LuK1337  
-  Date: Wed Oct 29 12:01:49 2025 +0100
 
 
 </details>
@@ -373,22 +373,6 @@
 </details>
 
 <details>
-<summary><b>vendor/crowdin</b> (2 commits)</summary>
-
-- [4ff0272](https://github.com/LineageOS/android_vendor_crowdin/commit/4ff0272) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sat Nov 15 20:11:37 2025 +0000
-
-- [74fb135](https://github.com/LineageOS/android_vendor_crowdin/commit/74fb135) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sat Nov 1 21:55:59 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>vendor/lineage</b> (11 commits)</summary>
 
 - [fc879c9](https://github.com/LineageOS/android_vendor_lineage/commit/fc879c9) vars: November 2025 Security update
@@ -450,12 +434,17 @@
 </details>
 
 <details>
-<summary><b>lineage/charter</b> (1 commits)</summary>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
 
-- [873eada](https://github.com/LineageOS/charter/commit/873eada) device-support-requirements: Allow prebuilt GKI
+- [4ff0272](https://github.com/LineageOS/android_vendor_crowdin/commit/4ff0272) Automatic translation import
   
-  Author: Nolen Johnson  
-  Date: Sun Oct 26 19:13:26 2025 -0400
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:37 2025 +0000
+
+- [74fb135](https://github.com/LineageOS/android_vendor_crowdin/commit/74fb135) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:59 2025 +0000
 
 
 </details>
@@ -467,6 +456,17 @@
   
   Author: Bruno Martins  
   Date: Thu Nov 6 21:01:53 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/charter</b> (1 commits)</summary>
+
+- [873eada](https://github.com/LineageOS/charter/commit/873eada) device-support-requirements: Allow prebuilt GKI
+  
+  Author: Nolen Johnson  
+  Date: Sun Oct 26 19:13:26 2025 -0400
 
 
 </details>
@@ -574,22 +574,6 @@
   
   Author: LineageOS Infra  
   Date: Mon Oct 27 23:30:44 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:50:50 2025 -0700
-
-- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
-  
-  Author: Yumi Yukimura  
-  Date: Tue Nov 4 22:02:54 2025 +0000
 
 
 </details>
@@ -761,6 +745,22 @@
   
   Author: Inhishonor  
   Date: Thu Oct 23 17:35:12 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:50:50 2025 -0700
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
 
 
 </details>
