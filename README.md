@@ -39,17 +39,6 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
-
-- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
-  
-  Author: LuK1337  
-  Date: Wed Oct 29 12:01:49 2025 +0100
-
-
-</details>
-
-<details>
 <summary><b>device/qcom/sepolicy-legacy-um</b> (2 commits)</summary>
 
 - [7f5546d](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d) legacy: hal_soter -&gt; vendor_hal_soter
@@ -61,6 +50,17 @@
   
   Author: LuK1337  
   Date: Wed Oct 29 11:39:55 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
+
+- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
+  
+  Author: LuK1337  
+  Date: Wed Oct 29 12:01:49 2025 +0100
 
 
 </details>
@@ -373,7 +373,23 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (11 commits)</summary>
+<summary><b>vendor/crowdin</b> (2 commits)</summary>
+
+- [4ff0272](https://github.com/LineageOS/android_vendor_crowdin/commit/4ff0272) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:37 2025 +0000
+
+- [74fb135](https://github.com/LineageOS/android_vendor_crowdin/commit/74fb135) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:59 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>vendor/lineage</b> (10 commits)</summary>
 
 - [fc879c9](https://github.com/LineageOS/android_vendor_lineage/commit/fc879c9) vars: November 2025 Security update
   
@@ -425,38 +441,6 @@
   Author: tejas101k  
   Date: Fri Oct 24 15:30:56 2025 +0000
 
-- [f6ae1ed](https://github.com/LineageOS/android_vendor_lineage/commit/f6ae1ed) apns: Update Vodafone DE
-  
-  Author: Tim Zimmermann  
-  Date: Thu Oct 23 16:53:28 2025 -0400
-
-
-</details>
-
-<details>
-<summary><b>vendor/crowdin</b> (2 commits)</summary>
-
-- [4ff0272](https://github.com/LineageOS/android_vendor_crowdin/commit/4ff0272) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sat Nov 15 20:11:37 2025 +0000
-
-- [74fb135](https://github.com/LineageOS/android_vendor_crowdin/commit/74fb135) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sat Nov 1 21:55:59 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/crowdin</b> (1 commits)</summary>
-
-- [70783f1](https://github.com/LineageOS/cm_crowdin/commit/70783f1) config: Add OplusEsimSwitcher
-  
-  Author: Bruno Martins  
-  Date: Thu Nov 6 21:01:53 2025 +0000
-
 
 </details>
 
@@ -472,52 +456,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (9 commits)</summary>
+<summary><b>lineage/crowdin</b> (1 commits)</summary>
 
-- [78d0a5a](https://github.com/LineageOS/mirror/commit/78d0a5a) Updated aosp-minimal to 19-Nov-2025 11:02 UTC
+- [70783f1](https://github.com/LineageOS/cm_crowdin/commit/70783f1) config: Add OplusEsimSwitcher
   
-  Author: Tim Schumacher  
-  Date: Wed Nov 19 12:02:00 2025 +0100
-
-- [8c18f7d](https://github.com/LineageOS/mirror/commit/8c18f7d) Updated aosp-minimal to 18-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 19 00:01:53 2025 +0100
-
-- [1d16a33](https://github.com/LineageOS/mirror/commit/1d16a33) Updated to 17-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Nov 18 00:01:35 2025 +0100
-
-- [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 12:02:11 2025 +0100
-
-- [136c0a7](https://github.com/LineageOS/mirror/commit/136c0a7) Updated aosp-minimal to 11-Nov-2025 23:22 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 00:22:50 2025 +0100
-
-- [f918fe2](https://github.com/LineageOS/mirror/commit/f918fe2) aosp-minimal: Include release branches
-  
-  Author: Tim Schumacher  
-  Date: Tue Nov 11 23:20:32 2025 +0000
-
-- [d7ea5e6](https://github.com/LineageOS/mirror/commit/d7ea5e6) Updated to 11-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 00:01:34 2025 +0100
-
-- [7556153](https://github.com/LineageOS/mirror/commit/7556153) Updated to 09-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Nov 10 00:01:27 2025 +0100
-
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
+  Author: Bruno Martins  
+  Date: Thu Nov 6 21:01:53 2025 +0000
 
 
 </details>
@@ -579,7 +523,74 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (33 commits)</summary>
+<summary><b>lineage/mirror</b> (9 commits)</summary>
+
+- [78d0a5a](https://github.com/LineageOS/mirror/commit/78d0a5a) Updated aosp-minimal to 19-Nov-2025 11:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 19 12:02:00 2025 +0100
+
+- [8c18f7d](https://github.com/LineageOS/mirror/commit/8c18f7d) Updated aosp-minimal to 18-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 19 00:01:53 2025 +0100
+
+- [1d16a33](https://github.com/LineageOS/mirror/commit/1d16a33) Updated to 17-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Nov 18 00:01:35 2025 +0100
+
+- [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 12:02:11 2025 +0100
+
+- [136c0a7](https://github.com/LineageOS/mirror/commit/136c0a7) Updated aosp-minimal to 11-Nov-2025 23:22 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 00:22:50 2025 +0100
+
+- [f918fe2](https://github.com/LineageOS/mirror/commit/f918fe2) aosp-minimal: Include release branches
+  
+  Author: Tim Schumacher  
+  Date: Tue Nov 11 23:20:32 2025 +0000
+
+- [d7ea5e6](https://github.com/LineageOS/mirror/commit/d7ea5e6) Updated to 11-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 00:01:34 2025 +0100
+
+- [7556153](https://github.com/LineageOS/mirror/commit/7556153) Updated to 09-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Nov 10 00:01:27 2025 +0100
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:50:50 2025 -0700
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>lineage/wiki</b> (31 commits)</summary>
 
 - [3a49e26](https://github.com/LineageOS/lineage_wiki/commit/3a49e26) wiki: quirks: encryption: Fix typo
   
@@ -735,32 +746,6 @@
   
   Author: Bruno Martins  
   Date: Sat Oct 25 00:52:38 2025 +0200
-
-- [b064a6b](https://github.com/LineageOS/lineage_wiki/commit/b064a6b) wiki: Improve bootloop definition
-  
-  Author: Inhishonor  
-  Date: Thu Oct 23 17:35:12 2025 +0000
-
-- [f9bc0a9](https://github.com/LineageOS/lineage_wiki/commit/f9bc0a9) wiki: Add definitions for ASB and QPR to glossary
-  
-  Author: Inhishonor  
-  Date: Thu Oct 23 17:35:12 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:50:50 2025 -0700
-
-- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
-  
-  Author: Yumi Yukimura  
-  Date: Tue Nov 4 22:02:54 2025 +0000
 
 
 </details>
