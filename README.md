@@ -66,12 +66,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
 
-- [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
+- [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:56:50 2025 -0700
+  Date: Sat Nov 8 08:58:03 2025 -0700
 
 
 </details>
@@ -88,12 +88,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
-- [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
+- [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:58:03 2025 -0700
+  Date: Fri Nov 7 15:56:50 2025 -0700
 
 
 </details>
@@ -389,7 +389,7 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (10 commits)</summary>
+<summary><b>vendor/lineage</b> (9 commits)</summary>
 
 - [fc879c9](https://github.com/LineageOS/android_vendor_lineage/commit/fc879c9) vars: November 2025 Security update
   
@@ -436,11 +436,6 @@
   Author: Atakan  
   Date: Sat Oct 25 11:50:44 2025 -0400
 
-- [0351ebe](https://github.com/LineageOS/android_vendor_lineage/commit/0351ebe) apns: Add Altel and Tele2
-  
-  Author: tejas101k  
-  Date: Fri Oct 24 15:30:56 2025 +0000
-
 
 </details>
 
@@ -462,62 +457,6 @@
   
   Author: Bruno Martins  
   Date: Thu Nov 6 21:01:53 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (10 commits)</summary>
-
-- [362cfeb](https://github.com/LineageOS/hudson/commit/362cfeb) Two-face
-  
-  Author: Andrey Sprynga  
-  Date: Wed Nov 12 03:43:47 2025 +0000
-
-- [c529ac8](https://github.com/LineageOS/hudson/commit/c529ac8) Regenerate device dependency mappings
-  
-  Author: LineageOS Infra  
-  Date: Tue Nov 11 23:30:38 2025 +0000
-
-- [8cf57eb](https://github.com/LineageOS/hudson/commit/8cf57eb) hudson: Promote Galaxy A71 to 23.0
-  
-  Author: Haky86  
-  Date: Mon Nov 3 16:04:01 2025 +0100
-
-- [583128d](https://github.com/LineageOS/hudson/commit/583128d) Use tegu for exp 23
-  
-  Author: LuK1337  
-  Date: Mon Nov 3 15:32:40 2025 +0100
-
-- [48a9559](https://github.com/LineageOS/hudson/commit/48a9559) A wild lizard appears
-  
-  Author: Michael Bestas  
-  Date: Mon Nov 3 14:32:19 2025 +0000
-
-- [7c9f621](https://github.com/LineageOS/hudson/commit/7c9f621) No source?
-  
-  Author: Michael Bestas  
-  Date: Mon Nov 3 14:32:19 2025 +0000
-
-- [89aa388](https://github.com/LineageOS/hudson/commit/89aa388) bump gauguin to 23.0
-  
-  Author: Hridaya Prajapati  
-  Date: Sun Nov 2 13:05:33 2025 +0000
-
-- [a902755](https://github.com/LineageOS/hudson/commit/a902755) dodge joins the 23.0 race
-  
-  Author: chandu078  
-  Date: Sun Nov 2 10:20:14 2025 +0000
-
-- [5bdec50](https://github.com/LineageOS/hudson/commit/5bdec50) Regenerate device dependency mappings
-  
-  Author: LineageOS Infra  
-  Date: Fri Oct 31 23:30:44 2025 +0000
-
-- [8b59fe9](https://github.com/LineageOS/hudson/commit/8b59fe9) Regenerate device dependency mappings
-  
-  Author: LineageOS Infra  
-  Date: Mon Oct 27 23:30:44 2025 +0000
 
 
 </details>
@@ -574,6 +513,67 @@
 </details>
 
 <details>
+<summary><b>lineage/hudson</b> (11 commits)</summary>
+
+- [661ad5b](https://github.com/LineageOS/hudson/commit/661ad5b) hudson: Promote dre to 23.0
+  
+  Author: Nick Reuter  
+  Date: Tue Nov 18 18:21:18 2025 -0600
+
+- [362cfeb](https://github.com/LineageOS/hudson/commit/362cfeb) Two-face
+  
+  Author: Andrey Sprynga  
+  Date: Wed Nov 12 03:43:47 2025 +0000
+
+- [c529ac8](https://github.com/LineageOS/hudson/commit/c529ac8) Regenerate device dependency mappings
+  
+  Author: LineageOS Infra  
+  Date: Tue Nov 11 23:30:38 2025 +0000
+
+- [8cf57eb](https://github.com/LineageOS/hudson/commit/8cf57eb) hudson: Promote Galaxy A71 to 23.0
+  
+  Author: Haky86  
+  Date: Mon Nov 3 16:04:01 2025 +0100
+
+- [583128d](https://github.com/LineageOS/hudson/commit/583128d) Use tegu for exp 23
+  
+  Author: LuK1337  
+  Date: Mon Nov 3 15:32:40 2025 +0100
+
+- [48a9559](https://github.com/LineageOS/hudson/commit/48a9559) A wild lizard appears
+  
+  Author: Michael Bestas  
+  Date: Mon Nov 3 14:32:19 2025 +0000
+
+- [7c9f621](https://github.com/LineageOS/hudson/commit/7c9f621) No source?
+  
+  Author: Michael Bestas  
+  Date: Mon Nov 3 14:32:19 2025 +0000
+
+- [89aa388](https://github.com/LineageOS/hudson/commit/89aa388) bump gauguin to 23.0
+  
+  Author: Hridaya Prajapati  
+  Date: Sun Nov 2 13:05:33 2025 +0000
+
+- [a902755](https://github.com/LineageOS/hudson/commit/a902755) dodge joins the 23.0 race
+  
+  Author: chandu078  
+  Date: Sun Nov 2 10:20:14 2025 +0000
+
+- [5bdec50](https://github.com/LineageOS/hudson/commit/5bdec50) Regenerate device dependency mappings
+  
+  Author: LineageOS Infra  
+  Date: Fri Oct 31 23:30:44 2025 +0000
+
+- [8b59fe9](https://github.com/LineageOS/hudson/commit/8b59fe9) Regenerate device dependency mappings
+  
+  Author: LineageOS Infra  
+  Date: Mon Oct 27 23:30:44 2025 +0000
+
+
+</details>
+
+<details>
 <summary><b>lineage/scripts</b> (2 commits)</summary>
 
 - [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
@@ -591,6 +591,11 @@
 
 <details>
 <summary><b>lineage/wiki</b> (31 commits)</summary>
+
+- [444f8d0](https://github.com/LineageOS/lineage_wiki/commit/444f8d0) devices: dre: Promote to 23.0
+  
+  Author: Nick Reuter  
+  Date: Sun Nov 23 16:58:46 2025 +0000
 
 - [3a49e26](https://github.com/LineageOS/lineage_wiki/commit/3a49e26) wiki: quirks: encryption: Fix typo
   
@@ -741,11 +746,6 @@
   
   Author: LuK1337  
   Date: Sat Oct 25 23:23:06 2025 +0200
-
-- [773dd83](https://github.com/LineageOS/lineage_wiki/commit/773dd83) firmware_update_oplus: Filter out oplusstanvbk for tablets
-  
-  Author: Bruno Martins  
-  Date: Sat Oct 25 00:52:38 2025 +0200
 
 
 </details>
