@@ -66,12 +66,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
-- [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
+- [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:58:03 2025 -0700
+  Date: Fri Nov 7 15:56:50 2025 -0700
 
 
 </details>
@@ -88,12 +88,12 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
+<summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
 
-- [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
+- [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:56:50 2025 -0700
+  Date: Sat Nov 8 08:58:03 2025 -0700
 
 
 </details>
@@ -201,23 +201,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
-
-- [7bf0e49](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sat Nov 1 21:55:50 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Jelly</b> (1 commits)</summary>
 
 - [7736f3b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/7736f3b) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Sat Nov 15 20:11:26 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
+
+- [7bf0e49](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 1 21:55:50 2025 +0000
 
 
 </details>
@@ -389,7 +389,7 @@
 </details>
 
 <details>
-<summary><b>vendor/lineage</b> (9 commits)</summary>
+<summary><b>vendor/lineage</b> (7 commits)</summary>
 
 - [fc879c9](https://github.com/LineageOS/android_vendor_lineage/commit/fc879c9) vars: November 2025 Security update
   
@@ -425,16 +425,6 @@
   
   Author: Arian  
   Date: Mon Oct 27 21:50:23 2025 +0000
-
-- [990ebab](https://github.com/LineageOS/android_vendor_lineage/commit/990ebab) apns: Add KKTCell APNs
-  
-  Author: Atakan  
-  Date: Sat Oct 25 11:50:52 2025 -0400
-
-- [4c1de85](https://github.com/LineageOS/android_vendor_lineage/commit/4c1de85) apns: Update APNs of Turkish carriers
-  
-  Author: Atakan  
-  Date: Sat Oct 25 11:50:44 2025 -0400
 
 
 </details>
@@ -574,23 +564,7 @@
 </details>
 
 <details>
-<summary><b>lineage/scripts</b> (2 commits)</summary>
-
-- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Fri Nov 7 15:50:50 2025 -0700
-
-- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
-  
-  Author: Yumi Yukimura  
-  Date: Tue Nov 4 22:02:54 2025 +0000
-
-
-</details>
-
-<details>
-<summary><b>lineage/wiki</b> (31 commits)</summary>
+<summary><b>lineage/wiki</b> (30 commits)</summary>
 
 - [444f8d0](https://github.com/LineageOS/lineage_wiki/commit/444f8d0) devices: dre: Promote to 23.0
   
@@ -742,10 +716,21 @@
   Author: LuK1337  
   Date: Tue Oct 28 02:01:29 2025 +0200
 
-- [ce1c8fe](https://github.com/LineageOS/lineage_wiki/commit/ce1c8fe) wiki: Add wikipedia links to IMS quirk description
+
+</details>
+
+<details>
+<summary><b>lineage/scripts</b> (2 commits)</summary>
+
+- [137c96c](https://github.com/LineageOS/scripts/commit/137c96c) build-webview: Update default webview to 142.0.7444.138
   
-  Author: LuK1337  
-  Date: Sat Oct 25 23:23:06 2025 +0200
+  Author: Kevin F. Haggerty  
+  Date: Fri Nov 7 15:50:50 2025 -0700
+
+- [953b0b1](https://github.com/LineageOS/scripts/commit/953b0b1) scripts: Add collect-kernel-module-deps.py
+  
+  Author: Yumi Yukimura  
+  Date: Tue Nov 4 22:02:54 2025 +0000
 
 
 </details>
