@@ -1,4 +1,5 @@
 import subprocess
+import sys
 from datetime import datetime, timedelta, timezone
 from lxml import etree
 import json
@@ -7,16 +8,19 @@ import tempfile
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# Get branch from command line argument
+branch = sys.argv[1] if len(sys.argv) > 1 else "lineage-23.0"
+
 # Config
 manifest_file = Path("workspace/source_manifest.xml")
-output_file = Path("public/data/changes.json")
+output_file = Path(f"public/data/{branch}.json")
 since_date = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
 max_workers = 6
 
 
 def log(level: str, msg: str):
     timestamp = datetime.now().strftime("%H:%M:%S")
-    print(f"[{level}] {msg}")
+    print(f"[{level}] [{branch}] {msg}")
 
 
 # Parse manifest
@@ -158,6 +162,7 @@ def main():
 
     # Prepare output data
     output_data = {
+        "branch": branch,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "since_date": since_date,
         "total_projects": len(projects_data),
@@ -172,7 +177,7 @@ def main():
     with output_file.open("w", encoding="utf-8") as out:
         json.dump(output_data, out, indent=2, ensure_ascii=False)
 
-    log("INFO", f"✅ Generated JSON with {len(projects_data)} projects and {output_data['total_commits']} commits")
+    log("INFO", f"✅ Generated {branch}.json with {len(projects_data)} projects and {output_data['total_commits']} commits")
 
 
 if __name__ == "__main__":

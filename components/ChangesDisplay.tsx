@@ -21,6 +21,7 @@ interface Project {
 }
 
 interface ChangesData {
+  branch: string;
   generated_at: string;
   since_date: string;
   total_projects: number;
@@ -28,11 +29,20 @@ interface ChangesData {
   projects: Project[];
 }
 
-export default function ChangesDisplay({ data }: { data: ChangesData }) {
+interface BranchesData {
+  [key: string]: ChangesData | null;
+}
+
+export default function ChangesDisplay({ branchesData }: { branchesData: BranchesData }) {
+  const branches = Object.keys(branchesData);
+  const [selectedBranch, setSelectedBranch] = useState(branches[0] || 'lineage-22.2');
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedProjects, setExpandedProjects] = useState<Set<string>>(new Set());
 
+  const data = branchesData[selectedBranch];
+
   const filteredProjects = useMemo(() => {
+    if (!data || !data.projects) return [];
     if (!searchTerm) return data.projects;
     
     const term = searchTerm.toLowerCase();
@@ -44,7 +54,7 @@ export default function ChangesDisplay({ data }: { data: ChangesData }) {
         commit.author.toLowerCase().includes(term)
       )
     );
-  }, [data.projects, searchTerm]);
+  }, [data, searchTerm]);
 
   const toggleProject = (projectPath: string) => {
     const newExpanded = new Set(expandedProjects);
@@ -66,8 +76,53 @@ export default function ChangesDisplay({ data }: { data: ChangesData }) {
     });
   };
 
+  const getBranchDisplayName = (branch: string) => {
+    return branch.replace('lineage-', 'LineageOS ');
+  };
+
+  if (!data) {
+    return (
+      <div className="text-center text-slate-400 py-20">
+        <p className="text-xl">No data available for {selectedBranch}. Please run the sync script first.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-6">
+      {/* Branch Selector */}
+      <div className="flex flex-wrap gap-3 justify-center mb-8">
+        {branches.map((branch) => {
+          const branchData = branchesData[branch];
+          const isActive = branch === selectedBranch;
+          const hasData = branchData !== null;
+          
+          return (
+            <button
+              key={branch}
+              onClick={() => setSelectedBranch(branch)}
+              disabled={!hasData}
+              className={`
+                px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all text-sm sm:text-base
+                ${isActive 
+                  ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/50' 
+                  : hasData
+                    ? 'bg-slate-800/50 text-slate-300 hover:bg-slate-700/50 border border-slate-700'
+                    : 'bg-slate-800/30 text-slate-600 cursor-not-allowed border border-slate-800'
+                }
+              `}
+            >
+              {getBranchDisplayName(branch)}
+              {hasData && branchData && (
+                <span className={`ml-2 text-xs ${isActive ? 'text-blue-200' : 'text-slate-500'}`}>
+                  ({branchData.total_commits})
+                </span>
+              )}
+            </button>
+          );
+        })}
+      </div>
+
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
         <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700">

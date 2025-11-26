@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+env:
+  BRANCH_1: lineage-22.2
+  BRANCH_2: lineage-23.1
+
 jobs:
   lineage:
     runs-on: ubuntu-latest
@@ -22,21 +26,38 @@ jobs:
           sudo mv repo /usr/bin/repo
           sudo chmod a+x /usr/bin/repo
 
-      - name: Initialize LineageOS manifest
+      - name: Process ${{ env.BRANCH_1 }}
         run: |
+          echo "========================================="
+          echo "Processing ${{ env.BRANCH_1 }}"
+          echo "========================================="
+          rm -rf workspace
           mkdir workspace && cd workspace
-          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b lineage-23.0 -g default,-mips,-darwin,-notdefault
+          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b ${{ env.BRANCH_1 }} -g default,-mips,-darwin,-notdefault
           repo manifest -o source_manifest.xml
+          cd ..
+          python3 scripts/parse_source.py ${{ env.BRANCH_1 }}
 
-      - name: Generate source changes JSON
+      - name: Process ${{ env.BRANCH_2 }}
         run: |
-          python3 scripts/parse_source.py
+          echo "========================================="
+          echo "Processing ${{ env.BRANCH_2 }}"
+          echo "========================================="
+          rm -rf workspace
+          mkdir workspace && cd workspace
+          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b ${{ env.BRANCH_2 }} -g default,-mips,-darwin,-notdefault
+          repo manifest -o source_manifest.xml
+          cd ..
+          python3 scripts/parse_source.py ${{ env.BRANCH_2 }}
 
-      - name: Commit and push changes
+      - name: Commit and push all changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/changes.json
-          git diff --staged --quiet || git commit -m "🔄 Update LineageOS source changes data"
-          git push
-
+          git add public/data/*.json
+          if git diff --staged --quiet; then
+            echo "No changes detected"
+          else
+            git commit -m "🔄 Update LineageOS source changes (${{ env.BRANCH_1 }}, ${{ env.BRANCH_2 }})"
+            git push
+          fi
