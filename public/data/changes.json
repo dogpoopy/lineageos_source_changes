@@ -1,0 +1,2808 @@
+{
+  "generated_at": "2025-11-26T06:22:10.760593+00:00",
+  "since_date": "2025-10-27",
+  "total_projects": 71,
+  "total_commits": 279,
+  "projects": [
+    {
+      "name": "LineageOS/android_external_vim",
+      "path": "external/vim",
+      "repo_url": "https://github.com/LineageOS/android_external_vim",
+      "commit_count": 86,
+      "commits": [
+        {
+          "sha": "f31199d",
+          "message": "Merge tag 'v9.1.1919' of https://github.com/vim/vim into lineage-23.0",
+          "author": "Thomas Turner",
+          "date": "Thu Nov 20 17:16:18 2025 +0000",
+          "timestamp": 1763658978,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/f31199d"
+        },
+        {
+          "sha": "ed4af75",
+          "message": "patch 9.1.1919: tabpanel: cannot handle mouse clicks in command line",
+          "author": "Hirohito Higashi",
+          "date": "Tue Nov 18 20:10:14 2025 +0000",
+          "timestamp": 1763496614,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/ed4af75"
+        },
+        {
+          "sha": "040a47a",
+          "message": "runtime(netrw): Use proper UNC notation for temp files",
+          "author": "Miguel Barro",
+          "date": "Tue Nov 18 20:06:06 2025 +0000",
+          "timestamp": 1763496366,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/040a47a"
+        },
+        {
+          "sha": "c2cc63e",
+          "message": "runtime(compiler): expand errorformats in maven compiler",
+          "author": "Konfekt",
+          "date": "Tue Nov 18 19:49:01 2025 +0000",
+          "timestamp": 1763495341,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/c2cc63e"
+        },
+        {
+          "sha": "d284277",
+          "message": "runtime(doc): Remove :runtime completion (#11447) todo item",
+          "author": "Doug Kearns",
+          "date": "Tue Nov 18 19:44:16 2025 +0000",
+          "timestamp": 1763495056,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/d284277"
+        },
+        {
+          "sha": "6437997",
+          "message": "patch 9.1.1918: completion: crash with fuzzy completion",
+          "author": "Girish Palya",
+          "date": "Sun Nov 16 18:30:42 2025 +0000",
+          "timestamp": 1763317842,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/6437997"
+        },
+        {
+          "sha": "4b4a893",
+          "message": "translation(it): Update Italian translation",
+          "author": "Antonio Giovanni Colombo",
+          "date": "Sun Nov 16 17:31:43 2025 +0000",
+          "timestamp": 1763314303,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/4b4a893"
+        },
+        {
+          "sha": "a650485",
+          "message": "patch 9.1.1917: Vim9: incorrect type inference with mkdir()",
+          "author": "Yegappan Lakshmanan",
+          "date": "Sat Nov 15 17:41:28 2025 +0000",
+          "timestamp": 1763228488,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/a650485"
+        },
+        {
+          "sha": "61b73b8",
+          "message": "patch 9.1.1916: WinEnter autocommand confuses Vim when closing tabpage",
+          "author": "Christian Brabandt",
+          "date": "Sat Nov 15 17:32:50 2025 +0000",
+          "timestamp": 1763227970,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/61b73b8"
+        },
+        {
+          "sha": "fb8ebf1",
+          "message": "runtime(compiler): Remove version check in rustc compiler",
+          "author": "Konfekt",
+          "date": "Sat Nov 15 17:18:41 2025 +0000",
+          "timestamp": 1763227121,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/fb8ebf1"
+        },
+        {
+          "sha": "d0dd561",
+          "message": "runtime(compiler): add biome linter",
+          "author": "Konfekt",
+          "date": "Sat Nov 15 10:39:57 2025 +0000",
+          "timestamp": 1763203197,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/d0dd561"
+        },
+        {
+          "sha": "f46616f",
+          "message": "runtime(vim): Update base syntax and generator, match :cd commands",
+          "author": "Doug Kearns",
+          "date": "Sat Nov 15 10:17:17 2025 +0000",
+          "timestamp": 1763201837,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/f46616f"
+        },
+        {
+          "sha": "de7049e",
+          "message": "patch 9.1.1915: :breaklist accepts unprocessed arguments.",
+          "author": "Doug Kearns",
+          "date": "Sat Nov 15 10:13:25 2025 +0000",
+          "timestamp": 1763201605,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/de7049e"
+        },
+        {
+          "sha": "d582163",
+          "message": "runtime(new-tutor): escape tutor filename",
+          "author": "Andrey Starodubtsev",
+          "date": "Thu Nov 13 21:49:20 2025 +0000",
+          "timestamp": 1763070560,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/d582163"
+        },
+        {
+          "sha": "384685f",
+          "message": "patch 9.1.1914: runtime(netrw): wipes unnamed buffers",
+          "author": "Christian Brabandt",
+          "date": "Thu Nov 13 21:11:51 2025 +0000",
+          "timestamp": 1763068311,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/384685f"
+        },
+        {
+          "sha": "b811992",
+          "message": "patch 9.1.1913: Error message with :unlet! and non-existing dictionary item",
+          "author": "Christian Brabandt",
+          "date": "Thu Nov 13 21:06:43 2025 +0000",
+          "timestamp": 1763068003,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/b811992"
+        },
+        {
+          "sha": "eb732ed",
+          "message": "runtime(doc): Wrap overlength lines in uganda.txt",
+          "author": "Doug Kearns",
+          "date": "Thu Nov 13 21:01:42 2025 +0000",
+          "timestamp": 1763067702,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/eb732ed"
+        },
+        {
+          "sha": "8644c3b",
+          "message": "runtime(help): Update syntax, match tables at :help :digraph-table",
+          "author": "Doug Kearns",
+          "date": "Thu Nov 13 20:59:44 2025 +0000",
+          "timestamp": 1763067584,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/8644c3b"
+        },
+        {
+          "sha": "8cb4505",
+          "message": "patch 9.1.1912: tests: test_plugin_comment fails",
+          "author": "Christian Brabandt",
+          "date": "Wed Nov 12 21:34:52 2025 +0000",
+          "timestamp": 1762983292,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/8cb4505"
+        },
+        {
+          "sha": "c44e5ae",
+          "message": "patch 9.1.1911: build failure on Solaris with gcc 5",
+          "author": "Christian Brabandt",
+          "date": "Wed Nov 12 20:04:18 2025 +0000",
+          "timestamp": 1762977858,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/c44e5ae"
+        },
+        {
+          "sha": "d667946",
+          "message": "patch 9.1.1910: tests: test failures in Test_term_gettitle() in CI",
+          "author": "Aliaksei Budavei",
+          "date": "Wed Nov 12 19:49:00 2025 +0000",
+          "timestamp": 1762976940,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/d667946"
+        },
+        {
+          "sha": "23e12c0",
+          "message": "patch 9.1.1909: filetype: .mom files recognized as nroff files",
+          "author": "Callum Andrew",
+          "date": "Wed Nov 12 19:45:41 2025 +0000",
+          "timestamp": 1762976741,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/23e12c0"
+        },
+        {
+          "sha": "e9d296e",
+          "message": "runtime(erlang): recognize -if/-elif as erlangPreCondit in syntax script",
+          "author": "Vadim Yanitskiy",
+          "date": "Wed Nov 12 19:36:46 2025 +0000",
+          "timestamp": 1762976206,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/e9d296e"
+        },
+        {
+          "sha": "9ab6a22",
+          "message": "runtime(doc): Improve :help :ls description formatting",
+          "author": "Doug Kearns",
+          "date": "Wed Nov 12 19:33:01 2025 +0000",
+          "timestamp": 1762975981,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/9ab6a22"
+        },
+        {
+          "sha": "4f19d27",
+          "message": "runtime(vim): Update base syntax, match :prompt command args",
+          "author": "Doug Kearns",
+          "date": "Wed Nov 12 19:17:11 2025 +0000",
+          "timestamp": 1762975031,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/4f19d27"
+        },
+        {
+          "sha": "89f0a3a",
+          "message": "patch 9.1.1908: tests: test_crash.vim times out in CI ASAN builds",
+          "author": "Christian Brabandt",
+          "date": "Tue Nov 11 18:06:31 2025 +0000",
+          "timestamp": 1762884391,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/89f0a3a"
+        },
+        {
+          "sha": "f85951f",
+          "message": "runtime(css): improve cssBoxProp matches",
+          "author": "Neil Lambert",
+          "date": "Tue Nov 11 18:01:31 2025 +0000",
+          "timestamp": 1762884091,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/f85951f"
+        },
+        {
+          "sha": "7dd51d3",
+          "message": "patch 9.1.1907: xterm: no support for mouse buttons 8 and 9",
+          "author": "notuxic",
+          "date": "Tue Nov 11 17:52:45 2025 +0000",
+          "timestamp": 1762883565,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/7dd51d3"
+        },
+        {
+          "sha": "efc3be7",
+          "message": "patch 9.1.1906: filetype: not all Ruby files are recognized",
+          "author": "botantony",
+          "date": "Tue Nov 11 17:26:02 2025 +0000",
+          "timestamp": 1762881962,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/efc3be7"
+        },
+        {
+          "sha": "1ff3e70",
+          "message": "patch 9.1.1905: tabpanel: truncates terminal output",
+          "author": "Hirohito Higashi",
+          "date": "Tue Nov 11 17:20:13 2025 +0000",
+          "timestamp": 1762881613,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/1ff3e70"
+        },
+        {
+          "sha": "b74ec15",
+          "message": "runtime(sqlcomplete): only set 'omnifunc' if dbext plugin was loaded",
+          "author": "Christian Brabandt",
+          "date": "Tue Nov 11 17:13:44 2025 +0000",
+          "timestamp": 1762881224,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/b74ec15"
+        },
+        {
+          "sha": "97c3744",
+          "message": "runtime(doc): Wrap some overlength lines in vim9{,class}.txt.",
+          "author": "Doug Kearns",
+          "date": "Tue Nov 11 16:47:24 2025 +0000",
+          "timestamp": 1762879644,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/97c3744"
+        },
+        {
+          "sha": "fe24972",
+          "message": "runtime(vim): Update base syntax, refine object constructor matching",
+          "author": "Doug Kearns",
+          "date": "Tue Nov 11 16:37:09 2025 +0000",
+          "timestamp": 1762879029,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/fe24972"
+        },
+        {
+          "sha": "54cc820",
+          "message": "runtime(doc): Update Section 4 of vim9.txt",
+          "author": "Peter Kenny",
+          "date": "Mon Nov 10 20:29:08 2025 +0000",
+          "timestamp": 1762806548,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/54cc820"
+        },
+        {
+          "sha": "d3bef6c",
+          "message": "runtime(sml): Fix number regex in syntax script",
+          "author": "tocariimaa",
+          "date": "Mon Nov 10 20:13:35 2025 +0000",
+          "timestamp": 1762805615,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/d3bef6c"
+        },
+        {
+          "sha": "1b92b27",
+          "message": "patch 9.1.1904: Code still supports GTK2 versions older than 2.4",
+          "author": "Drew Vogel",
+          "date": "Mon Nov 10 20:04:37 2025 +0000",
+          "timestamp": 1762805077,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/1b92b27"
+        },
+        {
+          "sha": "d32a265",
+          "message": "patch 9.1.1903: GTK naming still reflects GTK1 support",
+          "author": "Drew Vogel",
+          "date": "Mon Nov 10 20:01:04 2025 +0000",
+          "timestamp": 1762804864,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/d32a265"
+        },
+        {
+          "sha": "20ccdc7",
+          "message": "patch 9.1.1902: GTK fails to compile with !FEAT_PROP_POPUP",
+          "author": "Drew Vogel",
+          "date": "Mon Nov 10 19:58:31 2025 +0000",
+          "timestamp": 1762804711,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/20ccdc7"
+        },
+        {
+          "sha": "e1e3474",
+          "message": "runtime(vim): Update base syntax, fix :augroup error matching",
+          "author": "Doug Kearns",
+          "date": "Mon Nov 10 19:50:57 2025 +0000",
+          "timestamp": 1762804257,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/e1e3474"
+        },
+        {
+          "sha": "acf928a",
+          "message": "runtime(doc): Improve windows.txt formatting",
+          "author": "Doug Kearns",
+          "date": "Mon Nov 10 19:45:32 2025 +0000",
+          "timestamp": 1762803932,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/acf928a"
+        },
+        {
+          "sha": "aa9862a",
+          "message": "patch 9.1.1901: tests: test_vim9_generics fails without job feature",
+          "author": "Christian Brabandt",
+          "date": "Sun Nov 9 19:39:22 2025 +0000",
+          "timestamp": 1762717162,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/aa9862a"
+        },
+        {
+          "sha": "5427465",
+          "message": "runtime(doc): Clean up file header whitespace",
+          "author": "Doug Kearns",
+          "date": "Sun Nov 9 19:23:50 2025 +0000",
+          "timestamp": 1762716230,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/5427465"
+        },
+        {
+          "sha": "8869800",
+          "message": "runtime(vim): Update base syntax, match :*do command arg",
+          "author": "Doug Kearns",
+          "date": "Sun Nov 9 18:59:52 2025 +0000",
+          "timestamp": 1762714792,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/8869800"
+        },
+        {
+          "sha": "a795aab",
+          "message": "runtime(spec): Add support for more tags and distributions",
+          "author": "Jesse Portnoy",
+          "date": "Sun Nov 9 18:57:34 2025 +0000",
+          "timestamp": 1762714654,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/a795aab"
+        },
+        {
+          "sha": "59f0ea5",
+          "message": "runtime(vim): Update base syntax, match Vim9 object type constructor",
+          "author": "Doug Kearns",
+          "date": "Sat Nov 8 17:23:47 2025 +0000",
+          "timestamp": 1762622627,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/59f0ea5"
+        },
+        {
+          "sha": "47c30bb",
+          "message": "patch 9.1.1900: tabpanel: wrong condition after v9.1.1898",
+          "author": "Hirohito Higashi",
+          "date": "Sat Nov 8 17:20:55 2025 +0000",
+          "timestamp": 1762622455,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/47c30bb"
+        },
+        {
+          "sha": "185cec2",
+          "message": "runtime(doc): Rewrite some overlength lines",
+          "author": "Doug Kearns",
+          "date": "Sat Nov 8 17:19:34 2025 +0000",
+          "timestamp": 1762622374,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/185cec2"
+        },
+        {
+          "sha": "a3063f2",
+          "message": "runtime(doc): Wrap some overlength lines in the user manual",
+          "author": "Doug Kearns",
+          "date": "Sat Nov 8 17:18:16 2025 +0000",
+          "timestamp": 1762622296,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/a3063f2"
+        },
+        {
+          "sha": "c28b73d",
+          "message": "runtime(doc): Improve :help synconcealed() description",
+          "author": "Doug Kearns",
+          "date": "Sat Nov 8 17:16:41 2025 +0000",
+          "timestamp": 1762622201,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/c28b73d"
+        },
+        {
+          "sha": "ef02336",
+          "message": "patch 9.1.1899: tabpanel: getcmdscreenpos() wrong when tabpanel is shown",
+          "author": "Hirohito Higashi",
+          "date": "Sat Nov 8 17:12:57 2025 +0000",
+          "timestamp": 1762621977,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/ef02336"
+        },
+        {
+          "sha": "129616c",
+          "message": "Merge tag 'v9.1.1896' of https://github.com/vim/vim into lineage-23.0",
+          "author": "Thomas Turner",
+          "date": "Thu Nov 6 16:56:36 2025 +0000",
+          "timestamp": 1762448196,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/129616c"
+        },
+        {
+          "sha": "1ead1b5",
+          "message": "patch 9.1.1896: tests: patch v9.1.1895 breaks CI",
+          "author": "Christian Brabandt",
+          "date": "Sun Nov 2 15:25:18 2025 +0000",
+          "timestamp": 1762097118,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/1ead1b5"
+        },
+        {
+          "sha": "213109a",
+          "message": "runtime(doc): clarify W11 warning and possible options",
+          "author": "Christian Brabandt",
+          "date": "Sat Nov 1 17:07:16 2025 +0000",
+          "timestamp": 1762016836,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/213109a"
+        },
+        {
+          "sha": "8707b7a",
+          "message": "patch 9.1.1895: OSC terminal response hard to detect",
+          "author": "Foxe Chen",
+          "date": "Sat Nov 1 16:28:52 2025 +0000",
+          "timestamp": 1762014532,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/8707b7a"
+        },
+        {
+          "sha": "7c418c7",
+          "message": "patch 9.1.1894: global_runtime_dir appends /after directory when using XDG",
+          "author": "Christian Brabandt",
+          "date": "Sat Nov 1 16:20:10 2025 +0000",
+          "timestamp": 1762014010,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/7c418c7"
+        },
+        {
+          "sha": "0405665",
+          "message": "patch 9.1.1893: ICCF charity will dissolve",
+          "author": "Christian Brabandt",
+          "date": "Sat Nov 1 16:15:39 2025 +0000",
+          "timestamp": 1762013739,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/0405665"
+        },
+        {
+          "sha": "294bce2",
+          "message": "patch 9.1.1892: Not possible to know once Vim is done with sourcing vimrc",
+          "author": "Evgeni Chasnovski",
+          "date": "Sat Nov 1 15:54:35 2025 +0000",
+          "timestamp": 1762012475,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/294bce2"
+        },
+        {
+          "sha": "fe71c56",
+          "message": "runtime(netrw): NetrwChgPerm for files not in cwd",
+          "author": "Mohammad Reza Karimi",
+          "date": "Sat Nov 1 15:46:04 2025 +0000",
+          "timestamp": 1762011964,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/fe71c56"
+        },
+        {
+          "sha": "28f7582",
+          "message": "runtime(log): syntax file update",
+          "author": "Mao-Yining",
+          "date": "Sat Nov 1 15:42:32 2025 +0000",
+          "timestamp": 1762011752,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/28f7582"
+        },
+        {
+          "sha": "07da267",
+          "message": "runtime(doc): Fix a few typos",
+          "author": "Hirohito Higashi",
+          "date": "Sat Nov 1 15:24:12 2025 +0000",
+          "timestamp": 1762010652,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/07da267"
+        },
+        {
+          "sha": "adc8515",
+          "message": "patch 9.1.1891: g<End> does not move to last non-blank in visual mode",
+          "author": "varsidry",
+          "date": "Fri Oct 31 16:16:11 2025 +0000",
+          "timestamp": 1761927371,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/adc8515"
+        },
+        {
+          "sha": "958393b",
+          "message": "translation: regenerate po/vim.pot after 73a0de4a04b48cca",
+          "author": "Christian Brabandt",
+          "date": "Fri Oct 31 09:16:19 2025 +0000",
+          "timestamp": 1761902179,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/958393b"
+        },
+        {
+          "sha": "73a0de4",
+          "message": "patch 9.1.1890: %P in 'statusline' doesn't behave as documented",
+          "author": "zeertzjq",
+          "date": "Fri Oct 31 09:10:05 2025 +0000",
+          "timestamp": 1761901805,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/73a0de4"
+        },
+        {
+          "sha": "69dd590",
+          "message": "patch 9.1.1889: filetype: not all AppleScript files are recognized",
+          "author": "Samuel Huang",
+          "date": "Fri Oct 31 09:03:04 2025 +0000",
+          "timestamp": 1761901384,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/69dd590"
+        },
+        {
+          "sha": "4105ef1",
+          "message": "Drop superfluous execute permissions for readable files",
+          "author": "Aliaksei Budavei",
+          "date": "Thu Oct 30 19:05:03 2025 +0000",
+          "timestamp": 1761851103,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/4105ef1"
+        },
+        {
+          "sha": "5f10e71",
+          "message": "vim: Update srcs[]",
+          "author": "Thomas Turner",
+          "date": "Thu Oct 30 15:09:39 2025 +0000",
+          "timestamp": 1761836979,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/5f10e71"
+        },
+        {
+          "sha": "8f551a7",
+          "message": "runtime: regenerate helptags, update last-change header in tombi compiler",
+          "author": "Christian Brabandt",
+          "date": "Wed Oct 29 20:20:10 2025 +0000",
+          "timestamp": 1761769210,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/8f551a7"
+        },
+        {
+          "sha": "5c3e762",
+          "message": "patch 9.1.1888: Wrong display with cpo+=$, matchparen and wrapped line",
+          "author": "zeertzjq",
+          "date": "Wed Oct 29 20:15:01 2025 +0000",
+          "timestamp": 1761768901,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/5c3e762"
+        },
+        {
+          "sha": "14e7203",
+          "message": "runtime(compiler): Fix escaping in Windows shell command for tombi",
+          "author": "Konfekt",
+          "date": "Wed Oct 29 20:12:47 2025 +0000",
+          "timestamp": 1761768767,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/14e7203"
+        },
+        {
+          "sha": "110656b",
+          "message": "patch 9.1.1887: string handling in strings.c can be improved",
+          "author": "John Marriott",
+          "date": "Tue Oct 28 20:56:47 2025 +0000",
+          "timestamp": 1761685007,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/110656b"
+        },
+        {
+          "sha": "469f870",
+          "message": "runtime(compiler): Fix invalid expression in tombi compiler after d659fafcc",
+          "author": "Christian Brabandt",
+          "date": "Tue Oct 28 20:54:34 2025 +0000",
+          "timestamp": 1761684874,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/469f870"
+        },
+        {
+          "sha": "d659faf",
+          "message": "runtime(compiler): add tombi compiler to lint TOML files",
+          "author": "Konfekt",
+          "date": "Tue Oct 28 20:42:17 2025 +0000",
+          "timestamp": 1761684137,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/d659faf"
+        },
+        {
+          "sha": "433d2ab",
+          "message": "runtime(vim): Update base syntax, match Vim9 lambda arg to :defer",
+          "author": "Doug Kearns",
+          "date": "Tue Oct 28 20:36:04 2025 +0000",
+          "timestamp": 1761683764,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/433d2ab"
+        },
+        {
+          "sha": "7adeb09",
+          "message": "patch 9.1.1886: filetype: Android aconfig files are not recognized",
+          "author": "Bruno Belanyi",
+          "date": "Tue Oct 28 20:34:12 2025 +0000",
+          "timestamp": 1761683652,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/7adeb09"
+        },
+        {
+          "sha": "b2e6b32",
+          "message": "patch 9.1.1885: Wrong restored cursor pos when re-entering buffer after changes",
+          "author": "zeertzjq",
+          "date": "Tue Oct 28 20:27:19 2025 +0000",
+          "timestamp": 1761683239,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/b2e6b32"
+        },
+        {
+          "sha": "9ad7067",
+          "message": "runtime(doc): Highlight [expr] arg in :help :return description",
+          "author": "Doug Kearns",
+          "date": "Tue Oct 28 20:20:02 2025 +0000",
+          "timestamp": 1761682802,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/9ad7067"
+        },
+        {
+          "sha": "f09ff72",
+          "message": "patch 9.1.1884: :defer an empty lambda causes a crash",
+          "author": "Yegappan Lakshmanan",
+          "date": "Tue Oct 28 20:05:13 2025 +0000",
+          "timestamp": 1761681913,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/f09ff72"
+        },
+        {
+          "sha": "6be154f",
+          "message": "runtime(doc): revert wrong 'incsearch' description",
+          "author": "Christian Brabandt",
+          "date": "Tue Oct 28 19:48:19 2025 +0000",
+          "timestamp": 1761680899,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/6be154f"
+        },
+        {
+          "sha": "e06e70f",
+          "message": "patch 9.1.1883: Wrong display with 'smoothscroll' with -diff",
+          "author": "zeertzjq",
+          "date": "Tue Oct 28 19:03:22 2025 +0000",
+          "timestamp": 1761678202,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/e06e70f"
+        },
+        {
+          "sha": "cb78fe1",
+          "message": "Merge tag 'v9.1.1882' of https://github.com/vim/vim into lineage-23.0",
+          "author": "Thomas Turner",
+          "date": "Mon Oct 27 22:13:50 2025 +0000",
+          "timestamp": 1761603230,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/cb78fe1"
+        },
+        {
+          "sha": "21ef3c6",
+          "message": "patch 9.1.1882: Vim9: Not able to use a lambda with :defer",
+          "author": "Yegappan Lakshmanan",
+          "date": "Mon Oct 27 18:07:52 2025 +0000",
+          "timestamp": 1761588472,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/21ef3c6"
+        },
+        {
+          "sha": "58ab343",
+          "message": "runtime(netrw): fix misaligned comment after #18611",
+          "author": "zeertzjq",
+          "date": "Mon Oct 27 18:04:22 2025 +0000",
+          "timestamp": 1761588262,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/58ab343"
+        },
+        {
+          "sha": "50ede52",
+          "message": "patch 9.1.1881: tests: test_popupwin fails after c8eeda9b",
+          "author": "Yee Cheng Chin",
+          "date": "Mon Oct 27 17:55:27 2025 +0000",
+          "timestamp": 1761587727,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/50ede52"
+        },
+        {
+          "sha": "f11d9e4",
+          "message": "runtime(doc): regenerate help tags file after eba51337",
+          "author": "Christian Brabandt",
+          "date": "Mon Oct 27 17:53:44 2025 +0000",
+          "timestamp": 1761587624,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/f11d9e4"
+        },
+        {
+          "sha": "eba5133",
+          "message": "runtime(rust): Do not use rustfmt as 'formatprg' by default",
+          "author": "Aaron Jacobs",
+          "date": "Mon Oct 27 17:46:11 2025 +0000",
+          "timestamp": 1761587171,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/eba5133"
+        },
+        {
+          "sha": "7d3b647",
+          "message": "patch 9.1.1880: Allocation error with complete_info()",
+          "author": "kuuote",
+          "date": "Mon Oct 27 17:26:29 2025 +0000",
+          "timestamp": 1761585989,
+          "url": "https://github.com/LineageOS/android_external_vim/commit/7d3b647"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/lineage_wiki",
+      "path": "lineage/wiki",
+      "repo_url": "https://github.com/LineageOS/lineage_wiki",
+      "commit_count": 32,
+      "commits": [
+        {
+          "sha": "e7987ee",
+          "message": "wiki: devices: Add LG V60 ThinQ (timelm)",
+          "author": "pnguyen879",
+          "date": "Wed Nov 26 05:18:49 2025 +0000",
+          "timestamp": 1764134329,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e7987ee"
+        },
+        {
+          "sha": "4b134c2",
+          "message": "wiki: Update gauguin maintainer list",
+          "author": "Penguin766",
+          "date": "Tue Nov 25 01:50:02 2025 +0000",
+          "timestamp": 1764035402,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/4b134c2"
+        },
+        {
+          "sha": "444f8d0",
+          "message": "devices: dre: Promote to 23.0",
+          "author": "Nick Reuter",
+          "date": "Sun Nov 23 16:58:46 2025 +0000",
+          "timestamp": 1763917126,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/444f8d0"
+        },
+        {
+          "sha": "3a49e26",
+          "message": "wiki: quirks: encryption: Fix typo",
+          "author": "Ferdinand Saurenbach",
+          "date": "Wed Nov 19 19:32:09 2025 +0100",
+          "timestamp": 1763577129,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/3a49e26"
+        },
+        {
+          "sha": "4567d9f",
+          "message": "wiki: Add Changing screen resolution quirk for some devices",
+          "author": "Andrey Sprynga",
+          "date": "Wed Nov 12 20:48:56 2025 +0700",
+          "timestamp": 1762955336,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/4567d9f"
+        },
+        {
+          "sha": "2bccf08",
+          "message": "wiki: Add Nubia X",
+          "author": "Andrey Sprynga",
+          "date": "Wed Nov 12 03:53:48 2025 +0000",
+          "timestamp": 1762919628,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/2bccf08"
+        },
+        {
+          "sha": "0c60a8a",
+          "message": "wiki: Rewrite extracting proprietary blobs page",
+          "author": "Hex",
+          "date": "Mon Nov 10 19:47:28 2025 +0000",
+          "timestamp": 1762804048,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0c60a8a"
+        },
+        {
+          "sha": "0819dc7",
+          "message": "pages: {libvirt-qemu,utm}: LineageOS 23.0 is supported",
+          "author": "Yumi Yukimura",
+          "date": "Mon Nov 10 15:19:20 2025 +0000",
+          "timestamp": 1762787960,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0819dc7"
+        },
+        {
+          "sha": "3d8f6be",
+          "message": "wiki: lemonades: Update maintainers",
+          "author": "Thomas Turner",
+          "date": "Sat Nov 8 08:01:59 2025 +0000",
+          "timestamp": 1762588919,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/3d8f6be"
+        },
+        {
+          "sha": "1ebd275",
+          "message": "wiki: Correct vermeer's ram specifications to LPDDR5X",
+          "author": "Leviscape",
+          "date": "Sat Nov 8 01:37:23 2025 +0530",
+          "timestamp": 1762546043,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/1ebd275"
+        },
+        {
+          "sha": "ad5d627",
+          "message": "aston/waffle: Remove eSIM quirk",
+          "author": "Bruno Martins",
+          "date": "Fri Nov 7 08:36:57 2025 +0000",
+          "timestamp": 1762504617,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ad5d627"
+        },
+        {
+          "sha": "49347c5",
+          "message": "salami/dodge: Remove eSIM quirk",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 6 15:09:27 2025 +0000",
+          "timestamp": 1762441767,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/49347c5"
+        },
+        {
+          "sha": "13276f2",
+          "message": "wiki: Update maintainer list for guacamole",
+          "author": "Nick Reuter",
+          "date": "Thu Nov 6 00:19:04 2025 +0000",
+          "timestamp": 1762388344,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/13276f2"
+        },
+        {
+          "sha": "fb603be",
+          "message": "wiki: Update maintainer list for dre",
+          "author": "Nick Reuter",
+          "date": "Wed Nov 5 17:55:00 2025 -0600",
+          "timestamp": 1762386900,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/fb603be"
+        },
+        {
+          "sha": "e56f46d",
+          "message": "wiki: Sync upgrade with download instructions",
+          "author": "LuK1337",
+          "date": "Wed Nov 5 21:56:16 2025 +0100",
+          "timestamp": 1762376176,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e56f46d"
+        },
+        {
+          "sha": "718fb6c",
+          "message": "wiki: Fix wipe-frp/reboot commands",
+          "author": "LuK1337",
+          "date": "Tue Nov 4 10:02:28 2025 +0100",
+          "timestamp": 1762246948,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/718fb6c"
+        },
+        {
+          "sha": "9c17c89",
+          "message": "fixup! wiki: Add a faq about fixing frp",
+          "author": "Tuan Anh",
+          "date": "Tue Nov 4 03:29:43 2025 +0000",
+          "timestamp": 1762226983,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9c17c89"
+        },
+        {
+          "sha": "bc27c3a",
+          "message": "wiki: Add a faq about fixing frp",
+          "author": "Inhishonor",
+          "date": "Mon Nov 3 18:27:19 2025 -0500",
+          "timestamp": 1762212439,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/bc27c3a"
+        },
+        {
+          "sha": "eea58c6",
+          "message": "wiki: Add faq's for gapps questions",
+          "author": "Inhishonor",
+          "date": "Mon Nov 3 23:25:56 2025 +0000",
+          "timestamp": 1762212356,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/eea58c6"
+        },
+        {
+          "sha": "cf4c291",
+          "message": "wiki: Promote Galaxy A71 to 23.0",
+          "author": "Haky86",
+          "date": "Mon Nov 3 15:13:57 2025 +0000",
+          "timestamp": 1762182837,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cf4c291"
+        },
+        {
+          "sha": "2ec5ede",
+          "message": "wiki: Link to kernel source manifest for tensor Pixels",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 14:33:24 2025 +0000",
+          "timestamp": 1762180404,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/2ec5ede"
+        },
+        {
+          "sha": "299347f",
+          "message": "wiki: Add Pixel 9a",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 14:33:24 2025 +0000",
+          "timestamp": 1762180404,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/299347f"
+        },
+        {
+          "sha": "538c85e",
+          "message": "wiki: Promote tensor Pixels to 23.0",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 14:33:24 2025 +0000",
+          "timestamp": 1762180404,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/538c85e"
+        },
+        {
+          "sha": "dff52d1",
+          "message": "aston: Add eSIM quirk",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 2 14:12:21 2025 +0000",
+          "timestamp": 1762092741,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/dff52d1"
+        },
+        {
+          "sha": "0142858",
+          "message": "wiki: Promote gauguin to 23.0",
+          "author": "Hridaya Prajapati",
+          "date": "Sun Nov 2 13:06:04 2025 +0000",
+          "timestamp": 1762088764,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0142858"
+        },
+        {
+          "sha": "36cd9b4",
+          "message": "wiki: Add a note about signature verification",
+          "author": "Inhishonor",
+          "date": "Sun Nov 2 13:26:45 2025 +0100",
+          "timestamp": 1762086405,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/36cd9b4"
+        },
+        {
+          "sha": "ff9f210",
+          "message": "wiki: Fix indentation in install guide",
+          "author": "Inhishonor",
+          "date": "Sun Nov 2 12:12:53 2025 +0000",
+          "timestamp": 1762085573,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ff9f210"
+        },
+        {
+          "sha": "0541835",
+          "message": "salami/waffle/dodge: Add eSIM quirk",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 2 11:00:07 2025 +0000",
+          "timestamp": 1762081207,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0541835"
+        },
+        {
+          "sha": "e2e2162",
+          "message": "wiki: Add OnePlus 13",
+          "author": "chandu078",
+          "date": "Sun Nov 2 10:22:33 2025 +0000",
+          "timestamp": 1762078953,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e2e2162"
+        },
+        {
+          "sha": "cee05e6",
+          "message": "wiki: Fix bluejay's screen refresh rate",
+          "author": "LuK1337",
+          "date": "Sat Nov 1 22:39:42 2025 +0100",
+          "timestamp": 1762033182,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cee05e6"
+        },
+        {
+          "sha": "5d68c6b",
+          "message": "wiki: moto-sm6225: Update maintainers & models",
+          "author": "Deivid21",
+          "date": "Tue Oct 28 00:10:06 2025 +0000",
+          "timestamp": 1761610206,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/5d68c6b"
+        },
+        {
+          "sha": "9bcfeed",
+          "message": "wiki: Add eSIM peripheral for bangkk, fogo and fogos",
+          "author": "LuK1337",
+          "date": "Tue Oct 28 02:01:29 2025 +0200",
+          "timestamp": 1761609689,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9bcfeed"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_lineage",
+      "path": "vendor/lineage",
+      "repo_url": "https://github.com/LineageOS/android_vendor_lineage",
+      "commit_count": 15,
+      "commits": [
+        {
+          "sha": "c4e86b6",
+          "message": "build: Fix sourcing envsetup from anywhere",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 17 19:26:41 2025 +0200",
+          "timestamp": 1763400401,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/c4e86b6"
+        },
+        {
+          "sha": "5d46082",
+          "message": "config: tablet: Bring back `android.software.freeform_window_management` feature",
+          "author": "Yumi Yukimura",
+          "date": "Wed Nov 12 08:03:46 2025 +0000",
+          "timestamp": 1762934626,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/5d46082"
+        },
+        {
+          "sha": "00d7786",
+          "message": "lineage: Enable R8 code shrinking and optimizations",
+          "author": "Jared Duke",
+          "date": "Wed Nov 12 08:01:42 2025 +0000",
+          "timestamp": 1762934502,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/00d7786"
+        },
+        {
+          "sha": "3d4d384",
+          "message": "Move APNs data to vendor/apn",
+          "author": "LuK1337",
+          "date": "Mon Nov 10 10:31:29 2025 +0100",
+          "timestamp": 1762767089,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/3d4d384"
+        },
+        {
+          "sha": "52a3abe",
+          "message": "vars: Update qcom tags",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 17:32:15 2025 +0000",
+          "timestamp": 1762623135,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/52a3abe"
+        },
+        {
+          "sha": "d40f38d",
+          "message": "release: Bump Security String to 2025-11-01",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:40:16 2025 +0200",
+          "timestamp": 1762609216,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/d40f38d"
+        },
+        {
+          "sha": "0f3d6ea",
+          "message": "config: Set ro.debuggable=0 for userdebug builds",
+          "author": "LuK1337",
+          "date": "Sat Nov 8 08:40:15 2025 +0000",
+          "timestamp": 1762591215,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/0f3d6ea"
+        },
+        {
+          "sha": "c84fb58",
+          "message": "Revert \"overlay: Don't allow toggling camera\"",
+          "author": "Aryan",
+          "date": "Sat Nov 8 08:22:35 2025 +0000",
+          "timestamp": 1762590155,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/c84fb58"
+        },
+        {
+          "sha": "5216d72",
+          "message": "apns: Revert US Mobile Warp changes",
+          "author": "_",
+          "date": "Thu Nov 6 18:22:31 2025 -0800",
+          "timestamp": 1762482151,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/5216d72"
+        },
+        {
+          "sha": "4339301",
+          "message": "overlay: Don't allow toggling camera",
+          "author": "Hridaya Prajapati",
+          "date": "Thu Nov 6 15:54:54 2025 +0000",
+          "timestamp": 1762444494,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/4339301"
+        },
+        {
+          "sha": "d186241",
+          "message": "wipe-frp: Allow overriding FRP_BLOCK",
+          "author": "LuK1337",
+          "date": "Tue Nov 4 12:24:20 2025 +0100",
+          "timestamp": 1762255460,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/d186241"
+        },
+        {
+          "sha": "45094fb",
+          "message": "apns: Add APN for Netgsm",
+          "author": "Doğancan yılmazer",
+          "date": "Mon Nov 3 23:25:24 2025 +0000",
+          "timestamp": 1762212324,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/45094fb"
+        },
+        {
+          "sha": "2426bf9",
+          "message": "kernel: Satisfy Rust bindgen for v6.12",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Nov 3 16:21:01 2025 +0000",
+          "timestamp": 1762186861,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/2426bf9"
+        },
+        {
+          "sha": "751459e",
+          "message": "envsetup: Add build_kernel function for Pixel OOT kernel build",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 00:19:00 2025 +0100",
+          "timestamp": 1762125540,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/751459e"
+        },
+        {
+          "sha": "a13626a",
+          "message": "apn: Add finetwork",
+          "author": "Arian",
+          "date": "Mon Oct 27 08:32:45 2025 +0000",
+          "timestamp": 1761553965,
+          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/a13626a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/hudson",
+      "path": "lineage/hudson",
+      "repo_url": "https://github.com/LineageOS/hudson",
+      "commit_count": 13,
+      "commits": [
+        {
+          "sha": "8496bac",
+          "message": "Time is money",
+          "author": "pnguyen879",
+          "date": "Wed Nov 26 04:33:18 2025 +0000",
+          "timestamp": 1764131598,
+          "url": "https://github.com/LineageOS/hudson/commit/8496bac"
+        },
+        {
+          "sha": "4eb5ef0",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Tue Nov 25 23:30:51 2025 +0000",
+          "timestamp": 1764113451,
+          "url": "https://github.com/LineageOS/hudson/commit/4eb5ef0"
+        },
+        {
+          "sha": "661ad5b",
+          "message": "hudson: Promote dre to 23.0",
+          "author": "Nick Reuter",
+          "date": "Tue Nov 18 18:21:18 2025 -0600",
+          "timestamp": 1763511678,
+          "url": "https://github.com/LineageOS/hudson/commit/661ad5b"
+        },
+        {
+          "sha": "362cfeb",
+          "message": "Two-face",
+          "author": "Andrey Sprynga",
+          "date": "Wed Nov 12 03:43:47 2025 +0000",
+          "timestamp": 1762919027,
+          "url": "https://github.com/LineageOS/hudson/commit/362cfeb"
+        },
+        {
+          "sha": "c529ac8",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Tue Nov 11 23:30:38 2025 +0000",
+          "timestamp": 1762903838,
+          "url": "https://github.com/LineageOS/hudson/commit/c529ac8"
+        },
+        {
+          "sha": "8cf57eb",
+          "message": "hudson: Promote Galaxy A71 to 23.0",
+          "author": "Haky86",
+          "date": "Mon Nov 3 16:04:01 2025 +0100",
+          "timestamp": 1762182241,
+          "url": "https://github.com/LineageOS/hudson/commit/8cf57eb"
+        },
+        {
+          "sha": "583128d",
+          "message": "Use tegu for exp 23",
+          "author": "LuK1337",
+          "date": "Mon Nov 3 15:32:40 2025 +0100",
+          "timestamp": 1762180360,
+          "url": "https://github.com/LineageOS/hudson/commit/583128d"
+        },
+        {
+          "sha": "48a9559",
+          "message": "A wild lizard appears",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 14:32:19 2025 +0000",
+          "timestamp": 1762180339,
+          "url": "https://github.com/LineageOS/hudson/commit/48a9559"
+        },
+        {
+          "sha": "7c9f621",
+          "message": "No source?",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 14:32:19 2025 +0000",
+          "timestamp": 1762180339,
+          "url": "https://github.com/LineageOS/hudson/commit/7c9f621"
+        },
+        {
+          "sha": "89aa388",
+          "message": "bump gauguin to 23.0",
+          "author": "Hridaya Prajapati",
+          "date": "Sun Nov 2 13:05:33 2025 +0000",
+          "timestamp": 1762088733,
+          "url": "https://github.com/LineageOS/hudson/commit/89aa388"
+        },
+        {
+          "sha": "a902755",
+          "message": "dodge joins the 23.0 race",
+          "author": "chandu078",
+          "date": "Sun Nov 2 10:20:14 2025 +0000",
+          "timestamp": 1762078814,
+          "url": "https://github.com/LineageOS/hudson/commit/a902755"
+        },
+        {
+          "sha": "5bdec50",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Fri Oct 31 23:30:44 2025 +0000",
+          "timestamp": 1761953444,
+          "url": "https://github.com/LineageOS/hudson/commit/5bdec50"
+        },
+        {
+          "sha": "8b59fe9",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Mon Oct 27 23:30:44 2025 +0000",
+          "timestamp": 1761607844,
+          "url": "https://github.com/LineageOS/hudson/commit/8b59fe9"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/mirror",
+      "path": "lineage/mirror",
+      "repo_url": "https://github.com/LineageOS/mirror",
+      "commit_count": 10,
+      "commits": [
+        {
+          "sha": "2074512",
+          "message": "Updated to 25-Nov-2025 11:01 UTC",
+          "author": "Tim Schumacher",
+          "date": "Tue Nov 25 12:01:39 2025 +0100",
+          "timestamp": 1764068499,
+          "url": "https://github.com/LineageOS/mirror/commit/2074512"
+        },
+        {
+          "sha": "78d0a5a",
+          "message": "Updated aosp-minimal to 19-Nov-2025 11:02 UTC",
+          "author": "Tim Schumacher",
+          "date": "Wed Nov 19 12:02:00 2025 +0100",
+          "timestamp": 1763550120,
+          "url": "https://github.com/LineageOS/mirror/commit/78d0a5a"
+        },
+        {
+          "sha": "8c18f7d",
+          "message": "Updated aosp-minimal to 18-Nov-2025 23:01 UTC",
+          "author": "Tim Schumacher",
+          "date": "Wed Nov 19 00:01:53 2025 +0100",
+          "timestamp": 1763506913,
+          "url": "https://github.com/LineageOS/mirror/commit/8c18f7d"
+        },
+        {
+          "sha": "1d16a33",
+          "message": "Updated to 17-Nov-2025 23:01 UTC",
+          "author": "Tim Schumacher",
+          "date": "Tue Nov 18 00:01:35 2025 +0100",
+          "timestamp": 1763420495,
+          "url": "https://github.com/LineageOS/mirror/commit/1d16a33"
+        },
+        {
+          "sha": "e7ad4d2",
+          "message": "Updated lineage-minimal to 12-Nov-2025 11:02 UTC",
+          "author": "Tim Schumacher",
+          "date": "Wed Nov 12 12:02:11 2025 +0100",
+          "timestamp": 1762945331,
+          "url": "https://github.com/LineageOS/mirror/commit/e7ad4d2"
+        },
+        {
+          "sha": "136c0a7",
+          "message": "Updated aosp-minimal to 11-Nov-2025 23:22 UTC",
+          "author": "Tim Schumacher",
+          "date": "Wed Nov 12 00:22:50 2025 +0100",
+          "timestamp": 1762903370,
+          "url": "https://github.com/LineageOS/mirror/commit/136c0a7"
+        },
+        {
+          "sha": "f918fe2",
+          "message": "aosp-minimal: Include release branches",
+          "author": "Tim Schumacher",
+          "date": "Tue Nov 11 23:20:32 2025 +0000",
+          "timestamp": 1762903232,
+          "url": "https://github.com/LineageOS/mirror/commit/f918fe2"
+        },
+        {
+          "sha": "d7ea5e6",
+          "message": "Updated to 11-Nov-2025 23:01 UTC",
+          "author": "Tim Schumacher",
+          "date": "Wed Nov 12 00:01:34 2025 +0100",
+          "timestamp": 1762902094,
+          "url": "https://github.com/LineageOS/mirror/commit/d7ea5e6"
+        },
+        {
+          "sha": "7556153",
+          "message": "Updated to 09-Nov-2025 23:01 UTC",
+          "author": "Tim Schumacher",
+          "date": "Mon Nov 10 00:01:27 2025 +0100",
+          "timestamp": 1762729287,
+          "url": "https://github.com/LineageOS/mirror/commit/7556153"
+        },
+        {
+          "sha": "ba1a243",
+          "message": "Updated to 27-Oct-2025 23:01 UTC",
+          "author": "Tim Schumacher",
+          "date": "Tue Oct 28 00:01:28 2025 +0100",
+          "timestamp": 1761606088,
+          "url": "https://github.com/LineageOS/mirror/commit/ba1a243"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "ac205a3",
+          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 19:54:49 2025 +0100",
+          "timestamp": 1763924089,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ac205a3"
+        },
+        {
+          "sha": "f06f20f",
+          "message": "legacy: Disallow system_server from loading kernel modules",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 17:15:04 2025 +0100",
+          "timestamp": 1763914504,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f06f20f"
+        },
+        {
+          "sha": "99d386b",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/99d386b"
+        },
+        {
+          "sha": "f84755c",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f84755c"
+        },
+        {
+          "sha": "0cdb3b2",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0cdb3b2"
+        },
+        {
+          "sha": "51bc00f",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/51bc00f"
+        },
+        {
+          "sha": "a3b48b6",
+          "message": "NFC: FR74324, Add the new STM NFC HAL service",
+          "author": "Devendar Gali",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a3b48b6"
+        },
+        {
+          "sha": "69fbe8f",
+          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:19:50 2025 +0200",
+          "timestamp": 1762607990,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/69fbe8f"
+        },
+        {
+          "sha": "9878448",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:29:44 2025 +0000",
+          "timestamp": 1762090184,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9878448"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8450",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "3cf5bcb",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:32 2025 +0200",
+          "timestamp": 1763763992,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3cf5bcb"
+        },
+        {
+          "sha": "95a405b",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:27:54 2025 +0200",
+          "timestamp": 1762680474,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/95a405b"
+        },
+        {
+          "sha": "1095fc0",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:27:54 2025 +0200",
+          "timestamp": 1762680474,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1095fc0"
+        },
+        {
+          "sha": "e1c1150",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:27:54 2025 +0200",
+          "timestamp": 1762680474,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e1c1150"
+        },
+        {
+          "sha": "2439843",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:21:48 2025 +0200",
+          "timestamp": 1762608108,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2439843"
+        },
+        {
+          "sha": "43f9c10",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Wed Oct 29 00:30:44 2025 +0000",
+          "timestamp": 1761697844,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/43f9c10"
+        },
+        {
+          "sha": "e39b56b",
+          "message": "NFC: FR74324, Add the new STM NFC HAL service",
+          "author": "Devendar Gali",
+          "date": "Wed Oct 29 00:30:15 2025 +0000",
+          "timestamp": 1761697815,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e39b56b"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_LineageParts",
+      "path": "packages/apps/LineageParts",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_LineageParts",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "f74caaf",
+          "message": "LineageParts: Add MD3 styling to Trust notification",
+          "author": "pnguyen879",
+          "date": "Tue Nov 25 08:13:50 2025 +0000",
+          "timestamp": 1764058430,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/f74caaf"
+        },
+        {
+          "sha": "31662bd",
+          "message": "ChargingControlSettings: Ditch DropDownPreference and use ListPreference",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 23 12:15:28 2025 +0000",
+          "timestamp": 1763900128,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/31662bd"
+        },
+        {
+          "sha": "5b14bf8",
+          "message": "LineageParts: Set group key for contributors cloud IA",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 00:27:38 2025 +0100",
+          "timestamp": 1763854058,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/5b14bf8"
+        },
+        {
+          "sha": "91c1b40",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:59 2025 +0000",
+          "timestamp": 1763229719,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/91c1b40"
+        },
+        {
+          "sha": "3c69df4",
+          "message": "Regenerate contributors cloud (2025-11-05)",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Nov 6 05:50:33 2025 -0700",
+          "timestamp": 1762433433,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3c69df4"
+        },
+        {
+          "sha": "ce809c3",
+          "message": "Regenerate contributors cloud (2025-11-02)",
+          "author": "Kevin F. Haggerty",
+          "date": "Mon Nov 3 19:49:58 2025 -0700",
+          "timestamp": 1762224598,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/ce809c3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "b28a32c",
+          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 19:53:45 2025 +0100",
+          "timestamp": 1763924025,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c"
+        },
+        {
+          "sha": "a6b7ae6",
+          "message": "legacy: Disallow system_server from loading kernel modules",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 17:14:09 2025 +0100",
+          "timestamp": 1763914449,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae6"
+        },
+        {
+          "sha": "e6959ab",
+          "message": "fixup! legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 17:32:19 2025 +0100",
+          "timestamp": 1762101139,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e6959ab"
+        },
+        {
+          "sha": "57d39af",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 15:12:10 2025 +0000",
+          "timestamp": 1762096330,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/57d39af"
+        },
+        {
+          "sha": "c5a86cf",
+          "message": "sepolicy: Move hal_soter attribute to public",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:30:17 2025 +0000",
+          "timestamp": 1762090217,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c5a86cf"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8650",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "2c83259",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:50 2025 +0200",
+          "timestamp": 1763764010,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2c83259"
+        },
+        {
+          "sha": "d6d84e1",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d6d84e1"
+        },
+        {
+          "sha": "8e0d783",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8e0d783"
+        },
+        {
+          "sha": "f1b185b",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f1b185b"
+        },
+        {
+          "sha": "56f1a2d",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:25:26 2025 +0200",
+          "timestamp": 1762608326,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/56f1a2d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8750",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "dd8ebd7",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:59 2025 +0200",
+          "timestamp": 1763764019,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
+        },
+        {
+          "sha": "447107e",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
+        },
+        {
+          "sha": "ba4de13",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
+        },
+        {
+          "sha": "4088120",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
+        },
+        {
+          "sha": "71e3f76",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:41 2025 +0200",
+          "timestamp": 1762608401,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8550",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "c2a16e9",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Fri Nov 21 07:21:44 2025 +0530",
+          "timestamp": 1763689904,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c2a16e9"
+        },
+        {
+          "sha": "805c088",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:28:35 2025 +0200",
+          "timestamp": 1762680515,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/805c088"
+        },
+        {
+          "sha": "45e6960",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:15 2025 +0200",
+          "timestamp": 1762608255,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/45e6960"
+        },
+        {
+          "sha": "2894ee5",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Wed Oct 29 00:29:44 2025 +0000",
+          "timestamp": 1761697784,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2894ee5"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_thermal",
+      "path": "hardware/qcom-caf/thermal-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "74bce7c",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:56 2025 +0200",
+          "timestamp": 1762608296,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/74bce7c"
+        },
+        {
+          "sha": "5429698",
+          "message": "thermal-hal: Update skin temperature threshold for msmnile",
+          "author": "Nick Reuter",
+          "date": "Tue Nov 4 00:23:56 2025 -0600",
+          "timestamp": 1762237436,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/5429698"
+        },
+        {
+          "sha": "03845e4",
+          "message": "thermal-hal: Update skin temperature threshold for kona",
+          "author": "Edwin Moquete",
+          "date": "Thu Oct 30 00:50:21 2025 +0000",
+          "timestamp": 1761785421,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/03845e4"
+        },
+        {
+          "sha": "0878137",
+          "message": "thermal-hal: Revert \"Add tsens,bcl configuration for kona\"",
+          "author": "armdebug",
+          "date": "Wed Oct 29 13:31:46 2025 +0000",
+          "timestamp": 1761744706,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/0878137"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_tools_extract-utils",
+      "path": "tools/extract-utils",
+      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "4bbc4b9",
+          "message": "extract_utils: update pre-commit hooks to the latest versions",
+          "author": "LuK1337",
+          "date": "Sun Nov 9 13:15:25 2025 +0100",
+          "timestamp": 1762690525,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4bbc4b9"
+        },
+        {
+          "sha": "4e62c34",
+          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4e62c34"
+        },
+        {
+          "sha": "ceaf573",
+          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ceaf573"
+        },
+        {
+          "sha": "4afac1d",
+          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4afac1d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "84e7b7b",
+          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
+          "author": "Sneh Mankad",
+          "date": "Sun Nov 9 02:51:10 2025 +0200",
+          "timestamp": 1762649470,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
+        },
+        {
+          "sha": "9d86876",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:35:09 2025 +0200",
+          "timestamp": 1762648509,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
+        },
+        {
+          "sha": "ecd05f7",
+          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:34:40 2025 +0200",
+          "timestamp": 1762648480,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_lineage-sdk",
+      "path": "lineage-sdk",
+      "repo_url": "https://github.com/LineageOS/android_lineage-sdk",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "60d0477",
+          "message": "LineagePreferenceLib: RIP DropDownPreference type",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 23 12:15:38 2025 +0000",
+          "timestamp": 1763900138,
+          "url": "https://github.com/LineageOS/android_lineage-sdk/commit/60d0477"
+        },
+        {
+          "sha": "39cff88",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:55 2025 +0000",
+          "timestamp": 1763229715,
+          "url": "https://github.com/LineageOS/android_lineage-sdk/commit/39cff88"
+        },
+        {
+          "sha": "d518e8d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:36 2025 +0000",
+          "timestamp": 1762026516,
+          "url": "https://github.com/LineageOS/android_lineage-sdk/commit/d518e8d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_apn",
+      "path": "vendor/apn",
+      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "060d567",
+          "message": "Add WE EG",
+          "author": "keosh1",
+          "date": "Thu Nov 13 21:27:36 2025 +0000",
+          "timestamp": 1763069256,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
+        },
+        {
+          "sha": "2341ff2",
+          "message": "Add a helper to pretty format apn xmls and run it",
+          "author": "Arian",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
+        },
+        {
+          "sha": "ebf7f73",
+          "message": "Initial commit",
+          "author": "LuK1337",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-core",
+      "path": "hardware/qcom-caf/sm8750/display/core",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5c18ca2",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-core into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:02:25 2025 +0000",
+          "timestamp": 1763668945,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/5c18ca2"
+        },
+        {
+          "sha": "4a21355",
+          "message": "Revert \"display-core: Make IsGPUHWAvailable() non-virtual and force it to true\"",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 13:51:17 2025 +0000",
+          "timestamp": 1763646677,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/4a21355"
+        },
+        {
+          "sha": "dc85752",
+          "message": "Reapply \"Revert^2 \"sdm: add support for DS merge mode\"\"",
+          "author": "Giovanni Ricca",
+          "date": "Tue Nov 18 16:49:05 2025 +0100",
+          "timestamp": 1763480945,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/dc85752"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android",
+      "path": "android",
+      "repo_url": "https://github.com/LineageOS/android",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "afc3dd0",
+          "message": "manifest: Unfork system_bpf",
+          "author": "Thomas Turner",
+          "date": "Thu Nov 13 19:36:08 2025 +0000",
+          "timestamp": 1763062568,
+          "url": "https://github.com/LineageOS/android/commit/afc3dd0"
+        },
+        {
+          "sha": "06332e0",
+          "message": "manifest: Track vendor/apn",
+          "author": "LuK1337",
+          "date": "Mon Nov 10 22:04:51 2025 +0100",
+          "timestamp": 1762808691,
+          "url": "https://github.com/LineageOS/android/commit/06332e0"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "c0a6ee1",
+          "message": "qcom: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:36:44 2025 +0000",
+          "timestamp": 1762090604,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/c0a6ee1"
+        },
+        {
+          "sha": "8b89a12",
+          "message": "qcom: Allow platform_app to use Soter HAL",
+          "author": "dianlujitao",
+          "date": "Sun Nov 2 13:36:36 2025 +0000",
+          "timestamp": 1762090596,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/8b89a12"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_base",
+      "path": "frameworks/base",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_base",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "f0964915",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:49 2025 +0000",
+          "timestamp": 1763229709,
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/f0964915"
+        },
+        {
+          "sha": "2dc97cf3",
+          "message": "SystemUI: Hide HEVC screen recording when no HW codec is available",
+          "author": "Ido Ben-Hur",
+          "date": "Mon Nov 10 07:14:08 2025 +0000",
+          "timestamp": 1762758848,
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/2dc97cf3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_wlan",
+      "path": "hardware/qcom-caf/wlan",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "7aa5591",
+          "message": "Merge tag 'WLAN.LA.1.0.r1-08900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into staging/lineage-23.0_merge-WLAN.LA.1.0.r1-08900-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:39:10 2025 +0200",
+          "timestamp": 1762609150,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/7aa5591"
+        },
+        {
+          "sha": "82a363c",
+          "message": "Revert \"wifi_hal: Fix KW issue\"",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:38:57 2025 +0200",
+          "timestamp": 1762609137,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/82a363c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Aperture",
+      "path": "packages/apps/Aperture",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "825b7f6",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:56 2025 +0000",
+          "timestamp": 1763229716,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/825b7f6"
+        },
+        {
+          "sha": "998f355",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:36 2025 +0000",
+          "timestamp": 1762026516,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/998f355"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Twelve",
+      "path": "packages/apps/Twelve",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "6b0152d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:00 2025 +0000",
+          "timestamp": 1763229720,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/6b0152d"
+        },
+        {
+          "sha": "516d1f4",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:39 2025 +0000",
+          "timestamp": 1762026519,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/516d1f4"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "15f3221",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:01 2025 +0000",
+          "timestamp": 1763229721,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/15f3221"
+        },
+        {
+          "sha": "28a3378",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:41 2025 +0000",
+          "timestamp": 1762026521,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/28a3378"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_crowdin",
+      "path": "vendor/crowdin",
+      "repo_url": "https://github.com/LineageOS/android_vendor_crowdin",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "93da2a7",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:09 2025 +0000",
+          "timestamp": 1763229729,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/93da2a7"
+        },
+        {
+          "sha": "208c135",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:48 2025 +0000",
+          "timestamp": 1762026528,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/208c135"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/scripts",
+      "path": "lineage/scripts",
+      "repo_url": "https://github.com/LineageOS/scripts",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "137c96c",
+          "message": "build-webview: Update default webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:50:50 2025 -0700",
+          "timestamp": 1762555850,
+          "url": "https://github.com/LineageOS/scripts/commit/137c96c"
+        },
+        {
+          "sha": "953b0b1",
+          "message": "scripts: Add collect-kernel-module-deps.py",
+          "author": "Yumi Yukimura",
+          "date": "Tue Nov 4 22:02:54 2025 +0000",
+          "timestamp": 1762293774,
+          "url": "https://github.com/LineageOS/scripts/commit/953b0b1"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_bootable_recovery",
+      "path": "bootable/recovery",
+      "repo_url": "https://github.com/LineageOS/android_bootable_recovery",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c9d9b51",
+          "message": "fixup! recovery: Get a proper shell environment in recovery",
+          "author": "LuK1337",
+          "date": "Thu Nov 6 13:34:14 2025 +0100",
+          "timestamp": 1762432454,
+          "url": "https://github.com/LineageOS/android_bootable_recovery/commit/c9d9b51"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_build",
+      "path": "build/make",
+      "repo_url": "https://github.com/LineageOS/android_build",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "083aa4a",
+          "message": "Merge commit 'cda08bfbf55aed1e4c79efe6a66bb930d19a8a13' into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 6 11:46:17 2025 +0200",
+          "timestamp": 1762422377,
+          "url": "https://github.com/LineageOS/android_build/commit/083aa4a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/LineageOS/android_build_soong",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "cff28f5",
+          "message": "Revert \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
+          "author": "Colin Cross",
+          "date": "Mon Oct 27 22:57:34 2025 +0000",
+          "timestamp": 1761605854,
+          "url": "https://github.com/LineageOS/android_build_soong/commit/cff28f5"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "70d1609",
+          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:03 2025 -0700",
+          "timestamp": 1762617483,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "84c74ff",
+          "message": "Update Chromium Webview x86 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:08 2025 -0700",
+          "timestamp": 1762617488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "path": "external/chromium-webview/prebuilt/x86_64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "69244c6",
+          "message": "Update Chromium Webview x86_64 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:13 2025 -0700",
+          "timestamp": 1762617493,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_nano",
+      "path": "external/nano",
+      "repo_url": "https://github.com/LineageOS/android_external_nano",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "b83fc23",
+          "message": "Merge tag 'v8.6' of git://git.git.savannah.gnu.org/nano into lineage-23.0",
+          "author": "Thomas Turner",
+          "date": "Mon Oct 27 20:27:57 2025 +0000",
+          "timestamp": 1761596877,
+          "url": "https://github.com/LineageOS/android_external_nano/commit/b83fc23"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_unrar",
+      "path": "external/unrar",
+      "repo_url": "https://github.com/LineageOS/android_external_unrar",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "140cfb9",
+          "message": "Merge https://github.com/pmachapman/unrar into lineage-23.0",
+          "author": "Thomas Turner",
+          "date": "Mon Oct 27 22:04:13 2025 +0000",
+          "timestamp": 1761602653,
+          "url": "https://github.com/LineageOS/android_external_unrar/commit/140cfb9"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_hardware_interfaces",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "2e4a41b",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Sun Nov 16 19:37:38 2025 +0100",
+          "timestamp": 1763318258,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/2e4a41b"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_libhardware",
+      "path": "hardware/libhardware",
+      "repo_url": "https://github.com/LineageOS/android_hardware_libhardware",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d8e910c",
+          "message": "Revert \"hardware/libhw: Add display_defs.h to declare custom enums/flags\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 09:50:26 2025 +0000",
+          "timestamp": 1762681826,
+          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/d8e910c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "95c5d93",
+          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
+          "author": "Ankit Mishra",
+          "date": "Mon Nov 3 12:33:59 2025 +0000",
+          "timestamp": 1762173239,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0b70a90",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:23:04 2025 +0200",
+          "timestamp": 1762608184,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sm8350/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6afc6e6",
+          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:18:58 2025 +0200",
+          "timestamp": 1762607938,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/6afc6e6"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8750/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f60ec59",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:18 2025 +0200",
+          "timestamp": 1762608378,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/f60ec59"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8250/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9ec8cc0",
+          "message": "Merge tag 'LA.UM.9.12.r1-18400-SMxx50.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into lineage-23.0-caf-sm8250",
+          "author": "Michael Bestas",
+          "date": "Fri Oct 31 09:10:35 2025 +0000",
+          "timestamp": 1761901835,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/9ec8cc0"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8750/display/hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "572019c",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:02:43 2025 +0000",
+          "timestamp": 1763668963,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_thermal",
+      "path": "hardware/qcom-caf/thermal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a4298a2",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:27:59 2025 +0200",
+          "timestamp": 1762608479,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/a4298a2"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_DeskClock",
+      "path": "packages/apps/DeskClock",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_DeskClock",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8987c25",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:57 2025 +0000",
+          "timestamp": 1763229717,
+          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c25"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6a365d1",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:38 2025 +0000",
+          "timestamp": 1762026518,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6a365d1"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Jelly",
+      "path": "packages/apps/Jelly",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e7bc9a2",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:58 2025 +0000",
+          "timestamp": 1763229718,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/e7bc9a2"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Launcher3",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "47681de",
+          "message": "Launcher3: Add resource to enable rotation by default",
+          "author": "AnierinB",
+          "date": "Thu Nov 6 06:05:27 2025 +0000",
+          "timestamp": 1762409127,
+          "url": "https://github.com/LineageOS/android_packages_apps_Launcher3/commit/47681de"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_SetupWizard",
+      "path": "packages/apps/SetupWizard",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_SetupWizard",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d470698",
+          "message": "SetupWizard: Actually remove 2 button nav leftovers",
+          "author": "pnguyen879",
+          "date": "Sat Nov 1 19:52:17 2025 -0500",
+          "timestamp": 1762044737,
+          "url": "https://github.com/LineageOS/android_packages_apps_SetupWizard/commit/d470698"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Settings",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f08363f4",
+          "message": "fixup! Settings: Add toggle for heads up notifications",
+          "author": "Michael Bestas",
+          "date": "Wed Nov 12 23:09:45 2025 +0200",
+          "timestamp": 1762981785,
+          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/f08363f4"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Updater",
+      "path": "packages/apps/Updater",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Updater",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4150e2f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:01 2025 +0000",
+          "timestamp": 1763229721,
+          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/4150e2f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_inputmethods_LatinIME",
+      "path": "packages/inputmethods/LatinIME",
+      "repo_url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5253c60",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:40 2025 +0000",
+          "timestamp": 1762026520,
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/5253c60"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_apex",
+      "path": "system/apex",
+      "repo_url": "https://github.com/LineageOS/android_system_apex",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "740076a",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/system/apex into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 6 11:49:09 2025 +0200",
+          "timestamp": 1762422549,
+          "url": "https://github.com/LineageOS/android_system_apex/commit/740076a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_core",
+      "path": "system/core",
+      "repo_url": "https://github.com/LineageOS/android_system_core",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "914a773",
+          "message": "core: Fix host_init_verifier for devices with overriding services",
+          "author": "Alexander Koskovich",
+          "date": "Mon Nov 10 07:13:34 2025 +0000",
+          "timestamp": 1762758814,
+          "url": "https://github.com/LineageOS/android_system_core/commit/914a773"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/LineageOS/android_system_media",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e112072",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Sun Nov 16 10:55:27 2025 +0100",
+          "timestamp": 1763286927,
+          "url": "https://github.com/LineageOS/android_system_media/commit/e112072"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_codeaurora_telephony",
+      "path": "vendor/codeaurora/telephony",
+      "repo_url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "522eeb1",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:00 2025 +0200",
+          "timestamp": 1762607760,
+          "url": "https://github.com/LineageOS/android_vendor_codeaurora_telephony/commit/522eeb1"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_agm",
+      "path": "hardware/qcom-caf/sm8750/audio/agm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d6fba18",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:10 2025 +0200",
+          "timestamp": 1762608370,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/d6fba18"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8450/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "70e7102",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:22:11 2025 +0200",
+          "timestamp": 1762608131,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/70e7102"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8750/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0295669",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:12 2025 +0200",
+          "timestamp": 1762608372,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0295669"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/audio",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "7d983f8",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:04 2025 +0200",
+          "timestamp": 1762607764,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/7d983f8"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8550/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "191b3fc",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:27 2025 +0200",
+          "timestamp": 1762608267,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/191b3fc"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8750/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "845bfb9",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:54 2025 +0200",
+          "timestamp": 1762608414,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/845bfb9"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8650/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5f520e7",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:49 2025 +0200",
+          "timestamp": 1762608289,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/display",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "7cbc3cb",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:21 2025 +0200",
+          "timestamp": 1762607781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-intf",
+      "path": "hardware/qcom-caf/sm8750/display/intf",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "19b5c05",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-intf into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:03:11 2025 +0000",
+          "timestamp": 1763668991,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf/commit/19b5c05"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_vibrator",
+      "path": "vendor/qcom/opensource/vibrator",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a362998",
+          "message": "vibrator: Add support for aw-haptic-hv",
+          "author": "Arian",
+          "date": "Tue Oct 28 09:18:03 2025 +0100",
+          "timestamp": 1761639483,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a362998"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_usb",
+      "path": "vendor/qcom/opensource/usb",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "827db65",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:34:17 2025 +0200",
+          "timestamp": 1762608857,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/827db65"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/cm_crowdin",
+      "path": "lineage/crowdin",
+      "repo_url": "https://github.com/LineageOS/cm_crowdin",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "70783f1",
+          "message": "config: Add OplusEsimSwitcher",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 6 21:01:53 2025 +0000",
+          "timestamp": 1762462913,
+          "url": "https://github.com/LineageOS/cm_crowdin/commit/70783f1"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/www",
+      "path": "lineage/website",
+      "repo_url": "https://github.com/LineageOS/www",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8591b4f",
+          "message": "www: Update homepage images for themes",
+          "author": "Asher S",
+          "date": "Mon Nov 17 23:56:37 2025 +0000",
+          "timestamp": 1763423797,
+          "url": "https://github.com/LineageOS/www/commit/8591b4f"
+        }
+      ]
+    }
+  ]
+}
