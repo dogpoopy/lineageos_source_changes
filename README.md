@@ -39,6 +39,17 @@
 </details>
 
 <details>
+<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
+
+- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
+  
+  Author: LuK1337  
+  Date: Wed Oct 29 12:01:49 2025 +0100
+
+
+</details>
+
+<details>
 <summary><b>device/qcom/sepolicy-legacy-um</b> (2 commits)</summary>
 
 - [7f5546d](https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d) legacy: hal_soter -&gt; vendor_hal_soter
@@ -55,17 +66,6 @@
 </details>
 
 <details>
-<summary><b>device/qcom/sepolicy_vndr/legacy-um</b> (1 commits)</summary>
-
-- [6d3b8e5](https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5) legacy: hal_soter -&gt; vendor_hal_soter
-  
-  Author: LuK1337  
-  Date: Wed Oct 29 12:01:49 2025 +0100
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/patches</b> (1 commits)</summary>
 
 - [5cb676d](https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d) Update Chromium Webview to 142.0.7444.138
@@ -77,23 +77,23 @@
 </details>
 
 <details>
-<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
-
-- [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
-  
-  Author: Kevin F. Haggerty  
-  Date: Sat Nov 8 08:57:57 2025 -0700
-
-
-</details>
-
-<details>
 <summary><b>external/chromium-webview/prebuilt/arm64</b> (1 commits)</summary>
 
 - [70d1609](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609) Update Chromium Webview arm64 to 142.0.7444.138
   
   Author: Kevin F. Haggerty  
   Date: Sat Nov 8 08:58:03 2025 -0700
+
+
+</details>
+
+<details>
+<summary><b>external/chromium-webview/prebuilt/arm</b> (1 commits)</summary>
+
+- [6f94e76](https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76) Update Chromium Webview arm to 142.0.7444.138
+  
+  Author: Kevin F. Haggerty  
+  Date: Sat Nov 8 08:57:57 2025 -0700
 
 
 </details>
@@ -201,23 +201,23 @@
 </details>
 
 <details>
-<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
-
-- [7736f3b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/7736f3b) Automatic translation import
-  
-  Author: LineageOS Infra  
-  Date: Sat Nov 15 20:11:26 2025 +0000
-
-
-</details>
-
-<details>
 <summary><b>packages/apps/Glimpse</b> (1 commits)</summary>
 
 - [7bf0e49](https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49) Automatic translation import
   
   Author: LineageOS Infra  
   Date: Sat Nov 1 21:55:50 2025 +0000
+
+
+</details>
+
+<details>
+<summary><b>packages/apps/Jelly</b> (1 commits)</summary>
+
+- [7736f3b](https://github.com/LineageOS/android_packages_apps_Jelly/commit/7736f3b) Automatic translation import
+  
+  Author: LineageOS Infra  
+  Date: Sat Nov 15 20:11:26 2025 +0000
 
 
 </details>
@@ -430,17 +430,6 @@
 </details>
 
 <details>
-<summary><b>lineage/charter</b> (1 commits)</summary>
-
-- [873eada](https://github.com/LineageOS/charter/commit/873eada) device-support-requirements: Allow prebuilt GKI
-  
-  Author: Nolen Johnson  
-  Date: Sun Oct 26 19:13:26 2025 -0400
-
-
-</details>
-
-<details>
 <summary><b>lineage/crowdin</b> (1 commits)</summary>
 
 - [70783f1](https://github.com/LineageOS/cm_crowdin/commit/70783f1) config: Add OplusEsimSwitcher
@@ -452,58 +441,12 @@
 </details>
 
 <details>
-<summary><b>lineage/mirror</b> (9 commits)</summary>
+<summary><b>lineage/hudson</b> (12 commits)</summary>
 
-- [78d0a5a](https://github.com/LineageOS/mirror/commit/78d0a5a) Updated aosp-minimal to 19-Nov-2025 11:02 UTC
+- [4eb5ef0](https://github.com/LineageOS/hudson/commit/4eb5ef0) Regenerate device dependency mappings
   
-  Author: Tim Schumacher  
-  Date: Wed Nov 19 12:02:00 2025 +0100
-
-- [8c18f7d](https://github.com/LineageOS/mirror/commit/8c18f7d) Updated aosp-minimal to 18-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 19 00:01:53 2025 +0100
-
-- [1d16a33](https://github.com/LineageOS/mirror/commit/1d16a33) Updated to 17-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Nov 18 00:01:35 2025 +0100
-
-- [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 12:02:11 2025 +0100
-
-- [136c0a7](https://github.com/LineageOS/mirror/commit/136c0a7) Updated aosp-minimal to 11-Nov-2025 23:22 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 00:22:50 2025 +0100
-
-- [f918fe2](https://github.com/LineageOS/mirror/commit/f918fe2) aosp-minimal: Include release branches
-  
-  Author: Tim Schumacher  
-  Date: Tue Nov 11 23:20:32 2025 +0000
-
-- [d7ea5e6](https://github.com/LineageOS/mirror/commit/d7ea5e6) Updated to 11-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Wed Nov 12 00:01:34 2025 +0100
-
-- [7556153](https://github.com/LineageOS/mirror/commit/7556153) Updated to 09-Nov-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Mon Nov 10 00:01:27 2025 +0100
-
-- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
-  
-  Author: Tim Schumacher  
-  Date: Tue Oct 28 00:01:28 2025 +0100
-
-
-</details>
-
-<details>
-<summary><b>lineage/hudson</b> (11 commits)</summary>
+  Author: LineageOS Infra  
+  Date: Tue Nov 25 23:30:51 2025 +0000
 
 - [661ad5b](https://github.com/LineageOS/hudson/commit/661ad5b) hudson: Promote dre to 23.0
   
@@ -564,7 +507,68 @@
 </details>
 
 <details>
-<summary><b>lineage/wiki</b> (30 commits)</summary>
+<summary><b>lineage/mirror</b> (10 commits)</summary>
+
+- [2074512](https://github.com/LineageOS/mirror/commit/2074512) Updated to 25-Nov-2025 11:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Nov 25 12:01:39 2025 +0100
+
+- [78d0a5a](https://github.com/LineageOS/mirror/commit/78d0a5a) Updated aosp-minimal to 19-Nov-2025 11:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 19 12:02:00 2025 +0100
+
+- [8c18f7d](https://github.com/LineageOS/mirror/commit/8c18f7d) Updated aosp-minimal to 18-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 19 00:01:53 2025 +0100
+
+- [1d16a33](https://github.com/LineageOS/mirror/commit/1d16a33) Updated to 17-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Nov 18 00:01:35 2025 +0100
+
+- [e7ad4d2](https://github.com/LineageOS/mirror/commit/e7ad4d2) Updated lineage-minimal to 12-Nov-2025 11:02 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 12:02:11 2025 +0100
+
+- [136c0a7](https://github.com/LineageOS/mirror/commit/136c0a7) Updated aosp-minimal to 11-Nov-2025 23:22 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 00:22:50 2025 +0100
+
+- [f918fe2](https://github.com/LineageOS/mirror/commit/f918fe2) aosp-minimal: Include release branches
+  
+  Author: Tim Schumacher  
+  Date: Tue Nov 11 23:20:32 2025 +0000
+
+- [d7ea5e6](https://github.com/LineageOS/mirror/commit/d7ea5e6) Updated to 11-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Wed Nov 12 00:01:34 2025 +0100
+
+- [7556153](https://github.com/LineageOS/mirror/commit/7556153) Updated to 09-Nov-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Mon Nov 10 00:01:27 2025 +0100
+
+- [ba1a243](https://github.com/LineageOS/mirror/commit/ba1a243) Updated to 27-Oct-2025 23:01 UTC
+  
+  Author: Tim Schumacher  
+  Date: Tue Oct 28 00:01:28 2025 +0100
+
+
+</details>
+
+<details>
+<summary><b>lineage/wiki</b> (31 commits)</summary>
+
+- [4b134c2](https://github.com/LineageOS/lineage_wiki/commit/4b134c2) wiki: Update gauguin maintainer list
+  
+  Author: Penguin766  
+  Date: Tue Nov 25 01:50:02 2025 +0000
 
 - [444f8d0](https://github.com/LineageOS/lineage_wiki/commit/444f8d0) devices: dre: Promote to 23.0
   
