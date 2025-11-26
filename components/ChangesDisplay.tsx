@@ -116,67 +116,76 @@ export default function ChangesDisplay({ data }: { data: ChangesData }) {
                 {/* Project Header */}
                 <button
                   onClick={() => toggleProject(project.path)}
-                  className="w-full px-6 py-4 flex items-center justify-between hover:bg-slate-700/30 transition-colors"
+                  className="w-full px-4 sm:px-6 py-4 hover:bg-slate-700/30 transition-colors"
                 >
-                  <div className="flex items-center gap-4">
-                    <div className="flex-shrink-0">
+                  <div className="flex items-start gap-3 sm:gap-4">
+                    {/* Chevron Icon */}
+                    <div className="flex-shrink-0 mt-1">
                       {isExpanded ? (
                         <ChevronUp className="text-slate-400" size={20} />
                       ) : (
                         <ChevronDown className="text-slate-400" size={20} />
                       )}
                     </div>
-                    <div className="text-left">
-                      <h3 className="text-lg font-semibold text-white">{project.path}</h3>
-                      <p className="text-sm text-slate-400">{project.name}</p>
+                    
+                    {/* Project Info */}
+                    <div className="text-left flex-1 min-w-0">
+                      <h3 className="text-base sm:text-lg font-semibold text-white break-words pr-2">
+                        {project.path}
+                      </h3>
+                      <p className="text-xs sm:text-sm text-slate-400 truncate">
+                        {project.name}
+                      </p>
                     </div>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium">
-                      {project.commit_count} commits
-                    </span>
-                    <a
-                      href={project.repo_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                      className="text-slate-400 hover:text-blue-400 transition-colors"
-                    >
-                      <ExternalLink size={18} />
-                    </a>
+                    
+                    {/* Commit Count & Link */}
+                    <div className="flex flex-col sm:flex-row items-end sm:items-center gap-2 sm:gap-4 flex-shrink-0">
+                      <span className="bg-blue-500/20 text-blue-400 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium whitespace-nowrap">
+                        {project.commit_count}
+                      </span>
+                      <a
+                        href={project.repo_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="text-slate-400 hover:text-blue-400 transition-colors"
+                      >
+                        <ExternalLink size={18} />
+                      </a>
+                    </div>
                   </div>
                 </button>
 
                 {/* Commits List */}
                 {isExpanded && (
-                  <div className="border-t border-slate-700 px-6 py-4 space-y-3">
+                  <div className="border-t border-slate-700 px-4 sm:px-6 py-4 space-y-3">
                     {project.commits.map((commit) => (
                       <div
                         key={commit.sha}
-                        className="bg-slate-900/50 rounded-lg p-4 hover:bg-slate-900/70 transition-colors"
+                        className="bg-slate-900/50 rounded-lg p-3 sm:p-4 hover:bg-slate-900/70 transition-colors"
                       >
                         <div className="flex items-start justify-between gap-4 mb-2">
                           <a
                             href={commit.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex-1 text-white hover:text-blue-400 transition-colors"
+                            className="flex-1 text-white hover:text-blue-400 transition-colors min-w-0"
                           >
                             <div className="flex items-center gap-2 mb-1">
                               <GitCommit size={16} className="text-slate-400 flex-shrink-0" />
                               <code className="text-sm font-mono text-blue-400">{commit.sha}</code>
                             </div>
-                            <p className="text-sm leading-relaxed">{commit.message}</p>
+                            <p className="text-sm leading-relaxed break-words">{commit.message}</p>
                           </a>
                         </div>
-                        <div className="flex items-center gap-4 text-xs text-slate-400">
+                        <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs text-slate-400">
                           <div className="flex items-center gap-1">
-                            <User size={14} />
-                            <span>{commit.author}</span>
+                            <User size={14} className="flex-shrink-0" />
+                            <span className="truncate">{commit.author}</span>
                           </div>
                           <div className="flex items-center gap-1">
-                            <Calendar size={14} />
-                            <span>{formatDate(commit.date)}</span>
+                            <Calendar size={14} className="flex-shrink-0" />
+                            <span className="whitespace-nowrap">{formatDate(commit.date)}</span>
                           </div>
                         </div>
                       </div>
