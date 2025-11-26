@@ -25,10 +25,10 @@ jobs:
       - name: Initialize LineageOS manifest
         run: |
           mkdir workspace && cd workspace
-          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b lineage-22.2 -g default,-mips,-darwin,-notdefault
+          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b lineage-23.0 -g default,-mips,-darwin,-notdefault
           repo manifest -o source_manifest.xml
 
-      - name: Generate source changes report
+      - name: Generate source changes JSON
         run: |
           python3 scripts/parse_source.py
 
@@ -36,6 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "🔄 Fetch latest LineageOS source changes"
+          git add public/data/changes.json
+          git diff --staged --quiet || git commit -m "🔄 Update LineageOS source changes data"
           git push
+
