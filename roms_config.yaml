@@ -5,6 +5,32 @@ roms:
     branches:
       - lineage-22.2
       - lineage-23.1
+      
+  - id: derpfest
+    display_name: DerpFest-AOSP
+    manifest_url: https://github.com/DerpFest-AOSP/android_manifest.git
+    branches:
+      - "16"
+      
+  - id: yaap
+    display_name: Yet Another AOSP Project
+    manifest_url: https://github.com/yaap/manifest.git
+    branches:
+      - sixteen
+      - fifteen
+      
+  - id: pos
+    display_name: PixelOS-AOSP
+    manifest_url: https://github.com/PixelOS-AOSP/android_manifest.git
+    branches:
+      - sixteen
+      - sixteen-qpr1
+      
+  - id: axion
+    display_name: AxionOS
+    manifest_url: https://github.com/AxionAOSP/android.git
+    branches:
+      - lineage-23.1
 
 repo_params:
   groups: default,-mips,-darwin,-notdefault
