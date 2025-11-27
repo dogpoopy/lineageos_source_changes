@@ -1,16 +1,12 @@
-name: LineageOS Source Changes Tracker
+name: ROM Source Changes Tracker
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 
-env:
-  BRANCH_1: lineage-22.2
-  BRANCH_2: lineage-23.1
-
 jobs:
-  lineage:
+  process-roms:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,43 +17,27 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y git-core python3-pip
-          pip install GitPython lxml
+          pip install GitPython lxml pyyaml
           wget https://storage.googleapis.com/git-repo-downloads/repo
           sudo mv repo /usr/bin/repo
           sudo chmod a+x /usr/bin/repo
 
-      - name: Process ${{ env.BRANCH_1 }}
+      - name: Process all ROMs
         run: |
-          echo "========================================="
-          echo "Processing ${{ env.BRANCH_1 }}"
-          echo "========================================="
-          rm -rf workspace
-          mkdir workspace && cd workspace
-          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b ${{ env.BRANCH_1 }} -g default,-mips,-darwin,-notdefault
-          repo manifest -o source_manifest.xml
-          cd ..
-          python3 scripts/parse_source.py ${{ env.BRANCH_1 }}
+          python3 scripts/roms.py
 
-      - name: Process ${{ env.BRANCH_2 }}
+      - name: Generate UI configuration
         run: |
-          echo "========================================="
-          echo "Processing ${{ env.BRANCH_2 }}"
-          echo "========================================="
-          rm -rf workspace
-          mkdir workspace && cd workspace
-          repo init --no-repo-verify -u https://github.com/LineageOS/android.git -b ${{ env.BRANCH_2 }} -g default,-mips,-darwin,-notdefault
-          repo manifest -o source_manifest.xml
-          cd ..
-          python3 scripts/parse_source.py ${{ env.BRANCH_2 }}
+          python3 scripts/roms_ui.py
 
       - name: Commit and push all changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/*.json
+          git add public/
           if git diff --staged --quiet; then
             echo "No changes detected"
           else
-            git commit -m "🔄 Update LineageOS source changes (${{ env.BRANCH_1 }}, ${{ env.BRANCH_2 }})"
+            git commit -m "🔄 Update ROM source changes"
             git push
           fi

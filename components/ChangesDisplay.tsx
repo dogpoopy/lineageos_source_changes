@@ -20,26 +20,45 @@ interface Project {
   commits: Commit[];
 }
 
-interface ChangesData {
+interface BranchData {
+  rom_id: string;
   branch: string;
   generated_at: string;
   since_date: string;
   total_projects: number;
   total_commits: number;
   projects: Project[];
+  romDisplayName: string;
+  branchDisplayName: string;
 }
 
-interface BranchesData {
-  [key: string]: ChangesData | null;
+interface RomConfig {
+  roms: Array<{
+    id: string;
+    displayName: string;
+    branches: Array<{
+      id: string;
+      displayName: string;
+      dataPath: string;
+    }>;
+  }>;
 }
 
-export default function ChangesDisplay({ branchesData }: { branchesData: BranchesData }) {
-  const branches = Object.keys(branchesData);
-  const [selectedBranch, setSelectedBranch] = useState(branches[0] || 'lineage-22.2');
+export default function ChangesDisplay({ 
+  config, 
+  allData 
+}: { 
+  config: RomConfig;
+  allData: Record<string, BranchData | null>;
+}) {
+  // Find first available data
+  const firstAvailableKey = Object.keys(allData).find(key => allData[key] !== null);
+  
+  const [selectedKey, setSelectedKey] = useState(firstAvailableKey || '');
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedProjects, setExpandedProjects] = useState<Set<string>>(new Set());
 
-  const data = branchesData[selectedBranch];
+  const data = allData[selectedKey];
 
   const filteredProjects = useMemo(() => {
     if (!data || !data.projects) return [];
@@ -76,51 +95,57 @@ export default function ChangesDisplay({ branchesData }: { branchesData: Branche
     });
   };
 
-  const getBranchDisplayName = (branch: string) => {
-    return branch.replace('lineage-', 'LineageOS ');
-  };
-
   if (!data) {
     return (
       <div className="text-center text-slate-400 py-20">
-        <p className="text-xl">No data available for {selectedBranch}. Please run the sync script first.</p>
+        <p className="text-xl">No data available for selected ROM/branch.</p>
       </div>
     );
   }
 
   return (
     <div className="space-y-6">
-      {/* Branch Selector */}
-      <div className="flex flex-wrap gap-3 justify-center mb-8">
-        {branches.map((branch) => {
-          const branchData = branchesData[branch];
-          const isActive = branch === selectedBranch;
-          const hasData = branchData !== null;
-          
-          return (
-            <button
-              key={branch}
-              onClick={() => setSelectedBranch(branch)}
-              disabled={!hasData}
-              className={`
-                px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all text-sm sm:text-base
-                ${isActive 
-                  ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/50' 
-                  : hasData
-                    ? 'bg-slate-800/50 text-slate-300 hover:bg-slate-700/50 border border-slate-700'
-                    : 'bg-slate-800/30 text-slate-600 cursor-not-allowed border border-slate-800'
-                }
-              `}
-            >
-              {getBranchDisplayName(branch)}
-              {hasData && branchData && (
-                <span className={`ml-2 text-xs ${isActive ? 'text-blue-200' : 'text-slate-500'}`}>
-                  ({branchData.total_commits})
-                </span>
-              )}
-            </button>
-          );
-        })}
+      {/* ROM & Branch Selector */}
+      <div className="space-y-4">
+        {config.roms.map((rom) => (
+          <div key={rom.id} className="space-y-3">
+            <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider">
+              {rom.displayName}
+            </h3>
+            <div className="flex flex-wrap gap-3">
+              {rom.branches.map((branch) => {
+                const key = `${rom.id}/${branch.id}`;
+                const branchData = allData[key];
+                const isActive = key === selectedKey;
+                const hasData = branchData !== null;
+                
+                return (
+                  <button
+                    key={key}
+                    onClick={() => setSelectedKey(key)}
+                    disabled={!hasData}
+                    className={`
+                      px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg font-medium transition-all text-sm
+                      ${isActive 
+                        ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/50' 
+                        : hasData
+                          ? 'bg-slate-800/50 text-slate-300 hover:bg-slate-700/50 border border-slate-700'
+                          : 'bg-slate-800/30 text-slate-600 cursor-not-allowed border border-slate-800'
+                      }
+                    `}
+                  >
+                    {branch.displayName}
+                    {hasData && branchData && (
+                      <span className={`ml-2 text-xs ${isActive ? 'text-blue-200' : 'text-slate-500'}`}>
+                        ({branchData.total_commits})
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* Stats Cards */}

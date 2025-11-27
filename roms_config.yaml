@@ -1,0 +1,10 @@
+roms:
+  - id: lineageos
+    display_name: LineageOS
+    manifest_url: https://github.com/LineageOS/android.git
+    branches:
+      - lineage-22.2
+      - lineage-23.1
+
+repo_params:
+  groups: default,-mips,-darwin,-notdefault
