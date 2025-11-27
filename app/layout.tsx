@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'LineageOS Source Tracker',
-  description: 'Track recent changes across LineageOS repositories',
+  title: 'Custom ROM Source Tracker',
+  description: 'Track recent changes across Custom ROMs repositories',
 };
 
 export default function RootLayout({
