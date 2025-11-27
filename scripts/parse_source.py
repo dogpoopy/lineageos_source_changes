@@ -14,7 +14,7 @@ rom_id, branch = identifier.split("/", 1) if "/" in identifier else (identifier,
 # Config
 manifest_file = Path("workspace/source_manifest.xml")
 output_file = Path(f"public/data/{rom_id}/{branch}.json")
-since_date = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+since_date = (datetime.now(timezone.utc) - timedelta(days=90)).strftime("%Y-%m-%d")
 max_workers = 6
 
 # Domains to skip
@@ -176,7 +176,7 @@ def process_project(project, temp_root: Path):
         "git", "clone",
         "--filter=blob:none",
         "--no-checkout",
-        "--depth=50",
+        "--depth=200",
         "--branch", clone_target,
         "--single-branch",
         repo_url,
