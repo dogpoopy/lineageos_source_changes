@@ -1,0 +1,109 @@
+{
+  "rom_id": "yaap",
+  "branch": "sixteen",
+  "generated_at": "2025-11-27T19:11:01.774604+00:00",
+  "since_date": "2025-10-28",
+  "total_projects": 3,
+  "total_commits": 9,
+  "projects": [
+    {
+      "name": "GrapheneOS/platform_external_vanadium",
+      "path": "external/vanadium",
+      "repo_url": "https://gitlab.com/GrapheneOS/platform_external_vanadium",
+      "remote": "gitlab",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "7d442dc",
+          "message": "version 142.0.7444.158.0",
+          "author": "Daniel Micay",
+          "date": "Tue Nov 11 16:37:50 2025 -0500",
+          "timestamp": 1762897070,
+          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/7d442dc"
+        },
+        {
+          "sha": "2055676",
+          "message": "Vanadium Config version 134",
+          "author": "Daniel Micay",
+          "date": "Tue Nov 11 14:16:57 2025 -0500",
+          "timestamp": 1762888617,
+          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/2055676"
+        },
+        {
+          "sha": "e94b20b",
+          "message": "version 142.0.7444.138.1",
+          "author": "Daniel Micay",
+          "date": "Fri Nov 7 22:46:30 2025 -0500",
+          "timestamp": 1762573590,
+          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/e94b20b"
+        },
+        {
+          "sha": "b0f505d",
+          "message": "Vanadium Config version 133",
+          "author": "Daniel Micay",
+          "date": "Fri Nov 7 19:26:57 2025 -0500",
+          "timestamp": 1762561617,
+          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/b0f505d"
+        },
+        {
+          "sha": "11d296c",
+          "message": "version 142.0.7444.138.0",
+          "author": "Daniel Micay",
+          "date": "Thu Nov 6 00:45:30 2025 -0500",
+          "timestamp": 1762407930,
+          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/11d296c"
+        },
+        {
+          "sha": "dce3a92",
+          "message": "Vanadium Config version 132",
+          "author": "Daniel Micay",
+          "date": "Wed Nov 5 22:20:25 2025 -0500",
+          "timestamp": 1762399225,
+          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/dce3a92"
+        }
+      ]
+    },
+    {
+      "name": "android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "7f5546d",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 12:06:27 2025 +0100",
+          "timestamp": 1761735987,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d"
+        },
+        {
+          "sha": "84f88f7",
+          "message": "sepolicy: Move hal_soter attribute to public",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 11:39:55 2025 +0100",
+          "timestamp": 1761734395,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7"
+        }
+      ]
+    },
+    {
+      "name": "android_system_apex",
+      "path": "system/apex",
+      "repo_url": "https://github.com/LineageOS/android_system_apex",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "740076a",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/system/apex into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 6 11:49:09 2025 +0200",
+          "timestamp": 1762422549,
+          "url": "https://github.com/LineageOS/android_system_apex/commit/740076a"
+        }
+      ]
+    }
+  ]
+}

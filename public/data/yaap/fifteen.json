@@ -1,0 +1,52 @@
+{
+  "rom_id": "yaap",
+  "branch": "fifteen",
+  "generated_at": "2025-11-27T19:11:15.836439+00:00",
+  "since_date": "2025-10-28",
+  "total_projects": 2,
+  "total_commits": 3,
+  "projects": [
+    {
+      "name": "android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "7f5546d",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 12:06:27 2025 +0100",
+          "timestamp": 1761735987,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d"
+        },
+        {
+          "sha": "84f88f7",
+          "message": "sepolicy: Move hal_soter attribute to public",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 11:39:55 2025 +0100",
+          "timestamp": 1761734395,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7"
+        }
+      ]
+    },
+    {
+      "name": "android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6d3b8e5",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 12:01:49 2025 +0100",
+          "timestamp": 1761735709,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5"
+        }
+      ]
+    }
+  ]
+}

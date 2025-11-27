@@ -1,0 +1,74 @@
+{
+  "roms": [
+    {
+      "id": "lineageos",
+      "displayName": "LineageOS",
+      "branches": [
+        {
+          "id": "lineage-22.2",
+          "displayName": "lineage-22.2",
+          "dataPath": "lineageos/lineage-22.2.json"
+        },
+        {
+          "id": "lineage-23.1",
+          "displayName": "lineage-23.1",
+          "dataPath": "lineageos/lineage-23.1.json"
+        }
+      ]
+    },
+    {
+      "id": "derpfest",
+      "displayName": "DerpFest-AOSP",
+      "branches": [
+        {
+          "id": "16",
+          "displayName": "16",
+          "dataPath": "derpfest/16.json"
+        }
+      ]
+    },
+    {
+      "id": "yaap",
+      "displayName": "Yet Another AOSP Project",
+      "branches": [
+        {
+          "id": "sixteen",
+          "displayName": "sixteen",
+          "dataPath": "yaap/sixteen.json"
+        },
+        {
+          "id": "fifteen",
+          "displayName": "fifteen",
+          "dataPath": "yaap/fifteen.json"
+        }
+      ]
+    },
+    {
+      "id": "pos",
+      "displayName": "PixelOS-AOSP",
+      "branches": [
+        {
+          "id": "sixteen",
+          "displayName": "sixteen",
+          "dataPath": "pos/sixteen.json"
+        },
+        {
+          "id": "sixteen-qpr1",
+          "displayName": "sixteen-qpr1",
+          "dataPath": "pos/sixteen-qpr1.json"
+        }
+      ]
+    },
+    {
+      "id": "axion",
+      "displayName": "AxionOS",
+      "branches": [
+        {
+          "id": "lineage-23.1",
+          "displayName": "lineage-23.1",
+          "dataPath": "axion/lineage-23.1.json"
+        }
+      ]
+    }
+  ]
+}

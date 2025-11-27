@@ -1,0 +1,688 @@
+{
+  "rom_id": "pos",
+  "branch": "sixteen",
+  "generated_at": "2025-11-27T19:11:29.185673+00:00",
+  "since_date": "2025-10-28",
+  "total_projects": 22,
+  "total_commits": 60,
+  "projects": [
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineageos",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "ac205a3",
+          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 19:54:49 2025 +0100",
+          "timestamp": 1763924089,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ac205a3"
+        },
+        {
+          "sha": "f06f20f",
+          "message": "legacy: Disallow system_server from loading kernel modules",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 17:15:04 2025 +0100",
+          "timestamp": 1763914504,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f06f20f"
+        },
+        {
+          "sha": "99d386b",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/99d386b"
+        },
+        {
+          "sha": "f84755c",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f84755c"
+        },
+        {
+          "sha": "0cdb3b2",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0cdb3b2"
+        },
+        {
+          "sha": "51bc00f",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/51bc00f"
+        },
+        {
+          "sha": "a3b48b6",
+          "message": "NFC: FR74324, Add the new STM NFC HAL service",
+          "author": "Devendar Gali",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a3b48b6"
+        },
+        {
+          "sha": "69fbe8f",
+          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:19:50 2025 +0200",
+          "timestamp": 1762607990,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/69fbe8f"
+        },
+        {
+          "sha": "9878448",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:29:44 2025 +0000",
+          "timestamp": 1762090184,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9878448"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8450",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineageos",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "3cf5bcb",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:32 2025 +0200",
+          "timestamp": 1763763992,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/3cf5bcb"
+        },
+        {
+          "sha": "95a405b",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:27:54 2025 +0200",
+          "timestamp": 1762680474,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/95a405b"
+        },
+        {
+          "sha": "1095fc0",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:27:54 2025 +0200",
+          "timestamp": 1762680474,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1095fc0"
+        },
+        {
+          "sha": "e1c1150",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:27:54 2025 +0200",
+          "timestamp": 1762680474,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e1c1150"
+        },
+        {
+          "sha": "2439843",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:21:48 2025 +0200",
+          "timestamp": 1762608108,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2439843"
+        },
+        {
+          "sha": "43f9c10",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Wed Oct 29 00:30:44 2025 +0000",
+          "timestamp": 1761697844,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/43f9c10"
+        },
+        {
+          "sha": "e39b56b",
+          "message": "NFC: FR74324, Add the new STM NFC HAL service",
+          "author": "Devendar Gali",
+          "date": "Wed Oct 29 00:30:15 2025 +0000",
+          "timestamp": 1761697815,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e39b56b"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "lineageos",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "b28a32c",
+          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 19:53:45 2025 +0100",
+          "timestamp": 1763924025,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c"
+        },
+        {
+          "sha": "a6b7ae6",
+          "message": "legacy: Disallow system_server from loading kernel modules",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 17:14:09 2025 +0100",
+          "timestamp": 1763914449,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae6"
+        },
+        {
+          "sha": "e6959ab",
+          "message": "fixup! legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 17:32:19 2025 +0100",
+          "timestamp": 1762101139,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e6959ab"
+        },
+        {
+          "sha": "57d39af",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 15:12:10 2025 +0000",
+          "timestamp": 1762096330,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/57d39af"
+        },
+        {
+          "sha": "c5a86cf",
+          "message": "sepolicy: Move hal_soter attribute to public",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:30:17 2025 +0000",
+          "timestamp": 1762090217,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c5a86cf"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8650",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineageos",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "2c83259",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:50 2025 +0200",
+          "timestamp": 1763764010,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2c83259"
+        },
+        {
+          "sha": "d6d84e1",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d6d84e1"
+        },
+        {
+          "sha": "8e0d783",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8e0d783"
+        },
+        {
+          "sha": "f1b185b",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:29:36 2025 +0200",
+          "timestamp": 1762680576,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f1b185b"
+        },
+        {
+          "sha": "56f1a2d",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:25:26 2025 +0200",
+          "timestamp": 1762608326,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/56f1a2d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8750",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineageos",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "dd8ebd7",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:59 2025 +0200",
+          "timestamp": 1763764019,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
+        },
+        {
+          "sha": "447107e",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
+        },
+        {
+          "sha": "ba4de13",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
+        },
+        {
+          "sha": "4088120",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
+        },
+        {
+          "sha": "71e3f76",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:41 2025 +0200",
+          "timestamp": 1762608401,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8550",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "lineageos",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "c2a16e9",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Fri Nov 21 07:21:44 2025 +0530",
+          "timestamp": 1763689904,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c2a16e9"
+        },
+        {
+          "sha": "805c088",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:28:35 2025 +0200",
+          "timestamp": 1762680515,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/805c088"
+        },
+        {
+          "sha": "45e6960",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:15 2025 +0200",
+          "timestamp": 1762608255,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/45e6960"
+        },
+        {
+          "sha": "2894ee5",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Wed Oct 29 00:29:44 2025 +0000",
+          "timestamp": 1761697784,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2894ee5"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_thermal",
+      "path": "hardware/qcom-caf/thermal-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
+      "remote": "lineageos",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "74bce7c",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:56 2025 +0200",
+          "timestamp": 1762608296,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/74bce7c"
+        },
+        {
+          "sha": "5429698",
+          "message": "thermal-hal: Update skin temperature threshold for msmnile",
+          "author": "Nick Reuter",
+          "date": "Tue Nov 4 00:23:56 2025 -0600",
+          "timestamp": 1762237436,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/5429698"
+        },
+        {
+          "sha": "03845e4",
+          "message": "thermal-hal: Update skin temperature threshold for kona",
+          "author": "Edwin Moquete",
+          "date": "Thu Oct 30 00:50:21 2025 +0000",
+          "timestamp": 1761785421,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/03845e4"
+        },
+        {
+          "sha": "0878137",
+          "message": "thermal-hal: Revert \"Add tsens,bcl configuration for kona\"",
+          "author": "armdebug",
+          "date": "Wed Oct 29 13:31:46 2025 +0000",
+          "timestamp": 1761744706,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/0878137"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_apn",
+      "path": "vendor/apn",
+      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
+      "remote": "lineageos",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "060d567",
+          "message": "Add WE EG",
+          "author": "keosh1",
+          "date": "Thu Nov 13 21:27:36 2025 +0000",
+          "timestamp": 1763069256,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
+        },
+        {
+          "sha": "2341ff2",
+          "message": "Add a helper to pretty format apn xmls and run it",
+          "author": "Arian",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
+        },
+        {
+          "sha": "ebf7f73",
+          "message": "Initial commit",
+          "author": "LuK1337",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-core",
+      "path": "hardware/qcom-caf/sm8750/display/core",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core",
+      "remote": "lineageos",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5c18ca2",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-core into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:02:25 2025 +0000",
+          "timestamp": 1763668945,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/5c18ca2"
+        },
+        {
+          "sha": "4a21355",
+          "message": "Revert \"display-core: Make IsGPUHWAvailable() non-virtual and force it to true\"",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 13:51:17 2025 +0000",
+          "timestamp": 1763646677,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/4a21355"
+        },
+        {
+          "sha": "dc85752",
+          "message": "Reapply \"Revert^2 \"sdm: add support for DS merge mode\"\"",
+          "author": "Giovanni Ricca",
+          "date": "Tue Nov 18 16:49:05 2025 +0100",
+          "timestamp": 1763480945,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-core/commit/dc85752"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_wlan",
+      "path": "hardware/qcom-caf/wlan",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
+      "remote": "lineageos",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "7aa5591",
+          "message": "Merge tag 'WLAN.LA.1.0.r1-08900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into staging/lineage-23.0_merge-WLAN.LA.1.0.r1-08900-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:39:10 2025 +0200",
+          "timestamp": 1762609150,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/7aa5591"
+        },
+        {
+          "sha": "82a363c",
+          "message": "Revert \"wifi_hal: Fix KW issue\"",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:38:57 2025 +0200",
+          "timestamp": 1762609137,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/82a363c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8450/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "lineageos",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "0ab95e9",
+          "message": "Revert \"ResourceManager: fix activeStreams check\"",
+          "author": "Fiqri Ardyansyah",
+          "date": "Tue Nov 25 12:29:34 2025 +0100",
+          "timestamp": 1764070174,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0ab95e9"
+        },
+        {
+          "sha": "70e7102",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:22:11 2025 +0200",
+          "timestamp": 1762608131,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/70e7102"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0b70a90",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:23:04 2025 +0200",
+          "timestamp": 1762608184,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sm8350/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6afc6e6",
+          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:18:58 2025 +0200",
+          "timestamp": 1762607938,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/6afc6e6"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8750/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f60ec59",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:18 2025 +0200",
+          "timestamp": 1762608378,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/f60ec59"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8250/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9ec8cc0",
+          "message": "Merge tag 'LA.UM.9.12.r1-18400-SMxx50.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into lineage-23.0-caf-sm8250",
+          "author": "Michael Bestas",
+          "date": "Fri Oct 31 09:10:35 2025 +0000",
+          "timestamp": 1761901835,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/9ec8cc0"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8750/display/hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "572019c",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:02:43 2025 +0000",
+          "timestamp": 1763668963,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_agm",
+      "path": "hardware/qcom-caf/sm8750/audio/agm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d6fba18",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:10 2025 +0200",
+          "timestamp": 1762608370,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/d6fba18"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8750/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0295669",
+          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-07400-pakala.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:12 2025 +0200",
+          "timestamp": 1762608372,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0295669"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8550/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "191b3fc",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:27 2025 +0200",
+          "timestamp": 1762608267,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/191b3fc"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8750/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "845bfb9",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:54 2025 +0200",
+          "timestamp": 1762608414,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/845bfb9"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8650/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "5f520e7",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:49 2025 +0200",
+          "timestamp": 1762608289,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-intf",
+      "path": "hardware/qcom-caf/sm8750/display/intf",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "19b5c05",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-intf into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:03:11 2025 +0000",
+          "timestamp": 1763668991,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf/commit/19b5c05"
+        }
+      ]
+    }
+  ]
+}
