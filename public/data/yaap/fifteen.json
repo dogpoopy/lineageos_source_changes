@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "fifteen",
-  "generated_at": "2025-11-27T19:11:15.836439+00:00",
+  "generated_at": "2025-11-27T19:58:25.311602+00:00",
   "since_date": "2025-10-28",
-  "total_projects": 2,
-  "total_commits": 3,
+  "total_projects": 5,
+  "total_commits": 8,
   "projects": [
     {
       "name": "android_device_qcom_sepolicy",
@@ -32,6 +32,56 @@
       ]
     },
     {
+      "name": "android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "2175ffe",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 20:11:30 2025 +0000",
+          "timestamp": 1763237490,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/2175ffe"
+        },
+        {
+          "sha": "b9895c3",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 21:55:52 2025 +0000",
+          "timestamp": 1762034152,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b9895c3"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Twelve",
+      "path": "packages/apps/Twelve",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "4c1fd1f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 20:11:28 2025 +0000",
+          "timestamp": 1763237488,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/4c1fd1f"
+        },
+        {
+          "sha": "ca1535f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 21:55:51 2025 +0000",
+          "timestamp": 1762034151,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/ca1535f"
+        }
+      ]
+    },
+    {
       "name": "android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -45,6 +95,23 @@
           "date": "Wed Oct 29 12:01:49 2025 +0100",
           "timestamp": 1761735709,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6d3b8e5"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "7bf0e49",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 21:55:50 2025 +0000",
+          "timestamp": 1762034150,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49"
         }
       ]
     }

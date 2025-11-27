@@ -1,17 +1,17 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-23.1",
-  "generated_at": "2025-11-27T19:10:26.534322+00:00",
+  "generated_at": "2025-11-27T19:57:09.213754+00:00",
   "since_date": "2025-10-28",
   "total_projects": 67,
-  "total_commits": 268,
+  "total_commits": 267,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
       "path": "external/vim",
       "repo_url": "https://github.com/LineageOS/android_external_vim",
       "remote": "github",
-      "commit_count": 78,
+      "commit_count": 77,
       "commits": [
         {
           "sha": "f31199d",
@@ -628,14 +628,6 @@
           "date": "Tue Oct 28 20:05:13 2025 +0000",
           "timestamp": 1761681913,
           "url": "https://github.com/LineageOS/android_external_vim/commit/f09ff72"
-        },
-        {
-          "sha": "6be154f",
-          "message": "runtime(doc): revert wrong 'incsearch' description",
-          "author": "Christian Brabandt",
-          "date": "Tue Oct 28 19:48:19 2025 +0000",
-          "timestamp": 1761680899,
-          "url": "https://github.com/LineageOS/android_external_vim/commit/6be154f"
         }
       ]
     },

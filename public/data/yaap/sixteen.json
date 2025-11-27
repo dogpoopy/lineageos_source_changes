@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-11-27T19:11:01.774604+00:00",
+  "generated_at": "2025-11-27T19:57:59.788054+00:00",
   "since_date": "2025-10-28",
-  "total_projects": 3,
-  "total_commits": 9,
+  "total_projects": 15,
+  "total_commits": 30,
   "projects": [
     {
       "name": "GrapheneOS/platform_external_vanadium",
@@ -64,6 +64,105 @@
       ]
     },
     {
+      "name": "build_make",
+      "path": "build/make",
+      "repo_url": "https://github.com/yaap/build_make",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "69f81c5",
+          "message": "Revert \"build: make: use jemalloc by default and allow opt-in to scudo (1/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:20:35 2025 -0500",
+          "timestamp": 1763130035,
+          "url": "https://github.com/yaap/build_make/commit/69f81c5"
+        },
+        {
+          "sha": "2029fb8",
+          "message": "Revert \"[FIXUP] build: make: use jemalloc by default and allow opt-in to scudo (1/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:20:35 2025 -0500",
+          "timestamp": 1763130035,
+          "url": "https://github.com/yaap/build_make/commit/2029fb8"
+        },
+        {
+          "sha": "f8413df",
+          "message": "Revert \"build/make: make mimalloc opt in [2/3]\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:20:34 2025 -0500",
+          "timestamp": 1763130034,
+          "url": "https://github.com/yaap/build_make/commit/f8413df"
+        }
+      ]
+    },
+    {
+      "name": "bionic",
+      "path": "bionic",
+      "repo_url": "https://github.com/yaap/bionic",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "ccd5068",
+          "message": "Revert \"bionic: use jemalloc by default and allow opt-in to scudo (3/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:13:25 2025 -0500",
+          "timestamp": 1763129605,
+          "url": "https://github.com/yaap/bionic/commit/ccd5068"
+        },
+        {
+          "sha": "3f686e8",
+          "message": "Revert \"libc: allow selectively enabling jemalloc's zero-filling\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:13:24 2025 -0500",
+          "timestamp": 1763129604,
+          "url": "https://github.com/yaap/bionic/commit/3f686e8"
+        },
+        {
+          "sha": "27462ca",
+          "message": "Reapply \"Add better jemalloc stat logging.\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:13:23 2025 -0500",
+          "timestamp": 1763129603,
+          "url": "https://github.com/yaap/bionic/commit/27462ca"
+        }
+      ]
+    },
+    {
+      "name": "build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/yaap/build_soong",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "905c05e",
+          "message": "Revert \"build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:12:52 2025 -0500",
+          "timestamp": 1763129572,
+          "url": "https://github.com/yaap/build_soong/commit/905c05e"
+        },
+        {
+          "sha": "a569986",
+          "message": "Revert \"[FIXUP] build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:12:52 2025 -0500",
+          "timestamp": 1763129572,
+          "url": "https://github.com/yaap/build_soong/commit/a569986"
+        },
+        {
+          "sha": "0231def",
+          "message": "Revert \"build/soong: make mimalloc opt in [3/3]\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:12:52 2025 -0500",
+          "timestamp": 1763129572,
+          "url": "https://github.com/yaap/build_soong/commit/0231def"
+        }
+      ]
+    },
+    {
       "name": "android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -89,6 +188,98 @@
       ]
     },
     {
+      "name": "android_packages_apps_Twelve",
+      "path": "packages/apps/Twelve",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "4c1fd1f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 20:11:28 2025 +0000",
+          "timestamp": 1763237488,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/4c1fd1f"
+        },
+        {
+          "sha": "ca1535f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 21:55:51 2025 +0000",
+          "timestamp": 1762034151,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/ca1535f"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "2175ffe",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 20:11:30 2025 +0000",
+          "timestamp": 1763237490,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/2175ffe"
+        },
+        {
+          "sha": "b9895c3",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 21:55:52 2025 +0000",
+          "timestamp": 1762034152,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b9895c3"
+        }
+      ]
+    },
+    {
+      "name": "manifest",
+      "path": "manifest",
+      "repo_url": "https://github.com/yaap/manifest",
+      "remote": "yaap",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "1c05e13",
+          "message": "track aosp zlib",
+          "author": "John Galt",
+          "date": "Fri Nov 14 14:18:00 2025 -0500",
+          "timestamp": 1763147880,
+          "url": "https://github.com/yaap/manifest/commit/1c05e13"
+        },
+        {
+          "sha": "ef8d662",
+          "message": "yaap: track AOSP jemalloc_new",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:23:00 2025 -0500",
+          "timestamp": 1763130180,
+          "url": "https://github.com/yaap/manifest/commit/ef8d662"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "7bf0e49",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 21:55:50 2025 +0000",
+          "timestamp": 1762034150,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49"
+        }
+      ]
+    },
+    {
       "name": "android_system_apex",
       "path": "system/apex",
       "repo_url": "https://github.com/LineageOS/android_system_apex",
@@ -102,6 +293,91 @@
           "date": "Thu Nov 6 11:49:09 2025 +0200",
           "timestamp": 1762422549,
           "url": "https://github.com/LineageOS/android_system_apex/commit/740076a"
+        }
+      ]
+    },
+    {
+      "name": "frameworks_base",
+      "path": "frameworks/base",
+      "repo_url": "https://github.com/yaap/frameworks_base",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "744f918c",
+          "message": "ScreenshotNotificationsController: Properly group and dismiss grouped",
+          "author": "Ido Ben-Hur",
+          "date": "Fri Nov 7 03:09:07 2025 +0200",
+          "timestamp": 1762477747,
+          "url": "https://github.com/yaap/frameworks_base/commit/744f918c"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "18b0f608",
+          "message": "StashedHandleView: add gestural burn in protection",
+          "author": "John Galt",
+          "date": "Tue Nov 25 13:24:26 2025 -0500",
+          "timestamp": 1764095066,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/18b0f608"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "repo_url": "https://github.com/yaap/packages_apps_Settings",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a6712a2",
+          "message": "Settings: add Portuguese (Brazil) translations (#47)",
+          "author": "Luiz Renato",
+          "date": "Thu Nov 6 17:54:18 2025 +0200",
+          "timestamp": 1762444458,
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/a6712a2"
+        }
+      ]
+    },
+    {
+      "name": "system_core",
+      "path": "system/core",
+      "repo_url": "https://github.com/yaap/system_core",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d2be591",
+          "message": "Revert \"debuggerd: use jemalloc by default and allow opt-in to scudo (4/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:22:05 2025 -0500",
+          "timestamp": 1763130125,
+          "url": "https://github.com/yaap/system_core/commit/d2be591"
+        }
+      ]
+    },
+    {
+      "name": "vendor_qcom_opensource_arpal-lx-sm8650",
+      "path": "hardware/qcom-caf/sm8650/audio/pal",
+      "repo_url": "https://github.com/yaap/vendor_qcom_opensource_arpal-lx-sm8650",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1c5c41f",
+          "message": "Revert \"pal: fix redefinition of epoll_event\"",
+          "author": "John Galt",
+          "date": "Mon Nov 24 10:47:24 2025 -0500",
+          "timestamp": 1763999244,
+          "url": "https://github.com/yaap/vendor_qcom_opensource_arpal-lx-sm8650/commit/1c5c41f"
         }
       ]
     }
