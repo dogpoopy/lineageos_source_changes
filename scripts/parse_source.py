@@ -92,6 +92,7 @@ root = tree.getroot()
 
 # Build remotes mapping
 remotes = {}
+remote_revisions = {}
 default_tag = root.find("default")
 if default_tag is None:
     log("WARN", "No <default> tag found, using fallback")
@@ -104,8 +105,11 @@ else:
 for remote in root.findall("remote"):
     name = remote.attrib.get("name")
     fetch = remote.attrib.get("fetch")
+    revision = remote.attrib.get("revision")
     if name and fetch:
         remotes[name] = normalize_fetch_url(fetch)
+        if revision:
+            remote_revisions[name] = revision
 
 log("INFO", f"Found {len(remotes)} remotes, default: {default_remote}")
 
@@ -116,7 +120,7 @@ def process_project(project, temp_root: Path):
         return None
     
     path = project.attrib.get("path", name)
-    revision = project.attrib.get("revision", default_revision)
+    revision = project.attrib.get("revision")
     remote_name = project.attrib.get("remote", default_remote)
     
     remote_fetch = remotes.get(remote_name)
@@ -129,6 +133,14 @@ def process_project(project, temp_root: Path):
     if should_skip_remote(remote_fetch):
         log("INFO", f"Skipping {name} (AOSP/upstream/private)")
         return None
+    
+    if revision is None:
+        if remote_name in remote_revisions:
+            revision = remote_revisions[remote_name]
+            log("INFO", f"Using remote default revision '{revision}' for: {name}")
+        else:
+            revision = default_revision
+            log("INFO", f"Using global default revision '{revision}' for: {name}")
     
     repo_url = get_repo_url(name, remote_fetch)
     repo_path = temp_root / path.replace("/", "_")
