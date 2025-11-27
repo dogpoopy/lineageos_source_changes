@@ -106,13 +106,14 @@ def process_branch(rom_id: str, rom_name: str, manifest_url: str, branch: str, g
         parse_cmd,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
-        text=True,
-        timeout=7200  # 2 hours max
+        text=False,  # get raw bytes
+        timeout=7200
     )
     
     # Print output from parse_source.py
     if result.stdout:
-        for line in result.stdout.splitlines():
+        output = result.stdout.decode("utf-8", errors="replace")  # replace invalid bytes
+        for line in output.splitlines():
             print(line)
     
     if result.returncode != 0:

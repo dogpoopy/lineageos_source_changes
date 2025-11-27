@@ -187,14 +187,17 @@ def process_project(project, temp_root: Path):
         log_cmd = [
             "git", "-C", str(repo_path), "log",
             f'--since={since_date}',
-            '--pretty=format:%h|%s|%an|%cd|%ct'
+            '--pretty=format:%h%x00%s%x00%an%x00%cd%x00%ct'
         ]
-        log_output = subprocess.check_output(log_cmd, text=True, timeout=30).strip()
+        # Return raw bytes, then decode safely
+        log_output_bytes = subprocess.check_output(log_cmd, text=False, timeout=30)
+        log_output = log_output_bytes.decode("utf-8", errors="replace").strip()
+
         
         if log_output:
             commits = []
             for line in log_output.splitlines():
-                parts = line.split("|", 4)
+                parts = line.split("\x00")
                 if len(parts) != 5:
                     continue
                 
