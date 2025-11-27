@@ -1,16 +1,24 @@
 {
   "branch": "lineage-22.2",
-  "generated_at": "2025-11-26T07:57:48.407094+00:00",
-  "since_date": "2025-10-27",
-  "total_projects": 35,
-  "total_commits": 110,
+  "generated_at": "2025-11-27T00:48:04.145536+00:00",
+  "since_date": "2025-10-28",
+  "total_projects": 34,
+  "total_commits": 105,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
-      "commit_count": 32,
+      "commit_count": 31,
       "commits": [
+        {
+          "sha": "e880e36",
+          "message": "wiki: Update alioth maintainer list",
+          "author": "Christian Hoffmann",
+          "date": "Wed Nov 26 19:46:27 2025 +0100",
+          "timestamp": 1764182787,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e880e36"
+        },
         {
           "sha": "e7987ee",
           "message": "wiki: devices: Add LG V60 ThinQ (timelm)",
@@ -250,22 +258,6 @@
           "date": "Sat Nov 1 22:39:42 2025 +0100",
           "timestamp": 1762033182,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/cee05e6"
-        },
-        {
-          "sha": "5d68c6b",
-          "message": "wiki: moto-sm6225: Update maintainers & models",
-          "author": "Deivid21",
-          "date": "Tue Oct 28 00:10:06 2025 +0000",
-          "timestamp": 1761610206,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/5d68c6b"
-        },
-        {
-          "sha": "9bcfeed",
-          "message": "wiki: Add eSIM peripheral for bangkk, fogo and fogos",
-          "author": "LuK1337",
-          "date": "Tue Oct 28 02:01:29 2025 +0200",
-          "timestamp": 1761609689,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/9bcfeed"
         }
       ]
     },
@@ -273,7 +265,7 @@
       "name": "LineageOS/hudson",
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
-      "commit_count": 13,
+      "commit_count": 12,
       "commits": [
         {
           "sha": "8496bac",
@@ -370,14 +362,6 @@
           "date": "Fri Oct 31 23:30:44 2025 +0000",
           "timestamp": 1761953444,
           "url": "https://github.com/LineageOS/hudson/commit/5bdec50"
-        },
-        {
-          "sha": "8b59fe9",
-          "message": "Regenerate device dependency mappings",
-          "author": "LineageOS Infra",
-          "date": "Mon Oct 27 23:30:44 2025 +0000",
-          "timestamp": 1761607844,
-          "url": "https://github.com/LineageOS/hudson/commit/8b59fe9"
         }
       ]
     },
@@ -385,7 +369,7 @@
       "name": "LineageOS/mirror",
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
-      "commit_count": 10,
+      "commit_count": 9,
       "commits": [
         {
           "sha": "2074512",
@@ -458,14 +442,6 @@
           "date": "Mon Nov 10 00:01:27 2025 +0100",
           "timestamp": 1762729287,
           "url": "https://github.com/LineageOS/mirror/commit/7556153"
-        },
-        {
-          "sha": "ba1a243",
-          "message": "Updated to 27-Oct-2025 23:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Tue Oct 28 00:01:28 2025 +0100",
-          "timestamp": 1761606088,
-          "url": "https://github.com/LineageOS/mirror/commit/ba1a243"
         }
       ]
     },
@@ -473,7 +449,7 @@
       "name": "LineageOS/android_vendor_lineage",
       "path": "vendor/lineage",
       "repo_url": "https://github.com/LineageOS/android_vendor_lineage",
-      "commit_count": 7,
+      "commit_count": 6,
       "commits": [
         {
           "sha": "fc879c9",
@@ -522,14 +498,6 @@
           "date": "Mon Nov 3 23:25:20 2025 +0000",
           "timestamp": 1762212320,
           "url": "https://github.com/LineageOS/android_vendor_lineage/commit/77bf379"
-        },
-        {
-          "sha": "ab374ca",
-          "message": "apn: Add finetwork",
-          "author": "Arian",
-          "date": "Mon Oct 27 21:50:23 2025 +0000",
-          "timestamp": 1761601823,
-          "url": "https://github.com/LineageOS/android_vendor_lineage/commit/ab374ca"
         }
       ]
     },
@@ -986,22 +954,6 @@
           "date": "Sat Nov 8 08:58:13 2025 -0700",
           "timestamp": 1762617493,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_unrar",
-      "path": "external/unrar",
-      "repo_url": "https://github.com/LineageOS/android_external_unrar",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "140cfb9",
-          "message": "Merge https://github.com/pmachapman/unrar into lineage-23.0",
-          "author": "Thomas Turner",
-          "date": "Mon Oct 27 22:04:13 2025 +0000",
-          "timestamp": 1761602653,
-          "url": "https://github.com/LineageOS/android_external_unrar/commit/140cfb9"
         }
       ]
     },
