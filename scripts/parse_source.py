@@ -176,7 +176,7 @@ def process_project(project, temp_root: Path):
         "git", "clone",
         "--filter=blob:none",
         "--no-checkout",
-        "--depth=200",
+        "--depth=100",
         "--branch", clone_target,
         "--single-branch",
         repo_url,

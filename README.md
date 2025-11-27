@@ -15,9 +15,9 @@ A GitHub Actions-powered tool that monitors source code changes across multiple 
 
 ## 📊 Data Updates
 
-- **Frequency:** Every 24 hours
-- **Commit window:** Last 90 days
-- **Update time:** Runs at 00:00 UTC daily
+- **Frequency:** Every 72 hours
+- **Commit window:** Last 90 days each repo
+- **Update time:** Runs at 00:00 UTC every 3 days
 
 ## 🚫 AOSP Source Exclusion
 
