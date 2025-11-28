@@ -1,7 +1,7 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2025-11-28T04:14:25.211860+00:00",
+  "generated_at": "2025-11-28T04:39:43.648349+00:00",
   "since_date": "2025-08-30",
   "total_projects": 89,
   "total_commits": 481,
@@ -4047,31 +4047,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Dialer",
-      "path": "packages/apps/Dialer",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Dialer",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "0f46e4b9",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:03 2025 +0000",
-          "timestamp": 1757955303,
-          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b9"
-        },
-        {
-          "sha": "4dc5fd42",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:34 2025 +0000",
-          "timestamp": 1756738474,
-          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd42"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_DocumentsUI",
       "path": "packages/apps/DocumentsUI",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI",
@@ -4093,6 +4068,31 @@
           "date": "Mon Sep 1 14:54:34 2025 +0000",
           "timestamp": 1756738474,
           "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Dialer",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "0f46e4b9",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:03 2025 +0000",
+          "timestamp": 1757955303,
+          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/0f46e4b9"
+        },
+        {
+          "sha": "4dc5fd42",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 1 14:54:34 2025 +0000",
+          "timestamp": 1756738474,
+          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd42"
         }
       ]
     },

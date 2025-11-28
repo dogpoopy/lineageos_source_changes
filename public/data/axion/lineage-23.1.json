@@ -1,7 +1,7 @@
 {
   "rom_id": "axion",
   "branch": "lineage-23.1",
-  "generated_at": "2025-11-28T04:20:07.982287+00:00",
+  "generated_at": "2025-11-28T04:45:23.401485+00:00",
   "since_date": "2025-08-30",
   "total_projects": 171,
   "total_commits": 1596,
@@ -12195,39 +12195,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
-        },
-        {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
-        },
-        {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
       "path": "external/chromium-webview/prebuilt/arm",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
@@ -12257,6 +12224,39 @@
           "date": "Sat Sep 27 08:22:39 2025 -0600",
           "timestamp": 1758982959,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        },
+        {
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+        },
+        {
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
         }
       ]
     },
@@ -13584,23 +13584,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/sdm660/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "2098857",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 18:28:57 2025 +0000",
-          "timestamp": 1757269737,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/2098857"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
       "path": "hardware/qcom-caf/msm8998/media",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
       "remote": "github",
@@ -13630,6 +13613,23 @@
           "date": "Sun Sep 7 23:04:11 2025 +0000",
           "timestamp": 1757286251,
           "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_media",
+      "path": "hardware/qcom-caf/sdm660/media",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "2098857",
+          "message": "Fix alignment of encoder_meta_buffer_payload_type",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 7 18:28:57 2025 +0000",
+          "timestamp": 1757269737,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/2098857"
         }
       ]
     },
@@ -13991,23 +13991,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_Car_SystemUI",
-      "path": "packages/apps/Car/SystemUI",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Car_SystemUI",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9ea14ed8",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:09:11 2025 +0200",
-          "timestamp": 1763104151,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Car_SystemUI/commit/9ea14ed8"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Car_Settings",
       "path": "packages/apps/Car/Settings",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Car_Settings",
@@ -14021,6 +14004,23 @@
           "date": "Fri Nov 14 09:08:04 2025 +0200",
           "timestamp": 1763104084,
           "url": "https://github.com/AxionAOSP/android_packages_apps_Car_Settings/commit/6576ac96"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Car_SystemUI",
+      "path": "packages/apps/Car/SystemUI",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Car_SystemUI",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9ea14ed8",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:09:11 2025 +0200",
+          "timestamp": 1763104151,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Car_SystemUI/commit/9ea14ed8"
         }
       ]
     },
