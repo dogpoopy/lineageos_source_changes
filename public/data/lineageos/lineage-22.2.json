@@ -1,8 +1,8 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2025-11-27T20:40:29.914388+00:00",
-  "since_date": "2025-08-29",
+  "generated_at": "2025-11-28T01:25:04.153328+00:00",
+  "since_date": "2025-08-30",
   "total_projects": 89,
   "total_commits": 481,
   "projects": [
@@ -1603,132 +1603,132 @@
       "commit_count": 16,
       "commits": [
         {
-          "sha": "90dca3943de",
+          "sha": "90dca3943d",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Sat Nov 15 20:11:17 2025 +0000",
           "timestamp": 1763237477,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/90dca3943de"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/90dca3943d"
         },
         {
-          "sha": "b655794c322",
+          "sha": "b655794c32",
           "message": "SystemUI: Fix media section constraints with Smartspace disabled",
           "author": "LuK1337",
           "date": "Sun Nov 2 01:20:35 2025 +0100",
           "timestamp": 1762042835,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/b655794c322"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/b655794c32"
         },
         {
-          "sha": "95e02d2809c",
+          "sha": "95e02d2809",
           "message": "SystemUI: Add KeyguardSliceViewSection to split shade blueprint",
           "author": "LuK1337",
           "date": "Sun Nov 2 01:17:37 2025 +0100",
           "timestamp": 1762042657,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/95e02d2809c"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/95e02d2809"
         },
         {
-          "sha": "ce12674e784",
+          "sha": "ce12674e78",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Thu Oct 16 04:15:34 2025 +0000",
           "timestamp": 1760588134,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/ce12674e784"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/ce12674e78"
         },
         {
-          "sha": "e4fe97ca56e",
+          "sha": "e4fe97ca56",
           "message": "services: core: wfd: extend check for qualcomm wfd jar",
           "author": "Alexander Martinz",
           "date": "Fri Oct 10 18:04:34 2025 +0000",
           "timestamp": 1760119474,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/e4fe97ca56e"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/e4fe97ca56"
         },
         {
-          "sha": "0641b6bc219",
+          "sha": "0641b6bc21",
           "message": "UdfpsHelper: Avoid hardcoding 4095 for maximum panel brightness",
           "author": "pjgowtham",
           "date": "Sat Oct 4 09:06:42 2025 +0000",
           "timestamp": 1759568802,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/0641b6bc219"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/0641b6bc21"
         },
         {
-          "sha": "785756c9939",
+          "sha": "785756c993",
           "message": "UdfpsHelper: Exclude dim layer from screenshots",
           "author": "pjgowtham",
           "date": "Fri Oct 3 02:59:15 2025 +0000",
           "timestamp": 1759460355,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/785756c9939"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/785756c993"
         },
         {
-          "sha": "b3f41deec92",
+          "sha": "b3f41deec9",
           "message": "Revert \"Fix biometric prompt appearing above shade\"",
           "author": "Austin Delgado",
           "date": "Wed Sep 17 11:43:28 2025 +0000",
           "timestamp": 1758109408,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/b3f41deec92"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/b3f41deec9"
         },
         {
-          "sha": "fc38726efbc",
+          "sha": "fc38726efb",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 15 16:54:57 2025 +0000",
           "timestamp": 1757955297,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/fc38726efbc"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/fc38726efb"
         },
         {
-          "sha": "353d8071a40",
+          "sha": "353d8071a4",
           "message": "SystemUI: Hide HEVC screen recording when no HW codec is available",
           "author": "Ido Ben-Hur",
           "date": "Sun Sep 14 19:37:06 2025 +0000",
           "timestamp": 1757878626,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/353d8071a40"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/353d8071a4"
         },
         {
-          "sha": "373d214c7c5",
+          "sha": "373d214c7c",
           "message": "Remove CompanionServicesRegister",
           "author": "Evan Chen",
           "date": "Sun Sep 14 08:41:08 2025 +0000",
           "timestamp": 1757839268,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/373d214c7c5"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/373d214c7c"
         },
         {
-          "sha": "8dbe445a11e",
+          "sha": "8dbe445a11",
           "message": "Fix association XML parsing issues",
           "author": "Guojing Yuan",
           "date": "Sun Sep 14 08:41:08 2025 +0000",
           "timestamp": 1757839268,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/8dbe445a11e"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/8dbe445a11"
         },
         {
-          "sha": "da3bdd99a80",
+          "sha": "da3bdd99a8",
           "message": "Fix a bug where turning off Bluetooth before CDM BLE device discovery timeout results in a crash.",
           "author": "Raphael Kim",
           "date": "Sun Sep 14 08:41:08 2025 +0000",
           "timestamp": 1757839268,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/da3bdd99a80"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/da3bdd99a8"
         },
         {
-          "sha": "9fbbf5a11b5",
+          "sha": "9fbbf5a11b",
           "message": "fixup! power: Explicitly check for silent ringtone",
           "author": "programminghoch10",
           "date": "Mon Sep 8 08:54:57 2025 +0300",
           "timestamp": 1757310897,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/9fbbf5a11b5"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/9fbbf5a11b"
         },
         {
-          "sha": "e94be3b83cf",
+          "sha": "e94be3b83c",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 17:50:07 2025 +0300",
           "timestamp": 1756911007,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/e94be3b83cf"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/e94be3b83c"
         },
         {
-          "sha": "6fa82a0c4c5",
+          "sha": "6fa82a0c4c",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 1 14:54:26 2025 +0000",
           "timestamp": 1756738466,
-          "url": "https://github.com/LineageOS/android_frameworks_base/commit/6fa82a0c4c5"
+          "url": "https://github.com/LineageOS/android_frameworks_base/commit/6fa82a0c4c"
         }
       ]
     },
@@ -3007,44 +3007,44 @@
       "commit_count": 5,
       "commits": [
         {
-          "sha": "736ea877",
+          "sha": "736ea87",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Sat Nov 1 21:55:51 2025 +0000",
           "timestamp": 1762034151,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/736ea877"
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/736ea87"
         },
         {
-          "sha": "da5086c1",
+          "sha": "da5086c",
           "message": "Update Turkish Keyboard Layout XML Files",
           "author": "sulincix",
           "date": "Sat Sep 27 19:56:11 2025 +0000",
           "timestamp": 1759002971,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c1"
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/da5086c"
         },
         {
-          "sha": "b1b807e7",
+          "sha": "b1b807e",
           "message": "Add Turkish F layout",
           "author": "Berkay Yıldırım",
           "date": "Fri Sep 12 13:53:48 2025 +0300",
           "timestamp": 1757674428,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/b1b807e7"
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/b1b807e"
         },
         {
-          "sha": "d565b603",
+          "sha": "d565b60",
           "message": "Add Turkish specific layout set",
           "author": "Berkay Yıldırım",
           "date": "Thu Sep 11 07:13:45 2025 +0000",
           "timestamp": 1757574825,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/d565b603"
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/d565b60"
         },
         {
-          "sha": "001e9c67",
+          "sha": "001e9c6",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 1 14:54:40 2025 +0000",
           "timestamp": 1756738480,
-          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/001e9c67"
+          "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/001e9c6"
         }
       ]
     },
@@ -3179,77 +3179,36 @@
       "commit_count": 4,
       "commits": [
         {
-          "sha": "245a870270",
+          "sha": "245a87027",
           "message": "Launcher3: Add resource to enable rotation by default",
           "author": "AnierinB",
           "date": "Thu Nov 6 18:00:45 2025 +0000",
           "timestamp": 1762452045,
-          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/245a870270"
+          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/245a87027"
         },
         {
-          "sha": "3c1310fa01",
+          "sha": "3c1310fa0",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Wed Oct 1 23:32:46 2025 +0000",
           "timestamp": 1759361566,
-          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310fa01"
+          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/3c1310fa0"
         },
         {
-          "sha": "7220bfa49f",
+          "sha": "7220bfa49",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 15 16:55:08 2025 +0000",
           "timestamp": 1757955308,
-          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7220bfa49f"
+          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/7220bfa49"
         },
         {
-          "sha": "e1f28ba23e",
+          "sha": "e1f28ba23",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 1 14:54:39 2025 +0000",
           "timestamp": 1756738479,
-          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e1f28ba23e"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "eceb06387a",
-          "message": "Merge tag 'android-security-15.0.0_r11' into staging/lineage-22.2_merge-android-security-15.0.0_r11",
-          "author": "Michael Bestas",
-          "date": "Wed Nov 12 10:43:16 2025 +0200",
-          "timestamp": 1762936996,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/eceb06387a"
-        },
-        {
-          "sha": "8a27bccc69",
-          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/33420262'] into security-aosp-24Q3-release.",
-          "author": "Android Build Coastguard Worker",
-          "date": "Fri Sep 12 09:31:39 2025 -0700",
-          "timestamp": 1757694699,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/8a27bccc69"
-        },
-        {
-          "sha": "c69c78d7c4",
-          "message": "Check for existing discovery database in bta_hf_client_cb_init",
-          "author": "Brian Delwiche",
-          "date": "Fri Sep 12 09:31:28 2025 -0700",
-          "timestamp": 1757694688,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/c69c78d7c4"
-        },
-        {
-          "sha": "b6a6b8a289",
-          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 16:08:42 2025 +0300",
-          "timestamp": 1756904922,
-          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a289"
+          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/e1f28ba23"
         }
       ]
     },
@@ -3261,36 +3220,77 @@
       "commit_count": 4,
       "commits": [
         {
-          "sha": "02302c34d4",
+          "sha": "02302c34d",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Wed Oct 1 23:32:45 2025 +0000",
           "timestamp": 1759361565,
-          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34d4"
+          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/02302c34d"
         },
         {
-          "sha": "e54e5070a4",
+          "sha": "e54e5070a",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 15 16:55:07 2025 +0000",
           "timestamp": 1757955307,
-          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070a4"
+          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/e54e5070a"
         },
         {
-          "sha": "3467f15108",
+          "sha": "3467f1510",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 16:01:01 2025 +0300",
           "timestamp": 1756904461,
-          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/3467f15108"
+          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/3467f1510"
         },
         {
-          "sha": "e27df4fd44",
+          "sha": "e27df4fd4",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 1 14:54:38 2025 +0000",
           "timestamp": 1756738478,
-          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd44"
+          "url": "https://github.com/LineageOS/android_packages_apps_Settings/commit/e27df4fd4"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "eceb06387",
+          "message": "Merge tag 'android-security-15.0.0_r11' into staging/lineage-22.2_merge-android-security-15.0.0_r11",
+          "author": "Michael Bestas",
+          "date": "Wed Nov 12 10:43:16 2025 +0200",
+          "timestamp": 1762936996,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/eceb06387"
+        },
+        {
+          "sha": "8a27bccc6",
+          "message": "Merge cherrypicks of ['googleplex-android-review.googlesource.com/33420262'] into security-aosp-24Q3-release.",
+          "author": "Android Build Coastguard Worker",
+          "date": "Fri Sep 12 09:31:39 2025 -0700",
+          "timestamp": 1757694699,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/8a27bccc6"
+        },
+        {
+          "sha": "c69c78d7c",
+          "message": "Check for existing discovery database in bta_hf_client_cb_init",
+          "author": "Brian Delwiche",
+          "date": "Fri Sep 12 09:31:28 2025 -0700",
+          "timestamp": 1757694688,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/c69c78d7c"
+        },
+        {
+          "sha": "b6a6b8a28",
+          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 3 16:08:42 2025 +0300",
+          "timestamp": 1756904922,
+          "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/b6a6b8a28"
         }
       ]
     },
@@ -3947,6 +3947,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "44c4732ad",
+          "message": "Revert \"RIL: Fix manual network selection with old modem\"",
+          "author": "Michael Bestas",
+          "date": "Wed Oct 15 21:12:02 2025 +0300",
+          "timestamp": 1760551922,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44c4732ad"
+        },
+        {
+          "sha": "c3571e721",
+          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 3 15:42:09 2025 +0300",
+          "timestamp": 1756903329,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/c3571e721"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_audio",
       "path": "hardware/qcom/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -3968,31 +3993,6 @@
           "date": "Sun Sep 14 15:31:32 2025 +0300",
           "timestamp": 1757853092,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/c895c94"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "44c4732adb",
-          "message": "Revert \"RIL: Fix manual network selection with old modem\"",
-          "author": "Michael Bestas",
-          "date": "Wed Oct 15 21:12:02 2025 +0300",
-          "timestamp": 1760551922,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44c4732adb"
-        },
-        {
-          "sha": "c3571e7219",
-          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 15:42:09 2025 +0300",
-          "timestamp": 1756903329,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/c3571e7219"
         }
       ]
     },
@@ -4079,20 +4079,20 @@
       "commit_count": 2,
       "commits": [
         {
-          "sha": "dff93632",
+          "sha": "dff9363",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 15:42:20 2025 +0300",
           "timestamp": 1756903340,
-          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff93632"
+          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363"
         },
         {
-          "sha": "0cc2e078",
+          "sha": "0cc2e07",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 1 14:54:34 2025 +0000",
           "timestamp": 1756738474,
-          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e078"
+          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07"
         }
       ]
     },
@@ -4154,20 +4154,20 @@
       "commit_count": 2,
       "commits": [
         {
-          "sha": "14a29563",
+          "sha": "14a2956",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 15 16:55:09 2025 +0000",
           "timestamp": 1757955309,
-          "url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/14a29563"
+          "url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/14a2956"
         },
         {
-          "sha": "eb2ea389",
+          "sha": "eb2ea38",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
           "date": "Mon Sep 1 14:54:41 2025 +0000",
           "timestamp": 1756738481,
-          "url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/eb2ea389"
+          "url": "https://github.com/LineageOS/android_packages_providers_DownloadProvider/commit/eb2ea38"
         }
       ]
     },
@@ -4204,12 +4204,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "16fcc1ff",
+          "sha": "16fcc1f",
           "message": "recovery: Extend A/B downgrades for older SPL",
           "author": "pjgowtham",
           "date": "Sun Sep 21 19:00:30 2025 +0000",
           "timestamp": 1758481230,
-          "url": "https://github.com/LineageOS/android_bootable_recovery/commit/16fcc1ff"
+          "url": "https://github.com/LineageOS/android_bootable_recovery/commit/16fcc1f"
         }
       ]
     },
@@ -4221,12 +4221,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "f9262a98c",
+          "sha": "f9262a9",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 15:43:37 2025 +0300",
           "timestamp": 1756903417,
-          "url": "https://github.com/LineageOS/android_build/commit/f9262a98c"
+          "url": "https://github.com/LineageOS/android_build/commit/f9262a9"
         }
       ]
     },
@@ -4238,12 +4238,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "2bff6843b",
+          "sha": "2bff6843",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 15:41:50 2025 +0300",
           "timestamp": 1756903310,
-          "url": "https://github.com/LineageOS/android_art/commit/2bff6843b"
+          "url": "https://github.com/LineageOS/android_art/commit/2bff6843"
         }
       ]
     },
@@ -4367,23 +4367,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Backgrounds",
-      "path": "packages/apps/Backgrounds",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Backgrounds",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3cdba90",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_AudioFX",
       "path": "packages/apps/AudioFX",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_AudioFX",
@@ -4401,6 +4384,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Backgrounds",
+      "path": "packages/apps/Backgrounds",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Backgrounds",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "3cdba90",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 1 14:54:32 2025 +0000",
+          "timestamp": 1756738472,
+          "url": "https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Contacts",
       "path": "packages/apps/Contacts",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Contacts",
@@ -4408,12 +4408,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "29de9bf4",
+          "sha": "29de9bf",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 15:42:20 2025 +0300",
           "timestamp": 1756903340,
-          "url": "https://github.com/LineageOS/android_packages_apps_Contacts/commit/29de9bf4"
+          "url": "https://github.com/LineageOS/android_packages_apps_Contacts/commit/29de9bf"
         }
       ]
     },
@@ -4493,12 +4493,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "ac921bec",
+          "sha": "ac921be",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 16:06:41 2025 +0300",
           "timestamp": 1756904801,
-          "url": "https://github.com/LineageOS/android_packages_modules_IntentResolver/commit/ac921bec"
+          "url": "https://github.com/LineageOS/android_packages_modules_IntentResolver/commit/ac921be"
         }
       ]
     },
@@ -4544,12 +4544,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "47422d55c",
+          "sha": "47422d55",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 15:42:36 2025 +0300",
           "timestamp": 1756903356,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/47422d55c"
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/47422d55"
         }
       ]
     },
@@ -4561,12 +4561,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "85f9d70eb",
+          "sha": "85f9d70e",
           "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 16:14:00 2025 +0300",
           "timestamp": 1756905240,
-          "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/85f9d70eb"
+          "url": "https://github.com/LineageOS/android_packages_services_Telephony/commit/85f9d70e"
         }
       ]
     },
@@ -4578,12 +4578,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "00f09e96b",
+          "sha": "00f09e96",
           "message": "core: Fix host_init_verifier for devices with overriding services",
           "author": "Alexander Koskovich",
           "date": "Mon Nov 10 08:32:11 2025 +0000",
           "timestamp": 1762763531,
-          "url": "https://github.com/LineageOS/android_system_core/commit/00f09e96b"
+          "url": "https://github.com/LineageOS/android_system_core/commit/00f09e96"
         }
       ]
     },

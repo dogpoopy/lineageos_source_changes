@@ -1,8 +1,8 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-11-27T20:44:18.944090+00:00",
-  "since_date": "2025-08-29",
+  "generated_at": "2025-11-28T01:26:49.305549+00:00",
+  "since_date": "2025-08-30",
   "total_projects": 51,
   "total_commits": 313,
   "projects": [
@@ -14,348 +14,348 @@
       "commit_count": 43,
       "commits": [
         {
-          "sha": "744f918c8ef",
+          "sha": "744f918c",
           "message": "ScreenshotNotificationsController: Properly group and dismiss grouped",
           "author": "Ido Ben-Hur",
           "date": "Fri Nov 7 03:09:07 2025 +0200",
           "timestamp": 1762477747,
-          "url": "https://github.com/yaap/frameworks_base/commit/744f918c8ef"
+          "url": "https://github.com/yaap/frameworks_base/commit/744f918c"
         },
         {
-          "sha": "c45c2984263",
+          "sha": "c45c2984",
           "message": "KeyboxImitationHooks: Persist generated verified boot hash",
           "author": "Abhay Singh Gill",
           "date": "Fri Oct 24 16:08:52 2025 +0300",
           "timestamp": 1761311332,
-          "url": "https://github.com/yaap/frameworks_base/commit/c45c2984263"
+          "url": "https://github.com/yaap/frameworks_base/commit/c45c2984"
         },
         {
-          "sha": "e5b364d7805",
+          "sha": "e5b364d7",
           "message": "libs/hwui: default disable UltraHDR behaviors",
           "author": "John Galt",
           "date": "Thu Oct 16 18:16:21 2025 -0400",
           "timestamp": 1760652981,
-          "url": "https://github.com/yaap/frameworks_base/commit/e5b364d7805"
+          "url": "https://github.com/yaap/frameworks_base/commit/e5b364d7"
         },
         {
-          "sha": "c5744efdddd",
+          "sha": "c5744efd",
           "message": "base: Allow turning on mobile data when pressing the tile [1/2]",
           "author": "Ido Ben-Hur",
           "date": "Wed Oct 8 00:49:38 2025 +0300",
           "timestamp": 1759873778,
-          "url": "https://github.com/yaap/frameworks_base/commit/c5744efdddd"
+          "url": "https://github.com/yaap/frameworks_base/commit/c5744efd"
         },
         {
-          "sha": "dda3bb8892f",
+          "sha": "dda3bb88",
           "message": "UdfpsHelper: Exclude dim layer from screenshots",
           "author": "pjgowtham",
           "date": "Wed Oct 1 13:17:18 2025 -0400",
           "timestamp": 1759339038,
-          "url": "https://github.com/yaap/frameworks_base/commit/dda3bb8892f"
+          "url": "https://github.com/yaap/frameworks_base/commit/dda3bb88"
         },
         {
-          "sha": "20f6013d168",
+          "sha": "20f6013d",
           "message": "Disable concurrent MQ in SysUI",
           "author": "Shai Barack",
           "date": "Wed Oct 1 11:05:45 2025 -0400",
           "timestamp": 1759331145,
-          "url": "https://github.com/yaap/frameworks_base/commit/20f6013d168"
+          "url": "https://github.com/yaap/frameworks_base/commit/20f6013d"
         },
         {
-          "sha": "a41fdee61b1",
+          "sha": "a41fdee6",
           "message": "Fix a bug where turning off Bluetooth before CDM BLE device discovery timeout results in a crash.",
           "author": "Raphael Kim",
           "date": "Wed Oct 1 11:05:44 2025 -0400",
           "timestamp": 1759331144,
-          "url": "https://github.com/yaap/frameworks_base/commit/a41fdee61b1"
+          "url": "https://github.com/yaap/frameworks_base/commit/a41fdee6"
         },
         {
-          "sha": "47a64f81037",
+          "sha": "47a64f81",
           "message": "Remove CompanionServicesRegister",
           "author": "Evan Chen",
           "date": "Wed Oct 1 11:05:26 2025 -0400",
           "timestamp": 1759331126,
-          "url": "https://github.com/yaap/frameworks_base/commit/47a64f81037"
+          "url": "https://github.com/yaap/frameworks_base/commit/47a64f81"
         },
         {
-          "sha": "bffb0fe718b",
+          "sha": "bffb0fe7",
           "message": "Fix association XML parsing issues",
           "author": "Guojing Yuan",
           "date": "Wed Oct 1 11:05:26 2025 -0400",
           "timestamp": 1759331126,
-          "url": "https://github.com/yaap/frameworks_base/commit/bffb0fe718b"
+          "url": "https://github.com/yaap/frameworks_base/commit/bffb0fe7"
         },
         {
-          "sha": "fe8ff30978e",
+          "sha": "fe8ff309",
           "message": "Fix deadlock b/w historical and discrete registry in xml implementation",
           "author": "Manjeet Rulhania",
           "date": "Wed Oct 1 11:05:14 2025 -0400",
           "timestamp": 1759331114,
-          "url": "https://github.com/yaap/frameworks_base/commit/fe8ff30978e"
+          "url": "https://github.com/yaap/frameworks_base/commit/fe8ff309"
         },
         {
-          "sha": "9fd8f4a296c",
+          "sha": "9fd8f4a2",
           "message": "SystemUI: Adapt UDFPS dim layer to Sep/2025 SPL changes",
           "author": "Ido Ben-Hur",
           "date": "Mon Sep 22 13:10:49 2025 +0300",
           "timestamp": 1758535849,
-          "url": "https://github.com/yaap/frameworks_base/commit/9fd8f4a296c"
+          "url": "https://github.com/yaap/frameworks_base/commit/9fd8f4a2"
         },
         {
-          "sha": "4160a007762",
+          "sha": "4160a007",
           "message": "Implement onNullBinding() in autofill service connection",
           "author": "Haoran Zhang",
           "date": "Mon Sep 22 03:36:57 2025 +0300",
           "timestamp": 1758501417,
-          "url": "https://github.com/yaap/frameworks_base/commit/4160a007762"
+          "url": "https://github.com/yaap/frameworks_base/commit/4160a007"
         },
         {
-          "sha": "fc8046243c4",
+          "sha": "fc804624",
           "message": "PrintSpooler: Require empty output for PDF",
           "author": "Benjamin Gordon",
           "date": "Mon Sep 22 03:36:50 2025 +0300",
           "timestamp": 1758501410,
-          "url": "https://github.com/yaap/frameworks_base/commit/fc8046243c4"
+          "url": "https://github.com/yaap/frameworks_base/commit/fc804624"
         },
         {
-          "sha": "c534e63fd5a",
+          "sha": "c534e63f",
           "message": "Add resolveActivityAsUserForExplicitType api to pm",
           "author": "oli",
           "date": "Mon Sep 22 03:36:41 2025 +0300",
           "timestamp": 1758501401,
-          "url": "https://github.com/yaap/frameworks_base/commit/c534e63fd5a"
+          "url": "https://github.com/yaap/frameworks_base/commit/c534e63f"
         },
         {
-          "sha": "5bc7bf7f7c7",
+          "sha": "5bc7bf7f",
           "message": "cleanup: Fix permission protection of setObservedMotionEventSources",
           "author": "Daniel Norman",
           "date": "Mon Sep 22 03:36:33 2025 +0300",
           "timestamp": 1758501393,
-          "url": "https://github.com/yaap/frameworks_base/commit/5bc7bf7f7c7"
+          "url": "https://github.com/yaap/frameworks_base/commit/5bc7bf7f"
         },
         {
-          "sha": "ab120082d51",
+          "sha": "ab120082",
           "message": "Trim oversized strings in setId and setConversationId",
           "author": "Alisa Hung",
           "date": "Mon Sep 22 03:36:24 2025 +0300",
           "timestamp": 1758501384,
-          "url": "https://github.com/yaap/frameworks_base/commit/ab120082d51"
+          "url": "https://github.com/yaap/frameworks_base/commit/ab120082"
         },
         {
-          "sha": "5c1de8be501",
+          "sha": "5c1de8be",
           "message": "Check DPC package validity during package updates",
           "author": "Rubin Xu",
           "date": "Mon Sep 22 03:36:17 2025 +0300",
           "timestamp": 1758501377,
-          "url": "https://github.com/yaap/frameworks_base/commit/5c1de8be501"
+          "url": "https://github.com/yaap/frameworks_base/commit/5c1de8be"
         },
         {
-          "sha": "05b7fa7fe5f",
+          "sha": "05b7fa7f",
           "message": "DevicePolicyManager: ignore invalid proxy settings",
           "author": "Rubin Xu",
           "date": "Mon Sep 22 03:36:11 2025 +0300",
           "timestamp": 1758501371,
-          "url": "https://github.com/yaap/frameworks_base/commit/05b7fa7fe5f"
+          "url": "https://github.com/yaap/frameworks_base/commit/05b7fa7f"
         },
         {
-          "sha": "23e9ad9ef7e",
+          "sha": "23e9ad9e",
           "message": "Ensuring valid packageName when granting slice permission",
           "author": "Sunny Goyal",
           "date": "Mon Sep 22 03:36:03 2025 +0300",
           "timestamp": 1758501363,
-          "url": "https://github.com/yaap/frameworks_base/commit/23e9ad9ef7e"
+          "url": "https://github.com/yaap/frameworks_base/commit/23e9ad9e"
         },
         {
-          "sha": "339f546e3a4",
+          "sha": "339f546e",
           "message": "[RESTRICT AUTOMERGE] Disallow PINNED in setLaunchWindowingMode",
           "author": "Hongwei Wang",
           "date": "Mon Sep 22 03:35:55 2025 +0300",
           "timestamp": 1758501355,
-          "url": "https://github.com/yaap/frameworks_base/commit/339f546e3a4"
+          "url": "https://github.com/yaap/frameworks_base/commit/339f546e"
         },
         {
-          "sha": "8cc75c5c117",
+          "sha": "8cc75c5c",
           "message": "Prevent root from getting unverified attributions from non system apps",
           "author": "Nate Myren",
           "date": "Mon Sep 22 03:35:49 2025 +0300",
           "timestamp": 1758501349,
-          "url": "https://github.com/yaap/frameworks_base/commit/8cc75c5c117"
+          "url": "https://github.com/yaap/frameworks_base/commit/8cc75c5c"
         },
         {
-          "sha": "b12bd23f5c5",
+          "sha": "b12bd23f",
           "message": "Check sound Uri permission when creating a notification channel",
           "author": "Iavor-Valentin Iftime",
           "date": "Mon Sep 22 03:35:42 2025 +0300",
           "timestamp": 1758501342,
-          "url": "https://github.com/yaap/frameworks_base/commit/b12bd23f5c5"
+          "url": "https://github.com/yaap/frameworks_base/commit/b12bd23f"
         },
         {
-          "sha": "a49ad97630d",
+          "sha": "a49ad976",
           "message": "Don't allow SdkSandbox to bypass systemUid check.",
           "author": "Aseem Kumar",
           "date": "Mon Sep 22 03:35:33 2025 +0300",
           "timestamp": 1758501333,
-          "url": "https://github.com/yaap/frameworks_base/commit/a49ad97630d"
+          "url": "https://github.com/yaap/frameworks_base/commit/a49ad976"
         },
         {
-          "sha": "a4d02a8ffa7",
+          "sha": "a4d02a8f",
           "message": "Calculate how much memory is used per account.",
           "author": "Dmitry Dementyev",
           "date": "Mon Sep 22 03:35:18 2025 +0300",
           "timestamp": 1758501318,
-          "url": "https://github.com/yaap/frameworks_base/commit/a4d02a8ffa7"
+          "url": "https://github.com/yaap/frameworks_base/commit/a4d02a8f"
         },
         {
-          "sha": "a885889d216",
+          "sha": "a885889d",
           "message": "Prevent non-system ShutdownActivity from being launched by BatteryService",
           "author": "Dmitri Plotnikov",
           "date": "Mon Sep 22 03:35:11 2025 +0300",
           "timestamp": 1758501311,
-          "url": "https://github.com/yaap/frameworks_base/commit/a885889d216"
+          "url": "https://github.com/yaap/frameworks_base/commit/a885889d"
         },
         {
-          "sha": "a4e16b80d07",
+          "sha": "a4e16b80",
           "message": "Don't allow hiding SysUi",
           "author": "Pavel Grafov",
           "date": "Mon Sep 22 03:35:04 2025 +0300",
           "timestamp": 1758501304,
-          "url": "https://github.com/yaap/frameworks_base/commit/a4e16b80d07"
+          "url": "https://github.com/yaap/frameworks_base/commit/a4e16b80"
         },
         {
-          "sha": "b7fff46af41",
+          "sha": "b7fff46a",
           "message": "Avoid mixups between different CPSes in ZenModeConditions",
           "author": "Matías Hernández",
           "date": "Mon Sep 22 03:34:57 2025 +0300",
           "timestamp": 1758501297,
-          "url": "https://github.com/yaap/frameworks_base/commit/b7fff46af41"
+          "url": "https://github.com/yaap/frameworks_base/commit/b7fff46a"
         },
         {
-          "sha": "7c73086e266",
+          "sha": "7c73086e",
           "message": "Defer remove splash screen while device is locked",
           "author": "wilsonshih",
           "date": "Mon Sep 22 03:34:49 2025 +0300",
           "timestamp": 1758501289,
-          "url": "https://github.com/yaap/frameworks_base/commit/7c73086e266"
+          "url": "https://github.com/yaap/frameworks_base/commit/7c73086e"
         },
         {
-          "sha": "6fee6e5f03c",
+          "sha": "6fee6e5f",
           "message": "Move BP window to Keyguard_dialog",
           "author": "Austin Delgado",
           "date": "Mon Sep 22 03:34:42 2025 +0300",
           "timestamp": 1758501282,
-          "url": "https://github.com/yaap/frameworks_base/commit/6fee6e5f03c"
+          "url": "https://github.com/yaap/frameworks_base/commit/6fee6e5f"
         },
         {
-          "sha": "68b38022462",
+          "sha": "68b38022",
           "message": "[CDM] Revoke NLS when all associations are removed.",
           "author": "Guojing Yuan",
           "date": "Mon Sep 22 03:34:02 2025 +0300",
           "timestamp": 1758501242,
-          "url": "https://github.com/yaap/frameworks_base/commit/68b38022462"
+          "url": "https://github.com/yaap/frameworks_base/commit/68b38022"
         },
         {
-          "sha": "89f49bcf519",
+          "sha": "89f49bcf",
           "message": "Limits the display name to 1024 characters",
           "author": "Evan Chen",
           "date": "Mon Sep 22 03:33:55 2025 +0300",
           "timestamp": 1758501235,
-          "url": "https://github.com/yaap/frameworks_base/commit/89f49bcf519"
+          "url": "https://github.com/yaap/frameworks_base/commit/89f49bcf"
         },
         {
-          "sha": "12da168ebf7",
+          "sha": "12da168e",
           "message": "Do not allow custom animation of untrusted Toast",
           "author": "Riddle Hsu",
           "date": "Mon Sep 22 03:33:48 2025 +0300",
           "timestamp": 1758501228,
-          "url": "https://github.com/yaap/frameworks_base/commit/12da168ebf7"
+          "url": "https://github.com/yaap/frameworks_base/commit/12da168e"
         },
         {
-          "sha": "752e99e7d4d",
+          "sha": "752e99e7",
           "message": "Use consistent animation when forcibly hiding non system overlay",
           "author": "Riddle Hsu",
           "date": "Mon Sep 22 03:33:40 2025 +0300",
           "timestamp": 1758501220,
-          "url": "https://github.com/yaap/frameworks_base/commit/752e99e7d4d"
+          "url": "https://github.com/yaap/frameworks_base/commit/752e99e7"
         },
         {
-          "sha": "92faaf2e5f2",
+          "sha": "92faaf2e",
           "message": "Ignore pinned Windows",
           "author": "Achim Thesmann",
           "date": "Mon Sep 22 03:33:31 2025 +0300",
           "timestamp": 1758501211,
-          "url": "https://github.com/yaap/frameworks_base/commit/92faaf2e5f2"
+          "url": "https://github.com/yaap/frameworks_base/commit/92faaf2e"
         },
         {
-          "sha": "54516be57cd",
+          "sha": "54516be5",
           "message": "Unexport ControlsActivity",
           "author": "Behnam Heydarshahi",
           "date": "Mon Sep 22 03:33:22 2025 +0300",
           "timestamp": 1758501202,
-          "url": "https://github.com/yaap/frameworks_base/commit/54516be57cd"
+          "url": "https://github.com/yaap/frameworks_base/commit/54516be5"
         },
         {
-          "sha": "8c0c58b0373",
+          "sha": "8c0c58b0",
           "message": "NotificationHistory validate position value",
           "author": "Devin Moore",
           "date": "Mon Sep 22 03:33:09 2025 +0300",
           "timestamp": 1758501189,
-          "url": "https://github.com/yaap/frameworks_base/commit/8c0c58b0373"
+          "url": "https://github.com/yaap/frameworks_base/commit/8c0c58b0"
         },
         {
-          "sha": "06cb029b3a9",
+          "sha": "06cb029b",
           "message": "Don't show dismissible keyguard in app pinning mode",
           "author": "Beverly",
           "date": "Mon Sep 22 03:33:00 2025 +0300",
           "timestamp": 1758501180,
-          "url": "https://github.com/yaap/frameworks_base/commit/06cb029b3a9"
+          "url": "https://github.com/yaap/frameworks_base/commit/06cb029b"
         },
         {
-          "sha": "e740d2bd824",
+          "sha": "e740d2bd",
           "message": "Fix starting the activity with incorrect pid/uid",
           "author": "Louis Chang",
           "date": "Mon Sep 22 03:32:45 2025 +0300",
           "timestamp": 1758501165,
-          "url": "https://github.com/yaap/frameworks_base/commit/e740d2bd824"
+          "url": "https://github.com/yaap/frameworks_base/commit/e740d2bd"
         },
         {
-          "sha": "3f0e37a1ec1",
+          "sha": "3f0e37a1",
           "message": "base: Allow disabling time to full on keyguard [1/2]",
           "author": "Ido Ben-Hur",
           "date": "Sun Sep 14 11:00:25 2025 +0300",
           "timestamp": 1757836825,
-          "url": "https://github.com/yaap/frameworks_base/commit/3f0e37a1ec1"
+          "url": "https://github.com/yaap/frameworks_base/commit/3f0e37a1"
         },
         {
-          "sha": "6353e5ba43e",
+          "sha": "6353e5ba",
           "message": "SystemUI: Fixup long press on mobile data for SubId settings",
           "author": "Ido Ben-Hur",
           "date": "Sat Sep 6 22:17:50 2025 +0300",
           "timestamp": 1757186270,
-          "url": "https://github.com/yaap/frameworks_base/commit/6353e5ba43e"
+          "url": "https://github.com/yaap/frameworks_base/commit/6353e5ba"
         },
         {
-          "sha": "cb852152f49",
+          "sha": "cb852152",
           "message": "SystemUI: Expandable: Fixup long click implementation after A16 merge",
           "author": "Ido Ben-Hur",
           "date": "Sat Sep 6 21:43:46 2025 +0300",
           "timestamp": 1757184226,
-          "url": "https://github.com/yaap/frameworks_base/commit/cb852152f49"
+          "url": "https://github.com/yaap/frameworks_base/commit/cb852152"
         },
         {
-          "sha": "2c2ce278279",
+          "sha": "2c2ce278",
           "message": "SystemUI: Some visual improvements to keyguard bottom indicator",
           "author": "Ido Ben-Hur",
           "date": "Sat Sep 6 18:13:12 2025 +0300",
           "timestamp": 1757171592,
-          "url": "https://github.com/yaap/frameworks_base/commit/2c2ce278279"
+          "url": "https://github.com/yaap/frameworks_base/commit/2c2ce278"
         },
         {
-          "sha": "073ab6f9db9",
+          "sha": "073ab6f9",
           "message": "base: Allow toggling LTPO features [1/2]",
           "author": "John Galt",
           "date": "Thu Sep 4 00:38:19 2025 +0300",
           "timestamp": 1756935499,
-          "url": "https://github.com/yaap/frameworks_base/commit/073ab6f9db9"
+          "url": "https://github.com/yaap/frameworks_base/commit/073ab6f9"
         }
       ]
     },
@@ -785,180 +785,180 @@
       "commit_count": 22,
       "commits": [
         {
-          "sha": "2aee937db3",
+          "sha": "2aee937db",
           "message": "Set ACTION_ACL_CONNECTED as foreground intent for batteryless devices",
           "author": "Leon Li",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/2aee937db3"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/2aee937db"
         },
         {
-          "sha": "8d78b0dc5d",
+          "sha": "8d78b0dc5",
           "message": "Memory Leak Issue in SDP",
           "author": "Ritvik Mahesh",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8d78b0dc5d"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8d78b0dc5"
         },
         {
-          "sha": "7009c25b57",
+          "sha": "7009c25b5",
           "message": "LE_Scan: Scanclient is not getting cleared due to race condition",
           "author": "janardhana rao bokka",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/7009c25b57"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/7009c25b5"
         },
         {
-          "sha": "8bdd617097",
+          "sha": "8bdd61709",
           "message": "SBC Dual Channel (SBC HD) support - redux",
           "author": "Luca Stefani",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8bdd617097"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8bdd61709"
         },
         {
-          "sha": "30b6364fb3",
+          "sha": "30b6364fb",
           "message": "ignore invalid mask",
           "author": "rmp22",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/30b6364fb3"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/30b6364fb"
         },
         {
-          "sha": "68b28b5e82",
+          "sha": "68b28b5e8",
           "message": "Reconnection from remote failing due to authentication failure",
           "author": "Venkata Jagadeesh Garaga",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/68b28b5e82"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/68b28b5e8"
         },
         {
-          "sha": "1fc1303f43",
+          "sha": "1fc1303f4",
           "message": "Pairing popup is seen on DUT after powering on paired HOGP remote",
           "author": "Venkata Jagadeesh Garaga",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/1fc1303f43"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/1fc1303f4"
         },
         {
-          "sha": "33479a2f71",
+          "sha": "33479a2f7",
           "message": "Update valid phone number for VoIP call",
           "author": "sarvsaur",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/33479a2f71"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/33479a2f7"
         },
         {
-          "sha": "56a8ecda39",
+          "sha": "56a8ecda3",
           "message": "Initiate codec negotiation when AT+BCC is received",
           "author": "sarvsaur",
           "date": "Thu Oct 16 11:53:50 2025 -0400",
           "timestamp": 1760630030,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/56a8ecda39"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/56a8ecda3"
         },
         {
-          "sha": "3aa45d8fec",
+          "sha": "3aa45d8fe",
           "message": "link commands triggered after classic link disconnection",
           "author": "wentjin",
           "date": "Thu Oct 16 11:53:49 2025 -0400",
           "timestamp": 1760630029,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/3aa45d8fec"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/3aa45d8fe"
         },
         {
-          "sha": "b375e7bd9c",
+          "sha": "b375e7bd9",
           "message": "HF profile reconnecting Headset after HF disconnetion from UI",
           "author": "janardhana rao bokka",
           "date": "Thu Oct 16 11:53:49 2025 -0400",
           "timestamp": 1760630029,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/b375e7bd9c"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/b375e7bd9"
         },
         {
-          "sha": "05019a6f7f",
+          "sha": "05019a6f7",
           "message": "Bluetooth: Add missing connect permission",
           "author": "Alvin Francis",
           "date": "Thu Oct 16 11:53:49 2025 -0400",
           "timestamp": 1760630029,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/05019a6f7f"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/05019a6f7"
         },
         {
-          "sha": "db4f3af2c0",
+          "sha": "db4f3af2c",
           "message": "gd: hci: Allow disabling erroneous data reporting",
           "author": "SamarV-121",
           "date": "Thu Oct 16 11:53:49 2025 -0400",
           "timestamp": 1760630029,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/db4f3af2c0"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/db4f3af2c"
         },
         {
-          "sha": "813d78b74f",
+          "sha": "813d78b74",
           "message": "Fix BT noise issue during startup",
           "author": "Weifan",
           "date": "Thu Oct 16 11:53:42 2025 -0400",
           "timestamp": 1760630022,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/813d78b74f"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/813d78b74"
         },
         {
-          "sha": "2e4f06ac0b",
+          "sha": "2e4f06ac0",
           "message": "Fix the parameter ordering of btm_send_hci_set_scan_params",
           "author": "Ömer Faruk Yılmaz",
           "date": "Wed Oct 1 11:23:06 2025 -0400",
           "timestamp": 1759332186,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/2e4f06ac0b"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/2e4f06ac0"
         },
         {
-          "sha": "ff222cec38",
+          "sha": "ff222cec3",
           "message": "Change Android Headtracker Codec ID to 0x0002",
           "author": "Himanshu Rawat",
           "date": "Wed Oct 1 11:23:06 2025 -0400",
           "timestamp": 1759332186,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/ff222cec38"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/ff222cec3"
         },
         {
-          "sha": "8404d51df2",
+          "sha": "8404d51df",
           "message": "25Q3: Remove sdp_ccb_clean_up_after_l2cap_disc",
           "author": "Jack He",
           "date": "Wed Oct 1 11:23:06 2025 -0400",
           "timestamp": 1759332186,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8404d51df2"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/8404d51df"
         },
         {
-          "sha": "82937328f1",
+          "sha": "82937328f",
           "message": "SDP: Clean up CCBs when L2CAP disconnects",
           "author": "Katherine Lai",
           "date": "Wed Oct 1 11:23:06 2025 -0400",
           "timestamp": 1759332186,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/82937328f1"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/82937328f"
         },
         {
-          "sha": "63b040b48d",
+          "sha": "63b040b48",
           "message": "Add flag for cleaning up SDP CCBs when L2CAP disconnects",
           "author": "Katherine Lai",
           "date": "Wed Oct 1 11:22:58 2025 -0400",
           "timestamp": 1759332178,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/63b040b48d"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/63b040b48"
         },
         {
-          "sha": "e0d766eee0",
+          "sha": "e0d766eee",
           "message": "Fix use after free in acl_arbiter",
           "author": "Brian Delwiche",
           "date": "Mon Sep 22 03:44:00 2025 +0300",
           "timestamp": 1758501840,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/e0d766eee0"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/e0d766eee"
         },
         {
-          "sha": "4f4031bad9",
+          "sha": "4f4031bad",
           "message": "Remove flag bonded_device_smp_failure_handling",
           "author": "Brian Delwiche",
           "date": "Mon Sep 22 03:43:54 2025 +0300",
           "timestamp": 1758501834,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/4f4031bad9"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/4f4031bad"
         },
         {
-          "sha": "c8dc74647c",
+          "sha": "c8dc74647",
           "message": "Remove flag btsec_check_valid_discovery_database",
           "author": "Brian Delwiche",
           "date": "Mon Sep 22 03:43:42 2025 +0300",
           "timestamp": 1758501822,
-          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/c8dc74647c"
+          "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/c8dc74647"
         }
       ]
     },
@@ -1284,140 +1284,140 @@
       "commit_count": 17,
       "commits": [
         {
-          "sha": "a6712a23a1",
+          "sha": "a6712a23a",
           "message": "Settings: add Portuguese (Brazil) translations (#47)",
           "author": "Luiz Renato",
           "date": "Thu Nov 6 17:54:18 2025 +0200",
           "timestamp": 1762444458,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/a6712a23a1"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/a6712a23a"
         },
         {
-          "sha": "d826afd9d7",
+          "sha": "d826afd9d",
           "message": "DisplayWakeGesturePageController: Hide or disable show ambient toggles",
           "author": "Ido Ben-Hur",
           "date": "Sun Oct 19 18:22:19 2025 +0300",
           "timestamp": 1760887339,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/d826afd9d7"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/d826afd9d"
         },
         {
-          "sha": "c845715a55",
+          "sha": "c845715a5",
           "message": "Settings: gestures: Refactor wake gestures",
           "author": "Ido Ben-Hur",
           "date": "Sun Oct 19 18:18:49 2025 +0300",
           "timestamp": 1760887129,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/c845715a55"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/c845715a5"
         },
         {
-          "sha": "d706a2b3c7",
+          "sha": "d706a2b3c",
           "message": "Settings: Allow turning on mobile data when pressing the tile [2/2]",
           "author": "Ido Ben-Hur",
           "date": "Wed Oct 8 00:50:38 2025 +0300",
           "timestamp": 1759873838,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/d706a2b3c7"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/d706a2b3c"
         },
         {
-          "sha": "afb2d52441",
+          "sha": "afb2d5244",
           "message": "Hide sensistive content from locked profiles",
           "author": "Julia Reynolds",
           "date": "Mon Sep 22 03:43:06 2025 +0300",
           "timestamp": 1758501786,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/afb2d52441"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/afb2d5244"
         },
         {
-          "sha": "f25b5b59a3",
+          "sha": "f25b5b59a",
           "message": "Ignore face settings extras when called by an external package.",
           "author": "Joe Bolinger",
           "date": "Mon Sep 22 03:42:56 2025 +0300",
           "timestamp": 1758501776,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/f25b5b59a3"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/f25b5b59a"
         },
         {
-          "sha": "30f2d07f81",
+          "sha": "30f2d07f8",
           "message": "startActivityForResult with earlier new Intent",
           "author": "Adam Bookatz",
           "date": "Mon Sep 22 03:42:49 2025 +0300",
           "timestamp": 1758501769,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/30f2d07f81"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/30f2d07f8"
         },
         {
-          "sha": "129b0a9151",
+          "sha": "129b0a915",
           "message": "Prevent SettingsSliceProvider from accessing unused packages",
           "author": "Mill Chen",
           "date": "Mon Sep 22 03:42:41 2025 +0300",
           "timestamp": 1758501761,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/129b0a9151"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/129b0a915"
         },
         {
-          "sha": "a7010094ab",
+          "sha": "a7010094a",
           "message": "Hide notification content in history",
           "author": "Julia Reynolds",
           "date": "Mon Sep 22 03:42:36 2025 +0300",
           "timestamp": 1758501756,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/a7010094ab"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/a7010094a"
         },
         {
-          "sha": "b28ce2fa9c",
+          "sha": "b28ce2fa9",
           "message": "Use correct API to get calling package name in CredentialStorage",
           "author": "Rubin Xu",
           "date": "Mon Sep 22 03:42:30 2025 +0300",
           "timestamp": 1758501750,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/b28ce2fa9c"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/b28ce2fa9"
         },
         {
-          "sha": "f1800449f6",
+          "sha": "f1800449f",
           "message": "Drop PendingIntent extras from external packages during enrollment.",
           "author": "Joe Bolinger",
           "date": "Mon Sep 22 03:42:24 2025 +0300",
           "timestamp": 1758501744,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/f1800449f6"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/f1800449f"
         },
         {
-          "sha": "de950a9b98",
+          "sha": "de950a9b9",
           "message": "Do not enable the Content Protection toggle for non-admin users.",
           "author": "Adam Bookatz",
           "date": "Mon Sep 22 03:42:18 2025 +0300",
           "timestamp": 1758501738,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/de950a9b98"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/de950a9b9"
         },
         {
-          "sha": "dad3495c3e",
+          "sha": "dad3495c3",
           "message": "Add ComponentName explicitly to make sure arbitary intents aren't launched from Settings.",
           "author": "Aseem Kumar",
           "date": "Mon Sep 22 03:42:12 2025 +0300",
           "timestamp": 1758501732,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/dad3495c3e"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/dad3495c3"
         },
         {
-          "sha": "39535995ac",
+          "sha": "39535995a",
           "message": "AppRestrictions - use vetted component",
           "author": "Adam Bookatz",
           "date": "Mon Sep 22 03:42:05 2025 +0300",
           "timestamp": 1758501725,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/39535995ac"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/39535995a"
         },
         {
-          "sha": "99294ad232",
+          "sha": "99294ad23",
           "message": "Settings: Allow disabling time to full on keyguard [2/2]",
           "author": "Ido Ben-Hur",
           "date": "Sun Sep 14 11:01:20 2025 +0300",
           "timestamp": 1757836880,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/99294ad232"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/99294ad23"
         },
         {
-          "sha": "0fce1e7ff8",
+          "sha": "0fce1e7ff",
           "message": "Settings: BatterySaverAdvancedSettings: Conditionally hide AOD toggle",
           "author": "Ido Ben-Hur",
           "date": "Sat Sep 6 18:10:52 2025 +0300",
           "timestamp": 1757171452,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/0fce1e7ff8"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/0fce1e7ff"
         },
         {
-          "sha": "d4ac312c9d",
+          "sha": "d4ac312c9",
           "message": "Settings: Allow toggling LTPO features [2/2]",
           "author": "John Galt",
           "date": "Thu Sep 4 00:39:16 2025 +0300",
           "timestamp": 1756935556,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/d4ac312c9d"
+          "url": "https://github.com/yaap/packages_apps_Settings/commit/d4ac312c9"
         }
       ]
     },
@@ -2168,44 +2168,44 @@
       "commit_count": 5,
       "commits": [
         {
-          "sha": "905c05ef9",
+          "sha": "905c05ef",
           "message": "Revert \"build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
           "author": "John Galt",
           "date": "Fri Nov 14 09:12:52 2025 -0500",
           "timestamp": 1763129572,
-          "url": "https://github.com/yaap/build_soong/commit/905c05ef9"
+          "url": "https://github.com/yaap/build_soong/commit/905c05ef"
         },
         {
-          "sha": "a569986eb",
+          "sha": "a569986e",
           "message": "Revert \"[FIXUP] build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
           "author": "John Galt",
           "date": "Fri Nov 14 09:12:52 2025 -0500",
           "timestamp": 1763129572,
-          "url": "https://github.com/yaap/build_soong/commit/a569986eb"
+          "url": "https://github.com/yaap/build_soong/commit/a569986e"
         },
         {
-          "sha": "0231def0b",
+          "sha": "0231def0",
           "message": "Revert \"build/soong: make mimalloc opt in [3/3]\"",
           "author": "John Galt",
           "date": "Fri Nov 14 09:12:52 2025 -0500",
           "timestamp": 1763129572,
-          "url": "https://github.com/yaap/build_soong/commit/0231def0b"
+          "url": "https://github.com/yaap/build_soong/commit/0231def0"
         },
         {
-          "sha": "fb2eae818",
+          "sha": "fb2eae81",
           "message": "rust: config: Fix missing CPU variant LD flags in Rust",
           "author": "Artem Karavashkin",
           "date": "Wed Sep 3 22:28:15 2025 -0400",
           "timestamp": 1756952895,
-          "url": "https://github.com/yaap/build_soong/commit/fb2eae818"
+          "url": "https://github.com/yaap/build_soong/commit/fb2eae81"
         },
         {
-          "sha": "b000a990c",
+          "sha": "b000a990",
           "message": "Revert \"Replace qti_kernel_headers with generated_kernel_headers\"",
           "author": "Michael Bestas",
           "date": "Wed Sep 3 22:28:03 2025 -0400",
           "timestamp": 1756952883,
-          "url": "https://github.com/yaap/build_soong/commit/b000a990c"
+          "url": "https://github.com/yaap/build_soong/commit/b000a990"
         }
       ]
     },
@@ -2217,36 +2217,36 @@
       "commit_count": 4,
       "commits": [
         {
-          "sha": "69f81c569",
+          "sha": "69f81c56",
           "message": "Revert \"build: make: use jemalloc by default and allow opt-in to scudo (1/4)\"",
           "author": "John Galt",
           "date": "Fri Nov 14 09:20:35 2025 -0500",
           "timestamp": 1763130035,
-          "url": "https://github.com/yaap/build_make/commit/69f81c569"
+          "url": "https://github.com/yaap/build_make/commit/69f81c56"
         },
         {
-          "sha": "2029fb8d7",
+          "sha": "2029fb8d",
           "message": "Revert \"[FIXUP] build: make: use jemalloc by default and allow opt-in to scudo (1/4)\"",
           "author": "John Galt",
           "date": "Fri Nov 14 09:20:35 2025 -0500",
           "timestamp": 1763130035,
-          "url": "https://github.com/yaap/build_make/commit/2029fb8d7"
+          "url": "https://github.com/yaap/build_make/commit/2029fb8d"
         },
         {
-          "sha": "f8413df51",
+          "sha": "f8413df5",
           "message": "Revert \"build/make: make mimalloc opt in [2/3]\"",
           "author": "John Galt",
           "date": "Fri Nov 14 09:20:34 2025 -0500",
           "timestamp": 1763130034,
-          "url": "https://github.com/yaap/build_make/commit/f8413df51"
+          "url": "https://github.com/yaap/build_make/commit/f8413df5"
         },
         {
-          "sha": "46d5d18ef",
+          "sha": "46d5d18e",
           "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
           "author": "Dennis Kiilerich",
           "date": "Wed Oct 1 10:58:11 2025 -0400",
           "timestamp": 1759330691,
-          "url": "https://github.com/yaap/build_make/commit/46d5d18ef"
+          "url": "https://github.com/yaap/build_make/commit/46d5d18e"
         }
       ]
     },
@@ -2299,28 +2299,28 @@
       "commit_count": 3,
       "commits": [
         {
-          "sha": "1d74b5edd1",
+          "sha": "1d74b5edd",
           "message": "satellite data service policy fixes",
           "author": "Nagendra Prasad Nagarle Basavaraju",
           "date": "Wed Oct 1 11:19:34 2025 -0400",
           "timestamp": 1759331974,
-          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/1d74b5edd1"
+          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/1d74b5edd"
         },
         {
-          "sha": "dffd85c907",
+          "sha": "dffd85c90",
           "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
           "author": "Aishwarya Mallampati",
           "date": "Wed Oct 1 11:19:28 2025 -0400",
           "timestamp": 1759331968,
-          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/dffd85c907"
+          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/dffd85c90"
         },
         {
-          "sha": "3e68c507c4",
+          "sha": "3e68c507c",
           "message": "Remove get/set of voicemail ringtone uri in shared preferences.",
           "author": "Tyler Gunn",
           "date": "Mon Sep 22 03:40:36 2025 +0300",
           "timestamp": 1758501636,
-          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/3e68c507c4"
+          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/3e68c507c"
         }
       ]
     },
@@ -2358,6 +2358,39 @@
       ]
     },
     {
+      "name": "packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "18b0f6081",
+          "message": "StashedHandleView: add gestural burn in protection",
+          "author": "John Galt",
+          "date": "Tue Nov 25 13:24:26 2025 -0500",
+          "timestamp": 1764095066,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/18b0f6081"
+        },
+        {
+          "sha": "8f38bdcf3",
+          "message": "Launcher3: Allow to always show page indicator dots",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Oct 9 13:20:19 2025 +0300",
+          "timestamp": 1760005219,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8f38bdcf3"
+        },
+        {
+          "sha": "dea667483",
+          "message": "Launcher3: Add 4x6 and 4x7 grid sizes",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Oct 9 13:20:19 2025 +0300",
+          "timestamp": 1760005219,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/dea667483"
+        }
+      ]
+    },
+    {
       "name": "packages_modules_Connectivity",
       "path": "packages/modules/Connectivity",
       "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
@@ -2387,39 +2420,6 @@
           "date": "Wed Oct 1 11:25:11 2025 -0400",
           "timestamp": 1759332311,
           "url": "https://github.com/yaap/packages_modules_Connectivity/commit/0377f8d"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Launcher3",
-      "path": "packages/apps/Launcher3",
-      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "18b0f60819",
-          "message": "StashedHandleView: add gestural burn in protection",
-          "author": "John Galt",
-          "date": "Tue Nov 25 13:24:26 2025 -0500",
-          "timestamp": 1764095066,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/18b0f60819"
-        },
-        {
-          "sha": "8f38bdcf35",
-          "message": "Launcher3: Allow to always show page indicator dots",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Oct 9 13:20:19 2025 +0300",
-          "timestamp": 1760005219,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8f38bdcf35"
-        },
-        {
-          "sha": "dea6674833",
-          "message": "Launcher3: Add 4x6 and 4x7 grid sizes",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Oct 9 13:20:19 2025 +0300",
-          "timestamp": 1760005219,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/dea6674833"
         }
       ]
     },
@@ -2680,20 +2680,20 @@
       "commit_count": 2,
       "commits": [
         {
-          "sha": "d2be59118",
+          "sha": "d2be5911",
           "message": "Revert \"debuggerd: use jemalloc by default and allow opt-in to scudo (4/4)\"",
           "author": "John Galt",
           "date": "Fri Nov 14 09:22:05 2025 -0500",
           "timestamp": 1763130125,
-          "url": "https://github.com/yaap/system_core/commit/d2be59118"
+          "url": "https://github.com/yaap/system_core/commit/d2be5911"
         },
         {
-          "sha": "719e30c30",
+          "sha": "719e30c3",
           "message": "libprocessgroup: Mount cpuset v1 with cpuset_v2_mode",
           "author": "T.J. Mercier",
           "date": "Wed Oct 1 11:27:31 2025 -0400",
           "timestamp": 1759332451,
-          "url": "https://github.com/yaap/system_core/commit/719e30c30"
+          "url": "https://github.com/yaap/system_core/commit/719e30c3"
         }
       ]
     },
@@ -2756,12 +2756,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "75bfd7807",
+          "sha": "75bfd780",
           "message": "Throw an exception in JNI::NewObject for abstract classes.",
           "author": "Nicolas Geoffray",
           "date": "Fri Sep 12 00:43:21 2025 +0300",
           "timestamp": 1757627001,
-          "url": "https://github.com/yaap/art/commit/75bfd7807"
+          "url": "https://github.com/yaap/art/commit/75bfd780"
         }
       ]
     },
@@ -2892,12 +2892,12 @@
       "commit_count": 1,
       "commits": [
         {
-          "sha": "dd33c3a7a",
+          "sha": "dd33c3a7",
           "message": "Prevent infinite SPEAKER_OFF looping",
           "author": "Pranav Madapurmath",
           "date": "Wed Oct 1 11:26:46 2025 -0400",
           "timestamp": 1759332406,
-          "url": "https://github.com/yaap/packages_services_Telecomm/commit/dd33c3a7a"
+          "url": "https://github.com/yaap/packages_services_Telecomm/commit/dd33c3a7"
         }
       ]
     },
