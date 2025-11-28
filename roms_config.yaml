@@ -1,13 +1,15 @@
 roms:
   - id: lineageos
-    display_name: LineageOS
+    display_name: Lineage OS
     manifest_url: https://github.com/LineageOS/android.git
     branches:
+      - lineage-21.0
       - lineage-22.2
+      - lineage-23.0
       - lineage-23.1
       
   - id: derpfest
-    display_name: DerpFest-AOSP
+    display_name: DerpFest AOSP
     manifest_url: https://github.com/DerpFest-AOSP/android_manifest.git
     branches:
       - "16"
@@ -20,17 +22,31 @@ roms:
       - fifteen
       
   - id: pos
-    display_name: PixelOS-AOSP
+    display_name: PixelOS AOSP
     manifest_url: https://github.com/PixelOS-AOSP/android_manifest.git
     branches:
       - sixteen
       - sixteen-qpr1
       
   - id: axion
-    display_name: AxionOS
+    display_name: Axion OS
     manifest_url: https://github.com/AxionAOSP/android.git
     branches:
+      - lineage-23.0
       - lineage-23.1
 
+  - id: crdroid
+    display_name: crDroid
+    manifest_url: https://github.com/crdroidandroid/android.git
+    branches:
+      - "15.0"
+      - "16.0"
+      
+  - id: twrp
+    display_name: TWRP Recovery
+    manifest_url: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
+    branches:
+      - twrp-12.1
+      - twrp-14.1
 repo_params:
   groups: default,-mips,-darwin,-notdefault
