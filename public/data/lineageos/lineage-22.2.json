@@ -1,7 +1,7 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2025-11-28T04:39:43.648349+00:00",
+  "generated_at": "2025-11-28T06:33:47.530484+00:00",
   "since_date": "2025-08-30",
   "total_projects": 89,
   "total_commits": 481,
@@ -3443,35 +3443,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
+          "sha": "70d1609",
+          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+          "date": "Sat Nov 8 08:58:03 2025 -0700",
+          "timestamp": 1762617483,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
         },
         {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
+          "sha": "30034c7",
+          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+          "date": "Sat Oct 18 07:57:16 2025 -0600",
+          "timestamp": 1760795836,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
         },
         {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
+          "sha": "6760647",
+          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+          "date": "Sat Sep 27 08:22:45 2025 -0600",
+          "timestamp": 1758982965,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
         }
       ]
     },
@@ -3509,35 +3509,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "path": "external/chromium-webview/prebuilt/arm64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "70d1609",
-          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:03 2025 -0700",
-          "timestamp": 1762617483,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
         },
         {
-          "sha": "30034c7",
-          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:16 2025 -0600",
-          "timestamp": 1760795836,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
         },
         {
-          "sha": "6760647",
-          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:45 2025 -0600",
-          "timestamp": 1758982965,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
         }
       ]
     },
@@ -3922,31 +3922,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_frameworks_av",
-      "path": "frameworks/av",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_av",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "2ff01e68b",
-          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 15:47:07 2025 +0300",
-          "timestamp": 1756903627,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/2ff01e68b"
-        },
-        {
-          "sha": "75929cd37",
-          "message": "audioflinger: Do not allow DAP effect to be suspended",
-          "author": "Adithya R",
-          "date": "Mon Sep 1 17:07:30 2025 +0000",
-          "timestamp": 1756746450,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/75929cd37"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_frameworks_opt_telephony",
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
@@ -3968,6 +3943,31 @@
           "date": "Wed Sep 3 15:42:09 2025 +0300",
           "timestamp": 1756903329,
           "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/c3571e721"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_av",
+      "path": "frameworks/av",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_av",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "2ff01e68b",
+          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 3 15:47:07 2025 +0300",
+          "timestamp": 1756903627,
+          "url": "https://github.com/LineageOS/android_frameworks_av/commit/2ff01e68b"
+        },
+        {
+          "sha": "75929cd37",
+          "message": "audioflinger: Do not allow DAP effect to be suspended",
+          "author": "Adithya R",
+          "date": "Mon Sep 1 17:07:30 2025 +0000",
+          "timestamp": 1756746450,
+          "url": "https://github.com/LineageOS/android_frameworks_av/commit/75929cd37"
         }
       ]
     },
@@ -4047,31 +4047,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_DocumentsUI",
-      "path": "packages/apps/DocumentsUI",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "dff9363",
-          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 15:42:20 2025 +0300",
-          "timestamp": 1756903340,
-          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363"
-        },
-        {
-          "sha": "0cc2e07",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:34 2025 +0000",
-          "timestamp": 1756738474,
-          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Dialer",
       "path": "packages/apps/Dialer",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Dialer",
@@ -4093,6 +4068,31 @@
           "date": "Mon Sep 1 14:54:34 2025 +0000",
           "timestamp": 1756738474,
           "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/4dc5fd42"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "dff9363",
+          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 3 15:42:20 2025 +0300",
+          "timestamp": 1756903340,
+          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/dff9363"
+        },
+        {
+          "sha": "0cc2e07",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 1 14:54:34 2025 +0000",
+          "timestamp": 1756738474,
+          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/0cc2e07"
         }
       ]
     },
@@ -4589,23 +4589,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "path": "hardware/qcom-caf/sm8650/audio/pal",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d19ff12",
-          "message": "Revert \"pal: fix redefinition of epoll_event\"",
-          "author": "Arian",
-          "date": "Thu Sep 18 14:11:25 2025 +0000",
-          "timestamp": 1758204685,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d19ff12"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "path": "hardware/qcom-caf/sm8750/audio/pal",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "remote": "github",
@@ -4618,6 +4601,23 @@
           "date": "Sat Sep 20 15:31:29 2025 +0100",
           "timestamp": 1758378689,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/6ead194"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "path": "hardware/qcom-caf/sm8650/audio/pal",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d19ff12",
+          "message": "Revert \"pal: fix redefinition of epoll_event\"",
+          "author": "Arian",
+          "date": "Thu Sep 18 14:11:25 2025 +0000",
+          "timestamp": 1758204685,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/d19ff12"
         }
       ]
     },

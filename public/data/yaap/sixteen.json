@@ -1,7 +1,7 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-11-28T04:42:18.268247+00:00",
+  "generated_at": "2025-11-28T06:37:04.837792+00:00",
   "since_date": "2025-08-30",
   "total_projects": 51,
   "total_commits": 313,
@@ -2292,39 +2292,6 @@
       ]
     },
     {
-      "name": "frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/yaap/frameworks_opt_telephony",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "1d74b5edd",
-          "message": "satellite data service policy fixes",
-          "author": "Nagendra Prasad Nagarle Basavaraju",
-          "date": "Wed Oct 1 11:19:34 2025 -0400",
-          "timestamp": 1759331974,
-          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/1d74b5edd"
-        },
-        {
-          "sha": "dffd85c90",
-          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
-          "author": "Aishwarya Mallampati",
-          "date": "Wed Oct 1 11:19:28 2025 -0400",
-          "timestamp": 1759331968,
-          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/dffd85c90"
-        },
-        {
-          "sha": "3e68c507c",
-          "message": "Remove get/set of voicemail ringtone uri in shared preferences.",
-          "author": "Tyler Gunn",
-          "date": "Mon Sep 22 03:40:36 2025 +0300",
-          "timestamp": 1758501636,
-          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/3e68c507c"
-        }
-      ]
-    },
-    {
       "name": "hardware_qcom-caf_common",
       "path": "hardware/qcom-caf/common",
       "repo_url": "https://github.com/yaap/hardware_qcom-caf_common",
@@ -2354,6 +2321,39 @@
           "date": "Wed Sep 3 22:22:53 2025 -0400",
           "timestamp": 1756952573,
           "url": "https://github.com/yaap/hardware_qcom-caf_common/commit/873c392"
+        }
+      ]
+    },
+    {
+      "name": "frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/yaap/frameworks_opt_telephony",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "1d74b5edd",
+          "message": "satellite data service policy fixes",
+          "author": "Nagendra Prasad Nagarle Basavaraju",
+          "date": "Wed Oct 1 11:19:34 2025 -0400",
+          "timestamp": 1759331974,
+          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/1d74b5edd"
+        },
+        {
+          "sha": "dffd85c90",
+          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
+          "author": "Aishwarya Mallampati",
+          "date": "Wed Oct 1 11:19:28 2025 -0400",
+          "timestamp": 1759331968,
+          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/dffd85c90"
+        },
+        {
+          "sha": "3e68c507c",
+          "message": "Remove get/set of voicemail ringtone uri in shared preferences.",
+          "author": "Tyler Gunn",
+          "date": "Mon Sep 22 03:40:36 2025 +0300",
+          "timestamp": 1758501636,
+          "url": "https://github.com/yaap/frameworks_opt_telephony/commit/3e68c507c"
         }
       ]
     },

@@ -1,0 +1,91 @@
+{
+  "rom_id": "twrp",
+  "branch": "twrp-12.1",
+  "generated_at": "2025-11-28T06:42:40.420311+00:00",
+  "since_date": "2025-08-30",
+  "total_projects": 1,
+  "total_commits": 9,
+  "projects": [
+    {
+      "name": "android_bootable_recovery",
+      "path": "bootable/recovery",
+      "repo_url": "https://github.com/TeamWin/android_bootable_recovery",
+      "remote": "TeamWin",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "5c3d206",
+          "message": "Support excluding zip from TWRP builds",
+          "author": "Darth9",
+          "date": "Tue Sep 2 00:26:59 2025 +0000",
+          "timestamp": 1756772819,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/5c3d206"
+        },
+        {
+          "sha": "eb439c0",
+          "message": "partition: Exclude ksu modules file from userdata backup",
+          "author": "Fernando Oliveira",
+          "date": "Tue Sep 2 00:25:58 2025 +0000",
+          "timestamp": 1756772758,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/eb439c0"
+        },
+        {
+          "sha": "f73d821",
+          "message": "twrpinstall: Fix for installing custom themes",
+          "author": "Fernando Oliveira",
+          "date": "Sun Aug 31 21:58:36 2025 +0000",
+          "timestamp": 1756677516,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/f73d821"
+        },
+        {
+          "sha": "78914ca",
+          "message": "sepolicy: fix avc denials for loop mount",
+          "author": "Captain Throwback",
+          "date": "Sun Aug 31 21:31:11 2025 +0000",
+          "timestamp": 1756675871,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/78914ca"
+        },
+        {
+          "sha": "2598c39",
+          "message": "exfat: Update exfat to 1.3.0",
+          "author": "sekaiacg",
+          "date": "Sat Aug 30 21:38:01 2025 +0000",
+          "timestamp": 1756589881,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/2598c39"
+        },
+        {
+          "sha": "378b645",
+          "message": "prebuilt: Include android.hardware.vibrator-V2-ndk",
+          "author": "Alexander Winkowski",
+          "date": "Sat Aug 30 20:28:59 2025 +0000",
+          "timestamp": 1756585739,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/378b645"
+        },
+        {
+          "sha": "03a6e91",
+          "message": "partition: Wipe_EXTFS: Add support for metadata_csum",
+          "author": "me-cafebabe",
+          "date": "Sat Aug 30 19:25:31 2025 +0000",
+          "timestamp": 1756581931,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/03a6e91"
+        },
+        {
+          "sha": "d2c43ae",
+          "message": "partition: Wipe_F2FS: Only enable casefolding for /data",
+          "author": "me-cafebabe",
+          "date": "Sat Aug 30 19:09:28 2025 +0000",
+          "timestamp": 1756580968,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/d2c43ae"
+        },
+        {
+          "sha": "e18d68d",
+          "message": "partition: Enable Project ID Quota by default",
+          "author": "me-cafebabe",
+          "date": "Sat Aug 30 18:47:46 2025 +0000",
+          "timestamp": 1756579666,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/e18d68d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "rom_id": "twrp",
+  "branch": "twrp-14.1",
+  "generated_at": "2025-11-28T06:43:00.269218+00:00",
+  "since_date": "2025-08-30",
+  "total_projects": 2,
+  "total_commits": 9,
+  "projects": [
+    {
+      "name": "android_bootable_recovery",
+      "path": "bootable/recovery",
+      "repo_url": "https://github.com/TeamWin/android_bootable_recovery",
+      "remote": "TeamWin",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "426b747",
+          "message": "Support excluding zip from TWRP builds",
+          "author": "Darth9",
+          "date": "Mon Sep 8 16:33:04 2025 +0000",
+          "timestamp": 1757349184,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/426b747"
+        },
+        {
+          "sha": "918279a",
+          "message": "partition: Exclude ksu modules file from userdata backup",
+          "author": "Fernando Oliveira",
+          "date": "Tue Sep 2 00:26:16 2025 +0000",
+          "timestamp": 1756772776,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/918279a"
+        },
+        {
+          "sha": "bdca844",
+          "message": "twrpinstall: Fix for installing custom themes",
+          "author": "Fernando Oliveira",
+          "date": "Mon Sep 1 01:26:40 2025 +0000",
+          "timestamp": 1756690000,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/bdca844"
+        },
+        {
+          "sha": "9194bf7",
+          "message": "exfat: Update exfat to 1.3.0",
+          "author": "sekaiacg",
+          "date": "Sat Aug 30 21:56:00 2025 +0000",
+          "timestamp": 1756590960,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/9194bf7"
+        },
+        {
+          "sha": "029353a",
+          "message": "partition: Wipe_EXTFS: Add support for metadata_csum",
+          "author": "me-cafebabe",
+          "date": "Sat Aug 30 20:27:54 2025 +0000",
+          "timestamp": 1756585674,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/029353a"
+        },
+        {
+          "sha": "d90a63b",
+          "message": "partition: Wipe_F2FS: Only enable casefolding for /data",
+          "author": "me-cafebabe",
+          "date": "Sat Aug 30 19:25:05 2025 +0000",
+          "timestamp": 1756581905,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/d90a63b"
+        },
+        {
+          "sha": "648facc",
+          "message": "partition: Enable Project ID Quota by default",
+          "author": "me-cafebabe",
+          "date": "Sat Aug 30 19:07:52 2025 +0000",
+          "timestamp": 1756580872,
+          "url": "https://github.com/TeamWin/android_bootable_recovery/commit/648facc"
+        }
+      ]
+    },
+    {
+      "name": "android_system_vold",
+      "path": "system/vold",
+      "repo_url": "https://github.com/TeamWin/android_system_vold",
+      "remote": "TeamWin",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "8e2fb25",
+          "message": "Merge \"vold: isFsKeyringSupported is deprecated\" into android-14.1",
+          "author": "bigbiff",
+          "date": "Sun Sep 28 18:58:31 2025 +0000",
+          "timestamp": 1759085911,
+          "url": "https://github.com/TeamWin/android_system_vold/commit/8e2fb25"
+        },
+        {
+          "sha": "9ed2142",
+          "message": "vold: isFsKeyringSupported is deprecated",
+          "author": "nebrassy",
+          "date": "Sun Sep 28 18:58:25 2025 +0000",
+          "timestamp": 1759085905,
+          "url": "https://github.com/TeamWin/android_system_vold/commit/9ed2142"
+        }
+      ]
+    }
+  ]
+}
