@@ -1,10 +1,10 @@
 {
   "rom_id": "pos",
   "branch": "sixteen-qpr1",
-  "generated_at": "2025-11-28T06:39:17.697463+00:00",
+  "generated_at": "2025-11-28T11:39:15.842143+00:00",
   "since_date": "2025-08-30",
-  "total_projects": 100,
-  "total_commits": 913,
+  "total_projects": 74,
+  "total_commits": 608,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1464,1624 +1464,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_frameworks_base",
-      "path": "frameworks/base",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_base",
-      "remote": "github",
-      "commit_count": 100,
-      "commits": [
-        {
-          "sha": "f04db931",
-          "message": "Revert \"PropImitationHooks: Add option for GMS to get cert chain\"",
-          "author": "hridaya",
-          "date": "Sun Nov 23 19:33:59 2025 +0545",
-          "timestamp": 1763905739,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f04db931"
-        },
-        {
-          "sha": "8d394d5d",
-          "message": "KeyboxImitationHooks: Revert recent changes",
-          "author": "inferno0230",
-          "date": "Sun Nov 23 07:15:13 2025 +0000",
-          "timestamp": 1763882113,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8d394d5d"
-        },
-        {
-          "sha": "6252909d",
-          "message": "SystemUI: Update SystemUI icon for advanced reboot",
-          "author": "hridaya",
-          "date": "Sun Nov 2 18:39:57 2025 +0545",
-          "timestamp": 1762088097,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/6252909d"
-        },
-        {
-          "sha": "f9876499",
-          "message": "core: Remove fastbootd option from Advanced reboot",
-          "author": "hridaya",
-          "date": "Sun Nov 2 18:39:34 2025 +0545",
-          "timestamp": 1762088074,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f9876499"
-        },
-        {
-          "sha": "e3cfc0a0",
-          "message": "SystemUI: Fix media section constraints with Smartspace disabled",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 15:31:47 2025 +0545",
-          "timestamp": 1762076807,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e3cfc0a0"
-        },
-        {
-          "sha": "23c34cad",
-          "message": "SystemUI: Add KeyguardSliceViewSection to split shade blueprint",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 15:31:47 2025 +0545",
-          "timestamp": 1762076807,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/23c34cad"
-        },
-        {
-          "sha": "5e41790b",
-          "message": "SystemUI: Add restart SystemUI in Advanced Reboot",
-          "author": "Phạm Tiên Sinh",
-          "date": "Fri Oct 31 17:29:53 2025 +0545",
-          "timestamp": 1761911093,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5e41790b"
-        },
-        {
-          "sha": "0dc0ba2b",
-          "message": "frameworks: Add support for advanced restart options",
-          "author": "Michael Bestas",
-          "date": "Fri Oct 31 17:29:53 2025 +0545",
-          "timestamp": 1761911093,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0dc0ba2b"
-        },
-        {
-          "sha": "6107970b",
-          "message": "core: Overlay the PIF JSON update URL",
-          "author": "hridaya",
-          "date": "Fri Oct 31 17:29:50 2025 +0545",
-          "timestamp": 1761911090,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/6107970b"
-        },
-        {
-          "sha": "89411f10",
-          "message": "KeyboxImitationHooks: Abandon generated certs",
-          "author": "Abhay Singh Gill",
-          "date": "Fri Oct 31 16:41:17 2025 +0545",
-          "timestamp": 1761908177,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/89411f10"
-        },
-        {
-          "sha": "3368a80b",
-          "message": "KeyboxImitationHooks: Add modificationTimeMs to key metadata",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Oct 28 18:31:06 2025 +0545",
-          "timestamp": 1761655566,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3368a80b"
-        },
-        {
-          "sha": "bc6fa2d5",
-          "message": "KeyboxImitationHooks: Delete old keys if newer ones fail to generate",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Oct 28 18:30:26 2025 +0545",
-          "timestamp": 1761655526,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/bc6fa2d5"
-        },
-        {
-          "sha": "55f080fe",
-          "message": "KeyboxImitationHooks: Ignore keys requiring auth",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Oct 28 18:30:26 2025 +0545",
-          "timestamp": 1761655526,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/55f080fe"
-        },
-        {
-          "sha": "e491037b",
-          "message": "KeyboxImitationHooks: Some improvements",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Oct 28 18:30:26 2025 +0545",
-          "timestamp": 1761655526,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e491037b"
-        },
-        {
-          "sha": "84848b92",
-          "message": "PropImitationHooks: Add option for GMS to get cert chain",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Oct 28 18:30:26 2025 +0545",
-          "timestamp": 1761655526,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/84848b92"
-        },
-        {
-          "sha": "be7f90d0",
-          "message": "PropImitationHooks: Block key attestation for play integrity",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Oct 28 18:30:26 2025 +0545",
-          "timestamp": 1761655526,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/be7f90d0"
-        },
-        {
-          "sha": "883bc559",
-          "message": "PropImitationHooks: Skip play Integrity props in isolated processes",
-          "author": "Akash Srivastava",
-          "date": "Sat Oct 25 15:15:31 2025 +0545",
-          "timestamp": 1761384631,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/883bc559"
-        },
-        {
-          "sha": "3028ce50",
-          "message": "KeyProviderManager: Accept N >= 1 certs per key [1/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Oct 25 15:15:31 2025 +0545",
-          "timestamp": 1761384631,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3028ce50"
-        },
-        {
-          "sha": "0ec6687e",
-          "message": "PropImitationHooks: Spoof certified props to finsky as well",
-          "author": "Ghosuto",
-          "date": "Sat Oct 25 15:15:31 2025 +0545",
-          "timestamp": 1761384631,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0ec6687e"
-        },
-        {
-          "sha": "a8c8fdf5",
-          "message": "core: Make PIF user configurable [1/2]",
-          "author": "Abhay Singh Gill",
-          "date": "Sat Oct 25 15:15:31 2025 +0545",
-          "timestamp": 1761384631,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a8c8fdf5"
-        },
-        {
-          "sha": "23991704",
-          "message": "PIHooks: Dynamically spoof props for GMS",
-          "author": "SamarV-121",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/23991704"
-        },
-        {
-          "sha": "d1e5600c",
-          "message": "base: Add key generation for keybox spoofing [1/2]",
-          "author": "Abhay Singh Gill",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d1e5600c"
-        },
-        {
-          "sha": "d060e9ff",
-          "message": "Initial implementation of KeyboxImitationHooks",
-          "author": "Jyotiraditya Panda",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d060e9ff"
-        },
-        {
-          "sha": "a5224b8c",
-          "message": "PIHooks: Spoof Google Photos",
-          "author": "Adithya R",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a5224b8c"
-        },
-        {
-          "sha": "21323550",
-          "message": "PropImitationHooks: Make it a hidden API",
-          "author": "Adithya R",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/21323550"
-        },
-        {
-          "sha": "ea6b4916",
-          "message": "PropImitationHooks: Allow user to disable prop imitation",
-          "author": "Jyotiraditya Panda",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ea6b4916"
-        },
-        {
-          "sha": "d284e3b5",
-          "message": "PIHooks: Get resources from context",
-          "author": "Adithya R",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d284e3b5"
-        },
-        {
-          "sha": "e48c13a6",
-          "message": "PIHooks: Allow setting any field in certified build props",
-          "author": "Adithya R",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e48c13a6"
-        },
-        {
-          "sha": "0ef8aef7",
-          "message": "Introduce PropImitationHooks",
-          "author": "Omkar Chandorkar",
-          "date": "Sat Oct 25 15:15:30 2025 +0545",
-          "timestamp": 1761384630,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0ef8aef7"
-        },
-        {
-          "sha": "0bc92a6f",
-          "message": "camera: Add backwards-compatible CaptureResultExtras constructor",
-          "author": "Adithya R",
-          "date": "Sat Oct 25 15:12:34 2025 +0545",
-          "timestamp": 1761384454,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0bc92a6f"
-        },
-        {
-          "sha": "60cb7724",
-          "message": "core: camera2: StreamConfigurationMap: add constructor for MIUI camera",
-          "author": "Pulkit077",
-          "date": "Sat Oct 25 15:12:33 2025 +0545",
-          "timestamp": 1761384453,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/60cb7724"
-        },
-        {
-          "sha": "ce347a47",
-          "message": "SystemUI: Dismiss screenshot window on touch outside",
-          "author": "LibXZR",
-          "date": "Sat Oct 25 14:35:34 2025 +0545",
-          "timestamp": 1761382234,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ce347a47"
-        },
-        {
-          "sha": "f37e820d",
-          "message": "SystemUI: Reduce screenshot dismiss delay to 3 seconds",
-          "author": "Danny Lin",
-          "date": "Sat Oct 25 14:35:34 2025 +0545",
-          "timestamp": 1761382234,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f37e820d"
-        },
-        {
-          "sha": "392db83f",
-          "message": "SystemUI: Adapt screenshot sound to ringer modes",
-          "author": "Ashwin R C",
-          "date": "Sat Oct 25 14:35:34 2025 +0545",
-          "timestamp": 1761382234,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/392db83f"
-        },
-        {
-          "sha": "6d91e4a4",
-          "message": "core: Update freeze IDs of ContextualSearch for Android 16",
-          "author": "Anierin Bliss",
-          "date": "Sat Oct 25 09:18:37 2025 +0530",
-          "timestamp": 1761364117,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/6d91e4a4"
-        },
-        {
-          "sha": "42cd9101",
-          "message": "SettingsLib: Simplify the code used to show Deep sleep",
-          "author": "fazilsheik96",
-          "date": "Sun Oct 19 18:55:51 2025 +0545",
-          "timestamp": 1760879451,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/42cd9101"
-        },
-        {
-          "sha": "6d71003b",
-          "message": "Add deep sleep info to uptime preference",
-          "author": "maxwen",
-          "date": "Sun Oct 19 18:55:47 2025 +0545",
-          "timestamp": 1760879447,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/6d71003b"
-        },
-        {
-          "sha": "a53f2f00",
-          "message": "PowerOffAlarmService: Guard until boot is completed",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Oct 19 18:54:33 2025 +0545",
-          "timestamp": 1760879373,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a53f2f00"
-        },
-        {
-          "sha": "35e36c27",
-          "message": "SettingsLib: Use framework resource for headline font",
-          "author": "Adithya R",
-          "date": "Fri Oct 17 23:02:53 2025 +0545",
-          "timestamp": 1760721473,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/35e36c27"
-        },
-        {
-          "sha": "13767eb9",
-          "message": "SystemUI: Fix large clock top margin with Smartspace disabled",
-          "author": "LuK1337",
-          "date": "Fri Oct 17 21:53:14 2025 +0545",
-          "timestamp": 1760717294,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/13767eb9"
-        },
-        {
-          "sha": "e84d4b42",
-          "message": "SystemUI: fix Keyguard slice",
-          "author": "Fred Underwood",
-          "date": "Fri Oct 17 21:53:10 2025 +0545",
-          "timestamp": 1760717290,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e84d4b42"
-        },
-        {
-          "sha": "dd925f5d",
-          "message": "SystemUI: Fix burn-in translations not applying to keyguard slices",
-          "author": "Andy CrossGate Yan",
-          "date": "Fri Oct 17 21:53:03 2025 +0545",
-          "timestamp": 1760717283,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/dd925f5d"
-        },
-        {
-          "sha": "1d101cc8",
-          "message": "SystemUI: Don't remove keyguard slice view",
-          "author": "LuK1337",
-          "date": "Fri Oct 17 21:52:43 2025 +0545",
-          "timestamp": 1760717263,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/1d101cc8"
-        },
-        {
-          "sha": "2fd8f17b",
-          "message": "SystemUI: Fix constraints for keyguard slice view",
-          "author": "LuK1337",
-          "date": "Fri Oct 17 21:52:35 2025 +0545",
-          "timestamp": 1760717255,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2fd8f17b"
-        },
-        {
-          "sha": "5f39b158",
-          "message": "services: core: wfd: extend check for qualcomm wfd jar",
-          "author": "Alexander Martinz",
-          "date": "Fri Oct 17 21:51:50 2025 +0545",
-          "timestamp": 1760717210,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5f39b158"
-        },
-        {
-          "sha": "05a9c9cc",
-          "message": "base: Implement cutout force full screen [1/2]",
-          "author": "jhenrique09",
-          "date": "Wed Oct 15 21:45:18 2025 +0545",
-          "timestamp": 1760544018,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/05a9c9cc"
-        },
-        {
-          "sha": "464a36b3",
-          "message": "fixup! SystemUI: Implement face unlock recognition text",
-          "author": "hridaya",
-          "date": "Wed Oct 15 16:33:08 2025 +0545",
-          "timestamp": 1760525288,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/464a36b3"
-        },
-        {
-          "sha": "5acca551",
-          "message": "SystemUI: Implement face unlock recognition text",
-          "author": "minaripenguin",
-          "date": "Wed Oct 15 10:39:48 2025 +0545",
-          "timestamp": 1760504088,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5acca551"
-        },
-        {
-          "sha": "31431f7c",
-          "message": "KeyguardBouncer: Don't delay showing if face auth running",
-          "author": "jhenrique09",
-          "date": "Wed Oct 15 10:39:48 2025 +0545",
-          "timestamp": 1760504088,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/31431f7c"
-        },
-        {
-          "sha": "ff6ab598",
-          "message": "SystemUI: biometrics: Follow user setting to confirm face unlock",
-          "author": "Pranav Vashi",
-          "date": "Wed Oct 15 10:39:48 2025 +0545",
-          "timestamp": 1760504088,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ff6ab598"
-        },
-        {
-          "sha": "5fdae60a",
-          "message": "SystemUI: Disable FaceUnlock Lockouts",
-          "author": "minaripenguin",
-          "date": "Wed Oct 15 10:39:48 2025 +0545",
-          "timestamp": 1760504088,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5fdae60a"
-        },
-        {
-          "sha": "6097ca3d",
-          "message": "services: Force load FaceSense providers",
-          "author": "Pranav Vashi",
-          "date": "Wed Oct 15 10:39:48 2025 +0545",
-          "timestamp": 1760504088,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/6097ca3d"
-        },
-        {
-          "sha": "cde53883",
-          "message": "FaceSense: Vibrate on successful authentication",
-          "author": "Adithya R",
-          "date": "Wed Oct 15 10:39:48 2025 +0545",
-          "timestamp": 1760504088,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/cde53883"
-        },
-        {
-          "sha": "3a6d31b9",
-          "message": "FaceService: Conditionally add ParanoidSense",
-          "author": "someone5678",
-          "date": "Wed Oct 15 10:39:48 2025 +0545",
-          "timestamp": 1760504088,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3a6d31b9"
-        },
-        {
-          "sha": "50a77adb",
-          "message": "base: Initial SenseProvider for FaceSense service",
-          "author": "Chris Crump",
-          "date": "Wed Oct 15 10:39:33 2025 +0545",
-          "timestamp": 1760504073,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/50a77adb"
-        },
-        {
-          "sha": "88471e32",
-          "message": "fixup! SystemUI: Introduce network speed indicator on statusbar",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 23:01:00 2025 +0545",
-          "timestamp": 1760462160,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/88471e32"
-        },
-        {
-          "sha": "053b7dce",
-          "message": "SystemUI: Introduce network speed indicator on statusbar",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 23:01:00 2025 +0545",
-          "timestamp": 1760462160,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/053b7dce"
-        },
-        {
-          "sha": "746feda5",
-          "message": "UsbTetherTile: Check for UsbManager.USB_FUNCTION_NCM as well",
-          "author": "ShevT",
-          "date": "Tue Oct 14 23:00:48 2025 +0545",
-          "timestamp": 1760462148,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/746feda5"
-        },
-        {
-          "sha": "ad81b175",
-          "message": "SystemUI: Allow disabling QS tiles long click effect for specific tiles",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 23:00:40 2025 +0545",
-          "timestamp": 1760462140,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ad81b175"
-        },
-        {
-          "sha": "f4f8bd12",
-          "message": "SystemUI: Introduce Data Switch QS Tile",
-          "author": "Christian Oder",
-          "date": "Tue Oct 14 23:00:21 2025 +0545",
-          "timestamp": 1760462121,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f4f8bd12"
-        },
-        {
-          "sha": "9c74b45c",
-          "message": "SystemUI: Add Autobrightness tile",
-          "author": "Dil3mm4",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/9c74b45c"
-        },
-        {
-          "sha": "8c2eec2d",
-          "message": "SystemUI: Update string for add tiles with one click",
-          "author": "mydongistiny",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8c2eec2d"
-        },
-        {
-          "sha": "a51b893e",
-          "message": "SystemUI: Allow user to add/remove QS with one click",
-          "author": "Andrzej Ressel",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a51b893e"
-        },
-        {
-          "sha": "3e7fd2ab",
-          "message": "SystemUI: Enable cast tile without Wi-Fi connection",
-          "author": "nift4",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3e7fd2ab"
-        },
-        {
-          "sha": "0c984d43",
-          "message": "SystemUI: DreamTile: Enable for everyone",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0c984d43"
-        },
-        {
-          "sha": "f6e414b1",
-          "message": "SystemUI: Add VPN tile",
-          "author": "Danny Baumann",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f6e414b1"
-        },
-        {
-          "sha": "96afb5bd",
-          "message": "SystemUI: Enable NFC tile",
-          "author": "Tim Schumacher",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/96afb5bd"
-        },
-        {
-          "sha": "31e2e83d",
-          "message": "SystemUI: Internet tile: Allow long-pressing on mobile network",
-          "author": "Michael W",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/31e2e83d"
-        },
-        {
-          "sha": "3e8388e5",
-          "message": "SystemUI: Expose legacy Wi-Fi and cellular data QS tiles",
-          "author": "Danny Lin",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3e8388e5"
-        },
-        {
-          "sha": "05325c2d",
-          "message": "SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model",
-          "author": "Danny Lin",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/05325c2d"
-        },
-        {
-          "sha": "7488d436",
-          "message": "Revert \"[DO NOT MERGE] Make sure WiFi and Cell tiles are not created in Provider Model\"",
-          "author": "Danny Lin",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/7488d436"
-        },
-        {
-          "sha": "3614ab1e",
-          "message": "SystemUI: Restore wifi and cellular QS tiles",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 23:00:20 2025 +0545",
-          "timestamp": 1760462120,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3614ab1e"
-        },
-        {
-          "sha": "c303ef8b",
-          "message": "SystemUI: Add reading mode tile",
-          "author": "Joey",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/c303ef8b"
-        },
-        {
-          "sha": "58d87eb3",
-          "message": "SystemUI: Add powershare QS tile",
-          "author": "Linux4",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/58d87eb3"
-        },
-        {
-          "sha": "853ec66b",
-          "message": "SystemUI: Add AOD QS tile",
-          "author": "Marko Man",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/853ec66b"
-        },
-        {
-          "sha": "956ec7df",
-          "message": "SystemUI: Add USB Tether tile",
-          "author": "BestPig",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/956ec7df"
-        },
-        {
-          "sha": "05902b7b",
-          "message": "SystemUI: Add AmbientDisplay tile",
-          "author": "Adnan Begovic",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/05902b7b"
-        },
-        {
-          "sha": "102b421b",
-          "message": "SystemUI: Add Sync tile",
-          "author": "Altaf-Mahdi",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/102b421b"
-        },
-        {
-          "sha": "f1e29014",
-          "message": "SystemUI: Add heads up tile",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f1e29014"
-        },
-        {
-          "sha": "5bc5315b",
-          "message": "SystemUI: Add caffeine QS tile",
-          "author": "Keith Mok",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5bc5315b"
-        },
-        {
-          "sha": "3767cb5f",
-          "message": "base: Add CUSTOM metrics const.",
-          "author": "Bauuuuu",
-          "date": "Tue Oct 14 23:00:19 2025 +0545",
-          "timestamp": 1760462119,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3767cb5f"
-        },
-        {
-          "sha": "804f3752",
-          "message": "SystemUI: Fix suspicious spaces around new mobile icons",
-          "author": "lgjint",
-          "date": "Tue Oct 14 22:58:30 2025 +0545",
-          "timestamp": 1760462010,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/804f3752"
-        },
-        {
-          "sha": "e2214d5d",
-          "message": "SystemUI: Remove alarm from statusbar icon blocklist",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 22:58:30 2025 +0545",
-          "timestamp": 1760462010,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e2214d5d"
-        },
-        {
-          "sha": "7f46100d",
-          "message": "SystemUI: Fix uneven volume icon padding in status bar",
-          "author": "Danny Lin",
-          "date": "Tue Oct 14 22:58:30 2025 +0545",
-          "timestamp": 1760462010,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/7f46100d"
-        },
-        {
-          "sha": "9941072b",
-          "message": "SystemUI: Fix uneven DND icon padding in status bar",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 22:58:30 2025 +0545",
-          "timestamp": 1760462010,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/9941072b"
-        },
-        {
-          "sha": "5edd0a6a",
-          "message": "Show the vibrate icon in the Status Bar by default",
-          "author": "Chirayu Desai",
-          "date": "Tue Oct 14 22:58:30 2025 +0545",
-          "timestamp": 1760462010,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5edd0a6a"
-        },
-        {
-          "sha": "0e367a50",
-          "message": "SystemUI: tuner: Migrate to M3 switch",
-          "author": "Dhina17",
-          "date": "Tue Oct 14 22:58:30 2025 +0545",
-          "timestamp": 1760462010,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0e367a50"
-        },
-        {
-          "sha": "b666a44c",
-          "message": "SystemUI: Expose VPN icon to allow toggling",
-          "author": "Bruno Martins",
-          "date": "Tue Oct 14 22:58:30 2025 +0545",
-          "timestamp": 1760462010,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b666a44c"
-        },
-        {
-          "sha": "fb3043c2",
-          "message": "SystemUI: Bring in drawables for statusbar icon toggles",
-          "author": "althafvly",
-          "date": "Tue Oct 14 22:58:30 2025 +0545",
-          "timestamp": 1760462010,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/fb3043c2"
-        },
-        {
-          "sha": "bd2b7ec0",
-          "message": "SystemUI: Split status bar icon controls for vibrate and mute",
-          "author": "althafvly",
-          "date": "Tue Oct 14 22:58:29 2025 +0545",
-          "timestamp": 1760462009,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/bd2b7ec0"
-        },
-        {
-          "sha": "3cc4fdae",
-          "message": "SystemUI: Status bar tuner improvements",
-          "author": "Rashed Abdel-Tawab",
-          "date": "Tue Oct 14 22:58:26 2025 +0545",
-          "timestamp": 1760462006,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3cc4fdae"
-        },
-        {
-          "sha": "cdc24a2b",
-          "message": "DisplayCutout: fully animate camera protection",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Oct 14 22:56:40 2025 +0545",
-          "timestamp": 1760461900,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/cdc24a2b"
-        },
-        {
-          "sha": "26566ce1",
-          "message": "Grant CAPTURE_AUDIO_OUTPUT permission for media uid",
-          "author": "LuK1337",
-          "date": "Tue Oct 14 22:56:37 2025 +0545",
-          "timestamp": 1760461897,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/26566ce1"
-        },
-        {
-          "sha": "efa41ef0",
-          "message": "Fix ever-growing AppOpItem string representation",
-          "author": "Tommy Webb",
-          "date": "Tue Oct 14 22:56:15 2025 +0545",
-          "timestamp": 1760461875,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/efa41ef0"
-        },
-        {
-          "sha": "0642207a",
-          "message": "HintManagerService: Generate dummy mSupportInfo for non power AIDL devices",
-          "author": "electimon",
-          "date": "Tue Oct 14 22:56:13 2025 +0545",
-          "timestamp": 1760461873,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0642207a"
-        },
-        {
-          "sha": "a6b94fb2",
-          "message": "PhoneWindowManager: Restore haptic feedback for physical nav keys",
-          "author": "LuK1337",
-          "date": "Tue Oct 14 22:56:10 2025 +0545",
-          "timestamp": 1760461870,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a6b94fb2"
-        },
-        {
-          "sha": "f994cba2",
-          "message": "Quick Settings power menu uses keyguard show state",
-          "author": "Tommy Webb",
-          "date": "Tue Oct 14 22:56:04 2025 +0545",
-          "timestamp": 1760461864,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f994cba2"
-        },
-        {
-          "sha": "289dfddd",
-          "message": "BrightnessUtils: Conditionally disable gamma conversion for brightness slider",
-          "author": "SagarMakhar",
-          "date": "Tue Oct 14 22:55:59 2025 +0545",
-          "timestamp": 1760461859,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/289dfddd"
-        },
-        {
-          "sha": "11eda9fe",
-          "message": "QSLongPressEffect: Provide a fallback for devices with no primitives",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 22:55:27 2025 +0545",
-          "timestamp": 1760461827,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/11eda9fe"
-        },
-        {
-          "sha": "890d7524",
-          "message": "Allow BAL for usb debugging notifications",
-          "author": "Christian Hoffmann",
-          "date": "Tue Oct 14 22:55:24 2025 +0545",
-          "timestamp": 1760461824,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_base/commit/890d7524"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_packages_apps_Settings",
-      "path": "packages/apps/Settings",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings",
-      "remote": "github",
-      "commit_count": 100,
-      "commits": [
-        {
-          "sha": "79b7144",
-          "message": "Revert \"Settings: Add option to disable forcing strong integrity\"",
-          "author": "hridaya",
-          "date": "Wed Nov 26 10:55:38 2025 +0000",
-          "timestamp": 1764154538,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/79b7144"
-        },
-        {
-          "sha": "b3b5f06",
-          "message": "Settings: Add a RemotePreference for device-specific doze settings",
-          "author": "Steve Kondik",
-          "date": "Sat Nov 22 19:08:22 2025 +0000",
-          "timestamp": 1763838502,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/b3b5f06"
-        },
-        {
-          "sha": "b8a3b66",
-          "message": "Settings: Add config to display Now Playing",
-          "author": "Pranav Vashi",
-          "date": "Fri Nov 21 21:56:26 2025 +0000",
-          "timestamp": 1763762186,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/b8a3b66"
-        },
-        {
-          "sha": "80f2ddc",
-          "message": "Settings: Allow devices to opt-out of advanced refresh rate page",
-          "author": "hridaya",
-          "date": "Tue Nov 4 18:13:47 2025 +0545",
-          "timestamp": 1762259327,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/80f2ddc"
-        },
-        {
-          "sha": "d2f54b8",
-          "message": "fixup! Settings: Add toggle for Smart 5G [2/2]",
-          "author": "hridaya",
-          "date": "Fri Oct 31 17:36:15 2025 +0545",
-          "timestamp": 1761911475,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/d2f54b8"
-        },
-        {
-          "sha": "a13b58f",
-          "message": "Settings: Add advanced restart with global actions",
-          "author": "Adin Kwok",
-          "date": "Fri Oct 31 17:06:48 2025 +0545",
-          "timestamp": 1761909708,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/a13b58f"
-        },
-        {
-          "sha": "7d56e1f",
-          "message": "Settings: Add option to disable forcing strong integrity",
-          "author": "Abhay Singh Gill",
-          "date": "Sat Oct 25 15:16:27 2025 +0545",
-          "timestamp": 1761384687,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/7d56e1f"
-        },
-        {
-          "sha": "eceedcb",
-          "message": "Settings: Move configurable PIF and keybox to Developer options",
-          "author": "hridaya",
-          "date": "Sat Oct 25 15:16:27 2025 +0545",
-          "timestamp": 1761384687,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/eceedcb"
-        },
-        {
-          "sha": "4ce7600",
-          "message": "Settings: Kill play store too when applying new PIF data",
-          "author": "Abhay Singh Gill",
-          "date": "Sat Oct 25 15:16:27 2025 +0545",
-          "timestamp": 1761384687,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4ce7600"
-        },
-        {
-          "sha": "f71dbdd",
-          "message": "KeyboxDataPreference: Accept N >= 1 certs per key [2/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Oct 25 15:16:27 2025 +0545",
-          "timestamp": 1761384687,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f71dbdd"
-        },
-        {
-          "sha": "9e70e5f",
-          "message": "Settings:  Make PIF user configurable [2/2]",
-          "author": "Abhay Singh Gill",
-          "date": "Sat Oct 25 15:16:27 2025 +0545",
-          "timestamp": 1761384687,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/9e70e5f"
-        },
-        {
-          "sha": "ebe2b12",
-          "message": "Settings: Add key generation for keybox spoofing [2/2]",
-          "author": "Abhay Singh Gill",
-          "date": "Sat Oct 25 15:16:26 2025 +0545",
-          "timestamp": 1761384686,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ebe2b12"
-        },
-        {
-          "sha": "f8f5e2c",
-          "message": "Settings: allow disable of screenshot shutter sound [2/2]",
-          "author": "maxwen",
-          "date": "Sat Oct 25 14:38:28 2025 +0545",
-          "timestamp": 1761382408,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f8f5e2c"
-        },
-        {
-          "sha": "251115d",
-          "message": "fixup! SoftAp: add Hidden SSID preference",
-          "author": "hridaya",
-          "date": "Sat Oct 25 14:35:21 2025 +0545",
-          "timestamp": 1761382221,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/251115d"
-        },
-        {
-          "sha": "75f83de",
-          "message": "fixup! Settings: Introduce new refresh rate selector page",
-          "author": "hridaya",
-          "date": "Sat Oct 25 14:35:21 2025 +0545",
-          "timestamp": 1761382221,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/75f83de"
-        },
-        {
-          "sha": "0b50d1f",
-          "message": "fixup! Settings: Add three-fingers-swipe to screenshot [2/2]",
-          "author": "hridaya",
-          "date": "Sat Oct 25 14:35:20 2025 +0545",
-          "timestamp": 1761382220,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/0b50d1f"
-        },
-        {
-          "sha": "8d311b4",
-          "message": "Settings: Append custom version on build display id",
-          "author": "jhenrique09",
-          "date": "Mon Oct 20 21:41:01 2025 +0545",
-          "timestamp": 1760975761,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/8d311b4"
-        },
-        {
-          "sha": "31c5222",
-          "message": "Settings: Abstract away app check list fragment",
-          "author": "Adithya R",
-          "date": "Wed Oct 15 21:39:12 2025 +0545",
-          "timestamp": 1760543652,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/31c5222"
-        },
-        {
-          "sha": "94a73f0",
-          "message": "Settings: Implement cutout force full screen [3/3]",
-          "author": "jhenrique09",
-          "date": "Wed Oct 15 21:38:43 2025 +0545",
-          "timestamp": 1760543623,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/94a73f0"
-        },
-        {
-          "sha": "9e70bf4",
-          "message": "Settings: Use ActionPrimaryButton style for face buttons",
-          "author": "Jyotiraditya Panda",
-          "date": "Wed Oct 15 15:26:01 2025 +0545",
-          "timestamp": 1760521261,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/9e70bf4"
-        },
-        {
-          "sha": "39316ab",
-          "message": "Settings: Add Face Unlock with ParanoidSense",
-          "author": "Chris Crump",
-          "date": "Wed Oct 15 15:26:01 2025 +0545",
-          "timestamp": 1760521261,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/39316ab"
-        },
-        {
-          "sha": "8b83389",
-          "message": "fixup! Settings: Add hotspot setting to allow VPN upstreams",
-          "author": "hridaya",
-          "date": "Wed Oct 15 15:26:01 2025 +0545",
-          "timestamp": 1760521261,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/8b83389"
-        },
-        {
-          "sha": "13cfb63",
-          "message": "Settings: Add option to launch statusbar tuner [2/2]",
-          "author": "Jyotiraditya",
-          "date": "Tue Oct 14 22:59:04 2025 +0545",
-          "timestamp": 1760462044,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/13cfb63"
-        },
-        {
-          "sha": "ba0d2b4",
-          "message": "Hide the \"Show the vibrate icon in the Status Bar\" setting",
-          "author": "Chirayu Desai",
-          "date": "Tue Oct 14 22:58:12 2025 +0545",
-          "timestamp": 1760461992,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ba0d2b4"
-        },
-        {
-          "sha": "f3d8c2d",
-          "message": "Settings: Add three-fingers-swipe to screenshot [2/2]",
-          "author": "ghbhaha",
-          "date": "Tue Oct 14 22:40:02 2025 +0545",
-          "timestamp": 1760460902,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f3d8c2d"
-        },
-        {
-          "sha": "ac3177e",
-          "message": "SoftAp: add client manager",
-          "author": "cjybyjk",
-          "date": "Tue Oct 14 22:38:57 2025 +0545",
-          "timestamp": 1760460837,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ac3177e"
-        },
-        {
-          "sha": "beba7ba",
-          "message": "Settings: add TextView for summary into SeekBarDialogPreference",
-          "author": "cjybyjk",
-          "date": "Tue Oct 14 22:38:57 2025 +0545",
-          "timestamp": 1760460837,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/beba7ba"
-        },
-        {
-          "sha": "c744913",
-          "message": "SoftAp: add Hidden SSID preference",
-          "author": "cjybyjk",
-          "date": "Tue Oct 14 22:38:50 2025 +0545",
-          "timestamp": 1760460830,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/c744913"
-        },
-        {
-          "sha": "b7b6013",
-          "message": "Settings: support black theme for dark mode [2/4]",
-          "author": "Jesse Chan",
-          "date": "Tue Oct 14 22:35:45 2025 +0545",
-          "timestamp": 1760460645,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/b7b6013"
-        },
-        {
-          "sha": "7b96cc3",
-          "message": "Settings: Pull screen off UDFPS toggle out",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 22:35:02 2025 +0545",
-          "timestamp": 1760460602,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/7b96cc3"
-        },
-        {
-          "sha": "0154534",
-          "message": "Settings: gestures: Improve screen-off udfps phrasing",
-          "author": "timocapa",
-          "date": "Tue Oct 14 22:34:54 2025 +0545",
-          "timestamp": 1760460594,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/0154534"
-        },
-        {
-          "sha": "7d26280",
-          "message": "Settings: gestures: Add page for Screen-Off UDFPS",
-          "author": "Cosmin Tanislav",
-          "date": "Tue Oct 14 22:33:46 2025 +0545",
-          "timestamp": 1760460526,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/7d26280"
-        },
-        {
-          "sha": "ef7054b",
-          "message": "Settings: Add toggle for 60Hz refresh rate on battery saver",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 22:32:33 2025 +0545",
-          "timestamp": 1760460453,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ef7054b"
-        },
-        {
-          "sha": "b781cb3",
-          "message": "Settings: Add QS tile for refresh rate indicator",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 22:32:03 2025 +0545",
-          "timestamp": 1760460423,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/b781cb3"
-        },
-        {
-          "sha": "3bec1c9",
-          "message": "Settings: Introduce new refresh rate selector page",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 22:31:57 2025 +0545",
-          "timestamp": 1760460417,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/3bec1c9"
-        },
-        {
-          "sha": "1f5a315",
-          "message": "Settings: Add double tap to sleep preference",
-          "author": "Rashed Abdel-Tawab",
-          "date": "Tue Oct 14 22:30:28 2025 +0545",
-          "timestamp": 1760460328,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/1f5a315"
-        },
-        {
-          "sha": "553862e",
-          "message": "Settings: Make Ambient Display toggle show on single tap sensor",
-          "author": "Cyber Knight",
-          "date": "Tue Oct 14 22:29:04 2025 +0545",
-          "timestamp": 1760460244,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/553862e"
-        },
-        {
-          "sha": "bd0f3fc",
-          "message": "Settings: Allow setting wake for notification separately from doze [2/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 22:29:04 2025 +0545",
-          "timestamp": 1760460244,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/bd0f3fc"
-        },
-        {
-          "sha": "1770602",
-          "message": "Settings: Allow showing Ambient instead of fully waking [2/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 22:29:00 2025 +0545",
-          "timestamp": 1760460240,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/1770602"
-        },
-        {
-          "sha": "7c7fab3",
-          "message": "Settings: Add missing icon for media output",
-          "author": "ReallySnow",
-          "date": "Tue Oct 14 22:28:28 2025 +0545",
-          "timestamp": 1760460208,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/7c7fab3"
-        },
-        {
-          "sha": "5425de2",
-          "message": "Settings: Add Private DNS icons",
-          "author": "penglezos",
-          "date": "Tue Oct 14 22:28:28 2025 +0545",
-          "timestamp": 1760460208,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/5425de2"
-        },
-        {
-          "sha": "6884033",
-          "message": "Settings: Add incall vibration options [3/3]",
-          "author": "beanstown106",
-          "date": "Tue Oct 14 22:27:26 2025 +0545",
-          "timestamp": 1760460146,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/6884033"
-        },
-        {
-          "sha": "64769f6",
-          "message": "Settings: Use List Preference for NightLight settings",
-          "author": "Akash",
-          "date": "Tue Oct 14 22:25:45 2025 +0545",
-          "timestamp": 1760460045,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/64769f6"
-        },
-        {
-          "sha": "61e699f",
-          "message": "Settings: Use List Preference for DarkMode",
-          "author": "Pranav Vashi",
-          "date": "Tue Oct 14 22:25:45 2025 +0545",
-          "timestamp": 1760460045,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/61e699f"
-        },
-        {
-          "sha": "1ec9c2b",
-          "message": "Settings: Re-organize sound settings page",
-          "author": "Karan Parashar",
-          "date": "Tue Oct 14 22:25:33 2025 +0545",
-          "timestamp": 1760460033,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/1ec9c2b"
-        },
-        {
-          "sha": "59f05ae",
-          "message": "Settings: Move window ignore secure to global settings",
-          "author": "someone5678",
-          "date": "Tue Oct 14 22:24:53 2025 +0545",
-          "timestamp": 1760459993,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/59f05ae"
-        },
-        {
-          "sha": "27cb85f",
-          "message": "Settings: Improve strings for window ignore secure feature",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 22:24:53 2025 +0545",
-          "timestamp": 1760459993,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/27cb85f"
-        },
-        {
-          "sha": "e69e45e",
-          "message": "Settings: Add window ignore secure feature [2/2]",
-          "author": "LibXZR",
-          "date": "Tue Oct 14 22:24:50 2025 +0545",
-          "timestamp": 1760459990,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/e69e45e"
-        },
-        {
-          "sha": "d48e456",
-          "message": "Settings: display: Add wake on plug switch",
-          "author": "Jon Evans",
-          "date": "Tue Oct 14 22:24:19 2025 +0545",
-          "timestamp": 1760459959,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/d48e456"
-        },
-        {
-          "sha": "5c593e8",
-          "message": "Settings: Add option to cycle through ringer modes [2/2]",
-          "author": "rituj",
-          "date": "Tue Oct 14 22:21:26 2025 +0545",
-          "timestamp": 1760459786,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/5c593e8"
-        },
-        {
-          "sha": "c72f768",
-          "message": "Settings: Forward Port Volume Long Press Skip Tracks [2/2]",
-          "author": "Chris Crump",
-          "date": "Tue Oct 14 22:19:42 2025 +0545",
-          "timestamp": 1760459682,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/c72f768"
-        },
-        {
-          "sha": "d5c31dd",
-          "message": "Settings: Long press power button to toggle flashlight [2/2]",
-          "author": "Chris Crump",
-          "date": "Tue Oct 14 22:19:18 2025 +0545",
-          "timestamp": 1760459658,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/d5c31dd"
-        },
-        {
-          "sha": "8c8b6f3",
-          "message": "Settings: Hide power menu on secure lockscreen [2/2]",
-          "author": "Altaf-Mahdi",
-          "date": "Tue Oct 14 22:17:19 2025 +0545",
-          "timestamp": 1760459539,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/8c8b6f3"
-        },
-        {
-          "sha": "4ceb736",
-          "message": "Settings: Add toggle for Smart 5G [2/2]",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 22:15:36 2025 +0545",
-          "timestamp": 1760459436,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4ceb736"
-        },
-        {
-          "sha": "dcdc2da",
-          "message": "Settings: Add option to scramble pin layout when unlocking (1/2).",
-          "author": "Adnan",
-          "date": "Tue Oct 14 22:13:51 2025 +0545",
-          "timestamp": 1760459331,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/dcdc2da"
-        },
-        {
-          "sha": "9556d68",
-          "message": "Settings: Add preference for one shot auto-brightness",
-          "author": "Cédric Bellegarde",
-          "date": "Tue Oct 14 22:12:32 2025 +0545",
-          "timestamp": 1760459252,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/9556d68"
-        },
-        {
-          "sha": "41d2608",
-          "message": "Settings: Display auto rotate settings instead of toggle",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 22:11:41 2025 +0545",
-          "timestamp": 1760459201,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/41d2608"
-        },
-        {
-          "sha": "15d52fc",
-          "message": "Settings: Configurable 0, 90, 180 and 270 degree rotation [2/2]",
-          "author": "kufikugel",
-          "date": "Tue Oct 14 22:11:13 2025 +0545",
-          "timestamp": 1760459173,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/15d52fc"
-        },
-        {
-          "sha": "87f02b6",
-          "message": "Settings: Forward port pattern visibility settings (2/2)",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 22:10:09 2025 +0545",
-          "timestamp": 1760459109,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/87f02b6"
-        },
-        {
-          "sha": "2e48404",
-          "message": "Settings: Forward port lock pattern grid size (2/2)",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 22:10:04 2025 +0545",
-          "timestamp": 1760459104,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/2e48404"
-        },
-        {
-          "sha": "9552e0c",
-          "message": "Biometrics: Pass halHandlesDisplayTouches to FingerprintSensorPropertiesInternal",
-          "author": "Bruno Martins",
-          "date": "Tue Oct 14 22:05:20 2025 +0545",
-          "timestamp": 1760458820,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/9552e0c"
-        },
-        {
-          "sha": "8d76ebe",
-          "message": "fingerprint: hide link icon when there's no link",
-          "author": "Timi Rautamäki",
-          "date": "Tue Oct 14 22:05:20 2025 +0545",
-          "timestamp": 1760458820,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/8d76ebe"
-        },
-        {
-          "sha": "262ee88",
-          "message": "Hide fingerprint settings help if URL is empty",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 22:05:20 2025 +0545",
-          "timestamp": 1760458820,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/262ee88"
-        },
-        {
-          "sha": "e69c374",
-          "message": "Settings: Show single-touch wakeup setting on rear & front fps devices",
-          "author": "Terminator-J",
-          "date": "Tue Oct 14 22:05:20 2025 +0545",
-          "timestamp": 1760458820,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/e69c374"
-        },
-        {
-          "sha": "30c747d",
-          "message": "Hide SFPS wakeup setting when it's not supported",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 22:05:19 2025 +0545",
-          "timestamp": 1760458819,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/30c747d"
-        },
-        {
-          "sha": "905a532",
-          "message": "fingerprint: Rework enrollment screen",
-          "author": "Bruno Martins",
-          "date": "Tue Oct 14 22:04:46 2025 +0545",
-          "timestamp": 1760458786,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/905a532"
-        },
-        {
-          "sha": "0c4c50e",
-          "message": "ChargingControl: Respect 24 hour locales in TimePicker",
-          "author": "Georg Veichtlbauer",
-          "date": "Tue Oct 14 21:33:46 2025 +0545",
-          "timestamp": 1760456926,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/0c4c50e"
-        },
-        {
-          "sha": "59a46cc",
-          "message": "Settings: Add charging control preferences",
-          "author": "Danny Trunk",
-          "date": "Tue Oct 14 21:33:46 2025 +0545",
-          "timestamp": 1760456926,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/59a46cc"
-        },
-        {
-          "sha": "ef7a486",
-          "message": "Settings: Display: Add High Touch Polling Rate Support",
-          "author": "Ramii Ahmed",
-          "date": "Tue Oct 14 21:33:46 2025 +0545",
-          "timestamp": 1760456926,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ef7a486"
-        },
-        {
-          "sha": "d6c34f0",
-          "message": "Settings: Add high touch sensitivity and touchscreen hovering toggles",
-          "author": "LuK1337",
-          "date": "Tue Oct 14 21:32:59 2025 +0545",
-          "timestamp": 1760456879,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/d6c34f0"
-        },
-        {
-          "sha": "606d0b9",
-          "message": "Settings: Changes for LiveDisplay",
-          "author": "jhenrique09",
-          "date": "Tue Oct 14 21:31:55 2025 +0545",
-          "timestamp": 1760456815,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/606d0b9"
-        },
-        {
-          "sha": "1c3755d",
-          "message": "Settings: Hide \"Mainline module version\" preference",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/1c3755d"
-        },
-        {
-          "sha": "df42032",
-          "message": "Remove the \"About phone\" avatar.",
-          "author": "Alex Cruz",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/df42032"
-        },
-        {
-          "sha": "ee6c6bf",
-          "message": "Settings: Hide|disable \"Phone number\" from About phone information",
-          "author": "kubersharma001",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ee6c6bf"
-        },
-        {
-          "sha": "1db4a84",
-          "message": "DevelopmentSettings: Disable automatic updates",
-          "author": "Henrique Silva",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/1db4a84"
-        },
-        {
-          "sha": "50d7080",
-          "message": "Remove the Automatic ota check option but be sure it's disabled",
-          "author": "ezio84",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/50d7080"
-        },
-        {
-          "sha": "af6b00a",
-          "message": "Settings: Remove divider from Battery Manager",
-          "author": "Akash Srivastava",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/af6b00a"
-        },
-        {
-          "sha": "5b7b837",
-          "message": "BatteryTip: Hide Learn more button if URL is empty",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/5b7b837"
-        },
-        {
-          "sha": "dea44fd",
-          "message": "Settings: Hide Flashlight",
-          "author": "Michael W",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/dea44fd"
-        },
-        {
-          "sha": "6bf0cc3",
-          "message": "Revert \"[Sim UI enhancement] remove the \"Tap to show info\"\"",
-          "author": "althafvly",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/6bf0cc3"
-        },
-        {
-          "sha": "12a98de",
-          "message": "Remove useless USB page header",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/12a98de"
-        },
-        {
-          "sha": "507f607",
-          "message": "get outer NFC preference to listen for changes",
-          "author": "inthewaves",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/507f607"
-        },
-        {
-          "sha": "2e5a212",
-          "message": "Fix inconsistent USB preference screen title",
-          "author": "Danny Lin",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/2e5a212"
-        },
-        {
-          "sha": "6835ea8",
-          "message": "Settings: Fix the failing strings",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/6835ea8"
-        },
-        {
-          "sha": "fb3ce5a",
-          "message": "BasebandVersionPreferenceController: Trim baseband if needed",
-          "author": "Bruno Martins",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/fb3ce5a"
-        },
-        {
-          "sha": "fe5b7c6",
-          "message": "Settings: Put device info header above \"Basic info\"",
-          "author": "LuK1337",
-          "date": "Tue Oct 14 20:56:51 2025 +0545",
-          "timestamp": 1760454711,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/fe5b7c6"
-        },
-        {
-          "sha": "4511ddf",
-          "message": "Settings: Add toggle for heads up notifications",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 20:56:13 2025 +0545",
-          "timestamp": 1760454673,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4511ddf"
-        },
-        {
-          "sha": "6859b96",
-          "message": "Settings: Expose radio info (*#*#4636#*#*)",
-          "author": "xyyx",
-          "date": "Tue Oct 14 20:55:57 2025 +0545",
-          "timestamp": 1760454657,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/6859b96"
-        },
-        {
-          "sha": "4f5aab9",
-          "message": "Settings: Long press to copy wifi password",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 20:55:52 2025 +0545",
-          "timestamp": 1760454652,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4f5aab9"
-        },
-        {
-          "sha": "6f384e6",
-          "message": "Settings: Set the default account provider to Google",
-          "author": "jhenrique09",
-          "date": "Tue Oct 14 20:55:46 2025 +0545",
-          "timestamp": 1760454646,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/6f384e6"
-        },
-        {
-          "sha": "dd4b346",
-          "message": "Partially revert \"[Settings] Start SettingsDumpService to dump the db log after the db is\"",
-          "author": "ExactExampl",
-          "date": "Tue Oct 14 20:55:40 2025 +0545",
-          "timestamp": 1760454640,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/dd4b346"
-        },
-        {
-          "sha": "cc67094",
-          "message": "Fix development color mode preference",
-          "author": "Alexander Martinz",
-          "date": "Tue Oct 14 20:55:33 2025 +0545",
-          "timestamp": 1760454633,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/cc67094"
-        },
-        {
-          "sha": "9fcbb03",
-          "message": "Settings: Make SIM toggle unchangable when not supported",
-          "author": "LuK1337",
-          "date": "Tue Oct 14 20:55:27 2025 +0545",
-          "timestamp": 1760454627,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/9fcbb03"
-        },
-        {
-          "sha": "596f556",
-          "message": "Settings: make sure Wifi exists before adding controllers",
-          "author": "Timi Rautamäki",
-          "date": "Tue Oct 14 20:55:22 2025 +0545",
-          "timestamp": 1760454622,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/596f556"
-        },
-        {
-          "sha": "ee462ce",
-          "message": "Don't reset A2DP offload when disabling developer settings",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 20:54:35 2025 +0545",
-          "timestamp": 1760454575,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ee462ce"
-        },
-        {
-          "sha": "c22ef8e",
-          "message": "One does not simply become a Developer",
-          "author": "Chirayu Desai",
-          "date": "Tue Oct 14 20:54:18 2025 +0545",
-          "timestamp": 1760454558,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/c22ef8e"
-        },
-        {
-          "sha": "c4d4709",
-          "message": "KeyboardSettings: Add a RemotePreference for device-specific panel",
-          "author": "Bruno Martins",
-          "date": "Tue Oct 14 20:53:33 2025 +0545",
-          "timestamp": 1760454513,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/c4d4709"
-        },
-        {
-          "sha": "4f8df3a",
-          "message": "Settings: Good news, `encryptable=footer` is broken",
-          "author": "Michael W",
-          "date": "Tue Oct 14 20:53:25 2025 +0545",
-          "timestamp": 1760454505,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4f8df3a"
-        },
-        {
-          "sha": "5d82037",
-          "message": "Hide unavailable battery info",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 20:50:09 2025 +0545",
-          "timestamp": 1760454309,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/5d82037"
-        },
-        {
-          "sha": "e53e6c0",
-          "message": "Make battery cycle count configurable and enable it by default",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 20:50:05 2025 +0545",
-          "timestamp": 1760454305,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/e53e6c0"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -4188,12 +2570,12 @@
       "commit_count": 15,
       "commits": [
         {
-          "sha": "015560e",
+          "sha": "cdfd58a",
           "message": "repopick: try fetching pixelos gerrit changes from GitHub first",
           "author": "inferno0230",
-          "date": "Wed Nov 26 16:22:06 2025 +0530",
-          "timestamp": 1764154326,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/015560e"
+          "date": "Wed Nov 26 14:41:01 2025 +0000",
+          "timestamp": 1764168061,
+          "url": "https://github.com/PixelOS-AOSP/android_vendor_custom/commit/cdfd58a"
         },
         {
           "sha": "359934b",
@@ -4423,119 +2805,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_build_soong",
-      "remote": "github",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "2a20dbef",
-          "message": "rust: config: Fix missing CPU variant LD flags in Rust",
-          "author": "Artem Karavashkin",
-          "date": "Sun Sep 14 16:55:03 2025 +0545",
-          "timestamp": 1757848203,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/2a20dbef"
-        },
-        {
-          "sha": "901fd9d0",
-          "message": "soong: terminal: Write progress into \"build_status.txt\"",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Sep 3 18:18:07 2025 +0545",
-          "timestamp": 1756902787,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/901fd9d0"
-        },
-        {
-          "sha": "e817cb40",
-          "message": "soong: Show only Build ID in \"Build number\" section",
-          "author": "beanstown106",
-          "date": "Wed Sep 3 18:17:41 2025 +0545",
-          "timestamp": 1756902761,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/e817cb40"
-        },
-        {
-          "sha": "f74dbc66",
-          "message": "androidmk_denylist: Load Android.mk allowlist from vendor/extra",
-          "author": "Yumi Yukimura",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/f74dbc66"
-        },
-        {
-          "sha": "ecb3a2f9",
-          "message": "androidmk_denylist: Allow external/mesa/android/Android.mk",
-          "author": "Yumi Yukimura",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/ecb3a2f9"
-        },
-        {
-          "sha": "e69f7b13",
-          "message": "Add ability to enable scudo-free 32-bit libc variant.",
-          "author": "Quallenauge",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/e69f7b13"
-        },
-        {
-          "sha": "a0ed4857",
-          "message": "soong: Update for custom version naming",
-          "author": "AdarshGrewal",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/a0ed4857"
-        },
-        {
-          "sha": "677d39df",
-          "message": "bin: Use custom vendor functions",
-          "author": "AdarshGrewal",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/677d39df"
-        },
-        {
-          "sha": "603334c5",
-          "message": "Revert \"Replace qti_kernel_headers with generated_kernel_headers\"",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/603334c5"
-        },
-        {
-          "sha": "4ae6a53b",
-          "message": "Rust: Use nehalem cpu-target when building with sandybridge arch variant",
-          "author": "hmtheboy154",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/4ae6a53b"
-        },
-        {
-          "sha": "5f4e0bb3",
-          "message": "soong: Treat vendor/lineage-priv/* as release-keys",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/5f4e0bb3"
-        },
-        {
-          "sha": "e83d89aa",
-          "message": "check_boot_jars: Whitelist lineage HALs",
-          "author": "Tim Zimmermann",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/e83d89aa"
-        },
-        {
-          "sha": "9553e611",
-          "message": "check_boot_jars: add more OnePlus packages to whitelist",
-          "author": "ShevT",
-          "date": "Sat Aug 30 16:15:50 2025 +0545",
-          "timestamp": 1756549850,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/9553e611"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "path": "hardware/qcom-caf/sm8750/audio/pal",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
@@ -4637,111 +2906,6 @@
           "date": "Mon Sep 1 00:41:54 2025 +0000",
           "timestamp": 1756687314,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/50fefef"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_frameworks_av",
-      "path": "frameworks/av",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_av",
-      "remote": "github",
-      "commit_count": 12,
-      "commits": [
-        {
-          "sha": "b74736e2",
-          "message": "StagefrightRecorder: Add \"set-title\" parameter",
-          "author": "cjh1249131356",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/b74736e2"
-        },
-        {
-          "sha": "065a4c42",
-          "message": "libcameraservice: Add support to set vendor tag with client package name",
-          "author": "cjh1249131356",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/065a4c42"
-        },
-        {
-          "sha": "4944617b",
-          "message": "CameraProviderExtension: add enabled bool and always set torch",
-          "author": "John Galt",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/4944617b"
-        },
-        {
-          "sha": "6f18d14e",
-          "message": "CameraProviderExtension: Use weak linkage for default implementations",
-          "author": "bengris32",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/6f18d14e"
-        },
-        {
-          "sha": "bef22e72",
-          "message": "CameraProviderExtension: Inject strength in fixupTorchStrengthTags",
-          "author": "bengris32",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/bef22e72"
-        },
-        {
-          "sha": "1ac3df6b",
-          "message": "CameraProviderExtension: Reset strength level on torch off",
-          "author": "bengris32",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/1ac3df6b"
-        },
-        {
-          "sha": "d9dd8025",
-          "message": "CameraProviderExtension: Update mTorchStrengthLevel with new level",
-          "author": "bengris32",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/d9dd8025"
-        },
-        {
-          "sha": "0de88127",
-          "message": "CameraProviderExtension: Return BAD_VALUE for invalid strength level",
-          "author": "bengris32",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/0de88127"
-        },
-        {
-          "sha": "7ecf7bc9",
-          "message": "camera: Add extension to control torch light strength",
-          "author": "Dhina17",
-          "date": "Sun Oct 12 09:45:52 2025 +0545",
-          "timestamp": 1760241652,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/7ecf7bc9"
-        },
-        {
-          "sha": "ab5fe56f",
-          "message": "AudioFlinger: more duplicating mixer fixes",
-          "author": "Eric Laurent",
-          "date": "Sat Oct 11 10:41:10 2025 +0545",
-          "timestamp": 1760158570,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/ab5fe56f"
-        },
-        {
-          "sha": "d72a60ab",
-          "message": "AudioFlinger: duplicating output underrun improvements",
-          "author": "Eric Laurent",
-          "date": "Sat Oct 11 10:41:10 2025 +0545",
-          "timestamp": 1760158570,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/d72a60ab"
-        },
-        {
-          "sha": "28434f32",
-          "message": "fixup! audioflinger: Do not allow DAP effect to be suspended",
-          "author": "Adithya R",
-          "date": "Sat Oct 11 10:40:53 2025 +0545",
-          "timestamp": 1760158553,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_av/commit/28434f32"
         }
       ]
     },
@@ -4940,103 +3104,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth",
-      "remote": "github",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "0015df9cc",
-          "message": "Merge branch 'android16-security-release' into sixteen",
-          "author": "hridaya",
-          "date": "Sat Oct 11 11:15:08 2025 +0545",
-          "timestamp": 1760160608,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/0015df9cc"
-        },
-        {
-          "sha": "9dc9e3de7",
-          "message": "Fix the parameter ordering of btm_send_hci_set_scan_params",
-          "author": "Ömer Faruk Yılmaz",
-          "date": "Sat Oct 11 10:33:34 2025 +0545",
-          "timestamp": 1760158114,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/9dc9e3de7"
-        },
-        {
-          "sha": "f4375eace",
-          "message": "Change Android Headtracker Codec ID to 0x0002",
-          "author": "Himanshu Rawat",
-          "date": "Sat Oct 11 10:33:34 2025 +0545",
-          "timestamp": 1760158114,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/f4375eace"
-        },
-        {
-          "sha": "864251cbf",
-          "message": "25Q3: Remove sdp_ccb_clean_up_after_l2cap_disc",
-          "author": "Jack He",
-          "date": "Sat Oct 11 10:33:34 2025 +0545",
-          "timestamp": 1760158114,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/864251cbf"
-        },
-        {
-          "sha": "c43fdbdf3",
-          "message": "SDP: Clean up CCBs when L2CAP disconnects",
-          "author": "Katherine Lai",
-          "date": "Sat Oct 11 10:33:34 2025 +0545",
-          "timestamp": 1760158114,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/c43fdbdf3"
-        },
-        {
-          "sha": "7a5374a10",
-          "message": "Add flag for cleaning up SDP CCBs when L2CAP disconnects",
-          "author": "Katherine Lai",
-          "date": "Sat Oct 11 10:33:34 2025 +0545",
-          "timestamp": 1760158114,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/7a5374a10"
-        },
-        {
-          "sha": "ca6a6b1df",
-          "message": "BondStateMachine: Check name for validity before access",
-          "author": "electimon",
-          "date": "Sat Aug 30 17:10:01 2025 +0545",
-          "timestamp": 1756553101,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/ca6a6b1df"
-        },
-        {
-          "sha": "d5281844d",
-          "message": "BondStateMachine: Allow skipping confirm for some remotes",
-          "author": "Aaron Kling",
-          "date": "Sat Aug 30 17:10:01 2025 +0545",
-          "timestamp": 1756553101,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/d5281844d"
-        },
-        {
-          "sha": "d6dfb4e31",
-          "message": "Add property to disable APCF extended features",
-          "author": "me-cafebabe",
-          "date": "Sat Aug 30 17:10:01 2025 +0545",
-          "timestamp": 1756553101,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/d6dfb4e31"
-        },
-        {
-          "sha": "205565601",
-          "message": "legacy: Split header for hci legacy definitions",
-          "author": "Christian Hoffmann",
-          "date": "Sat Aug 30 17:10:01 2025 +0545",
-          "timestamp": 1756553101,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/205565601"
-        },
-        {
-          "sha": "3b495c683",
-          "message": "bluetooth: abandon app local certificate",
-          "author": "Ji Luo",
-          "date": "Sat Aug 30 17:10:01 2025 +0545",
-          "timestamp": 1756553101,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/3b495c683"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8750",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -5211,95 +3278,6 @@
           "date": "Sat Aug 30 15:57:08 2025 +0200",
           "timestamp": 1756562228,
           "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/d6bcee1"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_build",
-      "path": "build/make",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_build",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "e71b1f7",
-          "message": "envsetup: Build OOT kernel during lunch if needed",
-          "author": "Michael Bestas",
-          "date": "Wed Nov 12 14:29:09 2025 +0545",
-          "timestamp": 1762937049,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/e71b1f7"
-        },
-        {
-          "sha": "4305f19",
-          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 18:58:27 2025 +0545",
-          "timestamp": 1760879607,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/4305f19"
-        },
-        {
-          "sha": "e34b40b",
-          "message": "build: Erase package_cache upon flashing",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Oct 18 14:02:10 2025 +0545",
-          "timestamp": 1760775430,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/e34b40b"
-        },
-        {
-          "sha": "4bee9a5",
-          "message": "config: Include our custom sepolicy Makefile",
-          "author": "hridaya",
-          "date": "Sun Oct 12 09:28:32 2025 +0545",
-          "timestamp": 1760240612,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/4bee9a5"
-        },
-        {
-          "sha": "150f471",
-          "message": "build: GSI: Fix syntax issue after \"Add a GSI overlay for the framework package\"",
-          "author": "Yumi Yukimura",
-          "date": "Sat Oct 11 10:43:46 2025 +0545",
-          "timestamp": 1760158726,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/150f471"
-        },
-        {
-          "sha": "99cdd3e",
-          "message": "build: Disable `aosp_system_image` soong target for lineage GSI",
-          "author": "Yumi Yukimura",
-          "date": "Sat Oct 11 10:43:46 2025 +0545",
-          "timestamp": 1760158726,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/99cdd3e"
-        },
-        {
-          "sha": "475a6d0",
-          "message": "build: Add `USE_SOONG_DEFINED_SYSTEM_IMAGE` to `_product_single_value_vars`",
-          "author": "Yumi Yukimura",
-          "date": "Sat Oct 11 10:43:46 2025 +0545",
-          "timestamp": 1760158726,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/475a6d0"
-        },
-        {
-          "sha": "21d6c6b",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Sat Oct 11 10:41:34 2025 +0545",
-          "timestamp": 1760158594,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/21d6c6b"
-        },
-        {
-          "sha": "4c1f8b3",
-          "message": "Revert \"core: Disable backuptools for custom builds\"",
-          "author": "AdarshGrewal",
-          "date": "Wed Oct 8 20:30:13 2025 +0530",
-          "timestamp": 1759935613,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/4c1f8b3"
-        },
-        {
-          "sha": "1a76e89",
-          "message": "envsetup: Source roomservice from vendor/custom",
-          "author": "inferno0230",
-          "date": "Sat Aug 30 16:52:41 2025 +0545",
-          "timestamp": 1756552061,
-          "url": "https://github.com/PixelOS-AOSP/android_build/commit/1a76e89"
         }
       ]
     },
@@ -5543,87 +3521,6 @@
           "date": "Fri Sep 12 10:57:31 2025 +0300",
           "timestamp": 1757663851,
           "url": "https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commit/fcef4ae"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony",
-      "remote": "github",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "a45ccb0b3",
-          "message": "Merge branch 'android16-security-release' into sixteen",
-          "author": "hridaya",
-          "date": "Sat Oct 11 11:14:57 2025 +0545",
-          "timestamp": 1760160597,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/a45ccb0b3"
-        },
-        {
-          "sha": "e6b9e21bd",
-          "message": "satellite data service policy fixes",
-          "author": "Nagendra Prasad Nagarle Basavaraju",
-          "date": "Sat Oct 11 10:36:16 2025 +0545",
-          "timestamp": 1760158276,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/e6b9e21bd"
-        },
-        {
-          "sha": "fd48f6915",
-          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
-          "author": "Aishwarya Mallampati",
-          "date": "Sat Oct 11 10:36:16 2025 +0545",
-          "timestamp": 1760158276,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/fd48f6915"
-        },
-        {
-          "sha": "b65fbf652",
-          "message": "Conditionally revert \"Block Binder thread until incoming call process completes\"",
-          "author": "ExactExampl",
-          "date": "Sat Oct 11 10:36:01 2025 +0545",
-          "timestamp": 1760158261,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/b65fbf652"
-        },
-        {
-          "sha": "0ebf4492e",
-          "message": "PhoneSwitcher: Skip state check guard for HAL_COMMAND_ALLOW_DATA users",
-          "author": "LuK1337",
-          "date": "Sat Oct 11 10:36:01 2025 +0545",
-          "timestamp": 1760158261,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/0ebf4492e"
-        },
-        {
-          "sha": "8fef73486",
-          "message": "PhoneSwitcher: Fallback to HAL_COMMAND_ALLOW_DATA when DDS switch fails",
-          "author": "LuK1337",
-          "date": "Sat Oct 11 10:36:01 2025 +0545",
-          "timestamp": 1760158261,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/8fef73486"
-        },
-        {
-          "sha": "13517026f",
-          "message": "RadioMessagingProxy: Fix sending CDMA IMS SMS",
-          "author": "Paul Keith",
-          "date": "Sat Oct 11 10:36:01 2025 +0545",
-          "timestamp": 1760158261,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/13517026f"
-        },
-        {
-          "sha": "bcdc4cc28",
-          "message": "Update external card state based on current app",
-          "author": "Wileen Chiu",
-          "date": "Sat Oct 11 10:36:01 2025 +0545",
-          "timestamp": 1760158261,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/bcdc4cc28"
-        },
-        {
-          "sha": "d123da981",
-          "message": "telephony: Make \"Do not ask again\" functional",
-          "author": "Michael W",
-          "date": "Sat Oct 11 10:36:01 2025 +0545",
-          "timestamp": 1760158261,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/d123da981"
         }
       ]
     },
@@ -6237,71 +4134,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_external_gptfdisk",
-      "path": "external/gptfdisk",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_gptfdisk",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "1127c51",
-          "message": "gptfdisk: Make libgptf available to product/vendor",
-          "author": "Aaron Kling",
-          "date": "Sat Aug 30 15:08:41 2025 +0545",
-          "timestamp": 1756545821,
-          "url": "https://github.com/PixelOS-AOSP/android_external_gptfdisk/commit/1127c51"
-        },
-        {
-          "sha": "ce479f1",
-          "message": "gptfdisk: Make libgptf visible to Nvidia bootctrl",
-          "author": "Aaron Kling",
-          "date": "Sat Aug 30 15:08:41 2025 +0545",
-          "timestamp": 1756545821,
-          "url": "https://github.com/PixelOS-AOSP/android_external_gptfdisk/commit/ce479f1"
-        },
-        {
-          "sha": "8178bb2",
-          "message": "gptfdisk: Make libsgdisk visible to libvolume_manager",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 15:08:41 2025 +0545",
-          "timestamp": 1756545821,
-          "url": "https://github.com/PixelOS-AOSP/android_external_gptfdisk/commit/8178bb2"
-        },
-        {
-          "sha": "3b1cd11",
-          "message": "sgdisk: Make sgdisk recovery_available",
-          "author": "Nolen Johnson",
-          "date": "Sat Aug 30 15:08:41 2025 +0545",
-          "timestamp": 1756545821,
-          "url": "https://github.com/PixelOS-AOSP/android_external_gptfdisk/commit/3b1cd11"
-        },
-        {
-          "sha": "272cbc6",
-          "message": "gptfdisk: include gptcl.h after sgdisk.h",
-          "author": "Tom Marshall",
-          "date": "Sat Aug 30 15:08:41 2025 +0545",
-          "timestamp": 1756545821,
-          "url": "https://github.com/PixelOS-AOSP/android_external_gptfdisk/commit/272cbc6"
-        },
-        {
-          "sha": "a9e2d0d",
-          "message": "gptfdisk: Provide sgdisk_read for direct reads of the partition table",
-          "author": "Tom Marshall",
-          "date": "Sat Aug 30 15:08:41 2025 +0545",
-          "timestamp": 1756545821,
-          "url": "https://github.com/PixelOS-AOSP/android_external_gptfdisk/commit/a9e2d0d"
-        },
-        {
-          "sha": "e19c72a",
-          "message": "gptfdisk: Build lib for recovery",
-          "author": "Tom Marshall",
-          "date": "Sat Aug 30 15:08:41 2025 +0545",
-          "timestamp": 1756545821,
-          "url": "https://github.com/PixelOS-AOSP/android_external_gptfdisk/commit/e19c72a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_lineage_sepolicy",
       "path": "device/lineage/sepolicy",
       "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
@@ -6412,63 +4244,6 @@
           "date": "Tue Sep 2 11:11:55 2025 +0300",
           "timestamp": 1756800715,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/090308b"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_system_core",
-      "path": "system/core",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_system_core",
-      "remote": "github",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "fb27c77",
-          "message": "libprocessgroup: Mount cpuset v1 with cpuset_v2_mode",
-          "author": "T.J. Mercier",
-          "date": "Thu Oct 2 09:58:27 2025 +0545",
-          "timestamp": 1759378407,
-          "url": "https://github.com/PixelOS-AOSP/android_system_core/commit/fb27c77"
-        },
-        {
-          "sha": "69e534d",
-          "message": "fs_mgr: Remove bootloader restrictions for adb remount",
-          "author": "Vishalcj17",
-          "date": "Wed Sep 3 19:26:08 2025 +0545",
-          "timestamp": 1756906868,
-          "url": "https://github.com/PixelOS-AOSP/android_system_core/commit/69e534d"
-        },
-        {
-          "sha": "9418716",
-          "message": "init: Spoof build type property to user",
-          "author": "Adithya R",
-          "date": "Wed Sep 3 19:26:08 2025 +0545",
-          "timestamp": 1756906868,
-          "url": "https://github.com/PixelOS-AOSP/android_system_core/commit/9418716"
-        },
-        {
-          "sha": "389ff48",
-          "message": "init: Also override ro.boot.warranty_bit",
-          "author": "Tim Zimmermann",
-          "date": "Wed Sep 3 19:26:08 2025 +0545",
-          "timestamp": 1756906868,
-          "url": "https://github.com/PixelOS-AOSP/android_system_core/commit/389ff48"
-        },
-        {
-          "sha": "1ba2e75",
-          "message": "init: set build_tags to release-keys",
-          "author": "Omkar Chandorkar",
-          "date": "Wed Sep 3 19:26:08 2025 +0545",
-          "timestamp": 1756906868,
-          "url": "https://github.com/PixelOS-AOSP/android_system_core/commit/1ba2e75"
-        },
-        {
-          "sha": "00b40e8",
-          "message": "init: Set properties to make SafetyNet pass",
-          "author": "Danny Lin",
-          "date": "Wed Sep 3 19:26:08 2025 +0545",
-          "timestamp": 1756906868,
-          "url": "https://github.com/PixelOS-AOSP/android_system_core/commit/00b40e8"
         }
       ]
     },
@@ -6718,104 +4493,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_bootable_recovery",
-      "path": "bootable/recovery",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_bootable_recovery",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "ec0a237",
-          "message": "fixup! recovery: Get a proper shell environment in recovery",
-          "author": "LuK1337",
-          "date": "Wed Nov 12 14:28:26 2025 +0545",
-          "timestamp": 1762937006,
-          "url": "https://github.com/PixelOS-AOSP/android_bootable_recovery/commit/ec0a237"
-        },
-        {
-          "sha": "801a770",
-          "message": "recovery: Mount block map path before checking whether it is canonical",
-          "author": "danielml",
-          "date": "Sat Oct 11 09:36:24 2025 +0545",
-          "timestamp": 1760154684,
-          "url": "https://github.com/PixelOS-AOSP/android_bootable_recovery/commit/801a770"
-        },
-        {
-          "sha": "973565c",
-          "message": "Revert \"Check filepath inside block map file as well\"",
-          "author": "Ido Ben-Hur",
-          "date": "Sat Oct 11 09:36:24 2025 +0545",
-          "timestamp": 1760154684,
-          "url": "https://github.com/PixelOS-AOSP/android_bootable_recovery/commit/973565c"
-        },
-        {
-          "sha": "68dc231",
-          "message": "recovery: Make OTA safety check A/B package only",
-          "author": "LuK1337",
-          "date": "Sat Oct 11 09:36:24 2025 +0545",
-          "timestamp": 1760154684,
-          "url": "https://github.com/PixelOS-AOSP/android_bootable_recovery/commit/68dc231"
-        },
-        {
-          "sha": "2dccc94",
-          "message": "recovery: Extend A/B downgrades for older SPL",
-          "author": "pjgowtham",
-          "date": "Sat Oct 11 09:36:24 2025 +0545",
-          "timestamp": 1760154684,
-          "url": "https://github.com/PixelOS-AOSP/android_bootable_recovery/commit/2dccc94"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_packages_modules_Wifi",
-      "path": "packages/modules/Wifi",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Wifi",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "57e6e7dfb",
-          "message": "Wifi: Ingore miracast scan from connectivity manager",
-          "author": "Xin Deng",
-          "date": "Tue Oct 14 14:11:11 2025 +0545",
-          "timestamp": 1760430371,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Wifi/commit/57e6e7dfb"
-        },
-        {
-          "sha": "4172777d1",
-          "message": "Merge branch 'android16-security-release' into sixteen",
-          "author": "hridaya",
-          "date": "Sat Oct 11 11:15:11 2025 +0545",
-          "timestamp": 1760160611,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Wifi/commit/4172777d1"
-        },
-        {
-          "sha": "60a628b88",
-          "message": "Log caller UID for wifi toggle metrics",
-          "author": "Oscar Shu",
-          "date": "Sat Oct 11 10:25:37 2025 +0545",
-          "timestamp": 1760157637,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Wifi/commit/60a628b88"
-        },
-        {
-          "sha": "9bc5f8202",
-          "message": "Set minimum connect choice RSSI",
-          "author": "Oscar Shu",
-          "date": "Sat Oct 11 10:25:37 2025 +0545",
-          "timestamp": 1760157637,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Wifi/commit/9bc5f8202"
-        },
-        {
-          "sha": "d7e2ba6d3",
-          "message": "Enable support for Continuous Nan Ranging",
-          "author": "Shreyat Pandey",
-          "date": "Sat Oct 11 10:25:37 2025 +0545",
-          "timestamp": 1760157637,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Wifi/commit/d7e2ba6d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
@@ -6980,43 +4657,43 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_modules_Permission",
-      "path": "packages/modules/Permission",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Permission",
-      "remote": "github",
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_gms",
+      "path": "vendor/pixel/gms",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms",
+      "remote": "gitlab",
       "commit_count": 4,
       "commits": [
         {
-          "sha": "9a17a4546",
-          "message": "Merge branch 'android16-security-release' into sixteen",
-          "author": "hridaya",
-          "date": "Sat Oct 11 11:15:10 2025 +0545",
-          "timestamp": 1760160610,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Permission/commit/9a17a4546"
+          "sha": "a2bf1e0",
+          "message": "gms: Set settingsintelligence package to google's",
+          "author": "AdarshGrewal",
+          "date": "Mon Nov 24 15:09:54 2025 +0530",
+          "timestamp": 1763977194,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms/commit/a2bf1e0"
         },
         {
-          "sha": "52e7bac09",
-          "message": "SafetyCenter: Declare Advanced Protection related safety sources",
-          "author": "ralph950412",
-          "date": "Wed Sep 3 19:21:58 2025 +0545",
-          "timestamp": 1756906618,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Permission/commit/52e7bac09"
+          "sha": "b225e79",
+          "message": "gms: Update from caiman-ota-bp3a.251105.015",
+          "author": "AdarshGrewal",
+          "date": "Mon Nov 24 15:09:53 2025 +0530",
+          "timestamp": 1763977193,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms/commit/b225e79"
         },
         {
-          "sha": "6468f6669",
-          "message": "permissions: check verity before using",
-          "author": "Thomas Makin",
-          "date": "Wed Sep 3 19:21:41 2025 +0545",
-          "timestamp": 1756906601,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Permission/commit/6468f6669"
+          "sha": "7ff831f",
+          "message": "gms: Bring back contextual search",
+          "author": "AdarshGrewal",
+          "date": "Fri Oct 24 22:21:02 2025 +0530",
+          "timestamp": 1761324662,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms/commit/7ff831f"
         },
         {
-          "sha": "50acab104",
-          "message": "PermissionController: Enable usage timeline for all permission groups",
-          "author": "Danny Lin",
-          "date": "Wed Sep 3 19:21:35 2025 +0545",
-          "timestamp": 1756906595,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Permission/commit/50acab104"
+          "sha": "a5078fe",
+          "message": "gms: Guard inclusion of aicore",
+          "author": "AdarshGrewal",
+          "date": "Fri Oct 24 21:45:46 2025 +0530",
+          "timestamp": 1761322546,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms/commit/a5078fe"
         }
       ]
     },
@@ -7153,72 +4830,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_frameworks_native",
-      "path": "frameworks/native",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_native",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "8bf7e82bd",
-          "message": "Merge branch 'android16-security-release' into sixteen",
-          "author": "hridaya",
-          "date": "Sat Oct 11 11:14:56 2025 +0545",
-          "timestamp": 1760160596,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/8bf7e82bd"
-        },
-        {
-          "sha": "07088f3b8",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Sat Oct 11 10:37:22 2025 +0545",
-          "timestamp": 1760158342,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/07088f3b8"
-        },
-        {
-          "sha": "7afb5f7ec",
-          "message": "Turn off synthetic VSYNC when adjusting thread scheduling for performance",
-          "author": "Dennis Kiilerich",
-          "date": "Sat Oct 11 10:37:22 2025 +0545",
-          "timestamp": 1760158342,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/7afb5f7ec"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_interfaces",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "56675704",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Mon Nov 17 18:23:29 2025 +0530",
-          "timestamp": 1763384009,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_interfaces/commit/56675704"
-        },
-        {
-          "sha": "8c6998a0",
-          "message": "libradiocompat: Deprecate getDeviceIdentity and use getImei instead",
-          "author": "Luofan Chen",
-          "date": "Sat Nov 1 00:13:03 2025 +0800",
-          "timestamp": 1761927183,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_interfaces/commit/8c6998a0"
-        },
-        {
-          "sha": "8b8d6fd9",
-          "message": "Bluetooth HAL: fix suspend behavior",
-          "author": "Eric Laurent",
-          "date": "Sat Oct 11 10:35:00 2025 +0545",
-          "timestamp": 1760158200,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_interfaces/commit/8b8d6fd9"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_kernel_configs",
       "path": "kernel/configs",
       "repo_url": "https://github.com/PixelOS-AOSP/android_kernel_configs",
@@ -7285,39 +4896,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_modules_Connectivity",
-      "path": "packages/modules/Connectivity",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Connectivity",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "51661d445",
-          "message": "Remove pending BT request when service disconnects",
-          "author": "Quang Anh Luong",
-          "date": "Sat Oct 11 10:32:04 2025 +0545",
-          "timestamp": 1760158024,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Connectivity/commit/51661d445"
-        },
-        {
-          "sha": "9b5c9f3a8",
-          "message": "clatd: disable seccomp",
-          "author": "Maciej Żenczykowski",
-          "date": "Sat Oct 11 10:32:04 2025 +0545",
-          "timestamp": 1760158024,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Connectivity/commit/9b5c9f3a8"
-        },
-        {
-          "sha": "4db2fef32",
-          "message": "Fix NetworkAgent 4-way binder interlock",
-          "author": "Chalard Jean",
-          "date": "Sat Oct 11 10:32:04 2025 +0545",
-          "timestamp": 1760158024,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Connectivity/commit/4db2fef32"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio",
       "path": "hardware/qcom/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -7343,31 +4921,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8650/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "lineageos",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "0929a3b",
-          "message": "hal: Add LVACFS microphone feature",
-          "author": "pjgowtham",
-          "date": "Sun Aug 31 22:30:47 2025 +0000",
-          "timestamp": 1756679447,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0929a3b"
-        },
-        {
-          "sha": "6356dc6",
-          "message": "hal: include libagmclient_headers",
-          "author": "Cosmin Tanislav",
-          "date": "Sat Aug 30 12:42:16 2025 +0000",
-          "timestamp": 1756557736,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/6356dc6"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio",
       "path": "hardware/qcom-caf/sm8350/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -7389,6 +4942,31 @@
           "date": "Wed Sep 24 02:08:29 2025 -0700",
           "timestamp": 1758704909,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/52aa6a1"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8650/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "lineageos",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "0929a3b",
+          "message": "hal: Add LVACFS microphone feature",
+          "author": "pjgowtham",
+          "date": "Sun Aug 31 22:30:47 2025 +0000",
+          "timestamp": 1756679447,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0929a3b"
+        },
+        {
+          "sha": "6356dc6",
+          "message": "hal: include libagmclient_headers",
+          "author": "Cosmin Tanislav",
+          "date": "Sat Aug 30 12:42:16 2025 +0000",
+          "timestamp": 1756557736,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/6356dc6"
         }
       ]
     },
@@ -7543,177 +5121,27 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_external_avb",
-      "path": "external/avb",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_avb",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "cf49e3e",
-          "message": "avbtool: Add retry to generate_fec_data()",
-          "author": "LuK1337",
-          "date": "Sun Sep 14 16:35:49 2025 +0545",
-          "timestamp": 1757847049,
-          "url": "https://github.com/PixelOS-AOSP/android_external_avb/commit/cf49e3e"
-        },
-        {
-          "sha": "a2f3ba1",
-          "message": "Add ANDROID_SECURE_STORAGE_CMD support in RSAPublicKey()",
-          "author": "LuK1337",
-          "date": "Sun Sep 14 16:35:49 2025 +0545",
-          "timestamp": 1757847049,
-          "url": "https://github.com/PixelOS-AOSP/android_external_avb/commit/a2f3ba1"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_external_tinycompress",
-      "path": "external/tinycompress",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_tinycompress",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "04a54ac",
-          "message": "tinycompress: Add conditional compilation check for compress param",
-          "author": "George Gao",
-          "date": "Sat Sep 13 00:14:39 2025 +0545",
-          "timestamp": 1757701779,
-          "url": "https://github.com/PixelOS-AOSP/android_external_tinycompress/commit/04a54ac"
-        },
-        {
-          "sha": "0f959ad",
-          "message": "tinycompress: Conditionally enable extended compress format",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 13 00:14:39 2025 +0545",
-          "timestamp": 1757701779,
-          "url": "https://github.com/PixelOS-AOSP/android_external_tinycompress/commit/0f959ad"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_hardware_libhardware",
-      "path": "hardware/libhardware",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_hardware_libhardware",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "d6ca532",
-          "message": "libhardware: Add new display types.",
-          "author": "Dileep Marchya",
-          "date": "Wed Nov 19 15:12:17 2025 +0530",
-          "timestamp": 1763545337,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_libhardware/commit/d6ca532"
-        },
-        {
-          "sha": "cb6c837",
-          "message": "Avoid log fatal when converting between pcm_format and audio_format_t.",
-          "author": "jiabin",
-          "date": "Sat Oct 11 10:34:43 2025 +0545",
-          "timestamp": 1760158183,
-          "url": "https://github.com/PixelOS-AOSP/android_hardware_libhardware/commit/cb6c837"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_packages_services_Telecomm",
-      "path": "packages/services/Telecomm",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_services_Telecomm",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "63283173",
-          "message": "Incall vibration options[2/3]",
-          "author": "beanstown106",
-          "date": "Sun Oct 12 09:42:05 2025 +0545",
-          "timestamp": 1760241425,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telecomm/commit/63283173"
-        },
-        {
-          "sha": "2086f435",
-          "message": "Prevent infinite SPEAKER_OFF looping",
-          "author": "Pranav Madapurmath",
-          "date": "Sat Oct 11 10:25:03 2025 +0545",
-          "timestamp": 1760157603,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telecomm/commit/2086f435"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_system_media",
-      "path": "system/media",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_system_media",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "05477ca",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Mon Nov 17 18:21:32 2025 +0530",
-          "timestamp": 1763383892,
-          "url": "https://github.com/PixelOS-AOSP/android_system_media/commit/05477ca"
-        },
-        {
-          "sha": "b2ce25d",
-          "message": "media: update path for vendor specific config files",
-          "author": "Banajit Goswami",
-          "date": "Mon Oct 13 12:38:25 2025 +0545",
-          "timestamp": 1760338405,
-          "url": "https://github.com/PixelOS-AOSP/android_system_media/commit/b2ce25d"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_system_sepolicy",
-      "path": "system/sepolicy",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_system_sepolicy",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "a712af27",
-          "message": "Add telephony property `ro.telephony.sim_slots.count` into sepolicy.",
-          "author": "Sandeep Jawalkar",
-          "date": "Mon Oct 13 08:51:51 2025 +0545",
-          "timestamp": 1760324811,
-          "url": "https://github.com/PixelOS-AOSP/android_system_sepolicy/commit/a712af27"
-        },
-        {
-          "sha": "024f4d85",
-          "message": "sepolicy: Fixing compilation error with isolated_compute type.",
-          "author": "Karthik Rathlavath",
-          "date": "Mon Oct 13 08:51:51 2025 +0545",
-          "timestamp": 1760324811,
-          "url": "https://github.com/PixelOS-AOSP/android_system_sepolicy/commit/024f4d85"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/proprietary_vendor_pixel_gms",
-      "path": "vendor/pixel/gms",
-      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms",
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_gsans",
+      "path": "vendor/pixel/gsans",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gsans",
       "remote": "gitlab",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "7ff831f",
-          "message": "gms: Bring back contextual search",
+          "sha": "50cf9ff",
+          "message": "gsans: Update from caiman-ota-bp3a.251105.015",
           "author": "AdarshGrewal",
-          "date": "Fri Oct 24 22:21:02 2025 +0530",
-          "timestamp": 1761324662,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms/commit/7ff831f"
+          "date": "Mon Nov 24 14:40:43 2025 +0530",
+          "timestamp": 1763975443,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gsans/commit/50cf9ff"
         },
         {
-          "sha": "a5078fe",
-          "message": "gms: Guard inclusion of aicore",
+          "sha": "caece0a",
+          "message": "gsans: Move font config out of rro",
           "author": "AdarshGrewal",
-          "date": "Fri Oct 24 21:45:46 2025 +0530",
-          "timestamp": 1761322546,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms/commit/a5078fe"
+          "date": "Fri Oct 17 20:44:49 2025 +0530",
+          "timestamp": 1760714089,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gsans/commit/caece0a"
         }
       ]
     },
@@ -7855,23 +5283,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/sdm660/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "lineageos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "2098857",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 18:28:57 2025 +0000",
-          "timestamp": 1757269737,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/2098857"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
       "path": "hardware/qcom-caf/sdm845/media",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
       "remote": "lineageos",
@@ -7884,6 +5295,23 @@
           "date": "Sun Sep 7 23:04:11 2025 +0000",
           "timestamp": 1757286251,
           "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_media",
+      "path": "hardware/qcom-caf/sdm660/media",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "2098857",
+          "message": "Fix alignment of encoder_meta_buffer_payload_type",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 7 18:28:57 2025 +0000",
+          "timestamp": 1757269737,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/2098857"
         }
       ]
     },
@@ -7973,23 +5401,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
-      "path": "vendor/qcom/opensource/healthd-ext",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext",
-      "remote": "lineageos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "bc2932b",
-          "message": "healthd-ext: update to health AIDL version 4",
-          "author": "Fenglin Wu",
-          "date": "Tue Sep 16 18:34:34 2025 -0400",
-          "timestamp": 1758062074,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext/commit/bc2932b"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_fm-commonsys",
       "path": "vendor/qcom/opensource/commonsys/fm",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
@@ -8003,6 +5414,23 @@
           "date": "Wed Sep 24 20:07:04 2025 +0000",
           "timestamp": 1758744424,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/635a303"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
+      "path": "vendor/qcom/opensource/healthd-ext",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "bc2932b",
+          "message": "healthd-ext: update to health AIDL version 4",
+          "author": "Fenglin Wu",
+          "date": "Tue Sep 16 18:34:34 2025 -0400",
+          "timestamp": 1758062074,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext/commit/bc2932b"
         }
       ]
     },
@@ -8024,159 +5452,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_external_bouncycastle",
-      "path": "external/bouncycastle",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_bouncycastle",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "58d57ae",
-          "message": "bouncycastle: Add EC/ECDSA provider to get our keybox spoofing working",
-          "author": "Abhay Singh Gill",
-          "date": "Mon Oct 20 21:40:23 2025 +0545",
-          "timestamp": 1760975723,
-          "url": "https://github.com/PixelOS-AOSP/android_external_bouncycastle/commit/58d57ae"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_development",
-      "path": "development",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_development",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "2865a851",
-          "message": "make-key: Enforce PBEv1 password-protected signing keys",
-          "author": "Vasyl Gello",
-          "date": "Sun Sep 14 16:40:28 2025 +0545",
-          "timestamp": 1757847328,
-          "url": "https://github.com/PixelOS-AOSP/android_development/commit/2865a851"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_frameworks_proto_logging",
-      "path": "frameworks/proto_logging",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_proto_logging",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3991718e",
-          "message": "Log UID in wifi toggle metrics",
-          "author": "Oscar Shu",
-          "date": "Sat Oct 11 10:35:16 2025 +0545",
-          "timestamp": 1760158216,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_proto_logging/commit/3991718e"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_packages_apps_Stk",
-      "path": "packages/apps/Stk",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_Stk",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "84a386d",
-          "message": "Fxied edge-to-edge UX support for StkLauncherActivity.",
-          "author": "arunvoddu",
-          "date": "Sat Oct 11 10:32:39 2025 +0545",
-          "timestamp": 1760158059,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Stk/commit/84a386d"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_packages_modules_UprobeStats",
-      "path": "packages/modules/UprobeStats",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_UprobeStats",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "31c9f4b",
-          "message": "bpf: Allow overriding kernel version",
-          "author": "Michael Bestas",
-          "date": "Thu Sep 11 16:14:39 2025 +0545",
-          "timestamp": 1757586579,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_UprobeStats/commit/31c9f4b"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_packages_modules_adb",
-      "path": "packages/modules/adb",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_adb",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "026a12a",
-          "message": "adb: Always report as debuggable when building userdebug/eng",
-          "author": "Michael Bestas",
-          "date": "Tue Oct 14 09:16:27 2025 +0545",
-          "timestamp": 1760412687,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_modules_adb/commit/026a12a"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_system_apex",
-      "path": "system/apex",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_system_apex",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c4e47e3",
-          "message": "apexd: loosen no-overlap check on install",
-          "author": "Jooyung Han",
-          "date": "Sat Oct 11 09:40:07 2025 +0545",
-          "timestamp": 1760154907,
-          "url": "https://github.com/PixelOS-AOSP/android_system_apex/commit/c4e47e3"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0121428f9",
-          "message": "Merge branch 'android16-security-release' into sixteen",
-          "author": "hridaya",
-          "date": "Sat Oct 11 11:15:16 2025 +0545",
-          "timestamp": 1760160616,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/0121428f9"
-        }
-      ]
-    },
-    {
-      "name": "PixelOS-AOSP/android_system_security",
-      "path": "system/security",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_system_security",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "26e3e11",
-          "message": "Handle key parameter conversion for FBE_ICE tag",
-          "author": "Phanindra Babu Pabba",
-          "date": "Wed Oct 8 19:32:44 2025 +0530",
-          "timestamp": 1759932164,
-          "url": "https://github.com/PixelOS-AOSP/android_system_security/commit/26e3e11"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_vendor_custom-preference",
       "path": "vendor/custom-preference",
       "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_custom-preference",
@@ -8194,19 +5469,70 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/proprietary_vendor_pixel_gsans",
-      "path": "vendor/pixel/gsans",
-      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gsans",
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_clocks",
+      "path": "vendor/pixel/clocks",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks",
       "remote": "gitlab",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "caece0a",
-          "message": "gsans: Move font config out of rro",
+          "sha": "ab059f9",
+          "message": "clocks: Update from caiman-ota-bp3a.251105.015",
           "author": "AdarshGrewal",
-          "date": "Fri Oct 17 20:44:49 2025 +0530",
-          "timestamp": 1760714089,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gsans/commit/caece0a"
+          "date": "Mon Nov 24 14:07:33 2025 +0530",
+          "timestamp": 1763973453,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks/commit/ab059f9"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_launcher",
+      "path": "vendor/pixel/launcher",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_launcher",
+      "remote": "gitlab",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f060317",
+          "message": "launcher: Update from caiman-ota-bp2a.250705.008 and tangorpro-ota-bp3a.251105.013",
+          "author": "AdarshGrewal",
+          "date": "Mon Nov 24 14:44:36 2025 +0530",
+          "timestamp": 1763975676,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_launcher/commit/f060317"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_sounds",
+      "path": "vendor/pixel/sounds",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_sounds",
+      "remote": "gitlab",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "951cd3a",
+          "message": "sounds: Update from caiman-ota-bp3a.251105.015",
+          "author": "AdarshGrewal",
+          "date": "Mon Nov 24 14:40:18 2025 +0530",
+          "timestamp": 1763975418,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_sounds/commit/951cd3a"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_themepicker",
+      "path": "vendor/pixel/themepicker",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_themepicker",
+      "remote": "gitlab",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "6b38562",
+          "message": "themepicker: Update from caiman-ota-bp2a.250705.008 and tangorpro-ota-bp3a.251105.013",
+          "author": "AdarshGrewal",
+          "date": "Mon Nov 24 14:45:04 2025 +0530",
+          "timestamp": 1763975704,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_themepicker/commit/6b38562"
         }
       ]
     }

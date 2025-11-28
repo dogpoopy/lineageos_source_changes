@@ -1,10 +1,10 @@
 {
   "rom_id": "crdroid",
   "branch": "15.0",
-  "generated_at": "2025-11-28T06:41:45.908184+00:00",
+  "generated_at": "2025-11-28T11:40:54.872998+00:00",
   "since_date": "2025-08-30",
   "total_projects": 93,
-  "total_commits": 974,
+  "total_commits": 973,
   "projects": [
     {
       "name": "crdroidandroid/android_packages_apps_Settings",
@@ -7074,55 +7074,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_packages_apps_Dialer",
-      "path": "packages/apps/Dialer",
-      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_Dialer",
-      "remote": "crdroid",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "06252fc8",
-          "message": "Merge 'lineage-22.2' into 15.0",
-          "author": "Pranav Vashi",
-          "date": "Thu Oct 9 23:16:52 2025 +0530",
-          "timestamp": 1760032012,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/06252fc8"
-        },
-        {
-          "sha": "0f46e4b9",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:03 2025 +0000",
-          "timestamp": 1757955303,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/0f46e4b9"
-        },
-        {
-          "sha": "119b1214",
-          "message": "Merge 'lineage-22.2' into 15.0",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 8 05:48:24 2025 +0530",
-          "timestamp": 1757290704,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/119b1214"
-        },
-        {
-          "sha": "4dc5fd42",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:34 2025 +0000",
-          "timestamp": 1756738474,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/4dc5fd42"
-        },
-        {
-          "sha": "f05f2156",
-          "message": "Dialer: Add primary color for incall ui",
-          "author": "Pranav Vashi",
-          "date": "Sat Aug 30 14:38:51 2025 +0530",
-          "timestamp": 1756544931,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/f05f2156"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_apps_SetupWizard",
       "path": "packages/apps/SetupWizard",
       "repo_url": "https://github.com/crdroidandroid/android_packages_apps_SetupWizard",
@@ -7332,6 +7283,47 @@
           "date": "Mon Sep 1 14:54:32 2025 +0000",
           "timestamp": 1756738472,
           "url": "https://github.com/crdroidandroid/android_packages_apps_Backgrounds/commit/3cdba90"
+        }
+      ]
+    },
+    {
+      "name": "crdroidandroid/android_packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_Dialer",
+      "remote": "crdroid",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "06252fc8",
+          "message": "Merge 'lineage-22.2' into 15.0",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 9 23:16:52 2025 +0530",
+          "timestamp": 1760032012,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/06252fc8"
+        },
+        {
+          "sha": "0f46e4b9",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:03 2025 +0000",
+          "timestamp": 1757955303,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/0f46e4b9"
+        },
+        {
+          "sha": "119b1214",
+          "message": "Merge 'lineage-22.2' into 15.0",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 8 05:48:24 2025 +0530",
+          "timestamp": 1757290704,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/119b1214"
+        },
+        {
+          "sha": "4dc5fd42",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 1 14:54:34 2025 +0000",
+          "timestamp": 1756738474,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Dialer/commit/4dc5fd42"
         }
       ]
     },
@@ -7963,31 +7955,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "44c4732ad",
-          "message": "Revert \"RIL: Fix manual network selection with old modem\"",
-          "author": "Michael Bestas",
-          "date": "Wed Oct 15 21:12:02 2025 +0300",
-          "timestamp": 1760551922,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44c4732ad"
-        },
-        {
-          "sha": "c3571e721",
-          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 15:42:09 2025 +0300",
-          "timestamp": 1756903329,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/c3571e721"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio",
       "path": "hardware/qcom/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -8009,6 +7976,31 @@
           "date": "Sun Sep 14 15:31:32 2025 +0300",
           "timestamp": 1757853092,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/c895c94"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "44c4732ad",
+          "message": "Revert \"RIL: Fix manual network selection with old modem\"",
+          "author": "Michael Bestas",
+          "date": "Wed Oct 15 21:12:02 2025 +0300",
+          "timestamp": 1760551922,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44c4732ad"
+        },
+        {
+          "sha": "c3571e721",
+          "message": "Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 3 15:42:09 2025 +0300",
+          "timestamp": 1756903329,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/c3571e721"
         }
       ]
     },
@@ -8188,31 +8180,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/crdroidandroid/android_hardware_interfaces",
-      "remote": "crdroid",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "46860edbf",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Fri Nov 21 09:24:09 2025 +0300",
-          "timestamp": 1763706249,
-          "url": "https://github.com/crdroidandroid/android_hardware_interfaces/commit/46860edbf"
-        },
-        {
-          "sha": "c30e7ec1d",
-          "message": "Merge 'lineage-22.2' into 15.0",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 8 05:48:20 2025 +0530",
-          "timestamp": 1757290700,
-          "url": "https://github.com/crdroidandroid/android_hardware_interfaces/commit/c30e7ec1d"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_apps_GameSpace",
       "path": "packages/apps/GameSpace",
       "repo_url": "https://github.com/crdroidandroid/android_packages_apps_GameSpace",
@@ -8234,6 +8201,31 @@
           "date": "Sun Oct 5 18:08:00 2025 +0300",
           "timestamp": 1759676880,
           "url": "https://github.com/crdroidandroid/android_packages_apps_GameSpace/commit/1c0b3bb"
+        }
+      ]
+    },
+    {
+      "name": "crdroidandroid/android_hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/crdroidandroid/android_hardware_interfaces",
+      "remote": "crdroid",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "46860edbf",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Fri Nov 21 09:24:09 2025 +0300",
+          "timestamp": 1763706249,
+          "url": "https://github.com/crdroidandroid/android_hardware_interfaces/commit/46860edbf"
+        },
+        {
+          "sha": "c30e7ec1d",
+          "message": "Merge 'lineage-22.2' into 15.0",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 8 05:48:20 2025 +0530",
+          "timestamp": 1757290700,
+          "url": "https://github.com/crdroidandroid/android_hardware_interfaces/commit/c30e7ec1d"
         }
       ]
     },

@@ -100,22 +100,6 @@
           "dataPath": "crdroid/16.0.json"
         }
       ]
-    },
-    {
-      "id": "twrp",
-      "displayName": "TWRP Recovery",
-      "branches": [
-        {
-          "id": "twrp-12.1",
-          "displayName": "twrp-12.1",
-          "dataPath": "twrp/twrp-12.1.json"
-        },
-        {
-          "id": "twrp-14.1",
-          "displayName": "twrp-14.1",
-          "dataPath": "twrp/twrp-14.1.json"
-        }
-      ]
     }
   ]
 }
