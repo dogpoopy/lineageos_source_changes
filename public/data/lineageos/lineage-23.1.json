@@ -1,7 +1,7 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-23.1",
-  "generated_at": "2025-11-28T01:25:44.959932+00:00",
+  "generated_at": "2025-11-28T04:15:21.340092+00:00",
   "since_date": "2025-08-30",
   "total_projects": 131,
   "total_commits": 1062,
@@ -8148,39 +8148,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
-        },
-        {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
-        },
-        {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
       "path": "external/chromium-webview/prebuilt/arm64",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
@@ -8210,6 +8177,39 @@
           "date": "Sat Sep 27 08:22:45 2025 -0600",
           "timestamp": 1758982965,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        },
+        {
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        },
+        {
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -8313,39 +8313,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/LineageOS/android_hardware_interfaces",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "2e4a41b1",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Sun Nov 16 19:37:38 2025 +0100",
-          "timestamp": 1763318258,
-          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/2e4a41b1"
-        },
-        {
-          "sha": "25fab976",
-          "message": "Bluetooth HAL: fix suspend behavior",
-          "author": "Eric Laurent",
-          "date": "Fri Sep 26 09:53:38 2025 +0530",
-          "timestamp": 1758860618,
-          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/25fab976"
-        },
-        {
-          "sha": "d68c6c9a",
-          "message": "libradiocompat: Deprecate getDeviceIdentity and use getImei instead",
-          "author": "Luofan Chen",
-          "date": "Sun Sep 7 13:26:06 2025 +0000",
-          "timestamp": 1757251566,
-          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/d68c6c9a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_frameworks_opt_telephony",
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
@@ -8375,6 +8342,39 @@
           "date": "Fri Sep 12 17:54:54 2025 +0300",
           "timestamp": 1757688894,
           "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44377e2d7"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_hardware_interfaces",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "2e4a41b1",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Sun Nov 16 19:37:38 2025 +0100",
+          "timestamp": 1763318258,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/2e4a41b1"
+        },
+        {
+          "sha": "25fab976",
+          "message": "Bluetooth HAL: fix suspend behavior",
+          "author": "Eric Laurent",
+          "date": "Fri Sep 26 09:53:38 2025 +0530",
+          "timestamp": 1758860618,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/25fab976"
+        },
+        {
+          "sha": "d68c6c9a",
+          "message": "libradiocompat: Deprecate getDeviceIdentity and use getImei instead",
+          "author": "Luofan Chen",
+          "date": "Sun Sep 7 13:26:06 2025 +0000",
+          "timestamp": 1757251566,
+          "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/d68c6c9a"
         }
       ]
     },
@@ -9190,23 +9190,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/msm8998/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "125f0e3",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Mon Sep 8 02:04:40 2025 +0300",
-          "timestamp": 1757286280,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/125f0e3"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
       "path": "hardware/qcom-caf/sdm660/media",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
       "remote": "github",
@@ -9219,6 +9202,23 @@
           "date": "Sun Sep 7 18:28:57 2025 +0000",
           "timestamp": 1757269737,
           "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/2098857"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_media",
+      "path": "hardware/qcom-caf/msm8998/media",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "125f0e3",
+          "message": "Fix alignment of encoder_meta_buffer_payload_type",
+          "author": "Luca Stefani",
+          "date": "Mon Sep 8 02:04:40 2025 +0300",
+          "timestamp": 1757286280,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/125f0e3"
         }
       ]
     },
@@ -9240,23 +9240,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_thermal",
-      "path": "hardware/qcom-caf/thermal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a4298a2",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:27:59 2025 +0200",
-          "timestamp": 1762608479,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/a4298a2"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_sm8150_gps",
       "path": "hardware/qcom/sm8150/gps",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps",
@@ -9270,6 +9253,23 @@
           "date": "Wed Sep 10 16:23:52 2025 +0300",
           "timestamp": 1757510632,
           "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_thermal",
+      "path": "hardware/qcom-caf/thermal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a4298a2",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:27:59 2025 +0200",
+          "timestamp": 1762608479,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/a4298a2"
         }
       ]
     },
@@ -9359,23 +9359,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_TvSystemUI",
-      "path": "packages/apps/TvSystemUI",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_TvSystemUI",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e02e0c1",
-          "message": "Remove volumePanelFlag from VolumeDialogImpl call",
-          "author": "Aaron Kling",
-          "date": "Fri Sep 5 16:24:39 2025 -0500",
-          "timestamp": 1757107479,
-          "url": "https://github.com/LineageOS/android_packages_apps_TvSystemUI/commit/e02e0c1"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_ThemePicker",
       "path": "packages/apps/ThemePicker",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_ThemePicker",
@@ -9389,6 +9372,23 @@
           "date": "Wed Sep 24 20:06:49 2025 +0000",
           "timestamp": 1758744409,
           "url": "https://github.com/LineageOS/android_packages_apps_ThemePicker/commit/233dbdea"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_TvSystemUI",
+      "path": "packages/apps/TvSystemUI",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_TvSystemUI",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e02e0c1",
+          "message": "Remove volumePanelFlag from VolumeDialogImpl call",
+          "author": "Aaron Kling",
+          "date": "Fri Sep 5 16:24:39 2025 -0500",
+          "timestamp": 1757107479,
+          "url": "https://github.com/LineageOS/android_packages_apps_TvSystemUI/commit/e02e0c1"
         }
       ]
     },
@@ -9478,23 +9478,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_services_Mms",
-      "path": "packages/services/Mms",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_Mms",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "401f873",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:53 2025 +0000",
-          "timestamp": 1758744413,
-          "url": "https://github.com/LineageOS/android_packages_services_Mms/commit/401f873"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_providers_MediaProvider",
       "path": "packages/providers/MediaProvider",
       "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
@@ -9508,6 +9491,23 @@
           "date": "Fri Sep 12 18:00:27 2025 +0300",
           "timestamp": 1757689227,
           "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/0138b508"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_services_Mms",
+      "path": "packages/services/Mms",
+      "repo_url": "https://github.com/LineageOS/android_packages_services_Mms",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "401f873",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:53 2025 +0000",
+          "timestamp": 1758744413,
+          "url": "https://github.com/LineageOS/android_packages_services_Mms/commit/401f873"
         }
       ]
     },

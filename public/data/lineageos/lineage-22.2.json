@@ -1,7 +1,7 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2025-11-28T01:25:04.153328+00:00",
+  "generated_at": "2025-11-28T04:14:25.211860+00:00",
   "since_date": "2025-08-30",
   "total_projects": 89,
   "total_commits": 481,
@@ -4282,23 +4282,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_libhardware",
-      "path": "hardware/libhardware",
-      "repo_url": "https://github.com/LineageOS/android_hardware_libhardware",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "dacf02a",
-          "message": "Avoid log fatal when converting between pcm_format and audio_format_t.",
-          "author": "jiabin",
-          "date": "Fri Sep 12 11:49:56 2025 +0530",
-          "timestamp": 1757657996,
-          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/dacf02a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_frameworks_native",
       "path": "frameworks/native",
       "repo_url": "https://github.com/LineageOS/android_frameworks_native",
@@ -4312,6 +4295,23 @@
           "date": "Wed Sep 3 15:51:23 2025 +0300",
           "timestamp": 1756903883,
           "url": "https://github.com/LineageOS/android_frameworks_native/commit/a7f9cc63d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_libhardware",
+      "path": "hardware/libhardware",
+      "repo_url": "https://github.com/LineageOS/android_hardware_libhardware",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "dacf02a",
+          "message": "Avoid log fatal when converting between pcm_format and audio_format_t.",
+          "author": "jiabin",
+          "date": "Fri Sep 12 11:49:56 2025 +0530",
+          "timestamp": 1757657996,
+          "url": "https://github.com/LineageOS/android_hardware_libhardware/commit/dacf02a"
         }
       ]
     },

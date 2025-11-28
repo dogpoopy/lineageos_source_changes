@@ -1,7 +1,7 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-11-28T01:26:49.305549+00:00",
+  "generated_at": "2025-11-28T04:16:58.164149+00:00",
   "since_date": "2025-08-30",
   "total_projects": 51,
   "total_commits": 313,
@@ -2800,6 +2800,23 @@
       ]
     },
     {
+      "name": "hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/yaap/hardware_interfaces",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4a07f0a03",
+          "message": "Bluetooth HAL: fix suspend behavior",
+          "author": "Eric Laurent",
+          "date": "Wed Oct 1 11:20:34 2025 -0400",
+          "timestamp": 1759332034,
+          "url": "https://github.com/yaap/hardware_interfaces/commit/4a07f0a03"
+        }
+      ]
+    },
+    {
       "name": "libhybris",
       "path": "libhybris",
       "repo_url": "https://github.com/yaap/libhybris",
@@ -2830,23 +2847,6 @@
           "date": "Mon Sep 22 03:41:04 2025 +0300",
           "timestamp": 1758501664,
           "url": "https://github.com/yaap/packages_apps_Contacts/commit/6ed6589d"
-        }
-      ]
-    },
-    {
-      "name": "hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/yaap/hardware_interfaces",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4a07f0a03",
-          "message": "Bluetooth HAL: fix suspend behavior",
-          "author": "Eric Laurent",
-          "date": "Wed Oct 1 11:20:34 2025 -0400",
-          "timestamp": 1759332034,
-          "url": "https://github.com/yaap/hardware_interfaces/commit/4a07f0a03"
         }
       ]
     },
