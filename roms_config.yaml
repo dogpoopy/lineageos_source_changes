@@ -42,33 +42,33 @@ roms:
       - "15.0"
       - "16.0"
 
-  - id: Avium
+  - id: avium
     display_name: AviumUi
     manifest_url: https://github.com/AviumUI/android_manifests.git
     branches:
       - "avium-16"
       - "avium-16-qpr1-wip"
-
-    - id: AlphaDroid
+      
+  - id: alphadroid
     display_name: Alphadroid
-    manifest_url: https://github.com/AviumUI/android_manifests.git
+    manifest_url: https://github.com/AlphaDroid-Project/manifest.git
     branches:
       - "alpha-16.1"
 
-    - id: Halcyon
+  - id: halcyon
     display_name: Halcyon
     manifest_url: https://github.com/halcyonproject/manifest.git
     branches:
       - "16.0"
       - "16.1"
 
-    - id: Lumine
+  - id: lumine
     display_name: Lumine
     manifest_url: https://github.com/LumineDroid/platform_manifest.git
     branches:
       - "bynx"
 
-    - id: LunarisAosp
+  - id: lunarisaosp
     display_name: Lunaris
     manifest_url: https://github.com/Lunaris-AOSP/android.git
     branches:
