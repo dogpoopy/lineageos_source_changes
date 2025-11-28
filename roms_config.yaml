@@ -48,5 +48,6 @@ roms:
     branches:
       - twrp-12.1
       - twrp-14.1
+    enabled: false
 repo_params:
   groups: default,-mips,-darwin,-notdefault
