@@ -76,7 +76,7 @@ roms:
       
   - id: twrp
     display_name: TWRP Recovery
-    manifest_url: https://github.com/AlphaDroid-Project/manifest.git
+    manifest_url: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
     branches:
       - twrp-12.1
       - twrp-14.1
