@@ -60,6 +60,10 @@ export default function ChangesDisplay({
 
   const data = allData[selectedKey];
 
+  // Get current ROM and branch from selectedKey
+  const [selectedRomId, selectedBranchId] = selectedKey.split('/');
+  const selectedRom = config.roms.find(rom => rom.id === selectedRomId);
+
   const filteredProjects = useMemo(() => {
     if (!data || !data.projects) return [];
     if (!searchTerm) return data.projects;
@@ -95,6 +99,27 @@ export default function ChangesDisplay({
     });
   };
 
+  const handleRomChange = (romId: string) => {
+    const rom = config.roms.find(r => r.id === romId);
+    if (rom && rom.branches.length > 0) {
+      // Find first available branch for this ROM
+      const firstAvailableBranch = rom.branches.find(branch => {
+        const key = `${romId}/${branch.id}`;
+        return allData[key] !== null;
+      });
+      
+      if (firstAvailableBranch) {
+        setSelectedKey(`${romId}/${firstAvailableBranch.id}`);
+      }
+    }
+  };
+
+  const handleBranchChange = (branchId: string) => {
+    if (selectedRomId) {
+      setSelectedKey(`${selectedRomId}/${branchId}`);
+    }
+  };
+
   if (!data) {
     return (
       <div className="text-center text-slate-400 py-20">
@@ -105,51 +130,71 @@ export default function ChangesDisplay({
 
   return (
     <div className="space-y-6">
-      {/* ROM & Branch Selector */}
-      <div className="space-y-4">
-        {config.roms.map((rom) => (
-          <div key={rom.id} className="space-y-3">
-            <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider">
-              {rom.displayName}
-            </h3>
-            <div className="flex flex-wrap gap-3">
-              {rom.branches.map((branch) => {
+      {/* ROM & Branch Dropdowns */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* ROM Selector */}
+        <div className="space-y-2">
+          <label className="block text-sm font-semibold text-slate-400 uppercase tracking-wider">
+            Select ROM
+          </label>
+          <select
+            value={selectedRomId}
+            onChange={(e) => handleRomChange(e.target.value)}
+            className="w-full px-4 py-3 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent cursor-pointer transition-all"
+          >
+            {config.roms.map((rom) => {
+              const hasAnyData = rom.branches.some(branch => {
                 const key = `${rom.id}/${branch.id}`;
-                const branchData = allData[key];
-                const isActive = key === selectedKey;
-                const hasData = branchData !== null;
-                
-                return (
-                  <button
-                    key={key}
-                    onClick={() => setSelectedKey(key)}
-                    disabled={!hasData}
-                    className={`
-                      px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg font-medium transition-all text-sm
-                      ${isActive 
-                        ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/50' 
-                        : hasData
-                          ? 'bg-slate-800/50 text-slate-300 hover:bg-slate-700/50 border border-slate-700'
-                          : 'bg-slate-800/30 text-slate-600 cursor-not-allowed border border-slate-800'
-                      }
-                    `}
-                  >
-                    {branch.displayName}
-                    {hasData && branchData && (
-                      <span className={`ml-2 text-xs ${isActive ? 'text-blue-200' : 'text-slate-500'}`}>
-                        ({branchData.total_commits})
-                      </span>
-                    )}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        ))}
+                return allData[key] !== null;
+              });
+              
+              return (
+                <option 
+                  key={rom.id} 
+                  value={rom.id}
+                  disabled={!hasAnyData}
+                >
+                  {rom.displayName}
+                  {!hasAnyData && ' (No data)'}
+                </option>
+              );
+            })}
+          </select>
+        </div>
+
+        {/* Branch Selector */}
+        <div className="space-y-2">
+          <label className="block text-sm font-semibold text-slate-400 uppercase tracking-wider">
+            Select Branch
+          </label>
+          <select
+            value={selectedBranchId}
+            onChange={(e) => handleBranchChange(e.target.value)}
+            className="w-full px-4 py-3 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent cursor-pointer transition-all"
+            disabled={!selectedRom}
+          >
+            {selectedRom?.branches.map((branch) => {
+              const key = `${selectedRomId}/${branch.id}`;
+              const branchData = allData[key];
+              const hasData = branchData !== null;
+              
+              return (
+                <option 
+                  key={branch.id} 
+                  value={branch.id}
+                  disabled={!hasData}
+                >
+                  {branch.displayName}
+                  {hasData && branchData ? ` (${branchData.total_commits} commits)` : ' (No data)'}
+                </option>
+              );
+            })}
+          </select>
+        </div>
       </div>
 
       {/* Stats Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700">
           <div className="text-slate-400 text-sm mb-1">Total Projects</div>
           <div className="text-3xl font-bold text-white">{data.total_projects}</div>
