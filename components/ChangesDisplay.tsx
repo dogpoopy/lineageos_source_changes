@@ -339,12 +339,12 @@ export default function ChangesDisplay({
                           href={commit.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="block p-3 bg-slate-800 rounded hover:bg-slate-750 transition-colors group"
+                          className="block p-3 bg-slate-800 rounded hover:bg-slate-750 transition-colors"
                         >
                           <div className="flex items-start gap-2 mb-1">
                             <GitCommit size={14} className="text-slate-500 mt-0.5 flex-shrink-0" />
                             <code className="text-xs text-slate-400 font-mono">{commit.sha}</code>
-                            <ExternalLink size={12} className="text-slate-500 mt-0.5 ml-auto opacity-0 group-hover:opacity-100 transition-opacity" />
+                            <ExternalLink size={12} className="text-slate-500 mt-0.5 ml-auto" />
                           </div>
                           <p className="text-sm text-white mb-2">{commit.message}</p>
                           <div className="flex items-center gap-3 text-xs text-slate-500">
