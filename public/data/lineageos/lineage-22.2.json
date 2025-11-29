@@ -1,18 +1,26 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2025-11-28T11:34:37.788352+00:00",
-  "since_date": "2025-08-30",
-  "total_projects": 89,
-  "total_commits": 480,
+  "generated_at": "2025-11-29T05:38:06.486786+00:00",
+  "since_date": "2025-08-31",
+  "total_projects": 87,
+  "total_commits": 455,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 87,
+      "commit_count": 88,
       "commits": [
+        {
+          "sha": "446887f",
+          "message": "wiki: Allow 15 fw for FP4",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 28 01:20:34 2025 +0200",
+          "timestamp": 1764285634,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/446887f"
+        },
         {
           "sha": "42682e4",
           "message": "wiki: Allow A16 FW for dodge and erhai",
@@ -1846,95 +1854,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/msm8953/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "96c7956",
-          "message": "media: Drop libsidebandstreamhandle",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:12:01 2025 +0800",
-          "timestamp": 1756566721,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/96c7956"
-        },
-        {
-          "sha": "04ae467",
-          "message": "mm-core: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:11:23 2025 +0800",
-          "timestamp": 1756566683,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/04ae467"
-        },
-        {
-          "sha": "4f58783",
-          "message": "mm-core: Remove unused files & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:09:10 2025 +0800",
-          "timestamp": 1756566550,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4f58783"
-        },
-        {
-          "sha": "cc73684",
-          "message": "mm-video-v4l2: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:04:41 2025 +0800",
-          "timestamp": 1756566281,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/cc73684"
-        },
-        {
-          "sha": "9ac70bf",
-          "message": "mm-video-v4l2: vidc: Drop support for hypervisor",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:53:33 2025 +0800",
-          "timestamp": 1756565613,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/9ac70bf"
-        },
-        {
-          "sha": "48f646f",
-          "message": "mm-video-v4l2: Remove SW OMX codecs, unused files & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:51:57 2025 +0800",
-          "timestamp": 1756565517,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/48f646f"
-        },
-        {
-          "sha": "1e364f6",
-          "message": "libstagefrighthw: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:32:35 2025 +0800",
-          "timestamp": 1756564355,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/1e364f6"
-        },
-        {
-          "sha": "4650bb6",
-          "message": "libc2dcolorconvert: Cleanup dependencies & convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:32:25 2025 +0800",
-          "timestamp": 1756564345,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4650bb6"
-        },
-        {
-          "sha": "4bead84",
-          "message": "media: Remove autoconf/automake configuration",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:31:25 2025 +0800",
-          "timestamp": 1756564285,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4bead84"
-        },
-        {
-          "sha": "c8ef438",
-          "message": "Revert \"libaac: Add test code for AAC encoder and decoder\"",
-          "author": "Indranil",
-          "date": "Sat Aug 30 22:31:18 2025 +0800",
-          "timestamp": 1756564278,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c8ef438"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_sdm845_display",
       "path": "hardware/qcom/sdm845/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sdm845_display",
@@ -2239,136 +2158,6 @@
           "date": "Wed Sep 10 17:10:59 2025 +0300",
           "timestamp": 1757513459,
           "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cf6f59d"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_lineage_interfaces",
-      "path": "hardware/lineage/interfaces",
-      "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "01b0b5b",
-          "message": "sensors: Add a sensors 2.0 -> 1.0 subhal wrapper",
-          "author": "bengris32",
-          "date": "Sat Sep 27 13:25:38 2025 +0000",
-          "timestamp": 1758979538,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/01b0b5b"
-        },
-        {
-          "sha": "eaa88af",
-          "message": "livedisplay: sysfs: chown on init",
-          "author": "Marc Bourgoin",
-          "date": "Sat Aug 30 10:40:38 2025 -0600",
-          "timestamp": 1756572038,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/eaa88af"
-        },
-        {
-          "sha": "7cb075b",
-          "message": "camera: aidl: Remove `in_`/`out_` prefixes",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 14:28:24 2025 +0000",
-          "timestamp": 1756564104,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7cb075b"
-        },
-        {
-          "sha": "7fbd870",
-          "message": "camera: aidl: Use std::to_string() for int -> std::string",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 14:28:24 2025 +0000",
-          "timestamp": 1756564104,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7fbd870"
-        },
-        {
-          "sha": "1d5d332",
-          "message": "camera: aidl: Remap camera IDs by property if it is defined",
-          "author": "Ivan Vecera",
-          "date": "Sat Aug 30 14:28:24 2025 +0000",
-          "timestamp": 1756564104,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/1d5d332"
-        },
-        {
-          "sha": "d26191b",
-          "message": "camera: aidl: Maintain set of non-external cameras",
-          "author": "Ivan Vecera",
-          "date": "Sat Aug 30 14:28:24 2025 +0000",
-          "timestamp": 1756564104,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/d26191b"
-        },
-        {
-          "sha": "bdb296c",
-          "message": "camera: aidl: Implement camera device/provider HALs",
-          "author": "Tim Zimmermann",
-          "date": "Sat Aug 30 14:28:24 2025 +0000",
-          "timestamp": 1756564104,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/bdb296c"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8953/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "f9ff4f2",
-          "message": "hal: Convert audio extensions to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:34:14 2025 +0800",
-          "timestamp": 1756560854,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/f9ff4f2"
-        },
-        {
-          "sha": "06e0412",
-          "message": "ssr: Fix building with OSS materials",
-          "author": "Ricardo Cerqueira",
-          "date": "Sat Aug 30 21:33:49 2025 +0800",
-          "timestamp": 1756560829,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/06e0412"
-        },
-        {
-          "sha": "ca80109",
-          "message": "hal: Convert primary HAL to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:31:23 2025 +0800",
-          "timestamp": 1756560683,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/ca80109"
-        },
-        {
-          "sha": "2ebe70c",
-          "message": "hal: Remove unused libmaxxaudio extension",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:54 2025 +0800",
-          "timestamp": 1756560234,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/2ebe70c"
-        },
-        {
-          "sha": "17df495",
-          "message": "hal: Remove feature manager leftovers",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:33 2025 +0800",
-          "timestamp": 1756560213,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/17df495"
-        },
-        {
-          "sha": "dd04d99",
-          "message": "audio: Remove all unsupported platforms & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:28 2025 +0800",
-          "timestamp": 1756560208,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/dd04d99"
-        },
-        {
-          "sha": "0ad6d86",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sat Aug 30 20:58:33 2025 +0800",
-          "timestamp": 1756558713,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/0ad6d86"
         }
       ]
     },
@@ -2796,55 +2585,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
-        },
-        {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
-        },
-        {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
-        },
-        {
-          "sha": "fe4a261",
-          "message": "Convert libsdmcore to blueprint",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 21:53:59 2025 +0800",
-          "timestamp": 1756562039,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fe4a261"
-        },
-        {
-          "sha": "f39a4b3",
-          "message": "Convert libgrallocutils and gpu_tonemapper to blueprint",
-          "author": "EndCredits",
-          "date": "Sat Aug 30 21:52:32 2025 +0800",
-          "timestamp": 1756561952,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f39a4b3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_lineage-sdk",
       "path": "lineage-sdk",
       "repo_url": "https://github.com/LineageOS/android_lineage-sdk",
@@ -3037,47 +2777,6 @@
           "date": "Mon Sep 1 14:54:40 2025 +0000",
           "timestamp": 1756738480,
           "url": "https://github.com/LineageOS/android_packages_inputmethods_LatinIME/commit/001e9c6"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_lineage_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "bcc0b83",
-          "message": "qcom: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Wed Oct 29 11:55:32 2025 +0100",
-          "timestamp": 1761735332,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83"
-        },
-        {
-          "sha": "97c91ea",
-          "message": "qcom: Allow platform_app to use Soter HAL",
-          "author": "dianlujitao",
-          "date": "Wed Oct 29 08:04:32 2025 +0000",
-          "timestamp": 1761725072,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/97c91ea"
-        },
-        {
-          "sha": "253ba44",
-          "message": "Revert \"sepolicy: Label ro.telephony.use_old_mnc_mcc_format\"",
-          "author": "Michael Bestas",
-          "date": "Wed Oct 15 21:13:01 2025 +0300",
-          "timestamp": 1760551981,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/253ba44"
-        },
-        {
-          "sha": "65e58b0",
-          "message": "common: Label AIDL camera provider HAL",
-          "author": "Skyblueborb",
-          "date": "Sat Aug 30 14:28:24 2025 +0000",
-          "timestamp": 1756564104,
-          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/65e58b0"
         }
       ]
     },
@@ -3402,6 +3101,39 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_lineage_sepolicy",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "bcc0b83",
+          "message": "qcom: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 11:55:32 2025 +0100",
+          "timestamp": 1761735332,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/bcc0b83"
+        },
+        {
+          "sha": "97c91ea",
+          "message": "qcom: Allow platform_app to use Soter HAL",
+          "author": "dianlujitao",
+          "date": "Wed Oct 29 08:04:32 2025 +0000",
+          "timestamp": 1761725072,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/97c91ea"
+        },
+        {
+          "sha": "253ba44",
+          "message": "Revert \"sepolicy: Label ro.telephony.use_old_mnc_mcc_format\"",
+          "author": "Michael Bestas",
+          "date": "Wed Oct 15 21:13:01 2025 +0300",
+          "timestamp": 1760551981,
+          "url": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/253ba44"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8750",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -3431,6 +3163,39 @@
           "date": "Sat Sep 20 15:23:01 2025 +0100",
           "timestamp": 1758378181,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/22134fa"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "70d1609",
+          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:03 2025 -0700",
+          "timestamp": 1762617483,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
+        },
+        {
+          "sha": "30034c7",
+          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:16 2025 -0600",
+          "timestamp": 1760795836,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
+        },
+        {
+          "sha": "6760647",
+          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:45 2025 -0600",
+          "timestamp": 1758982965,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
         }
       ]
     },
@@ -3497,39 +3262,6 @@
           "date": "Sat Sep 27 08:22:39 2025 -0600",
           "timestamp": 1758982959,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "path": "external/chromium-webview/prebuilt/arm64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "70d1609",
-          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:03 2025 -0700",
-          "timestamp": 1762617483,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
-        },
-        {
-          "sha": "30034c7",
-          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:16 2025 -0600",
-          "timestamp": 1760795836,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
-        },
-        {
-          "sha": "6760647",
-          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:45 2025 -0600",
-          "timestamp": 1758982965,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
         }
       ]
     },
@@ -3629,6 +3361,39 @@
           "date": "Sat Sep 6 12:11:22 2025 +0300",
           "timestamp": 1757149882,
           "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/84699a5"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/msm8953/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "fd1cfe0",
+          "message": "Convert remaining Android.mk to blueprint",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 1 16:35:07 2025 +0800",
+          "timestamp": 1756715707,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
+        },
+        {
+          "sha": "c337f56",
+          "message": "sdm: Convert hwcomposer.qcom to soong",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 1 16:35:07 2025 +0800",
+          "timestamp": 1756715707,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
+        },
+        {
+          "sha": "f6e4d6d",
+          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
+          "author": "Steven Moreland",
+          "date": "Mon Sep 1 16:35:03 2025 +0800",
+          "timestamp": 1756715703,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
         }
       ]
     },
@@ -4304,6 +4069,23 @@
           "date": "Wed Sep 3 15:51:23 2025 +0300",
           "timestamp": 1756903883,
           "url": "https://github.com/LineageOS/android_frameworks_native/commit/a7f9cc63d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_lineage_interfaces",
+      "path": "hardware/lineage/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "01b0b5b",
+          "message": "sensors: Add a sensors 2.0 -> 1.0 subhal wrapper",
+          "author": "bengris32",
+          "date": "Sat Sep 27 13:25:38 2025 +0000",
+          "timestamp": 1758979538,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/01b0b5b"
         }
       ]
     },

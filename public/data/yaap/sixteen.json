@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-11-28T11:37:02.845372+00:00",
-  "since_date": "2025-08-30",
-  "total_projects": 51,
-  "total_commits": 313,
+  "generated_at": "2025-11-29T05:40:13.378265+00:00",
+  "since_date": "2025-08-31",
+  "total_projects": 49,
+  "total_commits": 294,
   "projects": [
     {
       "name": "frameworks_base",
@@ -1422,95 +1422,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/msm8953/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "lineage",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "96c7956",
-          "message": "media: Drop libsidebandstreamhandle",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:12:01 2025 +0800",
-          "timestamp": 1756566721,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/96c7956"
-        },
-        {
-          "sha": "04ae467",
-          "message": "mm-core: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:11:23 2025 +0800",
-          "timestamp": 1756566683,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/04ae467"
-        },
-        {
-          "sha": "4f58783",
-          "message": "mm-core: Remove unused files & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:09:10 2025 +0800",
-          "timestamp": 1756566550,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4f58783"
-        },
-        {
-          "sha": "cc73684",
-          "message": "mm-video-v4l2: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:04:41 2025 +0800",
-          "timestamp": 1756566281,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/cc73684"
-        },
-        {
-          "sha": "9ac70bf",
-          "message": "mm-video-v4l2: vidc: Drop support for hypervisor",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:53:33 2025 +0800",
-          "timestamp": 1756565613,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/9ac70bf"
-        },
-        {
-          "sha": "48f646f",
-          "message": "mm-video-v4l2: Remove SW OMX codecs, unused files & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:51:57 2025 +0800",
-          "timestamp": 1756565517,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/48f646f"
-        },
-        {
-          "sha": "1e364f6",
-          "message": "libstagefrighthw: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:32:35 2025 +0800",
-          "timestamp": 1756564355,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/1e364f6"
-        },
-        {
-          "sha": "4650bb6",
-          "message": "libc2dcolorconvert: Cleanup dependencies & convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:32:25 2025 +0800",
-          "timestamp": 1756564345,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4650bb6"
-        },
-        {
-          "sha": "4bead84",
-          "message": "media: Remove autoconf/automake configuration",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:31:25 2025 +0800",
-          "timestamp": 1756564285,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4bead84"
-        },
-        {
-          "sha": "c8ef438",
-          "message": "Revert \"libaac: Add test code for AAC encoder and decoder\"",
-          "author": "Indranil",
-          "date": "Sat Aug 30 22:31:18 2025 +0800",
-          "timestamp": 1756564278,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c8ef438"
-        }
-      ]
-    },
-    {
       "name": "vendor_yaap",
       "path": "vendor/yaap",
       "repo_url": "https://github.com/yaap/vendor_yaap",
@@ -1762,71 +1673,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8953/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "f9ff4f2",
-          "message": "hal: Convert audio extensions to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:34:14 2025 +0800",
-          "timestamp": 1756560854,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/f9ff4f2"
-        },
-        {
-          "sha": "06e0412",
-          "message": "ssr: Fix building with OSS materials",
-          "author": "Ricardo Cerqueira",
-          "date": "Sat Aug 30 21:33:49 2025 +0800",
-          "timestamp": 1756560829,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/06e0412"
-        },
-        {
-          "sha": "ca80109",
-          "message": "hal: Convert primary HAL to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:31:23 2025 +0800",
-          "timestamp": 1756560683,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/ca80109"
-        },
-        {
-          "sha": "2ebe70c",
-          "message": "hal: Remove unused libmaxxaudio extension",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:54 2025 +0800",
-          "timestamp": 1756560234,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/2ebe70c"
-        },
-        {
-          "sha": "17df495",
-          "message": "hal: Remove feature manager leftovers",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:33 2025 +0800",
-          "timestamp": 1756560213,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/17df495"
-        },
-        {
-          "sha": "dd04d99",
-          "message": "audio: Remove all unsupported platforms & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:28 2025 +0800",
-          "timestamp": 1756560208,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/dd04d99"
-        },
-        {
-          "sha": "0ad6d86",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sat Aug 30 20:58:33 2025 +0800",
-          "timestamp": 1756558713,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/0ad6d86"
-        }
-      ]
-    },
-    {
       "name": "frameworks_native",
       "path": "frameworks/native",
       "repo_url": "https://github.com/yaap/frameworks_native",
@@ -2063,55 +1909,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "lineage",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
-        },
-        {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
-        },
-        {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
-        },
-        {
-          "sha": "fe4a261",
-          "message": "Convert libsdmcore to blueprint",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 21:53:59 2025 +0800",
-          "timestamp": 1756562039,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fe4a261"
-        },
-        {
-          "sha": "f39a4b3",
-          "message": "Convert libgrallocutils and gpu_tonemapper to blueprint",
-          "author": "EndCredits",
-          "date": "Sat Aug 30 21:52:32 2025 +0800",
-          "timestamp": 1756561952,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f39a4b3"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Camelot",
       "path": "packages/apps/Camelot",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
@@ -2292,6 +2089,39 @@
       ]
     },
     {
+      "name": "android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/msm8953/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "lineage",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "fd1cfe0",
+          "message": "Convert remaining Android.mk to blueprint",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 1 16:35:07 2025 +0800",
+          "timestamp": 1756715707,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
+        },
+        {
+          "sha": "c337f56",
+          "message": "sdm: Convert hwcomposer.qcom to soong",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 1 16:35:07 2025 +0800",
+          "timestamp": 1756715707,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
+        },
+        {
+          "sha": "f6e4d6d",
+          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
+          "author": "Steven Moreland",
+          "date": "Mon Sep 1 16:35:03 2025 +0800",
+          "timestamp": 1756715703,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
+        }
+      ]
+    },
+    {
       "name": "frameworks_opt_telephony",
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/yaap/frameworks_opt_telephony",
@@ -2358,39 +2188,6 @@
       ]
     },
     {
-      "name": "packages_apps_Launcher3",
-      "path": "packages/apps/Launcher3",
-      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "18b0f6081",
-          "message": "StashedHandleView: add gestural burn in protection",
-          "author": "John Galt",
-          "date": "Tue Nov 25 13:24:26 2025 -0500",
-          "timestamp": 1764095066,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/18b0f6081"
-        },
-        {
-          "sha": "8f38bdcf3",
-          "message": "Launcher3: Allow to always show page indicator dots",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Oct 9 13:20:19 2025 +0300",
-          "timestamp": 1760005219,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8f38bdcf3"
-        },
-        {
-          "sha": "dea667483",
-          "message": "Launcher3: Add 4x6 and 4x7 grid sizes",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Oct 9 13:20:19 2025 +0300",
-          "timestamp": 1760005219,
-          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/dea667483"
-        }
-      ]
-    },
-    {
       "name": "packages_modules_Connectivity",
       "path": "packages/modules/Connectivity",
       "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
@@ -2420,6 +2217,39 @@
           "date": "Wed Oct 1 11:25:11 2025 -0400",
           "timestamp": 1759332311,
           "url": "https://github.com/yaap/packages_modules_Connectivity/commit/0377f8d"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "18b0f6081",
+          "message": "StashedHandleView: add gestural burn in protection",
+          "author": "John Galt",
+          "date": "Tue Nov 25 13:24:26 2025 -0500",
+          "timestamp": 1764095066,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/18b0f6081"
+        },
+        {
+          "sha": "8f38bdcf3",
+          "message": "Launcher3: Allow to always show page indicator dots",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Oct 9 13:20:19 2025 +0300",
+          "timestamp": 1760005219,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/8f38bdcf3"
+        },
+        {
+          "sha": "dea667483",
+          "message": "Launcher3: Add 4x6 and 4x7 grid sizes",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Oct 9 13:20:19 2025 +0300",
+          "timestamp": 1760005219,
+          "url": "https://github.com/yaap/packages_apps_Launcher3/commit/dea667483"
         }
       ]
     },
@@ -2523,31 +2353,6 @@
       ]
     },
     {
-      "name": "android_build_release",
-      "path": "build/release",
-      "repo_url": "https://github.com/LineageOS/android_build_release",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "f11d54a5",
-          "message": "Enable temporary_pairing_tracking into 25Q2 FRC",
-          "author": "Thomas Girardier",
-          "date": "Fri Sep 26 14:19:59 2025 +0200",
-          "timestamp": 1758889199,
-          "url": "https://github.com/LineageOS/android_build_release/commit/f11d54a5"
-        },
-        {
-          "sha": "324f68f4",
-          "message": "Add flag com.android.graphics.surfaceflinger.flags.disable_synthetic_vsync_for_performance to bp2a.",
-          "author": "boq-halyard-service-composite@system.gserviceaccount.com",
-          "date": "Fri Sep 26 14:19:52 2025 +0200",
-          "timestamp": 1758889192,
-          "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
-        }
-      ]
-    },
-    {
       "name": "android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -2569,6 +2374,31 @@
           "date": "Wed Oct 29 11:39:55 2025 +0100",
           "timestamp": 1761734395,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7"
+        }
+      ]
+    },
+    {
+      "name": "android_build_release",
+      "path": "build/release",
+      "repo_url": "https://github.com/LineageOS/android_build_release",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "f11d54a5",
+          "message": "Enable temporary_pairing_tracking into 25Q2 FRC",
+          "author": "Thomas Girardier",
+          "date": "Fri Sep 26 14:19:59 2025 +0200",
+          "timestamp": 1758889199,
+          "url": "https://github.com/LineageOS/android_build_release/commit/f11d54a5"
+        },
+        {
+          "sha": "324f68f4",
+          "message": "Add flag com.android.graphics.surfaceflinger.flags.disable_synthetic_vsync_for_performance to bp2a.",
+          "author": "boq-halyard-service-composite@system.gserviceaccount.com",
+          "date": "Fri Sep 26 14:19:52 2025 +0200",
+          "timestamp": 1758889192,
+          "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
         }
       ]
     },
@@ -2698,23 +2528,6 @@
       ]
     },
     {
-      "name": "android_frameworks_proto_logging",
-      "path": "frameworks/proto_logging",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_proto_logging",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fcbbaa85",
-          "message": "Log UID in wifi toggle metrics",
-          "author": "Oscar Shu",
-          "date": "Fri Sep 26 14:20:57 2025 +0200",
-          "timestamp": 1758889257,
-          "url": "https://github.com/LineageOS/android_frameworks_proto_logging/commit/fcbbaa85"
-        }
-      ]
-    },
-    {
       "name": "android_hardware_qcom_audio",
       "path": "hardware/qcom-caf/sdm845/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -2728,6 +2541,23 @@
           "date": "Sun Sep 7 15:27:16 2025 +0000",
           "timestamp": 1757258836,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1"
+        }
+      ]
+    },
+    {
+      "name": "android_frameworks_proto_logging",
+      "path": "frameworks/proto_logging",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_proto_logging",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "fcbbaa85",
+          "message": "Log UID in wifi toggle metrics",
+          "author": "Oscar Shu",
+          "date": "Fri Sep 26 14:20:57 2025 +0200",
+          "timestamp": 1758889257,
+          "url": "https://github.com/LineageOS/android_frameworks_proto_logging/commit/fcbbaa85"
         }
       ]
     },

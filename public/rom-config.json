@@ -100,6 +100,71 @@
           "dataPath": "crdroid/16.0.json"
         }
       ]
+    },
+    {
+      "id": "avium",
+      "displayName": "AviumUi",
+      "branches": [
+        {
+          "id": "avium-16",
+          "displayName": "avium-16",
+          "dataPath": "avium/avium-16.json"
+        },
+        {
+          "id": "avium-16-qpr1-wip",
+          "displayName": "avium-16-qpr1-wip",
+          "dataPath": "avium/avium-16-qpr1-wip.json"
+        }
+      ]
+    },
+    {
+      "id": "alphadroid",
+      "displayName": "Alphadroid",
+      "branches": [
+        {
+          "id": "alpha-16.1",
+          "displayName": "alpha-16.1",
+          "dataPath": "alphadroid/alpha-16.1.json"
+        }
+      ]
+    },
+    {
+      "id": "halcyon",
+      "displayName": "Halcyon",
+      "branches": [
+        {
+          "id": "16.0",
+          "displayName": "16.0",
+          "dataPath": "halcyon/16.0.json"
+        },
+        {
+          "id": "16.1",
+          "displayName": "16.1",
+          "dataPath": "halcyon/16.1.json"
+        }
+      ]
+    },
+    {
+      "id": "lumine",
+      "displayName": "Lumine",
+      "branches": [
+        {
+          "id": "bynx",
+          "displayName": "bynx",
+          "dataPath": "lumine/bynx.json"
+        }
+      ]
+    },
+    {
+      "id": "lunarisaosp",
+      "displayName": "Lunaris",
+      "branches": [
+        {
+          "id": "16",
+          "displayName": "16",
+          "dataPath": "lunarisaosp/16.json"
+        }
+      ]
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "fifteen",
-  "generated_at": "2025-11-28T11:37:49.097656+00:00",
-  "since_date": "2025-08-30",
-  "total_projects": 14,
-  "total_commits": 82,
+  "generated_at": "2025-11-29T05:40:54.658655+00:00",
+  "since_date": "2025-08-31",
+  "total_projects": 12,
+  "total_commits": 63,
   "projects": [
     {
       "name": "android_packages_apps_Twelve",
@@ -192,95 +192,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/msm8953/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "lineage",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "96c7956",
-          "message": "media: Drop libsidebandstreamhandle",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:12:01 2025 +0800",
-          "timestamp": 1756566721,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/96c7956"
-        },
-        {
-          "sha": "04ae467",
-          "message": "mm-core: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:11:23 2025 +0800",
-          "timestamp": 1756566683,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/04ae467"
-        },
-        {
-          "sha": "4f58783",
-          "message": "mm-core: Remove unused files & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:09:10 2025 +0800",
-          "timestamp": 1756566550,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4f58783"
-        },
-        {
-          "sha": "cc73684",
-          "message": "mm-video-v4l2: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:04:41 2025 +0800",
-          "timestamp": 1756566281,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/cc73684"
-        },
-        {
-          "sha": "9ac70bf",
-          "message": "mm-video-v4l2: vidc: Drop support for hypervisor",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:53:33 2025 +0800",
-          "timestamp": 1756565613,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/9ac70bf"
-        },
-        {
-          "sha": "48f646f",
-          "message": "mm-video-v4l2: Remove SW OMX codecs, unused files & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:51:57 2025 +0800",
-          "timestamp": 1756565517,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/48f646f"
-        },
-        {
-          "sha": "1e364f6",
-          "message": "libstagefrighthw: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:32:35 2025 +0800",
-          "timestamp": 1756564355,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/1e364f6"
-        },
-        {
-          "sha": "4650bb6",
-          "message": "libc2dcolorconvert: Cleanup dependencies & convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:32:25 2025 +0800",
-          "timestamp": 1756564345,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4650bb6"
-        },
-        {
-          "sha": "4bead84",
-          "message": "media: Remove autoconf/automake configuration",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:31:25 2025 +0800",
-          "timestamp": 1756564285,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4bead84"
-        },
-        {
-          "sha": "c8ef438",
-          "message": "Revert \"libaac: Add test code for AAC encoder and decoder\"",
-          "author": "Indranil",
-          "date": "Sat Aug 30 22:31:18 2025 +0800",
-          "timestamp": 1756564278,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c8ef438"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
@@ -358,71 +269,6 @@
           "date": "Mon Sep 1 14:54:36 2025 +0000",
           "timestamp": 1756738476,
           "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8953/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "f9ff4f2",
-          "message": "hal: Convert audio extensions to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:34:14 2025 +0800",
-          "timestamp": 1756560854,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/f9ff4f2"
-        },
-        {
-          "sha": "06e0412",
-          "message": "ssr: Fix building with OSS materials",
-          "author": "Ricardo Cerqueira",
-          "date": "Sat Aug 30 21:33:49 2025 +0800",
-          "timestamp": 1756560829,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/06e0412"
-        },
-        {
-          "sha": "ca80109",
-          "message": "hal: Convert primary HAL to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:31:23 2025 +0800",
-          "timestamp": 1756560683,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/ca80109"
-        },
-        {
-          "sha": "2ebe70c",
-          "message": "hal: Remove unused libmaxxaudio extension",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:54 2025 +0800",
-          "timestamp": 1756560234,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/2ebe70c"
-        },
-        {
-          "sha": "17df495",
-          "message": "hal: Remove feature manager leftovers",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:33 2025 +0800",
-          "timestamp": 1756560213,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/17df495"
-        },
-        {
-          "sha": "dd04d99",
-          "message": "audio: Remove all unsupported platforms & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:28 2025 +0800",
-          "timestamp": 1756560208,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/dd04d99"
-        },
-        {
-          "sha": "0ad6d86",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sat Aug 30 20:58:33 2025 +0800",
-          "timestamp": 1756558713,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/0ad6d86"
         }
       ]
     },
@@ -541,55 +387,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "lineage",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
-        },
-        {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
-        },
-        {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
-        },
-        {
-          "sha": "fe4a261",
-          "message": "Convert libsdmcore to blueprint",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 21:53:59 2025 +0800",
-          "timestamp": 1756562039,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fe4a261"
-        },
-        {
-          "sha": "f39a4b3",
-          "message": "Convert libgrallocutils and gpu_tonemapper to blueprint",
-          "author": "EndCredits",
-          "date": "Sat Aug 30 21:52:32 2025 +0800",
-          "timestamp": 1756561952,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f39a4b3"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Camelot",
       "path": "packages/apps/Camelot",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
@@ -676,6 +473,39 @@
           "date": "Mon Sep 1 14:54:35 2025 +0000",
           "timestamp": 1756738475,
           "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4d4f98b"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/msm8953/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "lineage",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "fd1cfe0",
+          "message": "Convert remaining Android.mk to blueprint",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 1 16:35:07 2025 +0800",
+          "timestamp": 1756715707,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
+        },
+        {
+          "sha": "c337f56",
+          "message": "sdm: Convert hwcomposer.qcom to soong",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 1 16:35:07 2025 +0800",
+          "timestamp": 1756715707,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
+        },
+        {
+          "sha": "f6e4d6d",
+          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
+          "author": "Steven Moreland",
+          "date": "Mon Sep 1 16:35:03 2025 +0800",
+          "timestamp": 1756715703,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
         }
       ]
     },

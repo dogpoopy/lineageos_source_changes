@@ -1,10 +1,10 @@
 {
   "rom_id": "axion",
   "branch": "lineage-23.1",
-  "generated_at": "2025-11-28T11:40:19.078962+00:00",
-  "since_date": "2025-08-30",
-  "total_projects": 171,
-  "total_commits": 1595,
+  "generated_at": "2025-11-29T05:42:59.219621+00:00",
+  "since_date": "2025-08-31",
+  "total_projects": 170,
+  "total_commits": 1571,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -3999,8 +3999,16 @@
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 87,
+      "commit_count": 88,
       "commits": [
+        {
+          "sha": "446887f",
+          "message": "wiki: Allow 15 fw for FP4",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 28 01:20:34 2025 +0200",
+          "timestamp": 1764285634,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/446887f"
+        },
         {
           "sha": "42682e4",
           "message": "wiki: Allow A16 FW for dodge and erhai",
@@ -7931,7 +7939,7 @@
       "path": "device/lineage/sepolicy",
       "repo_url": "https://github.com/AxionAOSP/android_device_lineage_sepolicy",
       "remote": "axion",
-      "commit_count": 19,
+      "commit_count": 18,
       "commits": [
         {
           "sha": "f9a0641",
@@ -8076,14 +8084,6 @@
           "date": "Fri Sep 5 12:12:38 2025 +0200",
           "timestamp": 1757067158,
           "url": "https://github.com/AxionAOSP/android_device_lineage_sepolicy/commit/91ff335"
-        },
-        {
-          "sha": "db7e721",
-          "message": "common: Label AIDL camera provider HAL",
-          "author": "Skyblueborb",
-          "date": "Sat Aug 30 15:57:08 2025 +0200",
-          "timestamp": 1756562228,
-          "url": "https://github.com/AxionAOSP/android_device_lineage_sepolicy/commit/db7e721"
         }
       ]
     },
@@ -9121,103 +9121,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/msm8953/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "9861d78",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 18:28:41 2025 +0000",
-          "timestamp": 1757269721,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/9861d78"
-        },
-        {
-          "sha": "96c7956",
-          "message": "media: Drop libsidebandstreamhandle",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:12:01 2025 +0800",
-          "timestamp": 1756566721,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/96c7956"
-        },
-        {
-          "sha": "04ae467",
-          "message": "mm-core: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:11:23 2025 +0800",
-          "timestamp": 1756566683,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/04ae467"
-        },
-        {
-          "sha": "4f58783",
-          "message": "mm-core: Remove unused files & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:09:10 2025 +0800",
-          "timestamp": 1756566550,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4f58783"
-        },
-        {
-          "sha": "cc73684",
-          "message": "mm-video-v4l2: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 23:04:41 2025 +0800",
-          "timestamp": 1756566281,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/cc73684"
-        },
-        {
-          "sha": "9ac70bf",
-          "message": "mm-video-v4l2: vidc: Drop support for hypervisor",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:53:33 2025 +0800",
-          "timestamp": 1756565613,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/9ac70bf"
-        },
-        {
-          "sha": "48f646f",
-          "message": "mm-video-v4l2: Remove SW OMX codecs, unused files & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:51:57 2025 +0800",
-          "timestamp": 1756565517,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/48f646f"
-        },
-        {
-          "sha": "1e364f6",
-          "message": "libstagefrighthw: Convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:32:35 2025 +0800",
-          "timestamp": 1756564355,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/1e364f6"
-        },
-        {
-          "sha": "4650bb6",
-          "message": "libc2dcolorconvert: Cleanup dependencies & convert to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:32:25 2025 +0800",
-          "timestamp": 1756564345,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4650bb6"
-        },
-        {
-          "sha": "4bead84",
-          "message": "media: Remove autoconf/automake configuration",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 22:31:25 2025 +0800",
-          "timestamp": 1756564285,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/4bead84"
-        },
-        {
-          "sha": "c8ef438",
-          "message": "Revert \"libaac: Add test code for AAC encoder and decoder\"",
-          "author": "Indranil",
-          "date": "Sat Aug 30 22:31:18 2025 +0800",
-          "timestamp": 1756564278,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c8ef438"
-        }
-      ]
-    },
-    {
       "name": "android_system_sepolicy",
       "path": "system/sepolicy",
       "repo_url": "https://github.com/AxionAOSP/android_system_sepolicy",
@@ -9400,95 +9303,6 @@
           "date": "Mon Sep 1 00:41:35 2025 +0000",
           "timestamp": 1756687295,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/fc0b10d"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_lineage_interfaces",
-      "path": "hardware/lineage/interfaces",
-      "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "7d86725",
-          "message": "livedisplay: sysfs: chown on boot as well",
-          "author": "Giovanni Ricca",
-          "date": "Thu Oct 23 11:25:25 2025 +0200",
-          "timestamp": 1761211525,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7d86725"
-        },
-        {
-          "sha": "3530226",
-          "message": "livedisplay: sysfs: Remove non-standard paths",
-          "author": "Michael Bestas",
-          "date": "Thu Oct 23 07:41:39 2025 +0000",
-          "timestamp": 1761205299,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/3530226"
-        },
-        {
-          "sha": "a3b99b3",
-          "message": "LiveDisplay: sysfs: Add soong configurable HBM path",
-          "author": "Marc Bourgoin",
-          "date": "Sat Oct 11 16:08:59 2025 +0000",
-          "timestamp": 1760198939,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/a3b99b3"
-        },
-        {
-          "sha": "ff5ea6d",
-          "message": "sensors: Add a sensors 2.0 -> 1.0 subhal wrapper",
-          "author": "bengris32",
-          "date": "Sat Sep 27 15:26:28 2025 +0200",
-          "timestamp": 1758979588,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/ff5ea6d"
-        },
-        {
-          "sha": "d3122c8",
-          "message": "livedisplay: sysfs: chown on init",
-          "author": "Marc Bourgoin",
-          "date": "Sat Aug 30 16:46:08 2025 +0000",
-          "timestamp": 1756572368,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/d3122c8"
-        },
-        {
-          "sha": "f514013",
-          "message": "camera: aidl: Remove `in_`/`out_` prefixes",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 15:57:11 2025 +0200",
-          "timestamp": 1756562231,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/f514013"
-        },
-        {
-          "sha": "d9f411a",
-          "message": "camera: aidl: Use std::to_string() for int -> std::string",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 15:57:11 2025 +0200",
-          "timestamp": 1756562231,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/d9f411a"
-        },
-        {
-          "sha": "e3779bc",
-          "message": "camera: aidl: Remap camera IDs by property if it is defined",
-          "author": "Ivan Vecera",
-          "date": "Sat Aug 30 15:57:11 2025 +0200",
-          "timestamp": 1756562231,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/e3779bc"
-        },
-        {
-          "sha": "06e5c80",
-          "message": "camera: aidl: Maintain set of non-external cameras",
-          "author": "Ivan Vecera",
-          "date": "Sat Aug 30 15:57:11 2025 +0200",
-          "timestamp": 1756562231,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/06e5c80"
-        },
-        {
-          "sha": "d6bcee1",
-          "message": "camera: aidl: Implement camera device/provider HALs",
-          "author": "Tim Zimmermann",
-          "date": "Sat Aug 30 15:57:08 2025 +0200",
-          "timestamp": 1756562228,
-          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/d6bcee1"
         }
       ]
     },
@@ -10117,6 +9931,79 @@
       ]
     },
     {
+      "name": "android_axion_sdk",
+      "path": "axion_sdk",
+      "repo_url": "https://github.com/AxionAOSP/android_axion_sdk",
+      "remote": "axion",
+      "commit_count": 8,
+      "commits": [
+        {
+          "sha": "7bfaf95",
+          "message": "[axion_sdk] fixing ax_compose library",
+          "author": "rmp22",
+          "date": "Sat Nov 29 08:44:10 2025 +0800",
+          "timestamp": 1764377050,
+          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/7bfaf95"
+        },
+        {
+          "sha": "b381204",
+          "message": "adding balanced affinity range support",
+          "author": "rmp22",
+          "date": "Thu Nov 20 19:30:32 2025 +0800",
+          "timestamp": 1763638232,
+          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/b381204"
+        },
+        {
+          "sha": "848a7a5",
+          "message": "applying affinity to pid children",
+          "author": "rmp22",
+          "date": "Mon Nov 17 12:41:10 2025 +0800",
+          "timestamp": 1763354470,
+          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/848a7a5"
+        },
+        {
+          "sha": "1e9081e",
+          "message": "[ax_scheduling] adding limited setThreadAffinity",
+          "author": "rmp22",
+          "date": "Wed Nov 12 16:21:06 2025 +0800",
+          "timestamp": 1762935666,
+          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/1e9081e"
+        },
+        {
+          "sha": "e3b2a55",
+          "message": "fixing SetThreadAffinity minor overhead",
+          "author": "rmp22",
+          "date": "Sun Nov 9 19:24:37 2025 +0800",
+          "timestamp": 1762687477,
+          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/e3b2a55"
+        },
+        {
+          "sha": "f990ccd",
+          "message": "adding compose lifecycle utils",
+          "author": "rmp22",
+          "date": "Sun Nov 9 18:58:09 2025 +0800",
+          "timestamp": 1762685889,
+          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/f990ccd"
+        },
+        {
+          "sha": "7859f96",
+          "message": "adding debug macro",
+          "author": "rmp22",
+          "date": "Sun Nov 9 18:34:36 2025 +0800",
+          "timestamp": 1762684476,
+          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/7859f96"
+        },
+        {
+          "sha": "2b816ce",
+          "message": "adding utils to sdk",
+          "author": "rmp22",
+          "date": "Sun Nov 9 18:30:29 2025 +0800",
+          "timestamp": 1762684229,
+          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/2b816ce"
+        }
+      ]
+    },
+    {
       "name": "android_packages_apps_LineageParts",
       "path": "packages/apps/LineageParts",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_LineageParts",
@@ -10539,71 +10426,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8953/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "f9ff4f2",
-          "message": "hal: Convert audio extensions to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:34:14 2025 +0800",
-          "timestamp": 1756560854,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/f9ff4f2"
-        },
-        {
-          "sha": "06e0412",
-          "message": "ssr: Fix building with OSS materials",
-          "author": "Ricardo Cerqueira",
-          "date": "Sat Aug 30 21:33:49 2025 +0800",
-          "timestamp": 1756560829,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/06e0412"
-        },
-        {
-          "sha": "ca80109",
-          "message": "hal: Convert primary HAL to blueprint",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:31:23 2025 +0800",
-          "timestamp": 1756560683,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/ca80109"
-        },
-        {
-          "sha": "2ebe70c",
-          "message": "hal: Remove unused libmaxxaudio extension",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:54 2025 +0800",
-          "timestamp": 1756560234,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/2ebe70c"
-        },
-        {
-          "sha": "17df495",
-          "message": "hal: Remove feature manager leftovers",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:33 2025 +0800",
-          "timestamp": 1756560213,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/17df495"
-        },
-        {
-          "sha": "dd04d99",
-          "message": "audio: Remove all unsupported platforms & flags",
-          "author": "Michael Bestas",
-          "date": "Sat Aug 30 21:23:28 2025 +0800",
-          "timestamp": 1756560208,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/dd04d99"
-        },
-        {
-          "sha": "0ad6d86",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sat Aug 30 20:58:33 2025 +0800",
-          "timestamp": 1756558713,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/0ad6d86"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Camelot",
       "path": "packages/apps/Camelot",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
@@ -10795,71 +10617,6 @@
           "date": "Fri Sep 5 03:03:20 2025 -0700",
           "timestamp": 1757066600,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ef8f4e1"
-        }
-      ]
-    },
-    {
-      "name": "android_axion_sdk",
-      "path": "axion_sdk",
-      "repo_url": "https://github.com/AxionAOSP/android_axion_sdk",
-      "remote": "axion",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "b381204",
-          "message": "adding balanced affinity range support",
-          "author": "rmp22",
-          "date": "Thu Nov 20 19:30:32 2025 +0800",
-          "timestamp": 1763638232,
-          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/b381204"
-        },
-        {
-          "sha": "848a7a5",
-          "message": "applying affinity to pid children",
-          "author": "rmp22",
-          "date": "Mon Nov 17 12:41:10 2025 +0800",
-          "timestamp": 1763354470,
-          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/848a7a5"
-        },
-        {
-          "sha": "1e9081e",
-          "message": "[ax_scheduling] adding limited setThreadAffinity",
-          "author": "rmp22",
-          "date": "Wed Nov 12 16:21:06 2025 +0800",
-          "timestamp": 1762935666,
-          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/1e9081e"
-        },
-        {
-          "sha": "e3b2a55",
-          "message": "fixing SetThreadAffinity minor overhead",
-          "author": "rmp22",
-          "date": "Sun Nov 9 19:24:37 2025 +0800",
-          "timestamp": 1762687477,
-          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/e3b2a55"
-        },
-        {
-          "sha": "f990ccd",
-          "message": "adding compose lifecycle utils",
-          "author": "rmp22",
-          "date": "Sun Nov 9 18:58:09 2025 +0800",
-          "timestamp": 1762685889,
-          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/f990ccd"
-        },
-        {
-          "sha": "7859f96",
-          "message": "adding debug macro",
-          "author": "rmp22",
-          "date": "Sun Nov 9 18:34:36 2025 +0800",
-          "timestamp": 1762684476,
-          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/7859f96"
-        },
-        {
-          "sha": "2b816ce",
-          "message": "adding utils to sdk",
-          "author": "rmp22",
-          "date": "Sun Nov 9 18:30:29 2025 +0800",
-          "timestamp": 1762684229,
-          "url": "https://github.com/AxionAOSP/android_axion_sdk/commit/2b816ce"
         }
       ]
     },
@@ -11385,6 +11142,55 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_lineage_interfaces",
+      "path": "hardware/lineage/interfaces",
+      "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "1b3557d",
+          "message": "interfaces: Add compatibility matrix",
+          "author": "Nick Reuter",
+          "date": "Fri Nov 28 23:02:54 2025 +0000",
+          "timestamp": 1764370974,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/1b3557d"
+        },
+        {
+          "sha": "7d86725",
+          "message": "livedisplay: sysfs: chown on boot as well",
+          "author": "Giovanni Ricca",
+          "date": "Thu Oct 23 11:25:25 2025 +0200",
+          "timestamp": 1761211525,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7d86725"
+        },
+        {
+          "sha": "3530226",
+          "message": "livedisplay: sysfs: Remove non-standard paths",
+          "author": "Michael Bestas",
+          "date": "Thu Oct 23 07:41:39 2025 +0000",
+          "timestamp": 1761205299,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/3530226"
+        },
+        {
+          "sha": "a3b99b3",
+          "message": "LiveDisplay: sysfs: Add soong configurable HBM path",
+          "author": "Marc Bourgoin",
+          "date": "Sat Oct 11 16:08:59 2025 +0000",
+          "timestamp": 1760198939,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/a3b99b3"
+        },
+        {
+          "sha": "ff5ea6d",
+          "message": "sensors: Add a sensors 2.0 -> 1.0 subhal wrapper",
+          "author": "bengris32",
+          "date": "Sat Sep 27 15:26:28 2025 +0200",
+          "timestamp": 1758979588,
+          "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/ff5ea6d"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom-caf_common",
       "path": "hardware/qcom-caf/common",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
@@ -11430,55 +11236,6 @@
           "date": "Sat Sep 6 12:28:16 2025 +0300",
           "timestamp": 1757150896,
           "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/f67795e"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
-        },
-        {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
-        },
-        {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
-        },
-        {
-          "sha": "fe4a261",
-          "message": "Convert libsdmcore to blueprint",
-          "author": "LuK1337",
-          "date": "Sat Aug 30 21:53:59 2025 +0800",
-          "timestamp": 1756562039,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fe4a261"
-        },
-        {
-          "sha": "f39a4b3",
-          "message": "Convert libgrallocutils and gpu_tonemapper to blueprint",
-          "author": "EndCredits",
-          "date": "Sat Aug 30 21:52:32 2025 +0800",
-          "timestamp": 1756561952,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f39a4b3"
         }
       ]
     },
@@ -12023,47 +11780,6 @@
       ]
     },
     {
-      "name": "android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony",
-      "remote": "axion",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "9f5f0cbb9",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 08:56:53 2025 +0200",
-          "timestamp": 1763103413,
-          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/9f5f0cbb9"
-        },
-        {
-          "sha": "dc2430384",
-          "message": "satellite data service policy fixes",
-          "author": "Nagendra Prasad Nagarle Basavaraju",
-          "date": "Thu Sep 25 21:12:15 2025 +0530",
-          "timestamp": 1758814935,
-          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/dc2430384"
-        },
-        {
-          "sha": "4820f09b9",
-          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
-          "author": "Aishwarya Mallampati",
-          "date": "Thu Sep 25 20:58:34 2025 +0530",
-          "timestamp": 1758814114,
-          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/4820f09b9"
-        },
-        {
-          "sha": "44377e2d7",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/opt/telephony into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 17:54:54 2025 +0300",
-          "timestamp": 1757688894,
-          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/44377e2d7"
-        }
-      ]
-    },
-    {
       "name": "android_hardware_interfaces",
       "path": "hardware/interfaces",
       "repo_url": "https://github.com/AxionAOSP/android_hardware_interfaces",
@@ -12101,6 +11817,47 @@
           "date": "Sun Sep 7 13:26:06 2025 +0000",
           "timestamp": 1757251566,
           "url": "https://github.com/AxionAOSP/android_hardware_interfaces/commit/d68c6c9a3"
+        }
+      ]
+    },
+    {
+      "name": "android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony",
+      "remote": "axion",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "9f5f0cbb9",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 08:56:53 2025 +0200",
+          "timestamp": 1763103413,
+          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/9f5f0cbb9"
+        },
+        {
+          "sha": "dc2430384",
+          "message": "satellite data service policy fixes",
+          "author": "Nagendra Prasad Nagarle Basavaraju",
+          "date": "Thu Sep 25 21:12:15 2025 +0530",
+          "timestamp": 1758814935,
+          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/dc2430384"
+        },
+        {
+          "sha": "4820f09b9",
+          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
+          "author": "Aishwarya Mallampati",
+          "date": "Thu Sep 25 20:58:34 2025 +0530",
+          "timestamp": 1758814114,
+          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/4820f09b9"
+        },
+        {
+          "sha": "44377e2d7",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/opt/telephony into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 17:54:54 2025 +0300",
+          "timestamp": 1757688894,
+          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/44377e2d7"
         }
       ]
     },
@@ -12187,39 +11944,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
-        },
-        {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
-        },
-        {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -12249,6 +11973,39 @@
           "date": "Fri Sep 26 09:55:19 2025 -0600",
           "timestamp": 1758902119,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        },
+        {
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        },
+        {
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -12348,6 +12105,39 @@
           "date": "Sat Sep 27 08:22:53 2025 -0600",
           "timestamp": 1758982973,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/msm8953/display",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "fd1cfe0",
+          "message": "Convert remaining Android.mk to blueprint",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 1 16:35:07 2025 +0800",
+          "timestamp": 1756715707,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
+        },
+        {
+          "sha": "c337f56",
+          "message": "sdm: Convert hwcomposer.qcom to soong",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 1 16:35:07 2025 +0800",
+          "timestamp": 1756715707,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
+        },
+        {
+          "sha": "f6e4d6d",
+          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
+          "author": "Steven Moreland",
+          "date": "Mon Sep 1 16:35:03 2025 +0800",
+          "timestamp": 1756715703,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
         }
       ]
     },
@@ -12831,31 +12621,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8650/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "0929a3b",
-          "message": "hal: Add LVACFS microphone feature",
-          "author": "pjgowtham",
-          "date": "Sun Aug 31 22:30:47 2025 +0000",
-          "timestamp": 1756679447,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0929a3b"
-        },
-        {
-          "sha": "6356dc6",
-          "message": "hal: include libagmclient_headers",
-          "author": "Cosmin Tanislav",
-          "date": "Sat Aug 30 12:42:16 2025 +0000",
-          "timestamp": 1756557736,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/6356dc6"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_sdm845_gps",
       "path": "hardware/qcom/sdm845/gps",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sdm845_gps",
@@ -13156,31 +12921,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_Stk",
-      "path": "packages/apps/Stk",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Stk",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "3577a45",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:44 2025 +0200",
-          "timestamp": 1763050664,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Stk/commit/3577a45"
-        },
-        {
-          "sha": "ffb951e",
-          "message": "Fxied edge-to-edge UX support for StkLauncherActivity.",
-          "author": "arunvoddu",
-          "date": "Fri Sep 26 14:18:22 2025 +0200",
-          "timestamp": 1758889102,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Stk/commit/ffb951e"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Seedvault",
       "path": "packages/apps/Seedvault",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Seedvault",
@@ -13202,6 +12942,31 @@
           "date": "Sat Nov 22 02:07:32 2025 +0200",
           "timestamp": 1763770052,
           "url": "https://github.com/AxionAOSP/android_packages_apps_Seedvault/commit/ddb05a0"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Stk",
+      "path": "packages/apps/Stk",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Stk",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "3577a45",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:44 2025 +0200",
+          "timestamp": 1763050664,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Stk/commit/3577a45"
+        },
+        {
+          "sha": "ffb951e",
+          "message": "Fxied edge-to-edge UX support for StkLauncherActivity.",
+          "author": "arunvoddu",
+          "date": "Fri Sep 26 14:18:22 2025 +0200",
+          "timestamp": 1758889102,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Stk/commit/ffb951e"
         }
       ]
     },
@@ -13306,31 +13071,6 @@
       ]
     },
     {
-      "name": "android_packages_providers_MediaProvider",
-      "path": "packages/providers/MediaProvider",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "abf0d8748",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:49:45 2025 +0200",
-          "timestamp": 1763110185,
-          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/abf0d8748"
-        },
-        {
-          "sha": "0138b508f",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/providers/MediaProvider into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 18:00:27 2025 +0300",
-          "timestamp": 1757689227,
-          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/0138b508f"
-        }
-      ]
-    },
-    {
       "name": "android_system_bpf",
       "path": "system/bpf",
       "repo_url": "https://github.com/AxionAOSP/android_system_bpf",
@@ -13352,6 +13092,31 @@
           "date": "Mon Nov 17 17:59:10 2025 +0530",
           "timestamp": 1763382550,
           "url": "https://github.com/AxionAOSP/android_system_bpf/commit/cb8c845"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_providers_MediaProvider",
+      "path": "packages/providers/MediaProvider",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "abf0d8748",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:49:45 2025 +0200",
+          "timestamp": 1763110185,
+          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/abf0d8748"
+        },
+        {
+          "sha": "0138b508f",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/providers/MediaProvider into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 18:00:27 2025 +0300",
+          "timestamp": 1757689227,
+          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/0138b508f"
         }
       ]
     },
@@ -13541,6 +13306,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8650/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0929a3b",
+          "message": "hal: Add LVACFS microphone feature",
+          "author": "pjgowtham",
+          "date": "Sun Aug 31 22:30:47 2025 +0000",
+          "timestamp": 1756679447,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0929a3b"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_display",
       "path": "hardware/qcom-caf/sm8250/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
@@ -13554,6 +13336,23 @@
           "date": "Fri Oct 31 09:10:35 2025 +0000",
           "timestamp": 1761901835,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/9ec8cc0"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_media",
+      "path": "hardware/qcom-caf/msm8953/media",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9861d78",
+          "message": "Fix alignment of encoder_meta_buffer_payload_type",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 7 18:28:41 2025 +0000",
+          "timestamp": 1757269721,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/9861d78"
         }
       ]
     },
@@ -13593,23 +13392,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/sdm660/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "2098857",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 18:28:57 2025 +0000",
-          "timestamp": 1757269737,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/2098857"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
       "path": "hardware/qcom-caf/sdm845/media",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
       "remote": "github",
@@ -13622,6 +13404,23 @@
           "date": "Sun Sep 7 23:04:11 2025 +0000",
           "timestamp": 1757286251,
           "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_media",
+      "path": "hardware/qcom-caf/sdm660/media",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "2098857",
+          "message": "Fix alignment of encoder_meta_buffer_payload_type",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 7 18:28:57 2025 +0000",
+          "timestamp": 1757269737,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/2098857"
         }
       ]
     },
@@ -13881,23 +13680,6 @@
       ]
     },
     {
-      "name": "android_external_cronet",
-      "path": "external/cronet",
-      "repo_url": "https://github.com/AxionAOSP/android_external_cronet",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "09fbedc9",
-          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/external/cronet into lineage-23.1",
-          "author": "rmp22",
-          "date": "Mon Nov 24 12:50:44 2025 +0800",
-          "timestamp": 1763959844,
-          "url": "https://github.com/AxionAOSP/android_external_cronet/commit/09fbedc9"
-        }
-      ]
-    },
-    {
       "name": "android_external_zstd",
       "path": "external/zstd",
       "repo_url": "https://github.com/AxionAOSP/android_external_zstd",
@@ -13911,6 +13693,23 @@
           "date": "Fri Nov 21 02:15:24 2025 +0200",
           "timestamp": 1763684124,
           "url": "https://github.com/AxionAOSP/android_external_zstd/commit/614a5b7f"
+        }
+      ]
+    },
+    {
+      "name": "android_external_cronet",
+      "path": "external/cronet",
+      "repo_url": "https://github.com/AxionAOSP/android_external_cronet",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "09fbedc9",
+          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/external/cronet into lineage-23.1",
+          "author": "rmp22",
+          "date": "Mon Nov 24 12:50:44 2025 +0800",
+          "timestamp": 1763959844,
+          "url": "https://github.com/AxionAOSP/android_external_cronet/commit/09fbedc9"
         }
       ]
     },
@@ -13932,23 +13731,6 @@
       ]
     },
     {
-      "name": "android_hardware_google_pixel",
-      "path": "hardware/google/pixel",
-      "repo_url": "https://github.com/AxionAOSP/android_hardware_google_pixel",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "b02b8ba",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 08:59:47 2025 +0200",
-          "timestamp": 1763103587,
-          "url": "https://github.com/AxionAOSP/android_hardware_google_pixel/commit/b02b8ba"
-        }
-      ]
-    },
-    {
       "name": "android_hardware_google_pixel-sepolicy",
       "path": "hardware/google/pixel-sepolicy",
       "repo_url": "https://github.com/AxionAOSP/android_hardware_google_pixel-sepolicy",
@@ -13962,6 +13744,23 @@
           "date": "Fri Nov 14 09:01:10 2025 +0200",
           "timestamp": 1763103670,
           "url": "https://github.com/AxionAOSP/android_hardware_google_pixel-sepolicy/commit/fbd845f"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_google_pixel",
+      "path": "hardware/google/pixel",
+      "repo_url": "https://github.com/AxionAOSP/android_hardware_google_pixel",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "b02b8ba",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 08:59:47 2025 +0200",
+          "timestamp": 1763103587,
+          "url": "https://github.com/AxionAOSP/android_hardware_google_pixel/commit/b02b8ba"
         }
       ]
     },
@@ -13983,23 +13782,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_Car_SystemUI",
-      "path": "packages/apps/Car/SystemUI",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Car_SystemUI",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "9ea14ed8",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:09:11 2025 +0200",
-          "timestamp": 1763104151,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Car_SystemUI/commit/9ea14ed8"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Car_Settings",
       "path": "packages/apps/Car/Settings",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Car_Settings",
@@ -14013,6 +13795,23 @@
           "date": "Fri Nov 14 09:08:04 2025 +0200",
           "timestamp": 1763104084,
           "url": "https://github.com/AxionAOSP/android_packages_apps_Car_Settings/commit/6576ac96"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Car_SystemUI",
+      "path": "packages/apps/Car/SystemUI",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Car_SystemUI",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "9ea14ed8",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:09:11 2025 +0200",
+          "timestamp": 1763104151,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Car_SystemUI/commit/9ea14ed8"
         }
       ]
     },
@@ -14068,23 +13867,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_WallpaperPicker2",
-      "path": "packages/apps/WallpaperPicker2",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_WallpaperPicker2",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "73ff0b64",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:55 2025 +0200",
-          "timestamp": 1763050675,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_WallpaperPicker2/commit/73ff0b64"
-        }
-      ]
-    },
-    {
       "name": "android_packages_modules_Nfc",
       "path": "packages/modules/Nfc",
       "repo_url": "https://github.com/AxionAOSP/android_packages_modules_Nfc",
@@ -14098,6 +13880,23 @@
           "date": "Fri Nov 14 10:32:57 2025 +0200",
           "timestamp": 1763109177,
           "url": "https://github.com/AxionAOSP/android_packages_modules_Nfc/commit/20bdcc9e"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_WallpaperPicker2",
+      "path": "packages/apps/WallpaperPicker2",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_WallpaperPicker2",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "73ff0b64",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:55 2025 +0200",
+          "timestamp": 1763050675,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_WallpaperPicker2/commit/73ff0b64"
         }
       ]
     },

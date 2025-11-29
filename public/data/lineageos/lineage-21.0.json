@@ -1,18 +1,26 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-21.0",
-  "generated_at": "2025-11-28T11:34:00.889066+00:00",
-  "since_date": "2025-08-30",
+  "generated_at": "2025-11-29T05:37:34.968167+00:00",
+  "since_date": "2025-08-31",
   "total_projects": 58,
-  "total_commits": 304,
+  "total_commits": 305,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 87,
+      "commit_count": 88,
       "commits": [
+        {
+          "sha": "446887f",
+          "message": "wiki: Allow 15 fw for FP4",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 28 01:20:34 2025 +0200",
+          "timestamp": 1764285634,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/446887f"
+        },
         {
           "sha": "42682e4",
           "message": "wiki: Allow A16 FW for dodge and erhai",
@@ -2123,39 +2131,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Updater",
-      "path": "packages/apps/Updater",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Updater",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "55f2247",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 06:43:20 2025 +0000",
-          "timestamp": 1760597000,
-          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/55f2247"
-        },
-        {
-          "sha": "5f8be74",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 15:15:58 2025 +0000",
-          "timestamp": 1757949358,
-          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/5f8be74"
-        },
-        {
-          "sha": "68c33d9",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 17:00:09 2025 +0000",
-          "timestamp": 1756746009,
-          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/68c33d9"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_TvSettings",
       "path": "packages/apps/TvSettings",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_TvSettings",
@@ -2185,6 +2160,39 @@
           "date": "Mon Sep 1 17:00:09 2025 +0000",
           "timestamp": 1756746009,
           "url": "https://github.com/LineageOS/android_packages_apps_TvSettings/commit/8eea9d8"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Updater",
+      "path": "packages/apps/Updater",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Updater",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "55f2247",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 06:43:20 2025 +0000",
+          "timestamp": 1760597000,
+          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/55f2247"
+        },
+        {
+          "sha": "5f8be74",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 15:15:58 2025 +0000",
+          "timestamp": 1757949358,
+          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/5f8be74"
+        },
+        {
+          "sha": "68c33d9",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 1 17:00:09 2025 +0000",
+          "timestamp": 1756746009,
+          "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/68c33d9"
         }
       ]
     },
@@ -2689,23 +2697,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Backgrounds",
-      "path": "packages/apps/Backgrounds",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Backgrounds",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "7879ebe",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 17:00:01 2025 +0000",
-          "timestamp": 1756746001,
-          "url": "https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/7879ebe"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_AudioFX",
       "path": "packages/apps/AudioFX",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_AudioFX",
@@ -2723,19 +2714,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Contacts",
-      "path": "packages/apps/Contacts",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Contacts",
+      "name": "LineageOS/android_packages_apps_Backgrounds",
+      "path": "packages/apps/Backgrounds",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Backgrounds",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "d8d393f",
-          "message": "Merge tag 'android-security-14.0.0_r22' into staging/lineage-21.0_android-security-14.0.0_r22",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Sep 11 06:09:06 2025 -0600",
-          "timestamp": 1757592546,
-          "url": "https://github.com/LineageOS/android_packages_apps_Contacts/commit/d8d393f"
+          "sha": "7879ebe",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 1 17:00:01 2025 +0000",
+          "timestamp": 1756746001,
+          "url": "https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/7879ebe"
         }
       ]
     },
@@ -2753,6 +2744,23 @@
           "date": "Mon Sep 1 17:00:02 2025 +0000",
           "timestamp": 1756746002,
           "url": "https://github.com/LineageOS/android_packages_apps_Car_Settings/commit/39a0ad3e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Contacts",
+      "path": "packages/apps/Contacts",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Contacts",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d8d393f",
+          "message": "Merge tag 'android-security-14.0.0_r22' into staging/lineage-21.0_android-security-14.0.0_r22",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Sep 11 06:09:06 2025 -0600",
+          "timestamp": 1757592546,
+          "url": "https://github.com/LineageOS/android_packages_apps_Contacts/commit/d8d393f"
         }
       ]
     },
