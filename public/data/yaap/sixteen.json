@@ -1,8 +1,8 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-11-29T05:40:13.378265+00:00",
-  "since_date": "2025-08-31",
+  "generated_at": "2025-11-30T01:29:01.638962+00:00",
+  "since_date": "2025-09-01",
   "total_projects": 49,
   "total_commits": 294,
   "projects": [
@@ -2188,39 +2188,6 @@
       ]
     },
     {
-      "name": "packages_modules_Connectivity",
-      "path": "packages/modules/Connectivity",
-      "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "ba87078",
-          "message": "Remove pending BT request when service disconnects",
-          "author": "Quang Anh Luong",
-          "date": "Wed Oct 1 11:25:20 2025 -0400",
-          "timestamp": 1759332320,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ba87078"
-        },
-        {
-          "sha": "8fbb1f8",
-          "message": "clatd: disable seccomp",
-          "author": "Maciej Żenczykowski",
-          "date": "Wed Oct 1 11:25:20 2025 -0400",
-          "timestamp": 1759332320,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/8fbb1f8"
-        },
-        {
-          "sha": "0377f8d",
-          "message": "Fix NetworkAgent 4-way binder interlock",
-          "author": "Chalard Jean",
-          "date": "Wed Oct 1 11:25:11 2025 -0400",
-          "timestamp": 1759332311,
-          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/0377f8d"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_Launcher3",
       "path": "packages/apps/Launcher3",
       "repo_url": "https://github.com/yaap/packages_apps_Launcher3",
@@ -2250,6 +2217,39 @@
           "date": "Thu Oct 9 13:20:19 2025 +0300",
           "timestamp": 1760005219,
           "url": "https://github.com/yaap/packages_apps_Launcher3/commit/dea667483"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Connectivity",
+      "path": "packages/modules/Connectivity",
+      "repo_url": "https://github.com/yaap/packages_modules_Connectivity",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "ba87078",
+          "message": "Remove pending BT request when service disconnects",
+          "author": "Quang Anh Luong",
+          "date": "Wed Oct 1 11:25:20 2025 -0400",
+          "timestamp": 1759332320,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/ba87078"
+        },
+        {
+          "sha": "8fbb1f8",
+          "message": "clatd: disable seccomp",
+          "author": "Maciej Żenczykowski",
+          "date": "Wed Oct 1 11:25:20 2025 -0400",
+          "timestamp": 1759332320,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/8fbb1f8"
+        },
+        {
+          "sha": "0377f8d",
+          "message": "Fix NetworkAgent 4-way binder interlock",
+          "author": "Chalard Jean",
+          "date": "Wed Oct 1 11:25:11 2025 -0400",
+          "timestamp": 1759332311,
+          "url": "https://github.com/yaap/packages_modules_Connectivity/commit/0377f8d"
         }
       ]
     },
@@ -2353,31 +2353,6 @@
       ]
     },
     {
-      "name": "android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy-legacy-um",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "7f5546d",
-          "message": "legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Wed Oct 29 12:06:27 2025 +0100",
-          "timestamp": 1761735987,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d"
-        },
-        {
-          "sha": "84f88f7",
-          "message": "sepolicy: Move hal_soter attribute to public",
-          "author": "LuK1337",
-          "date": "Wed Oct 29 11:39:55 2025 +0100",
-          "timestamp": 1761734395,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7"
-        }
-      ]
-    },
-    {
       "name": "android_build_release",
       "path": "build/release",
       "repo_url": "https://github.com/LineageOS/android_build_release",
@@ -2399,6 +2374,31 @@
           "date": "Fri Sep 26 14:19:52 2025 +0200",
           "timestamp": 1758889192,
           "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
+        }
+      ]
+    },
+    {
+      "name": "android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "7f5546d",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 12:06:27 2025 +0100",
+          "timestamp": 1761735987,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d"
+        },
+        {
+          "sha": "84f88f7",
+          "message": "sepolicy: Move hal_soter attribute to public",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 11:39:55 2025 +0100",
+          "timestamp": 1761734395,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7"
         }
       ]
     },
@@ -2528,23 +2528,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/sdm845/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d5ad5c1",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:16 2025 +0000",
-          "timestamp": 1757258836,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1"
-        }
-      ]
-    },
-    {
       "name": "android_frameworks_proto_logging",
       "path": "frameworks/proto_logging",
       "repo_url": "https://github.com/LineageOS/android_frameworks_proto_logging",
@@ -2558,6 +2541,23 @@
           "date": "Fri Sep 26 14:20:57 2025 +0200",
           "timestamp": 1758889257,
           "url": "https://github.com/LineageOS/android_frameworks_proto_logging/commit/fcbbaa85"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sdm845/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d5ad5c1",
+          "message": "hal: audio_extn: Add argument to pthread routines",
+          "author": "danielml",
+          "date": "Sun Sep 7 15:27:16 2025 +0000",
+          "timestamp": 1757258836,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1"
         }
       ]
     },

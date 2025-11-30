@@ -1,8 +1,8 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2025-11-29T05:38:06.486786+00:00",
-  "since_date": "2025-08-31",
+  "generated_at": "2025-11-30T01:26:23.102213+00:00",
+  "since_date": "2025-09-01",
   "total_projects": 87,
   "total_commits": 455,
   "projects": [
@@ -11,8 +11,16 @@
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 88,
+      "commit_count": 89,
       "commits": [
+        {
+          "sha": "4f75f44",
+          "message": "avalon/caihong/waffle: Bump FW to match OOS 16 release",
+          "author": "chandu078",
+          "date": "Sun Nov 30 00:08:44 2025 +0000",
+          "timestamp": 1764461324,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/4f75f44"
+        },
         {
           "sha": "446887f",
           "message": "wiki: Allow 15 fw for FP4",
@@ -724,8 +732,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 40,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "fadc405",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 29 23:30:47 2025 +0000",
+          "timestamp": 1764459047,
+          "url": "https://github.com/LineageOS/hudson/commit/fadc405"
+        },
         {
           "sha": "b3b5d56",
           "message": "sake: Promote to 23.0",
@@ -2016,79 +2032,6 @@
       ]
     },
     {
-      "name": "LineageOS/android",
-      "path": "android",
-      "repo_url": "https://github.com/LineageOS/android",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "fff92ac",
-          "message": "manifest: Track vendor/apn",
-          "author": "LuK1337",
-          "date": "Wed Nov 12 04:31:17 2025 +0000",
-          "timestamp": 1762921877,
-          "url": "https://github.com/LineageOS/android/commit/fff92ac"
-        },
-        {
-          "sha": "e3c809a",
-          "message": "manifest: Remove sdm845 HAL guards",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 14 11:34:50 2025 +0300",
-          "timestamp": 1757838890,
-          "url": "https://github.com/LineageOS/android/commit/e3c809a"
-        },
-        {
-          "sha": "88f4b20",
-          "message": "manifest: Remove sm8150 HAL guards",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:17:14 2025 +0300",
-          "timestamp": 1757517434,
-          "url": "https://github.com/LineageOS/android/commit/88f4b20"
-        },
-        {
-          "sha": "60e32f9",
-          "message": "manifest: Remove sm7250 HAL guards",
-          "author": "Michael Bestas",
-          "date": "Tue Sep 9 22:53:30 2025 +0300",
-          "timestamp": 1757447610,
-          "url": "https://github.com/LineageOS/android/commit/60e32f9"
-        },
-        {
-          "sha": "7680485",
-          "message": "manifest: September 2025 Security Update",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 7 17:28:23 2025 +0000",
-          "timestamp": 1757266103,
-          "url": "https://github.com/LineageOS/android/commit/7680485"
-        },
-        {
-          "sha": "a015876",
-          "message": "lineage: Remove Android.mk guard for msm8998/sdm845",
-          "author": "Nolen Johnson",
-          "date": "Tue Sep 2 16:12:48 2025 +0000",
-          "timestamp": 1756829568,
-          "url": "https://github.com/LineageOS/android/commit/a015876"
-        },
-        {
-          "sha": "8eb98ef",
-          "message": "lineage: Remove Android.mk guard for msm8953",
-          "author": "Yumi Yukimura",
-          "date": "Mon Sep 1 16:37:28 2025 +0800",
-          "timestamp": 1756715848,
-          "url": "https://github.com/LineageOS/android/commit/8eb98ef"
-        },
-        {
-          "sha": "e22380c",
-          "message": "lineage: Remove Android.mk guard for sdm660",
-          "author": "LuK1337",
-          "date": "Sun Aug 31 12:49:32 2025 +0000",
-          "timestamp": 1756644572,
-          "url": "https://github.com/LineageOS/android/commit/e22380c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_sm8150_display",
       "path": "hardware/qcom/sm8150/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
@@ -2158,6 +2101,71 @@
           "date": "Wed Sep 10 17:10:59 2025 +0300",
           "timestamp": 1757513459,
           "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cf6f59d"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android",
+      "path": "android",
+      "repo_url": "https://github.com/LineageOS/android",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "fff92ac",
+          "message": "manifest: Track vendor/apn",
+          "author": "LuK1337",
+          "date": "Wed Nov 12 04:31:17 2025 +0000",
+          "timestamp": 1762921877,
+          "url": "https://github.com/LineageOS/android/commit/fff92ac"
+        },
+        {
+          "sha": "e3c809a",
+          "message": "manifest: Remove sdm845 HAL guards",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 14 11:34:50 2025 +0300",
+          "timestamp": 1757838890,
+          "url": "https://github.com/LineageOS/android/commit/e3c809a"
+        },
+        {
+          "sha": "88f4b20",
+          "message": "manifest: Remove sm8150 HAL guards",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 10 18:17:14 2025 +0300",
+          "timestamp": 1757517434,
+          "url": "https://github.com/LineageOS/android/commit/88f4b20"
+        },
+        {
+          "sha": "60e32f9",
+          "message": "manifest: Remove sm7250 HAL guards",
+          "author": "Michael Bestas",
+          "date": "Tue Sep 9 22:53:30 2025 +0300",
+          "timestamp": 1757447610,
+          "url": "https://github.com/LineageOS/android/commit/60e32f9"
+        },
+        {
+          "sha": "7680485",
+          "message": "manifest: September 2025 Security Update",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 7 17:28:23 2025 +0000",
+          "timestamp": 1757266103,
+          "url": "https://github.com/LineageOS/android/commit/7680485"
+        },
+        {
+          "sha": "a015876",
+          "message": "lineage: Remove Android.mk guard for msm8998/sdm845",
+          "author": "Nolen Johnson",
+          "date": "Tue Sep 2 16:12:48 2025 +0000",
+          "timestamp": 1756829568,
+          "url": "https://github.com/LineageOS/android/commit/a015876"
+        },
+        {
+          "sha": "8eb98ef",
+          "message": "lineage: Remove Android.mk guard for msm8953",
+          "author": "Yumi Yukimura",
+          "date": "Mon Sep 1 16:37:28 2025 +0800",
+          "timestamp": 1756715848,
+          "url": "https://github.com/LineageOS/android/commit/8eb98ef"
         }
       ]
     },
@@ -2986,47 +2994,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_tools_extract-utils",
-      "path": "tools/extract-utils",
-      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "3f351b8",
-          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8"
-        },
-        {
-          "sha": "6e43900",
-          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/6e43900"
-        },
-        {
-          "sha": "e34475c",
-          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/e34475c"
-        },
-        {
-          "sha": "01769aa",
-          "message": "extract_utils: support `REQUIRED` for bin/lib targets",
-          "author": "LuK1337",
-          "date": "Sun Aug 31 23:25:04 2025 +0200",
-          "timestamp": 1756675504,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/01769aa"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/www",
       "path": "lineage/website",
       "repo_url": "https://github.com/LineageOS/www",
@@ -3167,39 +3134,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "path": "external/chromium-webview/prebuilt/arm64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "70d1609",
-          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:03 2025 -0700",
-          "timestamp": 1762617483,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
-        },
-        {
-          "sha": "30034c7",
-          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:16 2025 -0600",
-          "timestamp": 1760795836,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
-        },
-        {
-          "sha": "6760647",
-          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:45 2025 -0600",
-          "timestamp": 1758982965,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -3262,6 +3196,39 @@
           "date": "Sat Sep 27 08:22:39 2025 -0600",
           "timestamp": 1758982959,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "70d1609",
+          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:03 2025 -0700",
+          "timestamp": 1762617483,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
+        },
+        {
+          "sha": "30034c7",
+          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:16 2025 -0600",
+          "timestamp": 1760795836,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
+        },
+        {
+          "sha": "6760647",
+          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:45 2025 -0600",
+          "timestamp": 1758982965,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
         }
       ]
     },
@@ -3559,6 +3526,39 @@
           "date": "Tue Nov 11 10:34:07 2025 +0100",
           "timestamp": 1762853647,
           "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_tools_extract-utils",
+      "path": "tools/extract-utils",
+      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "3f351b8",
+          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8"
+        },
+        {
+          "sha": "6e43900",
+          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/6e43900"
+        },
+        {
+          "sha": "e34475c",
+          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/e34475c"
         }
       ]
     },
@@ -4141,23 +4141,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Backgrounds",
-      "path": "packages/apps/Backgrounds",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Backgrounds",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "3cdba90",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_AudioFX",
       "path": "packages/apps/AudioFX",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_AudioFX",
@@ -4171,6 +4154,23 @@
           "date": "Mon Sep 1 14:54:31 2025 +0000",
           "timestamp": 1756738471,
           "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/28ddf22"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Backgrounds",
+      "path": "packages/apps/Backgrounds",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Backgrounds",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "3cdba90",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 1 14:54:32 2025 +0000",
+          "timestamp": 1756738472,
+          "url": "https://github.com/LineageOS/android_packages_apps_Backgrounds/commit/3cdba90"
         }
       ]
     },

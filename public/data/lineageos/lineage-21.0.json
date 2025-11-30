@@ -1,18 +1,26 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-21.0",
-  "generated_at": "2025-11-29T05:37:34.968167+00:00",
-  "since_date": "2025-08-31",
+  "generated_at": "2025-11-30T01:25:46.858314+00:00",
+  "since_date": "2025-09-01",
   "total_projects": 58,
-  "total_commits": 305,
+  "total_commits": 307,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 88,
+      "commit_count": 89,
       "commits": [
+        {
+          "sha": "4f75f44",
+          "message": "avalon/caihong/waffle: Bump FW to match OOS 16 release",
+          "author": "chandu078",
+          "date": "Sun Nov 30 00:08:44 2025 +0000",
+          "timestamp": 1764461324,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/4f75f44"
+        },
         {
           "sha": "446887f",
           "message": "wiki: Allow 15 fw for FP4",
@@ -724,8 +732,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 40,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "fadc405",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 29 23:30:47 2025 +0000",
+          "timestamp": 1764459047,
+          "url": "https://github.com/LineageOS/hudson/commit/fadc405"
+        },
         {
           "sha": "b3b5d56",
           "message": "sake: Promote to 23.0",
@@ -2131,39 +2147,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_TvSettings",
-      "path": "packages/apps/TvSettings",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_TvSettings",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "61e1ec1",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 21:52:20 2025 +0000",
-          "timestamp": 1759355540,
-          "url": "https://github.com/LineageOS/android_packages_apps_TvSettings/commit/61e1ec1"
-        },
-        {
-          "sha": "5aa278b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 15:15:58 2025 +0000",
-          "timestamp": 1757949358,
-          "url": "https://github.com/LineageOS/android_packages_apps_TvSettings/commit/5aa278b"
-        },
-        {
-          "sha": "8eea9d8",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 17:00:09 2025 +0000",
-          "timestamp": 1756746009,
-          "url": "https://github.com/LineageOS/android_packages_apps_TvSettings/commit/8eea9d8"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Updater",
       "path": "packages/apps/Updater",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Updater",
@@ -2193,6 +2176,39 @@
           "date": "Mon Sep 1 17:00:09 2025 +0000",
           "timestamp": 1756746009,
           "url": "https://github.com/LineageOS/android_packages_apps_Updater/commit/68c33d9"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_TvSettings",
+      "path": "packages/apps/TvSettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_TvSettings",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "61e1ec1",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 21:52:20 2025 +0000",
+          "timestamp": 1759355540,
+          "url": "https://github.com/LineageOS/android_packages_apps_TvSettings/commit/61e1ec1"
+        },
+        {
+          "sha": "5aa278b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 15:15:58 2025 +0000",
+          "timestamp": 1757949358,
+          "url": "https://github.com/LineageOS/android_packages_apps_TvSettings/commit/5aa278b"
+        },
+        {
+          "sha": "8eea9d8",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 1 17:00:09 2025 +0000",
+          "timestamp": 1756746009,
+          "url": "https://github.com/LineageOS/android_packages_apps_TvSettings/commit/8eea9d8"
         }
       ]
     },

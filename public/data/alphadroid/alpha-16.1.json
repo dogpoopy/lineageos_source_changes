@@ -1,1620 +1,11 @@
 {
   "rom_id": "alphadroid",
   "branch": "alpha-16.1",
-  "generated_at": "2025-11-29T05:44:56.957096+00:00",
-  "since_date": "2025-08-31",
+  "generated_at": "2025-11-30T01:34:38.938415+00:00",
+  "since_date": "2025-09-01",
   "total_projects": 27,
-  "total_commits": 583,
+  "total_commits": 514,
   "projects": [
-    {
-      "name": "vendor_alpha",
-      "path": "vendor/alpha",
-      "repo_url": "https://github.com/alphadroid-project/vendor_alpha",
-      "remote": "alpha",
-      "commit_count": 200,
-      "commits": [
-        {
-          "sha": "29ccb61",
-          "message": "Alpha 4.2",
-          "author": "elpaablo",
-          "date": "Sat Nov 29 01:48:12 2025 +0000",
-          "timestamp": 1764380892,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/29ccb61"
-        },
-        {
-          "sha": "d0f219d",
-          "message": "overlay: Use google sans flex for lockscreen clock",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 27 21:56:48 2025 +0000",
-          "timestamp": 1764280608,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/d0f219d"
-        },
-        {
-          "sha": "9893b8a",
-          "message": "overlay: Remove duplicate DPS config",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 27 21:56:48 2025 +0000",
-          "timestamp": 1764280608,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9893b8a"
-        },
-        {
-          "sha": "7c7595f",
-          "message": "Update blur support",
-          "author": "rmp22",
-          "date": "Thu Nov 27 21:56:47 2025 +0000",
-          "timestamp": 1764280607,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7c7595f"
-        },
-        {
-          "sha": "58bdc92",
-          "message": "Build LMO systemui clock plugin",
-          "author": "Dhina17",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/58bdc92"
-        },
-        {
-          "sha": "2d7dd7e",
-          "message": "envsetup: Set crdroid path for Pixel OOT kernel build",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2d7dd7e"
-        },
-        {
-          "sha": "35d1b79",
-          "message": "Do not install matlog and updater in private space",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/35d1b79"
-        },
-        {
-          "sha": "cde6a03",
-          "message": "build: Ship adb_root only WITH_SU",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/cde6a03"
-        },
-        {
-          "sha": "0780d8b",
-          "message": "Include vendor/certification when available",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0780d8b"
-        },
-        {
-          "sha": "b342687",
-          "message": "release: Re-enable launcher blur flags",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b342687"
-        },
-        {
-          "sha": "68584db",
-          "message": "overlay: enable ambient burn in protection",
-          "author": "rmp22",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/68584db"
-        },
-        {
-          "sha": "f0dbf9e",
-          "message": "component-overrides: Force disable google settings intelligence injects",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f0dbf9e"
-        },
-        {
-          "sha": "7334ea9",
-          "message": "overlay: Enable keyboard vibration",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7334ea9"
-        },
-        {
-          "sha": "9b280d5",
-          "message": "overlay: SystemUI: Add plugin whitelist",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9b280d5"
-        },
-        {
-          "sha": "72c293a",
-          "message": "overlay: SystemUI: Tune new biometric dialog UI",
-          "author": "Adithya R",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/72c293a"
-        },
-        {
-          "sha": "4e7e81c",
-          "message": "overlay: Enable split shade for notifications in landscape",
-          "author": "rmp22",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/4e7e81c"
-        },
-        {
-          "sha": "66b5f12",
-          "message": "release: Disable apply_picture_profiles",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/66b5f12"
-        },
-        {
-          "sha": "39e0940",
-          "message": "release: Disable lpp squeeze effect",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/39e0940"
-        },
-        {
-          "sha": "c0a80dd",
-          "message": "release: Generate themed/monochrome icons for all apps",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c0a80dd"
-        },
-        {
-          "sha": "33e96fc",
-          "message": "release: Disable ambient AOD",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/33e96fc"
-        },
-        {
-          "sha": "31aea5f",
-          "message": "release: Remove glanceable hub",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/31aea5f"
-        },
-        {
-          "sha": "853531e",
-          "message": "release: Remove some useless notification flags",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/853531e"
-        },
-        {
-          "sha": "b794287",
-          "message": "release: Remove flag for using emphasized font family for shade header",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b794287"
-        },
-        {
-          "sha": "ddb13ed",
-          "message": "release: Remove glitchy depth push scaling effect",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ddb13ed"
-        },
-        {
-          "sha": "513b009",
-          "message": "release: Drop notification themed icons",
-          "author": "Joey Huab",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/513b009"
-        },
-        {
-          "sha": "12458ba",
-          "message": "release: drop more launcher flags",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/12458ba"
-        },
-        {
-          "sha": "2a5d1ca",
-          "message": "release: drop more flags",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2a5d1ca"
-        },
-        {
-          "sha": "f118dbc",
-          "message": "release: Disable enroll_layout_truncate_improvement",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f118dbc"
-        },
-        {
-          "sha": "280e3a9",
-          "message": "release: Remove notifications redesign templates flag",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/280e3a9"
-        },
-        {
-          "sha": "2ff5d29",
-          "message": "release: Disable thumbnail_block_model flag",
-          "author": "ahnet-69",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2ff5d29"
-        },
-        {
-          "sha": "0b9f6de",
-          "message": "release: Enable android.app flags",
-          "author": "Vaisakh Murali",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0b9f6de"
-        },
-        {
-          "sha": "0397131",
-          "message": "release: drop launcher blur",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0397131"
-        },
-        {
-          "sha": "c1ee77f",
-          "message": "release: Re-add transparent notification",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c1ee77f"
-        },
-        {
-          "sha": "01def9e",
-          "message": "release: more flag changes",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/01def9e"
-        },
-        {
-          "sha": "898e17e",
-          "message": "release: enable more flags",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/898e17e"
-        },
-        {
-          "sha": "3ec551a",
-          "message": "release: drop low_light_clock_dream",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3ec551a"
-        },
-        {
-          "sha": "b579daa",
-          "message": "release: drop some flags",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b579daa"
-        },
-        {
-          "sha": "1a998a4",
-          "message": "release: drop new sb icons",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/1a998a4"
-        },
-        {
-          "sha": "b4938ed",
-          "message": "release: Enable WallpaperPicker2 flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b4938ed"
-        },
-        {
-          "sha": "e0732fe",
-          "message": "release: Enable SystemUI flags (com.android.systemui.shared)",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e0732fe"
-        },
-        {
-          "sha": "6ad2208",
-          "message": "release: Enable SystemUI flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6ad2208"
-        },
-        {
-          "sha": "eb13060",
-          "message": "release: Enable SettingsLib flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/eb13060"
-        },
-        {
-          "sha": "6c067f7",
-          "message": "release: Enable Settings flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6c067f7"
-        },
-        {
-          "sha": "fd3ffd1",
-          "message": "release: Enable Launcher3 flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/fd3ffd1"
-        },
-        {
-          "sha": "5ae6b64",
-          "message": "overlay: Make Google Sans the default headline font",
-          "author": "Sourajit Karmakar",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5ae6b64"
-        },
-        {
-          "sha": "64dae4e",
-          "message": "Move adb_root outside userbuild",
-          "author": "vinh0212",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/64dae4e"
-        },
-        {
-          "sha": "9529903",
-          "message": "Adding an option to build DeviceAsWebcam",
-          "author": "ShevT",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9529903"
-        },
-        {
-          "sha": "e1443a2",
-          "message": "Allow disabling MatLog",
-          "author": "ShevT",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e1443a2"
-        },
-        {
-          "sha": "5e9eed5",
-          "message": "generate json at build time",
-          "author": "Lup Gabriel",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5e9eed5"
-        },
-        {
-          "sha": "7e0f5c4",
-          "message": "component-overrides: Force disable various google components",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7e0f5c4"
-        },
-        {
-          "sha": "c45f079",
-          "message": "Conditionally build ColumbusService",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c45f079"
-        },
-        {
-          "sha": "5ed0fcf",
-          "message": "Move face unlock biometric permission to system_ext",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5ed0fcf"
-        },
-        {
-          "sha": "7410213",
-          "message": "Switch to AOSPA's face unlock implementation",
-          "author": "ponces",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7410213"
-        },
-        {
-          "sha": "6c6b30b",
-          "message": "Build LMO Freeform app and sidebar",
-          "author": "Adithya R",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6c6b30b"
-        },
-        {
-          "sha": "00c2d35",
-          "message": "Build GameSpace",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/00c2d35"
-        },
-        {
-          "sha": "1e58fc0",
-          "message": "Build BatteryStatsViewer",
-          "author": "Oliver Scott",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/1e58fc0"
-        },
-        {
-          "sha": "9044afb",
-          "message": "overlay: Add gms location history to extra location packages",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9044afb"
-        },
-        {
-          "sha": "71c9df2",
-          "message": "overlay: Add tethering to location exemption",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/71c9df2"
-        },
-        {
-          "sha": "cbc23b0",
-          "message": "overlay: Add SystemUI to location extra packages",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/cbc23b0"
-        },
-        {
-          "sha": "a474463",
-          "message": "overlay: Add OmniJaws to location extra packages",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/a474463"
-        },
-        {
-          "sha": "372ccbd",
-          "message": "Build OmniJaws service",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/372ccbd"
-        },
-        {
-          "sha": "8004584",
-          "message": "Build OmniStyle",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/8004584"
-        },
-        {
-          "sha": "712fb07",
-          "message": "config: Enable Material Design 3 Expressive",
-          "author": "techyminati",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/712fb07"
-        },
-        {
-          "sha": "37458a8",
-          "message": "overlay: DeviceConfig: update nearby flags",
-          "author": "John Galt",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/37458a8"
-        },
-        {
-          "sha": "2418842",
-          "message": "soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2418842"
-        },
-        {
-          "sha": "9029de9",
-          "message": "soong: Add support for vendor tag with client package name to select",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9029de9"
-        },
-        {
-          "sha": "efec9e8",
-          "message": "build: Override host metadata",
-          "author": "rmp22",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/efec9e8"
-        },
-        {
-          "sha": "31c9869",
-          "message": "kernel: Set \"safe\" default values for kernel build host & user",
-          "author": "Terminator-J",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/31c9869"
-        },
-        {
-          "sha": "0cb4080",
-          "message": "roomservice.py: use -j2 for repo sync",
-          "author": "Lup Gabriel",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0cb4080"
-        },
-        {
-          "sha": "7db6c88",
-          "message": "overlay: Remove bouncer delay when face unlock is enabled",
-          "author": "Adithya R",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7db6c88"
-        },
-        {
-          "sha": "669bf19",
-          "message": "rro_overlay: Use headline font for PermissionController",
-          "author": "ViShal69x",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/669bf19"
-        },
-        {
-          "sha": "1ff12c0",
-          "message": "overlay: device_config: Updates",
-          "author": "someone5678",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/1ff12c0"
-        },
-        {
-          "sha": "0ad1b37",
-          "message": "overlay: device_config: Add values required for Speech Recognition",
-          "author": "cyberknight777",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0ad1b37"
-        },
-        {
-          "sha": "bcc942c",
-          "message": "overlay: device_config: Escape special characters",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/bcc942c"
-        },
-        {
-          "sha": "27f1d19",
-          "message": "overlay: device_config: animate navbar on long press",
-          "author": "aswin7469",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/27f1d19"
-        },
-        {
-          "sha": "29b15d4",
-          "message": "overlay: Update circle to search overlays for vanilla builds",
-          "author": "rmp22",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/29b15d4"
-        },
-        {
-          "sha": "0f0d818",
-          "message": "overlay: Enable circle to search",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0f0d818"
-        },
-        {
-          "sha": "633cbbf",
-          "message": "overlay: Use google-sans for font config overlays",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/633cbbf"
-        },
-        {
-          "sha": "7047395",
-          "message": "Remove packages moved to addons",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7047395"
-        },
-        {
-          "sha": "e9659bc",
-          "message": "Moved bootanimation to addons",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e9659bc"
-        },
-        {
-          "sha": "c0194ea",
-          "message": "Clean up wallpaper overlay",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c0194ea"
-        },
-        {
-          "sha": "8d58f9e",
-          "message": "Do not clone default AudioFX app",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/8d58f9e"
-        },
-        {
-          "sha": "c6a78d7",
-          "message": "Disable default frame rate limit for games",
-          "author": "HeCheng Yu",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c6a78d7"
-        },
-        {
-          "sha": "a9c57a1",
-          "message": "config: Optimize Launcher3 and Settings for speed",
-          "author": "Andrzej Perczak",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/a9c57a1"
-        },
-        {
-          "sha": "3b6c487",
-          "message": "Disable memtag for different processes",
-          "author": "minaripenguin",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3b6c487"
-        },
-        {
-          "sha": "f60e3bd",
-          "message": "Execute changelog script once at a time",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f60e3bd"
-        },
-        {
-          "sha": "2882fe1",
-          "message": "Add changelog script",
-          "author": "Lup Gabriel",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2882fe1"
-        },
-        {
-          "sha": "ded8e2c",
-          "message": "overlay: update configs for AiAi",
-          "author": "Ionut Gherman",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ded8e2c"
-        },
-        {
-          "sha": "11d919e",
-          "message": "overlay: Update device configs global overrides",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/11d919e"
-        },
-        {
-          "sha": "0120254",
-          "message": "overlay: Offload WM shell to another thread",
-          "author": "Danny Lin",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0120254"
-        },
-        {
-          "sha": "add72d3",
-          "message": "overlay: Update SettingsProvider defaults",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/add72d3"
-        },
-        {
-          "sha": "6386147",
-          "message": "Update clone exemption list",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6386147"
-        },
-        {
-          "sha": "a1b70f1",
-          "message": "Add preinstalled package list to stop auto cloning",
-          "author": "John Galt",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/a1b70f1"
-        },
-        {
-          "sha": "5bb88c5",
-          "message": "overlay: Enable app-cloning feature in Settings",
-          "author": "minaripenguin",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5bb88c5"
-        },
-        {
-          "sha": "52083a8",
-          "message": "overlay: Settings: Show memory usage in app info",
-          "author": "Danny Lin",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/52083a8"
-        },
-        {
-          "sha": "c119f43",
-          "message": "device_config: Enable Cloned App",
-          "author": "aswin7469",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c119f43"
-        },
-        {
-          "sha": "2892813",
-          "message": "overlay: Update clock plugin list",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2892813"
-        },
-        {
-          "sha": "cc2bec4",
-          "message": "overlay: Allow new SystemUI clocks",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/cc2bec4"
-        },
-        {
-          "sha": "fda2fd3",
-          "message": "overlay: Set AOSP webview as fallback",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/fda2fd3"
-        },
-        {
-          "sha": "8b513d1",
-          "message": "build: Enable ThinLTO cache",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/8b513d1"
-        },
-        {
-          "sha": "034c1de",
-          "message": "Add missing lock/unlock sounds",
-          "author": "elpaablo",
-          "date": "Tue Nov 4 01:02:51 2025 +0000",
-          "timestamp": 1762218171,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/034c1de"
-        },
-        {
-          "sha": "2f7087f",
-          "message": "Refractor BoardConfigReservedSize",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 21:53:06 2025 +0000",
-          "timestamp": 1762120386,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2f7087f"
-        },
-        {
-          "sha": "9c6a83f",
-          "message": "Import vendor/addons overlays",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 21:53:05 2025 +0000",
-          "timestamp": 1762120385,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9c6a83f"
-        },
-        {
-          "sha": "0f25f5e",
-          "message": "build_setup.sh: sync with build/make/envsetup.sh",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 21:53:05 2025 +0000",
-          "timestamp": 1762120385,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0f25f5e"
-        },
-        {
-          "sha": "efff09a",
-          "message": "Update gms config",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 21:53:05 2025 +0000",
-          "timestamp": 1762120385,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/efff09a"
-        },
-        {
-          "sha": "c2e3c5b",
-          "message": "Alpha 4.1",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 21:53:05 2025 +0000",
-          "timestamp": 1762120385,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c2e3c5b"
-        },
-        {
-          "sha": "5f083dd",
-          "message": "crdroid: Do not install matlog and updater in private space",
-          "author": "Pranav Vashi",
-          "date": "Fri Oct 31 04:16:27 2025 +0530",
-          "timestamp": 1761864387,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5f083dd"
-        },
-        {
-          "sha": "08473b5",
-          "message": "envsetup: Set crdroid path for Pixel OOT kernel build",
-          "author": "Pranav Vashi",
-          "date": "Thu Oct 30 23:45:48 2025 +0530",
-          "timestamp": 1761848148,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/08473b5"
-        },
-        {
-          "sha": "27e6346",
-          "message": "envsetup: Add build_kernel function for Pixel OOT kernel build",
-          "author": "Michael Bestas",
-          "date": "Thu Oct 30 23:31:06 2025 +0530",
-          "timestamp": 1761847266,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/27e6346"
-        },
-        {
-          "sha": "f799f46",
-          "message": "Merge pull request #72 from Olzhas-Kdyr/16.0",
-          "author": "Pranav Vashi",
-          "date": "Thu Oct 23 14:28:32 2025 +0530",
-          "timestamp": 1761209912,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f799f46"
-        },
-        {
-          "sha": "0436095",
-          "message": "apn: Add Altel and Tele2",
-          "author": "Tejas Singh",
-          "date": "Thu Oct 23 04:55:59 2025 +0000",
-          "timestamp": 1761195359,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0436095"
-        },
-        {
-          "sha": "f1058a4",
-          "message": "build: Ship adb_root only WITH_SU",
-          "author": "Pranav Vashi",
-          "date": "Tue Oct 21 22:09:06 2025 +0530",
-          "timestamp": 1761064746,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f1058a4"
-        },
-        {
-          "sha": "55e0968",
-          "message": "crdroid: Include vendor/certification when available",
-          "author": "Pranav Vashi",
-          "date": "Fri Oct 17 18:41:16 2025 +0530",
-          "timestamp": 1760706676,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/55e0968"
-        },
-        {
-          "sha": "2f9cefb",
-          "message": "crdroid: Bump to version 12.2",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2f9cefb"
-        },
-        {
-          "sha": "b81c147",
-          "message": "release: Re-enable launcher blur flags",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b81c147"
-        },
-        {
-          "sha": "9457f72",
-          "message": "overlay: enable ambient burn in protection",
-          "author": "rmp22",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9457f72"
-        },
-        {
-          "sha": "e74bad8",
-          "message": "component-overrides: Force disable google settings intelligence injects",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e74bad8"
-        },
-        {
-          "sha": "31be3bb",
-          "message": "overlay: Enable keyboard vibration",
-          "author": "Dyneteve",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/31be3bb"
-        },
-        {
-          "sha": "ad528c7",
-          "message": "overlay: SystemUI: Add plugin whitelist",
-          "author": "Dyneteve",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ad528c7"
-        },
-        {
-          "sha": "503035e",
-          "message": "overlay: SystemUI: Tune new biometric dialog UI",
-          "author": "Adithya R",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/503035e"
-        },
-        {
-          "sha": "188eeb3",
-          "message": "overlay: Enable split shade for notifications in landscape",
-          "author": "rmp22",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/188eeb3"
-        },
-        {
-          "sha": "668aaea",
-          "message": "release: Disable apply_picture_profiles",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/668aaea"
-        },
-        {
-          "sha": "0eb6a43",
-          "message": "release: Disable lpp squeeze effect",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0eb6a43"
-        },
-        {
-          "sha": "e054d03",
-          "message": "release: Generate themed/monochrome icons for all apps",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e054d03"
-        },
-        {
-          "sha": "518b4f5",
-          "message": "release: Disable ambient AOD",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/518b4f5"
-        },
-        {
-          "sha": "de2d8ed",
-          "message": "release: Remove glanceable hub",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/de2d8ed"
-        },
-        {
-          "sha": "2ccb7ae",
-          "message": "release: Remove some useless notification flags",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2ccb7ae"
-        },
-        {
-          "sha": "f89504a",
-          "message": "release: Remove flag for using emphasized font family for shade header",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f89504a"
-        },
-        {
-          "sha": "c86f5bf",
-          "message": "release: Remove glitchy depth push scaling effect",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c86f5bf"
-        },
-        {
-          "sha": "4a8f50e",
-          "message": "release: Drop notification themed icons",
-          "author": "Joey Huab",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/4a8f50e"
-        },
-        {
-          "sha": "10900bc",
-          "message": "release: drop more launcher flags",
-          "author": "Dmitrii",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/10900bc"
-        },
-        {
-          "sha": "64c9fb7",
-          "message": "release: drop more flags",
-          "author": "Dmitrii",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/64c9fb7"
-        },
-        {
-          "sha": "71f03ff",
-          "message": "release: Disable enroll_layout_truncate_improvement",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/71f03ff"
-        },
-        {
-          "sha": "f9f010c",
-          "message": "release: Remove notifications redesign templates flag",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f9f010c"
-        },
-        {
-          "sha": "5548378",
-          "message": "release: Disable thumbnail_block_model flag",
-          "author": "ahnet-69",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5548378"
-        },
-        {
-          "sha": "74495d7",
-          "message": "release: Enable android.app flags",
-          "author": "Vaisakh Murali",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/74495d7"
-        },
-        {
-          "sha": "0b05daa",
-          "message": "release: drop launcher blur",
-          "author": "Dmitrii",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0b05daa"
-        },
-        {
-          "sha": "0f39ee6",
-          "message": "release: Re-add transparent notification",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0f39ee6"
-        },
-        {
-          "sha": "ff9094f",
-          "message": "release: more flag changes",
-          "author": "Dmitrii",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ff9094f"
-        },
-        {
-          "sha": "ee8ef24",
-          "message": "release: enable more flags",
-          "author": "Dmitrii",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ee8ef24"
-        },
-        {
-          "sha": "09d3150",
-          "message": "release: drop low_light_clock_dream",
-          "author": "Dmitrii",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/09d3150"
-        },
-        {
-          "sha": "27e0536",
-          "message": "release: drop some flags",
-          "author": "Dmitrii",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/27e0536"
-        },
-        {
-          "sha": "3d087ad",
-          "message": "release: drop new sb icons",
-          "author": "Dmitrii",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3d087ad"
-        },
-        {
-          "sha": "d6261fb",
-          "message": "release: Enable WallpaperPicker2 flags",
-          "author": "ralph950412",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/d6261fb"
-        },
-        {
-          "sha": "d208e62",
-          "message": "release: Enable SystemUI flags (com.android.systemui.shared)",
-          "author": "ralph950412",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/d208e62"
-        },
-        {
-          "sha": "21c5042",
-          "message": "release: Enable SystemUI flags",
-          "author": "ralph950412",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/21c5042"
-        },
-        {
-          "sha": "df534b2",
-          "message": "release: Enable SettingsLib flags",
-          "author": "ralph950412",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/df534b2"
-        },
-        {
-          "sha": "5c09bc3",
-          "message": "release: Enable Settings flags",
-          "author": "ralph950412",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5c09bc3"
-        },
-        {
-          "sha": "1eeef22",
-          "message": "release: Enable Launcher3 flags",
-          "author": "ralph950412",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/1eeef22"
-        },
-        {
-          "sha": "783dc7f",
-          "message": "overlay: Make Google Sans the default headline font",
-          "author": "Sourajit Karmakar",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/783dc7f"
-        },
-        {
-          "sha": "ae1a2af",
-          "message": "Move adb_root outside userbuild",
-          "author": "vinh0212",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ae1a2af"
-        },
-        {
-          "sha": "10db0bb",
-          "message": "crdroid: Adding an option to build DeviceAsWebcam",
-          "author": "ShevT",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/10db0bb"
-        },
-        {
-          "sha": "02d96b0",
-          "message": "crdroid: Allow disabling MatLog",
-          "author": "ShevT",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/02d96b0"
-        },
-        {
-          "sha": "006d951",
-          "message": "crdroid: generate json at build time",
-          "author": "Lup Gabriel",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/006d951"
-        },
-        {
-          "sha": "af13305",
-          "message": "component-overrides: Force disable various google components",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/af13305"
-        },
-        {
-          "sha": "0935e44",
-          "message": "crdroid: Conditionally build ColumbusService",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0935e44"
-        },
-        {
-          "sha": "4ef930c",
-          "message": "crdroid: Move face unlock biometric permission to system_ext",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/4ef930c"
-        },
-        {
-          "sha": "45a046d",
-          "message": "crdroid: Switch to AOSPA's face unlock implementation",
-          "author": "ponces",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/45a046d"
-        },
-        {
-          "sha": "ae35a4a",
-          "message": "crdroid: Build LMO Freeform app and sidebar",
-          "author": "Adithya R",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ae35a4a"
-        },
-        {
-          "sha": "c493133",
-          "message": "crdroid: Build GameSpace",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c493133"
-        },
-        {
-          "sha": "ef8d2e2",
-          "message": "crdroid: Build BatteryStatsViewer",
-          "author": "Oliver Scott",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ef8d2e2"
-        },
-        {
-          "sha": "f07e2b3",
-          "message": "overlay: Add gms location history to extra location packages",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f07e2b3"
-        },
-        {
-          "sha": "f02fa5d",
-          "message": "overlay: Add tethering to location exemption",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f02fa5d"
-        },
-        {
-          "sha": "f9c0454",
-          "message": "overlay: Add SystemUI to location extra packages",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f9c0454"
-        },
-        {
-          "sha": "d00dd6b",
-          "message": "overlay: Add OmniJaws to location extra packages",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/d00dd6b"
-        },
-        {
-          "sha": "29140b2",
-          "message": "crdroid: Build OmniJaws service",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/29140b2"
-        },
-        {
-          "sha": "98aa13d",
-          "message": "crdroid: Build OmniStyle",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/98aa13d"
-        },
-        {
-          "sha": "3145be0",
-          "message": "config: Enable Material Design 3 Expressive",
-          "author": "techyminati",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3145be0"
-        },
-        {
-          "sha": "6026bc6",
-          "message": "overlay: DeviceConfig: update nearby flags",
-          "author": "John Galt",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6026bc6"
-        },
-        {
-          "sha": "8ab6e94",
-          "message": "soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/8ab6e94"
-        },
-        {
-          "sha": "3ec8086",
-          "message": "soong: Add support for vendor tag with client package name to select",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3ec8086"
-        },
-        {
-          "sha": "261b3b9",
-          "message": "build: Override host metadata",
-          "author": "rmp22",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/261b3b9"
-        },
-        {
-          "sha": "6efb9f2",
-          "message": "kernel: Set \"safe\" default values for kernel build host & user",
-          "author": "Terminator-J",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6efb9f2"
-        },
-        {
-          "sha": "1d363ad",
-          "message": "roomservice.py: use -j2 for repo sync",
-          "author": "Lup Gabriel",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/1d363ad"
-        },
-        {
-          "sha": "82bcbf1",
-          "message": "apns: Add 1and1 (Germany)",
-          "author": "Peter Meiser",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/82bcbf1"
-        },
-        {
-          "sha": "b1c5598",
-          "message": "apns: Use custom attribute type for {mms,}proxy",
-          "author": "LuK1337",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b1c5598"
-        },
-        {
-          "sha": "243de97",
-          "message": "overlay: Remove bouncer delay when face unlock is enabled",
-          "author": "Adithya R",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/243de97"
-        },
-        {
-          "sha": "a96747c",
-          "message": "rro_overlay: Use headline font for PermissionController",
-          "author": "ViShal69x",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/a96747c"
-        },
-        {
-          "sha": "c997fc6",
-          "message": "overlay: device_config: Updates",
-          "author": "someone5678",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c997fc6"
-        },
-        {
-          "sha": "f3a4a5b",
-          "message": "overlay: device_config: Add values required for Speech Recognition",
-          "author": "cyberknight777",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f3a4a5b"
-        },
-        {
-          "sha": "3aa2a09",
-          "message": "overlay: device_config: Escape special characters",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3aa2a09"
-        },
-        {
-          "sha": "2df62e7",
-          "message": "overlay: device_config: animate navbar on long press",
-          "author": "aswin7469",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2df62e7"
-        },
-        {
-          "sha": "2e3c392",
-          "message": "overlay: Update circle to search overlays for vanilla builds",
-          "author": "rmp22",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2e3c392"
-        },
-        {
-          "sha": "9bf12ff",
-          "message": "overlay: Enable circle to search",
-          "author": "Ido Ben-Hur",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9bf12ff"
-        },
-        {
-          "sha": "fddb8ad",
-          "message": "overlay: Use google-sans for font config overlays",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/fddb8ad"
-        },
-        {
-          "sha": "abf8e0f",
-          "message": "crdroid: Remove packages moved to addons",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/abf8e0f"
-        },
-        {
-          "sha": "e8f3518",
-          "message": "crdroid: Moved bootanimation to addons",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:32 2025 +0530",
-          "timestamp": 1760214152,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e8f3518"
-        },
-        {
-          "sha": "3ddd091",
-          "message": "crdroid: Clean up wallpaper overlay",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3ddd091"
-        },
-        {
-          "sha": "acf4919",
-          "message": "crdroid: Do not clone default AudioFX app",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/acf4919"
-        },
-        {
-          "sha": "d4e97b7",
-          "message": "crdroid: Disable default frame rate limit for games",
-          "author": "HeCheng Yu",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/d4e97b7"
-        },
-        {
-          "sha": "dbd9a4d",
-          "message": "config: Optimize Launcher3 and Settings for speed",
-          "author": "Andrzej Perczak",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/dbd9a4d"
-        },
-        {
-          "sha": "7504367",
-          "message": "crdroid: Disable memtag for different processes",
-          "author": "minaripenguin",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7504367"
-        },
-        {
-          "sha": "447c482",
-          "message": "crdroid: Execute changelog script once at a time",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/447c482"
-        },
-        {
-          "sha": "10af95d",
-          "message": "crdroid: Add changelog script",
-          "author": "Lup Gabriel",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/10af95d"
-        },
-        {
-          "sha": "99f1939",
-          "message": "overlay: update configs for AiAi",
-          "author": "Ionut Gherman",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/99f1939"
-        },
-        {
-          "sha": "c76ced8",
-          "message": "overlay: Update device configs global overrides",
-          "author": "Dyneteve",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c76ced8"
-        },
-        {
-          "sha": "2ccabf0",
-          "message": "overlay: Offload WM shell to another thread",
-          "author": "Danny Lin",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2ccabf0"
-        },
-        {
-          "sha": "a6f39ca",
-          "message": "overlay: Update SettingsProvider defaults",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/a6f39ca"
-        },
-        {
-          "sha": "af60ff8",
-          "message": "crdroid: Update clone exemption list",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/af60ff8"
-        },
-        {
-          "sha": "032f587",
-          "message": "crdroid: Add preinstalled package list to stop auto cloning",
-          "author": "John Galt",
-          "date": "Sun Oct 12 01:52:31 2025 +0530",
-          "timestamp": 1760214151,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/032f587"
-        }
-      ]
-    },
     {
       "name": "packages_apps_Launcher3",
       "path": "packages/apps/Launcher3",
@@ -2425,12 +816,1366 @@
       ]
     },
     {
+      "name": "vendor_alpha",
+      "path": "vendor/alpha",
+      "repo_url": "https://github.com/alphadroid-project/vendor_alpha",
+      "remote": "alpha",
+      "commit_count": 100,
+      "commits": [
+        {
+          "sha": "ad84daf",
+          "message": "Bump AlphaDroid version to 4.2",
+          "author": "elpaablo",
+          "date": "Sat Nov 29 22:54:34 2025 +0000",
+          "timestamp": 1764456874,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ad84daf"
+        },
+        {
+          "sha": "36d1e85",
+          "message": "Merge branch 'alpha-16.1' of https://github.com/alphadroid-project/vendor_alpha into alpha-16.1",
+          "author": "elpaablo",
+          "date": "Sat Nov 29 22:52:07 2025 +0000",
+          "timestamp": 1764456727,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/36d1e85"
+        },
+        {
+          "sha": "d0f219d",
+          "message": "overlay: Use google sans flex for lockscreen clock",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 27 21:56:48 2025 +0000",
+          "timestamp": 1764280608,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/d0f219d"
+        },
+        {
+          "sha": "9893b8a",
+          "message": "overlay: Remove duplicate DPS config",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 27 21:56:48 2025 +0000",
+          "timestamp": 1764280608,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9893b8a"
+        },
+        {
+          "sha": "7c7595f",
+          "message": "Update blur support",
+          "author": "rmp22",
+          "date": "Thu Nov 27 21:56:47 2025 +0000",
+          "timestamp": 1764280607,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7c7595f"
+        },
+        {
+          "sha": "58bdc92",
+          "message": "Build LMO systemui clock plugin",
+          "author": "Dhina17",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/58bdc92"
+        },
+        {
+          "sha": "2d7dd7e",
+          "message": "envsetup: Set crdroid path for Pixel OOT kernel build",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2d7dd7e"
+        },
+        {
+          "sha": "35d1b79",
+          "message": "Do not install matlog and updater in private space",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/35d1b79"
+        },
+        {
+          "sha": "cde6a03",
+          "message": "build: Ship adb_root only WITH_SU",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/cde6a03"
+        },
+        {
+          "sha": "0780d8b",
+          "message": "Include vendor/certification when available",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0780d8b"
+        },
+        {
+          "sha": "b342687",
+          "message": "release: Re-enable launcher blur flags",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b342687"
+        },
+        {
+          "sha": "68584db",
+          "message": "overlay: enable ambient burn in protection",
+          "author": "rmp22",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/68584db"
+        },
+        {
+          "sha": "f0dbf9e",
+          "message": "component-overrides: Force disable google settings intelligence injects",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f0dbf9e"
+        },
+        {
+          "sha": "7334ea9",
+          "message": "overlay: Enable keyboard vibration",
+          "author": "Dyneteve",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7334ea9"
+        },
+        {
+          "sha": "9b280d5",
+          "message": "overlay: SystemUI: Add plugin whitelist",
+          "author": "Dyneteve",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9b280d5"
+        },
+        {
+          "sha": "72c293a",
+          "message": "overlay: SystemUI: Tune new biometric dialog UI",
+          "author": "Adithya R",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/72c293a"
+        },
+        {
+          "sha": "4e7e81c",
+          "message": "overlay: Enable split shade for notifications in landscape",
+          "author": "rmp22",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/4e7e81c"
+        },
+        {
+          "sha": "66b5f12",
+          "message": "release: Disable apply_picture_profiles",
+          "author": "Abhay Singh Gill",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/66b5f12"
+        },
+        {
+          "sha": "39e0940",
+          "message": "release: Disable lpp squeeze effect",
+          "author": "Abhay Singh Gill",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/39e0940"
+        },
+        {
+          "sha": "c0a80dd",
+          "message": "release: Generate themed/monochrome icons for all apps",
+          "author": "Abhay Singh Gill",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c0a80dd"
+        },
+        {
+          "sha": "33e96fc",
+          "message": "release: Disable ambient AOD",
+          "author": "Abhay Singh Gill",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/33e96fc"
+        },
+        {
+          "sha": "31aea5f",
+          "message": "release: Remove glanceable hub",
+          "author": "Abhay Singh Gill",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/31aea5f"
+        },
+        {
+          "sha": "853531e",
+          "message": "release: Remove some useless notification flags",
+          "author": "Abhay Singh Gill",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/853531e"
+        },
+        {
+          "sha": "b794287",
+          "message": "release: Remove flag for using emphasized font family for shade header",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b794287"
+        },
+        {
+          "sha": "ddb13ed",
+          "message": "release: Remove glitchy depth push scaling effect",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ddb13ed"
+        },
+        {
+          "sha": "513b009",
+          "message": "release: Drop notification themed icons",
+          "author": "Joey Huab",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/513b009"
+        },
+        {
+          "sha": "12458ba",
+          "message": "release: drop more launcher flags",
+          "author": "Dmitrii",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/12458ba"
+        },
+        {
+          "sha": "2a5d1ca",
+          "message": "release: drop more flags",
+          "author": "Dmitrii",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2a5d1ca"
+        },
+        {
+          "sha": "f118dbc",
+          "message": "release: Disable enroll_layout_truncate_improvement",
+          "author": "Abhay Singh Gill",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f118dbc"
+        },
+        {
+          "sha": "280e3a9",
+          "message": "release: Remove notifications redesign templates flag",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/280e3a9"
+        },
+        {
+          "sha": "2ff5d29",
+          "message": "release: Disable thumbnail_block_model flag",
+          "author": "ahnet-69",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2ff5d29"
+        },
+        {
+          "sha": "0b9f6de",
+          "message": "release: Enable android.app flags",
+          "author": "Vaisakh Murali",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0b9f6de"
+        },
+        {
+          "sha": "0397131",
+          "message": "release: drop launcher blur",
+          "author": "Dmitrii",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0397131"
+        },
+        {
+          "sha": "c1ee77f",
+          "message": "release: Re-add transparent notification",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c1ee77f"
+        },
+        {
+          "sha": "01def9e",
+          "message": "release: more flag changes",
+          "author": "Dmitrii",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/01def9e"
+        },
+        {
+          "sha": "898e17e",
+          "message": "release: enable more flags",
+          "author": "Dmitrii",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/898e17e"
+        },
+        {
+          "sha": "3ec551a",
+          "message": "release: drop low_light_clock_dream",
+          "author": "Dmitrii",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3ec551a"
+        },
+        {
+          "sha": "b579daa",
+          "message": "release: drop some flags",
+          "author": "Dmitrii",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b579daa"
+        },
+        {
+          "sha": "1a998a4",
+          "message": "release: drop new sb icons",
+          "author": "Dmitrii",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/1a998a4"
+        },
+        {
+          "sha": "b4938ed",
+          "message": "release: Enable WallpaperPicker2 flags",
+          "author": "ralph950412",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/b4938ed"
+        },
+        {
+          "sha": "e0732fe",
+          "message": "release: Enable SystemUI flags (com.android.systemui.shared)",
+          "author": "ralph950412",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e0732fe"
+        },
+        {
+          "sha": "6ad2208",
+          "message": "release: Enable SystemUI flags",
+          "author": "ralph950412",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6ad2208"
+        },
+        {
+          "sha": "eb13060",
+          "message": "release: Enable SettingsLib flags",
+          "author": "ralph950412",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/eb13060"
+        },
+        {
+          "sha": "6c067f7",
+          "message": "release: Enable Settings flags",
+          "author": "ralph950412",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6c067f7"
+        },
+        {
+          "sha": "fd3ffd1",
+          "message": "release: Enable Launcher3 flags",
+          "author": "ralph950412",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/fd3ffd1"
+        },
+        {
+          "sha": "5ae6b64",
+          "message": "overlay: Make Google Sans the default headline font",
+          "author": "Sourajit Karmakar",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5ae6b64"
+        },
+        {
+          "sha": "64dae4e",
+          "message": "Move adb_root outside userbuild",
+          "author": "vinh0212",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/64dae4e"
+        },
+        {
+          "sha": "9529903",
+          "message": "Adding an option to build DeviceAsWebcam",
+          "author": "ShevT",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9529903"
+        },
+        {
+          "sha": "e1443a2",
+          "message": "Allow disabling MatLog",
+          "author": "ShevT",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e1443a2"
+        },
+        {
+          "sha": "5e9eed5",
+          "message": "generate json at build time",
+          "author": "Lup Gabriel",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5e9eed5"
+        },
+        {
+          "sha": "7e0f5c4",
+          "message": "component-overrides: Force disable various google components",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7e0f5c4"
+        },
+        {
+          "sha": "c45f079",
+          "message": "Conditionally build ColumbusService",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c45f079"
+        },
+        {
+          "sha": "5ed0fcf",
+          "message": "Move face unlock biometric permission to system_ext",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5ed0fcf"
+        },
+        {
+          "sha": "7410213",
+          "message": "Switch to AOSPA's face unlock implementation",
+          "author": "ponces",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7410213"
+        },
+        {
+          "sha": "6c6b30b",
+          "message": "Build LMO Freeform app and sidebar",
+          "author": "Adithya R",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6c6b30b"
+        },
+        {
+          "sha": "00c2d35",
+          "message": "Build GameSpace",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/00c2d35"
+        },
+        {
+          "sha": "1e58fc0",
+          "message": "Build BatteryStatsViewer",
+          "author": "Oliver Scott",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/1e58fc0"
+        },
+        {
+          "sha": "9044afb",
+          "message": "overlay: Add gms location history to extra location packages",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9044afb"
+        },
+        {
+          "sha": "71c9df2",
+          "message": "overlay: Add tethering to location exemption",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/71c9df2"
+        },
+        {
+          "sha": "cbc23b0",
+          "message": "overlay: Add SystemUI to location extra packages",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/cbc23b0"
+        },
+        {
+          "sha": "a474463",
+          "message": "overlay: Add OmniJaws to location extra packages",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/a474463"
+        },
+        {
+          "sha": "372ccbd",
+          "message": "Build OmniJaws service",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/372ccbd"
+        },
+        {
+          "sha": "8004584",
+          "message": "Build OmniStyle",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/8004584"
+        },
+        {
+          "sha": "712fb07",
+          "message": "config: Enable Material Design 3 Expressive",
+          "author": "techyminati",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/712fb07"
+        },
+        {
+          "sha": "37458a8",
+          "message": "overlay: DeviceConfig: update nearby flags",
+          "author": "John Galt",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/37458a8"
+        },
+        {
+          "sha": "2418842",
+          "message": "soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2418842"
+        },
+        {
+          "sha": "9029de9",
+          "message": "soong: Add support for vendor tag with client package name to select",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/9029de9"
+        },
+        {
+          "sha": "efec9e8",
+          "message": "build: Override host metadata",
+          "author": "rmp22",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/efec9e8"
+        },
+        {
+          "sha": "31c9869",
+          "message": "kernel: Set \"safe\" default values for kernel build host & user",
+          "author": "Terminator-J",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/31c9869"
+        },
+        {
+          "sha": "0cb4080",
+          "message": "roomservice.py: use -j2 for repo sync",
+          "author": "Lup Gabriel",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0cb4080"
+        },
+        {
+          "sha": "7db6c88",
+          "message": "overlay: Remove bouncer delay when face unlock is enabled",
+          "author": "Adithya R",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7db6c88"
+        },
+        {
+          "sha": "669bf19",
+          "message": "rro_overlay: Use headline font for PermissionController",
+          "author": "ViShal69x",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/669bf19"
+        },
+        {
+          "sha": "1ff12c0",
+          "message": "overlay: device_config: Updates",
+          "author": "someone5678",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/1ff12c0"
+        },
+        {
+          "sha": "0ad1b37",
+          "message": "overlay: device_config: Add values required for Speech Recognition",
+          "author": "cyberknight777",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0ad1b37"
+        },
+        {
+          "sha": "bcc942c",
+          "message": "overlay: device_config: Escape special characters",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/bcc942c"
+        },
+        {
+          "sha": "27f1d19",
+          "message": "overlay: device_config: animate navbar on long press",
+          "author": "aswin7469",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/27f1d19"
+        },
+        {
+          "sha": "29b15d4",
+          "message": "overlay: Update circle to search overlays for vanilla builds",
+          "author": "rmp22",
+          "date": "Tue Nov 18 04:09:07 2025 +0530",
+          "timestamp": 1763419147,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/29b15d4"
+        },
+        {
+          "sha": "0f0d818",
+          "message": "overlay: Enable circle to search",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0f0d818"
+        },
+        {
+          "sha": "633cbbf",
+          "message": "overlay: Use google-sans for font config overlays",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/633cbbf"
+        },
+        {
+          "sha": "7047395",
+          "message": "Remove packages moved to addons",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/7047395"
+        },
+        {
+          "sha": "e9659bc",
+          "message": "Moved bootanimation to addons",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/e9659bc"
+        },
+        {
+          "sha": "c0194ea",
+          "message": "Clean up wallpaper overlay",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c0194ea"
+        },
+        {
+          "sha": "8d58f9e",
+          "message": "Do not clone default AudioFX app",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/8d58f9e"
+        },
+        {
+          "sha": "c6a78d7",
+          "message": "Disable default frame rate limit for games",
+          "author": "HeCheng Yu",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c6a78d7"
+        },
+        {
+          "sha": "a9c57a1",
+          "message": "config: Optimize Launcher3 and Settings for speed",
+          "author": "Andrzej Perczak",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/a9c57a1"
+        },
+        {
+          "sha": "3b6c487",
+          "message": "Disable memtag for different processes",
+          "author": "minaripenguin",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/3b6c487"
+        },
+        {
+          "sha": "f60e3bd",
+          "message": "Execute changelog script once at a time",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/f60e3bd"
+        },
+        {
+          "sha": "2882fe1",
+          "message": "Add changelog script",
+          "author": "Lup Gabriel",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2882fe1"
+        },
+        {
+          "sha": "ded8e2c",
+          "message": "overlay: update configs for AiAi",
+          "author": "Ionut Gherman",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/ded8e2c"
+        },
+        {
+          "sha": "11d919e",
+          "message": "overlay: Update device configs global overrides",
+          "author": "Dyneteve",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/11d919e"
+        },
+        {
+          "sha": "0120254",
+          "message": "overlay: Offload WM shell to another thread",
+          "author": "Danny Lin",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/0120254"
+        },
+        {
+          "sha": "add72d3",
+          "message": "overlay: Update SettingsProvider defaults",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/add72d3"
+        },
+        {
+          "sha": "6386147",
+          "message": "Update clone exemption list",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/6386147"
+        },
+        {
+          "sha": "a1b70f1",
+          "message": "Add preinstalled package list to stop auto cloning",
+          "author": "John Galt",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/a1b70f1"
+        },
+        {
+          "sha": "5bb88c5",
+          "message": "overlay: Enable app-cloning feature in Settings",
+          "author": "minaripenguin",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5bb88c5"
+        },
+        {
+          "sha": "52083a8",
+          "message": "overlay: Settings: Show memory usage in app info",
+          "author": "Danny Lin",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/52083a8"
+        },
+        {
+          "sha": "c119f43",
+          "message": "device_config: Enable Cloned App",
+          "author": "aswin7469",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/c119f43"
+        },
+        {
+          "sha": "2892813",
+          "message": "overlay: Update clock plugin list",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2892813"
+        },
+        {
+          "sha": "cc2bec4",
+          "message": "overlay: Allow new SystemUI clocks",
+          "author": "Dyneteve",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/cc2bec4"
+        },
+        {
+          "sha": "fda2fd3",
+          "message": "overlay: Set AOSP webview as fallback",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 18 04:09:06 2025 +0530",
+          "timestamp": 1763419146,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/fda2fd3"
+        }
+      ]
+    },
+    {
+      "name": "build_make",
+      "path": "build/make",
+      "repo_url": "https://github.com/alphadroid-project/build_make",
+      "remote": "alpha",
+      "commit_count": 66,
+      "commits": [
+        {
+          "sha": "aa724d3",
+          "message": "Merge branch '16.0' of https://github.com/crdroidandroid/android_build into alpha-16.1",
+          "author": "elpaablo",
+          "date": "Sat Nov 29 22:33:30 2025 +0000",
+          "timestamp": 1764455610,
+          "url": "https://github.com/alphadroid-project/build_make/commit/aa724d3"
+        },
+        {
+          "sha": "4316871",
+          "message": "Auto-fill lunch",
+          "author": "elpaablo",
+          "date": "Sat Nov 29 22:22:03 2025 +0000",
+          "timestamp": 1764454923,
+          "url": "https://github.com/alphadroid-project/build_make/commit/4316871"
+        },
+        {
+          "sha": "679fbb0",
+          "message": "Remove lineage-sdk dependency",
+          "author": "elpaablo",
+          "date": "Sat Nov 29 22:22:03 2025 +0000",
+          "timestamp": 1764454923,
+          "url": "https://github.com/alphadroid-project/build_make/commit/679fbb0"
+        },
+        {
+          "sha": "79b5910",
+          "message": "build: Erase resource-cache upon flashing",
+          "author": "rmp22",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/79b5910"
+        },
+        {
+          "sha": "b5a1e4d",
+          "message": "build: Erase package_cache upon flashing",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/b5a1e4d"
+        },
+        {
+          "sha": "e8908f6",
+          "message": "build: Remove su",
+          "author": "jhenrique09",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/e8908f6"
+        },
+        {
+          "sha": "a58aea6",
+          "message": "always use UTC as the time zone for build dates",
+          "author": "Daniel Micay",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/a58aea6"
+        },
+        {
+          "sha": "401d54d",
+          "message": "build: Turn off debug props on userdebug builds",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/401d54d"
+        },
+        {
+          "sha": "5e84442",
+          "message": "build: Do not leak lineage_ prefixes in build.prop",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/5e84442"
+        },
+        {
+          "sha": "735e543",
+          "message": "Replace device_kernel_headers with generated_kernel_headers",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/735e543"
+        },
+        {
+          "sha": "7bc58bc",
+          "message": "Replace old-style kernel headers only when building inline",
+          "author": "Chirayu Desai",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/7bc58bc"
+        },
+        {
+          "sha": "574c308",
+          "message": "build: Automatically replace old-style kernel header includes with new header lib",
+          "author": "Rashed Abdel-Tawab",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/574c308"
+        },
+        {
+          "sha": "2820cd5",
+          "message": "build: Add backuptool by default",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/2820cd5"
+        },
+        {
+          "sha": "3827db5",
+          "message": "build_image: get squashfs partition size from image size",
+          "author": "jabashque",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/3827db5"
+        },
+        {
+          "sha": "4c223f6",
+          "message": "Revert \"Add DeviceAsWebcam to general handheld_system\"",
+          "author": "ShevT",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/4c223f6"
+        },
+        {
+          "sha": "9cc5bd3",
+          "message": "combo: Add kryo585 architecture to known v8 cores",
+          "author": "johnmart19",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/9cc5bd3"
+        },
+        {
+          "sha": "74b4c77",
+          "message": "combo: Add kryo585|785 architectures to known v8-2a cores",
+          "author": "minaripenguin",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/74b4c77"
+        },
+        {
+          "sha": "950ee5c",
+          "message": "build: dont include tasks from tests and platform_testing",
+          "author": "maxwen",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/950ee5c"
+        },
+        {
+          "sha": "fd29913",
+          "message": "combo: Add cortex-a76 to known v8-2a cores",
+          "author": "Jason Edson",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/fd29913"
+        },
+        {
+          "sha": "494f91d",
+          "message": "build: disable memory tagging for surfaceflinger",
+          "author": "Dmitry Muhomor",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/494f91d"
+        },
+        {
+          "sha": "48a3b46",
+          "message": "build: execute changelog generator script",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/48a3b46"
+        },
+        {
+          "sha": "0d96f64",
+          "message": "core: Use $(PRODUCT_DEVICE) for auto generated RRO names",
+          "author": "Alexander Koskovich",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/0d96f64"
+        },
+        {
+          "sha": "ade9ef2",
+          "message": "build: Add ANSI name and build info",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/ade9ef2"
+        },
+        {
+          "sha": "8656963",
+          "message": "build: Always use release-keys",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/8656963"
+        },
+        {
+          "sha": "0ebde63",
+          "message": "build: Remove broken prebuilts",
+          "author": "minaripenguin",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/0ebde63"
+        },
+        {
+          "sha": "cae6483",
+          "message": "envsetup.sh: Setup and enable ccache",
+          "author": "minaripenguin",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/cae6483"
+        },
+        {
+          "sha": "879ca84",
+          "message": "releasetools: do not remove dynamic partitions in system-only builds",
+          "author": "Peter Cai",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/879ca84"
+        },
+        {
+          "sha": "ccbb278",
+          "message": "Correct logic for obtaining the path to full recovery image",
+          "author": "Ricky Cheung",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/ccbb278"
+        },
+        {
+          "sha": "1755223",
+          "message": "Don't make recovery patch for devices with prebuilt vendor",
+          "author": "TheScarastic",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/1755223"
+        },
+        {
+          "sha": "5070019",
+          "message": "Move recovery-from-boot.p from /system to /vendor",
+          "author": "dianlujitao",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/5070019"
+        },
+        {
+          "sha": "be8a281",
+          "message": "soong: Add ability to build scudo-free 32-bit libc variant.",
+          "author": "Quallenauge",
+          "date": "Sun Nov 9 18:26:48 2025 +0530",
+          "timestamp": 1762693008,
+          "url": "https://github.com/alphadroid-project/build_make/commit/be8a281"
+        },
+        {
+          "sha": "083aa4a",
+          "message": "Merge commit 'cda08bfbf55aed1e4c79efe6a66bb930d19a8a13' into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 6 11:46:17 2025 +0200",
+          "timestamp": 1762422377,
+          "url": "https://github.com/alphadroid-project/build_make/commit/083aa4a"
+        },
+        {
+          "sha": "0b43835",
+          "message": "Gimme some AlphaDroid",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 09:17:13 2025 +0000",
+          "timestamp": 1762075033,
+          "url": "https://github.com/alphadroid-project/build_make/commit/0b43835"
+        },
+        {
+          "sha": "949eea8",
+          "message": "Source Alpha specific envsetup",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 09:13:34 2025 +0000",
+          "timestamp": 1762074814,
+          "url": "https://github.com/alphadroid-project/build_make/commit/949eea8"
+        },
+        {
+          "sha": "320aa0e",
+          "message": "envsetup: Build OOT kernel during lunch if needed",
+          "author": "Michael Bestas",
+          "date": "Thu Oct 30 23:20:56 2025 +0530",
+          "timestamp": 1761846656,
+          "url": "https://github.com/alphadroid-project/build_make/commit/320aa0e"
+        },
+        {
+          "sha": "ef8c7e3",
+          "message": "always use UTC as the time zone for build dates",
+          "author": "Daniel Micay",
+          "date": "Thu Oct 30 17:36:21 2025 +0530",
+          "timestamp": 1761825981,
+          "url": "https://github.com/alphadroid-project/build_make/commit/ef8c7e3"
+        },
+        {
+          "sha": "2ea45bb",
+          "message": "build: Turn off debug props on userdebug builds",
+          "author": "Pranav Vashi",
+          "date": "Wed Oct 29 21:14:32 2025 +0530",
+          "timestamp": 1761752672,
+          "url": "https://github.com/alphadroid-project/build_make/commit/2ea45bb"
+        },
+        {
+          "sha": "a466e80",
+          "message": "build: Do not leak lineage_ prefixes in build.prop",
+          "author": "Pranav Vashi",
+          "date": "Fri Oct 24 22:37:02 2025 +0530",
+          "timestamp": 1761325622,
+          "url": "https://github.com/alphadroid-project/build_make/commit/a466e80"
+        },
+        {
+          "sha": "4e5717d",
+          "message": "envsetup: Build OOT kernel during lunch if needed",
+          "author": "Michael Bestas",
+          "date": "Thu Oct 23 11:53:35 2025 +0300",
+          "timestamp": 1761209615,
+          "url": "https://github.com/alphadroid-project/build_make/commit/4e5717d"
+        },
+        {
+          "sha": "ae602b8",
+          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
+          "author": "Yumi Yukimura",
+          "date": "Sun Oct 19 00:45:31 2025 +0800",
+          "timestamp": 1760805931,
+          "url": "https://github.com/alphadroid-project/build_make/commit/ae602b8"
+        },
+        {
+          "sha": "267a1f6",
+          "message": "Replace device_kernel_headers with generated_kernel_headers",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/267a1f6"
+        },
+        {
+          "sha": "45ab03c",
+          "message": "Replace old-style kernel headers only when building inline",
+          "author": "Chirayu Desai",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/45ab03c"
+        },
+        {
+          "sha": "24d343d",
+          "message": "build: Automatically replace old-style kernel header includes with new header lib",
+          "author": "Rashed Abdel-Tawab",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/24d343d"
+        },
+        {
+          "sha": "a48870a",
+          "message": "build: Add backuptool by default",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/a48870a"
+        },
+        {
+          "sha": "aa65b4f",
+          "message": "build_image: get squashfs partition size from image size",
+          "author": "jabashque",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/aa65b4f"
+        },
+        {
+          "sha": "b9eac03",
+          "message": "Revert \"Add DeviceAsWebcam to general handheld_system\"",
+          "author": "ShevT",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/b9eac03"
+        },
+        {
+          "sha": "24c9bb6",
+          "message": "combo: Add kryo585 architecture to known v8 cores",
+          "author": "johnmart19",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/24c9bb6"
+        },
+        {
+          "sha": "e700ec5",
+          "message": "combo: Add kryo585|785 architectures to known v8-2a cores",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/e700ec5"
+        },
+        {
+          "sha": "44c604f",
+          "message": "build: dont include tasks from tests and platform_testing",
+          "author": "maxwen",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/44c604f"
+        },
+        {
+          "sha": "4a7f214",
+          "message": "combo: Add cortex-a76 to known v8-2a cores",
+          "author": "Jason Edson",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/4a7f214"
+        },
+        {
+          "sha": "c7d81b1",
+          "message": "build: disable memory tagging for surfaceflinger",
+          "author": "Dmitry Muhomor",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/c7d81b1"
+        },
+        {
+          "sha": "51ddde0",
+          "message": "build: execute changelog generator script",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/51ddde0"
+        },
+        {
+          "sha": "5caa11d",
+          "message": "core: Use $(PRODUCT_DEVICE) for auto generated RRO names",
+          "author": "Alexander Koskovich",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/5caa11d"
+        },
+        {
+          "sha": "5417b09",
+          "message": "build: Add ANSI name and build info",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/5417b09"
+        },
+        {
+          "sha": "eb83d4a",
+          "message": "build: Always use release-keys",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/eb83d4a"
+        },
+        {
+          "sha": "6c020dc",
+          "message": "build: Remove broken prebuilts",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/6c020dc"
+        },
+        {
+          "sha": "9ec4e05",
+          "message": "envsetup.sh: Setup and enable ccache",
+          "author": "minaripenguin",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/9ec4e05"
+        },
+        {
+          "sha": "9df7877",
+          "message": "releasetools: do not remove dynamic partitions in system-only builds",
+          "author": "Peter Cai",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/9df7877"
+        },
+        {
+          "sha": "c60168b",
+          "message": "Correct logic for obtaining the path to full recovery image",
+          "author": "Ricky Cheung",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/c60168b"
+        },
+        {
+          "sha": "351c43e",
+          "message": "Don't make recovery patch for devices with prebuilt vendor",
+          "author": "TheScarastic",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/351c43e"
+        },
+        {
+          "sha": "e1b6af7",
+          "message": "Move recovery-from-boot.p from /system to /vendor",
+          "author": "dianlujitao",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/e1b6af7"
+        },
+        {
+          "sha": "d7a5c87",
+          "message": "soong: Add ability to build scudo-free 32-bit libc variant.",
+          "author": "Quallenauge",
+          "date": "Mon Sep 29 02:48:01 2025 +0530",
+          "timestamp": 1759094281,
+          "url": "https://github.com/alphadroid-project/build_make/commit/d7a5c87"
+        },
+        {
+          "sha": "63edc91",
+          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
+          "author": "Dennis Kiilerich",
+          "date": "Thu Sep 25 20:56:55 2025 +0530",
+          "timestamp": 1758814015,
+          "url": "https://github.com/alphadroid-project/build_make/commit/63edc91"
+        },
+        {
+          "sha": "2961969",
+          "message": "build: GSI: Fix syntax issue after \"Add a GSI overlay for the framework package\"",
+          "author": "Yumi Yukimura",
+          "date": "Wed Sep 24 23:23:26 2025 +0800",
+          "timestamp": 1758727406,
+          "url": "https://github.com/alphadroid-project/build_make/commit/2961969"
+        },
+        {
+          "sha": "4bbc522",
+          "message": "build: Disable `aosp_system_image` soong target for lineage GSI",
+          "author": "Yumi Yukimura",
+          "date": "Wed Sep 24 23:14:58 2025 +0800",
+          "timestamp": 1758726898,
+          "url": "https://github.com/alphadroid-project/build_make/commit/4bbc522"
+        },
+        {
+          "sha": "6ff15cb",
+          "message": "build: Add `USE_SOONG_DEFINED_SYSTEM_IMAGE` to `_product_single_value_vars`",
+          "author": "Yumi Yukimura",
+          "date": "Wed Sep 24 23:05:27 2025 +0800",
+          "timestamp": 1758726327,
+          "url": "https://github.com/alphadroid-project/build_make/commit/6ff15cb"
+        }
+      ]
+    },
+    {
       "name": "manifest",
       "path": "manifest",
       "repo_url": "https://github.com/alphadroid-project/manifest",
       "remote": "alpha",
       "commit_count": 52,
       "commits": [
+        {
+          "sha": "c3cb310",
+          "message": "Update system/apex hash",
+          "author": "elpaablo",
+          "date": "Sat Nov 29 23:18:25 2025 +0000",
+          "timestamp": 1764458305,
+          "url": "https://github.com/alphadroid-project/manifest/commit/c3cb310"
+        },
         {
           "sha": "3cf16c1",
           "message": "manifest: Track vendor/apn",
@@ -2838,14 +2583,6 @@
           "date": "Mon Sep 1 07:56:47 2025 +0530",
           "timestamp": 1756693607,
           "url": "https://github.com/alphadroid-project/manifest/commit/b654ce4"
-        },
-        {
-          "sha": "ffe31c5",
-          "message": "manifest: Retrack sm8650 and sm8750",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 1 07:00:46 2025 +0530",
-          "timestamp": 1756690246,
-          "url": "https://github.com/alphadroid-project/manifest/commit/ffe31c5"
         }
       ]
     },
@@ -3143,295 +2880,6 @@
           "date": "Fri Sep 5 11:50:53 2025 +0100",
           "timestamp": 1757069453,
           "url": "https://github.com/alphadroid-project/external_arm-optimized-routines/commit/ea97940"
-        }
-      ]
-    },
-    {
-      "name": "build_make",
-      "path": "build/make",
-      "repo_url": "https://github.com/alphadroid-project/build_make",
-      "remote": "alpha",
-      "commit_count": 35,
-      "commits": [
-        {
-          "sha": "ecdc8d3",
-          "message": "Auto-fill lunch",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 09:20:34 2025 +0000",
-          "timestamp": 1762075234,
-          "url": "https://github.com/alphadroid-project/build_make/commit/ecdc8d3"
-        },
-        {
-          "sha": "063c7b6",
-          "message": "Remove lineage-sdk dependency",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 09:19:12 2025 +0000",
-          "timestamp": 1762075152,
-          "url": "https://github.com/alphadroid-project/build_make/commit/063c7b6"
-        },
-        {
-          "sha": "0916ad6",
-          "message": "Only include backup tool if explicitly requested",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 09:18:21 2025 +0000",
-          "timestamp": 1762075101,
-          "url": "https://github.com/alphadroid-project/build_make/commit/0916ad6"
-        },
-        {
-          "sha": "0b43835",
-          "message": "Gimme some AlphaDroid",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 09:17:13 2025 +0000",
-          "timestamp": 1762075033,
-          "url": "https://github.com/alphadroid-project/build_make/commit/0b43835"
-        },
-        {
-          "sha": "949eea8",
-          "message": "Source Alpha specific envsetup",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 09:13:34 2025 +0000",
-          "timestamp": 1762074814,
-          "url": "https://github.com/alphadroid-project/build_make/commit/949eea8"
-        },
-        {
-          "sha": "320aa0e",
-          "message": "envsetup: Build OOT kernel during lunch if needed",
-          "author": "Michael Bestas",
-          "date": "Thu Oct 30 23:20:56 2025 +0530",
-          "timestamp": 1761846656,
-          "url": "https://github.com/alphadroid-project/build_make/commit/320aa0e"
-        },
-        {
-          "sha": "ef8c7e3",
-          "message": "always use UTC as the time zone for build dates",
-          "author": "Daniel Micay",
-          "date": "Thu Oct 30 17:36:21 2025 +0530",
-          "timestamp": 1761825981,
-          "url": "https://github.com/alphadroid-project/build_make/commit/ef8c7e3"
-        },
-        {
-          "sha": "2ea45bb",
-          "message": "build: Turn off debug props on userdebug builds",
-          "author": "Pranav Vashi",
-          "date": "Wed Oct 29 21:14:32 2025 +0530",
-          "timestamp": 1761752672,
-          "url": "https://github.com/alphadroid-project/build_make/commit/2ea45bb"
-        },
-        {
-          "sha": "a466e80",
-          "message": "build: Do not leak lineage_ prefixes in build.prop",
-          "author": "Pranav Vashi",
-          "date": "Fri Oct 24 22:37:02 2025 +0530",
-          "timestamp": 1761325622,
-          "url": "https://github.com/alphadroid-project/build_make/commit/a466e80"
-        },
-        {
-          "sha": "267a1f6",
-          "message": "Replace device_kernel_headers with generated_kernel_headers",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/267a1f6"
-        },
-        {
-          "sha": "45ab03c",
-          "message": "Replace old-style kernel headers only when building inline",
-          "author": "Chirayu Desai",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/45ab03c"
-        },
-        {
-          "sha": "24d343d",
-          "message": "build: Automatically replace old-style kernel header includes with new header lib",
-          "author": "Rashed Abdel-Tawab",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/24d343d"
-        },
-        {
-          "sha": "a48870a",
-          "message": "build: Add backuptool by default",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/a48870a"
-        },
-        {
-          "sha": "aa65b4f",
-          "message": "build_image: get squashfs partition size from image size",
-          "author": "jabashque",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/aa65b4f"
-        },
-        {
-          "sha": "b9eac03",
-          "message": "Revert \"Add DeviceAsWebcam to general handheld_system\"",
-          "author": "ShevT",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/b9eac03"
-        },
-        {
-          "sha": "24c9bb6",
-          "message": "combo: Add kryo585 architecture to known v8 cores",
-          "author": "johnmart19",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/24c9bb6"
-        },
-        {
-          "sha": "e700ec5",
-          "message": "combo: Add kryo585|785 architectures to known v8-2a cores",
-          "author": "minaripenguin",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/e700ec5"
-        },
-        {
-          "sha": "44c604f",
-          "message": "build: dont include tasks from tests and platform_testing",
-          "author": "maxwen",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/44c604f"
-        },
-        {
-          "sha": "4a7f214",
-          "message": "combo: Add cortex-a76 to known v8-2a cores",
-          "author": "Jason Edson",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/4a7f214"
-        },
-        {
-          "sha": "c7d81b1",
-          "message": "build: disable memory tagging for surfaceflinger",
-          "author": "Dmitry Muhomor",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/c7d81b1"
-        },
-        {
-          "sha": "51ddde0",
-          "message": "build: execute changelog generator script",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/51ddde0"
-        },
-        {
-          "sha": "5caa11d",
-          "message": "core: Use $(PRODUCT_DEVICE) for auto generated RRO names",
-          "author": "Alexander Koskovich",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/5caa11d"
-        },
-        {
-          "sha": "5417b09",
-          "message": "build: Add ANSI name and build info",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/5417b09"
-        },
-        {
-          "sha": "eb83d4a",
-          "message": "build: Always use release-keys",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/eb83d4a"
-        },
-        {
-          "sha": "6c020dc",
-          "message": "build: Remove broken prebuilts",
-          "author": "minaripenguin",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/6c020dc"
-        },
-        {
-          "sha": "9ec4e05",
-          "message": "envsetup.sh: Setup and enable ccache",
-          "author": "minaripenguin",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/9ec4e05"
-        },
-        {
-          "sha": "9df7877",
-          "message": "releasetools: do not remove dynamic partitions in system-only builds",
-          "author": "Peter Cai",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/9df7877"
-        },
-        {
-          "sha": "c60168b",
-          "message": "Correct logic for obtaining the path to full recovery image",
-          "author": "Ricky Cheung",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/c60168b"
-        },
-        {
-          "sha": "351c43e",
-          "message": "Don't make recovery patch for devices with prebuilt vendor",
-          "author": "TheScarastic",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/351c43e"
-        },
-        {
-          "sha": "e1b6af7",
-          "message": "Move recovery-from-boot.p from /system to /vendor",
-          "author": "dianlujitao",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/e1b6af7"
-        },
-        {
-          "sha": "d7a5c87",
-          "message": "soong: Add ability to build scudo-free 32-bit libc variant.",
-          "author": "Quallenauge",
-          "date": "Mon Sep 29 02:48:01 2025 +0530",
-          "timestamp": 1759094281,
-          "url": "https://github.com/alphadroid-project/build_make/commit/d7a5c87"
-        },
-        {
-          "sha": "63edc91",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Thu Sep 25 20:56:55 2025 +0530",
-          "timestamp": 1758814015,
-          "url": "https://github.com/alphadroid-project/build_make/commit/63edc91"
-        },
-        {
-          "sha": "2961969",
-          "message": "build: GSI: Fix syntax issue after \"Add a GSI overlay for the framework package\"",
-          "author": "Yumi Yukimura",
-          "date": "Wed Sep 24 23:23:26 2025 +0800",
-          "timestamp": 1758727406,
-          "url": "https://github.com/alphadroid-project/build_make/commit/2961969"
-        },
-        {
-          "sha": "4bbc522",
-          "message": "build: Disable `aosp_system_image` soong target for lineage GSI",
-          "author": "Yumi Yukimura",
-          "date": "Wed Sep 24 23:14:58 2025 +0800",
-          "timestamp": 1758726898,
-          "url": "https://github.com/alphadroid-project/build_make/commit/4bbc522"
-        },
-        {
-          "sha": "6ff15cb",
-          "message": "build: Add `USE_SOONG_DEFINED_SYSTEM_IMAGE` to `_product_single_value_vars`",
-          "author": "Yumi Yukimura",
-          "date": "Wed Sep 24 23:05:27 2025 +0800",
-          "timestamp": 1758726327,
-          "url": "https://github.com/alphadroid-project/build_make/commit/6ff15cb"
         }
       ]
     },
@@ -4607,35 +4055,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "path": "external/chromium-webview/prebuilt/x86_64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "69244c6",
-          "message": "Update Chromium Webview x86_64 to 142.0.7444.138",
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:13 2025 -0700",
-          "timestamp": 1762617493,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6"
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
         },
         {
-          "sha": "4f870f9",
-          "message": "Update Chromium Webview x86_64 to 141.0.7390.111",
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:24 2025 -0600",
-          "timestamp": 1760795844,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9"
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
         },
         {
-          "sha": "856f1ce",
-          "message": "Update Chromium Webview x86_64 to 140.0.7339.207",
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:53 2025 -0600",
-          "timestamp": 1758982973,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -4706,35 +4154,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "path": "external/chromium-webview/prebuilt/x86_64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "sha": "69244c6",
+          "message": "Update Chromium Webview x86_64 to 142.0.7444.138",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+          "date": "Sat Nov 8 08:58:13 2025 -0700",
+          "timestamp": 1762617493,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6"
         },
         {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "sha": "4f870f9",
+          "message": "Update Chromium Webview x86_64 to 141.0.7390.111",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+          "date": "Sat Oct 18 07:57:24 2025 -0600",
+          "timestamp": 1760795844,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9"
         },
         {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "sha": "856f1ce",
+          "message": "Update Chromium Webview x86_64 to 140.0.7339.207",
           "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+          "date": "Sat Sep 27 08:22:53 2025 -0600",
+          "timestamp": 1758982973,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
         }
       ]
     },
