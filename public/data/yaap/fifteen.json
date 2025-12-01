@@ -1,17 +1,17 @@
 {
   "rom_id": "yaap",
   "branch": "fifteen",
-  "generated_at": "2025-11-30T01:29:47.329792+00:00",
-  "since_date": "2025-09-01",
-  "total_projects": 12,
-  "total_commits": 63,
+  "generated_at": "2025-12-01T01:44:41.394119+00:00",
+  "since_date": "2025-09-02",
+  "total_projects": 11,
+  "total_commits": 54,
   "projects": [
     {
       "name": "android_packages_apps_Twelve",
       "path": "packages/apps/Twelve",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
       "remote": "lineage",
-      "commit_count": 22,
+      "commit_count": 21,
       "commits": [
         {
           "sha": "4c1fd1f",
@@ -180,14 +180,6 @@
           "date": "Mon Sep 15 16:55:08 2025 +0000",
           "timestamp": 1757955308,
           "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/e765cd7"
-        },
-        {
-          "sha": "3bfeb98",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:40 2025 +0000",
-          "timestamp": 1756738480,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3bfeb98"
         }
       ]
     },
@@ -196,7 +188,7 @@
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
       "remote": "lineage",
-      "commit_count": 9,
+      "commit_count": 8,
       "commits": [
         {
           "sha": "7bf0e49",
@@ -261,14 +253,6 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e774392"
-        },
-        {
-          "sha": "7bd917b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:36 2025 +0000",
-          "timestamp": 1756738476,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b"
         }
       ]
     },
@@ -334,7 +318,7 @@
       "path": "packages/resources/devicesettings",
       "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
       "remote": "lineage",
-      "commit_count": 6,
+      "commit_count": 5,
       "commits": [
         {
           "sha": "2175ffe",
@@ -375,14 +359,6 @@
           "date": "Sat Sep 13 06:08:50 2025 +0000",
           "timestamp": 1757743730,
           "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/cd8846d"
-        },
-        {
-          "sha": "65352f2",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:41 2025 +0000",
-          "timestamp": 1756738481,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/65352f2"
         }
       ]
     },
@@ -391,7 +367,7 @@
       "path": "packages/apps/Camelot",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
       "remote": "lineage",
-      "commit_count": 5,
+      "commit_count": 4,
       "commits": [
         {
           "sha": "f3007f2",
@@ -424,14 +400,6 @@
           "date": "Mon Sep 15 16:55:02 2025 +0000",
           "timestamp": 1757955302,
           "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
-        },
-        {
-          "sha": "cbb578e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e"
         }
       ]
     },
@@ -440,7 +408,7 @@
       "path": "packages/apps/FMRadio",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
       "remote": "lineage",
-      "commit_count": 4,
+      "commit_count": 3,
       "commits": [
         {
           "sha": "7e89b01",
@@ -465,47 +433,6 @@
           "date": "Mon Sep 15 16:55:04 2025 +0000",
           "timestamp": 1757955304,
           "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538"
-        },
-        {
-          "sha": "4d4f98b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:35 2025 +0000",
-          "timestamp": 1756738475,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4d4f98b"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "lineage",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
-        },
-        {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
-        },
-        {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
         }
       ]
     },
@@ -560,31 +487,6 @@
       ]
     },
     {
-      "name": "android_vendor_qcom_opensource_fm-commonsys",
-      "path": "vendor/qcom/opensource/commonsys/fm",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "0a042da",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:10 2025 +0000",
-          "timestamp": 1757955310,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0a042da"
-        },
-        {
-          "sha": "0d72753",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:41 2025 +0000",
-          "timestamp": 1756738481,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0d72753"
-        }
-      ]
-    },
-    {
       "name": "android_hardware_qcom_audio",
       "path": "hardware/qcom-caf/sdm845/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -615,6 +517,23 @@
           "date": "Sat Sep 20 15:35:20 2025 +0100",
           "timestamp": 1758378920,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/368e7bd"
+        }
+      ]
+    },
+    {
+      "name": "android_vendor_qcom_opensource_fm-commonsys",
+      "path": "vendor/qcom/opensource/commonsys/fm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0a042da",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:10 2025 +0000",
+          "timestamp": 1757955310,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0a042da"
         }
       ]
     }

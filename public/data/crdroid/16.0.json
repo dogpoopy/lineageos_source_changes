@@ -1,10 +1,10 @@
 {
   "rom_id": "crdroid",
   "branch": "16.0",
-  "generated_at": "2025-11-30T01:33:18.875937+00:00",
-  "since_date": "2025-09-01",
-  "total_projects": 139,
-  "total_commits": 1938,
+  "generated_at": "2025-12-01T01:48:16.280284+00:00",
+  "since_date": "2025-09-02",
+  "total_projects": 137,
+  "total_commits": 1902,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -3891,12 +3891,853 @@
       ]
     },
     {
+      "name": "crdroidandroid/android_vendor_crdroid",
+      "path": "vendor/lineage",
+      "repo_url": "https://github.com/crdroidandroid/android_vendor_crdroid",
+      "remote": "crdroid",
+      "commit_count": 100,
+      "commits": [
+        {
+          "sha": "fb3c5aa",
+          "message": "overlay: Use google sans flex for lockscreen clock",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/fb3c5aa"
+        },
+        {
+          "sha": "27f0432",
+          "message": "overlay: Remove duplicate DPS config",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/27f0432"
+        },
+        {
+          "sha": "c7e2b22",
+          "message": "crdroid: Update blur support",
+          "author": "rmp22",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c7e2b22"
+        },
+        {
+          "sha": "bb28f87",
+          "message": "crdroid: Bump to version 12.3",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/bb28f87"
+        },
+        {
+          "sha": "05aacac",
+          "message": "crdroid: Build LMO systemui clock plugin",
+          "author": "Dhina17",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/05aacac"
+        },
+        {
+          "sha": "a06c57f",
+          "message": "envsetup: Set crdroid path for Pixel OOT kernel build",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a06c57f"
+        },
+        {
+          "sha": "315fe4b",
+          "message": "crdroid: Do not install matlog and updater in private space",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/315fe4b"
+        },
+        {
+          "sha": "5bff430",
+          "message": "build: Ship adb_root only WITH_SU",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/5bff430"
+        },
+        {
+          "sha": "52f0608",
+          "message": "crdroid: Include vendor/certification when available",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/52f0608"
+        },
+        {
+          "sha": "17b39c3",
+          "message": "release: Re-enable launcher blur flags",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/17b39c3"
+        },
+        {
+          "sha": "cb25d80",
+          "message": "overlay: enable ambient burn in protection",
+          "author": "rmp22",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/cb25d80"
+        },
+        {
+          "sha": "a473693",
+          "message": "component-overrides: Force disable google settings intelligence injects",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a473693"
+        },
+        {
+          "sha": "daa35ff",
+          "message": "overlay: Enable keyboard vibration",
+          "author": "Dyneteve",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/daa35ff"
+        },
+        {
+          "sha": "f26fa65",
+          "message": "overlay: SystemUI: Add plugin whitelist",
+          "author": "Dyneteve",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f26fa65"
+        },
+        {
+          "sha": "8ec0027",
+          "message": "overlay: SystemUI: Tune new biometric dialog UI",
+          "author": "Adithya R",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/8ec0027"
+        },
+        {
+          "sha": "f148011",
+          "message": "overlay: Enable split shade for notifications in landscape",
+          "author": "rmp22",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f148011"
+        },
+        {
+          "sha": "9077108",
+          "message": "release: Disable apply_picture_profiles",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/9077108"
+        },
+        {
+          "sha": "011a537",
+          "message": "release: Disable lpp squeeze effect",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/011a537"
+        },
+        {
+          "sha": "ce901a5",
+          "message": "release: Generate themed/monochrome icons for all apps",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/ce901a5"
+        },
+        {
+          "sha": "95c6c3b",
+          "message": "release: Disable ambient AOD",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/95c6c3b"
+        },
+        {
+          "sha": "89536e1",
+          "message": "release: Remove glanceable hub",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/89536e1"
+        },
+        {
+          "sha": "47cb560",
+          "message": "release: Remove some useless notification flags",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/47cb560"
+        },
+        {
+          "sha": "230856a",
+          "message": "release: Remove flag for using emphasized font family for shade header",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/230856a"
+        },
+        {
+          "sha": "a996dd7",
+          "message": "release: Remove glitchy depth push scaling effect",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a996dd7"
+        },
+        {
+          "sha": "fdb9dfa",
+          "message": "release: Drop notification themed icons",
+          "author": "Joey Huab",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/fdb9dfa"
+        },
+        {
+          "sha": "f8e6aea",
+          "message": "release: drop more launcher flags",
+          "author": "Dmitrii",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f8e6aea"
+        },
+        {
+          "sha": "341d0f7",
+          "message": "release: drop more flags",
+          "author": "Dmitrii",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/341d0f7"
+        },
+        {
+          "sha": "f621e8b",
+          "message": "release: Disable enroll_layout_truncate_improvement",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f621e8b"
+        },
+        {
+          "sha": "25286d4",
+          "message": "release: Remove notifications redesign templates flag",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/25286d4"
+        },
+        {
+          "sha": "05ca6b9",
+          "message": "release: Disable thumbnail_block_model flag",
+          "author": "ahnet-69",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/05ca6b9"
+        },
+        {
+          "sha": "6eec74e",
+          "message": "release: Enable android.app flags",
+          "author": "Vaisakh Murali",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/6eec74e"
+        },
+        {
+          "sha": "b1f65db",
+          "message": "release: drop launcher blur",
+          "author": "Dmitrii",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b1f65db"
+        },
+        {
+          "sha": "bb394a9",
+          "message": "release: Re-add transparent notification",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/bb394a9"
+        },
+        {
+          "sha": "53b580b",
+          "message": "release: more flag changes",
+          "author": "Dmitrii",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/53b580b"
+        },
+        {
+          "sha": "2361981",
+          "message": "release: enable more flags",
+          "author": "Dmitrii",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2361981"
+        },
+        {
+          "sha": "c44b751",
+          "message": "release: drop low_light_clock_dream",
+          "author": "Dmitrii",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c44b751"
+        },
+        {
+          "sha": "42a6368",
+          "message": "release: drop some flags",
+          "author": "Dmitrii",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/42a6368"
+        },
+        {
+          "sha": "85e385d",
+          "message": "release: drop new sb icons",
+          "author": "Dmitrii",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/85e385d"
+        },
+        {
+          "sha": "c33e342",
+          "message": "release: Enable WallpaperPicker2 flags",
+          "author": "ralph950412",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c33e342"
+        },
+        {
+          "sha": "3e604a3",
+          "message": "release: Enable SystemUI flags (com.android.systemui.shared)",
+          "author": "ralph950412",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3e604a3"
+        },
+        {
+          "sha": "6dd7c19",
+          "message": "release: Enable SystemUI flags",
+          "author": "ralph950412",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/6dd7c19"
+        },
+        {
+          "sha": "8946a0a",
+          "message": "release: Enable SettingsLib flags",
+          "author": "ralph950412",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/8946a0a"
+        },
+        {
+          "sha": "f04c68e",
+          "message": "release: Enable Settings flags",
+          "author": "ralph950412",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f04c68e"
+        },
+        {
+          "sha": "e22dd5a",
+          "message": "release: Enable Launcher3 flags",
+          "author": "ralph950412",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e22dd5a"
+        },
+        {
+          "sha": "f95c460",
+          "message": "overlay: Make Google Sans the default headline font",
+          "author": "Sourajit Karmakar",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f95c460"
+        },
+        {
+          "sha": "e5694f5",
+          "message": "Move adb_root outside userbuild",
+          "author": "vinh0212",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e5694f5"
+        },
+        {
+          "sha": "bc8b813",
+          "message": "crdroid: Adding an option to build DeviceAsWebcam",
+          "author": "ShevT",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/bc8b813"
+        },
+        {
+          "sha": "35ff49e",
+          "message": "crdroid: Allow disabling MatLog",
+          "author": "ShevT",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/35ff49e"
+        },
+        {
+          "sha": "463339c",
+          "message": "crdroid: generate json at build time",
+          "author": "Lup Gabriel",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/463339c"
+        },
+        {
+          "sha": "4678cb5",
+          "message": "component-overrides: Force disable various google components",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/4678cb5"
+        },
+        {
+          "sha": "8ea8ed4",
+          "message": "crdroid: Conditionally build ColumbusService",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/8ea8ed4"
+        },
+        {
+          "sha": "71f3b38",
+          "message": "crdroid: Move face unlock biometric permission to system_ext",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/71f3b38"
+        },
+        {
+          "sha": "a37bf1e",
+          "message": "crdroid: Switch to AOSPA's face unlock implementation",
+          "author": "ponces",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a37bf1e"
+        },
+        {
+          "sha": "d45781a",
+          "message": "crdroid: Build LMO Freeform app and sidebar",
+          "author": "Adithya R",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/d45781a"
+        },
+        {
+          "sha": "fbca7b3",
+          "message": "crdroid: Build GameSpace",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/fbca7b3"
+        },
+        {
+          "sha": "938bc66",
+          "message": "crdroid: Build BatteryStatsViewer",
+          "author": "Oliver Scott",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/938bc66"
+        },
+        {
+          "sha": "297e9df",
+          "message": "overlay: Add gms location history to extra location packages",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/297e9df"
+        },
+        {
+          "sha": "7b4b9ee",
+          "message": "overlay: Add tethering to location exemption",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/7b4b9ee"
+        },
+        {
+          "sha": "ccd64eb",
+          "message": "overlay: Add SystemUI to location extra packages",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/ccd64eb"
+        },
+        {
+          "sha": "1f1f998",
+          "message": "overlay: Add OmniJaws to location extra packages",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/1f1f998"
+        },
+        {
+          "sha": "fadfdb9",
+          "message": "crdroid: Build OmniJaws service",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/fadfdb9"
+        },
+        {
+          "sha": "94c6dba",
+          "message": "crdroid: Build OmniStyle",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/94c6dba"
+        },
+        {
+          "sha": "fae4a79",
+          "message": "config: Enable Material Design 3 Expressive",
+          "author": "techyminati",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/fae4a79"
+        },
+        {
+          "sha": "01d0f29",
+          "message": "overlay: DeviceConfig: update nearby flags",
+          "author": "John Galt",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/01d0f29"
+        },
+        {
+          "sha": "9bf1a26",
+          "message": "soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/9bf1a26"
+        },
+        {
+          "sha": "a4b8fe5",
+          "message": "soong: Add support for vendor tag with client package name to select",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a4b8fe5"
+        },
+        {
+          "sha": "56184a5",
+          "message": "build: Override host metadata",
+          "author": "rmp22",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/56184a5"
+        },
+        {
+          "sha": "b22f157",
+          "message": "kernel: Set \"safe\" default values for kernel build host & user",
+          "author": "Terminator-J",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b22f157"
+        },
+        {
+          "sha": "2cfb351",
+          "message": "roomservice.py: use -j2 for repo sync",
+          "author": "Lup Gabriel",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2cfb351"
+        },
+        {
+          "sha": "50e8c86",
+          "message": "overlay: Remove bouncer delay when face unlock is enabled",
+          "author": "Adithya R",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/50e8c86"
+        },
+        {
+          "sha": "eda401d",
+          "message": "rro_overlay: Use headline font for PermissionController",
+          "author": "ViShal69x",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/eda401d"
+        },
+        {
+          "sha": "d280c35",
+          "message": "overlay: device_config: Updates",
+          "author": "someone5678",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/d280c35"
+        },
+        {
+          "sha": "c920b19",
+          "message": "overlay: device_config: Add values required for Speech Recognition",
+          "author": "cyberknight777",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c920b19"
+        },
+        {
+          "sha": "cad72a2",
+          "message": "overlay: device_config: Escape special characters",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/cad72a2"
+        },
+        {
+          "sha": "7bf66a7",
+          "message": "overlay: device_config: animate navbar on long press",
+          "author": "aswin7469",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/7bf66a7"
+        },
+        {
+          "sha": "3ec15c1",
+          "message": "overlay: Update circle to search overlays for vanilla builds",
+          "author": "rmp22",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3ec15c1"
+        },
+        {
+          "sha": "2081c8f",
+          "message": "overlay: Enable circle to search",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2081c8f"
+        },
+        {
+          "sha": "84468d7",
+          "message": "overlay: Use google-sans for font config overlays",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/84468d7"
+        },
+        {
+          "sha": "a08e3e9",
+          "message": "crdroid: Remove packages moved to addons",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a08e3e9"
+        },
+        {
+          "sha": "174e767",
+          "message": "crdroid: Moved bootanimation to addons",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/174e767"
+        },
+        {
+          "sha": "c76a3e0",
+          "message": "crdroid: Clean up wallpaper overlay",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:59 2025 +0530",
+          "timestamp": 1764489719,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c76a3e0"
+        },
+        {
+          "sha": "4b2a8b1",
+          "message": "crdroid: Do not clone default AudioFX app",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/4b2a8b1"
+        },
+        {
+          "sha": "2ef989f",
+          "message": "crdroid: Disable default frame rate limit for games",
+          "author": "HeCheng Yu",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2ef989f"
+        },
+        {
+          "sha": "bff2237",
+          "message": "config: Optimize Launcher3 and Settings for speed",
+          "author": "Andrzej Perczak",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/bff2237"
+        },
+        {
+          "sha": "65b4434",
+          "message": "crdroid: Disable memtag for different processes",
+          "author": "minaripenguin",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/65b4434"
+        },
+        {
+          "sha": "833003b",
+          "message": "crdroid: Execute changelog script once at a time",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/833003b"
+        },
+        {
+          "sha": "b9cfa1c",
+          "message": "crdroid: Add changelog script",
+          "author": "Lup Gabriel",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b9cfa1c"
+        },
+        {
+          "sha": "5ed1614",
+          "message": "overlay: update configs for AiAi",
+          "author": "Ionut Gherman",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/5ed1614"
+        },
+        {
+          "sha": "8ba2cd3",
+          "message": "overlay: Update device configs global overrides",
+          "author": "Dyneteve",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/8ba2cd3"
+        },
+        {
+          "sha": "37b811b",
+          "message": "overlay: Offload WM shell to another thread",
+          "author": "Danny Lin",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/37b811b"
+        },
+        {
+          "sha": "e1a75e8",
+          "message": "overlay: Update SettingsProvider defaults",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e1a75e8"
+        },
+        {
+          "sha": "3df09a1",
+          "message": "crdroid: Update clone exemption list",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3df09a1"
+        },
+        {
+          "sha": "e011e7c",
+          "message": "crdroid: Add preinstalled package list to stop auto cloning",
+          "author": "John Galt",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e011e7c"
+        },
+        {
+          "sha": "8fc8abb",
+          "message": "overlay: Enable app-cloning feature in Settings",
+          "author": "minaripenguin",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/8fc8abb"
+        },
+        {
+          "sha": "98f7934",
+          "message": "overlay: Settings: Show memory usage in app info",
+          "author": "Danny Lin",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/98f7934"
+        },
+        {
+          "sha": "a4762a9",
+          "message": "device_config: Enable Cloned App",
+          "author": "aswin7469",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a4762a9"
+        },
+        {
+          "sha": "e655c01",
+          "message": "overlay: Update clock plugin list",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e655c01"
+        },
+        {
+          "sha": "bf61497",
+          "message": "overlay: Allow new SystemUI clocks",
+          "author": "Dyneteve",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/bf61497"
+        },
+        {
+          "sha": "52a68ec",
+          "message": "overlay: Set AOSP webview as fallback",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/52a68ec"
+        },
+        {
+          "sha": "edcd58b",
+          "message": "build: Enable ThinLTO cache",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 13:31:58 2025 +0530",
+          "timestamp": 1764489718,
+          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/edcd58b"
+        }
+      ]
+    },
+    {
       "name": "crdroidandroid/android_vendor_crDroidOTA",
       "path": "vendor/crDroidOTA",
       "repo_url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA",
       "remote": "crdroid",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "b9ec6b4",
+          "message": "dodge: Update",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 22:29:21 2025 +0530",
+          "timestamp": 1764521961,
+          "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/b9ec6b4"
+        },
+        {
+          "sha": "7b15eee",
+          "message": "giulia: Update changelog",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 22:24:54 2025 +0530",
+          "timestamp": 1764521694,
+          "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/7b15eee"
+        },
+        {
+          "sha": "5166754",
+          "message": "caihong/giulia/waffle: Update",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 30 22:19:06 2025 +0530",
+          "timestamp": 1764521346,
+          "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/5166754"
+        },
+        {
+          "sha": "879813a",
+          "message": "Update :F6 30/11/25",
+          "author": "Goku",
+          "date": "Sun Nov 30 19:12:50 2025 +0530",
+          "timestamp": 1764510170,
+          "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/879813a"
+        },
         {
           "sha": "ca25651",
           "message": "hotdog: Update 20251129",
@@ -4664,847 +5505,6 @@
           "date": "Tue Nov 11 12:00:29 2025 +0100",
           "timestamp": 1762858829,
           "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/0ba8e48"
-        },
-        {
-          "sha": "857b101",
-          "message": "tegu/tokay: Update",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 11 08:20:54 2025 +0530",
-          "timestamp": 1762829454,
-          "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/857b101"
-        },
-        {
-          "sha": "f3cb927",
-          "message": "clover: initial 12.3 build",
-          "author": "Peter Meiser",
-          "date": "Mon Nov 10 20:49:25 2025 +0100",
-          "timestamp": 1762804165,
-          "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/f3cb927"
-        },
-        {
-          "sha": "9edddbb",
-          "message": "Add new avalon build. (2025/11/10)",
-          "author": "TestaMic",
-          "date": "Mon Nov 10 19:21:40 2025 +0200",
-          "timestamp": 1762795300,
-          "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/9edddbb"
-        },
-        {
-          "sha": "5e28fc1",
-          "message": "nuwa: Update to crDroid 12.3 from 10/11/2025",
-          "author": "TheMysticle",
-          "date": "Mon Nov 10 17:47:26 2025 +0100",
-          "timestamp": 1762793246,
-          "url": "https://github.com/crdroidandroid/android_vendor_crDroidOTA/commit/5e28fc1"
-        }
-      ]
-    },
-    {
-      "name": "crdroidandroid/android_vendor_crdroid",
-      "path": "vendor/lineage",
-      "repo_url": "https://github.com/crdroidandroid/android_vendor_crdroid",
-      "remote": "crdroid",
-      "commit_count": 100,
-      "commits": [
-        {
-          "sha": "082f234",
-          "message": "overlay: Use google sans flex for lockscreen clock",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 08:32:05 2025 +0530",
-          "timestamp": 1763780525,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/082f234"
-        },
-        {
-          "sha": "d427e2f",
-          "message": "overlay: Remove duplicate DPS config",
-          "author": "Pranav Vashi",
-          "date": "Wed Nov 19 20:58:07 2025 +0530",
-          "timestamp": 1763566087,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/d427e2f"
-        },
-        {
-          "sha": "10407ff",
-          "message": "crdroid: Update blur support",
-          "author": "rmp22",
-          "date": "Wed Nov 19 04:53:33 2025 +0530",
-          "timestamp": 1763508213,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/10407ff"
-        },
-        {
-          "sha": "3315124",
-          "message": "crdroid: Bump to version 12.3",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3315124"
-        },
-        {
-          "sha": "b2f58a3",
-          "message": "crdroid: Build LMO systemui clock plugin",
-          "author": "Dhina17",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b2f58a3"
-        },
-        {
-          "sha": "a041884",
-          "message": "envsetup: Set crdroid path for Pixel OOT kernel build",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a041884"
-        },
-        {
-          "sha": "bc1030a",
-          "message": "crdroid: Do not install matlog and updater in private space",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/bc1030a"
-        },
-        {
-          "sha": "e844c8b",
-          "message": "build: Ship adb_root only WITH_SU",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e844c8b"
-        },
-        {
-          "sha": "0892371",
-          "message": "crdroid: Include vendor/certification when available",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/0892371"
-        },
-        {
-          "sha": "7cd06da",
-          "message": "release: Re-enable launcher blur flags",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/7cd06da"
-        },
-        {
-          "sha": "ef312c9",
-          "message": "overlay: enable ambient burn in protection",
-          "author": "rmp22",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/ef312c9"
-        },
-        {
-          "sha": "b20eb66",
-          "message": "component-overrides: Force disable google settings intelligence injects",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b20eb66"
-        },
-        {
-          "sha": "b142ab3",
-          "message": "overlay: Enable keyboard vibration",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b142ab3"
-        },
-        {
-          "sha": "f4b038d",
-          "message": "overlay: SystemUI: Add plugin whitelist",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f4b038d"
-        },
-        {
-          "sha": "8dfb2f2",
-          "message": "overlay: SystemUI: Tune new biometric dialog UI",
-          "author": "Adithya R",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/8dfb2f2"
-        },
-        {
-          "sha": "b742dc3",
-          "message": "overlay: Enable split shade for notifications in landscape",
-          "author": "rmp22",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b742dc3"
-        },
-        {
-          "sha": "3f0a907",
-          "message": "release: Disable apply_picture_profiles",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3f0a907"
-        },
-        {
-          "sha": "379360f",
-          "message": "release: Disable lpp squeeze effect",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/379360f"
-        },
-        {
-          "sha": "f8ee99f",
-          "message": "release: Generate themed/monochrome icons for all apps",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f8ee99f"
-        },
-        {
-          "sha": "61f3130",
-          "message": "release: Disable ambient AOD",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/61f3130"
-        },
-        {
-          "sha": "5f78e58",
-          "message": "release: Remove glanceable hub",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/5f78e58"
-        },
-        {
-          "sha": "7d38a4c",
-          "message": "release: Remove some useless notification flags",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/7d38a4c"
-        },
-        {
-          "sha": "a37fc76",
-          "message": "release: Remove flag for using emphasized font family for shade header",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a37fc76"
-        },
-        {
-          "sha": "7dc8246",
-          "message": "release: Remove glitchy depth push scaling effect",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/7dc8246"
-        },
-        {
-          "sha": "baf6746",
-          "message": "release: Drop notification themed icons",
-          "author": "Joey Huab",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/baf6746"
-        },
-        {
-          "sha": "bd2f4ed",
-          "message": "release: drop more launcher flags",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/bd2f4ed"
-        },
-        {
-          "sha": "46302a9",
-          "message": "release: drop more flags",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/46302a9"
-        },
-        {
-          "sha": "edb20ff",
-          "message": "release: Disable enroll_layout_truncate_improvement",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/edb20ff"
-        },
-        {
-          "sha": "0f82793",
-          "message": "release: Remove notifications redesign templates flag",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/0f82793"
-        },
-        {
-          "sha": "61afbcb",
-          "message": "release: Disable thumbnail_block_model flag",
-          "author": "ahnet-69",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/61afbcb"
-        },
-        {
-          "sha": "3aeb285",
-          "message": "release: Enable android.app flags",
-          "author": "Vaisakh Murali",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3aeb285"
-        },
-        {
-          "sha": "54707bd",
-          "message": "release: drop launcher blur",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/54707bd"
-        },
-        {
-          "sha": "604c7f9",
-          "message": "release: Re-add transparent notification",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/604c7f9"
-        },
-        {
-          "sha": "a91f7fe",
-          "message": "release: more flag changes",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a91f7fe"
-        },
-        {
-          "sha": "dc269a1",
-          "message": "release: enable more flags",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/dc269a1"
-        },
-        {
-          "sha": "9005aef",
-          "message": "release: drop low_light_clock_dream",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/9005aef"
-        },
-        {
-          "sha": "590f9d3",
-          "message": "release: drop some flags",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/590f9d3"
-        },
-        {
-          "sha": "477e6ef",
-          "message": "release: drop new sb icons",
-          "author": "Dmitrii",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/477e6ef"
-        },
-        {
-          "sha": "d5b67a6",
-          "message": "release: Enable WallpaperPicker2 flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/d5b67a6"
-        },
-        {
-          "sha": "1157a21",
-          "message": "release: Enable SystemUI flags (com.android.systemui.shared)",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/1157a21"
-        },
-        {
-          "sha": "126b330",
-          "message": "release: Enable SystemUI flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/126b330"
-        },
-        {
-          "sha": "9be5b92",
-          "message": "release: Enable SettingsLib flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/9be5b92"
-        },
-        {
-          "sha": "e4ed380",
-          "message": "release: Enable Settings flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e4ed380"
-        },
-        {
-          "sha": "979e011",
-          "message": "release: Enable Launcher3 flags",
-          "author": "ralph950412",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/979e011"
-        },
-        {
-          "sha": "2cbe90e",
-          "message": "overlay: Make Google Sans the default headline font",
-          "author": "Sourajit Karmakar",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2cbe90e"
-        },
-        {
-          "sha": "f66c4dd",
-          "message": "Move adb_root outside userbuild",
-          "author": "vinh0212",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f66c4dd"
-        },
-        {
-          "sha": "1a1c28f",
-          "message": "crdroid: Adding an option to build DeviceAsWebcam",
-          "author": "ShevT",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/1a1c28f"
-        },
-        {
-          "sha": "e400eb7",
-          "message": "crdroid: Allow disabling MatLog",
-          "author": "ShevT",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e400eb7"
-        },
-        {
-          "sha": "95fd160",
-          "message": "crdroid: generate json at build time",
-          "author": "Lup Gabriel",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/95fd160"
-        },
-        {
-          "sha": "fe47688",
-          "message": "component-overrides: Force disable various google components",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/fe47688"
-        },
-        {
-          "sha": "11b5fab",
-          "message": "crdroid: Conditionally build ColumbusService",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/11b5fab"
-        },
-        {
-          "sha": "70e7987",
-          "message": "crdroid: Move face unlock biometric permission to system_ext",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/70e7987"
-        },
-        {
-          "sha": "ca01eb1",
-          "message": "crdroid: Switch to AOSPA's face unlock implementation",
-          "author": "ponces",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/ca01eb1"
-        },
-        {
-          "sha": "da1ff95",
-          "message": "crdroid: Build LMO Freeform app and sidebar",
-          "author": "Adithya R",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/da1ff95"
-        },
-        {
-          "sha": "2cfd30b",
-          "message": "crdroid: Build GameSpace",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2cfd30b"
-        },
-        {
-          "sha": "9c69de3",
-          "message": "crdroid: Build BatteryStatsViewer",
-          "author": "Oliver Scott",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/9c69de3"
-        },
-        {
-          "sha": "19e0c7c",
-          "message": "overlay: Add gms location history to extra location packages",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/19e0c7c"
-        },
-        {
-          "sha": "948e9de",
-          "message": "overlay: Add tethering to location exemption",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/948e9de"
-        },
-        {
-          "sha": "c2db3fd",
-          "message": "overlay: Add SystemUI to location extra packages",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c2db3fd"
-        },
-        {
-          "sha": "3729151",
-          "message": "overlay: Add OmniJaws to location extra packages",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3729151"
-        },
-        {
-          "sha": "2abd925",
-          "message": "crdroid: Build OmniJaws service",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2abd925"
-        },
-        {
-          "sha": "c3fd6bd",
-          "message": "crdroid: Build OmniStyle",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c3fd6bd"
-        },
-        {
-          "sha": "722542c",
-          "message": "config: Enable Material Design 3 Expressive",
-          "author": "techyminati",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/722542c"
-        },
-        {
-          "sha": "e83fef6",
-          "message": "overlay: DeviceConfig: update nearby flags",
-          "author": "John Galt",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e83fef6"
-        },
-        {
-          "sha": "b9b5128",
-          "message": "soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b9b5128"
-        },
-        {
-          "sha": "af7c223",
-          "message": "soong: Add support for vendor tag with client package name to select",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/af7c223"
-        },
-        {
-          "sha": "4ee723b",
-          "message": "build: Override host metadata",
-          "author": "rmp22",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/4ee723b"
-        },
-        {
-          "sha": "f455948",
-          "message": "kernel: Set \"safe\" default values for kernel build host & user",
-          "author": "Terminator-J",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/f455948"
-        },
-        {
-          "sha": "dff1fd2",
-          "message": "roomservice.py: use -j2 for repo sync",
-          "author": "Lup Gabriel",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/dff1fd2"
-        },
-        {
-          "sha": "6ecb363",
-          "message": "overlay: Remove bouncer delay when face unlock is enabled",
-          "author": "Adithya R",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/6ecb363"
-        },
-        {
-          "sha": "3908f00",
-          "message": "rro_overlay: Use headline font for PermissionController",
-          "author": "ViShal69x",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3908f00"
-        },
-        {
-          "sha": "0829349",
-          "message": "overlay: device_config: Updates",
-          "author": "someone5678",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/0829349"
-        },
-        {
-          "sha": "cf5fd72",
-          "message": "overlay: device_config: Add values required for Speech Recognition",
-          "author": "cyberknight777",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/cf5fd72"
-        },
-        {
-          "sha": "cbe3577",
-          "message": "overlay: device_config: Escape special characters",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/cbe3577"
-        },
-        {
-          "sha": "9e49202",
-          "message": "overlay: device_config: animate navbar on long press",
-          "author": "aswin7469",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/9e49202"
-        },
-        {
-          "sha": "709b686",
-          "message": "overlay: Update circle to search overlays for vanilla builds",
-          "author": "rmp22",
-          "date": "Tue Nov 18 04:09:07 2025 +0530",
-          "timestamp": 1763419147,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/709b686"
-        },
-        {
-          "sha": "c43921a",
-          "message": "overlay: Enable circle to search",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c43921a"
-        },
-        {
-          "sha": "db4f7ef",
-          "message": "overlay: Use google-sans for font config overlays",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/db4f7ef"
-        },
-        {
-          "sha": "76347d7",
-          "message": "crdroid: Remove packages moved to addons",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/76347d7"
-        },
-        {
-          "sha": "3f6b3f2",
-          "message": "crdroid: Moved bootanimation to addons",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/3f6b3f2"
-        },
-        {
-          "sha": "63c40f3",
-          "message": "crdroid: Clean up wallpaper overlay",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/63c40f3"
-        },
-        {
-          "sha": "8fea4f4",
-          "message": "crdroid: Do not clone default AudioFX app",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/8fea4f4"
-        },
-        {
-          "sha": "fc5c396",
-          "message": "crdroid: Disable default frame rate limit for games",
-          "author": "HeCheng Yu",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/fc5c396"
-        },
-        {
-          "sha": "451cda2",
-          "message": "config: Optimize Launcher3 and Settings for speed",
-          "author": "Andrzej Perczak",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/451cda2"
-        },
-        {
-          "sha": "d32e43e",
-          "message": "crdroid: Disable memtag for different processes",
-          "author": "minaripenguin",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/d32e43e"
-        },
-        {
-          "sha": "1353d3d",
-          "message": "crdroid: Execute changelog script once at a time",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/1353d3d"
-        },
-        {
-          "sha": "7699a34",
-          "message": "crdroid: Add changelog script",
-          "author": "Lup Gabriel",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/7699a34"
-        },
-        {
-          "sha": "e951258",
-          "message": "overlay: update configs for AiAi",
-          "author": "Ionut Gherman",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/e951258"
-        },
-        {
-          "sha": "a4b14dc",
-          "message": "overlay: Update device configs global overrides",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a4b14dc"
-        },
-        {
-          "sha": "0a962a3",
-          "message": "overlay: Offload WM shell to another thread",
-          "author": "Danny Lin",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/0a962a3"
-        },
-        {
-          "sha": "2729a96",
-          "message": "overlay: Update SettingsProvider defaults",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2729a96"
-        },
-        {
-          "sha": "c540bef",
-          "message": "crdroid: Update clone exemption list",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/c540bef"
-        },
-        {
-          "sha": "2881f70",
-          "message": "crdroid: Add preinstalled package list to stop auto cloning",
-          "author": "John Galt",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/2881f70"
-        },
-        {
-          "sha": "797d094",
-          "message": "overlay: Enable app-cloning feature in Settings",
-          "author": "minaripenguin",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/797d094"
-        },
-        {
-          "sha": "b41e5de",
-          "message": "overlay: Settings: Show memory usage in app info",
-          "author": "Danny Lin",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/b41e5de"
-        },
-        {
-          "sha": "13c4f76",
-          "message": "device_config: Enable Cloned App",
-          "author": "aswin7469",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/13c4f76"
-        },
-        {
-          "sha": "a6dae8e",
-          "message": "overlay: Update clock plugin list",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/a6dae8e"
-        },
-        {
-          "sha": "6f10846",
-          "message": "overlay: Allow new SystemUI clocks",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/6f10846"
-        },
-        {
-          "sha": "1f2428e",
-          "message": "overlay: Set AOSP webview as fallback",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/1f2428e"
-        },
-        {
-          "sha": "4ab4e02",
-          "message": "build: Enable ThinLTO cache",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/crdroidandroid/android_vendor_crdroid/commit/4ab4e02"
         }
       ]
     },
@@ -5513,8 +5513,24 @@
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 89,
+      "commit_count": 90,
       "commits": [
+        {
+          "sha": "1b7a17b",
+          "message": "wiki: Require dtbo flash for enchilada and fajita",
+          "author": "LuK1337",
+          "date": "Mon Dec 1 01:17:51 2025 +0100",
+          "timestamp": 1764548271,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/1b7a17b"
+        },
+        {
+          "sha": "7dc3668",
+          "message": "wiki: Correct a few bits in timelm",
+          "author": "Tuan Anh",
+          "date": "Sun Nov 30 04:19:55 2025 +0000",
+          "timestamp": 1764476395,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/7dc3668"
+        },
         {
           "sha": "4f75f44",
           "message": "avalon/caihong/waffle: Bump FW to match OOS 16 release",
@@ -6218,14 +6234,6 @@
           "date": "Tue Sep 2 15:50:42 2025 +0300",
           "timestamp": 1756817442,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/10e564b"
-        },
-        {
-          "sha": "d85dd7a",
-          "message": "wiki: Add Motorola moto g Stylus 5G",
-          "author": "Vivekachooz",
-          "date": "Mon Sep 1 10:39:54 2025 +0530",
-          "timestamp": 1756703394,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/d85dd7a"
         }
       ]
     },
@@ -6755,7 +6763,7 @@
       "path": "frameworks/av",
       "repo_url": "https://github.com/crdroidandroid/android_frameworks_av",
       "remote": "crdroid",
-      "commit_count": 55,
+      "commit_count": 54,
       "commits": [
         {
           "sha": "8e2df0d",
@@ -7188,14 +7196,6 @@
           "date": "Fri Sep 26 10:30:56 2025 +0530",
           "timestamp": 1758862856,
           "url": "https://github.com/crdroidandroid/android_frameworks_av/commit/f19e42d"
-        },
-        {
-          "sha": "f56404d",
-          "message": "audioflinger: Do not allow DAP effect to be suspended",
-          "author": "Adithya R",
-          "date": "Mon Sep 1 17:05:30 2025 +0100",
-          "timestamp": 1756742730,
-          "url": "https://github.com/crdroidandroid/android_frameworks_av/commit/f56404d"
         }
       ]
     },
@@ -7597,7 +7597,7 @@
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
       "remote": "github",
-      "commit_count": 42,
+      "commit_count": 40,
       "commits": [
         {
           "sha": "5dff58d",
@@ -7918,22 +7918,6 @@
           "date": "Thu Sep 4 17:46:15 2025 +0200",
           "timestamp": 1757000775,
           "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/7359331"
-        },
-        {
-          "sha": "e6c6b29",
-          "message": "Aperture: Rewrite QR analyzer + dialog",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 2 02:32:47 2025 +0200",
-          "timestamp": 1756773167,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e6c6b29"
-        },
-        {
-          "sha": "caa5ddb",
-          "message": "Aperture: Goodbye LiveData, welcome flows",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 1 18:15:03 2025 +0200",
-          "timestamp": 1756743303,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/caa5ddb"
         }
       ]
     },
@@ -7942,7 +7926,7 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 41,
+      "commit_count": 40,
       "commits": [
         {
           "sha": "fadc405",
@@ -8263,14 +8247,6 @@
           "date": "Fri Sep 5 09:37:43 2025 +0000",
           "timestamp": 1757065063,
           "url": "https://github.com/LineageOS/hudson/commit/efb5f20"
-        },
-        {
-          "sha": "43a9eb8",
-          "message": "hudson: Add Motorola moto g Stylus 5G",
-          "author": "Vivekachooz",
-          "date": "Mon Sep 1 10:41:01 2025 +0530",
-          "timestamp": 1756703461,
-          "url": "https://github.com/LineageOS/hudson/commit/43a9eb8"
         }
       ]
     },
@@ -8929,7 +8905,7 @@
       "path": "android",
       "repo_url": "https://github.com/crdroidandroid/android",
       "remote": "crdroid",
-      "commit_count": 37,
+      "commit_count": 36,
       "commits": [
         {
           "sha": "f5c969f",
@@ -9218,14 +9194,6 @@
           "date": "Tue Sep 2 06:08:12 2025 +0000",
           "timestamp": 1756793292,
           "url": "https://github.com/crdroidandroid/android/commit/49e5e99"
-        },
-        {
-          "sha": "b654ce4",
-          "message": "manifest: Track st-hal temporarily",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 1 07:56:47 2025 +0530",
-          "timestamp": 1756693607,
-          "url": "https://github.com/crdroidandroid/android/commit/b654ce4"
         }
       ]
     },
@@ -10559,7 +10527,7 @@
       "path": "packages/apps/Twelve",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
       "remote": "github",
-      "commit_count": 26,
+      "commit_count": 25,
       "commits": [
         {
           "sha": "6b0152d",
@@ -10760,14 +10728,6 @@
           "date": "Mon Sep 15 16:55:08 2025 +0000",
           "timestamp": 1757955308,
           "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/e765cd7"
-        },
-        {
-          "sha": "3bfeb98",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:40 2025 +0000",
-          "timestamp": 1756738480,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3bfeb98"
         }
       ]
     },
@@ -11520,167 +11480,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_packages_apps_ColumbusService",
-      "path": "packages/apps/ColumbusService",
-      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService",
-      "remote": "crdroid",
-      "commit_count": 19,
-      "commits": [
-        {
-          "sha": "fcf3671",
-          "message": "ColumbusService: Add translation for pl",
-          "author": "rehork",
-          "date": "Sun Oct 19 11:14:11 2025 +0530",
-          "timestamp": 1760852651,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/fcf3671"
-        },
-        {
-          "sha": "5d71867",
-          "message": "ColumbusService: Add translation pt-BR",
-          "author": "kleidione Freitas",
-          "date": "Sun Oct 19 11:12:52 2025 +0530",
-          "timestamp": 1760852572,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/5d71867"
-        },
-        {
-          "sha": "8add304",
-          "message": "ColumbusService: Switch to material expressive design for preferences",
-          "author": "Pranav Vashi",
-          "date": "Tue Sep 2 13:27:43 2025 +0530",
-          "timestamp": 1756799863,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/8add304"
-        },
-        {
-          "sha": "9ca5309",
-          "message": "ColumbusService: Make use of Expressive SliderPreference",
-          "author": "Pranav Vashi",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/9ca5309"
-        },
-        {
-          "sha": "b51506e",
-          "message": "ColumbusService: Matches getMaxId method to stock",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/b51506e"
-        },
-        {
-          "sha": "9ed2c59",
-          "message": "ColumbusService: Use mipmap for icon",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/9ed2c59"
-        },
-        {
-          "sha": "83f94c1",
-          "message": "ColumbusService: Enable R8 and proguard optimizations",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/83f94c1"
-        },
-        {
-          "sha": "7e21c75",
-          "message": "ColumbusService: TfClassifier: Matches stock",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/7e21c75"
-        },
-        {
-          "sha": "756d751",
-          "message": "ColumbusService: Matches stock behaviour",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/756d751"
-        },
-        {
-          "sha": "329a42a",
-          "message": "ColumbusService: Save featureVector before scaleGyroData",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/329a42a"
-        },
-        {
-          "sha": "5e803e5",
-          "message": "ColumbusService: Use ordinal for TapClass enum again",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/5e803e5"
-        },
-        {
-          "sha": "a2526d7",
-          "message": "ColumbusService: Allow to set gate duration",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/a2526d7"
-        },
-        {
-          "sha": "1fff127",
-          "message": "ColumbusService: Rewrite AppPicker to kotlin",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/1fff127"
-        },
-        {
-          "sha": "b2639bf",
-          "message": "ColumbusService: Fix launch action",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/b2639bf"
-        },
-        {
-          "sha": "67c4548",
-          "message": "ColumbusService: Move to SPDX license",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/67c4548"
-        },
-        {
-          "sha": "8b0d4f2",
-          "message": "ColumbusService: Add init block for constructor",
-          "author": "someone5678",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/8b0d4f2"
-        },
-        {
-          "sha": "20b3247",
-          "message": "ColumbusService: Kotlin code style and minor improvements",
-          "author": "NurKeinNeid",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/20b3247"
-        },
-        {
-          "sha": "60fcb37",
-          "message": "ColumbusService: Import Simplified Chinese translations",
-          "author": "kaffuchino233",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/60fcb37"
-        },
-        {
-          "sha": "cdf97f4",
-          "message": "ColumbusService: Add RU translation",
-          "author": "ShevT",
-          "date": "Tue Sep 2 01:30:50 2025 +0530",
-          "timestamp": 1756756850,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/cdf97f4"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_apps_LineageParts",
       "path": "packages/apps/LineageParts",
       "repo_url": "https://github.com/crdroidandroid/android_packages_apps_LineageParts",
@@ -12152,7 +11951,7 @@
       "path": "packages/apps/Jelly",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
       "remote": "github",
-      "commit_count": 17,
+      "commit_count": 16,
       "commits": [
         {
           "sha": "e7bc9a2",
@@ -12281,14 +12080,6 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/6de7c84"
-        },
-        {
-          "sha": "751734f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:36 2025 +0000",
-          "timestamp": 1756738476,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/751734f"
         }
       ]
     },
@@ -12414,119 +12205,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "github",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "84e7b7b",
-          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
-          "author": "Sneh Mankad",
-          "date": "Sun Nov 9 02:51:10 2025 +0200",
-          "timestamp": 1762649470,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
-        },
-        {
-          "sha": "9d86876",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:35:09 2025 +0200",
-          "timestamp": 1762648509,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
-        },
-        {
-          "sha": "ecd05f7",
-          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:34:40 2025 +0200",
-          "timestamp": 1762648480,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
-        },
-        {
-          "sha": "09c3881",
-          "message": "generic: Label vendor.qti.qesdk.sysservice app",
-          "author": "Giovanni Ricca",
-          "date": "Tue Oct 7 09:13:59 2025 +0200",
-          "timestamp": 1759821239,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
-        },
-        {
-          "sha": "8186a50",
-          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:34 2025 -0700",
-          "timestamp": 1757906014,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
-        },
-        {
-          "sha": "74db8a6",
-          "message": "sepolicy: Added attributes for BHS services.",
-          "author": "mkadali",
-          "date": "Tue Sep 9 18:40:44 2025 -0400",
-          "timestamp": 1757457644,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
-        },
-        {
-          "sha": "0785bde",
-          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
-          "author": "QCTECMDR Service",
-          "date": "Fri Sep 5 05:35:52 2025 -0700",
-          "timestamp": 1757075752,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
-        },
-        {
-          "sha": "f84d078",
-          "message": "[NFC][SEPolicy]: added dev node check access permission",
-          "author": "Varun Kumar",
-          "date": "Fri Sep 5 05:12:50 2025 -0700",
-          "timestamp": 1757074370,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
-        },
-        {
-          "sha": "736d7bc",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 5 07:41:13 2025 +0000",
-          "timestamp": 1757058073,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
-        },
-        {
-          "sha": "6f92e4b",
-          "message": "Merge \"sepolicy: Change the label to allow the property to be written by vendor\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 06:02:22 2025 -0700",
-          "timestamp": 1756904542,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6f92e4b"
-        },
-        {
-          "sha": "0258e3a",
-          "message": "Merge \"sepolicy : Allow BootAnimation to have read access to vendor_sys_gpp_prop\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 02:42:08 2025 -0700",
-          "timestamp": 1756892528,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0258e3a"
-        },
-        {
-          "sha": "42e70dd",
-          "message": "sepolicy: Add rules for qtiaudiohalvendorextn",
-          "author": "LuK1337",
-          "date": "Mon Sep 1 23:35:20 2025 +0100",
-          "timestamp": 1756766120,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/42e70dd"
-        },
-        {
-          "sha": "12dd76a",
-          "message": "Merge 99b06a78228eae70c3d24a2679aa13cca1f6a68e on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Aug 31 23:28:02 2025 -0700",
-          "timestamp": 1756708082,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/12dd76a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -12632,11 +12310,108 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "github",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "84e7b7b",
+          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
+          "author": "Sneh Mankad",
+          "date": "Sun Nov 9 02:51:10 2025 +0200",
+          "timestamp": 1762649470,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
+        },
+        {
+          "sha": "9d86876",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:35:09 2025 +0200",
+          "timestamp": 1762648509,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
+        },
+        {
+          "sha": "ecd05f7",
+          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:34:40 2025 +0200",
+          "timestamp": 1762648480,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
+        },
+        {
+          "sha": "09c3881",
+          "message": "generic: Label vendor.qti.qesdk.sysservice app",
+          "author": "Giovanni Ricca",
+          "date": "Tue Oct 7 09:13:59 2025 +0200",
+          "timestamp": 1759821239,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
+        },
+        {
+          "sha": "8186a50",
+          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:34 2025 -0700",
+          "timestamp": 1757906014,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
+        },
+        {
+          "sha": "74db8a6",
+          "message": "sepolicy: Added attributes for BHS services.",
+          "author": "mkadali",
+          "date": "Tue Sep 9 18:40:44 2025 -0400",
+          "timestamp": 1757457644,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
+        },
+        {
+          "sha": "0785bde",
+          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
+          "author": "QCTECMDR Service",
+          "date": "Fri Sep 5 05:35:52 2025 -0700",
+          "timestamp": 1757075752,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
+        },
+        {
+          "sha": "f84d078",
+          "message": "[NFC][SEPolicy]: added dev node check access permission",
+          "author": "Varun Kumar",
+          "date": "Fri Sep 5 05:12:50 2025 -0700",
+          "timestamp": 1757074370,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
+        },
+        {
+          "sha": "736d7bc",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 5 07:41:13 2025 +0000",
+          "timestamp": 1757058073,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
+        },
+        {
+          "sha": "6f92e4b",
+          "message": "Merge \"sepolicy: Change the label to allow the property to be written by vendor\"",
+          "author": "QCTECMDR Service",
+          "date": "Wed Sep 3 06:02:22 2025 -0700",
+          "timestamp": 1756904542,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6f92e4b"
+        },
+        {
+          "sha": "0258e3a",
+          "message": "Merge \"sepolicy : Allow BootAnimation to have read access to vendor_sys_gpp_prop\"",
+          "author": "QCTECMDR Service",
+          "date": "Wed Sep 3 02:42:08 2025 -0700",
+          "timestamp": 1756892528,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0258e3a"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
       "remote": "github",
-      "commit_count": 12,
+      "commit_count": 11,
       "commits": [
         {
           "sha": "6a365d1",
@@ -12725,14 +12500,6 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e774392"
-        },
-        {
-          "sha": "7bd917b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:36 2025 +0000",
-          "timestamp": 1756738476,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b"
         }
       ]
     },
@@ -13028,95 +12795,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8750",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "6748e02",
-          "message": "sepolicy: Label SEC NFC device & HAL",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 16:29:17 2025 +0200",
-          "timestamp": 1764426557,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6748e02"
-        },
-        {
-          "sha": "dd8ebd7",
-          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
-          "author": "Ankit Lathiya",
-          "date": "Sat Nov 22 00:26:59 2025 +0200",
-          "timestamp": 1763764019,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
-        },
-        {
-          "sha": "447107e",
-          "message": "removing get_prop function as it set_prop provides the same functionality",
-          "author": "abarnwal",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
-        },
-        {
-          "sha": "ba4de13",
-          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
-          "author": "Amruth Naga",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
-        },
-        {
-          "sha": "4088120",
-          "message": "qva: Label AOSP ST NFC HAL",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
-        },
-        {
-          "sha": "71e3f76",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:26:41 2025 +0200",
-          "timestamp": 1762608401,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
-        },
-        {
-          "sha": "e8391b6",
-          "message": "Merge d033dd00b623b7afc55c974d0a920847c77eefc4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 21 01:47:01 2025 -0700",
-          "timestamp": 1758444421,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8391b6"
-        },
-        {
-          "sha": "9e8d9ec",
-          "message": "sun: Match all read_ahead_kb nodes",
-          "author": "dianlujitao",
-          "date": "Sat Sep 20 14:57:06 2025 +0100",
-          "timestamp": 1758376626,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9e8d9ec"
-        },
-        {
-          "sha": "e63498e",
-          "message": "qva: Allow weaver HAL to request wakelock",
-          "author": "dianlujitao",
-          "date": "Sat Sep 20 14:56:58 2025 +0100",
-          "timestamp": 1758376618,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e63498e"
-        },
-        {
-          "sha": "8b123eb",
-          "message": "qva: Label AOSP NXP keymint and weaver HALs",
-          "author": "dianlujitao",
-          "date": "Mon Sep 1 23:12:37 2025 +0100",
-          "timestamp": 1756764757,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8b123eb"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -13194,6 +12872,87 @@
           "date": "Fri Sep 5 08:53:05 2025 +0200",
           "timestamp": 1757055185,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6e21d75"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8750",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "github",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "6748e02",
+          "message": "sepolicy: Label SEC NFC device & HAL",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 16:29:17 2025 +0200",
+          "timestamp": 1764426557,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6748e02"
+        },
+        {
+          "sha": "dd8ebd7",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:59 2025 +0200",
+          "timestamp": 1763764019,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
+        },
+        {
+          "sha": "447107e",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
+        },
+        {
+          "sha": "ba4de13",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
+        },
+        {
+          "sha": "4088120",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
+        },
+        {
+          "sha": "71e3f76",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:41 2025 +0200",
+          "timestamp": 1762608401,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
+        },
+        {
+          "sha": "e8391b6",
+          "message": "Merge d033dd00b623b7afc55c974d0a920847c77eefc4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 21 01:47:01 2025 -0700",
+          "timestamp": 1758444421,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8391b6"
+        },
+        {
+          "sha": "9e8d9ec",
+          "message": "sun: Match all read_ahead_kb nodes",
+          "author": "dianlujitao",
+          "date": "Sat Sep 20 14:57:06 2025 +0100",
+          "timestamp": 1758376626,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9e8d9ec"
+        },
+        {
+          "sha": "e63498e",
+          "message": "qva: Allow weaver HAL to request wakelock",
+          "author": "dianlujitao",
+          "date": "Sat Sep 20 14:56:58 2025 +0100",
+          "timestamp": 1758376618,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e63498e"
         }
       ]
     },
@@ -13733,79 +13492,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Recorder",
-      "path": "packages/apps/Recorder",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Recorder",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "aeeafd6",
-          "message": "Recorder: colorAccent -> colorSecondary",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 12:59:35 2025 +0200",
-          "timestamp": 1763722775,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/aeeafd6"
-        },
-        {
-          "sha": "ba7e033",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:25 2025 +0000",
-          "timestamp": 1760577865,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ba7e033"
-        },
-        {
-          "sha": "ac959a5",
-          "message": "Recorder: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ac959a5"
-        },
-        {
-          "sha": "0ed5b1d",
-          "message": "Recorder: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/0ed5b1d"
-        },
-        {
-          "sha": "13aa044",
-          "message": "Recorder: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/13aa044"
-        },
-        {
-          "sha": "6205aaa",
-          "message": "Recorder: Bump kotlin version",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:08 2025 +0200",
-          "timestamp": 1758448748,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/6205aaa"
-        },
-        {
-          "sha": "1f9060b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:06 2025 +0000",
-          "timestamp": 1757955306,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b"
-        },
-        {
-          "sha": "4bf7948",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:37 2025 +0000",
-          "timestamp": 1756738477,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/4bf7948"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_resources_devicesettings",
       "path": "packages/resources/devicesettings",
       "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
@@ -13944,67 +13630,67 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Camelot",
-      "path": "packages/apps/Camelot",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "name": "LineageOS/android_packages_apps_Recorder",
+      "path": "packages/apps/Recorder",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Recorder",
       "remote": "github",
       "commit_count": 7,
       "commits": [
         {
-          "sha": "e8345aa",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:22 2025 +0000",
-          "timestamp": 1760577862,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/e8345aa"
+          "sha": "aeeafd6",
+          "message": "Recorder: colorAccent -> colorSecondary",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 12:59:35 2025 +0200",
+          "timestamp": 1763722775,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/aeeafd6"
         },
         {
-          "sha": "cbb6a81",
-          "message": "Camelot: Update kotlin to match AOSP 16",
+          "sha": "ba7e033",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:25 2025 +0000",
+          "timestamp": 1760577865,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ba7e033"
+        },
+        {
+          "sha": "ac959a5",
+          "message": "Recorder: Update kotlin deps to match AOSP 16",
           "author": "Luca Stefani",
-          "date": "Wed Sep 24 19:36:42 2025 +0200",
-          "timestamp": 1758735402,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb6a81"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ac959a5"
         },
         {
-          "sha": "9da5e90",
-          "message": "Camelot: Update SDK to 36",
+          "sha": "0ed5b1d",
+          "message": "Recorder: Update SDK to 36",
           "author": "Luca Stefani",
-          "date": "Wed Sep 24 19:36:31 2025 +0200",
-          "timestamp": 1758735391,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/9da5e90"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/0ed5b1d"
         },
         {
-          "sha": "b6cff9a",
-          "message": "Camelot: Update generatebp to v1.28",
+          "sha": "13aa044",
+          "message": "Recorder: Update Gradle wrapper and AGP",
           "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:36:25 2025 +0200",
-          "timestamp": 1758735385,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/13aa044"
         },
         {
-          "sha": "bcfa1a7",
-          "message": "Camelot: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:33:55 2025 +0200",
-          "timestamp": 1758735235,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7"
+          "sha": "6205aaa",
+          "message": "Recorder: Bump kotlin version",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 21 11:59:08 2025 +0200",
+          "timestamp": 1758448748,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/6205aaa"
         },
         {
-          "sha": "34fd95b",
+          "sha": "1f9060b",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:02 2025 +0000",
-          "timestamp": 1757955302,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
-        },
-        {
-          "sha": "cbb578e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e"
+          "date": "Mon Sep 15 16:55:06 2025 +0000",
+          "timestamp": 1757955306,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b"
         }
       ]
     },
@@ -14135,71 +13821,6 @@
           "date": "Fri Sep 5 03:03:20 2025 -0700",
           "timestamp": 1757066600,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ef8f4e1"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/display",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "7cbc3cb",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:21 2025 +0200",
-          "timestamp": 1762607781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
-        },
-        {
-          "sha": "7ac4077",
-          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 12 23:41:34 2025 -0700",
-          "timestamp": 1760337694,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
-        },
-        {
-          "sha": "bb1ed10",
-          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Thu Sep 25 23:54:17 2025 -0700",
-          "timestamp": 1758869657,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
-        },
-        {
-          "sha": "8725d4e",
-          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:47 2025 -0700",
-          "timestamp": 1757906027,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
-        },
-        {
-          "sha": "8d5c652",
-          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 8 16:46:11 2025 -0700",
-          "timestamp": 1757375171,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
-        },
-        {
-          "sha": "2e7a285",
-          "message": "snapallocext: Add SnapAlloc Extension AIDL",
-          "author": "prajawal",
-          "date": "Tue Sep 2 17:14:48 2025 -0700",
-          "timestamp": 1756858488,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/2e7a285"
-        },
-        {
-          "sha": "c899044",
-          "message": "Merge 5b598d9a23879d772b8ec7c69d6a321d2146bc26 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Aug 31 23:28:40 2025 -0700",
-          "timestamp": 1756708120,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/c899044"
         }
       ]
     },
@@ -14448,6 +14069,63 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Camelot",
+      "path": "packages/apps/Camelot",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "e8345aa",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:22 2025 +0000",
+          "timestamp": 1760577862,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/e8345aa"
+        },
+        {
+          "sha": "cbb6a81",
+          "message": "Camelot: Update kotlin to match AOSP 16",
+          "author": "Luca Stefani",
+          "date": "Wed Sep 24 19:36:42 2025 +0200",
+          "timestamp": 1758735402,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb6a81"
+        },
+        {
+          "sha": "9da5e90",
+          "message": "Camelot: Update SDK to 36",
+          "author": "Luca Stefani",
+          "date": "Wed Sep 24 19:36:31 2025 +0200",
+          "timestamp": 1758735391,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/9da5e90"
+        },
+        {
+          "sha": "b6cff9a",
+          "message": "Camelot: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:36:25 2025 +0200",
+          "timestamp": 1758735385,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a"
+        },
+        {
+          "sha": "bcfa1a7",
+          "message": "Camelot: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:33:55 2025 +0200",
+          "timestamp": 1758735235,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7"
+        },
+        {
+          "sha": "34fd95b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:02 2025 +0000",
+          "timestamp": 1757955302,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_tools_extract-utils",
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
@@ -14501,6 +14179,63 @@
           "date": "Fri Oct 10 20:58:29 2025 +0300",
           "timestamp": 1760119109,
           "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c7e9116"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/display",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "7cbc3cb",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:21 2025 +0200",
+          "timestamp": 1762607781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
+        },
+        {
+          "sha": "7ac4077",
+          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 12 23:41:34 2025 -0700",
+          "timestamp": 1760337694,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
+        },
+        {
+          "sha": "bb1ed10",
+          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Sep 25 23:54:17 2025 -0700",
+          "timestamp": 1758869657,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
+        },
+        {
+          "sha": "8725d4e",
+          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:47 2025 -0700",
+          "timestamp": 1757906027,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
+        },
+        {
+          "sha": "8d5c652",
+          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Sep 8 16:46:11 2025 -0700",
+          "timestamp": 1757375171,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
+        },
+        {
+          "sha": "2e7a285",
+          "message": "snapallocext: Add SnapAlloc Extension AIDL",
+          "author": "prajawal",
+          "date": "Tue Sep 2 17:14:48 2025 -0700",
+          "timestamp": 1756858488,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/2e7a285"
         }
       ]
     },
@@ -15207,47 +14942,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_FMRadio",
-      "path": "packages/apps/FMRadio",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "7e89b01",
-          "message": "FmService: Set RECEIVER_NOT_EXPORTED",
-          "author": "Cyber Knight",
-          "date": "Fri Sep 26 18:30:01 2025 +0000",
-          "timestamp": 1758911401,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01"
-        },
-        {
-          "sha": "4372899",
-          "message": "FMRadio: Start ForegroundService with a type",
-          "author": "Cyber Knight",
-          "date": "Wed Sep 24 20:26:24 2025 +0000",
-          "timestamp": 1758745584,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899"
-        },
-        {
-          "sha": "5160538",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:04 2025 +0000",
-          "timestamp": 1757955304,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538"
-        },
-        {
-          "sha": "4d4f98b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:35 2025 +0000",
-          "timestamp": 1756738475,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4d4f98b"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_agm",
       "path": "hardware/qcom-caf/sm8750/audio/agm",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
@@ -15412,39 +15106,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
-        },
-        {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
-        },
-        {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
       "path": "external/chromium-webview/prebuilt/arm",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
@@ -15474,6 +15135,39 @@
           "date": "Sat Sep 27 08:22:39 2025 -0600",
           "timestamp": 1758982959,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        },
+        {
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+        },
+        {
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
         }
       ]
     },
@@ -15577,68 +15271,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "name": "LineageOS/android_packages_apps_FMRadio",
+      "path": "packages/apps/FMRadio",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
+          "sha": "7e89b01",
+          "message": "FmService: Set RECEIVER_NOT_EXPORTED",
+          "author": "Cyber Knight",
+          "date": "Fri Sep 26 18:30:01 2025 +0000",
+          "timestamp": 1758911401,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01"
         },
         {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
+          "sha": "4372899",
+          "message": "FMRadio: Start ForegroundService with a type",
+          "author": "Cyber Knight",
+          "date": "Wed Sep 24 20:26:24 2025 +0000",
+          "timestamp": 1758745584,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899"
         },
         {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_DeskClock",
-      "path": "packages/apps/DeskClock",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_DeskClock",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "8987c25",
+          "sha": "5160538",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:57 2025 +0000",
-          "timestamp": 1763229717,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c25"
-        },
-        {
-          "sha": "cd9326b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:02 2025 +0000",
-          "timestamp": 1757955302,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/cd9326b"
-        },
-        {
-          "sha": "c1f46ef",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/c1f46ef"
+          "date": "Mon Sep 15 16:55:04 2025 +0000",
+          "timestamp": 1757955304,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538"
         }
       ]
     },
@@ -15808,6 +15469,39 @@
       ]
     },
     {
+      "name": "crdroidandroid/android_packages_apps_ColumbusService",
+      "path": "packages/apps/ColumbusService",
+      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService",
+      "remote": "crdroid",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "fcf3671",
+          "message": "ColumbusService: Add translation for pl",
+          "author": "rehork",
+          "date": "Sun Oct 19 11:14:11 2025 +0530",
+          "timestamp": 1760852651,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/fcf3671"
+        },
+        {
+          "sha": "5d71867",
+          "message": "ColumbusService: Add translation pt-BR",
+          "author": "kleidione Freitas",
+          "date": "Sun Oct 19 11:12:52 2025 +0530",
+          "timestamp": 1760852572,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/5d71867"
+        },
+        {
+          "sha": "8add304",
+          "message": "ColumbusService: Switch to material expressive design for preferences",
+          "author": "Pranav Vashi",
+          "date": "Tue Sep 2 13:27:43 2025 +0530",
+          "timestamp": 1756799863,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_ColumbusService/commit/8add304"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_build_release",
       "path": "build/release",
       "repo_url": "https://github.com/LineageOS/android_build_release",
@@ -15933,6 +15627,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_DeskClock",
+      "path": "packages/apps/DeskClock",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_DeskClock",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "8987c25",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:57 2025 +0000",
+          "timestamp": 1763229717,
+          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c25"
+        },
+        {
+          "sha": "cd9326b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:02 2025 +0000",
+          "timestamp": 1757955302,
+          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/cd9326b"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Contacts",
       "path": "packages/apps/Contacts",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Contacts",
@@ -15954,31 +15673,6 @@
           "date": "Fri Sep 12 17:55:35 2025 +0300",
           "timestamp": 1757688935,
           "url": "https://github.com/LineageOS/android_packages_apps_Contacts/commit/a184e27"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_FlipFlap",
-      "path": "packages/apps/FlipFlap",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "dd49d55",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
-        },
-        {
-          "sha": "e7ffef4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:35 2025 +0000",
-          "timestamp": 1756738475,
-          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/e7ffef4"
         }
       ]
     },
@@ -16422,6 +16116,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_FlipFlap",
+      "path": "packages/apps/FlipFlap",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "dd49d55",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Stk",
       "path": "packages/apps/Stk",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Stk",
@@ -16622,23 +16333,6 @@
           "date": "Sat Oct 4 13:01:13 2025 +0800",
           "timestamp": 1759554073,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0a94a23"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar",
-      "path": "vendor/qcom/opensource/audio-hal/st-hal-ar",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f8dfc3d",
-          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 07:08:04 2025 +0000",
-          "timestamp": 1756710484,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/f8dfc3d"
         }
       ]
     },

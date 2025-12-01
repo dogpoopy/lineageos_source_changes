@@ -1,18 +1,818 @@
 {
   "rom_id": "alphadroid",
   "branch": "alpha-16.1",
-  "generated_at": "2025-11-30T01:34:38.938415+00:00",
-  "since_date": "2025-09-01",
-  "total_projects": 27,
-  "total_commits": 514,
+  "generated_at": "2025-12-01T01:49:38.394222+00:00",
+  "since_date": "2025-09-02",
+  "total_projects": 29,
+  "total_commits": 731,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
       "path": "packages/apps/Launcher3",
       "repo_url": "https://github.com/alphadroid-project/packages_apps_Launcher3",
       "remote": "alpha",
-      "commit_count": 100,
+      "commit_count": 199,
       "commits": [
+        {
+          "sha": "755f5c1",
+          "message": "Merge branch '16.0' of https://github.com/crdroidandroid/android_packages_apps_Launcher3 into HEAD",
+          "author": "elpaablo",
+          "date": "Sun Nov 30 09:43:06 2025 +0000",
+          "timestamp": 1764495786,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/755f5c1"
+        },
+        {
+          "sha": "93f9b65",
+          "message": "New Crowdin updates (#507)",
+          "author": "Lup Gabriel",
+          "date": "Thu Nov 20 09:04:33 2025 +0200",
+          "timestamp": 1763622273,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/93f9b65"
+        },
+        {
+          "sha": "5913679",
+          "message": "Launcher3: Disable predictive back to home blur",
+          "author": "rmp22",
+          "date": "Wed Nov 19 05:30:46 2025 +0530",
+          "timestamp": 1763510446,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/5913679"
+        },
+        {
+          "sha": "09f45c6",
+          "message": "New Crowdin updates (#506)",
+          "author": "Lup Gabriel",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/09f45c6"
+        },
+        {
+          "sha": "9f2f29f",
+          "message": "Update Crowdin configuration file",
+          "author": "Lup Gabriel",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/9f2f29f"
+        },
+        {
+          "sha": "1ac9cc2",
+          "message": "Launcher3: Allow taskbar for phones only if using gesture navigation",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/1ac9cc2"
+        },
+        {
+          "sha": "cc23093",
+          "message": "Launcher3: Allow disabling taskbar toggle on tablet",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/cc23093"
+        },
+        {
+          "sha": "65f793f",
+          "message": "Launcher3: Clean up check for inverse layout",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/65f793f"
+        },
+        {
+          "sha": "2f6aa23",
+          "message": "Launcher3: Remove D2S vibrate if not supported",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/2f6aa23"
+        },
+        {
+          "sha": "689f853",
+          "message": "Launcher3: BlurUtils: Always clear the base surface",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/689f853"
+        },
+        {
+          "sha": "75e8ac5",
+          "message": "Launcher3: RecentsView: Reuse a shared Matrix to reduce GC",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/75e8ac5"
+        },
+        {
+          "sha": "3eaa9d2",
+          "message": "Launcher3: Restart on changing blur radius",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/3eaa9d2"
+        },
+        {
+          "sha": "4229094",
+          "message": "Launcher3: Remove blur radius option if not supported",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/4229094"
+        },
+        {
+          "sha": "66df91f",
+          "message": "Launcher3: Add an option to customize blur radius",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/66df91f"
+        },
+        {
+          "sha": "a536eff",
+          "message": "Launcher3: Change resource type for blur radius in DepthController",
+          "author": "Danny Lin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/a536eff"
+        },
+        {
+          "sha": "68c4465",
+          "message": "Launcher3: RecentsView: Clear DepthController base surface on every exit",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/68c4465"
+        },
+        {
+          "sha": "0bc545b",
+          "message": "Launcher3: Cancel ongoing animations before entering allapps",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/0bc545b"
+        },
+        {
+          "sha": "1d179ce",
+          "message": "Launcher3: Unify close and kill actions",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/1d179ce"
+        },
+        {
+          "sha": "43aea55",
+          "message": "Launcher3: Add recents and app drawer opacity customization",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/43aea55"
+        },
+        {
+          "sha": "86022dc",
+          "message": "Launcher3: Fix reset icon in CustomSeekBarPreference in RTL layout",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/86022dc"
+        },
+        {
+          "sha": "8fc6cc3",
+          "message": "Launcher3: Allow to always show page indicator dots",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/8fc6cc3"
+        },
+        {
+          "sha": "8575c02",
+          "message": "Launcher3: SettingsCache: Clear per-URI cache entries when empty",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/8575c02"
+        },
+        {
+          "sha": "d7151b2",
+          "message": "Launcher3: TaskbarManager: Fix wrong key used in dumpLogs",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/d7151b2"
+        },
+        {
+          "sha": "3779540",
+          "message": "Launcher3: ReloadingListPreference: Improve layout",
+          "author": "rmp22",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/3779540"
+        },
+        {
+          "sha": "7818e5a",
+          "message": "Launcher3: PreviewSurfaceRenderer: Clear view tree on renderer destroy",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/7818e5a"
+        },
+        {
+          "sha": "97a343f",
+          "message": "Launcher3: PreloadIconDrawable: Animator listener cleanup",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/97a343f"
+        },
+        {
+          "sha": "a8a3f36",
+          "message": "Launcher3: Do not wrap icons from icon pack",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/a8a3f36"
+        },
+        {
+          "sha": "d4b3531",
+          "message": "Launcher3: Increase tablet qsb margin",
+          "author": "Dmitrii",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/d4b3531"
+        },
+        {
+          "sha": "e70d4cc",
+          "message": "Launcher3: Fix broken QSB in landscape mode for 6x5 tablet grid",
+          "author": "Dmitrii",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/e70d4cc"
+        },
+        {
+          "sha": "411b115",
+          "message": "Launcher3: QsbLayout: Set up icons in uniform way",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/411b115"
+        },
+        {
+          "sha": "1fd8b09",
+          "message": "Launcher3: SplitAnimationController: fix crash if coming from freeform",
+          "author": "rmp22",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/1fd8b09"
+        },
+        {
+          "sha": "e3911eb",
+          "message": "Launcher3: Prevent system not responding when launcher fails to set scaling",
+          "author": "rmp22",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/e3911eb"
+        },
+        {
+          "sha": "77cdd88",
+          "message": "Launcher3: DeviceProfile: Fix all apps border space after explicitly enabling grid options for tablets",
+          "author": "rmp22",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/77cdd88"
+        },
+        {
+          "sha": "421a7ad",
+          "message": "Launcher3: Quickspace: Fix random quote",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/421a7ad"
+        },
+        {
+          "sha": "c3f4ccb",
+          "message": "Launcher3: Quickspace: Do not load quickspace controller if disabled",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/c3f4ccb"
+        },
+        {
+          "sha": "665040c",
+          "message": "Launcher3: Quickspace: Defer adding listners till layout is inflated",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/665040c"
+        },
+        {
+          "sha": "d9f521d",
+          "message": "Launcher3: QuickSpace: Limit weather updates from google widget",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/d9f521d"
+        },
+        {
+          "sha": "12a356b",
+          "message": "Launcher3: Add SeraphixGoogle helpers to pause listening",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/12a356b"
+        },
+        {
+          "sha": "ae8a339",
+          "message": "Launcher3: Fix SeraphixGoogle to retrieve update properly",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/ae8a339"
+        },
+        {
+          "sha": "a2d9647",
+          "message": "Launcher3: Bind SeraphixDataProvider to the quickspace",
+          "author": "Nauval Rizky",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/a2d9647"
+        },
+        {
+          "sha": "daf572e",
+          "message": "Launcher3: Add Chaldea SeraphixGoogle",
+          "author": "Nauval Rizky",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/daf572e"
+        },
+        {
+          "sha": "54cd632",
+          "message": "Launcher3: Quickspace: Improve adding/removing listeners",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/54cd632"
+        },
+        {
+          "sha": "a7c4e28",
+          "message": "Launcher3: Quickspace: Prevent clipping of text",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/a7c4e28"
+        },
+        {
+          "sha": "03a61b9",
+          "message": "Launcher3: QuickSpace: Simplify QuickSpaceActonReceiver",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/03a61b9"
+        },
+        {
+          "sha": "fdaddbc",
+          "message": "Launcher3: QuickSpace: Animate message updates",
+          "author": "Dmitrii",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/fdaddbc"
+        },
+        {
+          "sha": "316fb6a",
+          "message": "Launcher3: QuickSpace: Refactor to fix event update loops",
+          "author": "Dmitrii",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/316fb6a"
+        },
+        {
+          "sha": "c32210c",
+          "message": "Launcher3: Bring back QuickSpace events",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/c32210c"
+        },
+        {
+          "sha": "b408b8b",
+          "message": "Launcher3: Add toggle to use dark status bar on home screen",
+          "author": "Ratoriku",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/b408b8b"
+        },
+        {
+          "sha": "35feda6",
+          "message": "Launcher3: Add missing PACKAGE_USAGE_STATS permission",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/35feda6"
+        },
+        {
+          "sha": "f435e28",
+          "message": "Launcher3: Add REGISTER_STATS_PULL_ATOM permission",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/f435e28"
+        },
+        {
+          "sha": "5a7f13b",
+          "message": "Launcher3: Fix cloned apps not appearing in app drawer",
+          "author": "rmp22",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/5a7f13b"
+        },
+        {
+          "sha": "a4b0d0d",
+          "message": "Launcher3: Add an option to hide/show scrollbar in app drawer",
+          "author": "SlowNicoFish",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/a4b0d0d"
+        },
+        {
+          "sha": "9aefc4d",
+          "message": "Launcher3: Implement auto open keyboard in drawer setting",
+          "author": "Frederico Silva",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/9aefc4d"
+        },
+        {
+          "sha": "13544ae",
+          "message": "Launcher3: Fix keyboard disappear on empty search",
+          "author": "MrSluffy",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/13544ae"
+        },
+        {
+          "sha": "80319ec",
+          "message": "Launcher3: Hide keyboard when transitioning to home screen",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/80319ec"
+        },
+        {
+          "sha": "5767bab",
+          "message": "Launcher3: LoadTrustComponents: Limit app list to only show launchable applications",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/5767bab"
+        },
+        {
+          "sha": "baa7be1",
+          "message": "Launcher3: Allow to control parallax effect and center wallpaper",
+          "author": "nift4",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/baa7be1"
+        },
+        {
+          "sha": "fd949c4",
+          "message": "Launcher3: Integrate LMOFreeform to system shortcut",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/fd949c4"
+        },
+        {
+          "sha": "1fedaf4",
+          "message": "Launcher3: Update floating window drawable",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/1fedaf4"
+        },
+        {
+          "sha": "2adcab4",
+          "message": "Launcher3: Add recents shortcut for floating window",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/2adcab4"
+        },
+        {
+          "sha": "031cdb0",
+          "message": "Launcher3: Disable native freeform task shortcut",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/031cdb0"
+        },
+        {
+          "sha": "b16d7a2",
+          "message": "Launcher3: Fix recents lag and NPE with third party launchers",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/b16d7a2"
+        },
+        {
+          "sha": "d078f5b",
+          "message": "Launcher3: Skip overview scale animation on tablet",
+          "author": "PugzAreCute",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/d078f5b"
+        },
+        {
+          "sha": "64adfd9",
+          "message": "Launcher3: Fix overview scrolling scale animation",
+          "author": "nift4",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/64adfd9"
+        },
+        {
+          "sha": "0e18866",
+          "message": "Launcher3: Introduce overview scrolling scale animation",
+          "author": "LibXZR",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/0e18866"
+        },
+        {
+          "sha": "8009194",
+          "message": "Launcher3: Fix ANR caused by DrawableFactory init blocking model executor",
+          "author": "rmp22",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/8009194"
+        },
+        {
+          "sha": "e33eee4",
+          "message": "Launcher3: Optimize the display speed of desktop icons when switching icon styles",
+          "author": "zaixiang xu",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/e33eee4"
+        },
+        {
+          "sha": "e8785cd",
+          "message": "Launcher3: Add proper clean up for TaskIconCache",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/e8785cd"
+        },
+        {
+          "sha": "ab5ca24",
+          "message": "Launcher3: Reload recents icons when changing icon pack",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/ab5ca24"
+        },
+        {
+          "sha": "d8aa093",
+          "message": "Launcher3: Use ClockDrawable from iconloaderlib",
+          "author": "Dhina17",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/d8aa093"
+        },
+        {
+          "sha": "9ba5934",
+          "message": "Launcher3: Fix app info shortcut crash in recents from third party launcher",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/9ba5934"
+        },
+        {
+          "sha": "e941eb8",
+          "message": "Launcher3: Show default title for bottom sheet if not available",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/e941eb8"
+        },
+        {
+          "sha": "ccc2963",
+          "message": "Launcher3: Dismiss the task menu when launching app info",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/ccc2963"
+        },
+        {
+          "sha": "2a15dbc",
+          "message": "Launcher3: Fix black screen when clicking source pref in InfoBottomSheet",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/2a15dbc"
+        },
+        {
+          "sha": "c6368aa",
+          "message": "Launcher3: Use SelectorWithWidgetPreference for icon pack's selection",
+          "author": "Nauval Rizky",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/c6368aa"
+        },
+        {
+          "sha": "f27b850",
+          "message": "Launcher3: Reload icon pack settings fragment on resume",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/f27b850"
+        },
+        {
+          "sha": "c846b17",
+          "message": "Launcher3: Setup icon pack's launchIntent",
+          "author": "Nauval Rizky",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/c846b17"
+        },
+        {
+          "sha": "2601535",
+          "message": "Launcher3: Remove repeated strings in app info",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/2601535"
+        },
+        {
+          "sha": "19be940",
+          "message": "Launcher3: Switch to icon pack theming preview",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/19be940"
+        },
+        {
+          "sha": "99aa365",
+          "message": "Launcher3: Preserve icon provider constructors",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/99aa365"
+        },
+        {
+          "sha": "3831cf6",
+          "message": "Launcher3: Add Icon Pack Support from Shade Launcher [SQUASHED]",
+          "author": "Amir Zaidi",
+          "date": "Sun Nov 16 17:50:18 2025 +0530",
+          "timestamp": 1763295618,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/3831cf6"
+        },
+        {
+          "sha": "4a6d78c",
+          "message": "Launcher3: RecentsView: add null check for invocations mFirstFloatingTaskView",
+          "author": "jhonboy121",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/4a6d78c"
+        },
+        {
+          "sha": "c04b223",
+          "message": "Launcher3: Little revamp for app info bottom sheet",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/c04b223"
+        },
+        {
+          "sha": "bb3bf4f",
+          "message": "Launcher3: Make Bottomsheet AppInfo strings translatable",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/bb3bf4f"
+        },
+        {
+          "sha": "60eed6a",
+          "message": "Launcher3: Just say \"System\" instead of \"Unknown\" for app source",
+          "author": "Jyotiraditya",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/60eed6a"
+        },
+        {
+          "sha": "d65dfeb",
+          "message": "Launcher3: Open app info directly when opened from recents",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/d65dfeb"
+        },
+        {
+          "sha": "1cf7b74",
+          "message": "Launcher3: Add AppInfo Bottom Sheet from Shade Launcher",
+          "author": "Amir Zaidi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/1cf7b74"
+        },
+        {
+          "sha": "bcc833c",
+          "message": "Launcher3: Show AOSP clear all button when chip disabled",
+          "author": "nift4",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/bcc833c"
+        },
+        {
+          "sha": "14b481a",
+          "message": "Launcher3: Exclude overview lens activity from recents",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/14b481a"
+        },
+        {
+          "sha": "27fcd0a",
+          "message": "Launcher3: OverviewActionsView: Clean up once view is detached",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/27fcd0a"
+        },
+        {
+          "sha": "31fbba6",
+          "message": "Launcher3: Add vibrate for all overview actions",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/31fbba6"
+        },
+        {
+          "sha": "6af5dd1",
+          "message": "Launcher3: Add back spacer between overview buttons",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/6af5dd1"
+        },
+        {
+          "sha": "21943e1",
+          "message": "Launcher3: Add toggles for recent quick actions",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/21943e1"
+        },
+        {
+          "sha": "853ed73",
+          "message": "Launcher3: Start lens activity directly instead of sharesheet",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/853ed73"
+        },
+        {
+          "sha": "46183a7",
+          "message": "Launcher3: Go to home screen before launching lens activity",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/46183a7"
+        },
+        {
+          "sha": "994d3ee",
+          "message": "Launcher3: Add Google Lens scan button to recents",
+          "author": "Suphon Thanakornpakapong",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/994d3ee"
+        },
+        {
+          "sha": "ff08d84",
+          "message": "Launcher3: MemInfoView: Relax computations and allocation",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/ff08d84"
+        },
+        {
+          "sha": "2e2ddae",
+          "message": "Launcher3: Improve meminfo view height and margins",
+          "author": "Adithya R",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/2e2ddae"
+        },
+        {
+          "sha": "ca0c347",
+          "message": "Launcher3: Make zram info in recents optional",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/ca0c347"
+        },
+        {
+          "sha": "517b931",
+          "message": "Launcher3: MemInfoView: Remove ZRAM text",
+          "author": "minaripenguin",
+          "date": "Sun Nov 16 17:50:17 2025 +0530",
+          "timestamp": 1763295617,
+          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/517b931"
+        },
         {
           "sha": "3cc9964",
           "message": "New Crowdin updates (#18)",
@@ -804,14 +1604,6 @@
           "date": "Mon Sep 22 02:04:46 2025 +0530",
           "timestamp": 1758486886,
           "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/685b52c"
-        },
-        {
-          "sha": "00dfdcc",
-          "message": "Launcher3: Add toggles for recent quick actions",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 22 02:04:46 2025 +0530",
-          "timestamp": 1758486886,
-          "url": "https://github.com/alphadroid-project/packages_apps_Launcher3/commit/00dfdcc"
         }
       ]
     },
@@ -1625,6 +2417,647 @@
       ]
     },
     {
+      "name": "build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/alphadroid-project/build_soong",
+      "remote": "alpha",
+      "commit_count": 79,
+      "commits": [
+        {
+          "sha": "bf2c753",
+          "message": "Merge branch '16.0' of https://github.com/crdroidandroid/android_build_soong into alpha-16.1",
+          "author": "elpaablo",
+          "date": "Sat Nov 29 22:37:53 2025 +0000",
+          "timestamp": 1764455873,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/bf2c753"
+        },
+        {
+          "sha": "4411366",
+          "message": "cc: do not disable FMA",
+          "author": "John Galt",
+          "date": "Fri Nov 7 22:21:54 2025 +0530",
+          "timestamp": 1762534314,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/4411366"
+        },
+        {
+          "sha": "c018c43",
+          "message": "arm64_device: armv9-a: add additional march flags for all supported armv9-a platforms",
+          "author": "John Galt",
+          "date": "Fri Nov 7 22:17:08 2025 +0530",
+          "timestamp": 1762534028,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/c018c43"
+        },
+        {
+          "sha": "8b0b97b",
+          "message": "afdo: further optimize AFDO modules",
+          "author": "John Galt",
+          "date": "Fri Nov 7 22:15:33 2025 +0530",
+          "timestamp": 1762533933,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/8b0b97b"
+        },
+        {
+          "sha": "7ca06da",
+          "message": "Revert \"cc/lto: enable unified LTO\"",
+          "author": "Pranav Vashi",
+          "date": "Fri Nov 7 22:12:36 2025 +0530",
+          "timestamp": 1762533756,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/7ca06da"
+        },
+        {
+          "sha": "76cf1bf",
+          "message": "remove cross-version ABI dump difference check",
+          "author": "Fred Underwood",
+          "date": "Wed Nov 5 14:50:35 2025 +0530",
+          "timestamp": 1762334435,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/76cf1bf"
+        },
+        {
+          "sha": "a2a0ba8",
+          "message": "remove same-version ABI dump difference check",
+          "author": "Dmitry Muhomor",
+          "date": "Wed Nov 5 14:50:26 2025 +0530",
+          "timestamp": 1762334426,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/a2a0ba8"
+        },
+        {
+          "sha": "7f2e79f",
+          "message": "soong: Do not leak lineage_ prefixes in build.prop",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/7f2e79f"
+        },
+        {
+          "sha": "0417fc1",
+          "message": "soong: Turn off debug props on userdebug builds",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/0417fc1"
+        },
+        {
+          "sha": "acc9ce7",
+          "message": "Disable fsgen check",
+          "author": "israfilbd",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/acc9ce7"
+        },
+        {
+          "sha": "6842e8e",
+          "message": "soong: allow curl in path",
+          "author": "Lup Gabriel",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/6842e8e"
+        },
+        {
+          "sha": "35445af",
+          "message": "check_boot_jars: Add LMODroid packages",
+          "author": "Dhina17",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/35445af"
+        },
+        {
+          "sha": "1b2ec0d",
+          "message": "check_boot_jars: add more OnePlus packages to whitelist",
+          "author": "ShevT",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/1b2ec0d"
+        },
+        {
+          "sha": "9cdc5df",
+          "message": "soong: Add out/soong/*.glob* to installclean",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/9cdc5df"
+        },
+        {
+          "sha": "7275360",
+          "message": "cc/lto: enable unified LTO",
+          "author": "John Galt",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/7275360"
+        },
+        {
+          "sha": "5d61a60",
+          "message": "cc/lto: add property for not restricting instr limit",
+          "author": "John Galt",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/5d61a60"
+        },
+        {
+          "sha": "8c321aa",
+          "message": "lto: enable O3 optimizations on explicit lto modules",
+          "author": "John Galt",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/8c321aa"
+        },
+        {
+          "sha": "b6e3244",
+          "message": "cc/lto: instr limit of 40 for explicit LTO modules",
+          "author": "John Galt",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/b6e3244"
+        },
+        {
+          "sha": "03a62e7",
+          "message": "soong: Set ro.crdroid.device",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/03a62e7"
+        },
+        {
+          "sha": "cc7c8dc",
+          "message": "soong: Disable sandbox",
+          "author": "Akash",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/cc7c8dc"
+        },
+        {
+          "sha": "7b9be2f",
+          "message": "Remove workaround for Qualcomm Kryo 385",
+          "author": "Raphiel Rollerscaperers",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/7b9be2f"
+        },
+        {
+          "sha": "13285fa",
+          "message": "Enable crypto extensions for armv9-a",
+          "author": "Adithya R",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/13285fa"
+        },
+        {
+          "sha": "90140f6",
+          "message": "Use -march=armv9-a+nosve for Armv9-A arch variant",
+          "author": "Jake Weinstein",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/90140f6"
+        },
+        {
+          "sha": "ab4c8ec",
+          "message": "config: Update cortex a75 flags",
+          "author": "Ronalds",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/ab4c8ec"
+        },
+        {
+          "sha": "f45a8de",
+          "message": "config: do not force cortex-a76 as cortex-a75",
+          "author": "Ronalds",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/f45a8de"
+        },
+        {
+          "sha": "f67866c",
+          "message": "cc: Enable more features when using armv8.2-a+dotprod",
+          "author": "Jason Edson",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/f67866c"
+        },
+        {
+          "sha": "b6f4bf6",
+          "message": "soong: Add kryo300 variant support",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/b6f4bf6"
+        },
+        {
+          "sha": "cfd90e1",
+          "message": "soong: add kryo785 architecture variant for arm64.",
+          "author": "Sungwook Jung",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/cfd90e1"
+        },
+        {
+          "sha": "56827be",
+          "message": "Define AArch32 soong variable",
+          "author": "Jake Weinstein",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/56827be"
+        },
+        {
+          "sha": "c06dc59",
+          "message": "arm_device: Change cortex-a76 mcpu from a55 to a75",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/c06dc59"
+        },
+        {
+          "sha": "c3dae13",
+          "message": "arm64_device: Change cortex-a76 mcpu from a55 to a75",
+          "author": "Jason Edson",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/c3dae13"
+        },
+        {
+          "sha": "a3270ef",
+          "message": "Introduce Cortex-A510 CPU variant",
+          "author": "Jake Weinstein",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/a3270ef"
+        },
+        {
+          "sha": "2097d1d",
+          "message": "soong: increase heap size for metalava",
+          "author": "LeddaZ",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/2097d1d"
+        },
+        {
+          "sha": "274125b",
+          "message": "soong: Change to CR_VERSION",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/274125b"
+        },
+        {
+          "sha": "881c6d9",
+          "message": "soong: Allow various path commands",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/881c6d9"
+        },
+        {
+          "sha": "bfa2213",
+          "message": "soong: Always return release-keys",
+          "author": "Pranav Vashi",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/bfa2213"
+        },
+        {
+          "sha": "a920f77",
+          "message": "Revert \"Remove timestamp from local build number\"",
+          "author": "Ido Ben-Hur",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/a920f77"
+        },
+        {
+          "sha": "1d0838a",
+          "message": "Add ability to enable scudo-free 32-bit libc variant.",
+          "author": "Quallenauge",
+          "date": "Tue Nov 4 20:09:46 2025 +0530",
+          "timestamp": 1762267186,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/1d0838a"
+        },
+        {
+          "sha": "ed083b8",
+          "message": "check_boot_jars: whitelist lineage",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 09:42:47 2025 +0000",
+          "timestamp": 1762076567,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/ed083b8"
+        },
+        {
+          "sha": "66b3c64",
+          "message": "Remove lineage-sdk dependency",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 09:41:24 2025 +0000",
+          "timestamp": 1762076484,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/66b3c64"
+        },
+        {
+          "sha": "d5597ac",
+          "message": "Gimme some AlphaDroid",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 09:39:47 2025 +0000",
+          "timestamp": 1762076387,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/d5597ac"
+        },
+        {
+          "sha": "14da40d",
+          "message": "Revert \"gen_build_prop: Set appcompat value of ro.boot.verifiedbootstate to green on non-eng builds\"",
+          "author": "Pranav Vashi",
+          "date": "Wed Oct 29 23:39:27 2025 +0530",
+          "timestamp": 1761761367,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/14da40d"
+        },
+        {
+          "sha": "cff28f5",
+          "message": "Revert \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
+          "author": "Colin Cross",
+          "date": "Mon Oct 27 22:57:34 2025 +0000",
+          "timestamp": 1761605854,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/cff28f5"
+        },
+        {
+          "sha": "df68e72",
+          "message": "soong: Do not leak lineage_ prefixes in build.prop",
+          "author": "Pranav Vashi",
+          "date": "Fri Oct 24 22:36:43 2025 +0530",
+          "timestamp": 1761325603,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/df68e72"
+        },
+        {
+          "sha": "7979cdd",
+          "message": "soong: Turn off debug props on userdebug builds",
+          "author": "Pranav Vashi",
+          "date": "Fri Oct 24 22:20:45 2025 +0530",
+          "timestamp": 1761324645,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/7979cdd"
+        },
+        {
+          "sha": "e2f1582",
+          "message": "Revert \"config: Enable O3 optimizations by default\"",
+          "author": "Pranav Vashi",
+          "date": "Tue Oct 21 22:01:11 2025 +0530",
+          "timestamp": 1761064271,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/e2f1582"
+        },
+        {
+          "sha": "6477010",
+          "message": "config: Enable O3 optimizations by default",
+          "author": "Akash Srivastava",
+          "date": "Wed Oct 8 19:29:21 2025 +0530",
+          "timestamp": 1759931961,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/6477010"
+        },
+        {
+          "sha": "3ee8369",
+          "message": "Disable fsgen check",
+          "author": "israfilbd",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/3ee8369"
+        },
+        {
+          "sha": "02ac2ee",
+          "message": "soong: allow curl in path",
+          "author": "Lup Gabriel",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/02ac2ee"
+        },
+        {
+          "sha": "5ac005b",
+          "message": "check_boot_jars: Add LMODroid packages",
+          "author": "Dhina17",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/5ac005b"
+        },
+        {
+          "sha": "4205d5f",
+          "message": "check_boot_jars: add more OnePlus packages to whitelist",
+          "author": "ShevT",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/4205d5f"
+        },
+        {
+          "sha": "4578c5a",
+          "message": "soong: Add out/soong/*.glob* to installclean",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/4578c5a"
+        },
+        {
+          "sha": "3f3abea",
+          "message": "cc/lto: enable unified LTO",
+          "author": "John Galt",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/3f3abea"
+        },
+        {
+          "sha": "8186ead",
+          "message": "cc/lto: add property for not restricting instr limit",
+          "author": "John Galt",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/8186ead"
+        },
+        {
+          "sha": "f5562bb",
+          "message": "lto: enable O3 optimizations on explicit lto modules",
+          "author": "John Galt",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/f5562bb"
+        },
+        {
+          "sha": "8d73064",
+          "message": "cc/lto: instr limit of 40 for explicit LTO modules",
+          "author": "John Galt",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/8d73064"
+        },
+        {
+          "sha": "6c240da",
+          "message": "soong: Set ro.crdroid.device",
+          "author": "Pranav Vashi",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/6c240da"
+        },
+        {
+          "sha": "56f8dde",
+          "message": "gen_build_prop: Set appcompat value of ro.boot.verifiedbootstate to green on non-eng builds",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/56f8dde"
+        },
+        {
+          "sha": "6f48370",
+          "message": "soong: Disable sandbox",
+          "author": "Akash",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/6f48370"
+        },
+        {
+          "sha": "7150c87",
+          "message": "Remove workaround for Qualcomm Kryo 385",
+          "author": "Raphiel Rollerscaperers",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/7150c87"
+        },
+        {
+          "sha": "ebab323",
+          "message": "Enable crypto extensions for armv9-a",
+          "author": "Adithya R",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/ebab323"
+        },
+        {
+          "sha": "4495da8",
+          "message": "Use -march=armv9-a+nosve for Armv9-A arch variant",
+          "author": "Jake Weinstein",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/4495da8"
+        },
+        {
+          "sha": "09d5db5",
+          "message": "config: Update cortex a75 flags",
+          "author": "Ronalds",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/09d5db5"
+        },
+        {
+          "sha": "e9bdd53",
+          "message": "config: do not force cortex-a76 as cortex-a75",
+          "author": "Ronalds",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/e9bdd53"
+        },
+        {
+          "sha": "ab723fc",
+          "message": "cc: Enable more features when using armv8.2-a+dotprod",
+          "author": "Jason Edson",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/ab723fc"
+        },
+        {
+          "sha": "c5dd6c4",
+          "message": "soong: Add kryo300 variant support",
+          "author": "Pranav Vashi",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/c5dd6c4"
+        },
+        {
+          "sha": "8490b66",
+          "message": "soong: add kryo785 architecture variant for arm64.",
+          "author": "Sungwook Jung",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/8490b66"
+        },
+        {
+          "sha": "7928308",
+          "message": "Define AArch32 soong variable",
+          "author": "Jake Weinstein",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/7928308"
+        },
+        {
+          "sha": "7c63796",
+          "message": "arm_device: Change cortex-a76 mcpu from a55 to a75",
+          "author": "Pranav Vashi",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/7c63796"
+        },
+        {
+          "sha": "2546b57",
+          "message": "arm64_device: Change cortex-a76 mcpu from a55 to a75",
+          "author": "Jason Edson",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/2546b57"
+        },
+        {
+          "sha": "62a334d",
+          "message": "Introduce Cortex-A510 CPU variant",
+          "author": "Jake Weinstein",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/62a334d"
+        },
+        {
+          "sha": "f96387b",
+          "message": "soong: increase heap size for metalava",
+          "author": "LeddaZ",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/f96387b"
+        },
+        {
+          "sha": "6e690a5",
+          "message": "soong: Change to CR_VERSION",
+          "author": "Pranav Vashi",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/6e690a5"
+        },
+        {
+          "sha": "b51a7ea",
+          "message": "soong: Allow various path commands",
+          "author": "Pranav Vashi",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/b51a7ea"
+        },
+        {
+          "sha": "ea94f77",
+          "message": "soong: Always return release-keys",
+          "author": "Pranav Vashi",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/ea94f77"
+        },
+        {
+          "sha": "2ed5003",
+          "message": "Revert \"Remove timestamp from local build number\"",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/2ed5003"
+        },
+        {
+          "sha": "f0f3f9b",
+          "message": "Add ability to enable scudo-free 32-bit libc variant.",
+          "author": "Quallenauge",
+          "date": "Thu Sep 11 06:00:28 2025 +0530",
+          "timestamp": 1757550628,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/f0f3f9b"
+        },
+        {
+          "sha": "a70b159",
+          "message": "Revert \"Remove perl from the allowed PATH tools list\"",
+          "author": "Aaron Kling",
+          "date": "Fri Sep 5 22:03:59 2025 +0000",
+          "timestamp": 1757109839,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/a70b159"
+        },
+        {
+          "sha": "ea1c6d4",
+          "message": "rust: config: Fix missing CPU variant LD flags in Rust",
+          "author": "Artem Karavashkin",
+          "date": "Wed Sep 3 16:59:58 2025 +0200",
+          "timestamp": 1756911598,
+          "url": "https://github.com/alphadroid-project/build_soong/commit/ea1c6d4"
+        }
+      ]
+    },
+    {
       "name": "build_make",
       "path": "build/make",
       "repo_url": "https://github.com/alphadroid-project/build_make",
@@ -2169,6 +3602,14 @@
       "commit_count": 52,
       "commits": [
         {
+          "sha": "9811279",
+          "message": "Unpin a few repos",
+          "author": "elpaablo",
+          "date": "Sun Nov 30 09:49:13 2025 +0000",
+          "timestamp": 1764496153,
+          "url": "https://github.com/alphadroid-project/manifest/commit/9811279"
+        },
+        {
           "sha": "c3cb310",
           "message": "Update system/apex hash",
           "author": "elpaablo",
@@ -2575,14 +4016,335 @@
           "date": "Tue Sep 2 06:08:12 2025 +0000",
           "timestamp": 1756793292,
           "url": "https://github.com/alphadroid-project/manifest/commit/49e5e99"
+        }
+      ]
+    },
+    {
+      "name": "device_alpha_sepolicy",
+      "path": "device/alpha/sepolicy",
+      "repo_url": "https://github.com/alphadroid-project/device_alpha_sepolicy",
+      "remote": "alpha",
+      "commit_count": 40,
+      "commits": [
+        {
+          "sha": "a3d9bb8",
+          "message": "sepolicy: adapt to AlphaDroid structure",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 10:02:08 2025 +0000",
+          "timestamp": 1762077728,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/a3d9bb8"
         },
         {
-          "sha": "b654ce4",
-          "message": "manifest: Track st-hal temporarily",
+          "sha": "4fb568a",
+          "message": "sepolicy: Restrict build version props",
           "author": "Pranav Vashi",
-          "date": "Mon Sep 1 07:56:47 2025 +0530",
-          "timestamp": 1756693607,
-          "url": "https://github.com/alphadroid-project/manifest/commit/b654ce4"
+          "date": "Fri Oct 24 22:39:02 2025 +0530",
+          "timestamp": 1761325742,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/4fb568a"
+        },
+        {
+          "sha": "a0f70b1",
+          "message": "Revert \"sepolicy: Allow vending to read spoof xml\"",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 23 19:58:58 2025 +0530",
+          "timestamp": 1761229738,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/a0f70b1"
+        },
+        {
+          "sha": "c182817",
+          "message": "sepolicy: Restrict more pixel props",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 23 15:04:02 2025 +0530",
+          "timestamp": 1761212042,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/c182817"
+        },
+        {
+          "sha": "d9b4b2f",
+          "message": "sepolicy: Restrict pixel props usage",
+          "author": "Pranav Vashi",
+          "date": "Wed Oct 22 06:26:06 2025 +0530",
+          "timestamp": 1761094566,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/d9b4b2f"
+        },
+        {
+          "sha": "1826778",
+          "message": "sepolicy: Allow vending to read spoof xml",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/1826778"
+        },
+        {
+          "sha": "378e252",
+          "message": "sepolicy: Address denial for webview crash",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/378e252"
+        },
+        {
+          "sha": "d4f47e2",
+          "message": "sepolicy: Update for CachedAppOptimizer denial",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/d4f47e2"
+        },
+        {
+          "sha": "b4104c6",
+          "message": "sepolicy: Allow platform read thermal sysfs",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/b4104c6"
+        },
+        {
+          "sha": "548646c",
+          "message": "sepolicy: Address CachedAppOptimizer denial",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/548646c"
+        },
+        {
+          "sha": "3dc0cc4",
+          "message": "common: Always run recovery in permissive domain",
+          "author": "Alexander Winkowski",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/3dc0cc4"
+        },
+        {
+          "sha": "d034c85",
+          "message": "Revert \"Make backuptool permissive only in non user builds\"",
+          "author": "Ionut",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/d034c85"
+        },
+        {
+          "sha": "3100c26",
+          "message": "common: Address denial for google services app",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/3100c26"
+        },
+        {
+          "sha": "ee7f400",
+          "message": "common: Address launcher app denials",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/ee7f400"
+        },
+        {
+          "sha": "efff7a2",
+          "message": "sepolicy: Add support for boost framework",
+          "author": "rmp22",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/efff7a2"
+        },
+        {
+          "sha": "b79a990",
+          "message": "sepolicy: Allow gmscore_app to access system_data_file",
+          "author": "SamarV-121",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/b79a990"
+        },
+        {
+          "sha": "aa3df7c",
+          "message": "sepolicy: Add support for LMOFreeform service",
+          "author": "Adithya R",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/aa3df7c"
+        },
+        {
+          "sha": "e69d09a",
+          "message": "Allow launcher to access zram sysfs",
+          "author": "minaripenguin",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/e69d09a"
+        },
+        {
+          "sha": "adde1df",
+          "message": "Allow apps to access usap pool",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/adde1df"
+        },
+        {
+          "sha": "2921277",
+          "message": "sepolicy: Make Health service discoverable by Settings app",
+          "author": "Bruno Martins",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/2921277"
+        },
+        {
+          "sha": "d0c72e0",
+          "message": "sepolicy: Label Dolby Sepolicy labels",
+          "author": "johnmart19",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/d0c72e0"
+        },
+        {
+          "sha": "15b9317",
+          "message": "Allow system app to read navbar config",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/15b9317"
+        },
+        {
+          "sha": "86f3082",
+          "message": "sepolicy: Label more dirty writeback parameters",
+          "author": "Terminator-J",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/86f3082"
+        },
+        {
+          "sha": "74b4056",
+          "message": "sepolicy: introduce app lock [2/4]",
+          "author": "jhonboy121",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/74b4056"
+        },
+        {
+          "sha": "7849eaa",
+          "message": "sepolicy: Label LinearmotorVibratorService",
+          "author": "cjh1249131356",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/7849eaa"
+        },
+        {
+          "sha": "ae9a42d",
+          "message": "sepolicy: Move in pocket service sepolicy",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/ae9a42d"
+        },
+        {
+          "sha": "dbe721a",
+          "message": "sepolicy: Label skip unconfigure prop",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/dbe721a"
+        },
+        {
+          "sha": "334781c",
+          "message": "Allow updater to read data files",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/334781c"
+        },
+        {
+          "sha": "e700a3e",
+          "message": "updater_app: Address uncrypt denials",
+          "author": "Jabiyeff",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/e700a3e"
+        },
+        {
+          "sha": "608ca3c",
+          "message": "sepolicy: Allow system_server to read and write to sysfs_battery_supply",
+          "author": "Anushek Prasal",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/608ca3c"
+        },
+        {
+          "sha": "2c1aba4",
+          "message": "Update ota_update path",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/2c1aba4"
+        },
+        {
+          "sha": "b0f02a0",
+          "message": "sepolicy: Allow launcher app to read archiving prop",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/b0f02a0"
+        },
+        {
+          "sha": "f0db7b3",
+          "message": "Allow platform app to read memory info",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/f0db7b3"
+        },
+        {
+          "sha": "783e346",
+          "message": "sepolicy: Allow platform adjust camera shutter sound",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/783e346"
+        },
+        {
+          "sha": "5347b8d",
+          "message": "Allow documents UI to access storage",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/5347b8d"
+        },
+        {
+          "sha": "052b266",
+          "message": "sepolicy: Allow key disabler access for platform",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/052b266"
+        },
+        {
+          "sha": "3da74bc",
+          "message": "sepolicy: Update custom legal prop",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 16 15:36:09 2025 +0530",
+          "timestamp": 1760609169,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/3da74bc"
+        },
+        {
+          "sha": "6810925",
+          "message": "Revert \"sepolicy: Label ro.telephony.use_old_mnc_mcc_format\"",
+          "author": "Michael Bestas",
+          "date": "Wed Oct 15 18:13:48 2025 +0000",
+          "timestamp": 1760552028,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/6810925"
+        },
+        {
+          "sha": "070a3e1",
+          "message": "qcom: Label acl LiveDisplay sysfs node",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 7 15:12:23 2025 +0000",
+          "timestamp": 1757257943,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/070a3e1"
+        },
+        {
+          "sha": "91ff335",
+          "message": "exynos: Label AIDL LiveDisplay HAL",
+          "author": "Tim Zimmermann",
+          "date": "Fri Sep 5 12:12:38 2025 +0200",
+          "timestamp": 1757067158,
+          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/91ff335"
         }
       ]
     },
@@ -3850,55 +5612,6 @@
       ]
     },
     {
-      "name": "packages_apps_FlipFlap",
-      "path": "packages/apps/FlipFlap",
-      "repo_url": "https://github.com/alphadroid-project/packages_apps_FlipFlap",
-      "remote": "alpha",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "4fbc839",
-          "message": "Merge branch 'lineage-23.0' of https://github.com/lineageos/android_packages_apps_FlipFlap into HEAD",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 10:06:03 2025 +0000",
-          "timestamp": 1762077963,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/4fbc839"
-        },
-        {
-          "sha": "dd49d55",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/dd49d55"
-        },
-        {
-          "sha": "7b7d1dd",
-          "message": "Use AOSP Settings",
-          "author": "elpaablo",
-          "date": "Fri Sep 5 09:54:11 2025 +0200",
-          "timestamp": 1757058851,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/7b7d1dd"
-        },
-        {
-          "sha": "d923f16",
-          "message": "Remove org.lineageos.platform.internal dependency",
-          "author": "elpaablo",
-          "date": "Fri Sep 5 09:47:20 2025 +0200",
-          "timestamp": 1757058440,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/d923f16"
-        },
-        {
-          "sha": "e7ffef4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:35 2025 +0000",
-          "timestamp": 1756738475,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/e7ffef4"
-        }
-      ]
-    },
-    {
       "name": "bionic",
       "path": "bionic",
       "repo_url": "https://github.com/alphadroid-project/bionic",
@@ -4022,6 +5735,47 @@
       ]
     },
     {
+      "name": "packages_apps_FlipFlap",
+      "path": "packages/apps/FlipFlap",
+      "repo_url": "https://github.com/alphadroid-project/packages_apps_FlipFlap",
+      "remote": "alpha",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "4fbc839",
+          "message": "Merge branch 'lineage-23.0' of https://github.com/lineageos/android_packages_apps_FlipFlap into HEAD",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 10:06:03 2025 +0000",
+          "timestamp": 1762077963,
+          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/4fbc839"
+        },
+        {
+          "sha": "dd49d55",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/dd49d55"
+        },
+        {
+          "sha": "7b7d1dd",
+          "message": "Use AOSP Settings",
+          "author": "elpaablo",
+          "date": "Fri Sep 5 09:54:11 2025 +0200",
+          "timestamp": 1757058851,
+          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/7b7d1dd"
+        },
+        {
+          "sha": "d923f16",
+          "message": "Remove org.lineageos.platform.internal dependency",
+          "author": "elpaablo",
+          "date": "Fri Sep 5 09:47:20 2025 +0200",
+          "timestamp": 1757058440,
+          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/d923f16"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -4121,39 +5875,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "path": "external/chromium-webview/prebuilt/x86",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "84c74ff",
-          "message": "Update Chromium Webview x86 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:08 2025 -0700",
-          "timestamp": 1762617488,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
-        },
-        {
-          "sha": "c1498b6",
-          "message": "Update Chromium Webview x86 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:20 2025 -0600",
-          "timestamp": 1760795840,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
-        },
-        {
-          "sha": "c18e219",
-          "message": "Update Chromium Webview x86 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:49 2025 -0600",
-          "timestamp": 1758982969,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
       "path": "external/chromium-webview/prebuilt/x86_64",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
@@ -4183,6 +5904,39 @@
           "date": "Sat Sep 27 08:22:53 2025 -0600",
           "timestamp": 1758982973,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "84c74ff",
+          "message": "Update Chromium Webview x86 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:08 2025 -0700",
+          "timestamp": 1762617488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
+        },
+        {
+          "sha": "c1498b6",
+          "message": "Update Chromium Webview x86 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:20 2025 -0600",
+          "timestamp": 1760795840,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
+        },
+        {
+          "sha": "c18e219",
+          "message": "Update Chromium Webview x86 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:49 2025 -0600",
+          "timestamp": 1758982969,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
         }
       ]
     },

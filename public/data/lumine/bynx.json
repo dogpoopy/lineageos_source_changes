@@ -1,10 +1,10 @@
 {
   "rom_id": "lumine",
   "branch": "bynx",
-  "generated_at": "2025-11-30T01:37:11.715821+00:00",
-  "since_date": "2025-09-01",
-  "total_projects": 130,
-  "total_commits": 1491,
+  "generated_at": "2025-12-01T01:52:20.553652+00:00",
+  "since_date": "2025-09-02",
+  "total_projects": 128,
+  "total_commits": 1472,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -2273,815 +2273,6 @@
       ]
     },
     {
-      "name": "platform_frameworks_base",
-      "path": "frameworks/base",
-      "repo_url": "https://github.com/LumineDroid/platform_frameworks_base",
-      "remote": "lumine",
-      "commit_count": 100,
-      "commits": [
-        {
-          "sha": "17b02d48",
-          "message": "SystemUI: Match footer notification icon with other action icons",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 12:18:48 2025 +0000",
-          "timestamp": 1763813928,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/17b02d48"
-        },
-        {
-          "sha": "f464de39",
-          "message": "SystemUI: Fix footer actions theme",
-          "author": "rmp22",
-          "date": "Sat Nov 22 12:18:32 2025 +0000",
-          "timestamp": 1763813912,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/f464de39"
-        },
-        {
-          "sha": "5515b312",
-          "message": "SystemUI: Fix drawable error in Icon compose",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 12:17:46 2025 +0000",
-          "timestamp": 1763813866,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/5515b312"
-        },
-        {
-          "sha": "f18a03e2",
-          "message": "SystemUI: Prevent getting stale values for smartspace visibility",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 05:03:43 2025 +0000",
-          "timestamp": 1763787823,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/f18a03e2"
-        },
-        {
-          "sha": "ae7ddd1f",
-          "message": "Revert \"SystemUI: Don't remove keyguard slice view\"",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 05:03:39 2025 +0000",
-          "timestamp": 1763787819,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ae7ddd1f"
-        },
-        {
-          "sha": "6c20c7d7",
-          "message": "SystemUI: Do not disable slice provider for smartspace",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 05:03:38 2025 +0000",
-          "timestamp": 1763787818,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/6c20c7d7"
-        },
-        {
-          "sha": "09cda98d",
-          "message": "SystemUI: Update long click on data usage text",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 05:01:22 2025 +0000",
-          "timestamp": 1763787682,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/09cda98d"
-        },
-        {
-          "sha": "65a70325",
-          "message": "SystemUI: Simplify QS data toggle",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 05:01:22 2025 +0000",
-          "timestamp": 1763787682,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/65a70325"
-        },
-        {
-          "sha": "030ce5df",
-          "message": "SystemUI: Do not switch between spacer and text for data usage in footer",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 05:00:22 2025 +0000",
-          "timestamp": 1763787622,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/030ce5df"
-        },
-        {
-          "sha": "5fc86274",
-          "message": "Status Bar Tuner: Fix preference icon tint",
-          "author": "minaripenguin",
-          "date": "Sat Nov 22 04:50:51 2025 +0000",
-          "timestamp": 1763787051,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/5fc86274"
-        },
-        {
-          "sha": "959dc0ae",
-          "message": "SystemUI: Update carrier text and icons for modern views",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 02:38:54 2025 +0000",
-          "timestamp": 1763779134,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/959dc0ae"
-        },
-        {
-          "sha": "e20195f8",
-          "message": "SystemUI: Simplify loop in updateColors",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 02:38:53 2025 +0000",
-          "timestamp": 1763779133,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e20195f8"
-        },
-        {
-          "sha": "37e99ab8",
-          "message": "SystemUI: Make sure carrier icons are properly tinted when their state updates",
-          "author": "Abhay Singh Gill",
-          "date": "Sat Nov 22 02:38:53 2025 +0000",
-          "timestamp": 1763779133,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/37e99ab8"
-        },
-        {
-          "sha": "cc5d6afe",
-          "message": "SystemUI: Remove visibility check in setting QSCarrier color",
-          "author": "Adithya R",
-          "date": "Sat Nov 22 02:38:52 2025 +0000",
-          "timestamp": 1763779132,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/cc5d6afe"
-        },
-        {
-          "sha": "80676e79",
-          "message": "SystemUI: Follow light/dark theme in SplitShade Header",
-          "author": "ReallySnow",
-          "date": "Sat Nov 22 02:35:16 2025 +0000",
-          "timestamp": 1763778916,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/80676e79"
-        },
-        {
-          "sha": "5b2eb111",
-          "message": "BatteryStatsViewer: Enable enableOnBackInvokedCallback",
-          "author": "someone5678",
-          "date": "Sat Nov 22 02:32:11 2025 +0000",
-          "timestamp": 1763778731,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/5b2eb111"
-        },
-        {
-          "sha": "1589718b",
-          "message": "BatteryStatsViewer: Fix theme",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 22 02:32:11 2025 +0000",
-          "timestamp": 1763778731,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1589718b"
-        },
-        {
-          "sha": "e96e1ca0",
-          "message": "BatteryStatsViewer: Fix initial activity after launch",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 22 02:32:10 2025 +0000",
-          "timestamp": 1763778730,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e96e1ca0"
-        },
-        {
-          "sha": "80dc34a7",
-          "message": "BatteryStatsViewer: Create IA entry in Settings -> Battery",
-          "author": "Oliver Scott",
-          "date": "Sat Nov 22 02:32:10 2025 +0000",
-          "timestamp": 1763778730,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/80dc34a7"
-        },
-        {
-          "sha": "61cb524b",
-          "message": "BatteryStatsViewer: Remove some hardcoded strings",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 22 02:32:09 2025 +0000",
-          "timestamp": 1763778729,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/61cb524b"
-        },
-        {
-          "sha": "4eceefd7",
-          "message": "Revert \"Hide the Battery Stats Viewer launcher by default\"",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 22 02:32:09 2025 +0000",
-          "timestamp": 1763778729,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4eceefd7"
-        },
-        {
-          "sha": "4b782953",
-          "message": "SystemUI: Hide QR code scanner tile if not launch activity available",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 02:29:24 2025 +0000",
-          "timestamp": 1763778564,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4b782953"
-        },
-        {
-          "sha": "b738a37c",
-          "message": "Fix NPE problem to avoid systemserver process crash.",
-          "author": "lijilou",
-          "date": "Sat Nov 22 02:29:23 2025 +0000",
-          "timestamp": 1763778563,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/b738a37c"
-        },
-        {
-          "sha": "1bb8df13",
-          "message": "PowerStats: extend the MAX_STATS_ARRAY_LENGTH",
-          "author": "Frankie Chang",
-          "date": "Sat Nov 22 02:29:23 2025 +0000",
-          "timestamp": 1763778563,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1bb8df13"
-        },
-        {
-          "sha": "3a07ec32",
-          "message": "TelephonyManager: Gracefully handle null telephony service - isNullCipherNotificationsEnabled",
-          "author": "pix106",
-          "date": "Sat Nov 22 02:29:22 2025 +0000",
-          "timestamp": 1763778562,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3a07ec32"
-        },
-        {
-          "sha": "228de1d2",
-          "message": "Telephony: Gracefully handle data enablement checks",
-          "author": "minaripenguin",
-          "date": "Sat Nov 22 02:29:22 2025 +0000",
-          "timestamp": 1763778562,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/228de1d2"
-        },
-        {
-          "sha": "e8e00f8d",
-          "message": "TelephonyManager: Gracefully handle null telephony service [2]",
-          "author": "minaripenguin",
-          "date": "Sat Nov 22 02:29:21 2025 +0000",
-          "timestamp": 1763778561,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e8e00f8d"
-        },
-        {
-          "sha": "3da6e266",
-          "message": "fix NPE system_server crash in F2fsUtils.getFilesRecursive()",
-          "author": "Dmitry Muhomor",
-          "date": "Sat Nov 22 02:28:17 2025 +0000",
-          "timestamp": 1763778497,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3da6e266"
-        },
-        {
-          "sha": "3802adfe",
-          "message": "SystemUI: Fix NullPointerException in updateFocusOverlayRadii for missing drawable layer",
-          "author": "Alvin Francis",
-          "date": "Sat Nov 22 02:28:17 2025 +0000",
-          "timestamp": 1763778497,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3802adfe"
-        },
-        {
-          "sha": "f523a45c",
-          "message": "SystemUI: Dismiss screenshot window on touch outside",
-          "author": "LibXZR",
-          "date": "Sat Nov 22 02:28:16 2025 +0000",
-          "timestamp": 1763778496,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/f523a45c"
-        },
-        {
-          "sha": "db95669c",
-          "message": "telephony: Trim warning log if app not installed",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 22 02:27:28 2025 +0000",
-          "timestamp": 1763778448,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/db95669c"
-        },
-        {
-          "sha": "8e3fecab",
-          "message": "Fix wrong pid in event_log when native crash",
-          "author": "Jiangyou Li",
-          "date": "Sat Nov 22 02:27:27 2025 +0000",
-          "timestamp": 1763778447,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/8e3fecab"
-        },
-        {
-          "sha": "c009219d",
-          "message": "Fix NPE in TextToSpeechManagerPerUserService",
-          "author": "Jiangyou Li",
-          "date": "Sat Nov 22 02:27:26 2025 +0000",
-          "timestamp": 1763778446,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/c009219d"
-        },
-        {
-          "sha": "62eaeef3",
-          "message": "Fix NPE when IntentFilter doesn't have any data type.",
-          "author": "Jiangyou Li",
-          "date": "Sat Nov 22 02:27:26 2025 +0000",
-          "timestamp": 1763778446,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/62eaeef3"
-        },
-        {
-          "sha": "6b81904a",
-          "message": "Fix crash on light/dark theme toggle",
-          "author": "minaripenguin",
-          "date": "Sat Nov 22 02:27:23 2025 +0000",
-          "timestamp": 1763778443,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/6b81904a"
-        },
-        {
-          "sha": "a5163398",
-          "message": "Fix keyboard cannot access slider issue",
-          "author": "Angela Wang",
-          "date": "Sat Nov 22 01:47:26 2025 +0000",
-          "timestamp": 1763776046,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/a5163398"
-        },
-        {
-          "sha": "0dee53aa",
-          "message": "Use an interface OnScreenWidgetMixin to add extra padding to FootPreference, IntroPreference, and TopIntroPreference",
-          "author": "David Liu",
-          "date": "Sat Nov 22 01:47:25 2025 +0000",
-          "timestamp": 1763776045,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/0dee53aa"
-        },
-        {
-          "sha": "1a049b78",
-          "message": "Force behind and notification scrim alpha to be 0 when the device is unlocking.",
-          "author": "Chandru S",
-          "date": "Sat Nov 22 01:47:25 2025 +0000",
-          "timestamp": 1763776045,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1a049b78"
-        },
-        {
-          "sha": "2e7adeef",
-          "message": "Update pin bouncer confirm button to match spec",
-          "author": "Chandru S",
-          "date": "Sat Nov 22 01:47:24 2025 +0000",
-          "timestamp": 1763776044,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/2e7adeef"
-        },
-        {
-          "sha": "c5aad578",
-          "message": "Fix preference highlight background padding",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:24 2025 +0000",
-          "timestamp": 1763776044,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/c5aad578"
-        },
-        {
-          "sha": "4f9cc4d9",
-          "message": "[Expressive design] update android.app.AlertDialog style",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:23 2025 +0000",
-          "timestamp": 1763776043,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4f9cc4d9"
-        },
-        {
-          "sha": "ce677db8",
-          "message": "[Settingslib] Fix summary text centering issue in IntroPreference",
-          "author": "David Liu",
-          "date": "Sat Nov 22 01:47:22 2025 +0000",
-          "timestamp": 1763776042,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ce677db8"
-        },
-        {
-          "sha": "01dd8d73",
-          "message": "[Expressive design] update widget_frame layout",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:22 2025 +0000",
-          "timestamp": 1763776042,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/01dd8d73"
-        },
-        {
-          "sha": "4e6a7229",
-          "message": "[Expressive design] update RestrictedSwitchPreference",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:21 2025 +0000",
-          "timestamp": 1763776041,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4e6a7229"
-        },
-        {
-          "sha": "8ad96b60",
-          "message": "[Expressive design] Add MenuPreference & OrderMenuPreference",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:21 2025 +0000",
-          "timestamp": 1763776041,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/8ad96b60"
-        },
-        {
-          "sha": "41f3b6dc",
-          "message": "[Expressive design] Update DropDownPreference style",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:20 2025 +0000",
-          "timestamp": 1763776040,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/41f3b6dc"
-        },
-        {
-          "sha": "25e5c7a5",
-          "message": "[Expressive design] Update TwotargetPreference widget layout",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:20 2025 +0000",
-          "timestamp": 1763776040,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/25e5c7a5"
-        },
-        {
-          "sha": "074a5980",
-          "message": "[Expressive design] update the button style in Alert Dialog",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:19 2025 +0000",
-          "timestamp": 1763776039,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/074a5980"
-        },
-        {
-          "sha": "260492ee",
-          "message": "[Expressive design] Update Spinner and Dropdown style",
-          "author": "David Liu",
-          "date": "Sat Nov 22 01:47:19 2025 +0000",
-          "timestamp": 1763776039,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/260492ee"
-        },
-        {
-          "sha": "97f89e10",
-          "message": "[Expressive design] Update PreferenceCategory layout",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:18 2025 +0000",
-          "timestamp": 1763776038,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/97f89e10"
-        },
-        {
-          "sha": "ea19697f",
-          "message": "Use Material3 switch to replace Switch in the floating settings panel",
-          "author": "Jean Chen",
-          "date": "Sat Nov 22 01:47:18 2025 +0000",
-          "timestamp": 1763776038,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ea19697f"
-        },
-        {
-          "sha": "07ecd78e",
-          "message": "Update colors & text in promoted notification info",
-          "author": "Ioana Alexandru",
-          "date": "Sat Nov 22 01:47:17 2025 +0000",
-          "timestamp": 1763776037,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/07ecd78e"
-        },
-        {
-          "sha": "1dce7efd",
-          "message": "[sb] add an updated roaming indicator",
-          "author": "Evan Laird",
-          "date": "Sat Nov 22 01:47:17 2025 +0000",
-          "timestamp": 1763776037,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1dce7efd"
-        },
-        {
-          "sha": "46f1d983",
-          "message": "Update dream status bar icons",
-          "author": "Darrell Shi",
-          "date": "Sat Nov 22 01:47:16 2025 +0000",
-          "timestamp": 1763776036,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/46f1d983"
-        },
-        {
-          "sha": "62a327fa",
-          "message": "[bat] use battery charging fg color for chip bg",
-          "author": "Evan Laird",
-          "date": "Sat Nov 22 01:47:15 2025 +0000",
-          "timestamp": 1763776035,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/62a327fa"
-        },
-        {
-          "sha": "b765b7d2",
-          "message": "Add a ripple highlight for the Output Switcher list items.",
-          "author": "Alex Shabalin",
-          "date": "Sat Nov 22 01:47:15 2025 +0000",
-          "timestamp": 1763776035,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/b765b7d2"
-        },
-        {
-          "sha": "cab1517f",
-          "message": "Make bg of QSCustomizer transparent",
-          "author": "Fabián Kozynski",
-          "date": "Sat Nov 22 01:47:14 2025 +0000",
-          "timestamp": 1763776034,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/cab1517f"
-        },
-        {
-          "sha": "c7125035",
-          "message": "Fix icon scaling",
-          "author": "Fabián Kozynski",
-          "date": "Sat Nov 22 01:47:14 2025 +0000",
-          "timestamp": 1763776034,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/c7125035"
-        },
-        {
-          "sha": "67de1701",
-          "message": "Update screen record icon",
-          "author": "Beth Thibodeau",
-          "date": "Sat Nov 22 01:47:13 2025 +0000",
-          "timestamp": 1763776033,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/67de1701"
-        },
-        {
-          "sha": "5829c628",
-          "message": "Always update mute icon along with slider value.",
-          "author": "Alex Shabalin",
-          "date": "Sat Nov 22 01:47:13 2025 +0000",
-          "timestamp": 1763776033,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/5829c628"
-        },
-        {
-          "sha": "7d66103f",
-          "message": "Fix media state update issues",
-          "author": "Beth Thibodeau",
-          "date": "Sat Nov 22 01:47:12 2025 +0000",
-          "timestamp": 1763776032,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/7d66103f"
-        },
-        {
-          "sha": "bf7bcbe8",
-          "message": "[Settingslib][Expressive] [Expressive] Update SimpleProgressBarPreference to match spec",
-          "author": "David Liu",
-          "date": "Sat Nov 22 01:47:12 2025 +0000",
-          "timestamp": 1763776032,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/bf7bcbe8"
-        },
-        {
-          "sha": "eb1f1bea",
-          "message": "[Settingslib][Expressive] Add SimpleProgressBar preference",
-          "author": "David Liu",
-          "date": "Sat Nov 22 01:47:11 2025 +0000",
-          "timestamp": 1763776031,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/eb1f1bea"
-        },
-        {
-          "sha": "2df806dd",
-          "message": "Add new tile icons",
-          "author": "Fabián Kozynski",
-          "date": "Sat Nov 22 01:47:10 2025 +0000",
-          "timestamp": 1763776030,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/2df806dd"
-        },
-        {
-          "sha": "3039c487",
-          "message": "[Expressive design] Update Switch and MainSwitch style",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:10 2025 +0000",
-          "timestamp": 1763776030,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3039c487"
-        },
-        {
-          "sha": "b570d54f",
-          "message": "[MainSwitchPreference] Do not update datastore when OnPreferenceChangeListener returns false",
-          "author": "Jacky Wang",
-          "date": "Sat Nov 22 01:47:09 2025 +0000",
-          "timestamp": 1763776029,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/b570d54f"
-        },
-        {
-          "sha": "6364166b",
-          "message": "[Expressive design] update UsageProgressBarPreference",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:08 2025 +0000",
-          "timestamp": 1763776028,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/6364166b"
-        },
-        {
-          "sha": "b96f41ee",
-          "message": "Update expressive progress bar thickness and indicator gap.",
-          "author": "Garvita Jain",
-          "date": "Sat Nov 22 01:47:08 2025 +0000",
-          "timestamp": 1763776028,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/b96f41ee"
-        },
-        {
-          "sha": "c20d598c",
-          "message": "Use Linear progress indicator in UsageProgressBarPreference",
-          "author": "Garvita Jain",
-          "date": "Sat Nov 22 01:47:07 2025 +0000",
-          "timestamp": 1763776027,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/c20d598c"
-        },
-        {
-          "sha": "418ef4b2",
-          "message": "[Expressive design] Update layout for StatusBannerMessage",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:07 2025 +0000",
-          "timestamp": 1763776027,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/418ef4b2"
-        },
-        {
-          "sha": "7da90e11",
-          "message": "Refine Wi-Fi preferences in Internet Settings (SettingsLib)",
-          "author": "Weng Su",
-          "date": "Sat Nov 22 01:47:06 2025 +0000",
-          "timestamp": 1763776026,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/7da90e11"
-        },
-        {
-          "sha": "ea1cc80f",
-          "message": "[Settingslib] Fix StatusBannerPreference text color",
-          "author": "David Liu",
-          "date": "Sat Nov 22 01:47:06 2025 +0000",
-          "timestamp": 1763776026,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ea1cc80f"
-        },
-        {
-          "sha": "54329d7f",
-          "message": "[Expressive design] Update MainSwith layout",
-          "author": "Edgar Wang",
-          "date": "Sat Nov 22 01:47:05 2025 +0000",
-          "timestamp": 1763776025,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/54329d7f"
-        },
-        {
-          "sha": "75c4318d",
-          "message": "PixelPropsUtils: Update FP to November 2025 release",
-          "author": "Hexaboo",
-          "date": "Sat Nov 22 01:45:46 2025 +0000",
-          "timestamp": 1763775946,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/75c4318d"
-        },
-        {
-          "sha": "cf8d3c30",
-          "message": "Allow overlaying font spacing for lockscreen clock",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 05:15:01 2025 +0000",
-          "timestamp": 1763615701,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/cf8d3c30"
-        },
-        {
-          "sha": "9a89cac1",
-          "message": "fixup! Add support to configure double line clock in lockscreen [1/2]",
-          "author": "Alexander Martinz",
-          "date": "Thu Nov 20 01:34:04 2025 +0000",
-          "timestamp": 1763602444,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/9a89cac1"
-        },
-        {
-          "sha": "8d4a911e",
-          "message": "base: Add support for Lockscreen clock fonts",
-          "author": "El Dainosor",
-          "date": "Thu Nov 20 01:32:19 2025 +0000",
-          "timestamp": 1763602339,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/8d4a911e"
-        },
-        {
-          "sha": "ddd5e2ec",
-          "message": "ThemeOverlayApplier: Apply wifi and signal icon styles last",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:31:53 2025 +0000",
-          "timestamp": 1763602313,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ddd5e2ec"
-        },
-        {
-          "sha": "178767b1",
-          "message": "ThemeOverlayApplier: Exclude Launcher3 and Themepicker overlays",
-          "author": "minaripenguin",
-          "date": "Thu Nov 20 01:31:35 2025 +0000",
-          "timestamp": 1763602295,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/178767b1"
-        },
-        {
-          "sha": "deb6fea4",
-          "message": "Revert \"SystemUI: blur rendering enhancements\"",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:27:31 2025 +0000",
-          "timestamp": 1763602051,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/deb6fea4"
-        },
-        {
-          "sha": "ac4e1f54",
-          "message": "SystemUI: TunerActivity: Remove icon toggles if not supported",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:27:08 2025 +0000",
-          "timestamp": 1763602028,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ac4e1f54"
-        },
-        {
-          "sha": "be6348ba",
-          "message": "SystemUI: TunerActivity: Switch to material expressive design",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:27:08 2025 +0000",
-          "timestamp": 1763602028,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/be6348ba"
-        },
-        {
-          "sha": "54344b06",
-          "message": "SystemUI: Fixing keyguard shade color",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:22:35 2025 +0000",
-          "timestamp": 1763601755,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/54344b06"
-        },
-        {
-          "sha": "3f472287",
-          "message": "SystemUI: QS background changes [SQUASHED]",
-          "author": "Ghosuto",
-          "date": "Thu Nov 20 01:22:10 2025 +0000",
-          "timestamp": 1763601730,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3f472287"
-        },
-        {
-          "sha": "fd8c2f68",
-          "message": "SystemUI: Prevent keyguard state conflicts that caused screen flickering",
-          "author": "bijoyv9",
-          "date": "Thu Nov 20 01:19:42 2025 +0000",
-          "timestamp": 1763601582,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/fd8c2f68"
-        },
-        {
-          "sha": "19851f01",
-          "message": "SystemUI: QS expansion animation enhance",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:19:41 2025 +0000",
-          "timestamp": 1763601581,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/19851f01"
-        },
-        {
-          "sha": "ff6dd619",
-          "message": "SystemUI: Add more null checks for scrims",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:19:41 2025 +0000",
-          "timestamp": 1763601581,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ff6dd619"
-        },
-        {
-          "sha": "e7e09647",
-          "message": "SystemUI: Fix boot failure with white wallpaper",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:19:40 2025 +0000",
-          "timestamp": 1763601580,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e7e09647"
-        },
-        {
-          "sha": "91428a5b",
-          "message": "SystemUI: Ensure behind scrim alpha is 0 when unlocking",
-          "author": "Akash Srivastava",
-          "date": "Thu Nov 20 01:18:54 2025 +0000",
-          "timestamp": 1763601534,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/91428a5b"
-        },
-        {
-          "sha": "e1fb51ae",
-          "message": "SystemUI: Force black tint when animating to/from AOD or PULSING",
-          "author": "Akash Srivastava",
-          "date": "Thu Nov 20 01:18:53 2025 +0000",
-          "timestamp": 1763601533,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e1fb51ae"
-        },
-        {
-          "sha": "70f2fa3e",
-          "message": "SystemUI: Remove composite alpha from additional scrim on lockscreen",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:18:53 2025 +0000",
-          "timestamp": 1763601533,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/70f2fa3e"
-        },
-        {
-          "sha": "a5911baf",
-          "message": "SystemUI: Fix scrim using stale shade colors on UI mode change",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:18:14 2025 +0000",
-          "timestamp": 1763601494,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/a5911baf"
-        },
-        {
-          "sha": "3fe40bb0",
-          "message": "SystemUI: Follow light/dark theme in quick settings",
-          "author": "Danny Lin",
-          "date": "Thu Nov 20 01:17:42 2025 +0000",
-          "timestamp": 1763601462,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3fe40bb0"
-        },
-        {
-          "sha": "53ae99d8",
-          "message": "services: Implement exit app animation boost",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:14:08 2025 +0000",
-          "timestamp": 1763601248,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/53ae99d8"
-        },
-        {
-          "sha": "4adcb18c",
-          "message": "services: Implement activity boost optimization",
-          "author": "minaripenguin",
-          "date": "Thu Nov 20 01:14:07 2025 +0000",
-          "timestamp": 1763601247,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4adcb18c"
-        },
-        {
-          "sha": "08747748",
-          "message": "services: Implement transition boosting",
-          "author": "minaripenguin",
-          "date": "Thu Nov 20 01:14:07 2025 +0000",
-          "timestamp": 1763601247,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/08747748"
-        },
-        {
-          "sha": "224712e0",
-          "message": "DisplayPolicy: send boost interaction on scroll/fling",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:14:06 2025 +0000",
-          "timestamp": 1763601246,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/224712e0"
-        },
-        {
-          "sha": "2a667917",
-          "message": "services: Implement scroll gesture boosting",
-          "author": "minaripenguin",
-          "date": "Thu Nov 20 01:14:06 2025 +0000",
-          "timestamp": 1763601246,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/2a667917"
-        },
-        {
-          "sha": "e4693585",
-          "message": "PinnerService: catch exceptions while pinning files",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:10:56 2025 +0000",
-          "timestamp": 1763601056,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e4693585"
-        },
-        {
-          "sha": "1c5752d3",
-          "message": "DeviceIdleController: fix google gms idle whitelist security exception",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:10:55 2025 +0000",
-          "timestamp": 1763601055,
-          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1c5752d3"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_apps_Settings",
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/LumineDroid/platform_packages_apps_Settings",
@@ -3887,6 +3078,815 @@
           "date": "Thu Nov 20 01:02:08 2025 +0000",
           "timestamp": 1763600528,
           "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9b838d5"
+        }
+      ]
+    },
+    {
+      "name": "platform_frameworks_base",
+      "path": "frameworks/base",
+      "repo_url": "https://github.com/LumineDroid/platform_frameworks_base",
+      "remote": "lumine",
+      "commit_count": 100,
+      "commits": [
+        {
+          "sha": "17b02d48",
+          "message": "SystemUI: Match footer notification icon with other action icons",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 12:18:48 2025 +0000",
+          "timestamp": 1763813928,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/17b02d48"
+        },
+        {
+          "sha": "f464de39",
+          "message": "SystemUI: Fix footer actions theme",
+          "author": "rmp22",
+          "date": "Sat Nov 22 12:18:32 2025 +0000",
+          "timestamp": 1763813912,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/f464de39"
+        },
+        {
+          "sha": "5515b312",
+          "message": "SystemUI: Fix drawable error in Icon compose",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 12:17:46 2025 +0000",
+          "timestamp": 1763813866,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/5515b312"
+        },
+        {
+          "sha": "f18a03e2",
+          "message": "SystemUI: Prevent getting stale values for smartspace visibility",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 05:03:43 2025 +0000",
+          "timestamp": 1763787823,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/f18a03e2"
+        },
+        {
+          "sha": "ae7ddd1f",
+          "message": "Revert \"SystemUI: Don't remove keyguard slice view\"",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 05:03:39 2025 +0000",
+          "timestamp": 1763787819,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ae7ddd1f"
+        },
+        {
+          "sha": "6c20c7d7",
+          "message": "SystemUI: Do not disable slice provider for smartspace",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 05:03:38 2025 +0000",
+          "timestamp": 1763787818,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/6c20c7d7"
+        },
+        {
+          "sha": "09cda98d",
+          "message": "SystemUI: Update long click on data usage text",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 05:01:22 2025 +0000",
+          "timestamp": 1763787682,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/09cda98d"
+        },
+        {
+          "sha": "65a70325",
+          "message": "SystemUI: Simplify QS data toggle",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 05:01:22 2025 +0000",
+          "timestamp": 1763787682,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/65a70325"
+        },
+        {
+          "sha": "030ce5df",
+          "message": "SystemUI: Do not switch between spacer and text for data usage in footer",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 05:00:22 2025 +0000",
+          "timestamp": 1763787622,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/030ce5df"
+        },
+        {
+          "sha": "5fc86274",
+          "message": "Status Bar Tuner: Fix preference icon tint",
+          "author": "minaripenguin",
+          "date": "Sat Nov 22 04:50:51 2025 +0000",
+          "timestamp": 1763787051,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/5fc86274"
+        },
+        {
+          "sha": "959dc0ae",
+          "message": "SystemUI: Update carrier text and icons for modern views",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 02:38:54 2025 +0000",
+          "timestamp": 1763779134,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/959dc0ae"
+        },
+        {
+          "sha": "e20195f8",
+          "message": "SystemUI: Simplify loop in updateColors",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 02:38:53 2025 +0000",
+          "timestamp": 1763779133,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e20195f8"
+        },
+        {
+          "sha": "37e99ab8",
+          "message": "SystemUI: Make sure carrier icons are properly tinted when their state updates",
+          "author": "Abhay Singh Gill",
+          "date": "Sat Nov 22 02:38:53 2025 +0000",
+          "timestamp": 1763779133,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/37e99ab8"
+        },
+        {
+          "sha": "cc5d6afe",
+          "message": "SystemUI: Remove visibility check in setting QSCarrier color",
+          "author": "Adithya R",
+          "date": "Sat Nov 22 02:38:52 2025 +0000",
+          "timestamp": 1763779132,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/cc5d6afe"
+        },
+        {
+          "sha": "80676e79",
+          "message": "SystemUI: Follow light/dark theme in SplitShade Header",
+          "author": "ReallySnow",
+          "date": "Sat Nov 22 02:35:16 2025 +0000",
+          "timestamp": 1763778916,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/80676e79"
+        },
+        {
+          "sha": "5b2eb111",
+          "message": "BatteryStatsViewer: Enable enableOnBackInvokedCallback",
+          "author": "someone5678",
+          "date": "Sat Nov 22 02:32:11 2025 +0000",
+          "timestamp": 1763778731,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/5b2eb111"
+        },
+        {
+          "sha": "1589718b",
+          "message": "BatteryStatsViewer: Fix theme",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 22 02:32:11 2025 +0000",
+          "timestamp": 1763778731,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1589718b"
+        },
+        {
+          "sha": "e96e1ca0",
+          "message": "BatteryStatsViewer: Fix initial activity after launch",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 22 02:32:10 2025 +0000",
+          "timestamp": 1763778730,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e96e1ca0"
+        },
+        {
+          "sha": "80dc34a7",
+          "message": "BatteryStatsViewer: Create IA entry in Settings -> Battery",
+          "author": "Oliver Scott",
+          "date": "Sat Nov 22 02:32:10 2025 +0000",
+          "timestamp": 1763778730,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/80dc34a7"
+        },
+        {
+          "sha": "61cb524b",
+          "message": "BatteryStatsViewer: Remove some hardcoded strings",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 22 02:32:09 2025 +0000",
+          "timestamp": 1763778729,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/61cb524b"
+        },
+        {
+          "sha": "4eceefd7",
+          "message": "Revert \"Hide the Battery Stats Viewer launcher by default\"",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 22 02:32:09 2025 +0000",
+          "timestamp": 1763778729,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4eceefd7"
+        },
+        {
+          "sha": "4b782953",
+          "message": "SystemUI: Hide QR code scanner tile if not launch activity available",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 02:29:24 2025 +0000",
+          "timestamp": 1763778564,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4b782953"
+        },
+        {
+          "sha": "b738a37c",
+          "message": "Fix NPE problem to avoid systemserver process crash.",
+          "author": "lijilou",
+          "date": "Sat Nov 22 02:29:23 2025 +0000",
+          "timestamp": 1763778563,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/b738a37c"
+        },
+        {
+          "sha": "1bb8df13",
+          "message": "PowerStats: extend the MAX_STATS_ARRAY_LENGTH",
+          "author": "Frankie Chang",
+          "date": "Sat Nov 22 02:29:23 2025 +0000",
+          "timestamp": 1763778563,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1bb8df13"
+        },
+        {
+          "sha": "3a07ec32",
+          "message": "TelephonyManager: Gracefully handle null telephony service - isNullCipherNotificationsEnabled",
+          "author": "pix106",
+          "date": "Sat Nov 22 02:29:22 2025 +0000",
+          "timestamp": 1763778562,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3a07ec32"
+        },
+        {
+          "sha": "228de1d2",
+          "message": "Telephony: Gracefully handle data enablement checks",
+          "author": "minaripenguin",
+          "date": "Sat Nov 22 02:29:22 2025 +0000",
+          "timestamp": 1763778562,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/228de1d2"
+        },
+        {
+          "sha": "e8e00f8d",
+          "message": "TelephonyManager: Gracefully handle null telephony service [2]",
+          "author": "minaripenguin",
+          "date": "Sat Nov 22 02:29:21 2025 +0000",
+          "timestamp": 1763778561,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e8e00f8d"
+        },
+        {
+          "sha": "3da6e266",
+          "message": "fix NPE system_server crash in F2fsUtils.getFilesRecursive()",
+          "author": "Dmitry Muhomor",
+          "date": "Sat Nov 22 02:28:17 2025 +0000",
+          "timestamp": 1763778497,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3da6e266"
+        },
+        {
+          "sha": "3802adfe",
+          "message": "SystemUI: Fix NullPointerException in updateFocusOverlayRadii for missing drawable layer",
+          "author": "Alvin Francis",
+          "date": "Sat Nov 22 02:28:17 2025 +0000",
+          "timestamp": 1763778497,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3802adfe"
+        },
+        {
+          "sha": "f523a45c",
+          "message": "SystemUI: Dismiss screenshot window on touch outside",
+          "author": "LibXZR",
+          "date": "Sat Nov 22 02:28:16 2025 +0000",
+          "timestamp": 1763778496,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/f523a45c"
+        },
+        {
+          "sha": "db95669c",
+          "message": "telephony: Trim warning log if app not installed",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 22 02:27:28 2025 +0000",
+          "timestamp": 1763778448,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/db95669c"
+        },
+        {
+          "sha": "8e3fecab",
+          "message": "Fix wrong pid in event_log when native crash",
+          "author": "Jiangyou Li",
+          "date": "Sat Nov 22 02:27:27 2025 +0000",
+          "timestamp": 1763778447,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/8e3fecab"
+        },
+        {
+          "sha": "c009219d",
+          "message": "Fix NPE in TextToSpeechManagerPerUserService",
+          "author": "Jiangyou Li",
+          "date": "Sat Nov 22 02:27:26 2025 +0000",
+          "timestamp": 1763778446,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/c009219d"
+        },
+        {
+          "sha": "62eaeef3",
+          "message": "Fix NPE when IntentFilter doesn't have any data type.",
+          "author": "Jiangyou Li",
+          "date": "Sat Nov 22 02:27:26 2025 +0000",
+          "timestamp": 1763778446,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/62eaeef3"
+        },
+        {
+          "sha": "6b81904a",
+          "message": "Fix crash on light/dark theme toggle",
+          "author": "minaripenguin",
+          "date": "Sat Nov 22 02:27:23 2025 +0000",
+          "timestamp": 1763778443,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/6b81904a"
+        },
+        {
+          "sha": "a5163398",
+          "message": "Fix keyboard cannot access slider issue",
+          "author": "Angela Wang",
+          "date": "Sat Nov 22 01:47:26 2025 +0000",
+          "timestamp": 1763776046,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/a5163398"
+        },
+        {
+          "sha": "0dee53aa",
+          "message": "Use an interface OnScreenWidgetMixin to add extra padding to FootPreference, IntroPreference, and TopIntroPreference",
+          "author": "David Liu",
+          "date": "Sat Nov 22 01:47:25 2025 +0000",
+          "timestamp": 1763776045,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/0dee53aa"
+        },
+        {
+          "sha": "1a049b78",
+          "message": "Force behind and notification scrim alpha to be 0 when the device is unlocking.",
+          "author": "Chandru S",
+          "date": "Sat Nov 22 01:47:25 2025 +0000",
+          "timestamp": 1763776045,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1a049b78"
+        },
+        {
+          "sha": "2e7adeef",
+          "message": "Update pin bouncer confirm button to match spec",
+          "author": "Chandru S",
+          "date": "Sat Nov 22 01:47:24 2025 +0000",
+          "timestamp": 1763776044,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/2e7adeef"
+        },
+        {
+          "sha": "c5aad578",
+          "message": "Fix preference highlight background padding",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:24 2025 +0000",
+          "timestamp": 1763776044,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/c5aad578"
+        },
+        {
+          "sha": "4f9cc4d9",
+          "message": "[Expressive design] update android.app.AlertDialog style",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:23 2025 +0000",
+          "timestamp": 1763776043,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4f9cc4d9"
+        },
+        {
+          "sha": "ce677db8",
+          "message": "[Settingslib] Fix summary text centering issue in IntroPreference",
+          "author": "David Liu",
+          "date": "Sat Nov 22 01:47:22 2025 +0000",
+          "timestamp": 1763776042,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ce677db8"
+        },
+        {
+          "sha": "01dd8d73",
+          "message": "[Expressive design] update widget_frame layout",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:22 2025 +0000",
+          "timestamp": 1763776042,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/01dd8d73"
+        },
+        {
+          "sha": "4e6a7229",
+          "message": "[Expressive design] update RestrictedSwitchPreference",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:21 2025 +0000",
+          "timestamp": 1763776041,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4e6a7229"
+        },
+        {
+          "sha": "8ad96b60",
+          "message": "[Expressive design] Add MenuPreference & OrderMenuPreference",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:21 2025 +0000",
+          "timestamp": 1763776041,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/8ad96b60"
+        },
+        {
+          "sha": "41f3b6dc",
+          "message": "[Expressive design] Update DropDownPreference style",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:20 2025 +0000",
+          "timestamp": 1763776040,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/41f3b6dc"
+        },
+        {
+          "sha": "25e5c7a5",
+          "message": "[Expressive design] Update TwotargetPreference widget layout",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:20 2025 +0000",
+          "timestamp": 1763776040,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/25e5c7a5"
+        },
+        {
+          "sha": "074a5980",
+          "message": "[Expressive design] update the button style in Alert Dialog",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:19 2025 +0000",
+          "timestamp": 1763776039,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/074a5980"
+        },
+        {
+          "sha": "260492ee",
+          "message": "[Expressive design] Update Spinner and Dropdown style",
+          "author": "David Liu",
+          "date": "Sat Nov 22 01:47:19 2025 +0000",
+          "timestamp": 1763776039,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/260492ee"
+        },
+        {
+          "sha": "97f89e10",
+          "message": "[Expressive design] Update PreferenceCategory layout",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:18 2025 +0000",
+          "timestamp": 1763776038,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/97f89e10"
+        },
+        {
+          "sha": "ea19697f",
+          "message": "Use Material3 switch to replace Switch in the floating settings panel",
+          "author": "Jean Chen",
+          "date": "Sat Nov 22 01:47:18 2025 +0000",
+          "timestamp": 1763776038,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ea19697f"
+        },
+        {
+          "sha": "07ecd78e",
+          "message": "Update colors & text in promoted notification info",
+          "author": "Ioana Alexandru",
+          "date": "Sat Nov 22 01:47:17 2025 +0000",
+          "timestamp": 1763776037,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/07ecd78e"
+        },
+        {
+          "sha": "1dce7efd",
+          "message": "[sb] add an updated roaming indicator",
+          "author": "Evan Laird",
+          "date": "Sat Nov 22 01:47:17 2025 +0000",
+          "timestamp": 1763776037,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1dce7efd"
+        },
+        {
+          "sha": "46f1d983",
+          "message": "Update dream status bar icons",
+          "author": "Darrell Shi",
+          "date": "Sat Nov 22 01:47:16 2025 +0000",
+          "timestamp": 1763776036,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/46f1d983"
+        },
+        {
+          "sha": "62a327fa",
+          "message": "[bat] use battery charging fg color for chip bg",
+          "author": "Evan Laird",
+          "date": "Sat Nov 22 01:47:15 2025 +0000",
+          "timestamp": 1763776035,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/62a327fa"
+        },
+        {
+          "sha": "b765b7d2",
+          "message": "Add a ripple highlight for the Output Switcher list items.",
+          "author": "Alex Shabalin",
+          "date": "Sat Nov 22 01:47:15 2025 +0000",
+          "timestamp": 1763776035,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/b765b7d2"
+        },
+        {
+          "sha": "cab1517f",
+          "message": "Make bg of QSCustomizer transparent",
+          "author": "Fabián Kozynski",
+          "date": "Sat Nov 22 01:47:14 2025 +0000",
+          "timestamp": 1763776034,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/cab1517f"
+        },
+        {
+          "sha": "c7125035",
+          "message": "Fix icon scaling",
+          "author": "Fabián Kozynski",
+          "date": "Sat Nov 22 01:47:14 2025 +0000",
+          "timestamp": 1763776034,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/c7125035"
+        },
+        {
+          "sha": "67de1701",
+          "message": "Update screen record icon",
+          "author": "Beth Thibodeau",
+          "date": "Sat Nov 22 01:47:13 2025 +0000",
+          "timestamp": 1763776033,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/67de1701"
+        },
+        {
+          "sha": "5829c628",
+          "message": "Always update mute icon along with slider value.",
+          "author": "Alex Shabalin",
+          "date": "Sat Nov 22 01:47:13 2025 +0000",
+          "timestamp": 1763776033,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/5829c628"
+        },
+        {
+          "sha": "7d66103f",
+          "message": "Fix media state update issues",
+          "author": "Beth Thibodeau",
+          "date": "Sat Nov 22 01:47:12 2025 +0000",
+          "timestamp": 1763776032,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/7d66103f"
+        },
+        {
+          "sha": "bf7bcbe8",
+          "message": "[Settingslib][Expressive] [Expressive] Update SimpleProgressBarPreference to match spec",
+          "author": "David Liu",
+          "date": "Sat Nov 22 01:47:12 2025 +0000",
+          "timestamp": 1763776032,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/bf7bcbe8"
+        },
+        {
+          "sha": "eb1f1bea",
+          "message": "[Settingslib][Expressive] Add SimpleProgressBar preference",
+          "author": "David Liu",
+          "date": "Sat Nov 22 01:47:11 2025 +0000",
+          "timestamp": 1763776031,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/eb1f1bea"
+        },
+        {
+          "sha": "2df806dd",
+          "message": "Add new tile icons",
+          "author": "Fabián Kozynski",
+          "date": "Sat Nov 22 01:47:10 2025 +0000",
+          "timestamp": 1763776030,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/2df806dd"
+        },
+        {
+          "sha": "3039c487",
+          "message": "[Expressive design] Update Switch and MainSwitch style",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:10 2025 +0000",
+          "timestamp": 1763776030,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3039c487"
+        },
+        {
+          "sha": "b570d54f",
+          "message": "[MainSwitchPreference] Do not update datastore when OnPreferenceChangeListener returns false",
+          "author": "Jacky Wang",
+          "date": "Sat Nov 22 01:47:09 2025 +0000",
+          "timestamp": 1763776029,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/b570d54f"
+        },
+        {
+          "sha": "6364166b",
+          "message": "[Expressive design] update UsageProgressBarPreference",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:08 2025 +0000",
+          "timestamp": 1763776028,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/6364166b"
+        },
+        {
+          "sha": "b96f41ee",
+          "message": "Update expressive progress bar thickness and indicator gap.",
+          "author": "Garvita Jain",
+          "date": "Sat Nov 22 01:47:08 2025 +0000",
+          "timestamp": 1763776028,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/b96f41ee"
+        },
+        {
+          "sha": "c20d598c",
+          "message": "Use Linear progress indicator in UsageProgressBarPreference",
+          "author": "Garvita Jain",
+          "date": "Sat Nov 22 01:47:07 2025 +0000",
+          "timestamp": 1763776027,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/c20d598c"
+        },
+        {
+          "sha": "418ef4b2",
+          "message": "[Expressive design] Update layout for StatusBannerMessage",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:07 2025 +0000",
+          "timestamp": 1763776027,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/418ef4b2"
+        },
+        {
+          "sha": "7da90e11",
+          "message": "Refine Wi-Fi preferences in Internet Settings (SettingsLib)",
+          "author": "Weng Su",
+          "date": "Sat Nov 22 01:47:06 2025 +0000",
+          "timestamp": 1763776026,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/7da90e11"
+        },
+        {
+          "sha": "ea1cc80f",
+          "message": "[Settingslib] Fix StatusBannerPreference text color",
+          "author": "David Liu",
+          "date": "Sat Nov 22 01:47:06 2025 +0000",
+          "timestamp": 1763776026,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ea1cc80f"
+        },
+        {
+          "sha": "54329d7f",
+          "message": "[Expressive design] Update MainSwith layout",
+          "author": "Edgar Wang",
+          "date": "Sat Nov 22 01:47:05 2025 +0000",
+          "timestamp": 1763776025,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/54329d7f"
+        },
+        {
+          "sha": "75c4318d",
+          "message": "PixelPropsUtils: Update FP to November 2025 release",
+          "author": "Hexaboo",
+          "date": "Sat Nov 22 01:45:46 2025 +0000",
+          "timestamp": 1763775946,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/75c4318d"
+        },
+        {
+          "sha": "cf8d3c30",
+          "message": "Allow overlaying font spacing for lockscreen clock",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 05:15:01 2025 +0000",
+          "timestamp": 1763615701,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/cf8d3c30"
+        },
+        {
+          "sha": "9a89cac1",
+          "message": "fixup! Add support to configure double line clock in lockscreen [1/2]",
+          "author": "Alexander Martinz",
+          "date": "Thu Nov 20 01:34:04 2025 +0000",
+          "timestamp": 1763602444,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/9a89cac1"
+        },
+        {
+          "sha": "8d4a911e",
+          "message": "base: Add support for Lockscreen clock fonts",
+          "author": "El Dainosor",
+          "date": "Thu Nov 20 01:32:19 2025 +0000",
+          "timestamp": 1763602339,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/8d4a911e"
+        },
+        {
+          "sha": "ddd5e2ec",
+          "message": "ThemeOverlayApplier: Apply wifi and signal icon styles last",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:31:53 2025 +0000",
+          "timestamp": 1763602313,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ddd5e2ec"
+        },
+        {
+          "sha": "178767b1",
+          "message": "ThemeOverlayApplier: Exclude Launcher3 and Themepicker overlays",
+          "author": "minaripenguin",
+          "date": "Thu Nov 20 01:31:35 2025 +0000",
+          "timestamp": 1763602295,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/178767b1"
+        },
+        {
+          "sha": "deb6fea4",
+          "message": "Revert \"SystemUI: blur rendering enhancements\"",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:27:31 2025 +0000",
+          "timestamp": 1763602051,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/deb6fea4"
+        },
+        {
+          "sha": "ac4e1f54",
+          "message": "SystemUI: TunerActivity: Remove icon toggles if not supported",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:27:08 2025 +0000",
+          "timestamp": 1763602028,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ac4e1f54"
+        },
+        {
+          "sha": "be6348ba",
+          "message": "SystemUI: TunerActivity: Switch to material expressive design",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:27:08 2025 +0000",
+          "timestamp": 1763602028,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/be6348ba"
+        },
+        {
+          "sha": "54344b06",
+          "message": "SystemUI: Fixing keyguard shade color",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:22:35 2025 +0000",
+          "timestamp": 1763601755,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/54344b06"
+        },
+        {
+          "sha": "3f472287",
+          "message": "SystemUI: QS background changes [SQUASHED]",
+          "author": "Ghosuto",
+          "date": "Thu Nov 20 01:22:10 2025 +0000",
+          "timestamp": 1763601730,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3f472287"
+        },
+        {
+          "sha": "fd8c2f68",
+          "message": "SystemUI: Prevent keyguard state conflicts that caused screen flickering",
+          "author": "bijoyv9",
+          "date": "Thu Nov 20 01:19:42 2025 +0000",
+          "timestamp": 1763601582,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/fd8c2f68"
+        },
+        {
+          "sha": "19851f01",
+          "message": "SystemUI: QS expansion animation enhance",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:19:41 2025 +0000",
+          "timestamp": 1763601581,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/19851f01"
+        },
+        {
+          "sha": "ff6dd619",
+          "message": "SystemUI: Add more null checks for scrims",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:19:41 2025 +0000",
+          "timestamp": 1763601581,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/ff6dd619"
+        },
+        {
+          "sha": "e7e09647",
+          "message": "SystemUI: Fix boot failure with white wallpaper",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:19:40 2025 +0000",
+          "timestamp": 1763601580,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e7e09647"
+        },
+        {
+          "sha": "91428a5b",
+          "message": "SystemUI: Ensure behind scrim alpha is 0 when unlocking",
+          "author": "Akash Srivastava",
+          "date": "Thu Nov 20 01:18:54 2025 +0000",
+          "timestamp": 1763601534,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/91428a5b"
+        },
+        {
+          "sha": "e1fb51ae",
+          "message": "SystemUI: Force black tint when animating to/from AOD or PULSING",
+          "author": "Akash Srivastava",
+          "date": "Thu Nov 20 01:18:53 2025 +0000",
+          "timestamp": 1763601533,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e1fb51ae"
+        },
+        {
+          "sha": "70f2fa3e",
+          "message": "SystemUI: Remove composite alpha from additional scrim on lockscreen",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:18:53 2025 +0000",
+          "timestamp": 1763601533,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/70f2fa3e"
+        },
+        {
+          "sha": "a5911baf",
+          "message": "SystemUI: Fix scrim using stale shade colors on UI mode change",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:18:14 2025 +0000",
+          "timestamp": 1763601494,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/a5911baf"
+        },
+        {
+          "sha": "3fe40bb0",
+          "message": "SystemUI: Follow light/dark theme in quick settings",
+          "author": "Danny Lin",
+          "date": "Thu Nov 20 01:17:42 2025 +0000",
+          "timestamp": 1763601462,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/3fe40bb0"
+        },
+        {
+          "sha": "53ae99d8",
+          "message": "services: Implement exit app animation boost",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:14:08 2025 +0000",
+          "timestamp": 1763601248,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/53ae99d8"
+        },
+        {
+          "sha": "4adcb18c",
+          "message": "services: Implement activity boost optimization",
+          "author": "minaripenguin",
+          "date": "Thu Nov 20 01:14:07 2025 +0000",
+          "timestamp": 1763601247,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/4adcb18c"
+        },
+        {
+          "sha": "08747748",
+          "message": "services: Implement transition boosting",
+          "author": "minaripenguin",
+          "date": "Thu Nov 20 01:14:07 2025 +0000",
+          "timestamp": 1763601247,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/08747748"
+        },
+        {
+          "sha": "224712e0",
+          "message": "DisplayPolicy: send boost interaction on scroll/fling",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:14:06 2025 +0000",
+          "timestamp": 1763601246,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/224712e0"
+        },
+        {
+          "sha": "2a667917",
+          "message": "services: Implement scroll gesture boosting",
+          "author": "minaripenguin",
+          "date": "Thu Nov 20 01:14:06 2025 +0000",
+          "timestamp": 1763601246,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/2a667917"
+        },
+        {
+          "sha": "e4693585",
+          "message": "PinnerService: catch exceptions while pinning files",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:10:56 2025 +0000",
+          "timestamp": 1763601056,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/e4693585"
+        },
+        {
+          "sha": "1c5752d3",
+          "message": "DeviceIdleController: fix google gms idle whitelist security exception",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:10:55 2025 +0000",
+          "timestamp": 1763601055,
+          "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1c5752d3"
         }
       ]
     },
@@ -5289,7 +5289,7 @@
       "path": "frameworks/av",
       "repo_url": "https://github.com/LumineDroid/platform_frameworks_av",
       "remote": "lumine",
-      "commit_count": 53,
+      "commit_count": 52,
       "commits": [
         {
           "sha": "535c3c9",
@@ -5706,14 +5706,6 @@
           "date": "Fri Sep 26 10:30:56 2025 +0530",
           "timestamp": 1758862856,
           "url": "https://github.com/LumineDroid/platform_frameworks_av/commit/f19e42d"
-        },
-        {
-          "sha": "f56404d",
-          "message": "audioflinger: Do not allow DAP effect to be suspended",
-          "author": "Adithya R",
-          "date": "Mon Sep 1 17:05:30 2025 +0100",
-          "timestamp": 1756742730,
-          "url": "https://github.com/LumineDroid/platform_frameworks_av/commit/f56404d"
         }
       ]
     },
@@ -6115,7 +6107,7 @@
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
       "remote": "github",
-      "commit_count": 42,
+      "commit_count": 40,
       "commits": [
         {
           "sha": "5dff58d",
@@ -6436,22 +6428,6 @@
           "date": "Thu Sep 4 17:46:15 2025 +0200",
           "timestamp": 1757000775,
           "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/7359331"
-        },
-        {
-          "sha": "e6c6b29",
-          "message": "Aperture: Rewrite QR analyzer + dialog",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 2 02:32:47 2025 +0200",
-          "timestamp": 1756773167,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e6c6b29"
-        },
-        {
-          "sha": "caa5ddb",
-          "message": "Aperture: Goodbye LiveData, welcome flows",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 1 18:15:03 2025 +0200",
-          "timestamp": 1756743303,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/caa5ddb"
         }
       ]
     },
@@ -6460,8 +6436,16 @@
       "path": "official_devices",
       "repo_url": "https://github.com/LumineDroid-Devices/official_devices",
       "remote": "lumine-devices",
-      "commit_count": 35,
+      "commit_count": 36,
       "commits": [
+        {
+          "sha": "d21b28f",
+          "message": "official_devices: Update garnet 30/11/25",
+          "author": "Hikari-Soni",
+          "date": "Sun Nov 30 18:03:06 2025 +0700",
+          "timestamp": 1764500586,
+          "url": "https://github.com/LumineDroid-Devices/official_devices/commit/d21b28f"
+        },
         {
           "sha": "d917c26",
           "message": "official_devices: Update fogos 26/11/25",
@@ -7227,223 +7211,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Twelve",
-      "path": "packages/apps/Twelve",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
-      "remote": "github",
-      "commit_count": 26,
-      "commits": [
-        {
-          "sha": "6b0152d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:02:00 2025 +0000",
-          "timestamp": 1763229720,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/6b0152d"
-        },
-        {
-          "sha": "516d1f4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:39 2025 +0000",
-          "timestamp": 1762026519,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/516d1f4"
-        },
-        {
-          "sha": "00e6068",
-          "message": "Twelve: Provide our own androidx.navigation libs",
-          "author": "LuK1337",
-          "date": "Fri Oct 17 22:51:10 2025 +0200",
-          "timestamp": 1760734270,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/00e6068"
-        },
-        {
-          "sha": "3b25367",
-          "message": "Twelve: Upgrade android.navigation to 2.9.5",
-          "author": "LuK1337",
-          "date": "Fri Oct 17 22:50:59 2025 +0200",
-          "timestamp": 1760734259,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3b25367"
-        },
-        {
-          "sha": "f6fa65c",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:26 2025 +0000",
-          "timestamp": 1760577866,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/f6fa65c"
-        },
-        {
-          "sha": "7d3642d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 19:38:04 2025 +0000",
-          "timestamp": 1759347484,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3642d"
-        },
-        {
-          "sha": "214b513",
-          "message": "Twelve: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 21:44:48 2025 +0200",
-          "timestamp": 1759261488,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/214b513"
-        },
-        {
-          "sha": "684ec67",
-          "message": "Twelve: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 21:43:46 2025 +0200",
-          "timestamp": 1759261426,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/684ec67"
-        },
-        {
-          "sha": "17169d4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:50 2025 +0000",
-          "timestamp": 1758744410,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/17169d4"
-        },
-        {
-          "sha": "adc7d1b",
-          "message": "Twelve: Update generatebp to v1.28",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 18:55:46 2025 +0200",
-          "timestamp": 1758732946,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/adc7d1b"
-        },
-        {
-          "sha": "48e5a66",
-          "message": "Twelve: `kapt` -> `kotlin-kapt`",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 18:55:46 2025 +0200",
-          "timestamp": 1758732946,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/48e5a66"
-        },
-        {
-          "sha": "2829464",
-          "message": "Twelve: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 16:44:48 2025 +0200",
-          "timestamp": 1758725088,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/2829464"
-        },
-        {
-          "sha": "7d3ecde",
-          "message": "Twelve: Fix spacing around play buttons",
-          "author": "Inhishonor",
-          "date": "Sat Sep 20 19:56:01 2025 +0200",
-          "timestamp": 1758390961,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3ecde"
-        },
-        {
-          "sha": "3f0ff3d",
-          "message": "Twelve: ListItem: Declare a new corner radius attribute",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:01 2025 +0200",
-          "timestamp": 1758390961,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3f0ff3d"
-        },
-        {
-          "sha": "08bb7f0",
-          "message": "Twelve: ListItem: Fix an API issue on older SDK versions",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:01 2025 +0200",
-          "timestamp": 1758390961,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/08bb7f0"
-        },
-        {
-          "sha": "77af37e",
-          "message": "Twelve: ListItem: `Context.getColorStateList` uses the current theme",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:01 2025 +0200",
-          "timestamp": 1758390961,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/77af37e"
-        },
-        {
-          "sha": "aca4e68",
-          "message": "Twelve: Resize the window when using IME",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:00 2025 +0200",
-          "timestamp": 1758390960,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/aca4e68"
-        },
-        {
-          "sha": "14c855f",
-          "message": "Twelve: Fix FAB text/icon tints",
-          "author": "Luca Stefani",
-          "date": "Sat Sep 20 19:56:00 2025 +0200",
-          "timestamp": 1758390960,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/14c855f"
-        },
-        {
-          "sha": "bb6d425",
-          "message": "Twelve: Specify KAPT version and add all plugins to classpath",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:00 2025 +0200",
-          "timestamp": 1758390960,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/bb6d425"
-        },
-        {
-          "sha": "3026c4d",
-          "message": "Twelve: Play random songs button",
-          "author": "Inhishonor",
-          "date": "Thu Sep 18 20:24:36 2025 +0200",
-          "timestamp": 1758219876,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3026c4d"
-        },
-        {
-          "sha": "8b55929",
-          "message": "Twelve: Result: Add `onSuccess`/`onError` methods",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 20:24:36 2025 +0200",
-          "timestamp": 1758219876,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/8b55929"
-        },
-        {
-          "sha": "5131a69",
-          "message": "Twelve: MediaDataStore: Add audios method",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 20:24:36 2025 +0200",
-          "timestamp": 1758219876,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/5131a69"
-        },
-        {
-          "sha": "851f87d",
-          "message": "Twelve: Merge all home page VMs into a single one",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 20:23:41 2025 +0200",
-          "timestamp": 1758219821,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/851f87d"
-        },
-        {
-          "sha": "c167d52",
-          "message": "Twelve: Get new random content every time app opens",
-          "author": "Inhishonor",
-          "date": "Thu Sep 18 20:23:41 2025 +0200",
-          "timestamp": 1758219821,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/c167d52"
-        },
-        {
-          "sha": "e765cd7",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:08 2025 +0000",
-          "timestamp": 1757955308,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/e765cd7"
-        },
-        {
-          "sha": "3bfeb98",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:40 2025 +0000",
-          "timestamp": 1756738480,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3bfeb98"
-        }
-      ]
-    },
-    {
       "name": "platform_vendor_lumine",
       "path": "vendor/lumine",
       "repo_url": "https://github.com/LumineDroid/platform_vendor_lumine",
@@ -7657,6 +7424,215 @@
           "date": "Mon Nov 10 04:04:01 2025 +0000",
           "timestamp": 1762747441,
           "url": "https://github.com/LumineDroid/platform_vendor_lumine/commit/ecedccb"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Twelve",
+      "path": "packages/apps/Twelve",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
+      "remote": "github",
+      "commit_count": 25,
+      "commits": [
+        {
+          "sha": "6b0152d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:00 2025 +0000",
+          "timestamp": 1763229720,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/6b0152d"
+        },
+        {
+          "sha": "516d1f4",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:39 2025 +0000",
+          "timestamp": 1762026519,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/516d1f4"
+        },
+        {
+          "sha": "00e6068",
+          "message": "Twelve: Provide our own androidx.navigation libs",
+          "author": "LuK1337",
+          "date": "Fri Oct 17 22:51:10 2025 +0200",
+          "timestamp": 1760734270,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/00e6068"
+        },
+        {
+          "sha": "3b25367",
+          "message": "Twelve: Upgrade android.navigation to 2.9.5",
+          "author": "LuK1337",
+          "date": "Fri Oct 17 22:50:59 2025 +0200",
+          "timestamp": 1760734259,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3b25367"
+        },
+        {
+          "sha": "f6fa65c",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:26 2025 +0000",
+          "timestamp": 1760577866,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/f6fa65c"
+        },
+        {
+          "sha": "7d3642d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 19:38:04 2025 +0000",
+          "timestamp": 1759347484,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3642d"
+        },
+        {
+          "sha": "214b513",
+          "message": "Twelve: Update kotlin deps to match AOSP 16",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 30 21:44:48 2025 +0200",
+          "timestamp": 1759261488,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/214b513"
+        },
+        {
+          "sha": "684ec67",
+          "message": "Twelve: Update SDK to 36",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 30 21:43:46 2025 +0200",
+          "timestamp": 1759261426,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/684ec67"
+        },
+        {
+          "sha": "17169d4",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:50 2025 +0000",
+          "timestamp": 1758744410,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/17169d4"
+        },
+        {
+          "sha": "adc7d1b",
+          "message": "Twelve: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 18:55:46 2025 +0200",
+          "timestamp": 1758732946,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/adc7d1b"
+        },
+        {
+          "sha": "48e5a66",
+          "message": "Twelve: `kapt` -> `kotlin-kapt`",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 18:55:46 2025 +0200",
+          "timestamp": 1758732946,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/48e5a66"
+        },
+        {
+          "sha": "2829464",
+          "message": "Twelve: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 16:44:48 2025 +0200",
+          "timestamp": 1758725088,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/2829464"
+        },
+        {
+          "sha": "7d3ecde",
+          "message": "Twelve: Fix spacing around play buttons",
+          "author": "Inhishonor",
+          "date": "Sat Sep 20 19:56:01 2025 +0200",
+          "timestamp": 1758390961,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3ecde"
+        },
+        {
+          "sha": "3f0ff3d",
+          "message": "Twelve: ListItem: Declare a new corner radius attribute",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:01 2025 +0200",
+          "timestamp": 1758390961,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3f0ff3d"
+        },
+        {
+          "sha": "08bb7f0",
+          "message": "Twelve: ListItem: Fix an API issue on older SDK versions",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:01 2025 +0200",
+          "timestamp": 1758390961,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/08bb7f0"
+        },
+        {
+          "sha": "77af37e",
+          "message": "Twelve: ListItem: `Context.getColorStateList` uses the current theme",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:01 2025 +0200",
+          "timestamp": 1758390961,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/77af37e"
+        },
+        {
+          "sha": "aca4e68",
+          "message": "Twelve: Resize the window when using IME",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:00 2025 +0200",
+          "timestamp": 1758390960,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/aca4e68"
+        },
+        {
+          "sha": "14c855f",
+          "message": "Twelve: Fix FAB text/icon tints",
+          "author": "Luca Stefani",
+          "date": "Sat Sep 20 19:56:00 2025 +0200",
+          "timestamp": 1758390960,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/14c855f"
+        },
+        {
+          "sha": "bb6d425",
+          "message": "Twelve: Specify KAPT version and add all plugins to classpath",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:00 2025 +0200",
+          "timestamp": 1758390960,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/bb6d425"
+        },
+        {
+          "sha": "3026c4d",
+          "message": "Twelve: Play random songs button",
+          "author": "Inhishonor",
+          "date": "Thu Sep 18 20:24:36 2025 +0200",
+          "timestamp": 1758219876,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3026c4d"
+        },
+        {
+          "sha": "8b55929",
+          "message": "Twelve: Result: Add `onSuccess`/`onError` methods",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 20:24:36 2025 +0200",
+          "timestamp": 1758219876,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/8b55929"
+        },
+        {
+          "sha": "5131a69",
+          "message": "Twelve: MediaDataStore: Add audios method",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 20:24:36 2025 +0200",
+          "timestamp": 1758219876,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/5131a69"
+        },
+        {
+          "sha": "851f87d",
+          "message": "Twelve: Merge all home page VMs into a single one",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 20:23:41 2025 +0200",
+          "timestamp": 1758219821,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/851f87d"
+        },
+        {
+          "sha": "c167d52",
+          "message": "Twelve: Get new random content every time app opens",
+          "author": "Inhishonor",
+          "date": "Thu Sep 18 20:23:41 2025 +0200",
+          "timestamp": 1758219821,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/c167d52"
+        },
+        {
+          "sha": "e765cd7",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:08 2025 +0000",
+          "timestamp": 1757955308,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/e765cd7"
         }
       ]
     },
@@ -8518,7 +8494,7 @@
       "path": "packages/apps/Jelly",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
       "remote": "github",
-      "commit_count": 17,
+      "commit_count": 16,
       "commits": [
         {
           "sha": "e7bc9a2",
@@ -8647,14 +8623,6 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/6de7c84"
-        },
-        {
-          "sha": "751734f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:36 2025 +0000",
-          "timestamp": 1756738476,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/751734f"
         }
       ]
     },
@@ -8909,119 +8877,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "github",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "84e7b7b",
-          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
-          "author": "Sneh Mankad",
-          "date": "Sun Nov 9 02:51:10 2025 +0200",
-          "timestamp": 1762649470,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
-        },
-        {
-          "sha": "9d86876",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:35:09 2025 +0200",
-          "timestamp": 1762648509,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
-        },
-        {
-          "sha": "ecd05f7",
-          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:34:40 2025 +0200",
-          "timestamp": 1762648480,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
-        },
-        {
-          "sha": "09c3881",
-          "message": "generic: Label vendor.qti.qesdk.sysservice app",
-          "author": "Giovanni Ricca",
-          "date": "Tue Oct 7 09:13:59 2025 +0200",
-          "timestamp": 1759821239,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
-        },
-        {
-          "sha": "8186a50",
-          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:34 2025 -0700",
-          "timestamp": 1757906014,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
-        },
-        {
-          "sha": "74db8a6",
-          "message": "sepolicy: Added attributes for BHS services.",
-          "author": "mkadali",
-          "date": "Tue Sep 9 18:40:44 2025 -0400",
-          "timestamp": 1757457644,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
-        },
-        {
-          "sha": "0785bde",
-          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
-          "author": "QCTECMDR Service",
-          "date": "Fri Sep 5 05:35:52 2025 -0700",
-          "timestamp": 1757075752,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
-        },
-        {
-          "sha": "f84d078",
-          "message": "[NFC][SEPolicy]: added dev node check access permission",
-          "author": "Varun Kumar",
-          "date": "Fri Sep 5 05:12:50 2025 -0700",
-          "timestamp": 1757074370,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
-        },
-        {
-          "sha": "736d7bc",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 5 07:41:13 2025 +0000",
-          "timestamp": 1757058073,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
-        },
-        {
-          "sha": "6f92e4b",
-          "message": "Merge \"sepolicy: Change the label to allow the property to be written by vendor\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 06:02:22 2025 -0700",
-          "timestamp": 1756904542,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6f92e4b"
-        },
-        {
-          "sha": "0258e3a",
-          "message": "Merge \"sepolicy : Allow BootAnimation to have read access to vendor_sys_gpp_prop\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 02:42:08 2025 -0700",
-          "timestamp": 1756892528,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0258e3a"
-        },
-        {
-          "sha": "42e70dd",
-          "message": "sepolicy: Add rules for qtiaudiohalvendorextn",
-          "author": "LuK1337",
-          "date": "Mon Sep 1 23:35:20 2025 +0100",
-          "timestamp": 1756766120,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/42e70dd"
-        },
-        {
-          "sha": "12dd76a",
-          "message": "Merge 99b06a78228eae70c3d24a2679aa13cca1f6a68e on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Aug 31 23:28:02 2025 -0700",
-          "timestamp": 1756708082,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/12dd76a"
-        }
-      ]
-    },
-    {
       "name": "platform_lumine-sdk",
       "path": "lineage-sdk",
       "repo_url": "https://github.com/LumineDroid/platform_lumine-sdk",
@@ -9131,119 +8986,6 @@
           "date": "Wed Sep 24 20:06:38 2025 +0000",
           "timestamp": 1758744398,
           "url": "https://github.com/LumineDroid/platform_lumine-sdk/commit/f26071c"
-        }
-      ]
-    },
-    {
-      "name": "platform_packages_apps_Updater",
-      "path": "packages/apps/Updater",
-      "repo_url": "https://github.com/LumineDroid/platform_packages_apps_Updater",
-      "remote": "lumine",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "d21987d",
-          "message": "Updater: Update server and changelog url",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:02:29 2025 +0000",
-          "timestamp": 1763600549,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/d21987d"
-        },
-        {
-          "sha": "3d3e826",
-          "message": "Updater: Add support links and some more info",
-          "author": "Lup Gabriel",
-          "date": "Thu Nov 20 01:02:29 2025 +0000",
-          "timestamp": 1763600549,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/3d3e826"
-        },
-        {
-          "sha": "c6512e9",
-          "message": "Updater: Fix background color",
-          "author": "Arman-ATI",
-          "date": "Thu Nov 20 01:02:29 2025 +0000",
-          "timestamp": 1763600549,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/c6512e9"
-        },
-        {
-          "sha": "ed246ed",
-          "message": "Updater: Remove cryptographic signature verification for local updates",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:02:29 2025 +0000",
-          "timestamp": 1763600549,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/ed246ed"
-        },
-        {
-          "sha": "8eaf42f",
-          "message": "Updater: Use headline font for activity header",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:29 2025 +0000",
-          "timestamp": 1763600549,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/8eaf42f"
-        },
-        {
-          "sha": "b1b2458",
-          "message": "Updater: Nuke Lineage's website on installation blocked dialog",
-          "author": "shagbag913",
-          "date": "Thu Nov 20 01:02:29 2025 +0000",
-          "timestamp": 1763600549,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/b1b2458"
-        },
-        {
-          "sha": "f2baf1a",
-          "message": "Updater: Initial adaption for LumineDroid",
-          "author": "Signed-off-by: Pranav Vashi",
-          "date": "Thu Nov 20 01:02:29 2025 +0000",
-          "timestamp": 1763600549,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/f2baf1a"
-        },
-        {
-          "sha": "5fc7823",
-          "message": "Updater: Rebrand to LumineDroid",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:02:29 2025 +0000",
-          "timestamp": 1763600549,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/5fc7823"
-        },
-        {
-          "sha": "4150e2f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:02:01 2025 +0000",
-          "timestamp": 1763229721,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/4150e2f"
-        },
-        {
-          "sha": "29babf1",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:26 2025 +0000",
-          "timestamp": 1760577866,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/29babf1"
-        },
-        {
-          "sha": "9f5af26",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:50 2025 +0000",
-          "timestamp": 1758744410,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/9f5af26"
-        },
-        {
-          "sha": "be62451",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:09 2025 +0000",
-          "timestamp": 1757955309,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/be62451"
-        },
-        {
-          "sha": "77a204b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:40 2025 +0000",
-          "timestamp": 1756738480,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/77a204b"
         }
       ]
     },
@@ -9466,11 +9208,213 @@
       ]
     },
     {
+      "name": "platform_packages_apps_Updater",
+      "path": "packages/apps/Updater",
+      "repo_url": "https://github.com/LumineDroid/platform_packages_apps_Updater",
+      "remote": "lumine",
+      "commit_count": 12,
+      "commits": [
+        {
+          "sha": "d21987d",
+          "message": "Updater: Update server and changelog url",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:02:29 2025 +0000",
+          "timestamp": 1763600549,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/d21987d"
+        },
+        {
+          "sha": "3d3e826",
+          "message": "Updater: Add support links and some more info",
+          "author": "Lup Gabriel",
+          "date": "Thu Nov 20 01:02:29 2025 +0000",
+          "timestamp": 1763600549,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/3d3e826"
+        },
+        {
+          "sha": "c6512e9",
+          "message": "Updater: Fix background color",
+          "author": "Arman-ATI",
+          "date": "Thu Nov 20 01:02:29 2025 +0000",
+          "timestamp": 1763600549,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/c6512e9"
+        },
+        {
+          "sha": "ed246ed",
+          "message": "Updater: Remove cryptographic signature verification for local updates",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:02:29 2025 +0000",
+          "timestamp": 1763600549,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/ed246ed"
+        },
+        {
+          "sha": "8eaf42f",
+          "message": "Updater: Use headline font for activity header",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:29 2025 +0000",
+          "timestamp": 1763600549,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/8eaf42f"
+        },
+        {
+          "sha": "b1b2458",
+          "message": "Updater: Nuke Lineage's website on installation blocked dialog",
+          "author": "shagbag913",
+          "date": "Thu Nov 20 01:02:29 2025 +0000",
+          "timestamp": 1763600549,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/b1b2458"
+        },
+        {
+          "sha": "f2baf1a",
+          "message": "Updater: Initial adaption for LumineDroid",
+          "author": "Signed-off-by: Pranav Vashi",
+          "date": "Thu Nov 20 01:02:29 2025 +0000",
+          "timestamp": 1763600549,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/f2baf1a"
+        },
+        {
+          "sha": "5fc7823",
+          "message": "Updater: Rebrand to LumineDroid",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:02:29 2025 +0000",
+          "timestamp": 1763600549,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/5fc7823"
+        },
+        {
+          "sha": "4150e2f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:01 2025 +0000",
+          "timestamp": 1763229721,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/4150e2f"
+        },
+        {
+          "sha": "29babf1",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:26 2025 +0000",
+          "timestamp": 1760577866,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/29babf1"
+        },
+        {
+          "sha": "9f5af26",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:50 2025 +0000",
+          "timestamp": 1758744410,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/9f5af26"
+        },
+        {
+          "sha": "be62451",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:09 2025 +0000",
+          "timestamp": 1757955309,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Updater/commit/be62451"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "github",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "84e7b7b",
+          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
+          "author": "Sneh Mankad",
+          "date": "Sun Nov 9 02:51:10 2025 +0200",
+          "timestamp": 1762649470,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
+        },
+        {
+          "sha": "9d86876",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:35:09 2025 +0200",
+          "timestamp": 1762648509,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
+        },
+        {
+          "sha": "ecd05f7",
+          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:34:40 2025 +0200",
+          "timestamp": 1762648480,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
+        },
+        {
+          "sha": "09c3881",
+          "message": "generic: Label vendor.qti.qesdk.sysservice app",
+          "author": "Giovanni Ricca",
+          "date": "Tue Oct 7 09:13:59 2025 +0200",
+          "timestamp": 1759821239,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
+        },
+        {
+          "sha": "8186a50",
+          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:34 2025 -0700",
+          "timestamp": 1757906014,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
+        },
+        {
+          "sha": "74db8a6",
+          "message": "sepolicy: Added attributes for BHS services.",
+          "author": "mkadali",
+          "date": "Tue Sep 9 18:40:44 2025 -0400",
+          "timestamp": 1757457644,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
+        },
+        {
+          "sha": "0785bde",
+          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
+          "author": "QCTECMDR Service",
+          "date": "Fri Sep 5 05:35:52 2025 -0700",
+          "timestamp": 1757075752,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
+        },
+        {
+          "sha": "f84d078",
+          "message": "[NFC][SEPolicy]: added dev node check access permission",
+          "author": "Varun Kumar",
+          "date": "Fri Sep 5 05:12:50 2025 -0700",
+          "timestamp": 1757074370,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
+        },
+        {
+          "sha": "736d7bc",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 5 07:41:13 2025 +0000",
+          "timestamp": 1757058073,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
+        },
+        {
+          "sha": "6f92e4b",
+          "message": "Merge \"sepolicy: Change the label to allow the property to be written by vendor\"",
+          "author": "QCTECMDR Service",
+          "date": "Wed Sep 3 06:02:22 2025 -0700",
+          "timestamp": 1756904542,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6f92e4b"
+        },
+        {
+          "sha": "0258e3a",
+          "message": "Merge \"sepolicy : Allow BootAnimation to have read access to vendor_sys_gpp_prop\"",
+          "author": "QCTECMDR Service",
+          "date": "Wed Sep 3 02:42:08 2025 -0700",
+          "timestamp": 1756892528,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0258e3a"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
       "remote": "github",
-      "commit_count": 12,
+      "commit_count": 11,
       "commits": [
         {
           "sha": "6a365d1",
@@ -9559,14 +9503,6 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e774392"
-        },
-        {
-          "sha": "7bd917b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:36 2025 +0000",
-          "timestamp": 1756738476,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b"
         }
       ]
     },
@@ -9664,95 +9600,6 @@
           "date": "Tue Sep 2 14:15:13 2025 +0800",
           "timestamp": 1756793713,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/487ba5c"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8750",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "6748e02",
-          "message": "sepolicy: Label SEC NFC device & HAL",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 16:29:17 2025 +0200",
-          "timestamp": 1764426557,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6748e02"
-        },
-        {
-          "sha": "dd8ebd7",
-          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
-          "author": "Ankit Lathiya",
-          "date": "Sat Nov 22 00:26:59 2025 +0200",
-          "timestamp": 1763764019,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
-        },
-        {
-          "sha": "447107e",
-          "message": "removing get_prop function as it set_prop provides the same functionality",
-          "author": "abarnwal",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
-        },
-        {
-          "sha": "ba4de13",
-          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
-          "author": "Amruth Naga",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
-        },
-        {
-          "sha": "4088120",
-          "message": "qva: Label AOSP ST NFC HAL",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
-        },
-        {
-          "sha": "71e3f76",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:26:41 2025 +0200",
-          "timestamp": 1762608401,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
-        },
-        {
-          "sha": "e8391b6",
-          "message": "Merge d033dd00b623b7afc55c974d0a920847c77eefc4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 21 01:47:01 2025 -0700",
-          "timestamp": 1758444421,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8391b6"
-        },
-        {
-          "sha": "9e8d9ec",
-          "message": "sun: Match all read_ahead_kb nodes",
-          "author": "dianlujitao",
-          "date": "Sat Sep 20 14:57:06 2025 +0100",
-          "timestamp": 1758376626,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9e8d9ec"
-        },
-        {
-          "sha": "e63498e",
-          "message": "qva: Allow weaver HAL to request wakelock",
-          "author": "dianlujitao",
-          "date": "Sat Sep 20 14:56:58 2025 +0100",
-          "timestamp": 1758376618,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e63498e"
-        },
-        {
-          "sha": "8b123eb",
-          "message": "qva: Label AOSP NXP keymint and weaver HALs",
-          "author": "dianlujitao",
-          "date": "Mon Sep 1 23:12:37 2025 +0100",
-          "timestamp": 1756764757,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8b123eb"
         }
       ]
     },
@@ -9923,6 +9770,87 @@
           "date": "Fri Sep 5 08:53:05 2025 +0200",
           "timestamp": 1757055185,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6e21d75"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8750",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "github",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "6748e02",
+          "message": "sepolicy: Label SEC NFC device & HAL",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 16:29:17 2025 +0200",
+          "timestamp": 1764426557,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6748e02"
+        },
+        {
+          "sha": "dd8ebd7",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:59 2025 +0200",
+          "timestamp": 1763764019,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
+        },
+        {
+          "sha": "447107e",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
+        },
+        {
+          "sha": "ba4de13",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
+        },
+        {
+          "sha": "4088120",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
+        },
+        {
+          "sha": "71e3f76",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:41 2025 +0200",
+          "timestamp": 1762608401,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
+        },
+        {
+          "sha": "e8391b6",
+          "message": "Merge d033dd00b623b7afc55c974d0a920847c77eefc4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 21 01:47:01 2025 -0700",
+          "timestamp": 1758444421,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8391b6"
+        },
+        {
+          "sha": "9e8d9ec",
+          "message": "sun: Match all read_ahead_kb nodes",
+          "author": "dianlujitao",
+          "date": "Sat Sep 20 14:57:06 2025 +0100",
+          "timestamp": 1758376626,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9e8d9ec"
+        },
+        {
+          "sha": "e63498e",
+          "message": "qva: Allow weaver HAL to request wakelock",
+          "author": "dianlujitao",
+          "date": "Sat Sep 20 14:56:58 2025 +0100",
+          "timestamp": 1758376618,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e63498e"
         }
       ]
     },
@@ -10300,79 +10228,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Recorder",
-      "path": "packages/apps/Recorder",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Recorder",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "aeeafd6",
-          "message": "Recorder: colorAccent -> colorSecondary",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 12:59:35 2025 +0200",
-          "timestamp": 1763722775,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/aeeafd6"
-        },
-        {
-          "sha": "ba7e033",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:25 2025 +0000",
-          "timestamp": 1760577865,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ba7e033"
-        },
-        {
-          "sha": "ac959a5",
-          "message": "Recorder: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ac959a5"
-        },
-        {
-          "sha": "0ed5b1d",
-          "message": "Recorder: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/0ed5b1d"
-        },
-        {
-          "sha": "13aa044",
-          "message": "Recorder: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/13aa044"
-        },
-        {
-          "sha": "6205aaa",
-          "message": "Recorder: Bump kotlin version",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:08 2025 +0200",
-          "timestamp": 1758448748,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/6205aaa"
-        },
-        {
-          "sha": "1f9060b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:06 2025 +0000",
-          "timestamp": 1757955306,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b"
-        },
-        {
-          "sha": "4bf7948",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:37 2025 +0000",
-          "timestamp": 1756738477,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/4bf7948"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_resources_devicesettings",
       "path": "packages/resources/devicesettings",
       "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
@@ -10584,67 +10439,67 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Camelot",
-      "path": "packages/apps/Camelot",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "name": "LineageOS/android_packages_apps_Recorder",
+      "path": "packages/apps/Recorder",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Recorder",
       "remote": "github",
       "commit_count": 7,
       "commits": [
         {
-          "sha": "e8345aa",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:22 2025 +0000",
-          "timestamp": 1760577862,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/e8345aa"
+          "sha": "aeeafd6",
+          "message": "Recorder: colorAccent -> colorSecondary",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 12:59:35 2025 +0200",
+          "timestamp": 1763722775,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/aeeafd6"
         },
         {
-          "sha": "cbb6a81",
-          "message": "Camelot: Update kotlin to match AOSP 16",
+          "sha": "ba7e033",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:25 2025 +0000",
+          "timestamp": 1760577865,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ba7e033"
+        },
+        {
+          "sha": "ac959a5",
+          "message": "Recorder: Update kotlin deps to match AOSP 16",
           "author": "Luca Stefani",
-          "date": "Wed Sep 24 19:36:42 2025 +0200",
-          "timestamp": 1758735402,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb6a81"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ac959a5"
         },
         {
-          "sha": "9da5e90",
-          "message": "Camelot: Update SDK to 36",
+          "sha": "0ed5b1d",
+          "message": "Recorder: Update SDK to 36",
           "author": "Luca Stefani",
-          "date": "Wed Sep 24 19:36:31 2025 +0200",
-          "timestamp": 1758735391,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/9da5e90"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/0ed5b1d"
         },
         {
-          "sha": "b6cff9a",
-          "message": "Camelot: Update generatebp to v1.28",
+          "sha": "13aa044",
+          "message": "Recorder: Update Gradle wrapper and AGP",
           "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:36:25 2025 +0200",
-          "timestamp": 1758735385,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/13aa044"
         },
         {
-          "sha": "bcfa1a7",
-          "message": "Camelot: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:33:55 2025 +0200",
-          "timestamp": 1758735235,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7"
+          "sha": "6205aaa",
+          "message": "Recorder: Bump kotlin version",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 21 11:59:08 2025 +0200",
+          "timestamp": 1758448748,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/6205aaa"
         },
         {
-          "sha": "34fd95b",
+          "sha": "1f9060b",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:02 2025 +0000",
-          "timestamp": 1757955302,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
-        },
-        {
-          "sha": "cbb578e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e"
+          "date": "Mon Sep 15 16:55:06 2025 +0000",
+          "timestamp": 1757955306,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b"
         }
       ]
     },
@@ -10844,71 +10699,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/display",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "7cbc3cb",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:21 2025 +0200",
-          "timestamp": 1762607781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
-        },
-        {
-          "sha": "7ac4077",
-          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 12 23:41:34 2025 -0700",
-          "timestamp": 1760337694,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
-        },
-        {
-          "sha": "bb1ed10",
-          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Thu Sep 25 23:54:17 2025 -0700",
-          "timestamp": 1758869657,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
-        },
-        {
-          "sha": "8725d4e",
-          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:47 2025 -0700",
-          "timestamp": 1757906027,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
-        },
-        {
-          "sha": "8d5c652",
-          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 8 16:46:11 2025 -0700",
-          "timestamp": 1757375171,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
-        },
-        {
-          "sha": "2e7a285",
-          "message": "snapallocext: Add SnapAlloc Extension AIDL",
-          "author": "prajawal",
-          "date": "Tue Sep 2 17:14:48 2025 -0700",
-          "timestamp": 1756858488,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/2e7a285"
-        },
-        {
-          "sha": "c899044",
-          "message": "Merge 5b598d9a23879d772b8ec7c69d6a321d2146bc26 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Aug 31 23:28:40 2025 -0700",
-          "timestamp": 1756708120,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/c899044"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_lineage_interfaces",
       "path": "hardware/lineage/interfaces",
       "repo_url": "https://github.com/LineageOS/android_hardware_lineage_interfaces",
@@ -11023,6 +10813,63 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Camelot",
+      "path": "packages/apps/Camelot",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "e8345aa",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:22 2025 +0000",
+          "timestamp": 1760577862,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/e8345aa"
+        },
+        {
+          "sha": "cbb6a81",
+          "message": "Camelot: Update kotlin to match AOSP 16",
+          "author": "Luca Stefani",
+          "date": "Wed Sep 24 19:36:42 2025 +0200",
+          "timestamp": 1758735402,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb6a81"
+        },
+        {
+          "sha": "9da5e90",
+          "message": "Camelot: Update SDK to 36",
+          "author": "Luca Stefani",
+          "date": "Wed Sep 24 19:36:31 2025 +0200",
+          "timestamp": 1758735391,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/9da5e90"
+        },
+        {
+          "sha": "b6cff9a",
+          "message": "Camelot: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:36:25 2025 +0200",
+          "timestamp": 1758735385,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a"
+        },
+        {
+          "sha": "bcfa1a7",
+          "message": "Camelot: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:33:55 2025 +0200",
+          "timestamp": 1758735235,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7"
+        },
+        {
+          "sha": "34fd95b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:02 2025 +0000",
+          "timestamp": 1757955302,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_tools_extract-utils",
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
@@ -11076,6 +10923,63 @@
           "date": "Fri Oct 10 20:58:29 2025 +0300",
           "timestamp": 1760119109,
           "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c7e9116"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/display",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "7cbc3cb",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:21 2025 +0200",
+          "timestamp": 1762607781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
+        },
+        {
+          "sha": "7ac4077",
+          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 12 23:41:34 2025 -0700",
+          "timestamp": 1760337694,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
+        },
+        {
+          "sha": "bb1ed10",
+          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Sep 25 23:54:17 2025 -0700",
+          "timestamp": 1758869657,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
+        },
+        {
+          "sha": "8725d4e",
+          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:47 2025 -0700",
+          "timestamp": 1757906027,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
+        },
+        {
+          "sha": "8d5c652",
+          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Sep 8 16:46:11 2025 -0700",
+          "timestamp": 1757375171,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
+        },
+        {
+          "sha": "2e7a285",
+          "message": "snapallocext: Add SnapAlloc Extension AIDL",
+          "author": "prajawal",
+          "date": "Tue Sep 2 17:14:48 2025 -0700",
+          "timestamp": 1756858488,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/2e7a285"
         }
       ]
     },
@@ -11403,47 +11307,6 @@
           "date": "Thu Sep 4 12:33:22 2025 +0300",
           "timestamp": 1756978402,
           "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/0be6c3b"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_FMRadio",
-      "path": "packages/apps/FMRadio",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "7e89b01",
-          "message": "FmService: Set RECEIVER_NOT_EXPORTED",
-          "author": "Cyber Knight",
-          "date": "Fri Sep 26 18:30:01 2025 +0000",
-          "timestamp": 1758911401,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01"
-        },
-        {
-          "sha": "4372899",
-          "message": "FMRadio: Start ForegroundService with a type",
-          "author": "Cyber Knight",
-          "date": "Wed Sep 24 20:26:24 2025 +0000",
-          "timestamp": 1758745584,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899"
-        },
-        {
-          "sha": "5160538",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:04 2025 +0000",
-          "timestamp": 1757955304,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538"
-        },
-        {
-          "sha": "4d4f98b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:35 2025 +0000",
-          "timestamp": 1756738475,
-          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4d4f98b"
         }
       ]
     },
@@ -11802,68 +11665,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "name": "LineageOS/android_packages_apps_FMRadio",
+      "path": "packages/apps/FMRadio",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FMRadio",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
+          "sha": "7e89b01",
+          "message": "FmService: Set RECEIVER_NOT_EXPORTED",
+          "author": "Cyber Knight",
+          "date": "Fri Sep 26 18:30:01 2025 +0000",
+          "timestamp": 1758911401,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/7e89b01"
         },
         {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
+          "sha": "4372899",
+          "message": "FMRadio: Start ForegroundService with a type",
+          "author": "Cyber Knight",
+          "date": "Wed Sep 24 20:26:24 2025 +0000",
+          "timestamp": 1758745584,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/4372899"
         },
         {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_DeskClock",
-      "path": "packages/apps/DeskClock",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_DeskClock",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "8987c25",
+          "sha": "5160538",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:57 2025 +0000",
-          "timestamp": 1763229717,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c25"
-        },
-        {
-          "sha": "cd9326b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:02 2025 +0000",
-          "timestamp": 1757955302,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/cd9326b"
-        },
-        {
-          "sha": "c1f46ef",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/c1f46ef"
+          "date": "Mon Sep 15 16:55:04 2025 +0000",
+          "timestamp": 1757955304,
+          "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538"
         }
       ]
     },
@@ -12158,6 +11988,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_DeskClock",
+      "path": "packages/apps/DeskClock",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_DeskClock",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "8987c25",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:57 2025 +0000",
+          "timestamp": 1763229717,
+          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c25"
+        },
+        {
+          "sha": "cd9326b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:02 2025 +0000",
+          "timestamp": 1757955302,
+          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/cd9326b"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Contacts",
       "path": "packages/apps/Contacts",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Contacts",
@@ -12204,31 +12059,6 @@
           "date": "Fri Sep 12 17:56:14 2025 +0300",
           "timestamp": 1757688974,
           "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/b9e58d0"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_FlipFlap",
-      "path": "packages/apps/FlipFlap",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "dd49d55",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
-        },
-        {
-          "sha": "e7ffef4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:35 2025 +0000",
-          "timestamp": 1756738475,
-          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/e7ffef4"
         }
       ]
     },
@@ -12748,6 +12578,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_FlipFlap",
+      "path": "packages/apps/FlipFlap",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "dd49d55",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Messaging",
       "path": "packages/apps/Messaging",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Messaging",
@@ -12999,23 +12846,6 @@
           "date": "Sat Oct 4 13:01:13 2025 +0800",
           "timestamp": 1759554073,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0a94a23"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar",
-      "path": "vendor/qcom/opensource/audio-hal/st-hal-ar",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f8dfc3d",
-          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 07:08:04 2025 +0000",
-          "timestamp": 1756710484,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/f8dfc3d"
         }
       ]
     },

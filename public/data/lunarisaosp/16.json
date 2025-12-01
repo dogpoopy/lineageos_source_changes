@@ -1,10 +1,10 @@
 {
   "rom_id": "lunarisaosp",
   "branch": "16",
-  "generated_at": "2025-11-30T01:37:46.247866+00:00",
-  "since_date": "2025-09-01",
-  "total_projects": 135,
-  "total_commits": 1781,
+  "generated_at": "2025-12-01T01:52:55.370425+00:00",
+  "since_date": "2025-09-02",
+  "total_projects": 133,
+  "total_commits": 1759,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1471,692 +1471,700 @@
       "commit_count": 100,
       "commits": [
         {
-          "sha": "cce3c65f",
+          "sha": "3399efbe",
+          "message": "SystemUI: Allow toggle single tone QS background [1/2]",
+          "author": "Ghosuto",
+          "date": "Sun Nov 30 17:33:02 2025 +0000",
+          "timestamp": 1764523982,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3399efbe"
+        },
+        {
+          "sha": "5563ae64",
+          "message": "SystemUI: Add nothing os charging animation",
+          "author": "Ghosuto",
+          "date": "Sun Nov 30 12:53:44 2025 +0000",
+          "timestamp": 1764507224,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/5563ae64"
+        },
+        {
+          "sha": "cf32a4b2",
+          "message": "SystemUI: Disable pulse visualizer when panel expands",
+          "author": "Ghosuto",
+          "date": "Sun Nov 30 03:20:23 2025 +0000",
+          "timestamp": 1764472823,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/cf32a4b2"
+        },
+        {
+          "sha": "7baf1031",
           "message": "SystemUI: Improve qs panel expansion",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 18:11:30 2025 +0000",
-          "timestamp": 1764439890,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/cce3c65f"
+          "date": "Sun Nov 30 03:20:23 2025 +0000",
+          "timestamp": 1764472823,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7baf1031"
         },
         {
-          "sha": "440b6e72",
+          "sha": "e25e4551",
           "message": "SystemUI: Add matrix pulse renderer style",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 18:11:23 2025 +0000",
-          "timestamp": 1764439883,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/440b6e72"
+          "date": "Sun Nov 30 03:20:23 2025 +0000",
+          "timestamp": 1764472823,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e25e4551"
         },
         {
-          "sha": "faf71f22",
+          "sha": "9d9929cb",
           "message": "SystemUI: Fix volume slider color mismatch",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 13:10:52 2025 +0000",
-          "timestamp": 1764421852,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/faf71f22"
+          "date": "Sun Nov 30 03:20:23 2025 +0000",
+          "timestamp": 1764472823,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9d9929cb"
         },
         {
-          "sha": "6717cb24",
+          "sha": "ffe89125",
           "message": "SystemUI: Fix memory leaks and thread safety in statusbar ongoing chip",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 13:10:52 2025 +0000",
-          "timestamp": 1764421852,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/6717cb24"
+          "date": "Sun Nov 30 03:20:23 2025 +0000",
+          "timestamp": 1764472823,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/ffe89125"
         },
         {
-          "sha": "703350cf",
+          "sha": "f16efb4d",
           "message": "SystemUI: Fix nowplaying memory leaks and performance issues",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 13:10:52 2025 +0000",
-          "timestamp": 1764421852,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/703350cf"
+          "date": "Sun Nov 30 03:20:23 2025 +0000",
+          "timestamp": 1764472823,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/f16efb4d"
         },
         {
-          "sha": "e181a60c",
+          "sha": "ddeec30f",
           "message": "SystemUI: Reduce max bitmap size",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 13:10:47 2025 +0000",
-          "timestamp": 1764421847,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e181a60c"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/ddeec30f"
         },
         {
-          "sha": "6e9fc0c4",
+          "sha": "1457b27b",
           "message": "SystemUI: Introduce charging effects",
           "author": "Ghosuto",
-          "date": "Thu Nov 27 12:27:59 2025 +0000",
-          "timestamp": 1764246479,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/6e9fc0c4"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/1457b27b"
         },
         {
-          "sha": "5acd5a37",
+          "sha": "834d4eff",
           "message": "MediaControlPanel: Fix media playback crash on chromium based browser",
           "author": "Pranav Vashi",
-          "date": "Wed Nov 26 06:34:17 2025 +0000",
-          "timestamp": 1764138857,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/5acd5a37"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/834d4eff"
         },
         {
-          "sha": "ce76fa51",
+          "sha": "9f2d7405",
           "message": "KeyboxChainGenerator: fix build release parsing",
           "author": "Simão Gomes Viana",
-          "date": "Wed Nov 26 06:22:23 2025 +0000",
-          "timestamp": 1764138143,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/ce76fa51"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9f2d7405"
         },
         {
-          "sha": "7af9d029",
+          "sha": "13adda95",
           "message": "SystemUI: TunerServiceImpl: Safe concurrent iteration and modification",
           "author": "Pranav Vashi",
-          "date": "Wed Nov 26 06:22:08 2025 +0000",
-          "timestamp": 1764138128,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7af9d029"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/13adda95"
         },
         {
-          "sha": "c1cc6c29",
+          "sha": "d86a25e6",
           "message": "SystemUI: Allow use custom udfps icon for aod also",
           "author": "Ghosuto",
-          "date": "Wed Nov 26 06:16:53 2025 +0000",
-          "timestamp": 1764137813,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/c1cc6c29"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/d86a25e6"
         },
         {
-          "sha": "2a262e7d",
+          "sha": "1551cc4d",
           "message": "SystemUI: Wallpaper glymps wallpaper preview with manual trigger",
           "author": "Ghosuto",
-          "date": "Wed Nov 26 06:16:53 2025 +0000",
-          "timestamp": 1764137813,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/2a262e7d"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/1551cc4d"
         },
         {
-          "sha": "7d85168c",
+          "sha": "05d6b7b3",
           "message": "SystemUI: Add support for home screen wallpaper changes",
           "author": "Ghosuto",
-          "date": "Wed Nov 26 06:16:53 2025 +0000",
-          "timestamp": 1764137813,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7d85168c"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/05d6b7b3"
         },
         {
-          "sha": "a485445a",
+          "sha": "3b03b734",
           "message": "ScrimUtils: Add notifier for user change",
           "author": "Pranav Vashi",
-          "date": "Wed Nov 26 06:16:53 2025 +0000",
-          "timestamp": 1764137813,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/a485445a"
+          "date": "Sun Nov 30 03:20:22 2025 +0000",
+          "timestamp": 1764472822,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3b03b734"
         },
         {
-          "sha": "0ce3e476",
+          "sha": "7f7f7561",
           "message": "graphics: Fixing typeface crash bug with susfs",
           "author": "rmp22",
-          "date": "Wed Nov 26 06:16:53 2025 +0000",
-          "timestamp": 1764137813,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/0ce3e476"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7f7f7561"
         },
         {
-          "sha": "501b5888",
+          "sha": "b205fc42",
           "message": "SystemUI: Avoid using deriveStateOf for media translation",
           "author": "rmp22",
-          "date": "Wed Nov 26 06:16:53 2025 +0000",
-          "timestamp": 1764137813,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/501b5888"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/b205fc42"
         },
         {
-          "sha": "45119c76",
+          "sha": "33aa1eda",
           "message": "Revert \"PixelPropsUtils: Add toggle for spoof private key keybox validation\"",
           "author": "Ghosuto",
-          "date": "Wed Nov 26 06:16:52 2025 +0000",
-          "timestamp": 1764137812,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/45119c76"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/33aa1eda"
         },
         {
-          "sha": "10a64278",
+          "sha": "3d65c5a2",
           "message": "SystemUI: Add mediaart Pixelation/Mosaic filter",
           "author": "Ghosuto",
-          "date": "Wed Nov 26 06:16:52 2025 +0000",
-          "timestamp": 1764137812,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/10a64278"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3d65c5a2"
         },
         {
-          "sha": "c7f6b4e8",
+          "sha": "cddb45bd",
           "message": "SystemUI: Reduce media art blur level",
           "author": "Ghosuto",
-          "date": "Wed Nov 26 06:16:52 2025 +0000",
-          "timestamp": 1764137812,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/c7f6b4e8"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/cddb45bd"
         },
         {
-          "sha": "7fd5d862",
+          "sha": "d8176f30",
           "message": "core: preventing memory leaks from bloating os memory that leads to OOM",
           "author": "rmp22",
-          "date": "Wed Nov 26 06:16:52 2025 +0000",
-          "timestamp": 1764137812,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7fd5d862"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/d8176f30"
         },
         {
-          "sha": "9686b9b6",
+          "sha": "8d047abe",
           "message": "SystemUI: Fix missing now playing callbacks",
           "author": "Ghosuto",
-          "date": "Thu Nov 20 12:50:47 2025 +0000",
-          "timestamp": 1763643047,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9686b9b6"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/8d047abe"
         },
         {
-          "sha": "4ba0bb06",
+          "sha": "d0445f4d",
           "message": "core: Update implementation for per-app sensor block",
           "author": "Pranav Vashi",
-          "date": "Wed Nov 19 15:10:05 2025 +0000",
-          "timestamp": 1763565005,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/4ba0bb06"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/d0445f4d"
         },
         {
-          "sha": "21bfd8f2",
+          "sha": "b53e8fed",
           "message": "Make sensor block package list configurable [1/2]",
           "author": "Hikari-no-Tenshi",
-          "date": "Wed Nov 19 15:10:05 2025 +0000",
-          "timestamp": 1763565005,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/21bfd8f2"
+          "date": "Sun Nov 30 03:20:21 2025 +0000",
+          "timestamp": 1764472821,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/b53e8fed"
         },
         {
-          "sha": "7f53da12",
+          "sha": "efdf88d3",
           "message": "base: Add Accelerometer and Linear Acceleration sensors in blocking list",
           "author": "HolyAngel",
-          "date": "Wed Nov 19 15:10:05 2025 +0000",
-          "timestamp": 1763565005,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7f53da12"
+          "date": "Sun Nov 30 03:20:20 2025 +0000",
+          "timestamp": 1764472820,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/efdf88d3"
         },
         {
-          "sha": "1dbfff86",
+          "sha": "faa42861",
           "message": "FWB: Sensor block per-package switch (1/2)",
           "author": "LorDClockaN",
-          "date": "Wed Nov 19 15:10:05 2025 +0000",
-          "timestamp": 1763565005,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/1dbfff86"
+          "date": "Sun Nov 30 03:20:20 2025 +0000",
+          "timestamp": 1764472820,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/faa42861"
         },
         {
-          "sha": "70bae57f",
+          "sha": "b728a93e",
           "message": "SystemSensorManager: sensor block per-package",
           "author": "Simao Gomes Viana",
-          "date": "Wed Nov 19 15:09:59 2025 +0000",
-          "timestamp": 1763564999,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/70bae57f"
+          "date": "Sun Nov 30 03:20:20 2025 +0000",
+          "timestamp": 1764472820,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/b728a93e"
         },
         {
-          "sha": "35988542",
+          "sha": "86886b9a",
           "message": "SystemUI: Reduce now playing text max width",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 18:20:40 2025 +0000",
-          "timestamp": 1763403640,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/35988542"
+          "date": "Sun Nov 30 03:20:20 2025 +0000",
+          "timestamp": 1764472820,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/86886b9a"
         },
         {
-          "sha": "e4249bf2",
+          "sha": "3e13b05e",
           "message": "SystemUI: Update Smartspace random msg",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 18:19:42 2025 +0000",
-          "timestamp": 1763403582,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e4249bf2"
+          "date": "Sun Nov 30 03:20:20 2025 +0000",
+          "timestamp": 1764472820,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3e13b05e"
         },
         {
-          "sha": "429c5cb6",
-          "message": "services: Update pref blacklist",
-          "author": "Ghosuto",
-          "date": "Mon Nov 17 12:42:06 2025 +0000",
-          "timestamp": 1763383326,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/429c5cb6"
-        },
-        {
-          "sha": "562e8edc",
+          "sha": "7786e3e3",
           "message": "SystemUI: Introduce smartspace random message",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 12:42:06 2025 +0000",
-          "timestamp": 1763383326,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/562e8edc"
+          "date": "Sun Nov 30 03:20:20 2025 +0000",
+          "timestamp": 1764472820,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7786e3e3"
         },
         {
-          "sha": "3d18bd56",
+          "sha": "9bd90ae6",
           "message": "SystemUI: Introduce Lockscreen Now playing",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 12:42:02 2025 +0000",
-          "timestamp": 1763383322,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3d18bd56"
+          "date": "Sun Nov 30 03:20:20 2025 +0000",
+          "timestamp": 1764472820,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9bd90ae6"
         },
         {
-          "sha": "d08e793a",
+          "sha": "a0c39a99",
           "message": "SystemUI: Use a16 wifi signal icon by default",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/d08e793a"
+          "date": "Sun Nov 30 03:20:20 2025 +0000",
+          "timestamp": 1764472820,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/a0c39a99"
         },
         {
-          "sha": "9c0da7aa",
+          "sha": "6f41502e",
           "message": "core: Allow to override Mock Location restriction [1/2]",
           "author": "Arindam Bhattacharjee",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9c0da7aa"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/6f41502e"
         },
         {
-          "sha": "5cd657fe",
+          "sha": "7f56a437",
           "message": "base: Redirect Google PermissionController intents to AOSP",
           "author": "ARINDAM BHATTACHARJEE",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/5cd657fe"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7f56a437"
         },
         {
-          "sha": "244566da",
+          "sha": "61df3257",
           "message": "SystemUI: Reduce expand qs clock size",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/244566da"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/61df3257"
         },
         {
-          "sha": "c6dae53f",
+          "sha": "aa5e4fe9",
           "message": "SystemUI: TunerActivity: Remove icon toggles if not supported",
           "author": "Pranav Vashi",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/c6dae53f"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/aa5e4fe9"
         },
         {
-          "sha": "577960db",
+          "sha": "921210e4",
           "message": "SettingsLib: Improve expressive card text",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/577960db"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/921210e4"
         },
         {
-          "sha": "b18fd0fb",
+          "sha": "ff72c5eb",
           "message": "Settingslib: Change seekbar progress color",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/b18fd0fb"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/ff72c5eb"
         },
         {
-          "sha": "9268c080",
+          "sha": "12d5d512",
           "message": "SystemUI: SeekBarViewModel: Cancel polling immediately on scrubbing start",
           "author": "Pranav Vashi",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9268c080"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/12d5d512"
         },
         {
-          "sha": "3b234112",
+          "sha": "493b4cce",
           "message": "SystemUI: SeekBarViewModel: Proper MotionEvent handling",
           "author": "Pranav Vashi",
-          "date": "Mon Nov 17 11:03:58 2025 +0000",
-          "timestamp": 1763377438,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3b234112"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/493b4cce"
         },
         {
-          "sha": "5692e914",
+          "sha": "d758459b",
           "message": "SystemUI: SeekBarViewModel: Fix duration elvis and clamp in checkPlaybackPosition",
           "author": "Pranav Vashi",
-          "date": "Mon Nov 17 11:03:57 2025 +0000",
-          "timestamp": 1763377437,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/5692e914"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/d758459b"
         },
         {
-          "sha": "0066dda7",
+          "sha": "218d0441",
           "message": "SystemUI: TunerActivity: Switch to material expressive design",
           "author": "Pranav Vashi",
-          "date": "Mon Nov 17 11:03:57 2025 +0000",
-          "timestamp": 1763377437,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/0066dda7"
+          "date": "Sun Nov 30 03:20:19 2025 +0000",
+          "timestamp": 1764472819,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/218d0441"
         },
         {
-          "sha": "375a3a46",
+          "sha": "072351ff",
           "message": "SystemUI: fix antiquated TunerActivity bugs",
           "author": "nift4",
-          "date": "Mon Nov 17 11:03:57 2025 +0000",
-          "timestamp": 1763377437,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/375a3a46"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/072351ff"
         },
         {
-          "sha": "805ca350",
+          "sha": "9045c40d",
           "message": "SystemUI: Fix brightness slider mirror issue",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 11:03:57 2025 +0000",
-          "timestamp": 1763377437,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/805ca350"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9045c40d"
         },
         {
-          "sha": "46722322",
+          "sha": "7a5e101e",
           "message": "Fix keyboard cannot access slider issue",
           "author": "Angela Wang",
-          "date": "Mon Nov 17 10:15:34 2025 +0000",
-          "timestamp": 1763374534,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/46722322"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7a5e101e"
         },
         {
-          "sha": "040723b2",
+          "sha": "88757c3d",
           "message": "Use an interface OnScreenWidgetMixin to add extra padding to FootPreference, IntroPreference, and TopIntroPreference",
           "author": "David Liu",
-          "date": "Mon Nov 17 10:15:33 2025 +0000",
-          "timestamp": 1763374533,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/040723b2"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/88757c3d"
         },
         {
-          "sha": "0ca9fd0c",
+          "sha": "b83d7cce",
           "message": "Force behind and notification scrim alpha to be 0 when the device is unlocking.",
           "author": "Chandru S",
-          "date": "Mon Nov 17 10:15:33 2025 +0000",
-          "timestamp": 1763374533,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/0ca9fd0c"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/b83d7cce"
         },
         {
-          "sha": "e8c1bea2",
+          "sha": "bae9aa54",
           "message": "Update pin bouncer confirm button to match spec",
           "author": "Chandru S",
-          "date": "Mon Nov 17 10:15:33 2025 +0000",
-          "timestamp": 1763374533,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e8c1bea2"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/bae9aa54"
         },
         {
-          "sha": "e52578d3",
+          "sha": "8ce2ae34",
           "message": "Fix preference highlight background padding",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:15:19 2025 +0000",
-          "timestamp": 1763374519,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e52578d3"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/8ce2ae34"
         },
         {
-          "sha": "51dddd87",
+          "sha": "260c5704",
           "message": "[Expressive design] update android.app.AlertDialog style",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:15:19 2025 +0000",
-          "timestamp": 1763374519,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/51dddd87"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/260c5704"
         },
         {
-          "sha": "9f252895",
+          "sha": "ac392acd",
           "message": "[Settingslib] Fix summary text centering issue in IntroPreference",
           "author": "David Liu",
-          "date": "Mon Nov 17 10:15:19 2025 +0000",
-          "timestamp": 1763374519,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9f252895"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/ac392acd"
         },
         {
-          "sha": "809d5990",
+          "sha": "e3a56746",
           "message": "Avoid using derivedStateOf for QS Y translation",
           "author": "Olivier St-Onge",
-          "date": "Mon Nov 17 10:15:02 2025 +0000",
-          "timestamp": 1763374502,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/809d5990"
+          "date": "Sun Nov 30 03:20:18 2025 +0000",
+          "timestamp": 1764472818,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e3a56746"
         },
         {
-          "sha": "107f6f82",
+          "sha": "df73369f",
           "message": "[Expressive design] update widget_frame layout",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:35 2025 +0000",
-          "timestamp": 1763374475,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/107f6f82"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/df73369f"
         },
         {
-          "sha": "aed24e2d",
+          "sha": "f96fbe53",
           "message": "[Expressive design] update RestrictedSwitchPreference",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:35 2025 +0000",
-          "timestamp": 1763374475,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/aed24e2d"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/f96fbe53"
         },
         {
-          "sha": "abe642c4",
+          "sha": "e6dc4b06",
           "message": "[Expressive design] Add MenuPreference & OrderMenuPreference",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:35 2025 +0000",
-          "timestamp": 1763374475,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/abe642c4"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e6dc4b06"
         },
         {
-          "sha": "edf13da6",
+          "sha": "3ba972aa",
           "message": "[Expressive design] Update DropDownPreference style",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:35 2025 +0000",
-          "timestamp": 1763374475,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/edf13da6"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3ba972aa"
         },
         {
-          "sha": "13c81936",
+          "sha": "35f4cfff",
           "message": "[Expressive design] Update TwotargetPreference widget layout",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:35 2025 +0000",
-          "timestamp": 1763374475,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/13c81936"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/35f4cfff"
         },
         {
-          "sha": "dd93208f",
+          "sha": "9712cb5a",
           "message": "[Expressive design] update the button style in Alert Dialog",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:35 2025 +0000",
-          "timestamp": 1763374475,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/dd93208f"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/9712cb5a"
         },
         {
-          "sha": "5894974f",
+          "sha": "155b6275",
           "message": "[Expressive design] Update Spinner and Dropdown style",
           "author": "David Liu",
-          "date": "Mon Nov 17 10:14:35 2025 +0000",
-          "timestamp": 1763374475,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/5894974f"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/155b6275"
         },
         {
-          "sha": "e4a1185c",
+          "sha": "d8b98b67",
           "message": "[Expressive design] Update PreferenceCategory layout",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:35 2025 +0000",
-          "timestamp": 1763374475,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e4a1185c"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/d8b98b67"
         },
         {
-          "sha": "a158fbcf",
+          "sha": "00ab9168",
           "message": "Use Material3 switch to replace Switch in the floating settings panel",
           "author": "Jean Chen",
-          "date": "Mon Nov 17 10:14:29 2025 +0000",
-          "timestamp": 1763374469,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/a158fbcf"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/00ab9168"
         },
         {
-          "sha": "2dea4b95",
+          "sha": "0dead536",
           "message": "[sb] add an updated roaming indicator",
           "author": "Evan Laird",
-          "date": "Mon Nov 17 10:14:29 2025 +0000",
-          "timestamp": 1763374469,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/2dea4b95"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/0dead536"
         },
         {
-          "sha": "a35de0cf",
+          "sha": "572cced7",
           "message": "Update dream status bar icons",
           "author": "Darrell Shi",
-          "date": "Mon Nov 17 10:14:29 2025 +0000",
-          "timestamp": 1763374469,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/a35de0cf"
+          "date": "Sun Nov 30 03:20:17 2025 +0000",
+          "timestamp": 1764472817,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/572cced7"
         },
         {
-          "sha": "c3165d7c",
+          "sha": "c7faaee0",
           "message": "[bat] use battery charging fg color for chip bg",
           "author": "Evan Laird",
-          "date": "Mon Nov 17 10:14:29 2025 +0000",
-          "timestamp": 1763374469,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/c3165d7c"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/c7faaee0"
         },
         {
-          "sha": "2c1e1653",
+          "sha": "b31a3c71",
           "message": "Add a ripple highlight for the Output Switcher list items.",
           "author": "Alex Shabalin",
-          "date": "Mon Nov 17 10:14:29 2025 +0000",
-          "timestamp": 1763374469,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/2c1e1653"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/b31a3c71"
         },
         {
-          "sha": "4c9ad92d",
+          "sha": "660a257f",
           "message": "Make bg of QSCustomizer transparent",
           "author": "Fabián Kozynski",
-          "date": "Mon Nov 17 10:14:29 2025 +0000",
-          "timestamp": 1763374469,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/4c9ad92d"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/660a257f"
         },
         {
-          "sha": "3230d80f",
+          "sha": "e749898d",
           "message": "Fix icon scaling",
           "author": "Fabián Kozynski",
-          "date": "Mon Nov 17 10:14:29 2025 +0000",
-          "timestamp": 1763374469,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3230d80f"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e749898d"
         },
         {
-          "sha": "82c32367",
+          "sha": "d271ae62",
           "message": "Update screen record icon",
           "author": "Beth Thibodeau",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/82c32367"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/d271ae62"
         },
         {
-          "sha": "1386cf23",
+          "sha": "248f1d8d",
           "message": "Always update mute icon along with slider value.",
           "author": "Alex Shabalin",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/1386cf23"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/248f1d8d"
         },
         {
-          "sha": "1c5d32f4",
+          "sha": "ef636af1",
           "message": "[Settingslib][Expressive] [Expressive] Update SimpleProgressBarPreference to match spec",
           "author": "David Liu",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/1c5d32f4"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/ef636af1"
         },
         {
-          "sha": "e843781a",
+          "sha": "bb71c686",
           "message": "[Settingslib][Expressive] Add SimpleProgressBar preference",
           "author": "David Liu",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e843781a"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/bb71c686"
         },
         {
-          "sha": "0c5ea6e8",
+          "sha": "28951dc4",
           "message": "Add new tile icons",
           "author": "Fabián Kozynski",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/0c5ea6e8"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/28951dc4"
         },
         {
-          "sha": "099d6d0e",
+          "sha": "ce93591a",
           "message": "[Expressive design] Update Switch and MainSwitch style",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/099d6d0e"
+          "date": "Sun Nov 30 03:20:16 2025 +0000",
+          "timestamp": 1764472816,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/ce93591a"
         },
         {
-          "sha": "451c4930",
+          "sha": "f849c3b5",
           "message": "[MainSwitchPreference] Do not update datastore when OnPreferenceChangeListener returns false",
           "author": "Jacky Wang",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/451c4930"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/f849c3b5"
         },
         {
-          "sha": "2ff42b63",
+          "sha": "2e5c83ee",
           "message": "[Expressive design] update UsageProgressBarPreference",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/2ff42b63"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/2e5c83ee"
         },
         {
-          "sha": "625ca2e3",
+          "sha": "b80eca0e",
           "message": "Update expressive progress bar thickness and indicator gap.",
           "author": "Garvita Jain",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/625ca2e3"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/b80eca0e"
         },
         {
-          "sha": "e7784025",
+          "sha": "f033733f",
           "message": "Use Linear progress indicator in UsageProgressBarPreference",
           "author": "Garvita Jain",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e7784025"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/f033733f"
         },
         {
-          "sha": "bc43de0a",
+          "sha": "abb90ca9",
           "message": "[Expressive design] Update layout for StatusBannerMessage",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/bc43de0a"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/abb90ca9"
         },
         {
-          "sha": "c9938ee3",
+          "sha": "6da81f5a",
           "message": "Refine Wi-Fi preferences in Internet Settings (SettingsLib)",
           "author": "Weng Su",
-          "date": "Mon Nov 17 10:14:28 2025 +0000",
-          "timestamp": 1763374468,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/c9938ee3"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/6da81f5a"
         },
         {
-          "sha": "a62fdb47",
+          "sha": "91ebecd6",
           "message": "[Settingslib] Fix StatusBannerPreference text color",
           "author": "David Liu",
-          "date": "Mon Nov 17 10:14:27 2025 +0000",
-          "timestamp": 1763374467,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/a62fdb47"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/91ebecd6"
         },
         {
-          "sha": "167d8219",
+          "sha": "fd5e2a6b",
           "message": "[Expressive design] Update MainSwith layout",
           "author": "Edgar Wang",
-          "date": "Mon Nov 17 10:14:27 2025 +0000",
-          "timestamp": 1763374467,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/167d8219"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/fd5e2a6b"
         },
         {
-          "sha": "8b6fe225",
+          "sha": "eadb26db",
           "message": "SystemUI: Add Bangabda calendar support [1/2]",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 10:14:27 2025 +0000",
-          "timestamp": 1763374467,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/8b6fe225"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/eadb26db"
         },
         {
-          "sha": "7b56b7f9",
+          "sha": "5669e188",
           "message": "SystemUI: Fix stale mini player after clearing music app",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 10:14:27 2025 +0000",
-          "timestamp": 1763374467,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/7b56b7f9"
+          "date": "Sun Nov 30 03:20:15 2025 +0000",
+          "timestamp": 1764472815,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/5669e188"
         },
         {
-          "sha": "5f1e3256",
+          "sha": "6668568b",
           "message": "SystemUI: Add Saka calendar support [1/2]",
           "author": "Ghosuto",
-          "date": "Mon Nov 17 10:14:27 2025 +0000",
-          "timestamp": 1763374467,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/5f1e3256"
+          "date": "Sun Nov 30 03:20:14 2025 +0000",
+          "timestamp": 1764472814,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/6668568b"
         },
         {
-          "sha": "4f50a7c2",
+          "sha": "c7532635",
           "message": "base: Show Chinese lunar calendar in QS [1/2]",
           "author": "cjybyjk",
-          "date": "Mon Nov 17 10:14:27 2025 +0000",
-          "timestamp": 1763374467,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/4f50a7c2"
-        },
-        {
-          "sha": "3bf856ca",
-          "message": "base: Initial integrate",
-          "author": "rmp22",
-          "date": "Mon Nov 17 10:13:24 2025 +0000",
-          "timestamp": 1763374404,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/3bf856ca"
+          "date": "Sun Nov 30 03:20:14 2025 +0000",
+          "timestamp": 1764472814,
+          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/c7532635"
         },
         {
           "sha": "4d681838",
@@ -2261,14 +2269,6 @@
           "date": "Mon Nov 17 09:46:22 2025 +0000",
           "timestamp": 1763372782,
           "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/2f7e4d04"
-        },
-        {
-          "sha": "e6fa0397",
-          "message": "SystemUI: Improving ScrimUtils performance",
-          "author": "rmp22",
-          "date": "Tue Nov 11 13:29:35 2025 +0000",
-          "timestamp": 1762867775,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_base/commit/e6fa0397"
         }
       ]
     },
@@ -2280,68 +2280,60 @@
       "commit_count": 100,
       "commits": [
         {
-          "sha": "82e424f",
+          "sha": "2be3562",
           "message": "Launcher3: add gestural burn in protection",
           "author": "John Galt",
-          "date": "Thu Nov 27 12:48:53 2025 +0000",
-          "timestamp": 1764247733,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/82e424f"
+          "date": "Sun Nov 30 03:22:00 2025 +0000",
+          "timestamp": 1764472920,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/2be3562"
         },
         {
-          "sha": "53a0526",
+          "sha": "adcb64b",
           "message": "Launcher: Restore default animation value",
           "author": "Ghosuto",
-          "date": "Wed Nov 26 06:19:23 2025 +0000",
-          "timestamp": 1764137963,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/53a0526"
+          "date": "Sun Nov 30 03:22:00 2025 +0000",
+          "timestamp": 1764472920,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/adcb64b"
         },
         {
-          "sha": "a2176ee",
+          "sha": "62b3f4c",
           "message": "[all_apps] removing blocking haptic to fix jank",
           "author": "rmp22",
-          "date": "Wed Nov 26 06:19:23 2025 +0000",
-          "timestamp": 1764137963,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/a2176ee"
+          "date": "Sun Nov 30 03:22:00 2025 +0000",
+          "timestamp": 1764472920,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/62b3f4c"
         },
         {
-          "sha": "f112616",
+          "sha": "04f65f3",
           "message": "Launcher3: Increase all app searchbar height",
           "author": "Ghosuto",
-          "date": "Wed Nov 19 14:50:59 2025 +0000",
-          "timestamp": 1763563859,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/f112616"
+          "date": "Sun Nov 30 03:22:00 2025 +0000",
+          "timestamp": 1764472920,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/04f65f3"
         },
         {
-          "sha": "058c529",
+          "sha": "6876625",
           "message": "Launcher3: Allow taskbar for phones only if using gesture navigation",
           "author": "Abhay Singh Gill",
-          "date": "Mon Nov 17 10:37:05 2025 +0000",
-          "timestamp": 1763375825,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/058c529"
+          "date": "Sun Nov 30 03:22:00 2025 +0000",
+          "timestamp": 1764472920,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/6876625"
         },
         {
-          "sha": "5de5722",
+          "sha": "52adc65",
           "message": "Launcher3: Allow disabling taskbar toggle on tablet",
           "author": "Pranav Vashi",
-          "date": "Mon Nov 17 10:37:05 2025 +0000",
-          "timestamp": 1763375825,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/5de5722"
+          "date": "Sun Nov 30 03:22:00 2025 +0000",
+          "timestamp": 1764472920,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/52adc65"
         },
         {
-          "sha": "66981f1",
+          "sha": "4ba34b5",
           "message": "Launcher3: Remove D2S vibrate if not supported",
           "author": "Pranav Vashi",
-          "date": "Mon Nov 17 10:37:05 2025 +0000",
-          "timestamp": 1763375825,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/66981f1"
-        },
-        {
-          "sha": "3101562",
-          "message": "Launcher3: Boosting uithreadhelper",
-          "author": "rmp22",
-          "date": "Mon Nov 17 10:37:05 2025 +0000",
-          "timestamp": 1763375825,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/3101562"
+          "date": "Sun Nov 30 03:22:00 2025 +0000",
+          "timestamp": 1764472920,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/4ba34b5"
         },
         {
           "sha": "58e658a",
@@ -3078,6 +3070,14 @@
           "date": "Fri Oct 17 19:24:37 2025 +0000",
           "timestamp": 1760729077,
           "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/9a5be49"
+        },
+        {
+          "sha": "5e0f11d",
+          "message": "Launcher3: Add Chaldea SeraphixGoogle",
+          "author": "Nauval Rizky",
+          "date": "Fri Oct 17 19:24:37 2025 +0000",
+          "timestamp": 1760729077,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Launcher3/commit/5e0f11d"
         }
       ]
     },
@@ -3089,20 +3089,36 @@
       "commit_count": 100,
       "commits": [
         {
-          "sha": "5e69f7e",
-          "message": "Add matrix pulse renderer style",
+          "sha": "096e4e2",
+          "message": "Allow toggle single tone QS background [2/2]",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 13:07:10 2025 +0000",
-          "timestamp": 1764421630,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/5e69f7e"
+          "date": "Sun Nov 30 15:00:10 2025 +0000",
+          "timestamp": 1764514810,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/096e4e2"
         },
         {
-          "sha": "81775bf",
+          "sha": "08e0e5c",
+          "message": "Add nothing os charging animation",
+          "author": "Ghosuto",
+          "date": "Sun Nov 30 15:00:10 2025 +0000",
+          "timestamp": 1764514810,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/08e0e5c"
+        },
+        {
+          "sha": "0556038",
+          "message": "Add matrix pulse renderer style",
+          "author": "Ghosuto",
+          "date": "Sun Nov 30 15:00:10 2025 +0000",
+          "timestamp": 1764514810,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/0556038"
+        },
+        {
+          "sha": "bdd4c12",
           "message": "Introduce charging effects",
           "author": "Ghosuto",
-          "date": "Thu Nov 27 08:53:04 2025 +0000",
-          "timestamp": 1764233584,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/81775bf"
+          "date": "Sun Nov 30 15:00:06 2025 +0000",
+          "timestamp": 1764514806,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/bdd4c12"
         },
         {
           "sha": "33e8bb6",
@@ -3871,22 +3887,6 @@
           "date": "Sun Oct 26 14:24:59 2025 +0000",
           "timestamp": 1761488699,
           "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/a035929"
-        },
-        {
-          "sha": "26493c4",
-          "message": "add back clock font",
-          "author": "Ghosuto",
-          "date": "Sun Oct 26 14:24:59 2025 +0000",
-          "timestamp": 1761488699,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/26493c4"
-        },
-        {
-          "sha": "1d7a402",
-          "message": "Add toggle to allow advanced restart on secured lockscreen[2/2]",
-          "author": "Pranav Vashi",
-          "date": "Sun Oct 26 14:24:59 2025 +0000",
-          "timestamp": 1761488699,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_Singularity/commit/1d7a402"
         }
       ]
     },
@@ -4707,36 +4707,60 @@
       "commit_count": 100,
       "commits": [
         {
-          "sha": "7dd73ba",
+          "sha": "2d0bf86",
+          "message": "lineage: Move device_framework_matrix.xml to hardware/lineage/interfaces",
+          "author": "Nick Reuter",
+          "date": "Sun Nov 30 20:11:42 2025 +0000",
+          "timestamp": 1764533502,
+          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/2d0bf86"
+        },
+        {
+          "sha": "8268d42",
+          "message": "build: Fix sourcing envsetup from anywhere",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 30 20:10:59 2025 +0000",
+          "timestamp": 1764533459,
+          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/8268d42"
+        },
+        {
+          "sha": "f969d01",
+          "message": "config: Bumpup version",
+          "author": "Ghosuto",
+          "date": "Sun Nov 30 14:55:58 2025 +0000",
+          "timestamp": 1764514558,
+          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/f969d01"
+        },
+        {
+          "sha": "c031ecd",
           "message": "build: Ship adb_root only WITH_SU",
           "author": "Pranav Vashi",
-          "date": "Sat Nov 29 14:11:57 2025 +0000",
-          "timestamp": 1764425517,
-          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/7dd73ba"
+          "date": "Sun Nov 30 14:53:37 2025 +0000",
+          "timestamp": 1764514417,
+          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/c031ecd"
         },
         {
-          "sha": "120ffed",
+          "sha": "d76acb7",
           "message": "config: Update PIF values",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 14:11:57 2025 +0000",
-          "timestamp": 1764425517,
-          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/120ffed"
+          "date": "Sun Nov 30 14:53:37 2025 +0000",
+          "timestamp": 1764514417,
+          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/d76acb7"
         },
         {
-          "sha": "c47f893",
+          "sha": "b6667a8",
           "message": "Update default wallpaper",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 14:11:57 2025 +0000",
-          "timestamp": 1764425517,
-          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/c47f893"
+          "date": "Sun Nov 30 14:53:31 2025 +0000",
+          "timestamp": 1764514411,
+          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/b6667a8"
         },
         {
-          "sha": "031cc19",
+          "sha": "b273769",
           "message": "config: Bring back optimize dexopt `TARGET_OPTIMIZED_DEXOPT`",
           "author": "Ghosuto",
-          "date": "Sat Nov 29 14:11:53 2025 +0000",
-          "timestamp": 1764425513,
-          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/031cc19"
+          "date": "Sun Nov 30 05:21:02 2025 +0000",
+          "timestamp": 1764480062,
+          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/b273769"
         },
         {
           "sha": "0c3d686",
@@ -5481,30 +5505,6 @@
           "date": "Mon Oct 13 10:19:02 2025 +0000",
           "timestamp": 1760350742,
           "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/a431542"
-        },
-        {
-          "sha": "65236a1",
-          "message": "github: Run `apt update`",
-          "author": "LuK1337",
-          "date": "Mon Oct 13 10:19:02 2025 +0000",
-          "timestamp": 1760350742,
-          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/65236a1"
-        },
-        {
-          "sha": "2c82c00",
-          "message": "config: Fixup blur flag",
-          "author": "Ghosuto",
-          "date": "Mon Oct 13 10:19:02 2025 +0000",
-          "timestamp": 1760350742,
-          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/2c82c00"
-        },
-        {
-          "sha": "77e6e71",
-          "message": "release: Disable lpp squeeze effect",
-          "author": "Abhay Singh Gill",
-          "date": "Mon Oct 13 10:19:02 2025 +0000",
-          "timestamp": 1760350742,
-          "url": "https://github.com/Lunaris-AOSP/vendor_lineage/commit/77e6e71"
         }
       ]
     },
@@ -6234,7 +6234,7 @@
       "path": "frameworks/av",
       "repo_url": "https://github.com/Lunaris-AOSP/frameworks_av",
       "remote": "lunaris",
-      "commit_count": 62,
+      "commit_count": 61,
       "commits": [
         {
           "sha": "22d81dc",
@@ -6723,14 +6723,6 @@
           "date": "Fri Sep 5 13:02:57 2025 +0000",
           "timestamp": 1757077377,
           "url": "https://github.com/Lunaris-AOSP/frameworks_av/commit/eb295cc"
-        },
-        {
-          "sha": "f56404d",
-          "message": "audioflinger: Do not allow DAP effect to be suspended",
-          "author": "Adithya R",
-          "date": "Mon Sep 1 17:05:30 2025 +0100",
-          "timestamp": 1756742730,
-          "url": "https://github.com/Lunaris-AOSP/frameworks_av/commit/f56404d"
         }
       ]
     },
@@ -8668,351 +8660,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Aperture",
-      "path": "packages/apps/Aperture",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
-      "remote": "github",
-      "commit_count": 42,
-      "commits": [
-        {
-          "sha": "5dff58d",
-          "message": "Aperture: Use colorError from appcompat",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 13:06:52 2025 +0200",
-          "timestamp": 1763723212,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/5dff58d"
-        },
-        {
-          "sha": "825b7f6",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:56 2025 +0000",
-          "timestamp": 1763229716,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/825b7f6"
-        },
-        {
-          "sha": "998f355",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:36 2025 +0000",
-          "timestamp": 1762026516,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/998f355"
-        },
-        {
-          "sha": "c9f9831",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:22 2025 +0000",
-          "timestamp": 1760577862,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c9f9831"
-        },
-        {
-          "sha": "482abce",
-          "message": "Aperture: Configure camera after we have camera permissions",
-          "author": "Sebastiano Barezzi",
-          "date": "Sun Oct 12 15:47:51 2025 +0200",
-          "timestamp": 1760276871,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/482abce"
-        },
-        {
-          "sha": "90c6cd2",
-          "message": "Aperture: Fix RAW capture when permissions are granted after app launch",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Oct 11 16:51:48 2025 +0000",
-          "timestamp": 1760201508,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/90c6cd2"
-        },
-        {
-          "sha": "c30b723",
-          "message": "Aperture: Update CameraX to 1.5.1",
-          "author": "LuK1337",
-          "date": "Wed Oct 8 22:04:41 2025 +0200",
-          "timestamp": 1759953881,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c30b723"
-        },
-        {
-          "sha": "58d57e0",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 19:38:02 2025 +0000",
-          "timestamp": 1759347482,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/58d57e0"
-        },
-        {
-          "sha": "b77a3b0",
-          "message": "Aperture: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 25 02:34:26 2025 +0200",
-          "timestamp": 1758760466,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b77a3b0"
-        },
-        {
-          "sha": "a64ab07",
-          "message": "Aperture: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 25 02:34:25 2025 +0200",
-          "timestamp": 1758760465,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/a64ab07"
-        },
-        {
-          "sha": "2f10484",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:38 2025 +0000",
-          "timestamp": 1758744398,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/2f10484"
-        },
-        {
-          "sha": "e0f3395",
-          "message": "Aperture: Update generatebp to v1.28",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:23:53 2025 +0200",
-          "timestamp": 1758734633,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e0f3395"
-        },
-        {
-          "sha": "a650697",
-          "message": "Aperture: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:19:51 2025 +0200",
-          "timestamp": 1758734391,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/a650697"
-        },
-        {
-          "sha": "d73c5b7",
-          "message": "Aperture: Rework icons island",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 00:11:58 2025 +0200",
-          "timestamp": 1758147118,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d73c5b7"
-        },
-        {
-          "sha": "31010c9",
-          "message": "Aperture: Make thermal status an enum class",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 00:03:50 2025 +0200",
-          "timestamp": 1758146630,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/31010c9"
-        },
-        {
-          "sha": "b173097",
-          "message": "Aperture: No more jail escape",
-          "author": "Luca Stefani",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b173097"
-        },
-        {
-          "sha": "1d9fd29",
-          "message": "Aperture: Update CameraX",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/1d9fd29"
-        },
-        {
-          "sha": "94203e0",
-          "message": "Aperture: Move resource IDs out of VideoDynamicRange",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/94203e0"
-        },
-        {
-          "sha": "6ec498c",
-          "message": "Aperture: QrBottomSheetDialog: Move to SimpleListAdapter",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/6ec498c"
-        },
-        {
-          "sha": "c963d17",
-          "message": "Aperture: Setup RecyclerView and our utils",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c963d17"
-        },
-        {
-          "sha": "690ff0f",
-          "message": "Aperture: Move UI classes into an additional subpackages",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 16:27:43 2025 +0200",
-          "timestamp": 1757946463,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/690ff0f"
-        },
-        {
-          "sha": "b4d7a2a",
-          "message": "Aperture: Reformat code",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 16:24:58 2025 +0200",
-          "timestamp": 1757946298,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b4d7a2a"
-        },
-        {
-          "sha": "49c70e3",
-          "message": "Aperture: Use constant timestamp for RAW+JPEG",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 18:36:24 2025 +0200",
-          "timestamp": 1757608584,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/49c70e3"
-        },
-        {
-          "sha": "e648a3c",
-          "message": "Aperture: Add date taken metadata",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 18:30:21 2025 +0200",
-          "timestamp": 1757608221,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e648a3c"
-        },
-        {
-          "sha": "d35afdb",
-          "message": "Aperture: Force set gallery visibility on load success",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 16:48:38 2025 +0200",
-          "timestamp": 1757602118,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d35afdb"
-        },
-        {
-          "sha": "c55d653",
-          "message": "Aperture: Support JPEG Ultra HDR/RAW/RAW+JPEG capture",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 16:48:38 2025 +0200",
-          "timestamp": 1757602118,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c55d653"
-        },
-        {
-          "sha": "abb7aa1",
-          "message": "Aperture: Update CameraX to 1.5.0",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 16:47:18 2025 +0200",
-          "timestamp": 1757602038,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/abb7aa1"
-        },
-        {
-          "sha": "d7fa247",
-          "message": "Aperture: CameraViewModel: Inline useless return",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 11 02:11:59 2025 +0200",
-          "timestamp": 1757549519,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d7fa247"
-        },
-        {
-          "sha": "84c6cbf",
-          "message": "Aperture: Move Camera2 options to CameraConfiguration",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 11 02:07:58 2025 +0200",
-          "timestamp": 1757549278,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/84c6cbf"
-        },
-        {
-          "sha": "f8a95b3",
-          "message": "Aperture: CameraConfiguration: Drop `clone` method",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 11 02:07:19 2025 +0200",
-          "timestamp": 1757549239,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/f8a95b3"
-        },
-        {
-          "sha": "bac8471",
-          "message": "Aperture: Recreate camera configuration on user preference changes",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 11 01:59:18 2025 +0200",
-          "timestamp": 1757548758,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/bac8471"
-        },
-        {
-          "sha": "ecbc794",
-          "message": "Aperture: Camera models cleanup",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 9 14:17:51 2025 +0200",
-          "timestamp": 1757420271,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/ecbc794"
-        },
-        {
-          "sha": "79cab63",
-          "message": "Aperture: Drop `Camera::supportsVideoRecording`",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 9 14:17:51 2025 +0200",
-          "timestamp": 1757420271,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/79cab63"
-        },
-        {
-          "sha": "81d30b3",
-          "message": "Aperture: Improve the flip camera logic",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 9 14:17:51 2025 +0200",
-          "timestamp": 1757420271,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/81d30b3"
-        },
-        {
-          "sha": "6e8e602",
-          "message": "Aperture: Better QR mode",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 4 20:12:39 2025 +0200",
-          "timestamp": 1757009559,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/6e8e602"
-        },
-        {
-          "sha": "43711ea",
-          "message": "Aperture: CameraMode: Drop resource ID references from the model",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 4 20:04:34 2025 +0200",
-          "timestamp": 1757009074,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/43711ea"
-        },
-        {
-          "sha": "056d27b",
-          "message": "Aperture: Fix crash when flipping camera with screen flash enabled",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 4 19:58:48 2025 +0200",
-          "timestamp": 1757008728,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/056d27b"
-        },
-        {
-          "sha": "aa0534d",
-          "message": "Aperture: More reliable animations",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 4 17:55:21 2025 +0200",
-          "timestamp": 1757001321,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/aa0534d"
-        },
-        {
-          "sha": "e822c0a",
-          "message": "Aperture: Preference: Minor improvements",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 4 17:53:09 2025 +0200",
-          "timestamp": 1757001189,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e822c0a"
-        },
-        {
-          "sha": "7359331",
-          "message": "Aperture: Fix zoom level bar alignment in QR mode",
-          "author": "LuK1337",
-          "date": "Thu Sep 4 17:46:15 2025 +0200",
-          "timestamp": 1757000775,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/7359331"
-        },
-        {
-          "sha": "e6c6b29",
-          "message": "Aperture: Rewrite QR analyzer + dialog",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 2 02:32:47 2025 +0200",
-          "timestamp": 1756773167,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e6c6b29"
-        },
-        {
-          "sha": "caa5ddb",
-          "message": "Aperture: Goodbye LiveData, welcome flows",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 1 18:15:03 2025 +0200",
-          "timestamp": 1756743303,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/caa5ddb"
-        }
-      ]
-    },
-    {
       "name": "build_make",
       "path": "build/make",
       "repo_url": "https://github.com/Lunaris-AOSP/build_make",
@@ -9358,6 +9005,335 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Aperture",
+      "path": "packages/apps/Aperture",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
+      "remote": "github",
+      "commit_count": 40,
+      "commits": [
+        {
+          "sha": "5dff58d",
+          "message": "Aperture: Use colorError from appcompat",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 13:06:52 2025 +0200",
+          "timestamp": 1763723212,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/5dff58d"
+        },
+        {
+          "sha": "825b7f6",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:56 2025 +0000",
+          "timestamp": 1763229716,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/825b7f6"
+        },
+        {
+          "sha": "998f355",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:36 2025 +0000",
+          "timestamp": 1762026516,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/998f355"
+        },
+        {
+          "sha": "c9f9831",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:22 2025 +0000",
+          "timestamp": 1760577862,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c9f9831"
+        },
+        {
+          "sha": "482abce",
+          "message": "Aperture: Configure camera after we have camera permissions",
+          "author": "Sebastiano Barezzi",
+          "date": "Sun Oct 12 15:47:51 2025 +0200",
+          "timestamp": 1760276871,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/482abce"
+        },
+        {
+          "sha": "90c6cd2",
+          "message": "Aperture: Fix RAW capture when permissions are granted after app launch",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Oct 11 16:51:48 2025 +0000",
+          "timestamp": 1760201508,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/90c6cd2"
+        },
+        {
+          "sha": "c30b723",
+          "message": "Aperture: Update CameraX to 1.5.1",
+          "author": "LuK1337",
+          "date": "Wed Oct 8 22:04:41 2025 +0200",
+          "timestamp": 1759953881,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c30b723"
+        },
+        {
+          "sha": "58d57e0",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 19:38:02 2025 +0000",
+          "timestamp": 1759347482,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/58d57e0"
+        },
+        {
+          "sha": "b77a3b0",
+          "message": "Aperture: Update kotlin deps to match AOSP 16",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 25 02:34:26 2025 +0200",
+          "timestamp": 1758760466,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b77a3b0"
+        },
+        {
+          "sha": "a64ab07",
+          "message": "Aperture: Update SDK to 36",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 25 02:34:25 2025 +0200",
+          "timestamp": 1758760465,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/a64ab07"
+        },
+        {
+          "sha": "2f10484",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:38 2025 +0000",
+          "timestamp": 1758744398,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/2f10484"
+        },
+        {
+          "sha": "e0f3395",
+          "message": "Aperture: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:23:53 2025 +0200",
+          "timestamp": 1758734633,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e0f3395"
+        },
+        {
+          "sha": "a650697",
+          "message": "Aperture: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:19:51 2025 +0200",
+          "timestamp": 1758734391,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/a650697"
+        },
+        {
+          "sha": "d73c5b7",
+          "message": "Aperture: Rework icons island",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 00:11:58 2025 +0200",
+          "timestamp": 1758147118,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d73c5b7"
+        },
+        {
+          "sha": "31010c9",
+          "message": "Aperture: Make thermal status an enum class",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 00:03:50 2025 +0200",
+          "timestamp": 1758146630,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/31010c9"
+        },
+        {
+          "sha": "b173097",
+          "message": "Aperture: No more jail escape",
+          "author": "Luca Stefani",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b173097"
+        },
+        {
+          "sha": "1d9fd29",
+          "message": "Aperture: Update CameraX",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/1d9fd29"
+        },
+        {
+          "sha": "94203e0",
+          "message": "Aperture: Move resource IDs out of VideoDynamicRange",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/94203e0"
+        },
+        {
+          "sha": "6ec498c",
+          "message": "Aperture: QrBottomSheetDialog: Move to SimpleListAdapter",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/6ec498c"
+        },
+        {
+          "sha": "c963d17",
+          "message": "Aperture: Setup RecyclerView and our utils",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c963d17"
+        },
+        {
+          "sha": "690ff0f",
+          "message": "Aperture: Move UI classes into an additional subpackages",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 16:27:43 2025 +0200",
+          "timestamp": 1757946463,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/690ff0f"
+        },
+        {
+          "sha": "b4d7a2a",
+          "message": "Aperture: Reformat code",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 16:24:58 2025 +0200",
+          "timestamp": 1757946298,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b4d7a2a"
+        },
+        {
+          "sha": "49c70e3",
+          "message": "Aperture: Use constant timestamp for RAW+JPEG",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 18:36:24 2025 +0200",
+          "timestamp": 1757608584,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/49c70e3"
+        },
+        {
+          "sha": "e648a3c",
+          "message": "Aperture: Add date taken metadata",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 18:30:21 2025 +0200",
+          "timestamp": 1757608221,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e648a3c"
+        },
+        {
+          "sha": "d35afdb",
+          "message": "Aperture: Force set gallery visibility on load success",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 16:48:38 2025 +0200",
+          "timestamp": 1757602118,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d35afdb"
+        },
+        {
+          "sha": "c55d653",
+          "message": "Aperture: Support JPEG Ultra HDR/RAW/RAW+JPEG capture",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 16:48:38 2025 +0200",
+          "timestamp": 1757602118,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c55d653"
+        },
+        {
+          "sha": "abb7aa1",
+          "message": "Aperture: Update CameraX to 1.5.0",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 16:47:18 2025 +0200",
+          "timestamp": 1757602038,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/abb7aa1"
+        },
+        {
+          "sha": "d7fa247",
+          "message": "Aperture: CameraViewModel: Inline useless return",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 11 02:11:59 2025 +0200",
+          "timestamp": 1757549519,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d7fa247"
+        },
+        {
+          "sha": "84c6cbf",
+          "message": "Aperture: Move Camera2 options to CameraConfiguration",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 11 02:07:58 2025 +0200",
+          "timestamp": 1757549278,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/84c6cbf"
+        },
+        {
+          "sha": "f8a95b3",
+          "message": "Aperture: CameraConfiguration: Drop `clone` method",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 11 02:07:19 2025 +0200",
+          "timestamp": 1757549239,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/f8a95b3"
+        },
+        {
+          "sha": "bac8471",
+          "message": "Aperture: Recreate camera configuration on user preference changes",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 11 01:59:18 2025 +0200",
+          "timestamp": 1757548758,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/bac8471"
+        },
+        {
+          "sha": "ecbc794",
+          "message": "Aperture: Camera models cleanup",
+          "author": "Sebastiano Barezzi",
+          "date": "Tue Sep 9 14:17:51 2025 +0200",
+          "timestamp": 1757420271,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/ecbc794"
+        },
+        {
+          "sha": "79cab63",
+          "message": "Aperture: Drop `Camera::supportsVideoRecording`",
+          "author": "Sebastiano Barezzi",
+          "date": "Tue Sep 9 14:17:51 2025 +0200",
+          "timestamp": 1757420271,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/79cab63"
+        },
+        {
+          "sha": "81d30b3",
+          "message": "Aperture: Improve the flip camera logic",
+          "author": "Sebastiano Barezzi",
+          "date": "Tue Sep 9 14:17:51 2025 +0200",
+          "timestamp": 1757420271,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/81d30b3"
+        },
+        {
+          "sha": "6e8e602",
+          "message": "Aperture: Better QR mode",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 4 20:12:39 2025 +0200",
+          "timestamp": 1757009559,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/6e8e602"
+        },
+        {
+          "sha": "43711ea",
+          "message": "Aperture: CameraMode: Drop resource ID references from the model",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 4 20:04:34 2025 +0200",
+          "timestamp": 1757009074,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/43711ea"
+        },
+        {
+          "sha": "056d27b",
+          "message": "Aperture: Fix crash when flipping camera with screen flash enabled",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 4 19:58:48 2025 +0200",
+          "timestamp": 1757008728,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/056d27b"
+        },
+        {
+          "sha": "aa0534d",
+          "message": "Aperture: More reliable animations",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 4 17:55:21 2025 +0200",
+          "timestamp": 1757001321,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/aa0534d"
+        },
+        {
+          "sha": "e822c0a",
+          "message": "Aperture: Preference: Minor improvements",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 4 17:53:09 2025 +0200",
+          "timestamp": 1757001189,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e822c0a"
+        },
+        {
+          "sha": "7359331",
+          "message": "Aperture: Fix zoom level bar alignment in QR mode",
+          "author": "LuK1337",
+          "date": "Thu Sep 4 17:46:15 2025 +0200",
+          "timestamp": 1757000775,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/7359331"
+        }
+      ]
+    },
+    {
       "name": "system_core",
       "path": "system/core",
       "repo_url": "https://github.com/Lunaris-AOSP/system_core",
@@ -9667,7 +9643,7 @@
       "path": "packages/apps/Twelve",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
       "remote": "github",
-      "commit_count": 26,
+      "commit_count": 25,
       "commits": [
         {
           "sha": "6b0152d",
@@ -9868,14 +9844,6 @@
           "date": "Mon Sep 15 16:55:08 2025 +0000",
           "timestamp": 1757955308,
           "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/e765cd7"
-        },
-        {
-          "sha": "3bfeb98",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:40 2025 +0000",
-          "timestamp": 1756738480,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3bfeb98"
         }
       ]
     },
@@ -10266,183 +10234,6 @@
       ]
     },
     {
-      "name": "packages_apps_ColumbusService",
-      "path": "packages/apps/ColumbusService",
-      "repo_url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService",
-      "remote": "lunaris",
-      "commit_count": 21,
-      "commits": [
-        {
-          "sha": "2c492dd",
-          "message": "Fixup https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/826c9cec315ff41ffdd4589f41ab984c877fa77b",
-          "author": "Ghosuto",
-          "date": "Tue Sep 16 16:19:26 2025 +0000",
-          "timestamp": 1758039566,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/2c492dd"
-        },
-        {
-          "sha": "2ce6c88",
-          "message": "ColumbusService: Switch to material expressive design for preferences",
-          "author": "Pranav Vashi",
-          "date": "Tue Sep 2 16:36:32 2025 +0000",
-          "timestamp": 1756830992,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/2ce6c88"
-        },
-        {
-          "sha": "26478e3",
-          "message": "ColumbusService: Make use of Expressive SliderPreference",
-          "author": "Pranav Vashi",
-          "date": "Tue Sep 2 16:36:32 2025 +0000",
-          "timestamp": 1756830992,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/26478e3"
-        },
-        {
-          "sha": "2f1526b",
-          "message": "ColumbusService: Matches getMaxId method to stock",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:32 2025 +0000",
-          "timestamp": 1756830992,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/2f1526b"
-        },
-        {
-          "sha": "6be4fcb",
-          "message": "ColumbusService: Use mipmap for icon",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:32 2025 +0000",
-          "timestamp": 1756830992,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/6be4fcb"
-        },
-        {
-          "sha": "da8c3f2",
-          "message": "ColumbusService: Enable R8 and proguard optimizations",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:32 2025 +0000",
-          "timestamp": 1756830992,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/da8c3f2"
-        },
-        {
-          "sha": "5fc487a",
-          "message": "ColumbusService: TfClassifier: Matches stock",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:32 2025 +0000",
-          "timestamp": 1756830992,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/5fc487a"
-        },
-        {
-          "sha": "9c73640",
-          "message": "ColumbusService: Matches stock behaviour",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:32 2025 +0000",
-          "timestamp": 1756830992,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/9c73640"
-        },
-        {
-          "sha": "9bcaa22",
-          "message": "ColumbusService: Save featureVector before scaleGyroData",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/9bcaa22"
-        },
-        {
-          "sha": "db760a6",
-          "message": "ColumbusService: Use ordinal for TapClass enum again",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/db760a6"
-        },
-        {
-          "sha": "823bd2c",
-          "message": "ColumbusService: Allow to set gate duration",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/823bd2c"
-        },
-        {
-          "sha": "3e04d19",
-          "message": "ColumbusService: Rewrite AppPicker to kotlin",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/3e04d19"
-        },
-        {
-          "sha": "9aa4101",
-          "message": "ColumbusService: Fix launch action",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/9aa4101"
-        },
-        {
-          "sha": "826c9ce",
-          "message": "ColumbusService: Move to SPDX license",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/826c9ce"
-        },
-        {
-          "sha": "6d55e5e",
-          "message": "ColumbusService: Add init block for constructor",
-          "author": "someone5678",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/6d55e5e"
-        },
-        {
-          "sha": "954364e",
-          "message": "ColumbusService: Kotlin code style and minor improvements",
-          "author": "NurKeinNeid",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/954364e"
-        },
-        {
-          "sha": "80b96dd",
-          "message": "ColumbusService: Import Simplified Chinese translations",
-          "author": "kaffuchino233",
-          "date": "Tue Sep 2 16:36:31 2025 +0000",
-          "timestamp": 1756830991,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/80b96dd"
-        },
-        {
-          "sha": "576c636",
-          "message": "ColumbusService: Update SystemKeyPress gate",
-          "author": "someone5678",
-          "date": "Mon Sep 1 02:42:54 2025 +0000",
-          "timestamp": 1756694574,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/576c636"
-        },
-        {
-          "sha": "f2e4d99",
-          "message": "ColumbusService: Add copyright notice",
-          "author": "someone5678",
-          "date": "Mon Sep 1 02:42:54 2025 +0000",
-          "timestamp": 1756694574,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/f2e4d99"
-        },
-        {
-          "sha": "057ad60",
-          "message": "ColumbusService: Add PowerState gate",
-          "author": "someone5678",
-          "date": "Mon Sep 1 02:42:54 2025 +0000",
-          "timestamp": 1756694574,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/057ad60"
-        },
-        {
-          "sha": "083be7f",
-          "message": "ColumbusService: Always block on action ACTION_DOWN",
-          "author": "someone5678",
-          "date": "Mon Sep 1 02:42:54 2025 +0000",
-          "timestamp": 1756694574,
-          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/083be7f"
-        }
-      ]
-    },
-    {
       "name": "vendor_extras",
       "path": "vendor/extras",
       "repo_url": "https://github.com/Lunaris-AOSP/vendor_extras",
@@ -10604,151 +10395,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Jelly",
-      "path": "packages/apps/Jelly",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
-      "remote": "github",
-      "commit_count": 17,
-      "commits": [
-        {
-          "sha": "e7bc9a2",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:58 2025 +0000",
-          "timestamp": 1763229718,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/e7bc9a2"
-        },
-        {
-          "sha": "384ff77",
-          "message": "Jelly: Update Gradle wrapper",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 30 19:52:29 2025 +0000",
-          "timestamp": 1759261949,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/384ff77"
-        },
-        {
-          "sha": "238436a",
-          "message": "Jelly: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 19:52:29 2025 +0000",
-          "timestamp": 1759261949,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/238436a"
-        },
-        {
-          "sha": "b0d6afb",
-          "message": "Jelly: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 19:52:29 2025 +0000",
-          "timestamp": 1759261949,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/b0d6afb"
-        },
-        {
-          "sha": "2d8559b",
-          "message": "Jelly: Load scripts once",
-          "author": "Luca Stefani",
-          "date": "Fri Sep 26 14:00:41 2025 -0700",
-          "timestamp": 1758920441,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/2d8559b"
-        },
-        {
-          "sha": "67d7b58",
-          "message": "Jelly: Implement Web Share API",
-          "author": "SaeedDev94",
-          "date": "Fri Sep 26 13:58:10 2025 -0700",
-          "timestamp": 1758920290,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/67d7b58"
-        },
-        {
-          "sha": "fe57ec1",
-          "message": "Jelly: Update generatebp to v1.28",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 25 01:45:01 2025 +0200",
-          "timestamp": 1758757501,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/fe57ec1"
-        },
-        {
-          "sha": "16c2153",
-          "message": "Jelly: Update AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 25 01:45:01 2025 +0200",
-          "timestamp": 1758757501,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/16c2153"
-        },
-        {
-          "sha": "2a0c520",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:44 2025 +0000",
-          "timestamp": 1758744404,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/2a0c520"
-        },
-        {
-          "sha": "504ab40",
-          "message": "Jelly: Bump Kotlin to 1.9.23",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 22 17:35:46 2025 +0200",
-          "timestamp": 1758555346,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/504ab40"
-        },
-        {
-          "sha": "eca8410",
-          "message": "Jelly: Update gradle-generatebp to 1.26",
-          "author": "Luca Stefani",
-          "date": "Mon Sep 22 17:33:02 2025 +0200",
-          "timestamp": 1758555182,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/eca8410"
-        },
-        {
-          "sha": "1f01f61",
-          "message": "Jelly: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 22 17:30:07 2025 +0200",
-          "timestamp": 1758555007,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/1f01f61"
-        },
-        {
-          "sha": "3bb9fdb",
-          "message": "Jelly: Sync up Gradle setup with Twelve & co.",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 22 17:19:05 2025 +0200",
-          "timestamp": 1758554345,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/3bb9fdb"
-        },
-        {
-          "sha": "d7059db",
-          "message": "Jelly: Move KAPT block to the right place",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 22 17:19:05 2025 +0200",
-          "timestamp": 1758554345,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/d7059db"
-        },
-        {
-          "sha": "0a8e529",
-          "message": "Jelly: Specify KAPT version and add all plugins to classpath",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 22 17:13:18 2025 +0200",
-          "timestamp": 1758553998,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/0a8e529"
-        },
-        {
-          "sha": "6de7c84",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/6de7c84"
-        },
-        {
-          "sha": "751734f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:36 2025 +0000",
-          "timestamp": 1756738476,
-          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/751734f"
-        }
-      ]
-    },
-    {
       "name": "android",
       "path": "android",
       "repo_url": "https://github.com/Lunaris-AOSP/android",
@@ -10894,6 +10540,288 @@
       ]
     },
     {
+      "name": "packages_apps_ColumbusService",
+      "path": "packages/apps/ColumbusService",
+      "repo_url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService",
+      "remote": "lunaris",
+      "commit_count": 17,
+      "commits": [
+        {
+          "sha": "2c492dd",
+          "message": "Fixup https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/826c9cec315ff41ffdd4589f41ab984c877fa77b",
+          "author": "Ghosuto",
+          "date": "Tue Sep 16 16:19:26 2025 +0000",
+          "timestamp": 1758039566,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/2c492dd"
+        },
+        {
+          "sha": "2ce6c88",
+          "message": "ColumbusService: Switch to material expressive design for preferences",
+          "author": "Pranav Vashi",
+          "date": "Tue Sep 2 16:36:32 2025 +0000",
+          "timestamp": 1756830992,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/2ce6c88"
+        },
+        {
+          "sha": "26478e3",
+          "message": "ColumbusService: Make use of Expressive SliderPreference",
+          "author": "Pranav Vashi",
+          "date": "Tue Sep 2 16:36:32 2025 +0000",
+          "timestamp": 1756830992,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/26478e3"
+        },
+        {
+          "sha": "2f1526b",
+          "message": "ColumbusService: Matches getMaxId method to stock",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:32 2025 +0000",
+          "timestamp": 1756830992,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/2f1526b"
+        },
+        {
+          "sha": "6be4fcb",
+          "message": "ColumbusService: Use mipmap for icon",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:32 2025 +0000",
+          "timestamp": 1756830992,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/6be4fcb"
+        },
+        {
+          "sha": "da8c3f2",
+          "message": "ColumbusService: Enable R8 and proguard optimizations",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:32 2025 +0000",
+          "timestamp": 1756830992,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/da8c3f2"
+        },
+        {
+          "sha": "5fc487a",
+          "message": "ColumbusService: TfClassifier: Matches stock",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:32 2025 +0000",
+          "timestamp": 1756830992,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/5fc487a"
+        },
+        {
+          "sha": "9c73640",
+          "message": "ColumbusService: Matches stock behaviour",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:32 2025 +0000",
+          "timestamp": 1756830992,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/9c73640"
+        },
+        {
+          "sha": "9bcaa22",
+          "message": "ColumbusService: Save featureVector before scaleGyroData",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/9bcaa22"
+        },
+        {
+          "sha": "db760a6",
+          "message": "ColumbusService: Use ordinal for TapClass enum again",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/db760a6"
+        },
+        {
+          "sha": "823bd2c",
+          "message": "ColumbusService: Allow to set gate duration",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/823bd2c"
+        },
+        {
+          "sha": "3e04d19",
+          "message": "ColumbusService: Rewrite AppPicker to kotlin",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/3e04d19"
+        },
+        {
+          "sha": "9aa4101",
+          "message": "ColumbusService: Fix launch action",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/9aa4101"
+        },
+        {
+          "sha": "826c9ce",
+          "message": "ColumbusService: Move to SPDX license",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/826c9ce"
+        },
+        {
+          "sha": "6d55e5e",
+          "message": "ColumbusService: Add init block for constructor",
+          "author": "someone5678",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/6d55e5e"
+        },
+        {
+          "sha": "954364e",
+          "message": "ColumbusService: Kotlin code style and minor improvements",
+          "author": "NurKeinNeid",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/954364e"
+        },
+        {
+          "sha": "80b96dd",
+          "message": "ColumbusService: Import Simplified Chinese translations",
+          "author": "kaffuchino233",
+          "date": "Tue Sep 2 16:36:31 2025 +0000",
+          "timestamp": 1756830991,
+          "url": "https://github.com/Lunaris-AOSP/packages_apps_ColumbusService/commit/80b96dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Jelly",
+      "path": "packages/apps/Jelly",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
+      "remote": "github",
+      "commit_count": 16,
+      "commits": [
+        {
+          "sha": "e7bc9a2",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:58 2025 +0000",
+          "timestamp": 1763229718,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/e7bc9a2"
+        },
+        {
+          "sha": "384ff77",
+          "message": "Jelly: Update Gradle wrapper",
+          "author": "Sebastiano Barezzi",
+          "date": "Tue Sep 30 19:52:29 2025 +0000",
+          "timestamp": 1759261949,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/384ff77"
+        },
+        {
+          "sha": "238436a",
+          "message": "Jelly: Update kotlin deps to match AOSP 16",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 30 19:52:29 2025 +0000",
+          "timestamp": 1759261949,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/238436a"
+        },
+        {
+          "sha": "b0d6afb",
+          "message": "Jelly: Update SDK to 36",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 30 19:52:29 2025 +0000",
+          "timestamp": 1759261949,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/b0d6afb"
+        },
+        {
+          "sha": "2d8559b",
+          "message": "Jelly: Load scripts once",
+          "author": "Luca Stefani",
+          "date": "Fri Sep 26 14:00:41 2025 -0700",
+          "timestamp": 1758920441,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/2d8559b"
+        },
+        {
+          "sha": "67d7b58",
+          "message": "Jelly: Implement Web Share API",
+          "author": "SaeedDev94",
+          "date": "Fri Sep 26 13:58:10 2025 -0700",
+          "timestamp": 1758920290,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/67d7b58"
+        },
+        {
+          "sha": "fe57ec1",
+          "message": "Jelly: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 25 01:45:01 2025 +0200",
+          "timestamp": 1758757501,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/fe57ec1"
+        },
+        {
+          "sha": "16c2153",
+          "message": "Jelly: Update AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 25 01:45:01 2025 +0200",
+          "timestamp": 1758757501,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/16c2153"
+        },
+        {
+          "sha": "2a0c520",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:44 2025 +0000",
+          "timestamp": 1758744404,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/2a0c520"
+        },
+        {
+          "sha": "504ab40",
+          "message": "Jelly: Bump Kotlin to 1.9.23",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 22 17:35:46 2025 +0200",
+          "timestamp": 1758555346,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/504ab40"
+        },
+        {
+          "sha": "eca8410",
+          "message": "Jelly: Update gradle-generatebp to 1.26",
+          "author": "Luca Stefani",
+          "date": "Mon Sep 22 17:33:02 2025 +0200",
+          "timestamp": 1758555182,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/eca8410"
+        },
+        {
+          "sha": "1f01f61",
+          "message": "Jelly: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 22 17:30:07 2025 +0200",
+          "timestamp": 1758555007,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/1f01f61"
+        },
+        {
+          "sha": "3bb9fdb",
+          "message": "Jelly: Sync up Gradle setup with Twelve & co.",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 22 17:19:05 2025 +0200",
+          "timestamp": 1758554345,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/3bb9fdb"
+        },
+        {
+          "sha": "d7059db",
+          "message": "Jelly: Move KAPT block to the right place",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 22 17:19:05 2025 +0200",
+          "timestamp": 1758554345,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/d7059db"
+        },
+        {
+          "sha": "0a8e529",
+          "message": "Jelly: Specify KAPT version and add all plugins to classpath",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 22 17:13:18 2025 +0200",
+          "timestamp": 1758553998,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/0a8e529"
+        },
+        {
+          "sha": "6de7c84",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/LineageOS/android_packages_apps_Jelly/commit/6de7c84"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_AxionWidgets",
       "path": "packages/apps/AxionWidgets",
       "repo_url": "https://github.com/Lunaris-AOSP/packages_apps_AxionWidgets",
@@ -11031,119 +10959,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "github",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "84e7b7b",
-          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
-          "author": "Sneh Mankad",
-          "date": "Sun Nov 9 02:51:10 2025 +0200",
-          "timestamp": 1762649470,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
-        },
-        {
-          "sha": "9d86876",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:35:09 2025 +0200",
-          "timestamp": 1762648509,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
-        },
-        {
-          "sha": "ecd05f7",
-          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:34:40 2025 +0200",
-          "timestamp": 1762648480,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
-        },
-        {
-          "sha": "09c3881",
-          "message": "generic: Label vendor.qti.qesdk.sysservice app",
-          "author": "Giovanni Ricca",
-          "date": "Tue Oct 7 09:13:59 2025 +0200",
-          "timestamp": 1759821239,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
-        },
-        {
-          "sha": "8186a50",
-          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:34 2025 -0700",
-          "timestamp": 1757906014,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
-        },
-        {
-          "sha": "74db8a6",
-          "message": "sepolicy: Added attributes for BHS services.",
-          "author": "mkadali",
-          "date": "Tue Sep 9 18:40:44 2025 -0400",
-          "timestamp": 1757457644,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
-        },
-        {
-          "sha": "0785bde",
-          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
-          "author": "QCTECMDR Service",
-          "date": "Fri Sep 5 05:35:52 2025 -0700",
-          "timestamp": 1757075752,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
-        },
-        {
-          "sha": "f84d078",
-          "message": "[NFC][SEPolicy]: added dev node check access permission",
-          "author": "Varun Kumar",
-          "date": "Fri Sep 5 05:12:50 2025 -0700",
-          "timestamp": 1757074370,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
-        },
-        {
-          "sha": "736d7bc",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 5 07:41:13 2025 +0000",
-          "timestamp": 1757058073,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
-        },
-        {
-          "sha": "6f92e4b",
-          "message": "Merge \"sepolicy: Change the label to allow the property to be written by vendor\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 06:02:22 2025 -0700",
-          "timestamp": 1756904542,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6f92e4b"
-        },
-        {
-          "sha": "0258e3a",
-          "message": "Merge \"sepolicy : Allow BootAnimation to have read access to vendor_sys_gpp_prop\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 02:42:08 2025 -0700",
-          "timestamp": 1756892528,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0258e3a"
-        },
-        {
-          "sha": "42e70dd",
-          "message": "sepolicy: Add rules for qtiaudiohalvendorextn",
-          "author": "LuK1337",
-          "date": "Mon Sep 1 23:35:20 2025 +0100",
-          "timestamp": 1756766120,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/42e70dd"
-        },
-        {
-          "sha": "12dd76a",
-          "message": "Merge 99b06a78228eae70c3d24a2679aa13cca1f6a68e on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Aug 31 23:28:02 2025 -0700",
-          "timestamp": 1756708082,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/12dd76a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/legacy-um",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -11249,11 +11064,108 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "github",
+      "commit_count": 11,
+      "commits": [
+        {
+          "sha": "84e7b7b",
+          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
+          "author": "Sneh Mankad",
+          "date": "Sun Nov 9 02:51:10 2025 +0200",
+          "timestamp": 1762649470,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
+        },
+        {
+          "sha": "9d86876",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:35:09 2025 +0200",
+          "timestamp": 1762648509,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
+        },
+        {
+          "sha": "ecd05f7",
+          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:34:40 2025 +0200",
+          "timestamp": 1762648480,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
+        },
+        {
+          "sha": "09c3881",
+          "message": "generic: Label vendor.qti.qesdk.sysservice app",
+          "author": "Giovanni Ricca",
+          "date": "Tue Oct 7 09:13:59 2025 +0200",
+          "timestamp": 1759821239,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
+        },
+        {
+          "sha": "8186a50",
+          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:34 2025 -0700",
+          "timestamp": 1757906014,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
+        },
+        {
+          "sha": "74db8a6",
+          "message": "sepolicy: Added attributes for BHS services.",
+          "author": "mkadali",
+          "date": "Tue Sep 9 18:40:44 2025 -0400",
+          "timestamp": 1757457644,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
+        },
+        {
+          "sha": "0785bde",
+          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
+          "author": "QCTECMDR Service",
+          "date": "Fri Sep 5 05:35:52 2025 -0700",
+          "timestamp": 1757075752,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
+        },
+        {
+          "sha": "f84d078",
+          "message": "[NFC][SEPolicy]: added dev node check access permission",
+          "author": "Varun Kumar",
+          "date": "Fri Sep 5 05:12:50 2025 -0700",
+          "timestamp": 1757074370,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
+        },
+        {
+          "sha": "736d7bc",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 5 07:41:13 2025 +0000",
+          "timestamp": 1757058073,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
+        },
+        {
+          "sha": "6f92e4b",
+          "message": "Merge \"sepolicy: Change the label to allow the property to be written by vendor\"",
+          "author": "QCTECMDR Service",
+          "date": "Wed Sep 3 06:02:22 2025 -0700",
+          "timestamp": 1756904542,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6f92e4b"
+        },
+        {
+          "sha": "0258e3a",
+          "message": "Merge \"sepolicy : Allow BootAnimation to have read access to vendor_sys_gpp_prop\"",
+          "author": "QCTECMDR Service",
+          "date": "Wed Sep 3 02:42:08 2025 -0700",
+          "timestamp": 1756892528,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0258e3a"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
       "remote": "github",
-      "commit_count": 12,
+      "commit_count": 11,
       "commits": [
         {
           "sha": "6a365d1",
@@ -11342,14 +11254,6 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e774392"
-        },
-        {
-          "sha": "7bd917b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:36 2025 +0000",
-          "timestamp": 1756738476,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b"
         }
       ]
     },
@@ -11544,95 +11448,6 @@
           "date": "Mon Oct 13 15:33:46 2025 +0000",
           "timestamp": 1760369626,
           "url": "https://github.com/Lunaris-AOSP/vendor_pixel-style/commit/9ea0ea7"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8750",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "6748e02",
-          "message": "sepolicy: Label SEC NFC device & HAL",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 16:29:17 2025 +0200",
-          "timestamp": 1764426557,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6748e02"
-        },
-        {
-          "sha": "dd8ebd7",
-          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
-          "author": "Ankit Lathiya",
-          "date": "Sat Nov 22 00:26:59 2025 +0200",
-          "timestamp": 1763764019,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
-        },
-        {
-          "sha": "447107e",
-          "message": "removing get_prop function as it set_prop provides the same functionality",
-          "author": "abarnwal",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
-        },
-        {
-          "sha": "ba4de13",
-          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
-          "author": "Amruth Naga",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
-        },
-        {
-          "sha": "4088120",
-          "message": "qva: Label AOSP ST NFC HAL",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 11:30:03 2025 +0200",
-          "timestamp": 1762680603,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
-        },
-        {
-          "sha": "71e3f76",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:26:41 2025 +0200",
-          "timestamp": 1762608401,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
-        },
-        {
-          "sha": "e8391b6",
-          "message": "Merge d033dd00b623b7afc55c974d0a920847c77eefc4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 21 01:47:01 2025 -0700",
-          "timestamp": 1758444421,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8391b6"
-        },
-        {
-          "sha": "9e8d9ec",
-          "message": "sun: Match all read_ahead_kb nodes",
-          "author": "dianlujitao",
-          "date": "Sat Sep 20 14:57:06 2025 +0100",
-          "timestamp": 1758376626,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9e8d9ec"
-        },
-        {
-          "sha": "e63498e",
-          "message": "qva: Allow weaver HAL to request wakelock",
-          "author": "dianlujitao",
-          "date": "Sat Sep 20 14:56:58 2025 +0100",
-          "timestamp": 1758376618,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e63498e"
-        },
-        {
-          "sha": "8b123eb",
-          "message": "qva: Label AOSP NXP keymint and weaver HALs",
-          "author": "dianlujitao",
-          "date": "Mon Sep 1 23:12:37 2025 +0100",
-          "timestamp": 1756764757,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8b123eb"
         }
       ]
     },
@@ -11892,6 +11707,87 @@
           "date": "Fri Sep 5 08:53:05 2025 +0200",
           "timestamp": 1757055185,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6e21d75"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8750",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "github",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "6748e02",
+          "message": "sepolicy: Label SEC NFC device & HAL",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 16:29:17 2025 +0200",
+          "timestamp": 1764426557,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6748e02"
+        },
+        {
+          "sha": "dd8ebd7",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Sat Nov 22 00:26:59 2025 +0200",
+          "timestamp": 1763764019,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/dd8ebd7"
+        },
+        {
+          "sha": "447107e",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/447107e"
+        },
+        {
+          "sha": "ba4de13",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ba4de13"
+        },
+        {
+          "sha": "4088120",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:30:03 2025 +0200",
+          "timestamp": 1762680603,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4088120"
+        },
+        {
+          "sha": "71e3f76",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:26:41 2025 +0200",
+          "timestamp": 1762608401,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/71e3f76"
+        },
+        {
+          "sha": "e8391b6",
+          "message": "Merge d033dd00b623b7afc55c974d0a920847c77eefc4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 21 01:47:01 2025 -0700",
+          "timestamp": 1758444421,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e8391b6"
+        },
+        {
+          "sha": "9e8d9ec",
+          "message": "sun: Match all read_ahead_kb nodes",
+          "author": "dianlujitao",
+          "date": "Sat Sep 20 14:57:06 2025 +0100",
+          "timestamp": 1758376626,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9e8d9ec"
+        },
+        {
+          "sha": "e63498e",
+          "message": "qva: Allow weaver HAL to request wakelock",
+          "author": "dianlujitao",
+          "date": "Sat Sep 20 14:56:58 2025 +0100",
+          "timestamp": 1758376618,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e63498e"
         }
       ]
     },
@@ -12431,79 +12327,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Recorder",
-      "path": "packages/apps/Recorder",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Recorder",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "aeeafd6",
-          "message": "Recorder: colorAccent -> colorSecondary",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 12:59:35 2025 +0200",
-          "timestamp": 1763722775,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/aeeafd6"
-        },
-        {
-          "sha": "ba7e033",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:25 2025 +0000",
-          "timestamp": 1760577865,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ba7e033"
-        },
-        {
-          "sha": "ac959a5",
-          "message": "Recorder: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ac959a5"
-        },
-        {
-          "sha": "0ed5b1d",
-          "message": "Recorder: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/0ed5b1d"
-        },
-        {
-          "sha": "13aa044",
-          "message": "Recorder: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Sun Sep 21 11:59:09 2025 +0200",
-          "timestamp": 1758448749,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/13aa044"
-        },
-        {
-          "sha": "6205aaa",
-          "message": "Recorder: Bump kotlin version",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 21 11:59:08 2025 +0200",
-          "timestamp": 1758448748,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/6205aaa"
-        },
-        {
-          "sha": "1f9060b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:06 2025 +0000",
-          "timestamp": 1757955306,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b"
-        },
-        {
-          "sha": "4bf7948",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:37 2025 +0000",
-          "timestamp": 1756738477,
-          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/4bf7948"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_resources_devicesettings",
       "path": "packages/resources/devicesettings",
       "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
@@ -12715,67 +12538,67 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Camelot",
-      "path": "packages/apps/Camelot",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "name": "LineageOS/android_packages_apps_Recorder",
+      "path": "packages/apps/Recorder",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Recorder",
       "remote": "github",
       "commit_count": 7,
       "commits": [
         {
-          "sha": "e8345aa",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:22 2025 +0000",
-          "timestamp": 1760577862,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/e8345aa"
+          "sha": "aeeafd6",
+          "message": "Recorder: colorAccent -> colorSecondary",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 12:59:35 2025 +0200",
+          "timestamp": 1763722775,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/aeeafd6"
         },
         {
-          "sha": "cbb6a81",
-          "message": "Camelot: Update kotlin to match AOSP 16",
+          "sha": "ba7e033",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:25 2025 +0000",
+          "timestamp": 1760577865,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ba7e033"
+        },
+        {
+          "sha": "ac959a5",
+          "message": "Recorder: Update kotlin deps to match AOSP 16",
           "author": "Luca Stefani",
-          "date": "Wed Sep 24 19:36:42 2025 +0200",
-          "timestamp": 1758735402,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb6a81"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/ac959a5"
         },
         {
-          "sha": "9da5e90",
-          "message": "Camelot: Update SDK to 36",
+          "sha": "0ed5b1d",
+          "message": "Recorder: Update SDK to 36",
           "author": "Luca Stefani",
-          "date": "Wed Sep 24 19:36:31 2025 +0200",
-          "timestamp": 1758735391,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/9da5e90"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/0ed5b1d"
         },
         {
-          "sha": "b6cff9a",
-          "message": "Camelot: Update generatebp to v1.28",
+          "sha": "13aa044",
+          "message": "Recorder: Update Gradle wrapper and AGP",
           "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:36:25 2025 +0200",
-          "timestamp": 1758735385,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a"
+          "date": "Sun Sep 21 11:59:09 2025 +0200",
+          "timestamp": 1758448749,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/13aa044"
         },
         {
-          "sha": "bcfa1a7",
-          "message": "Camelot: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:33:55 2025 +0200",
-          "timestamp": 1758735235,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7"
+          "sha": "6205aaa",
+          "message": "Recorder: Bump kotlin version",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 21 11:59:08 2025 +0200",
+          "timestamp": 1758448748,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/6205aaa"
         },
         {
-          "sha": "34fd95b",
+          "sha": "1f9060b",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:02 2025 +0000",
-          "timestamp": 1757955302,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
-        },
-        {
-          "sha": "cbb578e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e"
+          "date": "Mon Sep 15 16:55:06 2025 +0000",
+          "timestamp": 1757955306,
+          "url": "https://github.com/LineageOS/android_packages_apps_Recorder/commit/1f9060b"
         }
       ]
     },
@@ -12841,71 +12664,6 @@
           "date": "Fri Sep 5 03:03:20 2025 -0700",
           "timestamp": 1757066600,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ef8f4e1"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/display",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "7cbc3cb",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:21 2025 +0200",
-          "timestamp": 1762607781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
-        },
-        {
-          "sha": "7ac4077",
-          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 12 23:41:34 2025 -0700",
-          "timestamp": 1760337694,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
-        },
-        {
-          "sha": "bb1ed10",
-          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Thu Sep 25 23:54:17 2025 -0700",
-          "timestamp": 1758869657,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
-        },
-        {
-          "sha": "8725d4e",
-          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:47 2025 -0700",
-          "timestamp": 1757906027,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
-        },
-        {
-          "sha": "8d5c652",
-          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 8 16:46:11 2025 -0700",
-          "timestamp": 1757375171,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
-        },
-        {
-          "sha": "2e7a285",
-          "message": "snapallocext: Add SnapAlloc Extension AIDL",
-          "author": "prajawal",
-          "date": "Tue Sep 2 17:14:48 2025 -0700",
-          "timestamp": 1756858488,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/2e7a285"
-        },
-        {
-          "sha": "c899044",
-          "message": "Merge 5b598d9a23879d772b8ec7c69d6a321d2146bc26 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Aug 31 23:28:40 2025 -0700",
-          "timestamp": 1756708120,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/c899044"
         }
       ]
     },
@@ -13154,6 +12912,63 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Camelot",
+      "path": "packages/apps/Camelot",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "e8345aa",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:22 2025 +0000",
+          "timestamp": 1760577862,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/e8345aa"
+        },
+        {
+          "sha": "cbb6a81",
+          "message": "Camelot: Update kotlin to match AOSP 16",
+          "author": "Luca Stefani",
+          "date": "Wed Sep 24 19:36:42 2025 +0200",
+          "timestamp": 1758735402,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb6a81"
+        },
+        {
+          "sha": "9da5e90",
+          "message": "Camelot: Update SDK to 36",
+          "author": "Luca Stefani",
+          "date": "Wed Sep 24 19:36:31 2025 +0200",
+          "timestamp": 1758735391,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/9da5e90"
+        },
+        {
+          "sha": "b6cff9a",
+          "message": "Camelot: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:36:25 2025 +0200",
+          "timestamp": 1758735385,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a"
+        },
+        {
+          "sha": "bcfa1a7",
+          "message": "Camelot: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:33:55 2025 +0200",
+          "timestamp": 1758735235,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7"
+        },
+        {
+          "sha": "34fd95b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:02 2025 +0000",
+          "timestamp": 1757955302,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_tools_extract-utils",
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
@@ -13207,6 +13022,63 @@
           "date": "Fri Oct 10 20:58:29 2025 +0300",
           "timestamp": 1760119109,
           "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c7e9116"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/display",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "7cbc3cb",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:21 2025 +0200",
+          "timestamp": 1762607781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
+        },
+        {
+          "sha": "7ac4077",
+          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 12 23:41:34 2025 -0700",
+          "timestamp": 1760337694,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
+        },
+        {
+          "sha": "bb1ed10",
+          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Sep 25 23:54:17 2025 -0700",
+          "timestamp": 1758869657,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
+        },
+        {
+          "sha": "8725d4e",
+          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:47 2025 -0700",
+          "timestamp": 1757906027,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
+        },
+        {
+          "sha": "8d5c652",
+          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Sep 8 16:46:11 2025 -0700",
+          "timestamp": 1757375171,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
+        },
+        {
+          "sha": "2e7a285",
+          "message": "snapallocext: Add SnapAlloc Extension AIDL",
+          "author": "prajawal",
+          "date": "Tue Sep 2 17:14:48 2025 -0700",
+          "timestamp": 1756858488,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/2e7a285"
         }
       ]
     },
@@ -14020,39 +13892,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
-        },
-        {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
-        },
-        {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -14082,6 +13921,39 @@
           "date": "Fri Sep 26 09:55:19 2025 -0600",
           "timestamp": 1758902119,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        },
+        {
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        },
+        {
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -14185,72 +14057,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
-        },
-        {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
-        },
-        {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_DeskClock",
-      "path": "packages/apps/DeskClock",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_DeskClock",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "8987c25",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:57 2025 +0000",
-          "timestamp": 1763229717,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c25"
-        },
-        {
-          "sha": "cd9326b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:02 2025 +0000",
-          "timestamp": 1757955302,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/cd9326b"
-        },
-        {
-          "sha": "c1f46ef",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/c1f46ef"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_apn",
       "path": "vendor/apn",
       "repo_url": "https://github.com/LineageOS/android_vendor_apn",
@@ -14317,39 +14123,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_usb",
-      "path": "vendor/qcom/opensource/usb",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "827db65",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:34:17 2025 +0200",
-          "timestamp": 1762608857,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/827db65"
-        },
-        {
-          "sha": "6572823",
-          "message": "Merge bf624ff54e7568db74a61a96d07a4e43cbf11c91 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 12 01:58:09 2025 -0700",
-          "timestamp": 1760259489,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/6572823"
-        },
-        {
-          "sha": "13fb188",
-          "message": "init.qcom.usb.sh: Add a soc id specific support for Kera variant",
-          "author": "Udipto Goswami",
-          "date": "Sun Sep 21 06:59:08 2025 -0700",
-          "timestamp": 1758463148,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/13fb188"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_power",
       "path": "vendor/qcom/opensource/power",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
@@ -14379,6 +14152,39 @@
           "date": "Sun Sep 7 21:46:15 2025 +0100",
           "timestamp": 1757277975,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/8f0b87c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_usb",
+      "path": "vendor/qcom/opensource/usb",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "827db65",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:34:17 2025 +0200",
+          "timestamp": 1762608857,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/827db65"
+        },
+        {
+          "sha": "6572823",
+          "message": "Merge bf624ff54e7568db74a61a96d07a4e43cbf11c91 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 12 01:58:09 2025 -0700",
+          "timestamp": 1760259489,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/6572823"
+        },
+        {
+          "sha": "13fb188",
+          "message": "init.qcom.usb.sh: Add a soc id specific support for Kera variant",
+          "author": "Udipto Goswami",
+          "date": "Sun Sep 21 06:59:08 2025 -0700",
+          "timestamp": 1758463148,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/13fb188"
         }
       ]
     },
@@ -14607,27 +14413,27 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_FlipFlap",
-      "path": "packages/apps/FlipFlap",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
+      "name": "LineageOS/android_packages_apps_DeskClock",
+      "path": "packages/apps/DeskClock",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_DeskClock",
       "remote": "github",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "dd49d55",
+          "sha": "8987c25",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
+          "date": "Sat Nov 15 18:01:57 2025 +0000",
+          "timestamp": 1763229717,
+          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/8987c25"
         },
         {
-          "sha": "e7ffef4",
+          "sha": "cd9326b",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:35 2025 +0000",
-          "timestamp": 1756738475,
-          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/e7ffef4"
+          "date": "Mon Sep 15 16:55:02 2025 +0000",
+          "timestamp": 1757955302,
+          "url": "https://github.com/LineageOS/android_packages_apps_DeskClock/commit/cd9326b"
         }
       ]
     },
@@ -15113,6 +14919,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_FlipFlap",
+      "path": "packages/apps/FlipFlap",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "dd49d55",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Stk",
       "path": "packages/apps/Stk",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Stk",
@@ -15147,23 +14970,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_modules_IntentResolver",
-      "path": "packages/modules/IntentResolver",
-      "repo_url": "https://github.com/LineageOS/android_packages_modules_IntentResolver",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "1682d31c",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/modules/IntentResolver into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 17:58:41 2025 +0300",
-          "timestamp": 1757689121,
-          "url": "https://github.com/LineageOS/android_packages_modules_IntentResolver/commit/1682d31c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_modules_UprobeStats",
       "path": "packages/modules/UprobeStats",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_UprobeStats",
@@ -15177,6 +14983,23 @@
           "date": "Thu Sep 4 14:07:17 2025 +0300",
           "timestamp": 1756984037,
           "url": "https://github.com/LineageOS/android_packages_modules_UprobeStats/commit/696e608"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_modules_IntentResolver",
+      "path": "packages/modules/IntentResolver",
+      "repo_url": "https://github.com/LineageOS/android_packages_modules_IntentResolver",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "1682d31c",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/modules/IntentResolver into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 17:58:41 2025 +0300",
+          "timestamp": 1757689121,
+          "url": "https://github.com/LineageOS/android_packages_modules_IntentResolver/commit/1682d31c"
         }
       ]
     },
@@ -15296,23 +15119,6 @@
           "date": "Sat Oct 4 13:01:13 2025 +0800",
           "timestamp": 1759554073,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0a94a23"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar",
-      "path": "vendor/qcom/opensource/audio-hal/st-hal-ar",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f8dfc3d",
-          "message": "Merge tag 'AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0' into staging/lineage-23.0_merge-AUDIO_HANDSET.LA.10.0.r1-06800-pakala.0",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 07:08:04 2025 +0000",
-          "timestamp": 1756710484,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commit/f8dfc3d"
         }
       ]
     },

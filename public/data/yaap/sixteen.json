@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-11-30T01:29:01.638962+00:00",
-  "since_date": "2025-09-01",
-  "total_projects": 49,
-  "total_commits": 294,
+  "generated_at": "2025-12-01T01:43:53.552276+00:00",
+  "since_date": "2025-09-02",
+  "total_projects": 48,
+  "total_commits": 286,
   "projects": [
     {
       "name": "frameworks_base",
@@ -593,191 +593,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_Twelve",
-      "path": "packages/apps/Twelve",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
-      "remote": "lineage",
-      "commit_count": 22,
-      "commits": [
-        {
-          "sha": "4c1fd1f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 20:11:28 2025 +0000",
-          "timestamp": 1763237488,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/4c1fd1f"
-        },
-        {
-          "sha": "ca1535f",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 21:55:51 2025 +0000",
-          "timestamp": 1762034151,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/ca1535f"
-        },
-        {
-          "sha": "36a44d6",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 04:15:41 2025 +0000",
-          "timestamp": 1760588141,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6"
-        },
-        {
-          "sha": "5463caa",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 23:32:46 2025 +0000",
-          "timestamp": 1759361566,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/5463caa"
-        },
-        {
-          "sha": "17169d4",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:50 2025 +0000",
-          "timestamp": 1758744410,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/17169d4"
-        },
-        {
-          "sha": "adc7d1b",
-          "message": "Twelve: Update generatebp to v1.28",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 18:55:46 2025 +0200",
-          "timestamp": 1758732946,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/adc7d1b"
-        },
-        {
-          "sha": "48e5a66",
-          "message": "Twelve: `kapt` -> `kotlin-kapt`",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 18:55:46 2025 +0200",
-          "timestamp": 1758732946,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/48e5a66"
-        },
-        {
-          "sha": "2829464",
-          "message": "Twelve: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 16:44:48 2025 +0200",
-          "timestamp": 1758725088,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/2829464"
-        },
-        {
-          "sha": "7d3ecde",
-          "message": "Twelve: Fix spacing around play buttons",
-          "author": "Inhishonor",
-          "date": "Sat Sep 20 19:56:01 2025 +0200",
-          "timestamp": 1758390961,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3ecde"
-        },
-        {
-          "sha": "3f0ff3d",
-          "message": "Twelve: ListItem: Declare a new corner radius attribute",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:01 2025 +0200",
-          "timestamp": 1758390961,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3f0ff3d"
-        },
-        {
-          "sha": "08bb7f0",
-          "message": "Twelve: ListItem: Fix an API issue on older SDK versions",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:01 2025 +0200",
-          "timestamp": 1758390961,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/08bb7f0"
-        },
-        {
-          "sha": "77af37e",
-          "message": "Twelve: ListItem: `Context.getColorStateList` uses the current theme",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:01 2025 +0200",
-          "timestamp": 1758390961,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/77af37e"
-        },
-        {
-          "sha": "aca4e68",
-          "message": "Twelve: Resize the window when using IME",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:00 2025 +0200",
-          "timestamp": 1758390960,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/aca4e68"
-        },
-        {
-          "sha": "14c855f",
-          "message": "Twelve: Fix FAB text/icon tints",
-          "author": "Luca Stefani",
-          "date": "Sat Sep 20 19:56:00 2025 +0200",
-          "timestamp": 1758390960,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/14c855f"
-        },
-        {
-          "sha": "bb6d425",
-          "message": "Twelve: Specify KAPT version and add all plugins to classpath",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Sep 20 19:56:00 2025 +0200",
-          "timestamp": 1758390960,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/bb6d425"
-        },
-        {
-          "sha": "3026c4d",
-          "message": "Twelve: Play random songs button",
-          "author": "Inhishonor",
-          "date": "Thu Sep 18 20:24:36 2025 +0200",
-          "timestamp": 1758219876,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3026c4d"
-        },
-        {
-          "sha": "8b55929",
-          "message": "Twelve: Result: Add `onSuccess`/`onError` methods",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 20:24:36 2025 +0200",
-          "timestamp": 1758219876,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/8b55929"
-        },
-        {
-          "sha": "5131a69",
-          "message": "Twelve: MediaDataStore: Add audios method",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 20:24:36 2025 +0200",
-          "timestamp": 1758219876,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/5131a69"
-        },
-        {
-          "sha": "851f87d",
-          "message": "Twelve: Merge all home page VMs into a single one",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 20:23:41 2025 +0200",
-          "timestamp": 1758219821,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/851f87d"
-        },
-        {
-          "sha": "c167d52",
-          "message": "Twelve: Get new random content every time app opens",
-          "author": "Inhishonor",
-          "date": "Thu Sep 18 20:23:41 2025 +0200",
-          "timestamp": 1758219821,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/c167d52"
-        },
-        {
-          "sha": "e765cd7",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:08 2025 +0000",
-          "timestamp": 1757955308,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/e765cd7"
-        },
-        {
-          "sha": "3bfeb98",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:40 2025 +0000",
-          "timestamp": 1756738480,
-          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3bfeb98"
-        }
-      ]
-    },
-    {
       "name": "packages_modules_Bluetooth",
       "path": "packages/modules/Bluetooth",
       "repo_url": "https://github.com/yaap/packages_modules_Bluetooth",
@@ -959,6 +774,183 @@
           "date": "Mon Sep 22 03:43:42 2025 +0300",
           "timestamp": 1758501822,
           "url": "https://github.com/yaap/packages_modules_Bluetooth/commit/c8dc74647"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Twelve",
+      "path": "packages/apps/Twelve",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
+      "remote": "lineage",
+      "commit_count": 21,
+      "commits": [
+        {
+          "sha": "4c1fd1f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 20:11:28 2025 +0000",
+          "timestamp": 1763237488,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/4c1fd1f"
+        },
+        {
+          "sha": "ca1535f",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 21:55:51 2025 +0000",
+          "timestamp": 1762034151,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/ca1535f"
+        },
+        {
+          "sha": "36a44d6",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 04:15:41 2025 +0000",
+          "timestamp": 1760588141,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/36a44d6"
+        },
+        {
+          "sha": "5463caa",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 23:32:46 2025 +0000",
+          "timestamp": 1759361566,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/5463caa"
+        },
+        {
+          "sha": "17169d4",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:50 2025 +0000",
+          "timestamp": 1758744410,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/17169d4"
+        },
+        {
+          "sha": "adc7d1b",
+          "message": "Twelve: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 18:55:46 2025 +0200",
+          "timestamp": 1758732946,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/adc7d1b"
+        },
+        {
+          "sha": "48e5a66",
+          "message": "Twelve: `kapt` -> `kotlin-kapt`",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 18:55:46 2025 +0200",
+          "timestamp": 1758732946,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/48e5a66"
+        },
+        {
+          "sha": "2829464",
+          "message": "Twelve: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 16:44:48 2025 +0200",
+          "timestamp": 1758725088,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/2829464"
+        },
+        {
+          "sha": "7d3ecde",
+          "message": "Twelve: Fix spacing around play buttons",
+          "author": "Inhishonor",
+          "date": "Sat Sep 20 19:56:01 2025 +0200",
+          "timestamp": 1758390961,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/7d3ecde"
+        },
+        {
+          "sha": "3f0ff3d",
+          "message": "Twelve: ListItem: Declare a new corner radius attribute",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:01 2025 +0200",
+          "timestamp": 1758390961,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3f0ff3d"
+        },
+        {
+          "sha": "08bb7f0",
+          "message": "Twelve: ListItem: Fix an API issue on older SDK versions",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:01 2025 +0200",
+          "timestamp": 1758390961,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/08bb7f0"
+        },
+        {
+          "sha": "77af37e",
+          "message": "Twelve: ListItem: `Context.getColorStateList` uses the current theme",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:01 2025 +0200",
+          "timestamp": 1758390961,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/77af37e"
+        },
+        {
+          "sha": "aca4e68",
+          "message": "Twelve: Resize the window when using IME",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:00 2025 +0200",
+          "timestamp": 1758390960,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/aca4e68"
+        },
+        {
+          "sha": "14c855f",
+          "message": "Twelve: Fix FAB text/icon tints",
+          "author": "Luca Stefani",
+          "date": "Sat Sep 20 19:56:00 2025 +0200",
+          "timestamp": 1758390960,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/14c855f"
+        },
+        {
+          "sha": "bb6d425",
+          "message": "Twelve: Specify KAPT version and add all plugins to classpath",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Sep 20 19:56:00 2025 +0200",
+          "timestamp": 1758390960,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/bb6d425"
+        },
+        {
+          "sha": "3026c4d",
+          "message": "Twelve: Play random songs button",
+          "author": "Inhishonor",
+          "date": "Thu Sep 18 20:24:36 2025 +0200",
+          "timestamp": 1758219876,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/3026c4d"
+        },
+        {
+          "sha": "8b55929",
+          "message": "Twelve: Result: Add `onSuccess`/`onError` methods",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 20:24:36 2025 +0200",
+          "timestamp": 1758219876,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/8b55929"
+        },
+        {
+          "sha": "5131a69",
+          "message": "Twelve: MediaDataStore: Add audios method",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 20:24:36 2025 +0200",
+          "timestamp": 1758219876,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/5131a69"
+        },
+        {
+          "sha": "851f87d",
+          "message": "Twelve: Merge all home page VMs into a single one",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 20:23:41 2025 +0200",
+          "timestamp": 1758219821,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/851f87d"
+        },
+        {
+          "sha": "c167d52",
+          "message": "Twelve: Get new random content every time app opens",
+          "author": "Inhishonor",
+          "date": "Thu Sep 18 20:23:41 2025 +0200",
+          "timestamp": 1758219821,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/c167d52"
+        },
+        {
+          "sha": "e765cd7",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:08 2025 +0000",
+          "timestamp": 1757955308,
+          "url": "https://github.com/LineageOS/android_packages_apps_Twelve/commit/e765cd7"
         }
       ]
     },
@@ -1511,87 +1503,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_Glimpse",
-      "path": "packages/apps/Glimpse",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
-      "remote": "lineage",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "7bf0e49",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 21:55:50 2025 +0000",
-          "timestamp": 1762034150,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49"
-        },
-        {
-          "sha": "c20bdc7",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 04:15:40 2025 +0000",
-          "timestamp": 1760588140,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7"
-        },
-        {
-          "sha": "bf55f6a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 23:32:43 2025 +0000",
-          "timestamp": 1759361563,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a"
-        },
-        {
-          "sha": "6fcd70c",
-          "message": "Glimpse: Add file size to media info",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 30 20:44:31 2025 +0200",
-          "timestamp": 1759257871,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c"
-        },
-        {
-          "sha": "fa8b084",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:43 2025 +0000",
-          "timestamp": 1758744403,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084"
-        },
-        {
-          "sha": "b810f35",
-          "message": "Glimpse: Update generatebp to v1.28",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 18:40:48 2025 +0200",
-          "timestamp": 1758732048,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35"
-        },
-        {
-          "sha": "a09a223",
-          "message": "Glimpse: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Sun Sep 21 11:17:05 2025 +0200",
-          "timestamp": 1758446225,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a223"
-        },
-        {
-          "sha": "e774392",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e774392"
-        },
-        {
-          "sha": "7bd917b",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:36 2025 +0000",
-          "timestamp": 1756738476,
-          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bd917b"
-        }
-      ]
-    },
-    {
       "name": "bionic",
       "path": "bionic",
       "repo_url": "https://github.com/yaap/bionic",
@@ -1669,6 +1580,79 @@
           "date": "Wed Oct 22 16:45:56 2025 -0400",
           "timestamp": 1761165956,
           "url": "https://github.com/yaap/bionic/commit/27452c01"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
+      "remote": "lineage",
+      "commit_count": 8,
+      "commits": [
+        {
+          "sha": "7bf0e49",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 21:55:50 2025 +0000",
+          "timestamp": 1762034150,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/7bf0e49"
+        },
+        {
+          "sha": "c20bdc7",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 04:15:40 2025 +0000",
+          "timestamp": 1760588140,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/c20bdc7"
+        },
+        {
+          "sha": "bf55f6a",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 23:32:43 2025 +0000",
+          "timestamp": 1759361563,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/bf55f6a"
+        },
+        {
+          "sha": "6fcd70c",
+          "message": "Glimpse: Add file size to media info",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 30 20:44:31 2025 +0200",
+          "timestamp": 1759257871,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/6fcd70c"
+        },
+        {
+          "sha": "fa8b084",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:43 2025 +0000",
+          "timestamp": 1758744403,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/fa8b084"
+        },
+        {
+          "sha": "b810f35",
+          "message": "Glimpse: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 18:40:48 2025 +0200",
+          "timestamp": 1758732048,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/b810f35"
+        },
+        {
+          "sha": "a09a223",
+          "message": "Glimpse: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Sun Sep 21 11:17:05 2025 +0200",
+          "timestamp": 1758446225,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/a09a223"
+        },
+        {
+          "sha": "e774392",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e774392"
         }
       ]
     },
@@ -1795,63 +1779,6 @@
       ]
     },
     {
-      "name": "android_packages_resources_devicesettings",
-      "path": "packages/resources/devicesettings",
-      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
-      "remote": "lineage",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "2175ffe",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 20:11:30 2025 +0000",
-          "timestamp": 1763237490,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/2175ffe"
-        },
-        {
-          "sha": "b9895c3",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 21:55:52 2025 +0000",
-          "timestamp": 1762034152,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b9895c3"
-        },
-        {
-          "sha": "885204a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 23:32:48 2025 +0000",
-          "timestamp": 1759361568,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/885204a"
-        },
-        {
-          "sha": "61a0716",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:09 2025 +0000",
-          "timestamp": 1757955309,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/61a0716"
-        },
-        {
-          "sha": "cd8846d",
-          "message": "devicesettings: Add strings for StylusKeyHandler",
-          "author": "AnierinB",
-          "date": "Sat Sep 13 06:08:50 2025 +0000",
-          "timestamp": 1757743730,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/cd8846d"
-        },
-        {
-          "sha": "65352f2",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:41 2025 +0000",
-          "timestamp": 1756738481,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/65352f2"
-        }
-      ]
-    },
-    {
       "name": "manifest",
       "path": "manifest",
       "repo_url": "https://github.com/yaap/manifest",
@@ -1909,51 +1836,51 @@
       ]
     },
     {
-      "name": "android_packages_apps_Camelot",
-      "path": "packages/apps/Camelot",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "name": "android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
       "remote": "lineage",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "f3007f2",
+          "sha": "2175ffe",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Thu Oct 16 04:15:38 2025 +0000",
-          "timestamp": 1760588138,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2"
+          "date": "Sat Nov 15 20:11:30 2025 +0000",
+          "timestamp": 1763237490,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/2175ffe"
         },
         {
-          "sha": "b6cff9a",
-          "message": "Camelot: Update generatebp to v1.28",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:36:25 2025 +0200",
-          "timestamp": 1758735385,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a"
-        },
-        {
-          "sha": "bcfa1a7",
-          "message": "Camelot: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:33:55 2025 +0200",
-          "timestamp": 1758735235,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7"
-        },
-        {
-          "sha": "34fd95b",
+          "sha": "b9895c3",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:02 2025 +0000",
-          "timestamp": 1757955302,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
+          "date": "Sat Nov 1 21:55:52 2025 +0000",
+          "timestamp": 1762034152,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b9895c3"
         },
         {
-          "sha": "cbb578e",
+          "sha": "885204a",
           "message": "Automatic translation import",
           "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:32 2025 +0000",
-          "timestamp": 1756738472,
-          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/cbb578e"
+          "date": "Wed Oct 1 23:32:48 2025 +0000",
+          "timestamp": 1759361568,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/885204a"
+        },
+        {
+          "sha": "61a0716",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:09 2025 +0000",
+          "timestamp": 1757955309,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/61a0716"
+        },
+        {
+          "sha": "cd8846d",
+          "message": "devicesettings: Add strings for StylusKeyHandler",
+          "author": "AnierinB",
+          "date": "Sat Sep 13 06:08:50 2025 +0000",
+          "timestamp": 1757743730,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/cd8846d"
         }
       ]
     },
@@ -2003,6 +1930,47 @@
           "date": "Wed Sep 3 22:28:03 2025 -0400",
           "timestamp": 1756952883,
           "url": "https://github.com/yaap/build_soong/commit/b000a990"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Camelot",
+      "path": "packages/apps/Camelot",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
+      "remote": "lineage",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "f3007f2",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 04:15:38 2025 +0000",
+          "timestamp": 1760588138,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/f3007f2"
+        },
+        {
+          "sha": "b6cff9a",
+          "message": "Camelot: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:36:25 2025 +0200",
+          "timestamp": 1758735385,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/b6cff9a"
+        },
+        {
+          "sha": "bcfa1a7",
+          "message": "Camelot: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:33:55 2025 +0200",
+          "timestamp": 1758735235,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/bcfa1a7"
+        },
+        {
+          "sha": "34fd95b",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:02 2025 +0000",
+          "timestamp": 1757955302,
+          "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
         }
       ]
     },
@@ -2085,39 +2053,6 @@
           "date": "Mon Sep 22 03:46:37 2025 +0300",
           "timestamp": 1758501997,
           "url": "https://github.com/yaap/packages_modules_Wifi/commit/764e9058f"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/msm8953/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "lineage",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "fd1cfe0",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/fd1cfe0"
-        },
-        {
-          "sha": "c337f56",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 1 16:35:07 2025 +0800",
-          "timestamp": 1756715707,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/c337f56"
-        },
-        {
-          "sha": "f6e4d6d",
-          "message": "hwc2,libdisplayconfig: Remove libhwbinder/libhidltransport deps",
-          "author": "Steven Moreland",
-          "date": "Mon Sep 1 16:35:03 2025 +0800",
-          "timestamp": 1756715703,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/f6e4d6d"
         }
       ]
     },
@@ -2428,31 +2363,6 @@
       ]
     },
     {
-      "name": "android_vendor_qcom_opensource_fm-commonsys",
-      "path": "vendor/qcom/opensource/commonsys/fm",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "0a042da",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:10 2025 +0000",
-          "timestamp": 1757955310,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0a042da"
-        },
-        {
-          "sha": "0d72753",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 1 14:54:41 2025 +0000",
-          "timestamp": 1756738481,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0d72753"
-        }
-      ]
-    },
-    {
       "name": "frameworks_av",
       "path": "frameworks/av",
       "repo_url": "https://github.com/yaap/frameworks_av",
@@ -2575,6 +2485,23 @@
           "date": "Fri Sep 12 17:58:41 2025 +0300",
           "timestamp": 1757689121,
           "url": "https://github.com/LineageOS/android_packages_modules_IntentResolver/commit/1682d31c"
+        }
+      ]
+    },
+    {
+      "name": "android_vendor_qcom_opensource_fm-commonsys",
+      "path": "vendor/qcom/opensource/commonsys/fm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0a042da",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:10 2025 +0000",
+          "timestamp": 1757955310,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/0a042da"
         }
       ]
     },
