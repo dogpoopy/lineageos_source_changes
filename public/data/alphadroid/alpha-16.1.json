@@ -1,10 +1,10 @@
 {
   "rom_id": "alphadroid",
   "branch": "alpha-16.1",
-  "generated_at": "2025-12-01T01:49:38.394222+00:00",
-  "since_date": "2025-09-02",
+  "generated_at": "2025-12-02T01:26:17.256267+00:00",
+  "since_date": "2025-09-03",
   "total_projects": 29,
-  "total_commits": 731,
+  "total_commits": 728,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -3599,7 +3599,7 @@
       "path": "manifest",
       "repo_url": "https://github.com/alphadroid-project/manifest",
       "remote": "alpha",
-      "commit_count": 52,
+      "commit_count": 51,
       "commits": [
         {
           "sha": "9811279",
@@ -4008,14 +4008,6 @@
           "date": "Fri Sep 5 06:15:17 2025 +0330",
           "timestamp": 1757040317,
           "url": "https://github.com/alphadroid-project/manifest/commit/e804727"
-        },
-        {
-          "sha": "49e5e99",
-          "message": "lineage: Remove Android.mk guard for msm8953",
-          "author": "Yumi Yukimura",
-          "date": "Tue Sep 2 06:08:12 2025 +0000",
-          "timestamp": 1756793292,
-          "url": "https://github.com/alphadroid-project/manifest/commit/49e5e99"
         }
       ]
     },
@@ -5519,7 +5511,7 @@
       "path": "packages/apps/GameSpace",
       "repo_url": "https://github.com/alphadroid-project/packages_apps_GameSpace",
       "remote": "alpha",
-      "commit_count": 11,
+      "commit_count": 9,
       "commits": [
         {
           "sha": "ce20a36",
@@ -5592,22 +5584,6 @@
           "date": "Fri Sep 5 08:54:00 2025 +0530",
           "timestamp": 1757042640,
           "url": "https://github.com/alphadroid-project/packages_apps_GameSpace/commit/8ba2d5f"
-        },
-        {
-          "sha": "9f27afb",
-          "message": "GameSpace: Setup material expressive design for preferences",
-          "author": "Pranav Vashi",
-          "date": "Tue Sep 2 19:19:42 2025 +0530",
-          "timestamp": 1756820982,
-          "url": "https://github.com/alphadroid-project/packages_apps_GameSpace/commit/9f27afb"
-        },
-        {
-          "sha": "3dd7475",
-          "message": "GameSpace: Update CustomSeekBarPreference to use material expressive layout",
-          "author": "Pranav Vashi",
-          "date": "Tue Sep 2 14:56:36 2025 +0530",
-          "timestamp": 1756805196,
-          "url": "https://github.com/alphadroid-project/packages_apps_GameSpace/commit/3dd7475"
         }
       ]
     },
@@ -5875,39 +5851,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "path": "external/chromium-webview/prebuilt/x86_64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "69244c6",
-          "message": "Update Chromium Webview x86_64 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:13 2025 -0700",
-          "timestamp": 1762617493,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6"
-        },
-        {
-          "sha": "4f870f9",
-          "message": "Update Chromium Webview x86_64 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:24 2025 -0600",
-          "timestamp": 1760795844,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9"
-        },
-        {
-          "sha": "856f1ce",
-          "message": "Update Chromium Webview x86_64 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:53 2025 -0600",
-          "timestamp": 1758982973,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
       "path": "external/chromium-webview/prebuilt/x86",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
@@ -5937,6 +5880,39 @@
           "date": "Sat Sep 27 08:22:49 2025 -0600",
           "timestamp": 1758982969,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "path": "external/chromium-webview/prebuilt/x86_64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "69244c6",
+          "message": "Update Chromium Webview x86_64 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:13 2025 -0700",
+          "timestamp": 1762617493,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/69244c6"
+        },
+        {
+          "sha": "4f870f9",
+          "message": "Update Chromium Webview x86_64 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:24 2025 -0600",
+          "timestamp": 1760795844,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/4f870f9"
+        },
+        {
+          "sha": "856f1ce",
+          "message": "Update Chromium Webview x86_64 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:53 2025 -0600",
+          "timestamp": 1758982973,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
         }
       ]
     },

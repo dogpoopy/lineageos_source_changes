@@ -1,10 +1,10 @@
 {
   "rom_id": "halcyon",
   "branch": "16.0",
-  "generated_at": "2025-12-01T01:50:43.280862+00:00",
-  "since_date": "2025-09-02",
+  "generated_at": "2025-12-02T01:27:16.033962+00:00",
+  "since_date": "2025-09-03",
   "total_projects": 68,
-  "total_commits": 703,
+  "total_commits": 699,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -4438,6 +4438,87 @@
       ]
     },
     {
+      "name": "android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "remote": "lineage",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "a3b1433",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 14:53:21 2025 +0000",
+          "timestamp": 1764600801,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/a3b1433"
+        },
+        {
+          "sha": "15f3221",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:01 2025 +0000",
+          "timestamp": 1763229721,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/15f3221"
+        },
+        {
+          "sha": "28a3378",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:41 2025 +0000",
+          "timestamp": 1762026521,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/28a3378"
+        },
+        {
+          "sha": "36c8f2e",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:26 2025 +0000",
+          "timestamp": 1760577866,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/36c8f2e"
+        },
+        {
+          "sha": "24170ff",
+          "message": "devicesettings: Import doze brightness strings",
+          "author": "basamaryan",
+          "date": "Fri Oct 10 00:31:01 2025 -0700",
+          "timestamp": 1760081461,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/24170ff"
+        },
+        {
+          "sha": "b386bdc",
+          "message": "devicesettings: Import popupcamera strings",
+          "author": "Arian",
+          "date": "Wed Oct 8 17:16:17 2025 -0700",
+          "timestamp": 1759968977,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b386bdc"
+        },
+        {
+          "sha": "a42de6a",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 19:38:05 2025 +0000",
+          "timestamp": 1759347485,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/a42de6a"
+        },
+        {
+          "sha": "35ee180",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:53 2025 +0000",
+          "timestamp": 1758744413,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/35ee180"
+        },
+        {
+          "sha": "81f8a50",
+          "message": "devicesettings: Add strings for StylusKeyHandler",
+          "author": "AnierinB",
+          "date": "Tue Sep 9 19:24:02 2025 +0000",
+          "timestamp": 1757445842,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/81f8a50"
+        }
+      ]
+    },
+    {
       "name": "android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8450",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -4580,79 +4661,6 @@
           "date": "Wed Sep 3 13:26:28 2025 -0700",
           "timestamp": 1756931188,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ed1ac84"
-        }
-      ]
-    },
-    {
-      "name": "android_packages_resources_devicesettings",
-      "path": "packages/resources/devicesettings",
-      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
-      "remote": "lineage",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "15f3221",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:02:01 2025 +0000",
-          "timestamp": 1763229721,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/15f3221"
-        },
-        {
-          "sha": "28a3378",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:41 2025 +0000",
-          "timestamp": 1762026521,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/28a3378"
-        },
-        {
-          "sha": "36c8f2e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:26 2025 +0000",
-          "timestamp": 1760577866,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/36c8f2e"
-        },
-        {
-          "sha": "24170ff",
-          "message": "devicesettings: Import doze brightness strings",
-          "author": "basamaryan",
-          "date": "Fri Oct 10 00:31:01 2025 -0700",
-          "timestamp": 1760081461,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/24170ff"
-        },
-        {
-          "sha": "b386bdc",
-          "message": "devicesettings: Import popupcamera strings",
-          "author": "Arian",
-          "date": "Wed Oct 8 17:16:17 2025 -0700",
-          "timestamp": 1759968977,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/b386bdc"
-        },
-        {
-          "sha": "a42de6a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 19:38:05 2025 +0000",
-          "timestamp": 1759347485,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/a42de6a"
-        },
-        {
-          "sha": "35ee180",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:53 2025 +0000",
-          "timestamp": 1758744413,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/35ee180"
-        },
-        {
-          "sha": "81f8a50",
-          "message": "devicesettings: Add strings for StylusKeyHandler",
-          "author": "AnierinB",
-          "date": "Tue Sep 9 19:24:02 2025 +0000",
-          "timestamp": 1757445842,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/81f8a50"
         }
       ]
     },
@@ -4909,63 +4917,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8998/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "717b078",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:04 2025 +0000",
-          "timestamp": 1757258824,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
-        },
-        {
-          "sha": "65a528c",
-          "message": "hal: Convert audio extensions to blueprint",
-          "author": "Michael Bestas",
-          "date": "Tue Sep 2 11:21:55 2025 +0300",
-          "timestamp": 1756801315,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/65a528c"
-        },
-        {
-          "sha": "fafeecc",
-          "message": "hal: Convert primary HAL to blueprint",
-          "author": "Michael Bestas",
-          "date": "Tue Sep 2 11:18:40 2025 +0300",
-          "timestamp": 1756801120,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/fafeecc"
-        },
-        {
-          "sha": "bf78414",
-          "message": "hal: Remove unused libmaxxaudio extension",
-          "author": "Michael Bestas",
-          "date": "Tue Sep 2 11:13:46 2025 +0300",
-          "timestamp": 1756800826,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/bf78414"
-        },
-        {
-          "sha": "05172d9",
-          "message": "hal: Remove feature manager leftovers",
-          "author": "Michael Bestas",
-          "date": "Tue Sep 2 11:13:02 2025 +0300",
-          "timestamp": 1756800782,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/05172d9"
-        },
-        {
-          "sha": "090308b",
-          "message": "audio: Remove all unsupported platforms & flags",
-          "author": "Michael Bestas",
-          "date": "Tue Sep 2 11:11:55 2025 +0300",
-          "timestamp": 1756800715,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/090308b"
-        }
-      ]
-    },
-    {
       "name": "android_tools_extract-utils",
       "path": "tools/extract-utils",
       "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
@@ -5019,63 +4970,6 @@
           "date": "Fri Oct 10 20:58:29 2025 +0300",
           "timestamp": 1760119109,
           "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c7e9116"
-        }
-      ]
-    },
-    {
-      "name": "android_vendor_qcom_opensource_display-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/display",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "remote": "lineage",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "7cbc3cb",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:21 2025 +0200",
-          "timestamp": 1762607781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
-        },
-        {
-          "sha": "7ac4077",
-          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 12 23:41:34 2025 -0700",
-          "timestamp": 1760337694,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
-        },
-        {
-          "sha": "bb1ed10",
-          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Thu Sep 25 23:54:17 2025 -0700",
-          "timestamp": 1758869657,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
-        },
-        {
-          "sha": "8725d4e",
-          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:47 2025 -0700",
-          "timestamp": 1757906027,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
-        },
-        {
-          "sha": "8d5c652",
-          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 8 16:46:11 2025 -0700",
-          "timestamp": 1757375171,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
-        },
-        {
-          "sha": "2e7a285",
-          "message": "snapallocext: Add SnapAlloc Extension AIDL",
-          "author": "prajawal",
-          "date": "Tue Sep 2 17:14:48 2025 -0700",
-          "timestamp": 1756858488,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/2e7a285"
         }
       ]
     },
@@ -5272,6 +5166,55 @@
           "date": "Wed Sep 10 12:18:36 2025 +0800",
           "timestamp": 1757477916,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/e0e9cc5"
+        }
+      ]
+    },
+    {
+      "name": "android_vendor_qcom_opensource_display-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/display",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "remote": "lineage",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "7cbc3cb",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:21 2025 +0200",
+          "timestamp": 1762607781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
+        },
+        {
+          "sha": "7ac4077",
+          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 12 23:41:34 2025 -0700",
+          "timestamp": 1760337694,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
+        },
+        {
+          "sha": "bb1ed10",
+          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Sep 25 23:54:17 2025 -0700",
+          "timestamp": 1758869657,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
+        },
+        {
+          "sha": "8725d4e",
+          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:47 2025 -0700",
+          "timestamp": 1757906027,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
+        },
+        {
+          "sha": "8d5c652",
+          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Sep 8 16:46:11 2025 -0700",
+          "timestamp": 1757375171,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
         }
       ]
     },
@@ -5778,27 +5721,27 @@
       ]
     },
     {
-      "name": "frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/halcyonproject/frameworks_opt_telephony",
-      "remote": "halcyon",
+      "name": "android_vendor_qcom_opensource_fm-commonsys",
+      "path": "vendor/qcom/opensource/commonsys/fm",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
+      "remote": "lineage",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "e11bf83fc",
-          "message": "satellite data service policy fixes",
-          "author": "Nagendra Prasad Nagarle Basavaraju",
-          "date": "Sun Oct 19 12:06:12 2025 +0800",
-          "timestamp": 1760846772,
-          "url": "https://github.com/halcyonproject/frameworks_opt_telephony/commit/e11bf83fc"
+          "sha": "9a0f49d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 14:53:29 2025 +0000",
+          "timestamp": 1764600809,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/9a0f49d"
         },
         {
-          "sha": "0a45ccda7",
-          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
-          "author": "Aishwarya Mallampati",
-          "date": "Sun Oct 19 12:06:11 2025 +0800",
-          "timestamp": 1760846771,
-          "url": "https://github.com/halcyonproject/frameworks_opt_telephony/commit/0a45ccda7"
+          "sha": "635a303",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:07:04 2025 +0000",
+          "timestamp": 1758744424,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/635a303"
         }
       ]
     },
@@ -5824,6 +5767,31 @@
           "date": "Fri Oct 24 20:08:51 2025 +0800",
           "timestamp": 1761307731,
           "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/614bc5f"
+        }
+      ]
+    },
+    {
+      "name": "frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/halcyonproject/frameworks_opt_telephony",
+      "remote": "halcyon",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "e11bf83fc",
+          "message": "satellite data service policy fixes",
+          "author": "Nagendra Prasad Nagarle Basavaraju",
+          "date": "Sun Oct 19 12:06:12 2025 +0800",
+          "timestamp": 1760846772,
+          "url": "https://github.com/halcyonproject/frameworks_opt_telephony/commit/e11bf83fc"
+        },
+        {
+          "sha": "0a45ccda7",
+          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
+          "author": "Aishwarya Mallampati",
+          "date": "Sun Oct 19 12:06:11 2025 +0800",
+          "timestamp": 1760846771,
+          "url": "https://github.com/halcyonproject/frameworks_opt_telephony/commit/0a45ccda7"
         }
       ]
     },
@@ -5916,6 +5884,23 @@
           "date": "Mon Oct 27 20:27:57 2025 +0000",
           "timestamp": 1761596877,
           "url": "https://github.com/LineageOS/android_external_nano/commit/b83fc23"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/msm8998/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "717b078",
+          "message": "hal: audio_extn: Add argument to pthread routines",
+          "author": "danielml",
+          "date": "Sun Sep 7 15:27:04 2025 +0000",
+          "timestamp": 1757258824,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
         }
       ]
     },
@@ -6022,23 +6007,6 @@
       ]
     },
     {
-      "name": "android_vendor_qcom_opensource_fm-commonsys",
-      "path": "vendor/qcom/opensource/commonsys/fm",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "635a303",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:07:04 2025 +0000",
-          "timestamp": 1758744424,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commit/635a303"
-        }
-      ]
-    },
-    {
       "name": "android_vendor_qcom_opensource_vibrator",
       "path": "vendor/qcom/opensource/vibrator",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator",
@@ -6124,6 +6092,23 @@
       ]
     },
     {
+      "name": "packages_apps_ExactCalculator",
+      "path": "packages/apps/ExactCalculator",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_ExactCalculator",
+      "remote": "halcyon",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "988c697",
+          "message": "ExactCalculator: Import new Enchanted icon",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 24 19:57:08 2025 +0800",
+          "timestamp": 1761307028,
+          "url": "https://github.com/halcyonproject/packages_apps_ExactCalculator/commit/988c697"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_Etar",
       "path": "packages/apps/Etar",
       "repo_url": "https://github.com/halcyonproject/packages_apps_Etar",
@@ -6154,23 +6139,6 @@
           "date": "Fri Oct 24 20:12:03 2025 +0800",
           "timestamp": 1761307923,
           "url": "https://github.com/halcyonproject/packages_apps_Dialer/commit/ec07dabe"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_ExactCalculator",
-      "path": "packages/apps/ExactCalculator",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_ExactCalculator",
-      "remote": "halcyon",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "988c697",
-          "message": "ExactCalculator: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 19:57:08 2025 +0800",
-          "timestamp": 1761307028,
-          "url": "https://github.com/halcyonproject/packages_apps_ExactCalculator/commit/988c697"
         }
       ]
     },

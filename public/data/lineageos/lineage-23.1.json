@@ -1,17 +1,17 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-23.1",
-  "generated_at": "2025-12-01T01:42:48.772434+00:00",
-  "since_date": "2025-09-02",
+  "generated_at": "2025-12-02T01:20:38.265171+00:00",
+  "since_date": "2025-09-03",
   "total_projects": 99,
-  "total_commits": 548,
+  "total_commits": 544,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 90,
+      "commit_count": 89,
       "commits": [
         {
           "sha": "1b7a17b",
@@ -724,14 +724,6 @@
           "date": "Wed Sep 3 17:21:38 2025 +0000",
           "timestamp": 1756920098,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/981d713"
-        },
-        {
-          "sha": "10e564b",
-          "message": "wiki: Allow 15 fw for FP5",
-          "author": "Michael Bestas",
-          "date": "Tue Sep 2 15:50:42 2025 +0300",
-          "timestamp": 1756817442,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/10e564b"
         }
       ]
     },
@@ -1855,7 +1847,7 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 25,
+      "commit_count": 24,
       "commits": [
         {
           "sha": "2074512",
@@ -2048,14 +2040,6 @@
           "date": "Thu Sep 4 00:01:29 2025 +0200",
           "timestamp": 1756936889,
           "url": "https://github.com/LineageOS/mirror/commit/1e1e1e0"
-        },
-        {
-          "sha": "111f0d8",
-          "message": "Updated to 02-Sep-2025 10:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Tue Sep 2 12:01:31 2025 +0200",
-          "timestamp": 1756807291,
-          "url": "https://github.com/LineageOS/mirror/commit/111f0d8"
         }
       ]
     },
@@ -2064,7 +2048,7 @@
       "path": "android",
       "repo_url": "https://github.com/LineageOS/android",
       "remote": "github",
-      "commit_count": 16,
+      "commit_count": 15,
       "commits": [
         {
           "sha": "dad1615",
@@ -2185,14 +2169,6 @@
           "date": "Fri Sep 5 06:15:17 2025 +0330",
           "timestamp": 1757040317,
           "url": "https://github.com/LineageOS/android/commit/e804727"
-        },
-        {
-          "sha": "49e5e99",
-          "message": "lineage: Remove Android.mk guard for msm8953",
-          "author": "Yumi Yukimura",
-          "date": "Tue Sep 2 06:08:12 2025 +0000",
-          "timestamp": 1756793292,
-          "url": "https://github.com/LineageOS/android/commit/49e5e99"
         }
       ]
     },
@@ -2958,71 +2934,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/display",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "b5d8740",
-          "message": "composer3: Depend on android.hardware.graphics.common-V7",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 01:03:09 2025 +0200",
-          "timestamp": 1763679789,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/b5d8740"
-        },
-        {
-          "sha": "7cbc3cb",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:21 2025 +0200",
-          "timestamp": 1762607781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
-        },
-        {
-          "sha": "7ac4077",
-          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 12 23:41:34 2025 -0700",
-          "timestamp": 1760337694,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
-        },
-        {
-          "sha": "bb1ed10",
-          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Thu Sep 25 23:54:17 2025 -0700",
-          "timestamp": 1758869657,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
-        },
-        {
-          "sha": "8725d4e",
-          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:47 2025 -0700",
-          "timestamp": 1757906027,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
-        },
-        {
-          "sha": "8d5c652",
-          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 8 16:46:11 2025 -0700",
-          "timestamp": 1757375171,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
-        },
-        {
-          "sha": "2e7a285",
-          "message": "snapallocext: Add SnapAlloc Extension AIDL",
-          "author": "prajawal",
-          "date": "Tue Sep 2 17:14:48 2025 -0700",
-          "timestamp": 1756858488,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/2e7a285"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_bootable_recovery",
       "path": "bootable/recovery",
       "repo_url": "https://github.com/LineageOS/android_bootable_recovery",
@@ -3133,6 +3044,63 @@
           "date": "Sun Sep 7 13:26:06 2025 +0000",
           "timestamp": 1757251566,
           "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/d68c6c9a3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/display",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "b5d8740",
+          "message": "composer3: Depend on android.hardware.graphics.common-V7",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 01:03:09 2025 +0200",
+          "timestamp": 1763679789,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/b5d8740"
+        },
+        {
+          "sha": "7cbc3cb",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:21 2025 +0200",
+          "timestamp": 1762607781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
+        },
+        {
+          "sha": "7ac4077",
+          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 12 23:41:34 2025 -0700",
+          "timestamp": 1760337694,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
+        },
+        {
+          "sha": "bb1ed10",
+          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Sep 25 23:54:17 2025 -0700",
+          "timestamp": 1758869657,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
+        },
+        {
+          "sha": "8725d4e",
+          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:47 2025 -0700",
+          "timestamp": 1757906027,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
+        },
+        {
+          "sha": "8d5c652",
+          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Sep 8 16:46:11 2025 -0700",
+          "timestamp": 1757375171,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
         }
       ]
     },
@@ -4704,23 +4672,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_development",
-      "path": "development",
-      "repo_url": "https://github.com/LineageOS/android_development",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "297af62e",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:15:39 2025 +0200",
-          "timestamp": 1763050539,
-          "url": "https://github.com/LineageOS/android_development/commit/297af62e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_device_google_atv",
       "path": "device/google/atv",
       "repo_url": "https://github.com/LineageOS/android_device_google_atv",
@@ -4734,6 +4685,23 @@
           "date": "Thu Nov 13 18:15:51 2025 +0200",
           "timestamp": 1763050551,
           "url": "https://github.com/LineageOS/android_device_google_atv/commit/0a2777e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_development",
+      "path": "development",
+      "repo_url": "https://github.com/LineageOS/android_development",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "297af62e",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:15:39 2025 +0200",
+          "timestamp": 1763050539,
+          "url": "https://github.com/LineageOS/android_development/commit/297af62e"
         }
       ]
     },
@@ -4789,23 +4757,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_zstd",
-      "path": "external/zstd",
-      "repo_url": "https://github.com/LineageOS/android_external_zstd",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "614a5b7f",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 02:15:24 2025 +0200",
-          "timestamp": 1763684124,
-          "url": "https://github.com/LineageOS/android_external_zstd/commit/614a5b7f"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_frameworks_libs_systemui",
       "path": "frameworks/libs/systemui",
       "repo_url": "https://github.com/LineageOS/android_frameworks_libs_systemui",
@@ -4819,6 +4770,23 @@
           "date": "Thu Nov 13 18:16:41 2025 +0200",
           "timestamp": 1763050601,
           "url": "https://github.com/LineageOS/android_frameworks_libs_systemui/commit/f00e19e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_zstd",
+      "path": "external/zstd",
+      "repo_url": "https://github.com/LineageOS/android_external_zstd",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "614a5b7f",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 02:15:24 2025 +0200",
+          "timestamp": 1763684124,
+          "url": "https://github.com/LineageOS/android_external_zstd/commit/614a5b7f"
         }
       ]
     },
@@ -4908,23 +4876,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_st_nfc",
-      "path": "hardware/st/nfc",
-      "repo_url": "https://github.com/LineageOS/android_hardware_st_nfc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fe2f6b5",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:09 2025 +0200",
-          "timestamp": 1763050629,
-          "url": "https://github.com/LineageOS/android_hardware_st_nfc/commit/fe2f6b5"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_wlan",
       "path": "hardware/qcom/wlan",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
@@ -4938,6 +4889,23 @@
           "date": "Thu Nov 13 18:17:05 2025 +0200",
           "timestamp": 1763050625,
           "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/a1736a6"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_st_nfc",
+      "path": "hardware/st/nfc",
+      "repo_url": "https://github.com/LineageOS/android_hardware_st_nfc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "fe2f6b5",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:09 2025 +0200",
+          "timestamp": 1763050629,
+          "url": "https://github.com/LineageOS/android_hardware_st_nfc/commit/fe2f6b5"
         }
       ]
     },
@@ -5146,23 +5114,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_keymaster",
-      "path": "system/keymaster",
-      "repo_url": "https://github.com/LineageOS/android_system_keymaster",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "292a59f",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:19:19 2025 +0200",
-          "timestamp": 1763050759,
-          "url": "https://github.com/LineageOS/android_system_keymaster/commit/292a59f"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_system_chre",
       "path": "system/chre",
       "repo_url": "https://github.com/LineageOS/android_system_chre",
@@ -5176,6 +5127,23 @@
           "date": "Thu Nov 13 18:19:13 2025 +0200",
           "timestamp": 1763050753,
           "url": "https://github.com/LineageOS/android_system_chre/commit/c1f9880"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_keymaster",
+      "path": "system/keymaster",
+      "repo_url": "https://github.com/LineageOS/android_system_keymaster",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "292a59f",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:19:19 2025 +0200",
+          "timestamp": 1763050759,
+          "url": "https://github.com/LineageOS/android_system_keymaster/commit/292a59f"
         }
       ]
     },
