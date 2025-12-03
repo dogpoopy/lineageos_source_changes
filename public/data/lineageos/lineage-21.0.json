@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-21.0",
-  "generated_at": "2025-12-02T01:18:39.734653+00:00",
-  "since_date": "2025-09-03",
+  "generated_at": "2025-12-03T01:19:12.056377+00:00",
+  "since_date": "2025-09-04",
   "total_projects": 54,
-  "total_commits": 293,
+  "total_commits": 294,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
@@ -13,6 +13,14 @@
       "remote": "github",
       "commit_count": 89,
       "commits": [
+        {
+          "sha": "9aec8e0",
+          "message": "wiki: CC 9 -> CC9",
+          "author": "LuK1337",
+          "date": "Tue Dec 2 21:57:40 2025 +0100",
+          "timestamp": 1764709060,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9aec8e0"
+        },
         {
           "sha": "1b7a17b",
           "message": "wiki: Require dtbo flash for enchilada and fajita",
@@ -716,14 +724,6 @@
           "date": "Sat Sep 6 04:54:14 2025 +0000",
           "timestamp": 1757134454,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/3b8fdaa"
-        },
-        {
-          "sha": "981d713",
-          "message": "gtowifi: align installation and firmware update steps with gts4lv",
-          "author": "Han Sol Jin",
-          "date": "Wed Sep 3 17:21:38 2025 +0000",
-          "timestamp": 1756920098,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/981d713"
         }
       ]
     },
@@ -732,8 +732,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 40,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "772ac75",
+          "message": "CC 9 -> CC9",
+          "author": "LuK1337",
+          "date": "Tue Dec 2 21:58:23 2025 +0100",
+          "timestamp": 1764709103,
+          "url": "https://github.com/LineageOS/hudson/commit/772ac75"
+        },
         {
           "sha": "fadc405",
           "message": "Regenerate device dependency mappings",
@@ -1281,6 +1289,14 @@
       "commit_count": 24,
       "commits": [
         {
+          "sha": "067ad91",
+          "message": "Updated aosp-minimal to 02-Dec-2025 23:02 UTC",
+          "author": "Tim Schumacher",
+          "date": "Wed Dec 3 00:02:04 2025 +0100",
+          "timestamp": 1764716524,
+          "url": "https://github.com/LineageOS/mirror/commit/067ad91"
+        },
+        {
           "sha": "2074512",
           "message": "Updated to 25-Nov-2025 11:01 UTC",
           "author": "Tim Schumacher",
@@ -1463,14 +1479,6 @@
           "date": "Fri Sep 5 00:01:35 2025 +0200",
           "timestamp": 1757023295,
           "url": "https://github.com/LineageOS/mirror/commit/165bd19"
-        },
-        {
-          "sha": "1e1e1e0",
-          "message": "Updated to 03-Sep-2025 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Thu Sep 4 00:01:29 2025 +0200",
-          "timestamp": 1756936889,
-          "url": "https://github.com/LineageOS/mirror/commit/1e1e1e0"
         }
       ]
     },
@@ -1842,39 +1850,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
-        },
-        {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
-        },
-        {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
       "path": "external/chromium-webview/prebuilt/arm",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
@@ -1904,6 +1879,39 @@
           "date": "Sat Sep 27 08:22:39 2025 -0600",
           "timestamp": 1758982959,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        },
+        {
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+        },
+        {
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
         }
       ]
     },
@@ -2238,31 +2246,6 @@
       ]
     },
     {
-      "name": "LineageOS/android",
-      "path": "android",
-      "repo_url": "https://github.com/LineageOS/android",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "4f7378e",
-          "message": "manifest: Track vendor/apn",
-          "author": "LuK1337",
-          "date": "Wed Nov 12 04:31:30 2025 +0000",
-          "timestamp": 1762921890,
-          "url": "https://github.com/LineageOS/android/commit/4f7378e"
-        },
-        {
-          "sha": "5e90f90",
-          "message": "Track our own forks for 2025-09 ASB patching",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Sep 11 06:23:45 2025 -0600",
-          "timestamp": 1757593425,
-          "url": "https://github.com/LineageOS/android/commit/5e90f90"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_build_release",
       "path": "build/release",
       "repo_url": "https://github.com/LineageOS/android_build_release",
@@ -2284,6 +2267,31 @@
           "date": "Sun Sep 21 10:19:01 2025 -0600",
           "timestamp": 1758471541,
           "url": "https://github.com/LineageOS/android_build_release/commit/0fa59ff"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android",
+      "path": "android",
+      "repo_url": "https://github.com/LineageOS/android",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "4f7378e",
+          "message": "manifest: Track vendor/apn",
+          "author": "LuK1337",
+          "date": "Wed Nov 12 04:31:30 2025 +0000",
+          "timestamp": 1762921890,
+          "url": "https://github.com/LineageOS/android/commit/4f7378e"
+        },
+        {
+          "sha": "5e90f90",
+          "message": "Track our own forks for 2025-09 ASB patching",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Sep 11 06:23:45 2025 -0600",
+          "timestamp": 1757593425,
+          "url": "https://github.com/LineageOS/android/commit/5e90f90"
         }
       ]
     },
@@ -2388,31 +2396,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_resources_devicesettings",
-      "path": "packages/resources/devicesettings",
-      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "fe1ec8a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 20:08:55 2025 +0000",
-          "timestamp": 1764619735,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/fe1ec8a"
-        },
-        {
-          "sha": "6f0fa18",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 15:15:59 2025 +0000",
-          "timestamp": 1757949359,
-          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/6f0fa18"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_modules_Bluetooth",
       "path": "packages/modules/Bluetooth",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_Bluetooth",
@@ -2434,6 +2417,31 @@
           "date": "Thu Sep 11 06:20:45 2025 -0600",
           "timestamp": 1757593245,
           "url": "https://github.com/LineageOS/android_packages_modules_Bluetooth/commit/22fd7e7ba"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_resources_devicesettings",
+      "path": "packages/resources/devicesettings",
+      "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "fe1ec8a",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 20:08:55 2025 +0000",
+          "timestamp": 1764619735,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/fe1ec8a"
+        },
+        {
+          "sha": "6f0fa18",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 15:15:59 2025 +0000",
+          "timestamp": 1757949359,
+          "url": "https://github.com/LineageOS/android_packages_resources_devicesettings/commit/6f0fa18"
         }
       ]
     },
@@ -2565,23 +2573,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Contacts",
-      "path": "packages/apps/Contacts",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Contacts",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d8d393f",
-          "message": "Merge tag 'android-security-14.0.0_r22' into staging/lineage-21.0_android-security-14.0.0_r22",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Sep 11 06:09:06 2025 -0600",
-          "timestamp": 1757592546,
-          "url": "https://github.com/LineageOS/android_packages_apps_Contacts/commit/d8d393f"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Car_Settings",
       "path": "packages/apps/Car/Settings",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Car_Settings",
@@ -2595,6 +2586,23 @@
           "date": "Mon Dec 1 20:08:49 2025 +0000",
           "timestamp": 1764619729,
           "url": "https://github.com/LineageOS/android_packages_apps_Car_Settings/commit/00744df3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Contacts",
+      "path": "packages/apps/Contacts",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Contacts",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d8d393f",
+          "message": "Merge tag 'android-security-14.0.0_r22' into staging/lineage-21.0_android-security-14.0.0_r22",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Sep 11 06:09:06 2025 -0600",
+          "timestamp": 1757592546,
+          "url": "https://github.com/LineageOS/android_packages_apps_Contacts/commit/d8d393f"
         }
       ]
     },
@@ -2718,6 +2726,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_Trebuchet",
+      "path": "packages/apps/Trebuchet",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Trebuchet",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "af0e0a067",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 21:52:19 2025 +0000",
+          "timestamp": 1759355539,
+          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/af0e0a067"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_modules_CellBroadcastService",
       "path": "packages/modules/CellBroadcastService",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_CellBroadcastService",
@@ -2748,23 +2773,6 @@
           "date": "Thu Sep 11 06:35:40 2025 -0600",
           "timestamp": 1757594140,
           "url": "https://github.com/LineageOS/android_packages_modules_IntentResolver/commit/123e9ef"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_apps_Trebuchet",
-      "path": "packages/apps/Trebuchet",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Trebuchet",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "af0e0a067",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 21:52:19 2025 +0000",
-          "timestamp": 1759355539,
-          "url": "https://github.com/LineageOS/android_packages_apps_Trebuchet/commit/af0e0a067"
         }
       ]
     },

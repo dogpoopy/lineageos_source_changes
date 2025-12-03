@@ -1,10 +1,10 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-23.1",
-  "generated_at": "2025-12-02T01:20:38.265171+00:00",
-  "since_date": "2025-09-03",
-  "total_projects": 99,
-  "total_commits": 544,
+  "generated_at": "2025-12-03T01:21:59.617313+00:00",
+  "since_date": "2025-09-04",
+  "total_projects": 100,
+  "total_commits": 548,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
@@ -13,6 +13,14 @@
       "remote": "github",
       "commit_count": 89,
       "commits": [
+        {
+          "sha": "9aec8e0",
+          "message": "wiki: CC 9 -> CC9",
+          "author": "LuK1337",
+          "date": "Tue Dec 2 21:57:40 2025 +0100",
+          "timestamp": 1764709060,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9aec8e0"
+        },
         {
           "sha": "1b7a17b",
           "message": "wiki: Require dtbo flash for enchilada and fajita",
@@ -716,14 +724,6 @@
           "date": "Sat Sep 6 04:54:14 2025 +0000",
           "timestamp": 1757134454,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/3b8fdaa"
-        },
-        {
-          "sha": "981d713",
-          "message": "gtowifi: align installation and firmware update steps with gts4lv",
-          "author": "Han Sol Jin",
-          "date": "Wed Sep 3 17:21:38 2025 +0000",
-          "timestamp": 1756920098,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/981d713"
         }
       ]
     },
@@ -732,7 +732,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 50,
+      "commit_count": 49,
       "commits": [
         {
           "sha": "029a166",
@@ -1125,14 +1125,6 @@
           "date": "Thu Sep 4 14:36:18 2025 +0530",
           "timestamp": 1756976778,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c00abdb"
-        },
-        {
-          "sha": "2071a22",
-          "message": "sepolicy: Allow graphics service access to vendor_sys_nonsp_comp",
-          "author": "Rahul Karna L K",
-          "date": "Wed Sep 3 03:35:22 2025 -0700",
-          "timestamp": 1756895722,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2071a22"
         }
       ]
     },
@@ -1518,8 +1510,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 40,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "772ac75",
+          "message": "CC 9 -> CC9",
+          "author": "LuK1337",
+          "date": "Tue Dec 2 21:58:23 2025 +0100",
+          "timestamp": 1764709103,
+          "url": "https://github.com/LineageOS/hudson/commit/772ac75"
+        },
         {
           "sha": "fadc405",
           "message": "Regenerate device dependency mappings",
@@ -1850,6 +1850,14 @@
       "commit_count": 24,
       "commits": [
         {
+          "sha": "067ad91",
+          "message": "Updated aosp-minimal to 02-Dec-2025 23:02 UTC",
+          "author": "Tim Schumacher",
+          "date": "Wed Dec 3 00:02:04 2025 +0100",
+          "timestamp": 1764716524,
+          "url": "https://github.com/LineageOS/mirror/commit/067ad91"
+        },
+        {
           "sha": "2074512",
           "message": "Updated to 25-Nov-2025 11:01 UTC",
           "author": "Tim Schumacher",
@@ -2032,14 +2040,6 @@
           "date": "Fri Sep 5 00:01:35 2025 +0200",
           "timestamp": 1757023295,
           "url": "https://github.com/LineageOS/mirror/commit/165bd19"
-        },
-        {
-          "sha": "1e1e1e0",
-          "message": "Updated to 03-Sep-2025 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Thu Sep 4 00:01:29 2025 +0200",
-          "timestamp": 1756936889,
-          "url": "https://github.com/LineageOS/mirror/commit/1e1e1e0"
         }
       ]
     },
@@ -2464,95 +2464,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8550",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "github",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "6244b3a",
-          "message": "Revert \"sepolicy_vndr: Allow init/vendor_init to write proc firmware config\"",
-          "author": "Bruno Martins",
-          "date": "Sat Nov 29 16:27:19 2025 +0200",
-          "timestamp": 1764426439,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6244b3a"
-        },
-        {
-          "sha": "7c01b10",
-          "message": "Revert \"sepolicy_vndr: Label proc firmware config node\"",
-          "author": "Bruno Martins",
-          "date": "Sat Nov 29 16:27:19 2025 +0200",
-          "timestamp": 1764426439,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/7c01b10"
-        },
-        {
-          "sha": "08e84aa",
-          "message": "sepolicy: Label SEC NFC device & HAL",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 16:27:19 2025 +0200",
-          "timestamp": 1764426439,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/08e84aa"
-        },
-        {
-          "sha": "c2a16e9",
-          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
-          "author": "Ankit Lathiya",
-          "date": "Fri Nov 21 07:21:44 2025 +0530",
-          "timestamp": 1763689904,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c2a16e9"
-        },
-        {
-          "sha": "805c088",
-          "message": "qva: Label AOSP ST NFC HAL",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 11:28:35 2025 +0200",
-          "timestamp": 1762680515,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/805c088"
-        },
-        {
-          "sha": "45e6960",
-          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:15 2025 +0200",
-          "timestamp": 1762608255,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/45e6960"
-        },
-        {
-          "sha": "2894ee5",
-          "message": "NFC: ST: Add the AIDL HAL service",
-          "author": "Devendar Gali",
-          "date": "Wed Oct 29 00:29:44 2025 +0000",
-          "timestamp": 1761697784,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2894ee5"
-        },
-        {
-          "sha": "faf9987",
-          "message": "generic: Allow init write to discard_max_bytes",
-          "author": "dianlujitao",
-          "date": "Fri Sep 19 23:07:05 2025 +0100",
-          "timestamp": 1758319625,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/faf9987"
-        },
-        {
-          "sha": "96bc63b",
-          "message": "generic: Label discard_max_bytes sysfs",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 19 23:07:05 2025 +0100",
-          "timestamp": 1758319625,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/96bc63b"
-        },
-        {
-          "sha": "ed1ac84",
-          "message": "Merge 3aa19baac92e7bfa3f6373c33aa1492d747c4879 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 3 13:26:28 2025 -0700",
-          "timestamp": 1756931188,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ed1ac84"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_LineageParts",
       "path": "packages/apps/LineageParts",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_LineageParts",
@@ -2638,6 +2549,87 @@
           "date": "Wed Sep 24 20:06:45 2025 +0000",
           "timestamp": 1758744405,
           "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/8e4f963"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8550",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "github",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "6244b3a",
+          "message": "Revert \"sepolicy_vndr: Allow init/vendor_init to write proc firmware config\"",
+          "author": "Bruno Martins",
+          "date": "Sat Nov 29 16:27:19 2025 +0200",
+          "timestamp": 1764426439,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/6244b3a"
+        },
+        {
+          "sha": "7c01b10",
+          "message": "Revert \"sepolicy_vndr: Label proc firmware config node\"",
+          "author": "Bruno Martins",
+          "date": "Sat Nov 29 16:27:19 2025 +0200",
+          "timestamp": 1764426439,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/7c01b10"
+        },
+        {
+          "sha": "08e84aa",
+          "message": "sepolicy: Label SEC NFC device & HAL",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 16:27:19 2025 +0200",
+          "timestamp": 1764426439,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/08e84aa"
+        },
+        {
+          "sha": "c2a16e9",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Fri Nov 21 07:21:44 2025 +0530",
+          "timestamp": 1763689904,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c2a16e9"
+        },
+        {
+          "sha": "805c088",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:28:35 2025 +0200",
+          "timestamp": 1762680515,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/805c088"
+        },
+        {
+          "sha": "45e6960",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:15 2025 +0200",
+          "timestamp": 1762608255,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/45e6960"
+        },
+        {
+          "sha": "2894ee5",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Wed Oct 29 00:29:44 2025 +0000",
+          "timestamp": 1761697784,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2894ee5"
+        },
+        {
+          "sha": "faf9987",
+          "message": "generic: Allow init write to discard_max_bytes",
+          "author": "dianlujitao",
+          "date": "Fri Sep 19 23:07:05 2025 +0100",
+          "timestamp": 1758319625,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/faf9987"
+        },
+        {
+          "sha": "96bc63b",
+          "message": "generic: Label discard_max_bytes sysfs",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 19 23:07:05 2025 +0100",
+          "timestamp": 1758319625,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/96bc63b"
         }
       ]
     },
@@ -2869,71 +2861,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/LineageOS/android_build_soong",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "89d78cff",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:34:32 2025 +0200",
-          "timestamp": 1763667272,
-          "url": "https://github.com/LineageOS/android_build_soong/commit/89d78cff"
-        },
-        {
-          "sha": "06b3fec9",
-          "message": "Revert \"install_symlink: Make symlink target configurable\"",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:34:10 2025 +0200",
-          "timestamp": 1763667250,
-          "url": "https://github.com/LineageOS/android_build_soong/commit/06b3fec9"
-        },
-        {
-          "sha": "e4ce33d0",
-          "message": "Reapply \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:34:09 2025 +0200",
-          "timestamp": 1763667249,
-          "url": "https://github.com/LineageOS/android_build_soong/commit/e4ce33d0"
-        },
-        {
-          "sha": "388f8209",
-          "message": "Revert \"rust: config: Fix missing CPU variant LD flags in Rust\"",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:34:08 2025 +0200",
-          "timestamp": 1763667248,
-          "url": "https://github.com/LineageOS/android_build_soong/commit/388f8209"
-        },
-        {
-          "sha": "cff28f53",
-          "message": "Revert \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
-          "author": "Colin Cross",
-          "date": "Mon Oct 27 22:57:34 2025 +0000",
-          "timestamp": 1761605854,
-          "url": "https://github.com/LineageOS/android_build_soong/commit/cff28f53"
-        },
-        {
-          "sha": "a70b1599",
-          "message": "Revert \"Remove perl from the allowed PATH tools list\"",
-          "author": "Aaron Kling",
-          "date": "Fri Sep 5 22:03:59 2025 +0000",
-          "timestamp": 1757109839,
-          "url": "https://github.com/LineageOS/android_build_soong/commit/a70b1599"
-        },
-        {
-          "sha": "ea1c6d4f",
-          "message": "rust: config: Fix missing CPU variant LD flags in Rust",
-          "author": "Artem Karavashkin",
-          "date": "Wed Sep 3 16:59:58 2025 +0200",
-          "timestamp": 1756911598,
-          "url": "https://github.com/LineageOS/android_build_soong/commit/ea1c6d4f"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_bootable_recovery",
       "path": "bootable/recovery",
       "repo_url": "https://github.com/LineageOS/android_bootable_recovery",
@@ -2987,6 +2914,63 @@
           "date": "Thu Sep 11 14:20:13 2025 +0530",
           "timestamp": 1757580613,
           "url": "https://github.com/LineageOS/android_bootable_recovery/commit/1d86e11"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/LineageOS/android_build_soong",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "89d78cff",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:34:32 2025 +0200",
+          "timestamp": 1763667272,
+          "url": "https://github.com/LineageOS/android_build_soong/commit/89d78cff"
+        },
+        {
+          "sha": "06b3fec9",
+          "message": "Revert \"install_symlink: Make symlink target configurable\"",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:34:10 2025 +0200",
+          "timestamp": 1763667250,
+          "url": "https://github.com/LineageOS/android_build_soong/commit/06b3fec9"
+        },
+        {
+          "sha": "e4ce33d0",
+          "message": "Reapply \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:34:09 2025 +0200",
+          "timestamp": 1763667249,
+          "url": "https://github.com/LineageOS/android_build_soong/commit/e4ce33d0"
+        },
+        {
+          "sha": "388f8209",
+          "message": "Revert \"rust: config: Fix missing CPU variant LD flags in Rust\"",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:34:08 2025 +0200",
+          "timestamp": 1763667248,
+          "url": "https://github.com/LineageOS/android_build_soong/commit/388f8209"
+        },
+        {
+          "sha": "cff28f53",
+          "message": "Revert \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
+          "author": "Colin Cross",
+          "date": "Mon Oct 27 22:57:34 2025 +0000",
+          "timestamp": 1761605854,
+          "url": "https://github.com/LineageOS/android_build_soong/commit/cff28f53"
+        },
+        {
+          "sha": "a70b1599",
+          "message": "Revert \"Remove perl from the allowed PATH tools list\"",
+          "author": "Aaron Kling",
+          "date": "Fri Sep 5 22:03:59 2025 +0000",
+          "timestamp": 1757109839,
+          "url": "https://github.com/LineageOS/android_build_soong/commit/a70b1599"
         }
       ]
     },
@@ -3366,6 +3350,55 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_FlipFlap",
+      "path": "packages/apps/FlipFlap",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "ad95b58",
+          "message": "FlipFlap: Bring in M3E support",
+          "author": "Bruno Martins",
+          "date": "Tue Dec 2 19:00:49 2025 +0000",
+          "timestamp": 1764702049,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/ad95b58"
+        },
+        {
+          "sha": "34ec40c",
+          "message": "FlipFlap: Use new method to listen for preference changes",
+          "author": "Bruno Martins",
+          "date": "Tue Dec 2 18:57:20 2025 +0000",
+          "timestamp": 1764701840,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/34ec40c"
+        },
+        {
+          "sha": "33302c5",
+          "message": "FlipFlap: Convert to SwitchPreferenceCompat",
+          "author": "Michael Bestas",
+          "date": "Tue Dec 2 16:12:05 2025 +0000",
+          "timestamp": 1764691925,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/33302c5"
+        },
+        {
+          "sha": "8351110",
+          "message": "FlipFlap: Move to PreferenceFragmentCompat",
+          "author": "AnierinB",
+          "date": "Tue Dec 2 16:11:58 2025 +0000",
+          "timestamp": 1764691918,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/8351110"
+        },
+        {
+          "sha": "dd49d55",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_modules_Wifi",
       "path": "packages/modules/Wifi",
       "repo_url": "https://github.com/LineageOS/android_packages_modules_Wifi",
@@ -3456,47 +3489,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_frameworks_native",
-      "path": "frameworks/native",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_native",
-      "remote": "github",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "4aa5dfd85",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 08:57:10 2025 +0200",
-          "timestamp": 1763103430,
-          "url": "https://github.com/LineageOS/android_frameworks_native/commit/4aa5dfd85"
-        },
-        {
-          "sha": "4c953eac8",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Thu Sep 25 20:51:45 2025 +0530",
-          "timestamp": 1758813705,
-          "url": "https://github.com/LineageOS/android_frameworks_native/commit/4c953eac8"
-        },
-        {
-          "sha": "9297ad6a6",
-          "message": "Turn off synthetic VSYNC when adjusting thread scheduling for performance",
-          "author": "Dennis Kiilerich",
-          "date": "Thu Sep 25 20:43:53 2025 +0530",
-          "timestamp": 1758813233,
-          "url": "https://github.com/LineageOS/android_frameworks_native/commit/9297ad6a6"
-        },
-        {
-          "sha": "c6b508972",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/native into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 17:54:12 2025 +0300",
-          "timestamp": 1757688852,
-          "url": "https://github.com/LineageOS/android_frameworks_native/commit/c6b508972"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_frameworks_opt_telephony",
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
@@ -3534,6 +3526,47 @@
           "date": "Fri Sep 12 17:54:54 2025 +0300",
           "timestamp": 1757688894,
           "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44377e2d7"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_native",
+      "path": "frameworks/native",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_native",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "4aa5dfd85",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 08:57:10 2025 +0200",
+          "timestamp": 1763103430,
+          "url": "https://github.com/LineageOS/android_frameworks_native/commit/4aa5dfd85"
+        },
+        {
+          "sha": "4c953eac8",
+          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
+          "author": "Dennis Kiilerich",
+          "date": "Thu Sep 25 20:51:45 2025 +0530",
+          "timestamp": 1758813705,
+          "url": "https://github.com/LineageOS/android_frameworks_native/commit/4c953eac8"
+        },
+        {
+          "sha": "9297ad6a6",
+          "message": "Turn off synthetic VSYNC when adjusting thread scheduling for performance",
+          "author": "Dennis Kiilerich",
+          "date": "Thu Sep 25 20:43:53 2025 +0530",
+          "timestamp": 1758813233,
+          "url": "https://github.com/LineageOS/android_frameworks_native/commit/9297ad6a6"
+        },
+        {
+          "sha": "c6b508972",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/native into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 17:54:12 2025 +0300",
+          "timestamp": 1757688852,
+          "url": "https://github.com/LineageOS/android_frameworks_native/commit/c6b508972"
         }
       ]
     },
@@ -4288,27 +4321,27 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Dialer",
-      "path": "packages/apps/Dialer",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Dialer",
+      "name": "LineageOS/android_packages_apps_CellBroadcastReceiver",
+      "path": "packages/apps/CellBroadcastReceiver",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver",
       "remote": "github",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "7ee3fd58",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "sha": "4c3f17af",
+          "message": "Reapply \"[US] Bypass DND for critical alerts and provide toggle for overriding DND\"",
           "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:24 2025 +0200",
-          "timestamp": 1763050644,
-          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/7ee3fd58"
+          "date": "Fri Nov 14 08:28:40 2025 +0200",
+          "timestamp": 1763101720,
+          "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/4c3f17af"
         },
         {
-          "sha": "a2c61d62",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:41 2025 +0000",
-          "timestamp": 1758744401,
-          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/a2c61d62"
+          "sha": "eb141abb",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:20 2025 +0200",
+          "timestamp": 1763050640,
+          "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/eb141abb"
         }
       ]
     },
@@ -4338,27 +4371,27 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_CellBroadcastReceiver",
-      "path": "packages/apps/CellBroadcastReceiver",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver",
+      "name": "LineageOS/android_packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Dialer",
       "remote": "github",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "4c3f17af",
-          "message": "Reapply \"[US] Bypass DND for critical alerts and provide toggle for overriding DND\"",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 08:28:40 2025 +0200",
-          "timestamp": 1763101720,
-          "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/4c3f17af"
-        },
-        {
-          "sha": "eb141abb",
+          "sha": "7ee3fd58",
           "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
           "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:20 2025 +0200",
-          "timestamp": 1763050640,
-          "url": "https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver/commit/eb141abb"
+          "date": "Thu Nov 13 18:17:24 2025 +0200",
+          "timestamp": 1763050644,
+          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/7ee3fd58"
+        },
+        {
+          "sha": "a2c61d62",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:41 2025 +0000",
+          "timestamp": 1758744401,
+          "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/a2c61d62"
         }
       ]
     },
@@ -4488,31 +4521,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_services_Mms",
-      "path": "packages/services/Mms",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_Mms",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "ee1f655",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:18:58 2025 +0200",
-          "timestamp": 1763050738,
-          "url": "https://github.com/LineageOS/android_packages_services_Mms/commit/ee1f655"
-        },
-        {
-          "sha": "401f873",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:53 2025 +0000",
-          "timestamp": 1758744413,
-          "url": "https://github.com/LineageOS/android_packages_services_Mms/commit/401f873"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_providers_MediaProvider",
       "path": "packages/providers/MediaProvider",
       "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
@@ -4534,6 +4542,31 @@
           "date": "Fri Sep 12 18:00:27 2025 +0300",
           "timestamp": 1757689227,
           "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/0138b508f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_services_Mms",
+      "path": "packages/services/Mms",
+      "repo_url": "https://github.com/LineageOS/android_packages_services_Mms",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "ee1f655",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:18:58 2025 +0200",
+          "timestamp": 1763050738,
+          "url": "https://github.com/LineageOS/android_packages_services_Mms/commit/ee1f655"
+        },
+        {
+          "sha": "401f873",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:53 2025 +0000",
+          "timestamp": 1758744413,
+          "url": "https://github.com/LineageOS/android_packages_services_Mms/commit/401f873"
         }
       ]
     },
@@ -4588,31 +4621,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_media",
-      "path": "system/media",
-      "repo_url": "https://github.com/LineageOS/android_system_media",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "ac4cefe",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 20:51:23 2025 +0200",
-          "timestamp": 1763664683,
-          "url": "https://github.com/LineageOS/android_system_media/commit/ac4cefe"
-        },
-        {
-          "sha": "e112072",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Sun Nov 16 10:55:27 2025 +0100",
-          "timestamp": 1763286927,
-          "url": "https://github.com/LineageOS/android_system_media/commit/e112072"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_services_Car",
       "path": "packages/services/Car",
       "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
@@ -4634,6 +4642,56 @@
           "date": "Thu Oct 16 19:54:14 2025 -0400",
           "timestamp": 1760658854,
           "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_logging",
+      "path": "system/logging",
+      "repo_url": "https://github.com/LineageOS/android_system_logging",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "1c9f545",
+          "message": "logd: Use build time debuggable check for klogd_default",
+          "author": "LuK1337",
+          "date": "Tue Dec 2 22:52:58 2025 +0100",
+          "timestamp": 1764712378,
+          "url": "https://github.com/LineageOS/android_system_logging/commit/1c9f545"
+        },
+        {
+          "sha": "06e94c8",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:19:26 2025 +0200",
+          "timestamp": 1763050766,
+          "url": "https://github.com/LineageOS/android_system_logging/commit/06e94c8"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/LineageOS/android_system_media",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "ac4cefe",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 20:51:23 2025 +0200",
+          "timestamp": 1763664683,
+          "url": "https://github.com/LineageOS/android_system_media/commit/ac4cefe"
+        },
+        {
+          "sha": "e112072",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Sun Nov 16 10:55:27 2025 +0100",
+          "timestamp": 1763286927,
+          "url": "https://github.com/LineageOS/android_system_media/commit/e112072"
         }
       ]
     },
@@ -4672,23 +4730,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_google_atv",
-      "path": "device/google/atv",
-      "repo_url": "https://github.com/LineageOS/android_device_google_atv",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0a2777e",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:15:51 2025 +0200",
-          "timestamp": 1763050551,
-          "url": "https://github.com/LineageOS/android_device_google_atv/commit/0a2777e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_development",
       "path": "development",
       "repo_url": "https://github.com/LineageOS/android_development",
@@ -4702,6 +4743,23 @@
           "date": "Thu Nov 13 18:15:39 2025 +0200",
           "timestamp": 1763050539,
           "url": "https://github.com/LineageOS/android_development/commit/297af62e"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_google_atv",
+      "path": "device/google/atv",
+      "repo_url": "https://github.com/LineageOS/android_device_google_atv",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0a2777e",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:15:51 2025 +0200",
+          "timestamp": 1763050551,
+          "url": "https://github.com/LineageOS/android_device_google_atv/commit/0a2777e"
         }
       ]
     },
@@ -4757,23 +4815,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_frameworks_libs_systemui",
-      "path": "frameworks/libs/systemui",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_libs_systemui",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f00e19e",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:16:41 2025 +0200",
-          "timestamp": 1763050601,
-          "url": "https://github.com/LineageOS/android_frameworks_libs_systemui/commit/f00e19e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_zstd",
       "path": "external/zstd",
       "repo_url": "https://github.com/LineageOS/android_external_zstd",
@@ -4787,6 +4828,23 @@
           "date": "Fri Nov 21 02:15:24 2025 +0200",
           "timestamp": 1763684124,
           "url": "https://github.com/LineageOS/android_external_zstd/commit/614a5b7f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_libs_systemui",
+      "path": "frameworks/libs/systemui",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_libs_systemui",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f00e19e",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:16:41 2025 +0200",
+          "timestamp": 1763050601,
+          "url": "https://github.com/LineageOS/android_frameworks_libs_systemui/commit/f00e19e"
         }
       ]
     },
@@ -4859,23 +4917,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_samsung_nfc",
-      "path": "hardware/samsung/nfc",
-      "repo_url": "https://github.com/LineageOS/android_hardware_samsung_nfc",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "51a2049",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:07 2025 +0200",
-          "timestamp": 1763050627,
-          "url": "https://github.com/LineageOS/android_hardware_samsung_nfc/commit/51a2049"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_wlan",
       "path": "hardware/qcom/wlan",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
@@ -4889,6 +4930,23 @@
           "date": "Thu Nov 13 18:17:05 2025 +0200",
           "timestamp": 1763050625,
           "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/a1736a6"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_samsung_nfc",
+      "path": "hardware/samsung/nfc",
+      "repo_url": "https://github.com/LineageOS/android_hardware_samsung_nfc",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "51a2049",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:07 2025 +0200",
+          "timestamp": 1763050627,
+          "url": "https://github.com/LineageOS/android_hardware_samsung_nfc/commit/51a2049"
         }
       ]
     },
@@ -5114,23 +5172,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_chre",
-      "path": "system/chre",
-      "repo_url": "https://github.com/LineageOS/android_system_chre",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c1f9880",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:19:13 2025 +0200",
-          "timestamp": 1763050753,
-          "url": "https://github.com/LineageOS/android_system_chre/commit/c1f9880"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_system_keymaster",
       "path": "system/keymaster",
       "repo_url": "https://github.com/LineageOS/android_system_keymaster",
@@ -5144,6 +5185,23 @@
           "date": "Thu Nov 13 18:19:19 2025 +0200",
           "timestamp": 1763050759,
           "url": "https://github.com/LineageOS/android_system_keymaster/commit/292a59f"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_system_chre",
+      "path": "system/chre",
+      "repo_url": "https://github.com/LineageOS/android_system_chre",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c1f9880",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:19:13 2025 +0200",
+          "timestamp": 1763050753,
+          "url": "https://github.com/LineageOS/android_system_chre/commit/c1f9880"
         }
       ]
     },
@@ -5165,19 +5223,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_logging",
-      "path": "system/logging",
-      "repo_url": "https://github.com/LineageOS/android_system_logging",
+      "name": "LineageOS/android_system_security",
+      "path": "system/security",
+      "repo_url": "https://github.com/LineageOS/android_system_security",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "06e94c8",
+          "sha": "4395455",
           "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
           "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:19:26 2025 +0200",
-          "timestamp": 1763050766,
-          "url": "https://github.com/LineageOS/android_system_logging/commit/06e94c8"
+          "date": "Thu Nov 13 18:19:33 2025 +0200",
+          "timestamp": 1763050773,
+          "url": "https://github.com/LineageOS/android_system_security/commit/4395455"
         }
       ]
     },
@@ -5195,23 +5253,6 @@
           "date": "Thu Nov 13 18:19:30 2025 +0200",
           "timestamp": 1763050770,
           "url": "https://github.com/LineageOS/android_system_netd/commit/050ed86"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_system_security",
-      "path": "system/security",
-      "repo_url": "https://github.com/LineageOS/android_system_security",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4395455",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:19:33 2025 +0200",
-          "timestamp": 1763050773,
-          "url": "https://github.com/LineageOS/android_system_security/commit/4395455"
         }
       ]
     },

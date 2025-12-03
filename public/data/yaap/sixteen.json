@@ -1,17 +1,17 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-12-02T01:21:31.726072+00:00",
-  "since_date": "2025-09-03",
-  "total_projects": 47,
-  "total_commits": 284,
+  "generated_at": "2025-12-03T01:23:35.529268+00:00",
+  "since_date": "2025-09-04",
+  "total_projects": 46,
+  "total_commits": 278,
   "projects": [
     {
       "name": "frameworks_base",
       "path": "frameworks/base",
       "repo_url": "https://github.com/yaap/frameworks_base",
       "remote": "yaap",
-      "commit_count": 43,
+      "commit_count": 42,
       "commits": [
         {
           "sha": "744f918c",
@@ -348,14 +348,6 @@
           "date": "Sat Sep 6 18:13:12 2025 +0300",
           "timestamp": 1757171592,
           "url": "https://github.com/yaap/frameworks_base/commit/2c2ce278"
-        },
-        {
-          "sha": "073ab6f9",
-          "message": "base: Allow toggling LTPO features [1/2]",
-          "author": "John Galt",
-          "date": "Thu Sep 4 00:38:19 2025 +0300",
-          "timestamp": 1756935499,
-          "url": "https://github.com/yaap/frameworks_base/commit/073ab6f9"
         }
       ]
     },
@@ -364,7 +356,7 @@
       "path": "external/vanadium",
       "repo_url": "https://gitlab.com/GrapheneOS/platform_external_vanadium",
       "remote": "gitlab",
-      "commit_count": 28,
+      "commit_count": 26,
       "commits": [
         {
           "sha": "7d442dc",
@@ -573,22 +565,6 @@
           "date": "Tue Sep 9 16:54:09 2025 -0400",
           "timestamp": 1757451249,
           "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/825542b"
-        },
-        {
-          "sha": "cb3817c",
-          "message": "version 140.0.7339.51.0",
-          "author": "Daniel Micay",
-          "date": "Wed Sep 3 20:02:39 2025 -0400",
-          "timestamp": 1756944159,
-          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/cb3817c"
-        },
-        {
-          "sha": "422d79b",
-          "message": "Vanadium Config version 120",
-          "author": "Daniel Micay",
-          "date": "Wed Sep 3 17:37:19 2025 -0400",
-          "timestamp": 1756935439,
-          "url": "https://gitlab.com/GrapheneOS/platform_external_vanadium/commit/422d79b"
         }
       ]
     },
@@ -1281,7 +1257,7 @@
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/yaap/packages_apps_Settings",
       "remote": "yaap",
-      "commit_count": 17,
+      "commit_count": 16,
       "commits": [
         {
           "sha": "a6712a23a",
@@ -1410,103 +1386,6 @@
           "date": "Sat Sep 6 18:10:52 2025 +0300",
           "timestamp": 1757171452,
           "url": "https://github.com/yaap/packages_apps_Settings/commit/0fce1e7ff"
-        },
-        {
-          "sha": "d4ac312c9",
-          "message": "Settings: Allow toggling LTPO features [2/2]",
-          "author": "John Galt",
-          "date": "Thu Sep 4 00:39:16 2025 +0300",
-          "timestamp": 1756935556,
-          "url": "https://github.com/yaap/packages_apps_Settings/commit/d4ac312c9"
-        }
-      ]
-    },
-    {
-      "name": "vendor_yaap",
-      "path": "vendor/yaap",
-      "repo_url": "https://github.com/yaap/vendor_yaap",
-      "remote": "yaap",
-      "commit_count": 10,
-      "commits": [
-        {
-          "sha": "a7a0713",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Wed Oct 29 00:00:20 2025 +0800",
-          "timestamp": 1761667220,
-          "url": "https://github.com/yaap/vendor_yaap/commit/a7a0713"
-        },
-        {
-          "sha": "1d16ff0",
-          "message": "Revert \"[HACK]: release: disable new_hdr_brightness_modifier\"",
-          "author": "John Galt",
-          "date": "Thu Oct 16 18:17:18 2025 -0400",
-          "timestamp": 1760653038,
-          "url": "https://github.com/yaap/vendor_yaap/commit/1d16ff0"
-        },
-        {
-          "sha": "4144baa",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Fri Oct 3 23:35:58 2025 +0800",
-          "timestamp": 1759505758,
-          "url": "https://github.com/yaap/vendor_yaap/commit/4144baa"
-        },
-        {
-          "sha": "fc82d57",
-          "message": "overlay: Drop config_defaultQrCodeComponent",
-          "author": "Cyber Knight",
-          "date": "Tue Sep 23 20:04:00 2025 +0800",
-          "timestamp": 1758629040,
-          "url": "https://github.com/yaap/vendor_yaap/commit/fc82d57"
-        },
-        {
-          "sha": "5e9034c",
-          "message": "Bump Security String to 2025-09-01",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 22 03:53:12 2025 +0300",
-          "timestamp": 1758502392,
-          "url": "https://github.com/yaap/vendor_yaap/commit/5e9034c"
-        },
-        {
-          "sha": "6ab6994",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Sun Sep 14 23:00:23 2025 +0800",
-          "timestamp": 1757862023,
-          "url": "https://github.com/yaap/vendor_yaap/commit/6ab6994"
-        },
-        {
-          "sha": "cc620f6",
-          "message": "config/common: add TARGET_BUILD_LINDROID var",
-          "author": "John Galt",
-          "date": "Fri Sep 5 14:52:12 2025 -0400",
-          "timestamp": 1757098332,
-          "url": "https://github.com/yaap/vendor_yaap/commit/cc620f6"
-        },
-        {
-          "sha": "45519f4",
-          "message": "build/soong: drop qti_kernel_headers",
-          "author": "John Galt",
-          "date": "Thu Sep 4 13:29:50 2025 -0400",
-          "timestamp": 1757006990,
-          "url": "https://github.com/yaap/vendor_yaap/commit/45519f4"
-        },
-        {
-          "sha": "c901e0d",
-          "message": "soong-gen: Completely revert \"d982199c5 [DNM] soong: Fully override path for now\"",
-          "author": "Cyber Knight",
-          "date": "Thu Sep 4 23:21:44 2025 +0800",
-          "timestamp": 1756999304,
-          "url": "https://github.com/yaap/vendor_yaap/commit/c901e0d"
-        },
-        {
-          "sha": "9585781",
-          "message": "config: Move libperfmgr mode extension lib to select()",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 18:13:24 2025 +0800",
-          "timestamp": 1756894404,
-          "url": "https://github.com/yaap/vendor_yaap/commit/9585781"
         }
       ]
     },
@@ -1669,6 +1548,87 @@
           "date": "Wed Oct 22 16:45:56 2025 -0400",
           "timestamp": 1761165956,
           "url": "https://github.com/yaap/bionic/commit/27452c01"
+        }
+      ]
+    },
+    {
+      "name": "vendor_yaap",
+      "path": "vendor/yaap",
+      "repo_url": "https://github.com/yaap/vendor_yaap",
+      "remote": "yaap",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "a7a0713",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Wed Oct 29 00:00:20 2025 +0800",
+          "timestamp": 1761667220,
+          "url": "https://github.com/yaap/vendor_yaap/commit/a7a0713"
+        },
+        {
+          "sha": "1d16ff0",
+          "message": "Revert \"[HACK]: release: disable new_hdr_brightness_modifier\"",
+          "author": "John Galt",
+          "date": "Thu Oct 16 18:17:18 2025 -0400",
+          "timestamp": 1760653038,
+          "url": "https://github.com/yaap/vendor_yaap/commit/1d16ff0"
+        },
+        {
+          "sha": "4144baa",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Fri Oct 3 23:35:58 2025 +0800",
+          "timestamp": 1759505758,
+          "url": "https://github.com/yaap/vendor_yaap/commit/4144baa"
+        },
+        {
+          "sha": "fc82d57",
+          "message": "overlay: Drop config_defaultQrCodeComponent",
+          "author": "Cyber Knight",
+          "date": "Tue Sep 23 20:04:00 2025 +0800",
+          "timestamp": 1758629040,
+          "url": "https://github.com/yaap/vendor_yaap/commit/fc82d57"
+        },
+        {
+          "sha": "5e9034c",
+          "message": "Bump Security String to 2025-09-01",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 22 03:53:12 2025 +0300",
+          "timestamp": 1758502392,
+          "url": "https://github.com/yaap/vendor_yaap/commit/5e9034c"
+        },
+        {
+          "sha": "6ab6994",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Sun Sep 14 23:00:23 2025 +0800",
+          "timestamp": 1757862023,
+          "url": "https://github.com/yaap/vendor_yaap/commit/6ab6994"
+        },
+        {
+          "sha": "cc620f6",
+          "message": "config/common: add TARGET_BUILD_LINDROID var",
+          "author": "John Galt",
+          "date": "Fri Sep 5 14:52:12 2025 -0400",
+          "timestamp": 1757098332,
+          "url": "https://github.com/yaap/vendor_yaap/commit/cc620f6"
+        },
+        {
+          "sha": "45519f4",
+          "message": "build/soong: drop qti_kernel_headers",
+          "author": "John Galt",
+          "date": "Thu Sep 4 13:29:50 2025 -0400",
+          "timestamp": 1757006990,
+          "url": "https://github.com/yaap/vendor_yaap/commit/45519f4"
+        },
+        {
+          "sha": "c901e0d",
+          "message": "soong-gen: Completely revert \"d982199c5 [DNM] soong: Fully override path for now\"",
+          "author": "Cyber Knight",
+          "date": "Thu Sep 4 23:21:44 2025 +0800",
+          "timestamp": 1756999304,
+          "url": "https://github.com/yaap/vendor_yaap/commit/c901e0d"
         }
       ]
     },
@@ -2255,31 +2215,6 @@
       ]
     },
     {
-      "name": "android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy-legacy-um",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "7f5546d",
-          "message": "legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Wed Oct 29 12:06:27 2025 +0100",
-          "timestamp": 1761735987,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d"
-        },
-        {
-          "sha": "84f88f7",
-          "message": "sepolicy: Move hal_soter attribute to public",
-          "author": "LuK1337",
-          "date": "Wed Oct 29 11:39:55 2025 +0100",
-          "timestamp": 1761734395,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7"
-        }
-      ]
-    },
-    {
       "name": "android_build_release",
       "path": "build/release",
       "repo_url": "https://github.com/LineageOS/android_build_release",
@@ -2301,6 +2236,31 @@
           "date": "Fri Sep 26 14:19:52 2025 +0200",
           "timestamp": 1758889192,
           "url": "https://github.com/LineageOS/android_build_release/commit/324f68f4"
+        }
+      ]
+    },
+    {
+      "name": "android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "lineage",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "7f5546d",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 12:06:27 2025 +0100",
+          "timestamp": 1761735987,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/7f5546d"
+        },
+        {
+          "sha": "84f88f7",
+          "message": "sepolicy: Move hal_soter attribute to public",
+          "author": "LuK1337",
+          "date": "Wed Oct 29 11:39:55 2025 +0100",
+          "timestamp": 1761734395,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84f88f7"
         }
       ]
     },
@@ -2430,23 +2390,6 @@
       ]
     },
     {
-      "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8998/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "717b078",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:04 2025 +0000",
-          "timestamp": 1757258824,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
-        }
-      ]
-    },
-    {
       "name": "android_frameworks_proto_logging",
       "path": "frameworks/proto_logging",
       "repo_url": "https://github.com/LineageOS/android_frameworks_proto_logging",
@@ -2460,6 +2403,23 @@
           "date": "Fri Sep 26 14:20:57 2025 +0200",
           "timestamp": 1758889257,
           "url": "https://github.com/LineageOS/android_frameworks_proto_logging/commit/fcbbaa85"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/msm8998/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "717b078",
+          "message": "hal: audio_extn: Add argument to pthread routines",
+          "author": "danielml",
+          "date": "Sun Sep 7 15:27:04 2025 +0000",
+          "timestamp": 1757258824,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
         }
       ]
     },
@@ -2528,23 +2488,6 @@
           "date": "Wed Oct 1 11:21:03 2025 -0400",
           "timestamp": 1759332063,
           "url": "https://github.com/yaap/hardware_libhardware/commit/dd2a814"
-        }
-      ]
-    },
-    {
-      "name": "hardware_lineage_interfaces",
-      "path": "hardware/lineage/interfaces",
-      "repo_url": "https://github.com/yaap/hardware_lineage_interfaces",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d22e75e",
-          "message": "power-libperfmgr: Migrate power_libperfmgr_defaults to select()",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 18:14:02 2025 +0800",
-          "timestamp": 1756894442,
-          "url": "https://github.com/yaap/hardware_lineage_interfaces/commit/d22e75e"
         }
       ]
     },

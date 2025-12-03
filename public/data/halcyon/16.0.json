@@ -1,10 +1,10 @@
 {
   "rom_id": "halcyon",
   "branch": "16.0",
-  "generated_at": "2025-12-02T01:27:16.033962+00:00",
-  "since_date": "2025-09-03",
+  "generated_at": "2025-12-03T01:32:58.931879+00:00",
+  "since_date": "2025-09-04",
   "total_projects": 68,
-  "total_commits": 699,
+  "total_commits": 694,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -2190,7 +2190,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "lineage",
-      "commit_count": 48,
+      "commit_count": 47,
       "commits": [
         {
           "sha": "dd78185",
@@ -2567,14 +2567,6 @@
           "date": "Thu Sep 4 14:36:18 2025 +0530",
           "timestamp": 1756976778,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c00abdb"
-        },
-        {
-          "sha": "2071a22",
-          "message": "sepolicy: Allow graphics service access to vendor_sys_nonsp_comp",
-          "author": "Rahul Karna L K",
-          "date": "Wed Sep 3 03:35:22 2025 -0700",
-          "timestamp": 1756895722,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2071a22"
         }
       ]
     },
@@ -3993,103 +3985,6 @@
       ]
     },
     {
-      "name": "android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "lineage",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "84e7b7b",
-          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
-          "author": "Sneh Mankad",
-          "date": "Sun Nov 9 02:51:10 2025 +0200",
-          "timestamp": 1762649470,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
-        },
-        {
-          "sha": "9d86876",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:35:09 2025 +0200",
-          "timestamp": 1762648509,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
-        },
-        {
-          "sha": "ecd05f7",
-          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:34:40 2025 +0200",
-          "timestamp": 1762648480,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
-        },
-        {
-          "sha": "09c3881",
-          "message": "generic: Label vendor.qti.qesdk.sysservice app",
-          "author": "Giovanni Ricca",
-          "date": "Tue Oct 7 09:13:59 2025 +0200",
-          "timestamp": 1759821239,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
-        },
-        {
-          "sha": "8186a50",
-          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:34 2025 -0700",
-          "timestamp": 1757906014,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
-        },
-        {
-          "sha": "74db8a6",
-          "message": "sepolicy: Added attributes for BHS services.",
-          "author": "mkadali",
-          "date": "Tue Sep 9 18:40:44 2025 -0400",
-          "timestamp": 1757457644,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
-        },
-        {
-          "sha": "0785bde",
-          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
-          "author": "QCTECMDR Service",
-          "date": "Fri Sep 5 05:35:52 2025 -0700",
-          "timestamp": 1757075752,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
-        },
-        {
-          "sha": "f84d078",
-          "message": "[NFC][SEPolicy]: added dev node check access permission",
-          "author": "Varun Kumar",
-          "date": "Fri Sep 5 05:12:50 2025 -0700",
-          "timestamp": 1757074370,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
-        },
-        {
-          "sha": "736d7bc",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 5 07:41:13 2025 +0000",
-          "timestamp": 1757058073,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
-        },
-        {
-          "sha": "6f92e4b",
-          "message": "Merge \"sepolicy: Change the label to allow the property to be written by vendor\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 06:02:22 2025 -0700",
-          "timestamp": 1756904542,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6f92e4b"
-        },
-        {
-          "sha": "0258e3a",
-          "message": "Merge \"sepolicy : Allow BootAnimation to have read access to vendor_sys_gpp_prop\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 02:42:08 2025 -0700",
-          "timestamp": 1756892528,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0258e3a"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/halcyonproject/packages_apps_Glimpse",
@@ -4357,6 +4252,87 @@
       ]
     },
     {
+      "name": "android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "lineage",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "84e7b7b",
+          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
+          "author": "Sneh Mankad",
+          "date": "Sun Nov 9 02:51:10 2025 +0200",
+          "timestamp": 1762649470,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
+        },
+        {
+          "sha": "9d86876",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:35:09 2025 +0200",
+          "timestamp": 1762648509,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
+        },
+        {
+          "sha": "ecd05f7",
+          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:34:40 2025 +0200",
+          "timestamp": 1762648480,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
+        },
+        {
+          "sha": "09c3881",
+          "message": "generic: Label vendor.qti.qesdk.sysservice app",
+          "author": "Giovanni Ricca",
+          "date": "Tue Oct 7 09:13:59 2025 +0200",
+          "timestamp": 1759821239,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
+        },
+        {
+          "sha": "8186a50",
+          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:34 2025 -0700",
+          "timestamp": 1757906014,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
+        },
+        {
+          "sha": "74db8a6",
+          "message": "sepolicy: Added attributes for BHS services.",
+          "author": "mkadali",
+          "date": "Tue Sep 9 18:40:44 2025 -0400",
+          "timestamp": 1757457644,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
+        },
+        {
+          "sha": "0785bde",
+          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
+          "author": "QCTECMDR Service",
+          "date": "Fri Sep 5 05:35:52 2025 -0700",
+          "timestamp": 1757075752,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
+        },
+        {
+          "sha": "f84d078",
+          "message": "[NFC][SEPolicy]: added dev node check access permission",
+          "author": "Varun Kumar",
+          "date": "Fri Sep 5 05:12:50 2025 -0700",
+          "timestamp": 1757074370,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
+        },
+        {
+          "sha": "736d7bc",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 5 07:41:13 2025 +0000",
+          "timestamp": 1757058073,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
+        }
+      ]
+    },
+    {
       "name": "android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8750",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -4596,7 +4572,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8550",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "lineage",
-      "commit_count": 8,
+      "commit_count": 7,
       "commits": [
         {
           "sha": "08e84aa",
@@ -4653,14 +4629,6 @@
           "date": "Fri Sep 19 23:07:05 2025 +0100",
           "timestamp": 1758319625,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/96bc63b"
-        },
-        {
-          "sha": "ed1ac84",
-          "message": "Merge 3aa19baac92e7bfa3f6373c33aa1492d747c4879 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 3 13:26:28 2025 -0700",
-          "timestamp": 1756931188,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ed1ac84"
         }
       ]
     },
@@ -5696,31 +5664,6 @@
       ]
     },
     {
-      "name": "android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8550/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "lineage",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "191b3fc",
-          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:27 2025 +0200",
-          "timestamp": 1762608267,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/191b3fc"
-        },
-        {
-          "sha": "5cf7fca",
-          "message": "Merge 61a216c3a3d5f4ca102f81308b7ef6ead88b30cf on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 3 13:36:08 2025 -0700",
-          "timestamp": 1756931768,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5cf7fca"
-        }
-      ]
-    },
-    {
       "name": "android_vendor_qcom_opensource_fm-commonsys",
       "path": "vendor/qcom/opensource/commonsys/fm",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys",
@@ -5746,31 +5689,6 @@
       ]
     },
     {
-      "name": "packages_apps_Contacts",
-      "path": "packages/apps/Contacts",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Contacts",
-      "remote": "halcyon",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "19f5d93",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Contacts into android-16.0",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:51:33 2025 +0800",
-          "timestamp": 1763293893,
-          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/19f5d93"
-        },
-        {
-          "sha": "614bc5f",
-          "message": "Contacts: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:08:51 2025 +0800",
-          "timestamp": 1761307731,
-          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/614bc5f"
-        }
-      ]
-    },
-    {
       "name": "frameworks_opt_telephony",
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/halcyonproject/frameworks_opt_telephony",
@@ -5792,6 +5710,31 @@
           "date": "Sun Oct 19 12:06:11 2025 +0800",
           "timestamp": 1760846771,
           "url": "https://github.com/halcyonproject/frameworks_opt_telephony/commit/0a45ccda7"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Contacts",
+      "path": "packages/apps/Contacts",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_Contacts",
+      "remote": "halcyon",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "19f5d93",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Contacts into android-16.0",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:51:33 2025 +0800",
+          "timestamp": 1763293893,
+          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/19f5d93"
+        },
+        {
+          "sha": "614bc5f",
+          "message": "Contacts: Import new Enchanted icon",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 24 20:08:51 2025 +0800",
+          "timestamp": 1761307731,
+          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/614bc5f"
         }
       ]
     },
@@ -5889,23 +5832,6 @@
     },
     {
       "name": "android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/msm8998/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
-      "remote": "lineage",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "717b078",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:04 2025 +0000",
-          "timestamp": 1757258824,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
-        }
-      ]
-    },
-    {
-      "name": "android_hardware_qcom_audio",
       "path": "hardware/qcom-caf/sdm845/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
       "remote": "lineage",
@@ -5918,6 +5844,23 @@
           "date": "Sun Sep 7 15:27:16 2025 +0000",
           "timestamp": 1757258836,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/msm8998/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "717b078",
+          "message": "hal: audio_extn: Add argument to pthread routines",
+          "author": "danielml",
+          "date": "Sun Sep 7 15:27:04 2025 +0000",
+          "timestamp": 1757258824,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
         }
       ]
     },
@@ -5986,6 +5929,23 @@
           "date": "Sat Oct 4 13:01:13 2025 +0800",
           "timestamp": 1759554073,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0a94a23"
+        }
+      ]
+    },
+    {
+      "name": "android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8550/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "191b3fc",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:27 2025 +0200",
+          "timestamp": 1762608267,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/191b3fc"
         }
       ]
     },
@@ -6092,19 +6052,19 @@
       ]
     },
     {
-      "name": "packages_apps_ExactCalculator",
-      "path": "packages/apps/ExactCalculator",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_ExactCalculator",
+      "name": "packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_Dialer",
       "remote": "halcyon",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "988c697",
-          "message": "ExactCalculator: Import new Enchanted icon",
+          "sha": "ec07dabe",
+          "message": "Dialer: Import new Enchanted icon",
           "author": "HeroBuxx",
-          "date": "Fri Oct 24 19:57:08 2025 +0800",
-          "timestamp": 1761307028,
-          "url": "https://github.com/halcyonproject/packages_apps_ExactCalculator/commit/988c697"
+          "date": "Fri Oct 24 20:12:03 2025 +0800",
+          "timestamp": 1761307923,
+          "url": "https://github.com/halcyonproject/packages_apps_Dialer/commit/ec07dabe"
         }
       ]
     },
@@ -6126,19 +6086,19 @@
       ]
     },
     {
-      "name": "packages_apps_Dialer",
-      "path": "packages/apps/Dialer",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Dialer",
+      "name": "packages_apps_ExactCalculator",
+      "path": "packages/apps/ExactCalculator",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_ExactCalculator",
       "remote": "halcyon",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "ec07dabe",
-          "message": "Dialer: Import new Enchanted icon",
+          "sha": "988c697",
+          "message": "ExactCalculator: Import new Enchanted icon",
           "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:12:03 2025 +0800",
-          "timestamp": 1761307923,
-          "url": "https://github.com/halcyonproject/packages_apps_Dialer/commit/ec07dabe"
+          "date": "Fri Oct 24 19:57:08 2025 +0800",
+          "timestamp": 1761307028,
+          "url": "https://github.com/halcyonproject/packages_apps_ExactCalculator/commit/988c697"
         }
       ]
     },
@@ -6160,23 +6120,6 @@
       ]
     },
     {
-      "name": "packages_modules_Bluetooth",
-      "path": "packages/modules/Bluetooth",
-      "repo_url": "https://github.com/halcyonproject/packages_modules_Bluetooth",
-      "remote": "halcyon",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "8d633bb25",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/modules/Bluetooth into android-16.0",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:51:34 2025 +0800",
-          "timestamp": 1763293894,
-          "url": "https://github.com/halcyonproject/packages_modules_Bluetooth/commit/8d633bb25"
-        }
-      ]
-    },
-    {
       "name": "packages_services_Telephony",
       "path": "packages/services/Telephony",
       "repo_url": "https://github.com/halcyonproject/packages_services_Telephony",
@@ -6190,6 +6133,23 @@
           "date": "Sun Nov 16 19:51:36 2025 +0800",
           "timestamp": 1763293896,
           "url": "https://github.com/halcyonproject/packages_services_Telephony/commit/d70d13450"
+        }
+      ]
+    },
+    {
+      "name": "packages_modules_Bluetooth",
+      "path": "packages/modules/Bluetooth",
+      "repo_url": "https://github.com/halcyonproject/packages_modules_Bluetooth",
+      "remote": "halcyon",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "8d633bb25",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/modules/Bluetooth into android-16.0",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:51:34 2025 +0800",
+          "timestamp": 1763293894,
+          "url": "https://github.com/halcyonproject/packages_modules_Bluetooth/commit/8d633bb25"
         }
       ]
     },

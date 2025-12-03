@@ -1,10 +1,10 @@
 {
   "rom_id": "axion",
   "branch": "lineage-23.1",
-  "generated_at": "2025-12-02T01:24:21.746275+00:00",
-  "since_date": "2025-09-03",
+  "generated_at": "2025-12-03T01:28:02.149175+00:00",
+  "since_date": "2025-09-04",
   "total_projects": 167,
-  "total_commits": 1553,
+  "total_commits": 1555,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1468,8 +1468,56 @@
       "path": "vendor/official_devices",
       "repo_url": "https://github.com/AxionAOSP/official_devices",
       "remote": "axion",
-      "commit_count": 125,
+      "commit_count": 131,
       "commits": [
+        {
+          "sha": "1b8bed0",
+          "message": "Merge pull request #281 from beingashwani/main",
+          "author": "Sai krishna",
+          "date": "Tue Dec 2 21:12:00 2025 +0530",
+          "timestamp": 1764690120,
+          "url": "https://github.com/AxionAOSP/official_devices/commit/1b8bed0"
+        },
+        {
+          "sha": "b1aa995",
+          "message": "tetris: initial v2.2.1 update (02/12/2025)",
+          "author": "beingashwani",
+          "date": "Tue Dec 2 15:39:43 2025 +0000",
+          "timestamp": 1764689983,
+          "url": "https://github.com/AxionAOSP/official_devices/commit/b1aa995"
+        },
+        {
+          "sha": "50ddf7d",
+          "message": "Merge pull request #280 from beingashwani/main",
+          "author": "Sai krishna",
+          "date": "Tue Dec 2 20:37:10 2025 +0530",
+          "timestamp": 1764688030,
+          "url": "https://github.com/AxionAOSP/official_devices/commit/50ddf7d"
+        },
+        {
+          "sha": "22c96ab",
+          "message": "devices: add nothing cmf phone 1 (tetris)",
+          "author": "beingashwani",
+          "date": "Tue Dec 2 15:03:10 2025 +0000",
+          "timestamp": 1764687790,
+          "url": "https://github.com/AxionAOSP/official_devices/commit/22c96ab"
+        },
+        {
+          "sha": "5cf7828",
+          "message": "Merge pull request #279 from Mayur-U/main",
+          "author": "Sai krishna",
+          "date": "Tue Dec 2 19:07:36 2025 +0530",
+          "timestamp": 1764682656,
+          "url": "https://github.com/AxionAOSP/official_devices/commit/5cf7828"
+        },
+        {
+          "sha": "a266397",
+          "message": "redwood: v2.2.1 hotfix update (02/12/2025)",
+          "author": "Mayur-U",
+          "date": "Tue Dec 2 13:14:01 2025 +0000",
+          "timestamp": 1764681241,
+          "url": "https://github.com/AxionAOSP/official_devices/commit/a266397"
+        },
         {
           "sha": "179ab9b",
           "message": "Merge pull request #278 from beingashwani/main",
@@ -2480,20 +2528,28 @@
       "commit_count": 100,
       "commits": [
         {
-          "sha": "630b687a",
-          "message": "[bugfix] fix split shade missing issue",
-          "author": "rmp22",
-          "date": "Mon Dec 1 08:53:15 2025 +0800",
-          "timestamp": 1764550395,
-          "url": "https://github.com/AxionAOSP/android_frameworks_base/commit/630b687a"
-        },
-        {
-          "sha": "889cb963",
+          "sha": "a65a2747",
           "message": "[axion_sysui] adding axion volume dialog provider",
           "author": "rmp22",
-          "date": "Mon Dec 1 08:52:39 2025 +0800",
-          "timestamp": 1764550359,
-          "url": "https://github.com/AxionAOSP/android_frameworks_base/commit/889cb963"
+          "date": "Tue Dec 2 18:21:50 2025 +0800",
+          "timestamp": 1764670910,
+          "url": "https://github.com/AxionAOSP/android_frameworks_base/commit/a65a2747"
+        },
+        {
+          "sha": "a4dc7dc5",
+          "message": "base: support per-app volume [2/3]",
+          "author": "cjybyjk",
+          "date": "Tue Dec 2 18:21:49 2025 +0800",
+          "timestamp": 1764670909,
+          "url": "https://github.com/AxionAOSP/android_frameworks_base/commit/a4dc7dc5"
+        },
+        {
+          "sha": "4ce84c98",
+          "message": "[bugfix] fix split shade missing issue",
+          "author": "rmp22",
+          "date": "Tue Dec 2 18:21:48 2025 +0800",
+          "timestamp": 1764670908,
+          "url": "https://github.com/AxionAOSP/android_frameworks_base/commit/4ce84c98"
         },
         {
           "sha": "22e36a8a",
@@ -3270,14 +3326,6 @@
           "date": "Tue Nov 18 01:52:50 2025 +0200",
           "timestamp": 1763423570,
           "url": "https://github.com/AxionAOSP/android_frameworks_base/commit/0eb9a45e"
-        },
-        {
-          "sha": "268e3e47",
-          "message": "SystemUI: Add KeyguardSliceViewSection to split shade blueprint",
-          "author": "LuK1337",
-          "date": "Tue Nov 18 01:52:50 2025 +0200",
-          "timestamp": 1763423570,
-          "url": "https://github.com/AxionAOSP/android_frameworks_base/commit/268e3e47"
         }
       ]
     },
@@ -3288,6 +3336,14 @@
       "remote": "github",
       "commit_count": 89,
       "commits": [
+        {
+          "sha": "9aec8e0",
+          "message": "wiki: CC 9 -> CC9",
+          "author": "LuK1337",
+          "date": "Tue Dec 2 21:57:40 2025 +0100",
+          "timestamp": 1764709060,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9aec8e0"
+        },
         {
           "sha": "1b7a17b",
           "message": "wiki: Require dtbo flash for enchilada and fajita",
@@ -3991,14 +4047,6 @@
           "date": "Sat Sep 6 04:54:14 2025 +0000",
           "timestamp": 1757134454,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/3b8fdaa"
-        },
-        {
-          "sha": "981d713",
-          "message": "gtowifi: align installation and firmware update steps with gts4lv",
-          "author": "Han Sol Jin",
-          "date": "Wed Sep 3 17:21:38 2025 +0000",
-          "timestamp": 1756920098,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/981d713"
         }
       ]
     },
@@ -4728,8 +4776,16 @@
       "path": "packages/apps/Launcher3",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Launcher3",
       "remote": "axion",
-      "commit_count": 67,
+      "commit_count": 68,
       "commits": [
+        {
+          "sha": "f453e51",
+          "message": "[bugfix] fix recents crash bug",
+          "author": "rmp22",
+          "date": "Tue Dec 2 19:40:37 2025 +0800",
+          "timestamp": 1764675637,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Launcher3/commit/f453e51"
+        },
         {
           "sha": "0d977e3",
           "message": "[overview] removing overview vibration haptics",
@@ -5698,7 +5754,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 48,
+      "commit_count": 47,
       "commits": [
         {
           "sha": "dd78185",
@@ -6075,14 +6131,6 @@
           "date": "Thu Sep 4 14:36:18 2025 +0530",
           "timestamp": 1756976778,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c00abdb"
-        },
-        {
-          "sha": "2071a22",
-          "message": "sepolicy: Allow graphics service access to vendor_sys_nonsp_comp",
-          "author": "Rahul Karna L K",
-          "date": "Wed Sep 3 03:35:22 2025 -0700",
-          "timestamp": 1756895722,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2071a22"
         }
       ]
     },
@@ -6428,8 +6476,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 40,
+      "commit_count": 41,
       "commits": [
+        {
+          "sha": "772ac75",
+          "message": "CC 9 -> CC9",
+          "author": "LuK1337",
+          "date": "Tue Dec 2 21:58:23 2025 +0100",
+          "timestamp": 1764709103,
+          "url": "https://github.com/LineageOS/hudson/commit/772ac75"
+        },
         {
           "sha": "fadc405",
           "message": "Regenerate device dependency mappings",
@@ -6970,229 +7026,20 @@
       ]
     },
     {
-      "name": "android_packages_apps_Personalizations",
-      "path": "packages/apps/Personalizations",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations",
-      "remote": "axion",
-      "commit_count": 26,
-      "commits": [
-        {
-          "sha": "a4d7e68",
-          "message": "Merge pull request #6 from S-Marcos-S/feat/pt-br-translation",
-          "author": "rmp",
-          "date": "Fri Nov 21 21:27:35 2025 +0800",
-          "timestamp": 1763731655,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/a4d7e68"
-        },
-        {
-          "sha": "1d2e430",
-          "message": "Personalizations: Add Portuguese (BR) translations",
-          "author": "SMarcosS",
-          "date": "Fri Nov 21 06:52:10 2025 -0300",
-          "timestamp": 1763718730,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/1d2e430"
-        },
-        {
-          "sha": "c98e178",
-          "message": "adding direct google beta pif fetching",
-          "author": "rmp22",
-          "date": "Thu Nov 20 23:11:50 2025 +0800",
-          "timestamp": 1763651510,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/c98e178"
-        },
-        {
-          "sha": "f58e011",
-          "message": "[translations] automatic script import",
-          "author": "rmp22",
-          "date": "Wed Nov 19 20:19:53 2025 +0800",
-          "timestamp": 1763554793,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/f58e011"
-        },
-        {
-          "sha": "a291812",
-          "message": "updating cpu touch boost string",
-          "author": "rmp22",
-          "date": "Mon Nov 17 12:01:14 2025 +0800",
-          "timestamp": 1763352074,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/a291812"
-        },
-        {
-          "sha": "db62105",
-          "message": "Revert \"[boost_fwk] removing boosts front-end\"",
-          "author": "rmp22",
-          "date": "Mon Nov 3 19:33:53 2025 +0800",
-          "timestamp": 1762169633,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/db62105"
-        },
-        {
-          "sha": "b51f737",
-          "message": "[boost_fwk] removing boosts front-end",
-          "author": "rmp22",
-          "date": "Sat Nov 1 09:57:29 2025 +0800",
-          "timestamp": 1761962249,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/b51f737"
-        },
-        {
-          "sha": "a04e3e9",
-          "message": "adding doze double tap strings",
-          "author": "rmp22",
-          "date": "Thu Oct 30 20:22:51 2025 +0800",
-          "timestamp": 1761826971,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/a04e3e9"
-        },
-        {
-          "sha": "138af21",
-          "message": "[axthemepicker-wallpaper-intercept] adding launch extra intent filter",
-          "author": "rmp22",
-          "date": "Thu Oct 23 07:03:42 2025 +0800",
-          "timestamp": 1761174222,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/138af21"
-        },
-        {
-          "sha": "64eb639",
-          "message": "[axthemepicker-migration] settings integration",
-          "author": "rmp22",
-          "date": "Tue Oct 21 18:39:34 2025 +0800",
-          "timestamp": 1761043174,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/64eb639"
-        },
-        {
-          "sha": "f8da287",
-          "message": "fix shake intensity settings namespace",
-          "author": "rmp22",
-          "date": "Wed Oct 15 11:48:42 2025 +0800",
-          "timestamp": 1760500122,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/f8da287"
-        },
-        {
-          "sha": "0bfe004",
-          "message": "fixup [axthemepicker-migration] adding temporary lockscreen customize activity to settings",
-          "author": "rmp22",
-          "date": "Mon Oct 13 23:51:42 2025 +0800",
-          "timestamp": 1760370702,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/0bfe004"
-        },
-        {
-          "sha": "6906a28",
-          "message": "adding status bar padding feature",
-          "author": "rmp22",
-          "date": "Mon Oct 13 10:11:19 2025 +0800",
-          "timestamp": 1760321479,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/6906a28"
-        },
-        {
-          "sha": "2bb22f9",
-          "message": "adding shake gesture feature support",
-          "author": "rmp22",
-          "date": "Mon Oct 13 10:11:19 2025 +0800",
-          "timestamp": 1760321479,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/2bb22f9"
-        },
-        {
-          "sha": "e870374",
-          "message": "[axthemepicker-migration] adding temporary lockscreen customize activity to settings",
-          "author": "rmp22",
-          "date": "Mon Oct 13 10:11:19 2025 +0800",
-          "timestamp": 1760321479,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/e870374"
-        },
-        {
-          "sha": "089b974",
-          "message": "replacing android array calls with stringArrayResource",
-          "author": "rmp22",
-          "date": "Sat Oct 4 07:54:52 2025 +0800",
-          "timestamp": 1759535692,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/089b974"
-        },
-        {
-          "sha": "5ba8b12",
-          "message": "[FEATURE] migrating lockscreen widgets feature to compose",
-          "author": "rmp22",
-          "date": "Wed Oct 1 17:03:50 2025 +0800",
-          "timestamp": 1759309430,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/5ba8b12"
-        },
-        {
-          "sha": "9fa45c2",
-          "message": "Merge pull request #5 from duhenduhen/lineage-23.0",
-          "author": "rmp",
-          "date": "Tue Sep 30 14:53:23 2025 +0800",
-          "timestamp": 1759215203,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/9fa45c2"
-        },
-        {
-          "sha": "775a0ed",
-          "message": "Fix shitty russian translation",
-          "author": "Andrey Klimets",
-          "date": "Mon Sep 29 19:57:46 2025 +0300",
-          "timestamp": 1759165066,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/775a0ed"
-        },
-        {
-          "sha": "89dcbbe",
-          "message": "adding conditional gpu control support",
-          "author": "rmp22",
-          "date": "Sat Sep 27 18:18:50 2025 +0800",
-          "timestamp": 1758968330,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/89dcbbe"
-        },
-        {
-          "sha": "e87cfe2",
-          "message": "[BUGFIX] fix gamespace launch jank",
-          "author": "rmp22",
-          "date": "Mon Sep 22 20:29:59 2025 +0800",
-          "timestamp": 1758544199,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/e87cfe2"
-        },
-        {
-          "sha": "72c7760",
-          "message": "perf toolkit additions",
-          "author": "rmp22",
-          "date": "Mon Sep 22 16:05:20 2025 +0800",
-          "timestamp": 1758528320,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/72c7760"
-        },
-        {
-          "sha": "a7402f0",
-          "message": "[PERF] add performance settings",
-          "author": "rmp22",
-          "date": "Tue Sep 16 18:04:25 2025 +0800",
-          "timestamp": 1758017065,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/a7402f0"
-        },
-        {
-          "sha": "efd2c20",
-          "message": "add hbm settings",
-          "author": "rmp22",
-          "date": "Tue Sep 9 16:26:43 2025 +0800",
-          "timestamp": 1757406403,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/efd2c20"
-        },
-        {
-          "sha": "6e05924",
-          "message": "[BUGFIX] system property based gms spoof",
-          "author": "rmp22",
-          "date": "Wed Sep 3 22:43:51 2025 +0800",
-          "timestamp": 1756910631,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/6e05924"
-        },
-        {
-          "sha": "f2131a3",
-          "message": "[FEATURE] partial screenshot port",
-          "author": "rmp22",
-          "date": "Wed Sep 3 09:49:20 2025 +0800",
-          "timestamp": 1756864160,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/f2131a3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/mirror",
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
       "commit_count": 24,
       "commits": [
+        {
+          "sha": "067ad91",
+          "message": "Updated aosp-minimal to 02-Dec-2025 23:02 UTC",
+          "author": "Tim Schumacher",
+          "date": "Wed Dec 3 00:02:04 2025 +0100",
+          "timestamp": 1764716524,
+          "url": "https://github.com/LineageOS/mirror/commit/067ad91"
+        },
         {
           "sha": "2074512",
           "message": "Updated to 25-Nov-2025 11:01 UTC",
@@ -7376,14 +7223,6 @@
           "date": "Fri Sep 5 00:01:35 2025 +0200",
           "timestamp": 1757023295,
           "url": "https://github.com/LineageOS/mirror/commit/165bd19"
-        },
-        {
-          "sha": "1e1e1e0",
-          "message": "Updated to 03-Sep-2025 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Thu Sep 4 00:01:29 2025 +0200",
-          "timestamp": 1756936889,
-          "url": "https://github.com/LineageOS/mirror/commit/1e1e1e0"
         }
       ]
     },
@@ -7585,6 +7424,207 @@
           "date": "Fri Sep 12 17:51:28 2025 +0300",
           "timestamp": 1757688688,
           "url": "https://github.com/AxionAOSP/android_art/commit/c09a5c72"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Personalizations",
+      "path": "packages/apps/Personalizations",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations",
+      "remote": "axion",
+      "commit_count": 24,
+      "commits": [
+        {
+          "sha": "a4d7e68",
+          "message": "Merge pull request #6 from S-Marcos-S/feat/pt-br-translation",
+          "author": "rmp",
+          "date": "Fri Nov 21 21:27:35 2025 +0800",
+          "timestamp": 1763731655,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/a4d7e68"
+        },
+        {
+          "sha": "1d2e430",
+          "message": "Personalizations: Add Portuguese (BR) translations",
+          "author": "SMarcosS",
+          "date": "Fri Nov 21 06:52:10 2025 -0300",
+          "timestamp": 1763718730,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/1d2e430"
+        },
+        {
+          "sha": "c98e178",
+          "message": "adding direct google beta pif fetching",
+          "author": "rmp22",
+          "date": "Thu Nov 20 23:11:50 2025 +0800",
+          "timestamp": 1763651510,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/c98e178"
+        },
+        {
+          "sha": "f58e011",
+          "message": "[translations] automatic script import",
+          "author": "rmp22",
+          "date": "Wed Nov 19 20:19:53 2025 +0800",
+          "timestamp": 1763554793,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/f58e011"
+        },
+        {
+          "sha": "a291812",
+          "message": "updating cpu touch boost string",
+          "author": "rmp22",
+          "date": "Mon Nov 17 12:01:14 2025 +0800",
+          "timestamp": 1763352074,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/a291812"
+        },
+        {
+          "sha": "db62105",
+          "message": "Revert \"[boost_fwk] removing boosts front-end\"",
+          "author": "rmp22",
+          "date": "Mon Nov 3 19:33:53 2025 +0800",
+          "timestamp": 1762169633,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/db62105"
+        },
+        {
+          "sha": "b51f737",
+          "message": "[boost_fwk] removing boosts front-end",
+          "author": "rmp22",
+          "date": "Sat Nov 1 09:57:29 2025 +0800",
+          "timestamp": 1761962249,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/b51f737"
+        },
+        {
+          "sha": "a04e3e9",
+          "message": "adding doze double tap strings",
+          "author": "rmp22",
+          "date": "Thu Oct 30 20:22:51 2025 +0800",
+          "timestamp": 1761826971,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/a04e3e9"
+        },
+        {
+          "sha": "138af21",
+          "message": "[axthemepicker-wallpaper-intercept] adding launch extra intent filter",
+          "author": "rmp22",
+          "date": "Thu Oct 23 07:03:42 2025 +0800",
+          "timestamp": 1761174222,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/138af21"
+        },
+        {
+          "sha": "64eb639",
+          "message": "[axthemepicker-migration] settings integration",
+          "author": "rmp22",
+          "date": "Tue Oct 21 18:39:34 2025 +0800",
+          "timestamp": 1761043174,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/64eb639"
+        },
+        {
+          "sha": "f8da287",
+          "message": "fix shake intensity settings namespace",
+          "author": "rmp22",
+          "date": "Wed Oct 15 11:48:42 2025 +0800",
+          "timestamp": 1760500122,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/f8da287"
+        },
+        {
+          "sha": "0bfe004",
+          "message": "fixup [axthemepicker-migration] adding temporary lockscreen customize activity to settings",
+          "author": "rmp22",
+          "date": "Mon Oct 13 23:51:42 2025 +0800",
+          "timestamp": 1760370702,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/0bfe004"
+        },
+        {
+          "sha": "6906a28",
+          "message": "adding status bar padding feature",
+          "author": "rmp22",
+          "date": "Mon Oct 13 10:11:19 2025 +0800",
+          "timestamp": 1760321479,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/6906a28"
+        },
+        {
+          "sha": "2bb22f9",
+          "message": "adding shake gesture feature support",
+          "author": "rmp22",
+          "date": "Mon Oct 13 10:11:19 2025 +0800",
+          "timestamp": 1760321479,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/2bb22f9"
+        },
+        {
+          "sha": "e870374",
+          "message": "[axthemepicker-migration] adding temporary lockscreen customize activity to settings",
+          "author": "rmp22",
+          "date": "Mon Oct 13 10:11:19 2025 +0800",
+          "timestamp": 1760321479,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/e870374"
+        },
+        {
+          "sha": "089b974",
+          "message": "replacing android array calls with stringArrayResource",
+          "author": "rmp22",
+          "date": "Sat Oct 4 07:54:52 2025 +0800",
+          "timestamp": 1759535692,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/089b974"
+        },
+        {
+          "sha": "5ba8b12",
+          "message": "[FEATURE] migrating lockscreen widgets feature to compose",
+          "author": "rmp22",
+          "date": "Wed Oct 1 17:03:50 2025 +0800",
+          "timestamp": 1759309430,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/5ba8b12"
+        },
+        {
+          "sha": "9fa45c2",
+          "message": "Merge pull request #5 from duhenduhen/lineage-23.0",
+          "author": "rmp",
+          "date": "Tue Sep 30 14:53:23 2025 +0800",
+          "timestamp": 1759215203,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/9fa45c2"
+        },
+        {
+          "sha": "775a0ed",
+          "message": "Fix shitty russian translation",
+          "author": "Andrey Klimets",
+          "date": "Mon Sep 29 19:57:46 2025 +0300",
+          "timestamp": 1759165066,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/775a0ed"
+        },
+        {
+          "sha": "89dcbbe",
+          "message": "adding conditional gpu control support",
+          "author": "rmp22",
+          "date": "Sat Sep 27 18:18:50 2025 +0800",
+          "timestamp": 1758968330,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/89dcbbe"
+        },
+        {
+          "sha": "e87cfe2",
+          "message": "[BUGFIX] fix gamespace launch jank",
+          "author": "rmp22",
+          "date": "Mon Sep 22 20:29:59 2025 +0800",
+          "timestamp": 1758544199,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/e87cfe2"
+        },
+        {
+          "sha": "72c7760",
+          "message": "perf toolkit additions",
+          "author": "rmp22",
+          "date": "Mon Sep 22 16:05:20 2025 +0800",
+          "timestamp": 1758528320,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/72c7760"
+        },
+        {
+          "sha": "a7402f0",
+          "message": "[PERF] add performance settings",
+          "author": "rmp22",
+          "date": "Tue Sep 16 18:04:25 2025 +0800",
+          "timestamp": 1758017065,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/a7402f0"
+        },
+        {
+          "sha": "efd2c20",
+          "message": "add hbm settings",
+          "author": "rmp22",
+          "date": "Tue Sep 9 16:26:43 2025 +0800",
+          "timestamp": 1757406403,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Personalizations/commit/efd2c20"
         }
       ]
     },
@@ -8241,135 +8281,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_AxionWidgets",
-      "path": "packages/apps/AxionWidgets",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets",
-      "remote": "axion",
-      "commit_count": 15,
-      "commits": [
-        {
-          "sha": "b82f60a",
-          "message": "[ax_scheduling] initial integrate",
-          "author": "rmp22",
-          "date": "Wed Nov 12 22:23:45 2025 +0800",
-          "timestamp": 1762957425,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b82f60a"
-        },
-        {
-          "sha": "c1fade6",
-          "message": "[ax_schedule] cpu scheduling integrate",
-          "author": "rmp22",
-          "date": "Tue Nov 11 12:27:13 2025 +0800",
-          "timestamp": 1762835233,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/c1fade6"
-        },
-        {
-          "sha": "8a1a27f",
-          "message": "fixing privapp list typo",
-          "author": "rmp22",
-          "date": "Wed Nov 5 11:06:16 2025 +0800",
-          "timestamp": 1762311976,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8a1a27f"
-        },
-        {
-          "sha": "65254e8",
-          "message": "making widgets service persistent",
-          "author": "rmp22",
-          "date": "Sun Nov 2 22:20:55 2025 +0800",
-          "timestamp": 1762093255,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/65254e8"
-        },
-        {
-          "sha": "d17a18c",
-          "message": "widgets fixes and enhancements",
-          "author": "rmp22",
-          "date": "Sun Oct 12 10:23:28 2025 +0800",
-          "timestamp": 1760235808,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/d17a18c"
-        },
-        {
-          "sha": "8ff84e7",
-          "message": "adding warmup protection to update service",
-          "author": "rmp22",
-          "date": "Wed Oct 1 19:21:49 2025 +0800",
-          "timestamp": 1759317709,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8ff84e7"
-        },
-        {
-          "sha": "1130bda",
-          "message": "add screen time widget",
-          "author": "rmp22",
-          "date": "Mon Sep 22 18:59:43 2025 +0800",
-          "timestamp": 1758538783,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/1130bda"
-        },
-        {
-          "sha": "b4a2812",
-          "message": "using ringerModeInternal to avoid activating DND on silent mode",
-          "author": "rmp22",
-          "date": "Mon Sep 22 16:17:13 2025 +0800",
-          "timestamp": 1758529033,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b4a2812"
-        },
-        {
-          "sha": "7aaad5c",
-          "message": "photo widget structure fix | update",
-          "author": "rmp22",
-          "date": "Sun Sep 21 15:51:01 2025 +0800",
-          "timestamp": 1758441061,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/7aaad5c"
-        },
-        {
-          "sha": "de964e1",
-          "message": "fix logic errors",
-          "author": "rmp22",
-          "date": "Sat Sep 13 20:14:16 2025 +0800",
-          "timestamp": 1757765656,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/de964e1"
-        },
-        {
-          "sha": "8435824",
-          "message": "fix camera callback memory leak",
-          "author": "rmp22",
-          "date": "Wed Sep 10 20:14:36 2025 +0800",
-          "timestamp": 1757506476,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8435824"
-        },
-        {
-          "sha": "93de763",
-          "message": "fix service type",
-          "author": "rmp22",
-          "date": "Wed Sep 10 20:14:08 2025 +0800",
-          "timestamp": 1757506448,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/93de763"
-        },
-        {
-          "sha": "a02f335",
-          "message": "structure finalization + lifecycle rewrite",
-          "author": "rmp22",
-          "date": "Sat Sep 6 22:14:57 2025 +0800",
-          "timestamp": 1757168097,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/a02f335"
-        },
-        {
-          "sha": "cd57d87",
-          "message": "add multi-state icon support to tile widget",
-          "author": "rmp22",
-          "date": "Thu Sep 4 11:39:29 2025 +0800",
-          "timestamp": 1756957169,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/cd57d87"
-        },
-        {
-          "sha": "a571c46",
-          "message": "widgets lifecycle fixes",
-          "author": "rmp22",
-          "date": "Wed Sep 3 16:59:22 2025 +0800",
-          "timestamp": 1756889962,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/a571c46"
-        }
-      ]
-    },
-    {
       "name": "android_build",
       "path": "build/make",
       "repo_url": "https://github.com/AxionAOSP/android_build",
@@ -8487,6 +8398,127 @@
           "date": "Wed Sep 24 23:05:27 2025 +0800",
           "timestamp": 1758726327,
           "url": "https://github.com/AxionAOSP/android_build/commit/6ff15cb5"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_AxionWidgets",
+      "path": "packages/apps/AxionWidgets",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets",
+      "remote": "axion",
+      "commit_count": 14,
+      "commits": [
+        {
+          "sha": "b82f60a",
+          "message": "[ax_scheduling] initial integrate",
+          "author": "rmp22",
+          "date": "Wed Nov 12 22:23:45 2025 +0800",
+          "timestamp": 1762957425,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b82f60a"
+        },
+        {
+          "sha": "c1fade6",
+          "message": "[ax_schedule] cpu scheduling integrate",
+          "author": "rmp22",
+          "date": "Tue Nov 11 12:27:13 2025 +0800",
+          "timestamp": 1762835233,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/c1fade6"
+        },
+        {
+          "sha": "8a1a27f",
+          "message": "fixing privapp list typo",
+          "author": "rmp22",
+          "date": "Wed Nov 5 11:06:16 2025 +0800",
+          "timestamp": 1762311976,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8a1a27f"
+        },
+        {
+          "sha": "65254e8",
+          "message": "making widgets service persistent",
+          "author": "rmp22",
+          "date": "Sun Nov 2 22:20:55 2025 +0800",
+          "timestamp": 1762093255,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/65254e8"
+        },
+        {
+          "sha": "d17a18c",
+          "message": "widgets fixes and enhancements",
+          "author": "rmp22",
+          "date": "Sun Oct 12 10:23:28 2025 +0800",
+          "timestamp": 1760235808,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/d17a18c"
+        },
+        {
+          "sha": "8ff84e7",
+          "message": "adding warmup protection to update service",
+          "author": "rmp22",
+          "date": "Wed Oct 1 19:21:49 2025 +0800",
+          "timestamp": 1759317709,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8ff84e7"
+        },
+        {
+          "sha": "1130bda",
+          "message": "add screen time widget",
+          "author": "rmp22",
+          "date": "Mon Sep 22 18:59:43 2025 +0800",
+          "timestamp": 1758538783,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/1130bda"
+        },
+        {
+          "sha": "b4a2812",
+          "message": "using ringerModeInternal to avoid activating DND on silent mode",
+          "author": "rmp22",
+          "date": "Mon Sep 22 16:17:13 2025 +0800",
+          "timestamp": 1758529033,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b4a2812"
+        },
+        {
+          "sha": "7aaad5c",
+          "message": "photo widget structure fix | update",
+          "author": "rmp22",
+          "date": "Sun Sep 21 15:51:01 2025 +0800",
+          "timestamp": 1758441061,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/7aaad5c"
+        },
+        {
+          "sha": "de964e1",
+          "message": "fix logic errors",
+          "author": "rmp22",
+          "date": "Sat Sep 13 20:14:16 2025 +0800",
+          "timestamp": 1757765656,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/de964e1"
+        },
+        {
+          "sha": "8435824",
+          "message": "fix camera callback memory leak",
+          "author": "rmp22",
+          "date": "Wed Sep 10 20:14:36 2025 +0800",
+          "timestamp": 1757506476,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8435824"
+        },
+        {
+          "sha": "93de763",
+          "message": "fix service type",
+          "author": "rmp22",
+          "date": "Wed Sep 10 20:14:08 2025 +0800",
+          "timestamp": 1757506448,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/93de763"
+        },
+        {
+          "sha": "a02f335",
+          "message": "structure finalization + lifecycle rewrite",
+          "author": "rmp22",
+          "date": "Sat Sep 6 22:14:57 2025 +0800",
+          "timestamp": 1757168097,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/a02f335"
+        },
+        {
+          "sha": "cd57d87",
+          "message": "add multi-state icon support to tile widget",
+          "author": "rmp22",
+          "date": "Thu Sep 4 11:39:29 2025 +0800",
+          "timestamp": 1756957169,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/cd57d87"
         }
       ]
     },
@@ -8919,103 +8951,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "github",
-      "commit_count": 11,
-      "commits": [
-        {
-          "sha": "84e7b7b",
-          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
-          "author": "Sneh Mankad",
-          "date": "Sun Nov 9 02:51:10 2025 +0200",
-          "timestamp": 1762649470,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
-        },
-        {
-          "sha": "9d86876",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:35:09 2025 +0200",
-          "timestamp": 1762648509,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
-        },
-        {
-          "sha": "ecd05f7",
-          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:34:40 2025 +0200",
-          "timestamp": 1762648480,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
-        },
-        {
-          "sha": "09c3881",
-          "message": "generic: Label vendor.qti.qesdk.sysservice app",
-          "author": "Giovanni Ricca",
-          "date": "Tue Oct 7 09:13:59 2025 +0200",
-          "timestamp": 1759821239,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
-        },
-        {
-          "sha": "8186a50",
-          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:34 2025 -0700",
-          "timestamp": 1757906014,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
-        },
-        {
-          "sha": "74db8a6",
-          "message": "sepolicy: Added attributes for BHS services.",
-          "author": "mkadali",
-          "date": "Tue Sep 9 18:40:44 2025 -0400",
-          "timestamp": 1757457644,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
-        },
-        {
-          "sha": "0785bde",
-          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
-          "author": "QCTECMDR Service",
-          "date": "Fri Sep 5 05:35:52 2025 -0700",
-          "timestamp": 1757075752,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
-        },
-        {
-          "sha": "f84d078",
-          "message": "[NFC][SEPolicy]: added dev node check access permission",
-          "author": "Varun Kumar",
-          "date": "Fri Sep 5 05:12:50 2025 -0700",
-          "timestamp": 1757074370,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
-        },
-        {
-          "sha": "736d7bc",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 5 07:41:13 2025 +0000",
-          "timestamp": 1757058073,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
-        },
-        {
-          "sha": "6f92e4b",
-          "message": "Merge \"sepolicy: Change the label to allow the property to be written by vendor\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 06:02:22 2025 -0700",
-          "timestamp": 1756904542,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6f92e4b"
-        },
-        {
-          "sha": "0258e3a",
-          "message": "Merge \"sepolicy : Allow BootAnimation to have read access to vendor_sys_gpp_prop\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 3 02:42:08 2025 -0700",
-          "timestamp": 1756892528,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0258e3a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
       "path": "hardware/qcom-caf/sm8750/audio/pal",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx",
@@ -9368,6 +9303,87 @@
           "date": "Fri Sep 5 14:55:40 2025 +0200",
           "timestamp": 1757076940,
           "url": "https://github.com/AxionAOSP/android_system_sepolicy/commit/07792ae"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "github",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "84e7b7b",
+          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
+          "author": "Sneh Mankad",
+          "date": "Sun Nov 9 02:51:10 2025 +0200",
+          "timestamp": 1762649470,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
+        },
+        {
+          "sha": "9d86876",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:35:09 2025 +0200",
+          "timestamp": 1762648509,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
+        },
+        {
+          "sha": "ecd05f7",
+          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:34:40 2025 +0200",
+          "timestamp": 1762648480,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
+        },
+        {
+          "sha": "09c3881",
+          "message": "generic: Label vendor.qti.qesdk.sysservice app",
+          "author": "Giovanni Ricca",
+          "date": "Tue Oct 7 09:13:59 2025 +0200",
+          "timestamp": 1759821239,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
+        },
+        {
+          "sha": "8186a50",
+          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:34 2025 -0700",
+          "timestamp": 1757906014,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
+        },
+        {
+          "sha": "74db8a6",
+          "message": "sepolicy: Added attributes for BHS services.",
+          "author": "mkadali",
+          "date": "Tue Sep 9 18:40:44 2025 -0400",
+          "timestamp": 1757457644,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
+        },
+        {
+          "sha": "0785bde",
+          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
+          "author": "QCTECMDR Service",
+          "date": "Fri Sep 5 05:35:52 2025 -0700",
+          "timestamp": 1757075752,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
+        },
+        {
+          "sha": "f84d078",
+          "message": "[NFC][SEPolicy]: added dev node check access permission",
+          "author": "Varun Kumar",
+          "date": "Fri Sep 5 05:12:50 2025 -0700",
+          "timestamp": 1757074370,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
+        },
+        {
+          "sha": "736d7bc",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 5 07:41:13 2025 +0000",
+          "timestamp": 1757058073,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
         }
       ]
     },
@@ -9850,79 +9866,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/sm8550",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "08e84aa",
-          "message": "sepolicy: Label SEC NFC device & HAL",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 16:27:19 2025 +0200",
-          "timestamp": 1764426439,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/08e84aa"
-        },
-        {
-          "sha": "c2a16e9",
-          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
-          "author": "Ankit Lathiya",
-          "date": "Fri Nov 21 07:21:44 2025 +0530",
-          "timestamp": 1763689904,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c2a16e9"
-        },
-        {
-          "sha": "805c088",
-          "message": "qva: Label AOSP ST NFC HAL",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 11:28:35 2025 +0200",
-          "timestamp": 1762680515,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/805c088"
-        },
-        {
-          "sha": "45e6960",
-          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:15 2025 +0200",
-          "timestamp": 1762608255,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/45e6960"
-        },
-        {
-          "sha": "2894ee5",
-          "message": "NFC: ST: Add the AIDL HAL service",
-          "author": "Devendar Gali",
-          "date": "Wed Oct 29 00:29:44 2025 +0000",
-          "timestamp": 1761697784,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2894ee5"
-        },
-        {
-          "sha": "faf9987",
-          "message": "generic: Allow init write to discard_max_bytes",
-          "author": "dianlujitao",
-          "date": "Fri Sep 19 23:07:05 2025 +0100",
-          "timestamp": 1758319625,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/faf9987"
-        },
-        {
-          "sha": "96bc63b",
-          "message": "generic: Label discard_max_bytes sysfs",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 19 23:07:05 2025 +0100",
-          "timestamp": 1758319625,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/96bc63b"
-        },
-        {
-          "sha": "ed1ac84",
-          "message": "Merge 3aa19baac92e7bfa3f6373c33aa1492d747c4879 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 3 13:26:28 2025 -0700",
-          "timestamp": 1756931188,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ed1ac84"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_sm8150_display",
       "path": "hardware/qcom/sm8150/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
@@ -10215,6 +10158,71 @@
       ]
     },
     {
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/sm8550",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "08e84aa",
+          "message": "sepolicy: Label SEC NFC device & HAL",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 16:27:19 2025 +0200",
+          "timestamp": 1764426439,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/08e84aa"
+        },
+        {
+          "sha": "c2a16e9",
+          "message": "BOARD_SYSTEM_EXT_PREBUILT_DIR is obsolete. Use BOARD_SYSTEM_EXT_SEPOLICY_PREBUILT_DIRS",
+          "author": "Ankit Lathiya",
+          "date": "Fri Nov 21 07:21:44 2025 +0530",
+          "timestamp": 1763689904,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c2a16e9"
+        },
+        {
+          "sha": "805c088",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:28:35 2025 +0200",
+          "timestamp": 1762680515,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/805c088"
+        },
+        {
+          "sha": "45e6960",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:15 2025 +0200",
+          "timestamp": 1762608255,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/45e6960"
+        },
+        {
+          "sha": "2894ee5",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Wed Oct 29 00:29:44 2025 +0000",
+          "timestamp": 1761697784,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/2894ee5"
+        },
+        {
+          "sha": "faf9987",
+          "message": "generic: Allow init write to discard_max_bytes",
+          "author": "dianlujitao",
+          "date": "Fri Sep 19 23:07:05 2025 +0100",
+          "timestamp": 1758319625,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/faf9987"
+        },
+        {
+          "sha": "96bc63b",
+          "message": "generic: Label discard_max_bytes sysfs",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 19 23:07:05 2025 +0100",
+          "timestamp": 1758319625,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/96bc63b"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_packages_apps_Camelot",
       "path": "packages/apps/Camelot",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Camelot",
@@ -10341,71 +10349,6 @@
           "date": "Fri Sep 5 03:03:20 2025 -0700",
           "timestamp": 1757066600,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ef8f4e1"
-        }
-      ]
-    },
-    {
-      "name": "android_build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/AxionAOSP/android_build_soong",
-      "remote": "axion",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "89d78cff",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:34:32 2025 +0200",
-          "timestamp": 1763667272,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/89d78cff"
-        },
-        {
-          "sha": "06b3fec9",
-          "message": "Revert \"install_symlink: Make symlink target configurable\"",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:34:10 2025 +0200",
-          "timestamp": 1763667250,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/06b3fec9"
-        },
-        {
-          "sha": "e4ce33d0",
-          "message": "Reapply \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:34:09 2025 +0200",
-          "timestamp": 1763667249,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/e4ce33d0"
-        },
-        {
-          "sha": "388f8209",
-          "message": "Revert \"rust: config: Fix missing CPU variant LD flags in Rust\"",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 21:34:08 2025 +0200",
-          "timestamp": 1763667248,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/388f8209"
-        },
-        {
-          "sha": "cff28f53",
-          "message": "Revert \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
-          "author": "Colin Cross",
-          "date": "Mon Oct 27 22:57:34 2025 +0000",
-          "timestamp": 1761605854,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/cff28f53"
-        },
-        {
-          "sha": "a70b1599",
-          "message": "Revert \"Remove perl from the allowed PATH tools list\"",
-          "author": "Aaron Kling",
-          "date": "Fri Sep 5 22:03:59 2025 +0000",
-          "timestamp": 1757109839,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/a70b1599"
-        },
-        {
-          "sha": "ea1c6d4f",
-          "message": "rust: config: Fix missing CPU variant LD flags in Rust",
-          "author": "Artem Karavashkin",
-          "date": "Wed Sep 3 16:59:58 2025 +0200",
-          "timestamp": 1756911598,
-          "url": "https://github.com/AxionAOSP/android_build_soong/commit/ea1c6d4f"
         }
       ]
     },
@@ -10817,59 +10760,59 @@
       ]
     },
     {
-      "name": "android_kernel_configs",
-      "path": "kernel/configs",
-      "repo_url": "https://github.com/AxionAOSP/android_kernel_configs",
+      "name": "android_build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/AxionAOSP/android_build_soong",
       "remote": "axion",
       "commit_count": 6,
       "commits": [
         {
-          "sha": "366f0fe",
-          "message": "Lower q/android-4.9 requirements",
-          "author": "Aaron Kling",
-          "date": "Mon Nov 24 12:56:16 2025 +0800",
-          "timestamp": 1763960176,
-          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/366f0fe"
-        },
-        {
-          "sha": "40dc4ea",
-          "message": "p/android-4.4: Bump min LTS version",
-          "author": "Bruno Martins",
-          "date": "Mon Nov 24 12:56:08 2025 +0800",
-          "timestamp": 1763960168,
-          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/40dc4ea"
-        },
-        {
-          "sha": "f7c7f52",
-          "message": "p/android-4.4: Enforce eBPF configs",
-          "author": "Bruno Martins",
-          "date": "Mon Nov 24 12:56:01 2025 +0800",
-          "timestamp": 1763960161,
-          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/f7c7f52"
-        },
-        {
-          "sha": "ed1291c",
-          "message": "Revert \"Delete p/android-4.4.\"",
-          "author": "Bruno Martins",
-          "date": "Mon Nov 24 12:55:56 2025 +0800",
-          "timestamp": 1763960156,
-          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/ed1291c"
-        },
-        {
-          "sha": "8c0dea9",
-          "message": "Restore q/android-4.9",
-          "author": "LuK1337",
-          "date": "Mon Nov 24 12:55:50 2025 +0800",
-          "timestamp": 1763960150,
-          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/8c0dea9"
-        },
-        {
-          "sha": "735b513",
+          "sha": "89d78cff",
           "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
           "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:13 2025 +0200",
-          "timestamp": 1763050633,
-          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/735b513"
+          "date": "Thu Nov 20 21:34:32 2025 +0200",
+          "timestamp": 1763667272,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/89d78cff"
+        },
+        {
+          "sha": "06b3fec9",
+          "message": "Revert \"install_symlink: Make symlink target configurable\"",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:34:10 2025 +0200",
+          "timestamp": 1763667250,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/06b3fec9"
+        },
+        {
+          "sha": "e4ce33d0",
+          "message": "Reapply \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:34:09 2025 +0200",
+          "timestamp": 1763667249,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/e4ce33d0"
+        },
+        {
+          "sha": "388f8209",
+          "message": "Revert \"rust: config: Fix missing CPU variant LD flags in Rust\"",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 21:34:08 2025 +0200",
+          "timestamp": 1763667248,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/388f8209"
+        },
+        {
+          "sha": "cff28f53",
+          "message": "Revert \"Clear as much of cc.Module as possible after GenerateBuildActions\"",
+          "author": "Colin Cross",
+          "date": "Mon Oct 27 22:57:34 2025 +0000",
+          "timestamp": 1761605854,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/cff28f53"
+        },
+        {
+          "sha": "a70b1599",
+          "message": "Revert \"Remove perl from the allowed PATH tools list\"",
+          "author": "Aaron Kling",
+          "date": "Fri Sep 5 22:03:59 2025 +0000",
+          "timestamp": 1757109839,
+          "url": "https://github.com/AxionAOSP/android_build_soong/commit/a70b1599"
         }
       ]
     },
@@ -10927,6 +10870,63 @@
           "date": "Fri Sep 12 17:54:12 2025 +0300",
           "timestamp": 1757688852,
           "url": "https://github.com/AxionAOSP/android_frameworks_native/commit/c6b508972"
+        }
+      ]
+    },
+    {
+      "name": "android_kernel_configs",
+      "path": "kernel/configs",
+      "repo_url": "https://github.com/AxionAOSP/android_kernel_configs",
+      "remote": "axion",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "366f0fe",
+          "message": "Lower q/android-4.9 requirements",
+          "author": "Aaron Kling",
+          "date": "Mon Nov 24 12:56:16 2025 +0800",
+          "timestamp": 1763960176,
+          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/366f0fe"
+        },
+        {
+          "sha": "40dc4ea",
+          "message": "p/android-4.4: Bump min LTS version",
+          "author": "Bruno Martins",
+          "date": "Mon Nov 24 12:56:08 2025 +0800",
+          "timestamp": 1763960168,
+          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/40dc4ea"
+        },
+        {
+          "sha": "f7c7f52",
+          "message": "p/android-4.4: Enforce eBPF configs",
+          "author": "Bruno Martins",
+          "date": "Mon Nov 24 12:56:01 2025 +0800",
+          "timestamp": 1763960161,
+          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/f7c7f52"
+        },
+        {
+          "sha": "ed1291c",
+          "message": "Revert \"Delete p/android-4.4.\"",
+          "author": "Bruno Martins",
+          "date": "Mon Nov 24 12:55:56 2025 +0800",
+          "timestamp": 1763960156,
+          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/ed1291c"
+        },
+        {
+          "sha": "8c0dea9",
+          "message": "Restore q/android-4.9",
+          "author": "LuK1337",
+          "date": "Mon Nov 24 12:55:50 2025 +0800",
+          "timestamp": 1763960150,
+          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/8c0dea9"
+        },
+        {
+          "sha": "735b513",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:13 2025 +0200",
+          "timestamp": 1763050633,
+          "url": "https://github.com/AxionAOSP/android_kernel_configs/commit/735b513"
         }
       ]
     },
@@ -11421,6 +11421,47 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_apps_FlipFlap",
+      "path": "packages/apps/FlipFlap",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "34ec40c",
+          "message": "FlipFlap: Use new method to listen for preference changes",
+          "author": "Bruno Martins",
+          "date": "Tue Dec 2 18:57:20 2025 +0000",
+          "timestamp": 1764701840,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/34ec40c"
+        },
+        {
+          "sha": "33302c5",
+          "message": "FlipFlap: Convert to SwitchPreferenceCompat",
+          "author": "Michael Bestas",
+          "date": "Tue Dec 2 16:12:05 2025 +0000",
+          "timestamp": 1764691925,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/33302c5"
+        },
+        {
+          "sha": "8351110",
+          "message": "FlipFlap: Move to PreferenceFragmentCompat",
+          "author": "AnierinB",
+          "date": "Tue Dec 2 16:11:58 2025 +0000",
+          "timestamp": 1764691918,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/8351110"
+        },
+        {
+          "sha": "dd49d55",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_agm",
       "path": "hardware/qcom-caf/sm8750/audio/agm",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm",
@@ -11544,43 +11585,43 @@
       ]
     },
     {
-      "name": "android_lineage-sdk",
-      "path": "lineage-sdk",
-      "repo_url": "https://github.com/AxionAOSP/android_lineage-sdk",
+      "name": "android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony",
       "remote": "axion",
       "commit_count": 4,
       "commits": [
         {
-          "sha": "60d0477",
-          "message": "LineagePreferenceLib: RIP DropDownPreference type",
-          "author": "Bruno Martins",
-          "date": "Sun Nov 23 12:15:38 2025 +0000",
-          "timestamp": 1763900138,
-          "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/60d0477"
+          "sha": "9f5f0cbb9",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 08:56:53 2025 +0200",
+          "timestamp": 1763103413,
+          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/9f5f0cbb9"
         },
         {
-          "sha": "39cff88",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:55 2025 +0000",
-          "timestamp": 1763229715,
-          "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/39cff88"
+          "sha": "dc2430384",
+          "message": "satellite data service policy fixes",
+          "author": "Nagendra Prasad Nagarle Basavaraju",
+          "date": "Thu Sep 25 21:12:15 2025 +0530",
+          "timestamp": 1758814935,
+          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/dc2430384"
         },
         {
-          "sha": "d518e8d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:36 2025 +0000",
-          "timestamp": 1762026516,
-          "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/d518e8d"
+          "sha": "4820f09b9",
+          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
+          "author": "Aishwarya Mallampati",
+          "date": "Thu Sep 25 20:58:34 2025 +0530",
+          "timestamp": 1758814114,
+          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/4820f09b9"
         },
         {
-          "sha": "f26071c",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:38 2025 +0000",
-          "timestamp": 1758744398,
-          "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/f26071c"
+          "sha": "44377e2d7",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/opt/telephony into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 17:54:54 2025 +0300",
+          "timestamp": 1757688894,
+          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/44377e2d7"
         }
       ]
     },
@@ -11626,43 +11667,43 @@
       ]
     },
     {
-      "name": "android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony",
+      "name": "android_lineage-sdk",
+      "path": "lineage-sdk",
+      "repo_url": "https://github.com/AxionAOSP/android_lineage-sdk",
       "remote": "axion",
       "commit_count": 4,
       "commits": [
         {
-          "sha": "9f5f0cbb9",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 08:56:53 2025 +0200",
-          "timestamp": 1763103413,
-          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/9f5f0cbb9"
+          "sha": "60d0477",
+          "message": "LineagePreferenceLib: RIP DropDownPreference type",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 23 12:15:38 2025 +0000",
+          "timestamp": 1763900138,
+          "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/60d0477"
         },
         {
-          "sha": "dc2430384",
-          "message": "satellite data service policy fixes",
-          "author": "Nagendra Prasad Nagarle Basavaraju",
-          "date": "Thu Sep 25 21:12:15 2025 +0530",
-          "timestamp": 1758814935,
-          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/dc2430384"
+          "sha": "39cff88",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:55 2025 +0000",
+          "timestamp": 1763229715,
+          "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/39cff88"
         },
         {
-          "sha": "4820f09b9",
-          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
-          "author": "Aishwarya Mallampati",
-          "date": "Thu Sep 25 20:58:34 2025 +0530",
-          "timestamp": 1758814114,
-          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/4820f09b9"
+          "sha": "d518e8d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:36 2025 +0000",
+          "timestamp": 1762026516,
+          "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/d518e8d"
         },
         {
-          "sha": "44377e2d7",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/opt/telephony into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 17:54:54 2025 +0300",
-          "timestamp": 1757688894,
-          "url": "https://github.com/AxionAOSP/android_frameworks_opt_telephony/commit/44377e2d7"
+          "sha": "f26071c",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:38 2025 +0000",
+          "timestamp": 1758744398,
+          "url": "https://github.com/AxionAOSP/android_lineage-sdk/commit/f26071c"
         }
       ]
     },
@@ -12560,31 +12601,6 @@
     },
     {
       "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8550/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "191b3fc",
-          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:27 2025 +0200",
-          "timestamp": 1762608267,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/191b3fc"
-        },
-        {
-          "sha": "5cf7fca",
-          "message": "Merge 61a216c3a3d5f4ca102f81308b7ef6ead88b30cf on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 3 13:36:08 2025 -0700",
-          "timestamp": 1756931768,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5cf7fca"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
       "path": "hardware/qcom-caf/sm8750/dataipa",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
       "remote": "github",
@@ -12684,31 +12700,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_EmergencyInfo",
-      "path": "packages/apps/EmergencyInfo",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "86afd3a",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:36:34 2025 +0200",
-          "timestamp": 1763105794,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo/commit/86afd3a"
-        },
-        {
-          "sha": "6946b93",
-          "message": "Revert \"Fix activity name for EmergencyGestureAction\"",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:36:24 2025 +0200",
-          "timestamp": 1763105784,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo/commit/6946b93"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Dialer",
       "path": "packages/apps/Dialer",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Dialer",
@@ -12730,6 +12721,31 @@
           "date": "Wed Sep 24 20:06:41 2025 +0000",
           "timestamp": 1758744401,
           "url": "https://github.com/AxionAOSP/android_packages_apps_Dialer/commit/a2c61d62"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_EmergencyInfo",
+      "path": "packages/apps/EmergencyInfo",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "86afd3a",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:36:34 2025 +0200",
+          "timestamp": 1763105794,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo/commit/86afd3a"
+        },
+        {
+          "sha": "6946b93",
+          "message": "Revert \"Fix activity name for EmergencyGestureAction\"",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:36:24 2025 +0200",
+          "timestamp": 1763105784,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo/commit/6946b93"
         }
       ]
     },
@@ -12909,6 +12925,31 @@
       ]
     },
     {
+      "name": "android_packages_providers_MediaProvider",
+      "path": "packages/providers/MediaProvider",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "abf0d8748",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:49:45 2025 +0200",
+          "timestamp": 1763110185,
+          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/abf0d8748"
+        },
+        {
+          "sha": "0138b508f",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/providers/MediaProvider into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 18:00:27 2025 +0300",
+          "timestamp": 1757689227,
+          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/0138b508f"
+        }
+      ]
+    },
+    {
       "name": "android_packages_services_Mms",
       "path": "packages/services/Mms",
       "repo_url": "https://github.com/AxionAOSP/android_packages_services_Mms",
@@ -12955,31 +12996,6 @@
           "date": "Mon Nov 17 17:59:10 2025 +0530",
           "timestamp": 1763382550,
           "url": "https://github.com/AxionAOSP/android_system_bpf/commit/cb8c845"
-        }
-      ]
-    },
-    {
-      "name": "android_packages_providers_MediaProvider",
-      "path": "packages/providers/MediaProvider",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "abf0d8748",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:49:45 2025 +0200",
-          "timestamp": 1763110185,
-          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/abf0d8748"
-        },
-        {
-          "sha": "0138b508f",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/providers/MediaProvider into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 18:00:27 2025 +0300",
-          "timestamp": 1757689227,
-          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/0138b508f"
         }
       ]
     },
@@ -13034,31 +13050,6 @@
       ]
     },
     {
-      "name": "android_system_media",
-      "path": "system/media",
-      "repo_url": "https://github.com/AxionAOSP/android_system_media",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "ac4cefe",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 20 20:51:23 2025 +0200",
-          "timestamp": 1763664683,
-          "url": "https://github.com/AxionAOSP/android_system_media/commit/ac4cefe"
-        },
-        {
-          "sha": "e112072",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Sun Nov 16 10:55:27 2025 +0100",
-          "timestamp": 1763286927,
-          "url": "https://github.com/AxionAOSP/android_system_media/commit/e112072"
-        }
-      ]
-    },
-    {
       "name": "android_packages_services_Car",
       "path": "packages/services/Car",
       "repo_url": "https://github.com/AxionAOSP/android_packages_services_Car",
@@ -13080,6 +13071,31 @@
           "date": "Thu Oct 16 19:54:14 2025 -0400",
           "timestamp": 1760658854,
           "url": "https://github.com/AxionAOSP/android_packages_services_Car/commit/51ffd503a"
+        }
+      ]
+    },
+    {
+      "name": "android_system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/AxionAOSP/android_system_media",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "ac4cefe",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 20 20:51:23 2025 +0200",
+          "timestamp": 1763664683,
+          "url": "https://github.com/AxionAOSP/android_system_media/commit/ac4cefe"
+        },
+        {
+          "sha": "e112072",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Sun Nov 16 10:55:27 2025 +0100",
+          "timestamp": 1763286927,
+          "url": "https://github.com/AxionAOSP/android_system_media/commit/e112072"
         }
       ]
     },
@@ -13238,23 +13254,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/sdm845/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c14d815",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 23:04:11 2025 +0000",
-          "timestamp": 1757286251,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
       "path": "hardware/qcom-caf/msm8998/media",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
       "remote": "github",
@@ -13288,19 +13287,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_sm8150_gps",
-      "path": "hardware/qcom/sm8150/gps",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps",
+      "name": "LineageOS/android_hardware_qcom_media",
+      "path": "hardware/qcom-caf/sdm845/media",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "c102eca",
-          "message": "Remove obsolete os_pickup.{bp,mk}",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 16:23:52 2025 +0300",
-          "timestamp": 1757510632,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca"
+          "sha": "c14d815",
+          "message": "Fix alignment of encoder_meta_buffer_payload_type",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 7 23:04:11 2025 +0000",
+          "timestamp": 1757286251,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
         }
       ]
     },
@@ -13322,19 +13321,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_FlipFlap",
-      "path": "packages/apps/FlipFlap",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_FlipFlap",
+      "name": "LineageOS/android_hardware_qcom_sm8150_gps",
+      "path": "hardware/qcom/sm8150/gps",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "dd49d55",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
+          "sha": "c102eca",
+          "message": "Remove obsolete os_pickup.{bp,mk}",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 10 16:23:52 2025 +0300",
+          "timestamp": 1757510632,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca"
         }
       ]
     },
@@ -13352,6 +13351,23 @@
           "date": "Sat Oct 4 13:01:13 2025 +0800",
           "timestamp": 1759554073,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/0a94a23"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8550/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "191b3fc",
+          "message": "Merge tag 'LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.13.2.0.r1-27200-KAILUA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:27 2025 +0200",
+          "timestamp": 1762608267,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/191b3fc"
         }
       ]
     },
@@ -13492,19 +13508,19 @@
       ]
     },
     {
-      "name": "android_frameworks_libs_systemui",
-      "path": "frameworks/libs/systemui",
-      "repo_url": "https://github.com/AxionAOSP/android_frameworks_libs_systemui",
+      "name": "android_external_cronet",
+      "path": "external/cronet",
+      "repo_url": "https://github.com/AxionAOSP/android_external_cronet",
       "remote": "axion",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "f00e19e",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:16:41 2025 +0200",
-          "timestamp": 1763050601,
-          "url": "https://github.com/AxionAOSP/android_frameworks_libs_systemui/commit/f00e19e"
+          "sha": "09fbedc9",
+          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/external/cronet into lineage-23.1",
+          "author": "rmp22",
+          "date": "Mon Nov 24 12:50:44 2025 +0800",
+          "timestamp": 1763959844,
+          "url": "https://github.com/AxionAOSP/android_external_cronet/commit/09fbedc9"
         }
       ]
     },
@@ -13526,19 +13542,19 @@
       ]
     },
     {
-      "name": "android_external_cronet",
-      "path": "external/cronet",
-      "repo_url": "https://github.com/AxionAOSP/android_external_cronet",
+      "name": "android_frameworks_libs_systemui",
+      "path": "frameworks/libs/systemui",
+      "repo_url": "https://github.com/AxionAOSP/android_frameworks_libs_systemui",
       "remote": "axion",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "09fbedc9",
-          "message": "Merge tag 'android-16.0.0_r3' of https://android.googlesource.com/platform/external/cronet into lineage-23.1",
-          "author": "rmp22",
-          "date": "Mon Nov 24 12:50:44 2025 +0800",
-          "timestamp": 1763959844,
-          "url": "https://github.com/AxionAOSP/android_external_cronet/commit/09fbedc9"
+          "sha": "f00e19e",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:16:41 2025 +0200",
+          "timestamp": 1763050601,
+          "url": "https://github.com/AxionAOSP/android_frameworks_libs_systemui/commit/f00e19e"
         }
       ]
     },
@@ -13696,23 +13712,6 @@
       ]
     },
     {
-      "name": "android_packages_modules_Nfc",
-      "path": "packages/modules/Nfc",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_modules_Nfc",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "20bdcc9e",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:32:57 2025 +0200",
-          "timestamp": 1763109177,
-          "url": "https://github.com/AxionAOSP/android_packages_modules_Nfc/commit/20bdcc9e"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_WallpaperPicker2",
       "path": "packages/apps/WallpaperPicker2",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_WallpaperPicker2",
@@ -13726,6 +13725,23 @@
           "date": "Thu Nov 13 18:17:55 2025 +0200",
           "timestamp": 1763050675,
           "url": "https://github.com/AxionAOSP/android_packages_apps_WallpaperPicker2/commit/73ff0b64"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_modules_Nfc",
+      "path": "packages/modules/Nfc",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_modules_Nfc",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "20bdcc9e",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:32:57 2025 +0200",
+          "timestamp": 1763109177,
+          "url": "https://github.com/AxionAOSP/android_packages_modules_Nfc/commit/20bdcc9e"
         }
       ]
     },
