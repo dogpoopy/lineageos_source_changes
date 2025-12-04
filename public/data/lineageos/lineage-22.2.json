@@ -1,18 +1,26 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-22.2",
-  "generated_at": "2025-12-03T01:20:08.123283+00:00",
-  "since_date": "2025-09-04",
-  "total_projects": 71,
-  "total_commits": 421,
+  "generated_at": "2025-12-04T01:19:37.940847+00:00",
+  "since_date": "2025-09-05",
+  "total_projects": 70,
+  "total_commits": 420,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 89,
+      "commit_count": 90,
       "commits": [
+        {
+          "sha": "3bea55f",
+          "message": "devices: Promote zizhan to 23.0",
+          "author": "Arian",
+          "date": "Wed Dec 3 10:04:05 2025 +0000",
+          "timestamp": 1764756245,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/3bea55f"
+        },
         {
           "sha": "9aec8e0",
           "message": "wiki: CC 9 -> CC9",
@@ -732,8 +740,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 41,
+      "commit_count": 42,
       "commits": [
+        {
+          "sha": "d61ec8c",
+          "message": "unfold extra room for proper destruction",
+          "author": "Arian",
+          "date": "Wed Dec 3 10:04:04 2025 +0000",
+          "timestamp": 1764756244,
+          "url": "https://github.com/LineageOS/hudson/commit/d61ec8c"
+        },
         {
           "sha": "772ac75",
           "message": "CC 9 -> CC9",
@@ -1069,7 +1085,7 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 24,
+      "commit_count": 23,
       "commits": [
         {
           "sha": "067ad91",
@@ -1254,14 +1270,6 @@
           "date": "Fri Sep 5 12:02:01 2025 +0200",
           "timestamp": 1757066521,
           "url": "https://github.com/LineageOS/mirror/commit/109a48f"
-        },
-        {
-          "sha": "165bd19",
-          "message": "Updated to 04-Sep-2025 22:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Fri Sep 5 00:01:35 2025 +0200",
-          "timestamp": 1757023295,
-          "url": "https://github.com/LineageOS/mirror/commit/165bd19"
         }
       ]
     },
@@ -2154,71 +2162,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Aperture",
-      "path": "packages/apps/Aperture",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "0abe761",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 17:40:44 2025 +0000",
-          "timestamp": 1764610844,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/0abe761"
-        },
-        {
-          "sha": "12f690d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 04:15:38 2025 +0000",
-          "timestamp": 1760588138,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d"
-        },
-        {
-          "sha": "1b0c843",
-          "message": "Aperture: No more jail escape",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 16 10:01:45 2025 +0000",
-          "timestamp": 1758016905,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843"
-        },
-        {
-          "sha": "340b187",
-          "message": "Aperture: Update CameraX",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 16 10:01:45 2025 +0000",
-          "timestamp": 1758016905,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/340b187"
-        },
-        {
-          "sha": "503b71d",
-          "message": "Aperture: Update CameraX to 1.5.0",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 16 10:01:45 2025 +0000",
-          "timestamp": 1758016905,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/503b71d"
-        },
-        {
-          "sha": "b594427",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:01 2025 +0000",
-          "timestamp": 1757955301,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427"
-        },
-        {
-          "sha": "163d4bb",
-          "message": "Aperture: Fix zoom level bar alignment in QR mode",
-          "author": "LuK1337",
-          "date": "Thu Sep 4 17:45:03 2025 +0200",
-          "timestamp": 1757000703,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/163d4bb"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_LineageParts",
       "path": "packages/apps/LineageParts",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_LineageParts",
@@ -2280,6 +2223,63 @@
           "date": "Mon Sep 15 16:55:06 2025 +0000",
           "timestamp": 1757955306,
           "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/84552e0"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Aperture",
+      "path": "packages/apps/Aperture",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "0abe761",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 17:40:44 2025 +0000",
+          "timestamp": 1764610844,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/0abe761"
+        },
+        {
+          "sha": "12f690d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 04:15:38 2025 +0000",
+          "timestamp": 1760588138,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d"
+        },
+        {
+          "sha": "1b0c843",
+          "message": "Aperture: No more jail escape",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 16 10:01:45 2025 +0000",
+          "timestamp": 1758016905,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843"
+        },
+        {
+          "sha": "340b187",
+          "message": "Aperture: Update CameraX",
+          "author": "Sebastiano Barezzi",
+          "date": "Tue Sep 16 10:01:45 2025 +0000",
+          "timestamp": 1758016905,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/340b187"
+        },
+        {
+          "sha": "503b71d",
+          "message": "Aperture: Update CameraX to 1.5.0",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 16 10:01:45 2025 +0000",
+          "timestamp": 1758016905,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/503b71d"
+        },
+        {
+          "sha": "b594427",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:01 2025 +0000",
+          "timestamp": 1757955301,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427"
         }
       ]
     },
@@ -2955,39 +2955,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
-        },
-        {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
-        },
-        {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
       "path": "external/chromium-webview/prebuilt/arm",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
@@ -3050,6 +3017,39 @@
           "date": "Sat Sep 27 08:22:45 2025 -0600",
           "timestamp": 1758982965,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        },
+        {
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+        },
+        {
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
         }
       ]
     },
@@ -3384,39 +3384,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_tools_extract-utils",
-      "path": "tools/extract-utils",
-      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "3f351b8",
-          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8"
-        },
-        {
-          "sha": "6e43900",
-          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/6e43900"
-        },
-        {
-          "sha": "e34475c",
-          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/e34475c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_apn",
       "path": "vendor/apn",
       "repo_url": "https://github.com/LineageOS/android_vendor_apn",
@@ -3446,6 +3413,39 @@
           "date": "Tue Nov 11 10:34:07 2025 +0100",
           "timestamp": 1762853647,
           "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_tools_extract-utils",
+      "path": "tools/extract-utils",
+      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "3f351b8",
+          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8"
+        },
+        {
+          "sha": "6e43900",
+          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/6e43900"
+        },
+        {
+          "sha": "e34475c",
+          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/e34475c"
         }
       ]
     },
@@ -3738,23 +3738,6 @@
           "date": "Mon Oct 27 22:04:13 2025 +0000",
           "timestamp": 1761602653,
           "url": "https://github.com/LineageOS/android_external_unrar/commit/140cfb9"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_broadcom_libbt",
-      "path": "hardware/broadcom/libbt",
-      "repo_url": "https://github.com/LineageOS/android_hardware_broadcom_libbt",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "39a0c50",
-          "message": "libbt: Convert to Android.bp",
-          "author": "Yumi Yukimura",
-          "date": "Thu Sep 4 07:32:39 2025 +0000",
-          "timestamp": 1756971159,
-          "url": "https://github.com/LineageOS/android_hardware_broadcom_libbt/commit/39a0c50"
         }
       ]
     },

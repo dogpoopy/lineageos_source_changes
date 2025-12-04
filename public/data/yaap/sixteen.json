@@ -1,10 +1,10 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-12-03T01:23:35.529268+00:00",
-  "since_date": "2025-09-04",
-  "total_projects": 46,
-  "total_commits": 278,
+  "generated_at": "2025-12-04T01:22:16.478691+00:00",
+  "since_date": "2025-09-05",
+  "total_projects": 45,
+  "total_commits": 271,
   "projects": [
     {
       "name": "frameworks_base",
@@ -1552,87 +1552,6 @@
       ]
     },
     {
-      "name": "vendor_yaap",
-      "path": "vendor/yaap",
-      "repo_url": "https://github.com/yaap/vendor_yaap",
-      "remote": "yaap",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "a7a0713",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Wed Oct 29 00:00:20 2025 +0800",
-          "timestamp": 1761667220,
-          "url": "https://github.com/yaap/vendor_yaap/commit/a7a0713"
-        },
-        {
-          "sha": "1d16ff0",
-          "message": "Revert \"[HACK]: release: disable new_hdr_brightness_modifier\"",
-          "author": "John Galt",
-          "date": "Thu Oct 16 18:17:18 2025 -0400",
-          "timestamp": 1760653038,
-          "url": "https://github.com/yaap/vendor_yaap/commit/1d16ff0"
-        },
-        {
-          "sha": "4144baa",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Fri Oct 3 23:35:58 2025 +0800",
-          "timestamp": 1759505758,
-          "url": "https://github.com/yaap/vendor_yaap/commit/4144baa"
-        },
-        {
-          "sha": "fc82d57",
-          "message": "overlay: Drop config_defaultQrCodeComponent",
-          "author": "Cyber Knight",
-          "date": "Tue Sep 23 20:04:00 2025 +0800",
-          "timestamp": 1758629040,
-          "url": "https://github.com/yaap/vendor_yaap/commit/fc82d57"
-        },
-        {
-          "sha": "5e9034c",
-          "message": "Bump Security String to 2025-09-01",
-          "author": "Michael Bestas",
-          "date": "Mon Sep 22 03:53:12 2025 +0300",
-          "timestamp": 1758502392,
-          "url": "https://github.com/yaap/vendor_yaap/commit/5e9034c"
-        },
-        {
-          "sha": "6ab6994",
-          "message": "overlay: Update certified fingerprint",
-          "author": "Cyber Knight",
-          "date": "Sun Sep 14 23:00:23 2025 +0800",
-          "timestamp": 1757862023,
-          "url": "https://github.com/yaap/vendor_yaap/commit/6ab6994"
-        },
-        {
-          "sha": "cc620f6",
-          "message": "config/common: add TARGET_BUILD_LINDROID var",
-          "author": "John Galt",
-          "date": "Fri Sep 5 14:52:12 2025 -0400",
-          "timestamp": 1757098332,
-          "url": "https://github.com/yaap/vendor_yaap/commit/cc620f6"
-        },
-        {
-          "sha": "45519f4",
-          "message": "build/soong: drop qti_kernel_headers",
-          "author": "John Galt",
-          "date": "Thu Sep 4 13:29:50 2025 -0400",
-          "timestamp": 1757006990,
-          "url": "https://github.com/yaap/vendor_yaap/commit/45519f4"
-        },
-        {
-          "sha": "c901e0d",
-          "message": "soong-gen: Completely revert \"d982199c5 [DNM] soong: Fully override path for now\"",
-          "author": "Cyber Knight",
-          "date": "Thu Sep 4 23:21:44 2025 +0800",
-          "timestamp": 1756999304,
-          "url": "https://github.com/yaap/vendor_yaap/commit/c901e0d"
-        }
-      ]
-    },
-    {
       "name": "frameworks_native",
       "path": "frameworks/native",
       "repo_url": "https://github.com/yaap/frameworks_native",
@@ -1694,6 +1613,71 @@
           "date": "Mon Sep 22 03:38:34 2025 +0300",
           "timestamp": 1758501514,
           "url": "https://github.com/yaap/frameworks_native/commit/c40e21ae7"
+        }
+      ]
+    },
+    {
+      "name": "vendor_yaap",
+      "path": "vendor/yaap",
+      "repo_url": "https://github.com/yaap/vendor_yaap",
+      "remote": "yaap",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "a7a0713",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Wed Oct 29 00:00:20 2025 +0800",
+          "timestamp": 1761667220,
+          "url": "https://github.com/yaap/vendor_yaap/commit/a7a0713"
+        },
+        {
+          "sha": "1d16ff0",
+          "message": "Revert \"[HACK]: release: disable new_hdr_brightness_modifier\"",
+          "author": "John Galt",
+          "date": "Thu Oct 16 18:17:18 2025 -0400",
+          "timestamp": 1760653038,
+          "url": "https://github.com/yaap/vendor_yaap/commit/1d16ff0"
+        },
+        {
+          "sha": "4144baa",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Fri Oct 3 23:35:58 2025 +0800",
+          "timestamp": 1759505758,
+          "url": "https://github.com/yaap/vendor_yaap/commit/4144baa"
+        },
+        {
+          "sha": "fc82d57",
+          "message": "overlay: Drop config_defaultQrCodeComponent",
+          "author": "Cyber Knight",
+          "date": "Tue Sep 23 20:04:00 2025 +0800",
+          "timestamp": 1758629040,
+          "url": "https://github.com/yaap/vendor_yaap/commit/fc82d57"
+        },
+        {
+          "sha": "5e9034c",
+          "message": "Bump Security String to 2025-09-01",
+          "author": "Michael Bestas",
+          "date": "Mon Sep 22 03:53:12 2025 +0300",
+          "timestamp": 1758502392,
+          "url": "https://github.com/yaap/vendor_yaap/commit/5e9034c"
+        },
+        {
+          "sha": "6ab6994",
+          "message": "overlay: Update certified fingerprint",
+          "author": "Cyber Knight",
+          "date": "Sun Sep 14 23:00:23 2025 +0800",
+          "timestamp": 1757862023,
+          "url": "https://github.com/yaap/vendor_yaap/commit/6ab6994"
+        },
+        {
+          "sha": "cc620f6",
+          "message": "config/common: add TARGET_BUILD_LINDROID var",
+          "author": "John Galt",
+          "date": "Fri Sep 5 14:52:12 2025 -0400",
+          "timestamp": 1757098332,
+          "url": "https://github.com/yaap/vendor_yaap/commit/cc620f6"
         }
       ]
     },
@@ -1800,55 +1784,6 @@
           "date": "Mon Sep 15 16:55:02 2025 +0000",
           "timestamp": 1757955302,
           "url": "https://github.com/LineageOS/android_packages_apps_Camelot/commit/34fd95b"
-        }
-      ]
-    },
-    {
-      "name": "build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/yaap/build_soong",
-      "remote": "yaap",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "905c05ef",
-          "message": "Revert \"build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
-          "author": "John Galt",
-          "date": "Fri Nov 14 09:12:52 2025 -0500",
-          "timestamp": 1763129572,
-          "url": "https://github.com/yaap/build_soong/commit/905c05ef"
-        },
-        {
-          "sha": "a569986e",
-          "message": "Revert \"[FIXUP] build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
-          "author": "John Galt",
-          "date": "Fri Nov 14 09:12:52 2025 -0500",
-          "timestamp": 1763129572,
-          "url": "https://github.com/yaap/build_soong/commit/a569986e"
-        },
-        {
-          "sha": "0231def0",
-          "message": "Revert \"build/soong: make mimalloc opt in [3/3]\"",
-          "author": "John Galt",
-          "date": "Fri Nov 14 09:12:52 2025 -0500",
-          "timestamp": 1763129572,
-          "url": "https://github.com/yaap/build_soong/commit/0231def0"
-        },
-        {
-          "sha": "fb2eae81",
-          "message": "rust: config: Fix missing CPU variant LD flags in Rust",
-          "author": "Artem Karavashkin",
-          "date": "Wed Sep 3 22:28:15 2025 -0400",
-          "timestamp": 1756952895,
-          "url": "https://github.com/yaap/build_soong/commit/fb2eae81"
-        },
-        {
-          "sha": "b000a990",
-          "message": "Revert \"Replace qti_kernel_headers with generated_kernel_headers\"",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 22:28:03 2025 -0400",
-          "timestamp": 1756952883,
-          "url": "https://github.com/yaap/build_soong/commit/b000a990"
         }
       ]
     },
@@ -1984,6 +1919,39 @@
       ]
     },
     {
+      "name": "build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/yaap/build_soong",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "905c05ef",
+          "message": "Revert \"build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:12:52 2025 -0500",
+          "timestamp": 1763129572,
+          "url": "https://github.com/yaap/build_soong/commit/905c05ef"
+        },
+        {
+          "sha": "a569986e",
+          "message": "Revert \"[FIXUP] build: soong: use jemalloc by default and allow opt-in to scudo (2/4)\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:12:52 2025 -0500",
+          "timestamp": 1763129572,
+          "url": "https://github.com/yaap/build_soong/commit/a569986e"
+        },
+        {
+          "sha": "0231def0",
+          "message": "Revert \"build/soong: make mimalloc opt in [3/3]\"",
+          "author": "John Galt",
+          "date": "Fri Nov 14 09:12:52 2025 -0500",
+          "timestamp": 1763129572,
+          "url": "https://github.com/yaap/build_soong/commit/0231def0"
+        }
+      ]
+    },
+    {
       "name": "frameworks_opt_telephony",
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/yaap/frameworks_opt_telephony",
@@ -2013,39 +1981,6 @@
           "date": "Mon Sep 22 03:40:36 2025 +0300",
           "timestamp": 1758501636,
           "url": "https://github.com/yaap/frameworks_opt_telephony/commit/3e68c507c"
-        }
-      ]
-    },
-    {
-      "name": "hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/yaap/hardware_qcom-caf_common",
-      "remote": "yaap",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "3e0151b",
-          "message": "common: Add liboemcrypto.so to vendor linker config",
-          "author": "LuK1337",
-          "date": "Thu Sep 4 12:32:55 2025 -0400",
-          "timestamp": 1757003575,
-          "url": "https://github.com/yaap/hardware_qcom-caf_common/commit/3e0151b"
-        },
-        {
-          "sha": "c6fb908",
-          "message": "qcom: Update thermal HAL namespace selection",
-          "author": "Michael Bestas",
-          "date": "Thu Sep 4 11:14:50 2025 -0400",
-          "timestamp": 1756998890,
-          "url": "https://github.com/yaap/hardware_qcom-caf_common/commit/c6fb908"
-        },
-        {
-          "sha": "873c392",
-          "message": "qcom: Map kernel headers to generated_kernel_headers",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 3 22:22:53 2025 -0400",
-          "timestamp": 1756952573,
-          "url": "https://github.com/yaap/hardware_qcom-caf_common/commit/873c392"
         }
       ]
     },
@@ -2594,23 +2529,6 @@
       ]
     },
     {
-      "name": "vendor_microg",
-      "path": "vendor/microg",
-      "repo_url": "https://github.com/yaap/vendor_microg",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "14e7149",
-          "message": "microg: update to v0.3.10.250932",
-          "author": "John Galt",
-          "date": "Tue Oct 14 14:41:54 2025 -0400",
-          "timestamp": 1760467314,
-          "url": "https://github.com/yaap/vendor_microg/commit/14e7149"
-        }
-      ]
-    },
-    {
       "name": "vendor_qcom_opensource_arpal-lx-sm8650",
       "path": "hardware/qcom-caf/sm8650/audio/pal",
       "repo_url": "https://github.com/yaap/vendor_qcom_opensource_arpal-lx-sm8650",
@@ -2624,6 +2542,23 @@
           "date": "Mon Nov 24 10:47:24 2025 -0500",
           "timestamp": 1763999244,
           "url": "https://github.com/yaap/vendor_qcom_opensource_arpal-lx-sm8650/commit/1c5c41f"
+        }
+      ]
+    },
+    {
+      "name": "vendor_microg",
+      "path": "vendor/microg",
+      "repo_url": "https://github.com/yaap/vendor_microg",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "14e7149",
+          "message": "microg: update to v0.3.10.250932",
+          "author": "John Galt",
+          "date": "Tue Oct 14 14:41:54 2025 -0400",
+          "timestamp": 1760467314,
+          "url": "https://github.com/yaap/vendor_microg/commit/14e7149"
         }
       ]
     },

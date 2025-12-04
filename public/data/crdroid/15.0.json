@@ -1,10 +1,10 @@
 {
   "rom_id": "crdroid",
   "branch": "15.0",
-  "generated_at": "2025-12-03T01:28:56.730989+00:00",
-  "since_date": "2025-09-04",
-  "total_projects": 84,
-  "total_commits": 906,
+  "generated_at": "2025-12-04T01:26:22.245686+00:00",
+  "since_date": "2025-09-05",
+  "total_projects": 83,
+  "total_commits": 904,
   "projects": [
     {
       "name": "crdroidandroid/android_packages_apps_Settings",
@@ -6279,71 +6279,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Aperture",
-      "path": "packages/apps/Aperture",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "0abe761",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 17:40:44 2025 +0000",
-          "timestamp": 1764610844,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/0abe761"
-        },
-        {
-          "sha": "12f690d",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 04:15:38 2025 +0000",
-          "timestamp": 1760588138,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d"
-        },
-        {
-          "sha": "1b0c843",
-          "message": "Aperture: No more jail escape",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 16 10:01:45 2025 +0000",
-          "timestamp": 1758016905,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843"
-        },
-        {
-          "sha": "340b187",
-          "message": "Aperture: Update CameraX",
-          "author": "Sebastiano Barezzi",
-          "date": "Tue Sep 16 10:01:45 2025 +0000",
-          "timestamp": 1758016905,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/340b187"
-        },
-        {
-          "sha": "503b71d",
-          "message": "Aperture: Update CameraX to 1.5.0",
-          "author": "Luca Stefani",
-          "date": "Tue Sep 16 10:01:45 2025 +0000",
-          "timestamp": 1758016905,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/503b71d"
-        },
-        {
-          "sha": "b594427",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:01 2025 +0000",
-          "timestamp": 1757955301,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427"
-        },
-        {
-          "sha": "163d4bb",
-          "message": "Aperture: Fix zoom level bar alignment in QR mode",
-          "author": "LuK1337",
-          "date": "Thu Sep 4 17:45:03 2025 +0200",
-          "timestamp": 1757000703,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/163d4bb"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_apps_ThemePicker",
       "path": "packages/apps/ThemePicker",
       "repo_url": "https://github.com/crdroidandroid/android_packages_apps_ThemePicker",
@@ -6405,6 +6340,63 @@
           "date": "Mon Sep 8 06:03:41 2025 +0530",
           "timestamp": 1757291621,
           "url": "https://github.com/crdroidandroid/android_packages_apps_ThemePicker/commit/4af3d482"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Aperture",
+      "path": "packages/apps/Aperture",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "0abe761",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 17:40:44 2025 +0000",
+          "timestamp": 1764610844,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/0abe761"
+        },
+        {
+          "sha": "12f690d",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 04:15:38 2025 +0000",
+          "timestamp": 1760588138,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/12f690d"
+        },
+        {
+          "sha": "1b0c843",
+          "message": "Aperture: No more jail escape",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 16 10:01:45 2025 +0000",
+          "timestamp": 1758016905,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/1b0c843"
+        },
+        {
+          "sha": "340b187",
+          "message": "Aperture: Update CameraX",
+          "author": "Sebastiano Barezzi",
+          "date": "Tue Sep 16 10:01:45 2025 +0000",
+          "timestamp": 1758016905,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/340b187"
+        },
+        {
+          "sha": "503b71d",
+          "message": "Aperture: Update CameraX to 1.5.0",
+          "author": "Luca Stefani",
+          "date": "Tue Sep 16 10:01:45 2025 +0000",
+          "timestamp": 1758016905,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/503b71d"
+        },
+        {
+          "sha": "b594427",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:01 2025 +0000",
+          "timestamp": 1757955301,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b594427"
         }
       ]
     },
@@ -6859,39 +6851,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
-        },
-        {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
-        },
-        {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -6921,6 +6880,39 @@
           "date": "Fri Sep 26 09:55:19 2025 -0600",
           "timestamp": 1758902119,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        },
+        {
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        },
+        {
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -7222,39 +7214,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_tools_extract-utils",
-      "path": "tools/extract-utils",
-      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "3f351b8",
-          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8"
-        },
-        {
-          "sha": "6e43900",
-          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/6e43900"
-        },
-        {
-          "sha": "e34475c",
-          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Oct 30 23:08:25 2025 +0100",
-          "timestamp": 1761862105,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/e34475c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_apn",
       "path": "vendor/apn",
       "repo_url": "https://github.com/LineageOS/android_vendor_apn",
@@ -7284,6 +7243,39 @@
           "date": "Tue Nov 11 10:34:07 2025 +0100",
           "timestamp": 1762853647,
           "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_tools_extract-utils",
+      "path": "tools/extract-utils",
+      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "3f351b8",
+          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/3f351b8"
+        },
+        {
+          "sha": "6e43900",
+          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/6e43900"
+        },
+        {
+          "sha": "e34475c",
+          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Oct 30 23:08:25 2025 +0100",
+          "timestamp": 1761862105,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/e34475c"
         }
       ]
     },
@@ -7587,31 +7579,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_hardware_interfaces",
-      "path": "hardware/interfaces",
-      "repo_url": "https://github.com/crdroidandroid/android_hardware_interfaces",
-      "remote": "crdroid",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "46860edbf",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Fri Nov 21 09:24:09 2025 +0300",
-          "timestamp": 1763706249,
-          "url": "https://github.com/crdroidandroid/android_hardware_interfaces/commit/46860edbf"
-        },
-        {
-          "sha": "c30e7ec1d",
-          "message": "Merge 'lineage-22.2' into 15.0",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 8 05:48:20 2025 +0530",
-          "timestamp": 1757290700,
-          "url": "https://github.com/crdroidandroid/android_hardware_interfaces/commit/c30e7ec1d"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_apps_GameSpace",
       "path": "packages/apps/GameSpace",
       "repo_url": "https://github.com/crdroidandroid/android_packages_apps_GameSpace",
@@ -7637,6 +7604,31 @@
       ]
     },
     {
+      "name": "crdroidandroid/android_hardware_interfaces",
+      "path": "hardware/interfaces",
+      "repo_url": "https://github.com/crdroidandroid/android_hardware_interfaces",
+      "remote": "crdroid",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "46860edbf",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Fri Nov 21 09:24:09 2025 +0300",
+          "timestamp": 1763706249,
+          "url": "https://github.com/crdroidandroid/android_hardware_interfaces/commit/46860edbf"
+        },
+        {
+          "sha": "c30e7ec1d",
+          "message": "Merge 'lineage-22.2' into 15.0",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 8 05:48:20 2025 +0530",
+          "timestamp": 1757290700,
+          "url": "https://github.com/crdroidandroid/android_hardware_interfaces/commit/c30e7ec1d"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_external_unrar",
       "path": "external/unrar",
       "repo_url": "https://github.com/LineageOS/android_external_unrar",
@@ -7650,40 +7642,6 @@
           "date": "Mon Oct 27 22:04:13 2025 +0000",
           "timestamp": 1761602653,
           "url": "https://github.com/LineageOS/android_external_unrar/commit/140cfb9"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_broadcom_libbt",
-      "path": "hardware/broadcom/libbt",
-      "repo_url": "https://github.com/LineageOS/android_hardware_broadcom_libbt",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "39a0c50",
-          "message": "libbt: Convert to Android.bp",
-          "author": "Yumi Yukimura",
-          "date": "Thu Sep 4 07:32:39 2025 +0000",
-          "timestamp": 1756971159,
-          "url": "https://github.com/LineageOS/android_hardware_broadcom_libbt/commit/39a0c50"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "44c4732ad",
-          "message": "Revert \"RIL: Fix manual network selection with old modem\"",
-          "author": "Michael Bestas",
-          "date": "Wed Oct 15 21:12:02 2025 +0300",
-          "timestamp": 1760551922,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44c4732ad"
         }
       ]
     },
@@ -7718,6 +7676,23 @@
           "date": "Sat Sep 27 13:25:38 2025 +0000",
           "timestamp": 1758979538,
           "url": "https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/01b0b5b"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "44c4732ad",
+          "message": "Revert \"RIL: Fix manual network selection with old modem\"",
+          "author": "Michael Bestas",
+          "date": "Wed Oct 15 21:12:02 2025 +0300",
+          "timestamp": 1760551922,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44c4732ad"
         }
       ]
     },
@@ -7926,23 +7901,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_frameworks_native",
-      "path": "frameworks/native",
-      "repo_url": "https://github.com/crdroidandroid/android_frameworks_native",
-      "remote": "crdroid",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "da45ef341",
-          "message": "Merge 'lineage-22.2' into 15.0",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 8 05:48:16 2025 +0530",
-          "timestamp": 1757290696,
-          "url": "https://github.com/crdroidandroid/android_frameworks_native/commit/da45ef341"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_apps_DocumentsUI",
       "path": "packages/apps/DocumentsUI",
       "repo_url": "https://github.com/crdroidandroid/android_packages_apps_DocumentsUI",
@@ -7956,6 +7914,23 @@
           "date": "Mon Sep 8 05:48:25 2025 +0530",
           "timestamp": 1757290705,
           "url": "https://github.com/crdroidandroid/android_packages_apps_DocumentsUI/commit/42b0be3"
+        }
+      ]
+    },
+    {
+      "name": "crdroidandroid/android_frameworks_native",
+      "path": "frameworks/native",
+      "repo_url": "https://github.com/crdroidandroid/android_frameworks_native",
+      "remote": "crdroid",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "da45ef341",
+          "message": "Merge 'lineage-22.2' into 15.0",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 8 05:48:16 2025 +0530",
+          "timestamp": 1757290696,
+          "url": "https://github.com/crdroidandroid/android_frameworks_native/commit/da45ef341"
         }
       ]
     },
@@ -7977,23 +7952,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_system_media",
-      "path": "system/media",
-      "repo_url": "https://github.com/crdroidandroid/android_system_media",
-      "remote": "crdroid",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e7fa319",
-          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
-          "author": "LuK1337",
-          "date": "Fri Nov 21 09:22:31 2025 +0300",
-          "timestamp": 1763706151,
-          "url": "https://github.com/crdroidandroid/android_system_media/commit/e7fa319"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_services_Telephony",
       "path": "packages/services/Telephony",
       "repo_url": "https://github.com/crdroidandroid/android_packages_services_Telephony",
@@ -8007,6 +7965,23 @@
           "date": "Mon Sep 8 05:48:43 2025 +0530",
           "timestamp": 1757290723,
           "url": "https://github.com/crdroidandroid/android_packages_services_Telephony/commit/935751db"
+        }
+      ]
+    },
+    {
+      "name": "crdroidandroid/android_system_media",
+      "path": "system/media",
+      "repo_url": "https://github.com/crdroidandroid/android_system_media",
+      "remote": "crdroid",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "e7fa319",
+          "message": "audio: Allow opting out of speaker_layout_channel_mask field",
+          "author": "LuK1337",
+          "date": "Fri Nov 21 09:22:31 2025 +0300",
+          "timestamp": 1763706151,
+          "url": "https://github.com/crdroidandroid/android_system_media/commit/e7fa319"
         }
       ]
     }

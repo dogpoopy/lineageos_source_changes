@@ -1,8 +1,8 @@
 {
   "rom_id": "alphadroid",
   "branch": "alpha-16.1",
-  "generated_at": "2025-12-03T01:31:46.553018+00:00",
-  "since_date": "2025-09-04",
+  "generated_at": "2025-12-04T01:28:21.994364+00:00",
+  "since_date": "2025-09-05",
   "total_projects": 30,
   "total_commits": 828,
   "projects": [
@@ -6561,35 +6561,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
       "remote": "github",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
+          "sha": "84c74ff",
+          "message": "Update Chromium Webview x86 to 142.0.7444.138",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+          "date": "Sat Nov 8 08:58:08 2025 -0700",
+          "timestamp": 1762617488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
         },
         {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
+          "sha": "c1498b6",
+          "message": "Update Chromium Webview x86 to 141.0.7390.111",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+          "date": "Sat Oct 18 07:57:20 2025 -0600",
+          "timestamp": 1760795840,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
         },
         {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
+          "sha": "c18e219",
+          "message": "Update Chromium Webview x86 to 140.0.7339.207",
           "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+          "date": "Sat Sep 27 08:22:49 2025 -0600",
+          "timestamp": 1758982969,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
         }
       ]
     },
@@ -6627,72 +6627,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "path": "external/chromium-webview/prebuilt/arm64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "70d1609",
-          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:03 2025 -0700",
-          "timestamp": 1762617483,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
-        },
-        {
-          "sha": "30034c7",
-          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:16 2025 -0600",
-          "timestamp": 1760795836,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
-        },
-        {
-          "sha": "6760647",
-          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:45 2025 -0600",
-          "timestamp": 1758982965,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "path": "external/chromium-webview/prebuilt/x86",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "84c74ff",
-          "message": "Update Chromium Webview x86 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:08 2025 -0700",
-          "timestamp": 1762617488,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
-        },
-        {
-          "sha": "c1498b6",
-          "message": "Update Chromium Webview x86 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:20 2025 -0600",
-          "timestamp": 1760795840,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
-        },
-        {
-          "sha": "c18e219",
-          "message": "Update Chromium Webview x86 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:49 2025 -0600",
-          "timestamp": 1758982969,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_x86_64",
       "path": "external/chromium-webview/prebuilt/x86_64",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64",
@@ -6722,6 +6656,72 @@
           "date": "Sat Sep 27 08:22:53 2025 -0600",
           "timestamp": 1758982973,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        },
+        {
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+        },
+        {
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "70d1609",
+          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:03 2025 -0700",
+          "timestamp": 1762617483,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
+        },
+        {
+          "sha": "30034c7",
+          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:16 2025 -0600",
+          "timestamp": 1760795836,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
+        },
+        {
+          "sha": "6760647",
+          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:45 2025 -0600",
+          "timestamp": 1758982965,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
         }
       ]
     },
