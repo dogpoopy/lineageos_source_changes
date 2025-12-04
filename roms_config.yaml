@@ -131,6 +131,14 @@ roms:
       - "16"
       - "16-qpr1"
       - "16-qpr2"
+
+    - id: evolutionx
+    display_name: EvolutionX
+    manifest_url: https://github.com/Evolution-X/manifest.git
+    branches:
+      - "bka"
+      - "bq1"
+      - "bq2"
       
   - id: twrp
     display_name: TWRP Recovery
