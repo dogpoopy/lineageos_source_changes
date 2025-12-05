@@ -1,10 +1,10 @@
 {
   "rom_id": "avium",
   "branch": "avium-16-qpr1-wip",
-  "generated_at": "2025-12-04T01:28:05.800168+00:00",
-  "since_date": "2025-09-05",
-  "total_projects": 135,
-  "total_commits": 1037,
+  "generated_at": "2025-12-05T01:26:42.880022+00:00",
+  "since_date": "2025-09-06",
+  "total_projects": 133,
+  "total_commits": 1028,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1471,6 +1471,14 @@
       "commit_count": 100,
       "commits": [
         {
+          "sha": "7af68c76",
+          "message": "BubbleWindow: fixup: Fix the crash when opening notifications.",
+          "author": "ruyue",
+          "date": "Thu Dec 4 11:24:39 2025 +0800",
+          "timestamp": 1764818679,
+          "url": "https://github.com/AviumUI/android_frameworks_base/commit/7af68c76"
+        },
+        {
           "sha": "960ef19b",
           "message": "Revert \"Base: Allow toggling LTPO features [1/2]\"",
           "author": "binbin323",
@@ -2261,14 +2269,6 @@
           "date": "Sun Oct 12 16:54:02 2025 +0800",
           "timestamp": 1760259242,
           "url": "https://github.com/AviumUI/android_frameworks_base/commit/c2faa40b"
-        },
-        {
-          "sha": "699f36f5",
-          "message": "SystemUI: Remove the scrimView on lock screen",
-          "author": "ruyue",
-          "date": "Sun Oct 12 16:54:02 2025 +0800",
-          "timestamp": 1760259242,
-          "url": "https://github.com/AviumUI/android_frameworks_base/commit/699f36f5"
         }
       ]
     },
@@ -3151,7 +3151,7 @@
       "path": "android",
       "repo_url": "https://github.com/AviumUI/android_manifests",
       "remote": "avium",
-      "commit_count": 37,
+      "commit_count": 36,
       "commits": [
         {
           "sha": "879a857",
@@ -3440,14 +3440,6 @@
           "date": "Sun Sep 7 15:31:19 2025 +0000",
           "timestamp": 1757259079,
           "url": "https://github.com/AviumUI/android_manifests/commit/307ab65"
-        },
-        {
-          "sha": "e804727",
-          "message": "manifest: Switch to our fork of packages/modules/UprobeStats",
-          "author": "khalvat-M",
-          "date": "Fri Sep 5 06:15:17 2025 +0330",
-          "timestamp": 1757040317,
-          "url": "https://github.com/AviumUI/android_manifests/commit/e804727"
         }
       ]
     },
@@ -4907,107 +4899,123 @@
       ]
     },
     {
-      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
-      "path": "device/qcom/sepolicy_vndr/legacy-um",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
+      "name": "LineageOS/android_packages_apps_LineageParts",
+      "path": "packages/apps/LineageParts",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_LineageParts",
       "remote": "github",
-      "commit_count": 12,
+      "commit_count": 14,
       "commits": [
         {
-          "sha": "ae35876",
-          "message": "sepolicy: Label SEC NFC device & HAL",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 29 14:34:08 2025 +0000",
-          "timestamp": 1764426848,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ae35876"
+          "sha": "6a739bc",
+          "message": "LineageParts: Use CardView for the LiveDisplay color mode preview",
+          "author": "Penguin766",
+          "date": "Thu Dec 4 16:10:06 2025 +0000",
+          "timestamp": 1764864606,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/6a739bc"
         },
         {
-          "sha": "ac205a3",
-          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "sha": "cba4152",
+          "message": "BootReceiver: Always extract contributors cloud database",
+          "author": "Bruno Martins",
+          "date": "Thu Dec 4 15:23:11 2025 +0000",
+          "timestamp": 1764861791,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/cba4152"
+        },
+        {
+          "sha": "ba62e35",
+          "message": "LineageParts: Inject LiveDisplay activity into Settings via IA (again)",
+          "author": "Bruno Martins",
+          "date": "Thu Dec 4 15:15:53 2025 +0000",
+          "timestamp": 1764861353,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/ba62e35"
+        },
+        {
+          "sha": "6f86909",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 14:53:16 2025 +0000",
+          "timestamp": 1764600796,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/6f86909"
+        },
+        {
+          "sha": "9c4241c",
+          "message": "LineageParts: add dotted circle meter style",
+          "author": "Jean-Pierre Rasquin",
+          "date": "Sun Nov 30 09:39:22 2025 +0000",
+          "timestamp": 1764495562,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/9c4241c"
+        },
+        {
+          "sha": "3cc7827",
+          "message": "DisplayRotation: Use new method to listen for preference changes",
+          "author": "Bruno Martins",
+          "date": "Wed Nov 26 00:57:39 2025 +0000",
+          "timestamp": 1764118659,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3cc7827"
+        },
+        {
+          "sha": "f74caaf",
+          "message": "LineageParts: Add MD3 styling to Trust notification",
+          "author": "pnguyen879",
+          "date": "Tue Nov 25 08:13:50 2025 +0000",
+          "timestamp": 1764058430,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/f74caaf"
+        },
+        {
+          "sha": "31662bd",
+          "message": "ChargingControlSettings: Ditch DropDownPreference and use ListPreference",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 23 12:15:28 2025 +0000",
+          "timestamp": 1763900128,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/31662bd"
+        },
+        {
+          "sha": "5b14bf8",
+          "message": "LineageParts: Set group key for contributors cloud IA",
           "author": "LuK1337",
-          "date": "Sun Nov 23 19:54:49 2025 +0100",
-          "timestamp": 1763924089,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ac205a3"
+          "date": "Sun Nov 23 00:27:38 2025 +0100",
+          "timestamp": 1763854058,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/5b14bf8"
         },
         {
-          "sha": "f06f20f",
-          "message": "legacy: Disallow system_server from loading kernel modules",
-          "author": "LuK1337",
-          "date": "Sun Nov 23 17:15:04 2025 +0100",
-          "timestamp": 1763914504,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f06f20f"
+          "sha": "91c1b40",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:59 2025 +0000",
+          "timestamp": 1763229719,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/91c1b40"
         },
         {
-          "sha": "99d386b",
-          "message": "removing get_prop function as it set_prop provides the same functionality",
-          "author": "abarnwal",
-          "date": "Sun Nov 9 11:27:09 2025 +0200",
-          "timestamp": 1762680429,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/99d386b"
+          "sha": "3c69df4",
+          "message": "Regenerate contributors cloud (2025-11-05)",
+          "author": "Kevin F. Haggerty",
+          "date": "Thu Nov 6 05:50:33 2025 -0700",
+          "timestamp": 1762433433,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3c69df4"
         },
         {
-          "sha": "f84755c",
-          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
-          "author": "Amruth Naga",
-          "date": "Sun Nov 9 11:27:09 2025 +0200",
-          "timestamp": 1762680429,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f84755c"
+          "sha": "ce809c3",
+          "message": "Regenerate contributors cloud (2025-11-02)",
+          "author": "Kevin F. Haggerty",
+          "date": "Mon Nov 3 19:49:58 2025 -0700",
+          "timestamp": 1762224598,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/ce809c3"
         },
         {
-          "sha": "0cdb3b2",
-          "message": "qva: Label AOSP ST NFC HAL",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 11:27:09 2025 +0200",
-          "timestamp": 1762680429,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0cdb3b2"
+          "sha": "c18b998",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:24 2025 +0000",
+          "timestamp": 1760577864,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/c18b998"
         },
         {
-          "sha": "51bc00f",
-          "message": "NFC: ST: Add the AIDL HAL service",
-          "author": "Devendar Gali",
-          "date": "Sun Nov 9 11:27:09 2025 +0200",
-          "timestamp": 1762680429,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/51bc00f"
-        },
-        {
-          "sha": "a3b48b6",
-          "message": "NFC: FR74324, Add the new STM NFC HAL service",
-          "author": "Devendar Gali",
-          "date": "Sun Nov 9 11:27:09 2025 +0200",
-          "timestamp": 1762680429,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a3b48b6"
-        },
-        {
-          "sha": "69fbe8f",
-          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:19:50 2025 +0200",
-          "timestamp": 1762607990,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/69fbe8f"
-        },
-        {
-          "sha": "9878448",
-          "message": "legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 13:29:44 2025 +0000",
-          "timestamp": 1762090184,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9878448"
-        },
-        {
-          "sha": "149afc5",
-          "message": "sepolicy_vndr: lito: Label more wakeup nodes",
-          "author": "Michael Bestas",
-          "date": "Thu Oct 2 02:13:53 2025 +0300",
-          "timestamp": 1759360433,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/149afc5"
-        },
-        {
-          "sha": "c413622",
-          "message": "sepolicy_vndr: Move hal_drm to hal_drm_widevine",
-          "author": "Danny Trunk",
-          "date": "Fri Sep 5 08:45:38 2025 +0200",
-          "timestamp": 1757054738,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/c413622"
+          "sha": "8e4f963",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:45 2025 +0000",
+          "timestamp": 1758744405,
+          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/8e4f963"
         }
       ]
     },
@@ -5117,99 +5125,99 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_LineageParts",
-      "path": "packages/apps/LineageParts",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_LineageParts",
+      "name": "LineageOS/android_device_qcom_sepolicy_vndr",
+      "path": "device/qcom/sepolicy_vndr/legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
       "commit_count": 11,
       "commits": [
         {
-          "sha": "6f86909",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 14:53:16 2025 +0000",
-          "timestamp": 1764600796,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/6f86909"
+          "sha": "ae35876",
+          "message": "sepolicy: Label SEC NFC device & HAL",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 29 14:34:08 2025 +0000",
+          "timestamp": 1764426848,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ae35876"
         },
         {
-          "sha": "9c4241c",
-          "message": "LineageParts: add dotted circle meter style",
-          "author": "Jean-Pierre Rasquin",
-          "date": "Sun Nov 30 09:39:22 2025 +0000",
-          "timestamp": 1764495562,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/9c4241c"
-        },
-        {
-          "sha": "3cc7827",
-          "message": "DisplayRotation: Use new method to listen for preference changes",
-          "author": "Bruno Martins",
-          "date": "Wed Nov 26 00:57:39 2025 +0000",
-          "timestamp": 1764118659,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3cc7827"
-        },
-        {
-          "sha": "f74caaf",
-          "message": "LineageParts: Add MD3 styling to Trust notification",
-          "author": "pnguyen879",
-          "date": "Tue Nov 25 08:13:50 2025 +0000",
-          "timestamp": 1764058430,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/f74caaf"
-        },
-        {
-          "sha": "31662bd",
-          "message": "ChargingControlSettings: Ditch DropDownPreference and use ListPreference",
-          "author": "Bruno Martins",
-          "date": "Sun Nov 23 12:15:28 2025 +0000",
-          "timestamp": 1763900128,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/31662bd"
-        },
-        {
-          "sha": "5b14bf8",
-          "message": "LineageParts: Set group key for contributors cloud IA",
+          "sha": "ac205a3",
+          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
           "author": "LuK1337",
-          "date": "Sun Nov 23 00:27:38 2025 +0100",
-          "timestamp": 1763854058,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/5b14bf8"
+          "date": "Sun Nov 23 19:54:49 2025 +0100",
+          "timestamp": 1763924089,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/ac205a3"
         },
         {
-          "sha": "91c1b40",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:59 2025 +0000",
-          "timestamp": 1763229719,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/91c1b40"
+          "sha": "f06f20f",
+          "message": "legacy: Disallow system_server from loading kernel modules",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 17:15:04 2025 +0100",
+          "timestamp": 1763914504,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f06f20f"
         },
         {
-          "sha": "3c69df4",
-          "message": "Regenerate contributors cloud (2025-11-05)",
-          "author": "Kevin F. Haggerty",
-          "date": "Thu Nov 6 05:50:33 2025 -0700",
-          "timestamp": 1762433433,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/3c69df4"
+          "sha": "99d386b",
+          "message": "removing get_prop function as it set_prop provides the same functionality",
+          "author": "abarnwal",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/99d386b"
         },
         {
-          "sha": "ce809c3",
-          "message": "Regenerate contributors cloud (2025-11-02)",
-          "author": "Kevin F. Haggerty",
-          "date": "Mon Nov 3 19:49:58 2025 -0700",
-          "timestamp": 1762224598,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/ce809c3"
+          "sha": "f84755c",
+          "message": "[NFC][Sepolicy]: Fix the AVC denial issue",
+          "author": "Amruth Naga",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f84755c"
         },
         {
-          "sha": "c18b998",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:24 2025 +0000",
-          "timestamp": 1760577864,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/c18b998"
+          "sha": "0cdb3b2",
+          "message": "qva: Label AOSP ST NFC HAL",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/0cdb3b2"
         },
         {
-          "sha": "8e4f963",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:45 2025 +0000",
-          "timestamp": 1758744405,
-          "url": "https://github.com/LineageOS/android_packages_apps_LineageParts/commit/8e4f963"
+          "sha": "51bc00f",
+          "message": "NFC: ST: Add the AIDL HAL service",
+          "author": "Devendar Gali",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/51bc00f"
+        },
+        {
+          "sha": "a3b48b6",
+          "message": "NFC: FR74324, Add the new STM NFC HAL service",
+          "author": "Devendar Gali",
+          "date": "Sun Nov 9 11:27:09 2025 +0200",
+          "timestamp": 1762680429,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/a3b48b6"
+        },
+        {
+          "sha": "69fbe8f",
+          "message": "Merge tag 'LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0' into staging/lineage-23.0_merge-LA.UM.9.14.r1-26500-LAHAINA.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:19:50 2025 +0200",
+          "timestamp": 1762607990,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/69fbe8f"
+        },
+        {
+          "sha": "9878448",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:29:44 2025 +0000",
+          "timestamp": 1762090184,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/9878448"
+        },
+        {
+          "sha": "149afc5",
+          "message": "sepolicy_vndr: lito: Label more wakeup nodes",
+          "author": "Michael Bestas",
+          "date": "Thu Oct 2 02:13:53 2025 +0300",
+          "timestamp": 1759360433,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/149afc5"
         }
       ]
     },
@@ -5388,168 +5396,6 @@
           "date": "Fri Sep 12 17:54:12 2025 +0300",
           "timestamp": 1757688852,
           "url": "https://github.com/AviumUI/android_frameworks_native/commit/c6b508972"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "github",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "84e7b7b",
-          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
-          "author": "Sneh Mankad",
-          "date": "Sun Nov 9 02:51:10 2025 +0200",
-          "timestamp": 1762649470,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
-        },
-        {
-          "sha": "9d86876",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:35:09 2025 +0200",
-          "timestamp": 1762648509,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
-        },
-        {
-          "sha": "ecd05f7",
-          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
-          "author": "Michael Bestas",
-          "date": "Sun Nov 9 02:34:40 2025 +0200",
-          "timestamp": 1762648480,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
-        },
-        {
-          "sha": "09c3881",
-          "message": "generic: Label vendor.qti.qesdk.sysservice app",
-          "author": "Giovanni Ricca",
-          "date": "Tue Oct 7 09:13:59 2025 +0200",
-          "timestamp": 1759821239,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
-        },
-        {
-          "sha": "8186a50",
-          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:34 2025 -0700",
-          "timestamp": 1757906014,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
-        },
-        {
-          "sha": "74db8a6",
-          "message": "sepolicy: Added attributes for BHS services.",
-          "author": "mkadali",
-          "date": "Tue Sep 9 18:40:44 2025 -0400",
-          "timestamp": 1757457644,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
-        },
-        {
-          "sha": "0785bde",
-          "message": "Merge \"[NFC][SEPolicy]: added dev node check access permission\"",
-          "author": "QCTECMDR Service",
-          "date": "Fri Sep 5 05:35:52 2025 -0700",
-          "timestamp": 1757075752,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/0785bde"
-        },
-        {
-          "sha": "f84d078",
-          "message": "[NFC][SEPolicy]: added dev node check access permission",
-          "author": "Varun Kumar",
-          "date": "Fri Sep 5 05:12:50 2025 -0700",
-          "timestamp": 1757074370,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f84d078"
-        },
-        {
-          "sha": "736d7bc",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-08900-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-08900-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 5 07:41:13 2025 +0000",
-          "timestamp": 1757058073,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/736d7bc"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_device_qcom_sepolicy",
-      "path": "device/qcom/sepolicy-legacy-um",
-      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
-      "remote": "github",
-      "commit_count": 9,
-      "commits": [
-        {
-          "sha": "b28a32c",
-          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
-          "author": "LuK1337",
-          "date": "Sun Nov 23 19:53:45 2025 +0100",
-          "timestamp": 1763924025,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c"
-        },
-        {
-          "sha": "a6b7ae6",
-          "message": "legacy: Disallow system_server from loading kernel modules",
-          "author": "LuK1337",
-          "date": "Sun Nov 23 17:14:09 2025 +0100",
-          "timestamp": 1763914449,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae6"
-        },
-        {
-          "sha": "e6959ab",
-          "message": "fixup! legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 17:32:19 2025 +0100",
-          "timestamp": 1762101139,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e6959ab"
-        },
-        {
-          "sha": "57d39af",
-          "message": "legacy: hal_soter -> vendor_hal_soter",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 15:12:10 2025 +0000",
-          "timestamp": 1762096330,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/57d39af"
-        },
-        {
-          "sha": "c5a86cf",
-          "message": "sepolicy: Move hal_soter attribute to public",
-          "author": "LuK1337",
-          "date": "Sun Nov 2 13:30:17 2025 +0000",
-          "timestamp": 1762090217,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c5a86cf"
-        },
-        {
-          "sha": "5fa0de2",
-          "message": "legacy: Copy AIDL NFC HAL policy from non-legacy",
-          "author": "Edwin Moquete",
-          "date": "Sat Sep 27 10:25:32 2025 +0200",
-          "timestamp": 1758961532,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/5fa0de2"
-        },
-        {
-          "sha": "f59019e",
-          "message": "sdm660: Label more video4linux wakeup nodes",
-          "author": "LuK1337",
-          "date": "Sun Sep 7 21:51:43 2025 +0200",
-          "timestamp": 1757274703,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f59019e"
-        },
-        {
-          "sha": "f908e88",
-          "message": "sdm660: Label 4.19 kgsl-hyp SSR node",
-          "author": "LuK1337",
-          "date": "Fri Sep 5 09:38:23 2025 +0200",
-          "timestamp": 1757057903,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f908e88"
-        },
-        {
-          "sha": "6e21d75",
-          "message": "sepolicy: Move hal_drm to hal_drm_widevine",
-          "author": "Danny Trunk",
-          "date": "Fri Sep 5 08:53:05 2025 +0200",
-          "timestamp": 1757055185,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/6e21d75"
         }
       ]
     },
@@ -6186,75 +6032,140 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_crowdin",
-      "path": "vendor/crowdin",
-      "repo_url": "https://github.com/LineageOS/android_vendor_crowdin",
+      "name": "LineageOS/android_tools_extract-utils",
+      "path": "tools/extract-utils",
+      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
       "remote": "github",
       "commit_count": 8,
       "commits": [
         {
-          "sha": "e35b3b2",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 14:53:29 2025 +0000",
-          "timestamp": 1764600809,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/e35b3b2"
+          "sha": "c452d62",
+          "message": "Revert \"extract_utils: add lib fixup for libprotobuf-cpp-{lite,full}-21.7\"",
+          "author": "LuK1337",
+          "date": "Thu Dec 4 17:04:20 2025 +0100",
+          "timestamp": 1764864260,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c452d62"
         },
         {
-          "sha": "93da2a7",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:02:09 2025 +0000",
-          "timestamp": 1763229729,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/93da2a7"
+          "sha": "75e9174",
+          "message": "extract_utils: add lib fixup for libprotobuf-cpp-{lite,full}-21.7",
+          "author": "Nikita Savchenko",
+          "date": "Wed Dec 3 17:58:54 2025 +0000",
+          "timestamp": 1764784734,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/75e9174"
         },
         {
-          "sha": "208c135",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:48 2025 +0000",
-          "timestamp": 1762026528,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/208c135"
+          "sha": "4bbc4b9",
+          "message": "extract_utils: update pre-commit hooks to the latest versions",
+          "author": "LuK1337",
+          "date": "Sun Nov 9 13:15:25 2025 +0100",
+          "timestamp": 1762690525,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4bbc4b9"
         },
         {
-          "sha": "b2f3871",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:35 2025 +0000",
-          "timestamp": 1760577875,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/b2f3871"
+          "sha": "4e62c34",
+          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4e62c34"
         },
         {
-          "sha": "c39be47",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 19:38:13 2025 +0000",
-          "timestamp": 1759347493,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/c39be47"
+          "sha": "ceaf573",
+          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ceaf573"
         },
         {
-          "sha": "aa73715",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:07:02 2025 +0000",
-          "timestamp": 1758744422,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/aa73715"
+          "sha": "4afac1d",
+          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Nov 1 13:01:18 2025 +0100",
+          "timestamp": 1761998478,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4afac1d"
         },
         {
-          "sha": "8e73b5e",
-          "message": "Move translations for 16 folder structure",
+          "sha": "ce77849",
+          "message": "extract-utils: Make it REUSE compatible",
           "author": "Michael Bestas",
-          "date": "Tue Sep 23 22:28:22 2025 +0300",
-          "timestamp": 1758655702,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/8e73b5e"
+          "date": "Fri Oct 10 20:58:34 2025 +0300",
+          "timestamp": 1760119114,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ce77849"
         },
         {
-          "sha": "74263b4",
-          "message": "overlay: Remove non existent atv strings",
-          "author": "Aaron Kling",
-          "date": "Fri Sep 5 16:15:59 2025 -0500",
-          "timestamp": 1757106959,
-          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/74263b4"
+          "sha": "c7e9116",
+          "message": "extract-utils: Drop LineageOS copyright years",
+          "author": "Michael Bestas",
+          "date": "Fri Oct 10 20:58:29 2025 +0300",
+          "timestamp": 1760119109,
+          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c7e9116"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy-legacy-um",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "github",
+      "commit_count": 7,
+      "commits": [
+        {
+          "sha": "b28a32c",
+          "message": "legacy: Grant sys_module cap for correct wifi/wigig domains",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 19:53:45 2025 +0100",
+          "timestamp": 1763924025,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/b28a32c"
+        },
+        {
+          "sha": "a6b7ae6",
+          "message": "legacy: Disallow system_server from loading kernel modules",
+          "author": "LuK1337",
+          "date": "Sun Nov 23 17:14:09 2025 +0100",
+          "timestamp": 1763914449,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/a6b7ae6"
+        },
+        {
+          "sha": "e6959ab",
+          "message": "fixup! legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 17:32:19 2025 +0100",
+          "timestamp": 1762101139,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/e6959ab"
+        },
+        {
+          "sha": "57d39af",
+          "message": "legacy: hal_soter -> vendor_hal_soter",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 15:12:10 2025 +0000",
+          "timestamp": 1762096330,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/57d39af"
+        },
+        {
+          "sha": "c5a86cf",
+          "message": "sepolicy: Move hal_soter attribute to public",
+          "author": "LuK1337",
+          "date": "Sun Nov 2 13:30:17 2025 +0000",
+          "timestamp": 1762090217,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/c5a86cf"
+        },
+        {
+          "sha": "5fa0de2",
+          "message": "legacy: Copy AIDL NFC HAL policy from non-legacy",
+          "author": "Edwin Moquete",
+          "date": "Sat Sep 27 10:25:32 2025 +0200",
+          "timestamp": 1758961532,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/5fa0de2"
+        },
+        {
+          "sha": "f59019e",
+          "message": "sdm660: Label more video4linux wakeup nodes",
+          "author": "LuK1337",
+          "date": "Sun Sep 7 21:51:43 2025 +0200",
+          "timestamp": 1757274703,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/f59019e"
         }
       ]
     },
@@ -6519,132 +6430,67 @@
       ]
     },
     {
-      "name": "LineageOS/android_tools_extract-utils",
-      "path": "tools/extract-utils",
-      "repo_url": "https://github.com/LineageOS/android_tools_extract-utils",
+      "name": "LineageOS/android_vendor_crowdin",
+      "path": "vendor/crowdin",
+      "repo_url": "https://github.com/LineageOS/android_vendor_crowdin",
       "remote": "github",
       "commit_count": 7,
       "commits": [
         {
-          "sha": "75e9174",
-          "message": "extract_utils: add lib fixup for libprotobuf-cpp-{lite,full}-21.7",
-          "author": "Nikita Savchenko",
-          "date": "Wed Dec 3 17:58:54 2025 +0000",
-          "timestamp": 1764784734,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/75e9174"
+          "sha": "e35b3b2",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 14:53:29 2025 +0000",
+          "timestamp": 1764600809,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/e35b3b2"
         },
         {
-          "sha": "4bbc4b9",
-          "message": "extract_utils: update pre-commit hooks to the latest versions",
-          "author": "LuK1337",
-          "date": "Sun Nov 9 13:15:25 2025 +0100",
-          "timestamp": 1762690525,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4bbc4b9"
+          "sha": "93da2a7",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:02:09 2025 +0000",
+          "timestamp": 1763229729,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/93da2a7"
         },
         {
-          "sha": "4e62c34",
-          "message": "extract_utils: sort-blobs-list.py: Use a single regex to get source name",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Nov 1 13:01:18 2025 +0100",
-          "timestamp": 1761998478,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4e62c34"
+          "sha": "208c135",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:48 2025 +0000",
+          "timestamp": 1762026528,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/208c135"
         },
         {
-          "sha": "ceaf573",
-          "message": "extract_utils: sort-blobs-list.py: Handle sha1sum argument",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Nov 1 13:01:18 2025 +0100",
-          "timestamp": 1761998478,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ceaf573"
+          "sha": "b2f3871",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:35 2025 +0000",
+          "timestamp": 1760577875,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/b2f3871"
         },
         {
-          "sha": "4afac1d",
-          "message": "extract_utils: sort-blobs-list.py: Fix lint warning",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Nov 1 13:01:18 2025 +0100",
-          "timestamp": 1761998478,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/4afac1d"
+          "sha": "c39be47",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 19:38:13 2025 +0000",
+          "timestamp": 1759347493,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/c39be47"
         },
         {
-          "sha": "ce77849",
-          "message": "extract-utils: Make it REUSE compatible",
+          "sha": "aa73715",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:07:02 2025 +0000",
+          "timestamp": 1758744422,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/aa73715"
+        },
+        {
+          "sha": "8e73b5e",
+          "message": "Move translations for 16 folder structure",
           "author": "Michael Bestas",
-          "date": "Fri Oct 10 20:58:34 2025 +0300",
-          "timestamp": 1760119114,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/ce77849"
-        },
-        {
-          "sha": "c7e9116",
-          "message": "extract-utils: Drop LineageOS copyright years",
-          "author": "Michael Bestas",
-          "date": "Fri Oct 10 20:58:29 2025 +0300",
-          "timestamp": 1760119109,
-          "url": "https://github.com/LineageOS/android_tools_extract-utils/commit/c7e9116"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8650/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "github",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "5f520e7",
-          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:49 2025 +0200",
-          "timestamp": 1762608289,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
-        },
-        {
-          "sha": "0c843bc",
-          "message": "Merge ff41e634ac965f422ba6bd3ed3c4bda937d4368b on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 26 01:33:25 2025 -0700",
-          "timestamp": 1761467605,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0c843bc"
-        },
-        {
-          "sha": "da7cc67",
-          "message": "Merge c2ca91b566edd1d4d20fdb9923b676c09feede68 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Tue Oct 7 14:34:38 2025 -0700",
-          "timestamp": 1759872878,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/da7cc67"
-        },
-        {
-          "sha": "ff41e63",
-          "message": "msm: ipa3: Use read memory barrier before reading events",
-          "author": "Chaitanya Pratapa",
-          "date": "Mon Sep 15 22:10:59 2025 -0700",
-          "timestamp": 1757999459,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ff41e63"
-        },
-        {
-          "sha": "2e2889d",
-          "message": "Merge 29d1fd0d9800b65fedb65455eda71d6792ca02bd on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 10 11:29:02 2025 -0700",
-          "timestamp": 1757528942,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/2e2889d"
-        },
-        {
-          "sha": "c2ca91b",
-          "message": "Merge \"msm: ipa: Enable debug logging support for NCM and integrate debugfs\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 8 04:54:56 2025 -0700",
-          "timestamp": 1757332496,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/c2ca91b"
-        },
-        {
-          "sha": "ef8f4e1",
-          "message": "msm: ipa: Enable debug logging support for NCM and integrate debugfs",
-          "author": "Prasad Arepalli",
-          "date": "Fri Sep 5 03:03:20 2025 -0700",
-          "timestamp": 1757066600,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ef8f4e1"
+          "date": "Tue Sep 23 22:28:22 2025 +0300",
+          "timestamp": 1758655702,
+          "url": "https://github.com/LineageOS/android_vendor_crowdin/commit/8e73b5e"
         }
       ]
     },
@@ -6710,6 +6556,63 @@
           "date": "Thu Sep 11 14:20:13 2025 +0530",
           "timestamp": 1757580613,
           "url": "https://github.com/AviumUI/android_bootable_recovery/commit/1d86e11"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_device_qcom_sepolicy",
+      "path": "device/qcom/sepolicy",
+      "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "84e7b7b",
+          "message": "sepolicy: Add sepolicy rules for PowerState HAL",
+          "author": "Sneh Mankad",
+          "date": "Sun Nov 9 02:51:10 2025 +0200",
+          "timestamp": 1762649470,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/84e7b7b"
+        },
+        {
+          "sha": "9d86876",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:35:09 2025 +0200",
+          "timestamp": 1762648509,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/9d86876"
+        },
+        {
+          "sha": "ecd05f7",
+          "message": "Revert \"sepolicy: Added attributes for BHS services.\"",
+          "author": "Michael Bestas",
+          "date": "Sun Nov 9 02:34:40 2025 +0200",
+          "timestamp": 1762648480,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/ecd05f7"
+        },
+        {
+          "sha": "09c3881",
+          "message": "generic: Label vendor.qti.qesdk.sysservice app",
+          "author": "Giovanni Ricca",
+          "date": "Tue Oct 7 09:13:59 2025 +0200",
+          "timestamp": 1759821239,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/09c3881"
+        },
+        {
+          "sha": "8186a50",
+          "message": "Merge 0785bdecb501700c59800c7b121a4c3d3166bb9a on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:34 2025 -0700",
+          "timestamp": 1757906014,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/8186a50"
+        },
+        {
+          "sha": "74db8a6",
+          "message": "sepolicy: Added attributes for BHS services.",
+          "author": "mkadali",
+          "date": "Tue Sep 9 18:40:44 2025 -0400",
+          "timestamp": 1757457644,
+          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy/commit/74db8a6"
         }
       ]
     },
@@ -6881,6 +6784,63 @@
           "date": "Wed Sep 24 20:06:38 2025 +0000",
           "timestamp": 1758744398,
           "url": "https://github.com/LineageOS/android_lineage-sdk/commit/f26071c"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8650/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "github",
+      "commit_count": 6,
+      "commits": [
+        {
+          "sha": "5f520e7",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:49 2025 +0200",
+          "timestamp": 1762608289,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
+        },
+        {
+          "sha": "0c843bc",
+          "message": "Merge ff41e634ac965f422ba6bd3ed3c4bda937d4368b on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 26 01:33:25 2025 -0700",
+          "timestamp": 1761467605,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0c843bc"
+        },
+        {
+          "sha": "da7cc67",
+          "message": "Merge c2ca91b566edd1d4d20fdb9923b676c09feede68 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Tue Oct 7 14:34:38 2025 -0700",
+          "timestamp": 1759872878,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/da7cc67"
+        },
+        {
+          "sha": "ff41e63",
+          "message": "msm: ipa3: Use read memory barrier before reading events",
+          "author": "Chaitanya Pratapa",
+          "date": "Mon Sep 15 22:10:59 2025 -0700",
+          "timestamp": 1757999459,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ff41e63"
+        },
+        {
+          "sha": "2e2889d",
+          "message": "Merge 29d1fd0d9800b65fedb65455eda71d6792ca02bd on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Wed Sep 10 11:29:02 2025 -0700",
+          "timestamp": 1757528942,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/2e2889d"
+        },
+        {
+          "sha": "c2ca91b",
+          "message": "Merge \"msm: ipa: Enable debug logging support for NCM and integrate debugfs\"",
+          "author": "QCTECMDR Service",
+          "date": "Mon Sep 8 04:54:56 2025 -0700",
+          "timestamp": 1757332496,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/c2ca91b"
         }
       ]
     },
@@ -7309,55 +7269,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_AviumSystemUIEX",
-      "path": "packages/apps/AviumSystemUIEX",
-      "repo_url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX",
-      "remote": "avium",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "2ad92b4",
-          "message": "docs: Add copyright notice and license information",
-          "author": "ruyue",
-          "date": "Thu Nov 20 18:53:25 2025 +0800",
-          "timestamp": 1763636005,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/2ad92b4"
-        },
-        {
-          "sha": "5569588",
-          "message": "Gesture: Support custom gesture areas",
-          "author": "ruyue",
-          "date": "Fri Nov 7 18:29:19 2025 +0800",
-          "timestamp": 1762511359,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/5569588"
-        },
-        {
-          "sha": "5982da0",
-          "message": "feat(Gesture): Add Hover Up to Suspend App",
-          "author": "ruyue",
-          "date": "Fri Nov 7 16:48:55 2025 +0800",
-          "timestamp": 1762505335,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/5982da0"
-        },
-        {
-          "sha": "6e2dbfe",
-          "message": "[Feature]: Add AviumWindowMode support",
-          "author": "ruyue",
-          "date": "Tue Oct 28 21:06:06 2025 +0800",
-          "timestamp": 1761656766,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/6e2dbfe"
-        },
-        {
-          "sha": "d8a4b50",
-          "message": "initial commit",
-          "author": "ruyue",
-          "date": "Sun Oct 26 17:09:06 2025 +0800",
-          "timestamp": 1761469746,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/d8a4b50"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_AviumLockscreenEdit",
       "path": "packages/apps/AviumLockscreenEdit",
       "repo_url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit",
@@ -7403,6 +7314,55 @@
           "date": "Sat Sep 20 11:40:40 2025 +0800",
           "timestamp": 1758339640,
           "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/030f96d"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_AviumSystemUIEX",
+      "path": "packages/apps/AviumSystemUIEX",
+      "repo_url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX",
+      "remote": "avium",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "2ad92b4",
+          "message": "docs: Add copyright notice and license information",
+          "author": "ruyue",
+          "date": "Thu Nov 20 18:53:25 2025 +0800",
+          "timestamp": 1763636005,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/2ad92b4"
+        },
+        {
+          "sha": "5569588",
+          "message": "Gesture: Support custom gesture areas",
+          "author": "ruyue",
+          "date": "Fri Nov 7 18:29:19 2025 +0800",
+          "timestamp": 1762511359,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/5569588"
+        },
+        {
+          "sha": "5982da0",
+          "message": "feat(Gesture): Add Hover Up to Suspend App",
+          "author": "ruyue",
+          "date": "Fri Nov 7 16:48:55 2025 +0800",
+          "timestamp": 1762505335,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/5982da0"
+        },
+        {
+          "sha": "6e2dbfe",
+          "message": "[Feature]: Add AviumWindowMode support",
+          "author": "ruyue",
+          "date": "Tue Oct 28 21:06:06 2025 +0800",
+          "timestamp": 1761656766,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/6e2dbfe"
+        },
+        {
+          "sha": "d8a4b50",
+          "message": "initial commit",
+          "author": "ruyue",
+          "date": "Sun Oct 26 17:09:06 2025 +0800",
+          "timestamp": 1761469746,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/d8a4b50"
         }
       ]
     },
@@ -7661,47 +7621,6 @@
       ]
     },
     {
-      "name": "android_device_lineage_sepolicy",
-      "path": "device/lineage/sepolicy",
-      "repo_url": "https://github.com/AviumUI/android_device_lineage_sepolicy",
-      "remote": "avium",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "30fa2a4",
-          "message": "sepolicy: Label avium updater",
-          "author": "bin",
-          "date": "Sun Nov 16 18:49:52 2025 +0800",
-          "timestamp": 1763290192,
-          "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/30fa2a4"
-        },
-        {
-          "sha": "6810925",
-          "message": "Revert \"sepolicy: Label ro.telephony.use_old_mnc_mcc_format\"",
-          "author": "Michael Bestas",
-          "date": "Wed Oct 15 18:13:48 2025 +0000",
-          "timestamp": 1760552028,
-          "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/6810925"
-        },
-        {
-          "sha": "070a3e1",
-          "message": "qcom: Label acl LiveDisplay sysfs node",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 7 15:12:23 2025 +0000",
-          "timestamp": 1757257943,
-          "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/070a3e1"
-        },
-        {
-          "sha": "91ff335",
-          "message": "exynos: Label AIDL LiveDisplay HAL",
-          "author": "Tim Zimmermann",
-          "date": "Fri Sep 5 12:12:38 2025 +0200",
-          "timestamp": 1757067158,
-          "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/91ff335"
-        }
-      ]
-    },
-    {
       "name": "android_frameworks_av",
       "path": "frameworks/av",
       "repo_url": "https://github.com/AviumUI/android_frameworks_av",
@@ -7784,39 +7703,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
-        },
-        {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
-        },
-        {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -7846,6 +7732,39 @@
           "date": "Fri Sep 26 09:55:19 2025 -0600",
           "timestamp": 1758902119,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        },
+        {
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        },
+        {
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -7982,39 +7901,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_frameworks_opt_telephony",
-      "path": "frameworks/opt/telephony",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "dc2430384",
-          "message": "satellite data service policy fixes",
-          "author": "Nagendra Prasad Nagarle Basavaraju",
-          "date": "Thu Sep 25 21:12:15 2025 +0530",
-          "timestamp": 1758814935,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/dc2430384"
-        },
-        {
-          "sha": "4820f09b9",
-          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
-          "author": "Aishwarya Mallampati",
-          "date": "Thu Sep 25 20:58:34 2025 +0530",
-          "timestamp": 1758814114,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/4820f09b9"
-        },
-        {
-          "sha": "44377e2d7",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/opt/telephony into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 17:54:54 2025 +0300",
-          "timestamp": 1757688894,
-          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44377e2d7"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
@@ -8044,6 +7930,39 @@
           "date": "Thu Sep 11 00:55:19 2025 +0530",
           "timestamp": 1757532319,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/3bfcebd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "repo_url": "https://github.com/LineageOS/android_frameworks_opt_telephony",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "dc2430384",
+          "message": "satellite data service policy fixes",
+          "author": "Nagendra Prasad Nagarle Basavaraju",
+          "date": "Thu Sep 25 21:12:15 2025 +0530",
+          "timestamp": 1758814935,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/dc2430384"
+        },
+        {
+          "sha": "4820f09b9",
+          "message": "Update the logic of calling setSatelliteEnabledForCarrier HAL API.",
+          "author": "Aishwarya Mallampati",
+          "date": "Thu Sep 25 20:58:34 2025 +0530",
+          "timestamp": 1758814114,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/4820f09b9"
+        },
+        {
+          "sha": "44377e2d7",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/opt/telephony into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 17:54:54 2025 +0300",
+          "timestamp": 1757688894,
+          "url": "https://github.com/LineageOS/android_frameworks_opt_telephony/commit/44377e2d7"
         }
       ]
     },
@@ -8213,39 +8132,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_usb",
-      "path": "vendor/qcom/opensource/usb",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "827db65",
-          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:34:17 2025 +0200",
-          "timestamp": 1762608857,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/827db65"
-        },
-        {
-          "sha": "6572823",
-          "message": "Merge bf624ff54e7568db74a61a96d07a4e43cbf11c91 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 12 01:58:09 2025 -0700",
-          "timestamp": 1760259489,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/6572823"
-        },
-        {
-          "sha": "13fb188",
-          "message": "init.qcom.usb.sh: Add a soc id specific support for Kera variant",
-          "author": "Udipto Goswami",
-          "date": "Sun Sep 21 06:59:08 2025 -0700",
-          "timestamp": 1758463148,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/13fb188"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_power",
       "path": "vendor/qcom/opensource/power",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
@@ -8279,35 +8165,68 @@
       ]
     },
     {
-      "name": "android_build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/AviumUI/android_build_soong",
+      "name": "LineageOS/android_vendor_qcom_opensource_usb",
+      "path": "vendor/qcom/opensource/usb",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "827db65",
+          "message": "Merge tag 'LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.15.4.0.r1-19500-pakala.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:34:17 2025 +0200",
+          "timestamp": 1762608857,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/827db65"
+        },
+        {
+          "sha": "6572823",
+          "message": "Merge bf624ff54e7568db74a61a96d07a4e43cbf11c91 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 12 01:58:09 2025 -0700",
+          "timestamp": 1760259489,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/6572823"
+        },
+        {
+          "sha": "13fb188",
+          "message": "init.qcom.usb.sh: Add a soc id specific support for Kera variant",
+          "author": "Udipto Goswami",
+          "date": "Sun Sep 21 06:59:08 2025 -0700",
+          "timestamp": 1758463148,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/13fb188"
+        }
+      ]
+    },
+    {
+      "name": "android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "repo_url": "https://github.com/AviumUI/android_device_lineage_sepolicy",
       "remote": "avium",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "8c29645f",
-          "message": "ui: Display Avium version",
-          "author": "finish0314",
-          "date": "Tue Oct 28 18:56:32 2025 +0800",
-          "timestamp": 1761648992,
-          "url": "https://github.com/AviumUI/android_build_soong/commit/8c29645f"
+          "sha": "30fa2a4",
+          "message": "sepolicy: Label avium updater",
+          "author": "bin",
+          "date": "Sun Nov 16 18:49:52 2025 +0800",
+          "timestamp": 1763290192,
+          "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/30fa2a4"
         },
         {
-          "sha": "f999f4bc",
-          "message": "Whitelist which needed  stubs",
-          "author": "ruyue",
-          "date": "Fri Oct 17 22:35:05 2025 +0800",
-          "timestamp": 1760711705,
-          "url": "https://github.com/AviumUI/android_build_soong/commit/f999f4bc"
+          "sha": "6810925",
+          "message": "Revert \"sepolicy: Label ro.telephony.use_old_mnc_mcc_format\"",
+          "author": "Michael Bestas",
+          "date": "Wed Oct 15 18:13:48 2025 +0000",
+          "timestamp": 1760552028,
+          "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/6810925"
         },
         {
-          "sha": "a70b1599",
-          "message": "Revert \"Remove perl from the allowed PATH tools list\"",
-          "author": "Aaron Kling",
-          "date": "Fri Sep 5 22:03:59 2025 +0000",
-          "timestamp": 1757109839,
-          "url": "https://github.com/AviumUI/android_build_soong/commit/a70b1599"
+          "sha": "070a3e1",
+          "message": "qcom: Label acl LiveDisplay sysfs node",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 7 15:12:23 2025 +0000",
+          "timestamp": 1757257943,
+          "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/070a3e1"
         }
       ]
     },
@@ -8553,31 +8472,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_DocumentsUI",
-      "path": "packages/apps/DocumentsUI",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "d5fa33e",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:42 2025 +0000",
-          "timestamp": 1758744402,
-          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/d5fa33e"
-        },
-        {
-          "sha": "b9e58d0",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 17:56:14 2025 +0300",
-          "timestamp": 1757688974,
-          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/b9e58d0"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Dialer",
       "path": "packages/apps/Dialer",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Dialer",
@@ -8599,6 +8493,31 @@
           "date": "Wed Sep 24 20:06:41 2025 +0000",
           "timestamp": 1758744401,
           "url": "https://github.com/LineageOS/android_packages_apps_Dialer/commit/a2c61d62"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "d5fa33e",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:42 2025 +0000",
+          "timestamp": 1758744402,
+          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/d5fa33e"
+        },
+        {
+          "sha": "b9e58d0",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 17:56:14 2025 +0300",
+          "timestamp": 1757688974,
+          "url": "https://github.com/LineageOS/android_packages_apps_DocumentsUI/commit/b9e58d0"
         }
       ]
     },
@@ -8749,6 +8668,31 @@
           "date": "Sun Sep 21 11:30:34 2025 +0800",
           "timestamp": 1758425434,
           "url": "https://github.com/AviumUI/android_external_blurview/commit/cca85ef"
+        }
+      ]
+    },
+    {
+      "name": "android_build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/AviumUI/android_build_soong",
+      "remote": "avium",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "8c29645f",
+          "message": "ui: Display Avium version",
+          "author": "finish0314",
+          "date": "Tue Oct 28 18:56:32 2025 +0800",
+          "timestamp": 1761648992,
+          "url": "https://github.com/AviumUI/android_build_soong/commit/8c29645f"
+        },
+        {
+          "sha": "f999f4bc",
+          "message": "Whitelist which needed  stubs",
+          "author": "ruyue",
+          "date": "Fri Oct 17 22:35:05 2025 +0800",
+          "timestamp": 1760711705,
+          "url": "https://github.com/AviumUI/android_build_soong/commit/f999f4bc"
         }
       ]
     },
@@ -9093,23 +9037,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_TvSystemUI",
-      "path": "packages/apps/TvSystemUI",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_TvSystemUI",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "e02e0c1",
-          "message": "Remove volumePanelFlag from VolumeDialogImpl call",
-          "author": "Aaron Kling",
-          "date": "Fri Sep 5 16:24:39 2025 -0500",
-          "timestamp": 1757107479,
-          "url": "https://github.com/LineageOS/android_packages_apps_TvSystemUI/commit/e02e0c1"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_ThemePicker",
       "path": "packages/apps/ThemePicker",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_ThemePicker",
@@ -9195,23 +9122,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_providers_MediaProvider",
-      "path": "packages/providers/MediaProvider",
-      "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0138b508",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/providers/MediaProvider into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 18:00:27 2025 +0300",
-          "timestamp": 1757689227,
-          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/0138b508"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_services_Mms",
       "path": "packages/services/Mms",
       "repo_url": "https://github.com/LineageOS/android_packages_services_Mms",
@@ -9225,6 +9135,23 @@
           "date": "Wed Sep 24 20:06:53 2025 +0000",
           "timestamp": 1758744413,
           "url": "https://github.com/LineageOS/android_packages_services_Mms/commit/401f873"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_providers_MediaProvider",
+      "path": "packages/providers/MediaProvider",
+      "repo_url": "https://github.com/LineageOS/android_packages_providers_MediaProvider",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0138b508",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/providers/MediaProvider into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 18:00:27 2025 +0300",
+          "timestamp": 1757689227,
+          "url": "https://github.com/LineageOS/android_packages_providers_MediaProvider/commit/0138b508"
         }
       ]
     },
@@ -9263,23 +9190,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_services_Car",
-      "path": "packages/services/Car",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "51ffd503a",
-          "message": "Car: Enforce EPPE",
-          "author": "Nolen Johnson",
-          "date": "Thu Oct 16 19:54:14 2025 -0400",
-          "timestamp": 1760658854,
-          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_system_logging",
       "path": "system/logging",
       "repo_url": "https://github.com/LineageOS/android_system_logging",
@@ -9314,19 +9224,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_system_sepolicy",
-      "path": "system/sepolicy",
-      "repo_url": "https://github.com/LineageOS/android_system_sepolicy",
+      "name": "LineageOS/android_packages_services_Car",
+      "path": "packages/services/Car",
+      "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "07792ae5",
-          "message": "Add telephony property `ro.telephony.sim_slots.count` into sepolicy.",
-          "author": "Sandeep Jawalkar",
-          "date": "Fri Sep 5 14:55:40 2025 +0200",
-          "timestamp": 1757076940,
-          "url": "https://github.com/LineageOS/android_system_sepolicy/commit/07792ae5"
+          "sha": "51ffd503a",
+          "message": "Car: Enforce EPPE",
+          "author": "Nolen Johnson",
+          "date": "Thu Oct 16 19:54:14 2025 -0400",
+          "timestamp": 1760658854,
+          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
         }
       ]
     },
@@ -9365,23 +9275,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
-      "path": "vendor/qcom/opensource/healthd-ext",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "bc2932b",
-          "message": "healthd-ext: update to health AIDL version 4",
-          "author": "Fenglin Wu",
-          "date": "Tue Sep 16 18:34:34 2025 -0400",
-          "timestamp": 1758062074,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext/commit/bc2932b"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_display-intf",
       "path": "hardware/qcom-caf/sm8750/display/intf",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf",
@@ -9395,6 +9288,23 @@
           "date": "Thu Nov 20 20:03:11 2025 +0000",
           "timestamp": 1763668991,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-intf/commit/19b5c05"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
+      "path": "vendor/qcom/opensource/healthd-ext",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "bc2932b",
+          "message": "healthd-ext: update to health AIDL version 4",
+          "author": "Fenglin Wu",
+          "date": "Tue Sep 16 18:34:34 2025 -0400",
+          "timestamp": 1758062074,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_healthd-ext/commit/bc2932b"
         }
       ]
     },
@@ -9433,23 +9343,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_PocketMode",
-      "path": "packages/apps/PocketMode",
-      "repo_url": "https://github.com/AviumUI/android_packages_apps_PocketMode",
-      "remote": "avium",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "4b4495d",
-          "message": "PocketMode : adapt for avium",
-          "author": "ruyue",
-          "date": "Sun Nov 16 12:13:18 2025 +0800",
-          "timestamp": 1763266398,
-          "url": "https://github.com/AviumUI/android_packages_apps_PocketMode/commit/4b4495d"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_OmniJaws",
       "path": "packages/apps/OmniJaws",
       "repo_url": "https://github.com/AviumUI/android_packages_apps_OmniJaws",
@@ -9463,6 +9356,23 @@
           "date": "Mon Sep 15 01:32:53 2025 +0530",
           "timestamp": 1757880173,
           "url": "https://github.com/AviumUI/android_packages_apps_OmniJaws/commit/91921aa"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_PocketMode",
+      "path": "packages/apps/PocketMode",
+      "repo_url": "https://github.com/AviumUI/android_packages_apps_PocketMode",
+      "remote": "avium",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "4b4495d",
+          "message": "PocketMode : adapt for avium",
+          "author": "ruyue",
+          "date": "Sun Nov 16 12:13:18 2025 +0800",
+          "timestamp": 1763266398,
+          "url": "https://github.com/AviumUI/android_packages_apps_PocketMode/commit/4b4495d"
         }
       ]
     },

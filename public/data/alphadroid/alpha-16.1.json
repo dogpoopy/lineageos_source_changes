@@ -1,10 +1,10 @@
 {
   "rom_id": "alphadroid",
   "branch": "alpha-16.1",
-  "generated_at": "2025-12-04T01:28:21.994364+00:00",
-  "since_date": "2025-09-05",
+  "generated_at": "2025-12-05T01:26:59.081822+00:00",
+  "since_date": "2025-09-06",
   "total_projects": 30,
-  "total_commits": 828,
+  "total_commits": 818,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -3230,7 +3230,7 @@
       "path": "build/soong",
       "repo_url": "https://github.com/alphadroid-project/build_soong",
       "remote": "alpha",
-      "commit_count": 78,
+      "commit_count": 77,
       "commits": [
         {
           "sha": "bf2c753",
@@ -3847,14 +3847,6 @@
           "date": "Thu Sep 11 06:00:28 2025 +0530",
           "timestamp": 1757550628,
           "url": "https://github.com/alphadroid-project/build_soong/commit/f0f3f9b"
-        },
-        {
-          "sha": "a70b159",
-          "message": "Revert \"Remove perl from the allowed PATH tools list\"",
-          "author": "Aaron Kling",
-          "date": "Fri Sep 5 22:03:59 2025 +0000",
-          "timestamp": 1757109839,
-          "url": "https://github.com/alphadroid-project/build_soong/commit/a70b159"
         }
       ]
     },
@@ -4400,7 +4392,7 @@
       "path": "manifest",
       "repo_url": "https://github.com/alphadroid-project/manifest",
       "remote": "alpha",
-      "commit_count": 52,
+      "commit_count": 50,
       "commits": [
         {
           "sha": "c2c3bc4",
@@ -4801,22 +4793,6 @@
           "date": "Sun Sep 7 15:31:19 2025 +0000",
           "timestamp": 1757259079,
           "url": "https://github.com/alphadroid-project/manifest/commit/307ab65"
-        },
-        {
-          "sha": "13b1ef6",
-          "message": "Merge 'lineage-23.0' into 16.0",
-          "author": "Pranav Vashi",
-          "date": "Fri Sep 5 12:58:43 2025 +0530",
-          "timestamp": 1757057323,
-          "url": "https://github.com/alphadroid-project/manifest/commit/13b1ef6"
-        },
-        {
-          "sha": "e804727",
-          "message": "manifest: Switch to our fork of packages/modules/UprobeStats",
-          "author": "khalvat-M",
-          "date": "Fri Sep 5 06:15:17 2025 +0330",
-          "timestamp": 1757040317,
-          "url": "https://github.com/alphadroid-project/manifest/commit/e804727"
         }
       ]
     },
@@ -4825,7 +4801,7 @@
       "path": "device/alpha/sepolicy",
       "repo_url": "https://github.com/alphadroid-project/device_alpha_sepolicy",
       "remote": "alpha",
-      "commit_count": 40,
+      "commit_count": 39,
       "commits": [
         {
           "sha": "a3d9bb8",
@@ -5138,14 +5114,6 @@
           "date": "Sun Sep 7 15:12:23 2025 +0000",
           "timestamp": 1757257943,
           "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/070a3e1"
-        },
-        {
-          "sha": "91ff335",
-          "message": "exynos: Label AIDL LiveDisplay HAL",
-          "author": "Tim Zimmermann",
-          "date": "Fri Sep 5 12:12:38 2025 +0200",
-          "timestamp": 1757067158,
-          "url": "https://github.com/alphadroid-project/device_alpha_sepolicy/commit/91ff335"
         }
       ]
     },
@@ -5154,7 +5122,7 @@
       "path": "external/arm-optimized-routines",
       "repo_url": "https://github.com/alphadroid-project/external_arm-optimized-routines",
       "remote": "alpha",
-      "commit_count": 36,
+      "commit_count": 35,
       "commits": [
         {
           "sha": "a375521",
@@ -5435,14 +5403,6 @@
           "date": "Mon Sep 8 08:54:09 2025 +0000",
           "timestamp": 1757321649,
           "url": "https://github.com/alphadroid-project/external_arm-optimized-routines/commit/1aad38d"
-        },
-        {
-          "sha": "ea97940",
-          "message": "fp: add GNU-style comparison functions.",
-          "author": "Simon Tatham",
-          "date": "Fri Sep 5 11:50:53 2025 +0100",
-          "timestamp": 1757069453,
-          "url": "https://github.com/alphadroid-project/external_arm-optimized-routines/commit/ea97940"
         }
       ]
     },
@@ -5451,7 +5411,7 @@
       "path": "vendor/OTA",
       "repo_url": "https://github.com/alphadroid-devices/OTA",
       "remote": "alpha-devices",
-      "commit_count": 27,
+      "commit_count": 26,
       "commits": [
         {
           "sha": "953d436",
@@ -5660,14 +5620,6 @@
           "date": "Thu Sep 11 21:06:28 2025 +0200",
           "timestamp": 1757617588,
           "url": "https://github.com/alphadroid-devices/OTA/commit/701635f"
-        },
-        {
-          "sha": "40110d1",
-          "message": "Update garnet.json",
-          "author": "elpaablo",
-          "date": "Fri Sep 5 19:12:29 2025 +0100",
-          "timestamp": 1757095949,
-          "url": "https://github.com/alphadroid-devices/OTA/commit/40110d1"
         }
       ]
     },
@@ -6320,7 +6272,7 @@
       "path": "packages/apps/GameSpace",
       "repo_url": "https://github.com/alphadroid-project/packages_apps_GameSpace",
       "remote": "alpha",
-      "commit_count": 9,
+      "commit_count": 7,
       "commits": [
         {
           "sha": "ce20a36",
@@ -6377,22 +6329,6 @@
           "date": "Wed Sep 10 09:41:37 2025 +0530",
           "timestamp": 1757477497,
           "url": "https://github.com/alphadroid-project/packages_apps_GameSpace/commit/08f9fdb"
-        },
-        {
-          "sha": "9b5bdf7",
-          "message": "GameSpace: Fix per-app header layout",
-          "author": "Pranav Vashi",
-          "date": "Fri Sep 5 09:54:00 2025 +0530",
-          "timestamp": 1757046240,
-          "url": "https://github.com/alphadroid-project/packages_apps_GameSpace/commit/9b5bdf7"
-        },
-        {
-          "sha": "8ba2d5f",
-          "message": "GameSpace: Add slider increment guard for CustomSeekBarPreference",
-          "author": "Pranav Vashi",
-          "date": "Fri Sep 5 08:54:00 2025 +0530",
-          "timestamp": 1757042640,
-          "url": "https://github.com/alphadroid-project/packages_apps_GameSpace/commit/8ba2d5f"
         }
       ]
     },
@@ -6520,43 +6456,68 @@
       ]
     },
     {
-      "name": "packages_apps_FlipFlap",
-      "path": "packages/apps/FlipFlap",
-      "repo_url": "https://github.com/alphadroid-project/packages_apps_FlipFlap",
-      "remote": "alpha",
-      "commit_count": 4,
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
       "commits": [
         {
-          "sha": "4fbc839",
-          "message": "Merge branch 'lineage-23.0' of https://github.com/lineageos/android_packages_apps_FlipFlap into HEAD",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 10:06:03 2025 +0000",
-          "timestamp": 1762077963,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/4fbc839"
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
         },
         {
-          "sha": "dd49d55",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Sep 15 16:55:05 2025 +0000",
-          "timestamp": 1757955305,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/dd49d55"
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
         },
         {
-          "sha": "7b7d1dd",
-          "message": "Use AOSP Settings",
-          "author": "elpaablo",
-          "date": "Fri Sep 5 09:54:11 2025 +0200",
-          "timestamp": 1757058851,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/7b7d1dd"
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "path": "external/chromium-webview/prebuilt/arm64",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "70d1609",
+          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:03 2025 -0700",
+          "timestamp": 1762617483,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
         },
         {
-          "sha": "d923f16",
-          "message": "Remove org.lineageos.platform.internal dependency",
-          "author": "elpaablo",
-          "date": "Fri Sep 5 09:47:20 2025 +0200",
-          "timestamp": 1757058440,
-          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/d923f16"
+          "sha": "30034c7",
+          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:16 2025 -0600",
+          "timestamp": 1760795836,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
+        },
+        {
+          "sha": "6760647",
+          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:45 2025 -0600",
+          "timestamp": 1758982965,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
         }
       ]
     },
@@ -6660,72 +6621,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
-        },
-        {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
-        },
-        {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "path": "external/chromium-webview/prebuilt/arm64",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "70d1609",
-          "message": "Update Chromium Webview arm64 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:03 2025 -0700",
-          "timestamp": 1762617483,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/70d1609"
-        },
-        {
-          "sha": "30034c7",
-          "message": "Update Chromium Webview arm64 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:16 2025 -0600",
-          "timestamp": 1760795836,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/30034c7"
-        },
-        {
-          "sha": "6760647",
-          "message": "Update Chromium Webview arm64 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:45 2025 -0600",
-          "timestamp": 1758982965,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/6760647"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_apn",
       "path": "vendor/apn",
       "repo_url": "https://github.com/LineageOS/android_vendor_apn",
@@ -6813,6 +6708,31 @@
           "date": "Wed Sep 24 20:06:40 2025 +0000",
           "timestamp": 1758744400,
           "url": "https://github.com/alphadroid-project/packages_apps_Backgrounds/commit/e67e42a"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_FlipFlap",
+      "path": "packages/apps/FlipFlap",
+      "repo_url": "https://github.com/alphadroid-project/packages_apps_FlipFlap",
+      "remote": "alpha",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "4fbc839",
+          "message": "Merge branch 'lineage-23.0' of https://github.com/lineageos/android_packages_apps_FlipFlap into HEAD",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 10:06:03 2025 +0000",
+          "timestamp": 1762077963,
+          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/4fbc839"
+        },
+        {
+          "sha": "dd49d55",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Sep 15 16:55:05 2025 +0000",
+          "timestamp": 1757955305,
+          "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/dd49d55"
         }
       ]
     },
