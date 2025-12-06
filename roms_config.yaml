@@ -73,6 +73,12 @@ roms:
     manifest_url: https://github.com/Lunaris-AOSP/android.git
     branches:
       - "16"
+
+  - id: neoteric
+    display_name: Neoteric-OS
+    manifest_url: https://github.com/Neoteric-OS/android_manifest.git
+    branches:
+      - "bka"
       
   - id: twrp
     display_name: TWRP Recovery
