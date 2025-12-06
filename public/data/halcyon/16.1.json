@@ -1,10 +1,10 @@
 {
   "rom_id": "halcyon",
   "branch": "16.1",
-  "generated_at": "2025-12-05T01:28:56.924642+00:00",
-  "since_date": "2025-09-06",
+  "generated_at": "2025-12-06T01:24:18.812703+00:00",
+  "since_date": "2025-09-07",
   "total_projects": 68,
-  "total_commits": 679,
+  "total_commits": 687,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -13,6 +13,254 @@
       "remote": "halcyon",
       "commit_count": 100,
       "commits": [
+        {
+          "sha": "0d8daf2",
+          "message": "Launcher3: Change resource type for blur radius in DepthController",
+          "author": "Danny Lin",
+          "date": "Mon Dec 1 09:58:40 2025 +0000",
+          "timestamp": 1764583120,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/0d8daf2"
+        },
+        {
+          "sha": "9a238e9",
+          "message": "Launcher3: add gestural burn in protection",
+          "author": "John Galt",
+          "date": "Mon Dec 1 09:58:40 2025 +0000",
+          "timestamp": 1764583120,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/9a238e9"
+        },
+        {
+          "sha": "3354657",
+          "message": "Launcher: Restore default animation value",
+          "author": "Ghosuto",
+          "date": "Mon Dec 1 09:58:39 2025 +0000",
+          "timestamp": 1764583119,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/3354657"
+        },
+        {
+          "sha": "aba01b0",
+          "message": "[all_apps] removing blocking haptic to fix jank",
+          "author": "rmp22",
+          "date": "Mon Dec 1 09:58:39 2025 +0000",
+          "timestamp": 1764583119,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/aba01b0"
+        },
+        {
+          "sha": "761414c",
+          "message": "Finish recents animation when dragging to launch non-live tile.",
+          "author": "Pat Manning",
+          "date": "Mon Dec 1 09:58:38 2025 +0000",
+          "timestamp": 1764583118,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/761414c"
+        },
+        {
+          "sha": "3900ffb",
+          "message": "Fix app tile blur when clicked on recents button rapidly.",
+          "author": "Vinay Joglekar",
+          "date": "Mon Dec 1 09:58:38 2025 +0000",
+          "timestamp": 1764583118,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/3900ffb"
+        },
+        {
+          "sha": "90ee1d3",
+          "message": "Remove ScrimView's drawing controller when resetting All Apps.",
+          "author": "Andy Wickham",
+          "date": "Mon Dec 1 09:58:37 2025 +0000",
+          "timestamp": 1764583117,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/90ee1d3"
+        },
+        {
+          "sha": "6cba178",
+          "message": "Launcher3: Fix blur value",
+          "author": "Ghosuto",
+          "date": "Mon Dec 1 09:58:37 2025 +0000",
+          "timestamp": 1764583117,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/6cba178"
+        },
+        {
+          "sha": "8d9bb1f",
+          "message": "Revert the WIDGET_CROSSFADE_DURATION_MILLIS to 125",
+          "author": "Shamali Patwa",
+          "date": "Mon Dec 1 09:58:36 2025 +0000",
+          "timestamp": 1764583116,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/8d9bb1f"
+        },
+        {
+          "sha": "198f832",
+          "message": "Improve app to home animation blur",
+          "author": "Andy Wickham",
+          "date": "Mon Dec 1 09:58:36 2025 +0000",
+          "timestamp": 1764583116,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/198f832"
+        },
+        {
+          "sha": "62da9bf",
+          "message": "Fix back home animation blurring.",
+          "author": "Andy Wickham",
+          "date": "Mon Dec 1 09:58:35 2025 +0000",
+          "timestamp": 1764583115,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/62da9bf"
+        },
+        {
+          "sha": "b0124dc",
+          "message": "[Memory Leak] Fix leak of rotation button view from NavbarButtonsViewController#mFloatingRotationButton",
+          "author": "Fengjiang Li",
+          "date": "Mon Dec 1 09:58:35 2025 +0000",
+          "timestamp": 1764583115,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/b0124dc"
+        },
+        {
+          "sha": "97da601",
+          "message": "[FEATURE]: add nothingOS always-on-display changes",
+          "author": "rmp22",
+          "date": "Mon Dec 1 09:58:15 2025 +0000",
+          "timestamp": 1764583095,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/97da601"
+        },
+        {
+          "sha": "f496844",
+          "message": "[BUGFIX] fix overview blur/depth focus issue",
+          "author": "rmp22",
+          "date": "Mon Dec 1 09:57:06 2025 +0000",
+          "timestamp": 1764583026,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/f496844"
+        },
+        {
+          "sha": "b51df32",
+          "message": "Nest: Apply NestUI MD3E",
+          "author": "HeroBuxx",
+          "date": "Fri Nov 28 18:57:07 2025 +0000",
+          "timestamp": 1764356227,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/b51df32"
+        },
+        {
+          "sha": "77e9963",
+          "message": "Launcher3: Use system collapsing toolbar",
+          "author": "Pranav Vashi",
+          "date": "Fri Nov 28 16:22:30 2025 +0000",
+          "timestamp": 1764346950,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/77e9963"
+        },
+        {
+          "sha": "1783a65",
+          "message": "Nest: Setup material expressive design for preferences",
+          "author": "Pranav Vashi",
+          "date": "Fri Nov 28 16:21:04 2025 +0000",
+          "timestamp": 1764346864,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/1783a65"
+        },
+        {
+          "sha": "614233c",
+          "message": "Nest: Redo Overview Action Buttons our way",
+          "author": "HeroBuxx",
+          "date": "Fri Nov 28 15:40:34 2025 +0000",
+          "timestamp": 1764344434,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/614233c"
+        },
+        {
+          "sha": "b99fb06",
+          "message": "Launcher3: Add toggles for recent quick actions",
+          "author": "Pranav Vashi",
+          "date": "Fri Nov 28 14:25:54 2025 +0000",
+          "timestamp": 1764339954,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/b99fb06"
+        },
+        {
+          "sha": "eed17d8",
+          "message": "Launcher3: Start lens activity directly instead of sharesheet",
+          "author": "Adithya R",
+          "date": "Fri Nov 28 10:41:40 2025 +0000",
+          "timestamp": 1764326500,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/eed17d8"
+        },
+        {
+          "sha": "a55932c",
+          "message": "Launcher3: Go to home screen before launching lens activity",
+          "author": "Adithya R",
+          "date": "Fri Nov 28 10:41:24 2025 +0000",
+          "timestamp": 1764326484,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/a55932c"
+        },
+        {
+          "sha": "ae452a7",
+          "message": "Launcher3: Add Google Lens scan button to recents",
+          "author": "Suphon Thanakornpakapong",
+          "date": "Fri Nov 28 10:41:07 2025 +0000",
+          "timestamp": 1764326467,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/ae452a7"
+        },
+        {
+          "sha": "dd99068",
+          "message": "Nest: Show clear all button in recents overview",
+          "author": "jhonboy121",
+          "date": "Fri Nov 28 10:36:22 2025 +0000",
+          "timestamp": 1764326182,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/dd99068"
+        },
+        {
+          "sha": "e1011f5",
+          "message": "Nest: QuickStep: Improve memory info string",
+          "author": "HeroBuxx",
+          "date": "Fri Nov 28 10:30:35 2025 +0000",
+          "timestamp": 1764325835,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/e1011f5"
+        },
+        {
+          "sha": "7860721",
+          "message": "Launcher3: Add toggle for memory info view",
+          "author": "minaripenguin",
+          "date": "Fri Nov 28 09:45:47 2025 +0000",
+          "timestamp": 1764323147,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/7860721"
+        },
+        {
+          "sha": "aa3c2c2",
+          "message": "Launcher3: MemInfoView: Fix free memory calculation",
+          "author": "minaripenguin",
+          "date": "Fri Nov 28 09:42:04 2025 +0000",
+          "timestamp": 1764322924,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/aa3c2c2"
+        },
+        {
+          "sha": "825af72",
+          "message": "Launcher3: Show actual memory without rounding up",
+          "author": "Pranav Vashi",
+          "date": "Fri Nov 28 09:42:04 2025 +0000",
+          "timestamp": 1764322924,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/825af72"
+        },
+        {
+          "sha": "ea05a62",
+          "message": "Launcher3: Open running services activity when clicking meminfo view",
+          "author": "minaripenguin",
+          "date": "Fri Nov 28 09:42:03 2025 +0000",
+          "timestamp": 1764322923,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/ea05a62"
+        },
+        {
+          "sha": "d282216",
+          "message": "Launcher3: Update meminfo margin when using taskbar",
+          "author": "hmtheboy154",
+          "date": "Fri Nov 28 09:42:01 2025 +0000",
+          "timestamp": 1764322921,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/d282216"
+        },
+        {
+          "sha": "a70ae31",
+          "message": "Launcher3: meminfo: Replace deprecated BigDecimal methods",
+          "author": "minaripenguin",
+          "date": "Fri Nov 28 09:40:36 2025 +0000",
+          "timestamp": 1764322836,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/a70ae31"
+        },
+        {
+          "sha": "59899ce",
+          "message": "Launcher3: Introduce memory info in overview",
+          "author": "LibXZR",
+          "date": "Fri Nov 28 09:40:01 2025 +0000",
+          "timestamp": 1764322801,
+          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/59899ce"
+        },
         {
           "sha": "9678420",
           "message": "Launcher3: Fix memory leak in WallpaperOffsetInterpolator",
@@ -564,254 +812,6 @@
           "date": "Tue Oct 14 19:12:42 2025 +0800",
           "timestamp": 1760440362,
           "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/59bf695"
-        },
-        {
-          "sha": "488713c",
-          "message": "Launcher3: Create Nest Launcher",
-          "author": "Chris Crump",
-          "date": "Tue Oct 14 19:12:41 2025 +0800",
-          "timestamp": 1760440361,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/488713c"
-        },
-        {
-          "sha": "efde55b",
-          "message": "Launcher3: RecentsView: add null check for invocations mFirstFloatingTaskView",
-          "author": "jhonboy121",
-          "date": "Tue Oct 14 19:12:41 2025 +0800",
-          "timestamp": 1760440361,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/efde55b"
-        },
-        {
-          "sha": "c5c5e4f",
-          "message": "Launcher3: Update lens intent in QSB",
-          "author": "Abhay Singh Gill",
-          "date": "Tue Oct 14 19:12:41 2025 +0800",
-          "timestamp": 1760440361,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/c5c5e4f"
-        },
-        {
-          "sha": "c77f35d",
-          "message": "Launcher3: Set FLAG_ACTIVITY_CLEAR_TASK for lens intents",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 19:12:41 2025 +0800",
-          "timestamp": 1760440361,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/c77f35d"
-        },
-        {
-          "sha": "a497511",
-          "message": "Launcher3: Prevent hotseat QSB crash with google stub",
-          "author": "Pranav Vashi",
-          "date": "Tue Oct 14 19:12:25 2025 +0800",
-          "timestamp": 1760440345,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/a497511"
-        },
-        {
-          "sha": "aca9e37",
-          "message": "Launcher3: Fix uninstalling apps from recents",
-          "author": "nift4",
-          "date": "Tue Oct 14 19:12:25 2025 +0800",
-          "timestamp": 1760440345,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/aca9e37"
-        },
-        {
-          "sha": "2e32b35",
-          "message": "Launcher3: Fix Uninstalling work apps",
-          "author": "Erfan Abdi",
-          "date": "Tue Oct 14 19:12:24 2025 +0800",
-          "timestamp": 1760440344,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/2e32b35"
-        },
-        {
-          "sha": "9a1ca7a",
-          "message": "Launcher3: Update UNINSTALL TaskShortcutFactory for A15",
-          "author": "Pranav Vashi",
-          "date": "Tue Oct 14 19:12:24 2025 +0800",
-          "timestamp": 1760440344,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/9a1ca7a"
-        },
-        {
-          "sha": "5e87a29",
-          "message": "Launcher3: Use standard launcher method for uninstalling",
-          "author": "Pranav Vashi",
-          "date": "Tue Oct 14 19:12:24 2025 +0800",
-          "timestamp": 1760440344,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/5e87a29"
-        },
-        {
-          "sha": "4998cb6",
-          "message": "Launcher3: Add uninstall button to system shortcuts",
-          "author": "Ali B",
-          "date": "Tue Oct 14 19:12:24 2025 +0800",
-          "timestamp": 1760440344,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/4998cb6"
-        },
-        {
-          "sha": "17f2de0",
-          "message": "Launcher3: Increment max number of saved recent apps thumbnails",
-          "author": "Sourajit Karmakar",
-          "date": "Tue Oct 14 19:12:24 2025 +0800",
-          "timestamp": 1760440344,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/17f2de0"
-        },
-        {
-          "sha": "f026ae5",
-          "message": "Launcher3: Show bottom scrim even in gesture navigation",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 19:12:24 2025 +0800",
-          "timestamp": 1760440344,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/f026ae5"
-        },
-        {
-          "sha": "024d666",
-          "message": "Launcher3: Check if google app is enabled before running query",
-          "author": "Pranav Vashi",
-          "date": "Tue Oct 14 19:12:24 2025 +0800",
-          "timestamp": 1760440344,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/024d666"
-        },
-        {
-          "sha": "9ed2900",
-          "message": "Launcher3: remove weird brown tint from tablet task menu",
-          "author": "nift4",
-          "date": "Tue Oct 14 19:12:24 2025 +0800",
-          "timestamp": 1760440344,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/9ed2900"
-        },
-        {
-          "sha": "dbfcb91",
-          "message": "Launcher3: respect l/r cutout in tablet app drawer too",
-          "author": "nift4",
-          "date": "Tue Oct 14 19:12:23 2025 +0800",
-          "timestamp": 1760440343,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/dbfcb91"
-        },
-        {
-          "sha": "56a30f2",
-          "message": "Launcher3: fix crash",
-          "author": "nift4",
-          "date": "Tue Oct 14 19:12:23 2025 +0800",
-          "timestamp": 1760440343,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/56a30f2"
-        },
-        {
-          "sha": "b1caad9",
-          "message": "Launcher3: Migrate deprecated getColor to one with Theme",
-          "author": "minaripenguin",
-          "date": "Tue Oct 14 19:12:23 2025 +0800",
-          "timestamp": 1760440343,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/b1caad9"
-        },
-        {
-          "sha": "b9531d3",
-          "message": "Launcher3: HotseatEduController: Guard against some odd & rare NPE",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 19:12:23 2025 +0800",
-          "timestamp": 1760440343,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/b9531d3"
-        },
-        {
-          "sha": "5ac160e",
-          "message": "Launcher3: Do not set hardcoded colors for widget background",
-          "author": "Pranav Vashi",
-          "date": "Tue Oct 14 19:12:23 2025 +0800",
-          "timestamp": 1760440343,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/5ac160e"
-        },
-        {
-          "sha": "cea885d",
-          "message": "Launcher3: Fix all apps drawer themed icons toggle",
-          "author": "minaripenguin",
-          "date": "Tue Oct 14 19:12:23 2025 +0800",
-          "timestamp": 1760440343,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/cea885d"
-        },
-        {
-          "sha": "23c8b32",
-          "message": "Launcher3: Use font configs instead hardcoded fonts",
-          "author": "Pranav Vashi",
-          "date": "Tue Oct 14 19:12:23 2025 +0800",
-          "timestamp": 1760440343,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/23c8b32"
-        },
-        {
-          "sha": "c8fcc59",
-          "message": "Launcher3: Hide \"all apps\" view when search starts",
-          "author": "octocorvus",
-          "date": "Tue Oct 14 19:12:23 2025 +0800",
-          "timestamp": 1760440343,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/c8fcc59"
-        },
-        {
-          "sha": "79f690f",
-          "message": "Launcher3: Make double tap to sleep gesture optional",
-          "author": "DennySPB",
-          "date": "Tue Oct 14 19:12:22 2025 +0800",
-          "timestamp": 1760440342,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/79f690f"
-        },
-        {
-          "sha": "f5dec25",
-          "message": "Launcher3: Pull in screenshot drawable from Pixel",
-          "author": "Sourajit Karmakar",
-          "date": "Tue Oct 14 19:12:05 2025 +0800",
-          "timestamp": 1760440325,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/f5dec25"
-        },
-        {
-          "sha": "bb3d65e",
-          "message": "Launcher3: Do not skip search animation for app icons",
-          "author": "Adithya R",
-          "date": "Tue Oct 14 19:12:04 2025 +0800",
-          "timestamp": 1760440324,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/bb3d65e"
-        },
-        {
-          "sha": "24d6b16",
-          "message": "Launcher3: disable live tile",
-          "author": "nift4",
-          "date": "Tue Oct 14 19:12:04 2025 +0800",
-          "timestamp": 1760440324,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/24d6b16"
-        },
-        {
-          "sha": "88bc042",
-          "message": "Launcher3: Copy 4x5 grid size from Pixel",
-          "author": "Richard Raya",
-          "date": "Tue Oct 14 19:12:04 2025 +0800",
-          "timestamp": 1760440324,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/88bc042"
-        },
-        {
-          "sha": "ec4cef7",
-          "message": "Launcher3: allapps: Make google search of the query",
-          "author": "Jyotiraditya Panda",
-          "date": "Tue Oct 14 19:12:04 2025 +0800",
-          "timestamp": 1760440324,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/ec4cef7"
-        },
-        {
-          "sha": "78668f0",
-          "message": "Launcher3: allapps: Do not hide keyboard when query is empty",
-          "author": "Jyotiraditya Panda",
-          "date": "Tue Oct 14 19:12:04 2025 +0800",
-          "timestamp": 1760440324,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/78668f0"
-        },
-        {
-          "sha": "c99f588",
-          "message": "Launcher3: quickstep: TouchInteractionService: Do not crash on boot",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 19:12:04 2025 +0800",
-          "timestamp": 1760440324,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/c99f588"
-        },
-        {
-          "sha": "26c2cb2",
-          "message": "QuickstepAtomicAnimationFactory: Add some null checks to prevent NPEs",
-          "author": "Ido Ben-Hur",
-          "date": "Tue Oct 14 19:12:04 2025 +0800",
-          "timestamp": 1760440324,
-          "url": "https://github.com/halcyonproject/packages_apps_Launcher3/commit/26c2cb2"
         }
       ]
     },
@@ -823,804 +823,804 @@
       "commit_count": 100,
       "commits": [
         {
-          "sha": "720ab80366b",
+          "sha": "f2fab2e68a",
+          "message": "SystemUI: Enable revamp keyguard biometrics progress animation",
+          "author": "Ghosuto",
+          "date": "Mon Dec 1 16:45:26 2025 +0000",
+          "timestamp": 1764607526,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/f2fab2e68a"
+        },
+        {
+          "sha": "1c1f3a6937",
+          "message": "cure: util: SystemRestartUtils: Drop reboot reason",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 30 16:47:36 2025 +0000",
+          "timestamp": 1764521256,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/1c1f3a6937"
+        },
+        {
+          "sha": "64947d2191",
+          "message": "core: Introduce SystemRestartUtils",
+          "author": "minaripenguin",
+          "date": "Sun Nov 30 16:47:35 2025 +0000",
+          "timestamp": 1764521255,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/64947d2191"
+        },
+        {
+          "sha": "30f80bd2b2",
+          "message": "core: pih: Allow disabling props spoofing",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 30 16:47:08 2025 +0000",
+          "timestamp": 1764521228,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/30f80bd2b2"
+        },
+        {
+          "sha": "e239536139",
+          "message": "core: util: pih: Refactor config to avoid detection",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 30 16:44:56 2025 +0000",
+          "timestamp": 1764521096,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/e239536139"
+        },
+        {
+          "sha": "77e98ba5ea",
+          "message": "SystemUI: Add toggle for power-off verification",
+          "author": "rmp22",
+          "date": "Sun Nov 30 16:44:29 2025 +0000",
+          "timestamp": 1764521069,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/77e98ba5ea"
+        },
+        {
+          "sha": "6ed1ca7bdd",
+          "message": "Ask pin for shutdown/reboot on secure lockscreen",
+          "author": "DarkJoker360",
+          "date": "Sun Nov 30 06:02:06 2025 +0000",
+          "timestamp": 1764482526,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/6ed1ca7bdd"
+        },
+        {
+          "sha": "1cf59d11ff",
+          "message": "Face: Do not throw exception if client does not support invalidation",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 30 05:56:27 2025 +0000",
+          "timestamp": 1764482187,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/1cf59d11ff"
+        },
+        {
+          "sha": "fa2bd212e1",
+          "message": "[UI|BUGFIX] qs expansion animation enhance",
+          "author": "rmp22",
+          "date": "Sun Nov 30 05:56:14 2025 +0000",
+          "timestamp": 1764482174,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/fa2bd212e1"
+        },
+        {
+          "sha": "c1fd4872e2",
+          "message": "base: Redirect Google PermissionController intents to AOSP",
+          "author": "ARINDAM BHATTACHARJEE",
+          "date": "Sun Nov 30 05:29:14 2025 +0000",
+          "timestamp": 1764480554,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/c1fd4872e2"
+        },
+        {
+          "sha": "688828d3fe",
+          "message": "SystemUI: Tweak QQS margin and padding",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 30 05:29:11 2025 +0000",
+          "timestamp": 1764480551,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/688828d3fe"
+        },
+        {
+          "sha": "a21be34e19",
+          "message": "SystemUI: Improve qs panel expansion",
+          "author": "Ghosuto",
+          "date": "Sun Nov 30 05:23:24 2025 +0000",
+          "timestamp": 1764480204,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/a21be34e19"
+        },
+        {
+          "sha": "6475396d5e",
+          "message": "SystemUI: Handle few more unklnown QS Tiles",
+          "author": "rmp22",
+          "date": "Fri Nov 28 09:21:17 2025 +0000",
+          "timestamp": 1764321677,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/6475396d5e"
+        },
+        {
+          "sha": "652061056f",
+          "message": "core: pih: Define missing props",
+          "author": "HeroBuxx",
+          "date": "Thu Nov 27 17:50:53 2025 +0000",
+          "timestamp": 1764265853,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/652061056f"
+        },
+        {
+          "sha": "95cb20389b",
+          "message": "core: Introduce user-selectable apps spoofing",
+          "author": "HeroBuxx",
+          "date": "Thu Nov 27 17:45:34 2025 +0000",
+          "timestamp": 1764265534,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/95cb20389b"
+        },
+        {
+          "sha": "c32997cba9",
+          "message": "[FEATURE]: add nothingOS always-on-display changes",
+          "author": "rmp22",
+          "date": "Thu Nov 27 11:10:16 2025 +0000",
+          "timestamp": 1764241816,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/c32997cba9"
+        },
+        {
+          "sha": "47e82dbcfc",
+          "message": "SystemUI: Enable cast tile without Wi-Fi connection",
+          "author": "nift4",
+          "date": "Thu Nov 27 09:53:46 2025 +0000",
+          "timestamp": 1764237226,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/47e82dbcfc"
+        },
+        {
+          "sha": "498a3b023b",
+          "message": "SystemUI: DreamTile: Enable for everyone",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 27 09:53:46 2025 +0000",
+          "timestamp": 1764237226,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/498a3b023b"
+        },
+        {
+          "sha": "883f0fb08d",
+          "message": "SystemUI: Internet tile: Allow long-pressing on mobile network",
+          "author": "Michael W",
+          "date": "Thu Nov 27 09:53:21 2025 +0000",
+          "timestamp": 1764237201,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/883f0fb08d"
+        },
+        {
+          "sha": "ca29235771",
+          "message": "SystemUI: Expose legacy Wi-Fi and cellular data QS tiles",
+          "author": "Danny Lin",
+          "date": "Thu Nov 27 09:53:19 2025 +0000",
+          "timestamp": 1764237199,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/ca29235771"
+        },
+        {
+          "sha": "246f89d0e3",
+          "message": "SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model",
+          "author": "Danny Lin",
+          "date": "Thu Nov 27 09:51:34 2025 +0000",
+          "timestamp": 1764237094,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/246f89d0e3"
+        },
+        {
+          "sha": "81314071b4",
+          "message": "Revert \"[DO NOT MERGE] Make sure WiFi and Cell tiles are not created in Provider Model\"",
+          "author": "Danny Lin",
+          "date": "Thu Nov 27 09:51:34 2025 +0000",
+          "timestamp": 1764237094,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/81314071b4"
+        },
+        {
+          "sha": "f3f4eceef2",
+          "message": "SystemUI: Restore wifi and cellular QS tiles",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 27 09:51:10 2025 +0000",
+          "timestamp": 1764237070,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/f3f4eceef2"
+        },
+        {
+          "sha": "ffed6936ac",
+          "message": "SystemUI: Enable NFC tile",
+          "author": "Tim Schumacher",
+          "date": "Thu Nov 27 09:48:44 2025 +0000",
+          "timestamp": 1764236924,
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/ffed6936ac"
+        },
+        {
+          "sha": "720ab80366",
           "message": "[BUGFIX] fix split shade missing issue",
           "author": "rmp22",
           "date": "Sun Nov 16 22:40:56 2025 +0800",
           "timestamp": 1763304056,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/720ab80366b"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/720ab80366"
         },
         {
-          "sha": "116b8f694f9",
+          "sha": "116b8f694f",
           "message": "fixup! SystemUI: Add support for udfps dim layer",
           "author": "Michael Bestas",
           "date": "Sun Nov 16 21:05:25 2025 +0800",
           "timestamp": 1763298325,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/116b8f694f9"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/116b8f694f"
         },
         {
-          "sha": "11fddcc3cae",
+          "sha": "11fddcc3ca",
           "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/frameworks/base into android-16.0",
           "author": "HeroBuxx",
           "date": "Sun Nov 16 19:51:32 2025 +0800",
           "timestamp": 1763293892,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/11fddcc3cae"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/11fddcc3ca"
         },
         {
-          "sha": "844b27b0ca5",
+          "sha": "844b27b0ca",
           "message": "[FEATURE] adding flashlight strength flag",
           "author": "rmp22",
           "date": "Sun Nov 16 19:33:43 2025 +0800",
           "timestamp": 1763292823,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/844b27b0ca5"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/844b27b0ca"
         },
         {
-          "sha": "603d83cd280",
+          "sha": "603d83cd28",
           "message": "[FEATURE] add flashlight strength",
           "author": "rmp22",
           "date": "Sun Nov 16 19:33:31 2025 +0800",
           "timestamp": 1763292811,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/603d83cd280"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/603d83cd28"
         },
         {
-          "sha": "ab9ba5ef16c",
+          "sha": "ab9ba5ef16",
           "message": "base: Squash import NetworkTraffic",
           "author": "Jon Haus",
           "date": "Sun Nov 16 19:12:10 2025 +0800",
           "timestamp": 1763291530,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/ab9ba5ef16c"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/ab9ba5ef16"
         },
         {
-          "sha": "db9064e901d",
+          "sha": "db9064e901",
           "message": "SystemUI: QS Panel and notification shade design refinement",
           "author": "HeroBuxx",
           "date": "Sun Nov 16 19:11:05 2025 +0800",
           "timestamp": 1763291465,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/db9064e901d"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/db9064e901"
         },
         {
-          "sha": "05e0b64d40f",
+          "sha": "05e0b64d40",
           "message": "SystemUI: Remove contrast dot in media output switcher",
           "author": "Abhay Singh Gill",
           "date": "Sun Nov 16 19:11:05 2025 +0800",
           "timestamp": 1763291465,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/05e0b64d40f"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/05e0b64d40"
         },
         {
-          "sha": "8fa7d4e1357",
+          "sha": "8fa7d4e135",
           "message": "SystemUI: Disable new carrier group mobile icons",
           "author": "minaripenguin",
           "date": "Sun Nov 16 19:11:04 2025 +0800",
           "timestamp": 1763291464,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/8fa7d4e1357"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/8fa7d4e135"
         },
         {
-          "sha": "01def25f34c",
+          "sha": "01def25f34",
           "message": "SystemUI: Force `backgroundTint` for power menu layouts",
           "author": "HELLBOY017",
           "date": "Sun Nov 16 19:11:04 2025 +0800",
           "timestamp": 1763291464,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/01def25f34c"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/01def25f34"
         },
         {
-          "sha": "591ec790d5c",
+          "sha": "591ec790d5",
           "message": "base: Adapt app lock to A16",
           "author": "Ritesh",
           "date": "Sat Nov 15 12:56:55 2025 +0800",
           "timestamp": 1763182615,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/591ec790d5c"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/591ec790d5"
         },
         {
-          "sha": "4843970fb58",
+          "sha": "4843970fb5",
           "message": "AppLock: Allow locking all apps visible in launcher",
           "author": "Pranav Vashi",
           "date": "Sat Nov 15 12:56:54 2025 +0800",
           "timestamp": 1763182614,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/4843970fb58"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/4843970fb5"
         },
         {
-          "sha": "c0031b13dd3",
+          "sha": "c0031b13dd",
           "message": "services: Fix Applock service initialization",
           "author": "minaripenguin",
           "date": "Sat Nov 15 12:56:54 2025 +0800",
           "timestamp": 1763182614,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/c0031b13dd3"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/c0031b13dd"
         },
         {
-          "sha": "01bd4e7f7ca",
+          "sha": "01bd4e7f7c",
           "message": "AppLock: Intercept locked apps launching from recents",
           "author": "Dhina17",
           "date": "Sat Nov 15 12:56:54 2025 +0800",
           "timestamp": 1763182614,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/01bd4e7f7ca"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/01bd4e7f7c"
         },
         {
-          "sha": "9f2c91c7142",
+          "sha": "9f2c91c714",
           "message": "AppLock: Make kotlin libs available only within this module",
           "author": "Dhina17",
           "date": "Sat Nov 15 12:56:54 2025 +0800",
           "timestamp": 1763182614,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/9f2c91c7142"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/9f2c91c714"
         },
         {
-          "sha": "673f69947ae",
+          "sha": "673f69947a",
           "message": "AppLock: Update for kotlin errors",
           "author": "Pranav Vashi",
           "date": "Sat Nov 15 12:56:54 2025 +0800",
           "timestamp": 1763182614,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/673f69947ae"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/673f69947a"
         },
         {
-          "sha": "eef55f994d1",
+          "sha": "eef55f994d",
           "message": "AppLock: Move services to new package",
           "author": "Pranav Vashi",
           "date": "Sat Nov 15 12:56:53 2025 +0800",
           "timestamp": 1763182613,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/eef55f994d1"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/eef55f994d"
         },
         {
-          "sha": "0f586a2051f",
+          "sha": "0f586a2051",
           "message": "AppLock: Update API to hide unprotected apps",
           "author": "Pranav Vashi",
           "date": "Sat Nov 15 12:56:53 2025 +0800",
           "timestamp": 1763182613,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/0f586a2051f"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/0f586a2051"
         },
         {
-          "sha": "42021470cc1",
+          "sha": "42021470cc",
           "message": "base: Introduce app lock [1/3]",
           "author": "jhonboy121",
           "date": "Sat Nov 15 12:56:52 2025 +0800",
           "timestamp": 1763182612,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/42021470cc1"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/42021470cc"
         },
         {
-          "sha": "9c0c78548d0",
+          "sha": "9c0c78548d",
           "message": "core: appcloning: Enable app cloning building blocks by default",
           "author": "Jyotiraditya Panda",
           "date": "Sat Nov 15 12:55:42 2025 +0800",
           "timestamp": 1763182542,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/9c0c78548d0"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/9c0c78548d"
         },
         {
-          "sha": "5ee8a137543",
+          "sha": "5ee8a13754",
           "message": "SystemUI: Increase bottom spacing for QS media panel",
           "author": "HeroBuxx",
           "date": "Sat Nov 15 12:55:42 2025 +0800",
           "timestamp": 1763182542,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/5ee8a137543"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/5ee8a13754"
         },
         {
-          "sha": "0c6cb2b68a3",
+          "sha": "0c6cb2b68a",
           "message": "location: Allow to override Mock Location restriction [1/2]",
           "author": "Arindam Bhattacharjee",
           "date": "Sat Nov 15 12:55:42 2025 +0800",
           "timestamp": 1763182542,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/0c6cb2b68a3"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/0c6cb2b68a"
         },
         {
-          "sha": "d30def3c30e",
+          "sha": "d30def3c30",
           "message": "Fix keyboard cannot access slider issue",
           "author": "Angela Wang",
           "date": "Sat Nov 15 12:55:41 2025 +0800",
           "timestamp": 1763182541,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/d30def3c30e"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/d30def3c30"
         },
         {
-          "sha": "b3dd9a3ead2",
+          "sha": "b3dd9a3ead",
           "message": "Use an interface OnScreenWidgetMixin to add extra padding to FootPreference, IntroPreference, and TopIntroPreference",
           "author": "David Liu",
           "date": "Sat Nov 15 12:55:41 2025 +0800",
           "timestamp": 1763182541,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/b3dd9a3ead2"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/b3dd9a3ead"
         },
         {
-          "sha": "a28a71f3d7e",
+          "sha": "a28a71f3d7",
           "message": "Force behind and notification scrim alpha to be 0 when the device is unlocking.",
           "author": "Chandru S",
           "date": "Sat Nov 15 12:55:41 2025 +0800",
           "timestamp": 1763182541,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/a28a71f3d7e"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/a28a71f3d7"
         },
         {
-          "sha": "78219c83edf",
+          "sha": "78219c83ed",
           "message": "Update pin bouncer confirm button to match spec",
           "author": "Chandru S",
           "date": "Sat Nov 15 12:55:41 2025 +0800",
           "timestamp": 1763182541,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/78219c83edf"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/78219c83ed"
         },
         {
-          "sha": "ce415cf3c03",
+          "sha": "ce415cf3c0",
           "message": "Fix preference highlight background padding",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:41 2025 +0800",
           "timestamp": 1763182541,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/ce415cf3c03"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/ce415cf3c0"
         },
         {
-          "sha": "522f1b4acb9",
+          "sha": "522f1b4acb",
           "message": "[Expressive design] update android.app.AlertDialog style",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:40 2025 +0800",
           "timestamp": 1763182540,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/522f1b4acb9"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/522f1b4acb"
         },
         {
-          "sha": "56af715ff4e",
+          "sha": "56af715ff4",
           "message": "[Settingslib] Fix summary text centering issue in IntroPreference",
           "author": "David Liu",
           "date": "Sat Nov 15 12:55:40 2025 +0800",
           "timestamp": 1763182540,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/56af715ff4e"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/56af715ff4"
         },
         {
-          "sha": "914f6419c12",
+          "sha": "914f6419c1",
           "message": "[Expressive design] update widget_frame layout",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:40 2025 +0800",
           "timestamp": 1763182540,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/914f6419c12"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/914f6419c1"
         },
         {
-          "sha": "1eda065d96b",
+          "sha": "1eda065d96",
           "message": "[Expressive design] update RestrictedSwitchPreference",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:40 2025 +0800",
           "timestamp": 1763182540,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/1eda065d96b"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/1eda065d96"
         },
         {
-          "sha": "09df1ab698e",
+          "sha": "09df1ab698",
           "message": "[Expressive design] Add MenuPreference & OrderMenuPreference",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:40 2025 +0800",
           "timestamp": 1763182540,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/09df1ab698e"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/09df1ab698"
         },
         {
-          "sha": "ee444579e86",
+          "sha": "ee444579e8",
           "message": "[Expressive design] Update DropDownPreference style",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:39 2025 +0800",
           "timestamp": 1763182539,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/ee444579e86"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/ee444579e8"
         },
         {
-          "sha": "61ed55c436c",
+          "sha": "61ed55c436",
           "message": "[Expressive design] Update TwotargetPreference widget layout",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:39 2025 +0800",
           "timestamp": 1763182539,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/61ed55c436c"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/61ed55c436"
         },
         {
-          "sha": "bd284702b51",
+          "sha": "bd284702b5",
           "message": "[Expressive design] update the button style in Alert Dialog",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:39 2025 +0800",
           "timestamp": 1763182539,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/bd284702b51"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/bd284702b5"
         },
         {
-          "sha": "20ddd5c8279",
+          "sha": "20ddd5c827",
           "message": "[Expressive design] Update Spinner and Dropdown style",
           "author": "David Liu",
           "date": "Sat Nov 15 12:55:39 2025 +0800",
           "timestamp": 1763182539,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/20ddd5c8279"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/20ddd5c827"
         },
         {
-          "sha": "530ee635495",
+          "sha": "530ee63549",
           "message": "[Expressive design] Update PreferenceCategory layout",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:39 2025 +0800",
           "timestamp": 1763182539,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/530ee635495"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/530ee63549"
         },
         {
-          "sha": "e896dab6236",
+          "sha": "e896dab623",
           "message": "Use Material3 switch to replace Switch in the floating settings panel",
           "author": "Jean Chen",
           "date": "Sat Nov 15 12:55:38 2025 +0800",
           "timestamp": 1763182538,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/e896dab6236"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/e896dab623"
         },
         {
-          "sha": "6f08aa48c56",
+          "sha": "6f08aa48c5",
           "message": "Update colors & text in promoted notification info",
           "author": "Ioana Alexandru",
           "date": "Sat Nov 15 12:55:38 2025 +0800",
           "timestamp": 1763182538,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/6f08aa48c56"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/6f08aa48c5"
         },
         {
-          "sha": "e2b7ae674b4",
+          "sha": "e2b7ae674b",
           "message": "[sb] add an updated roaming indicator",
           "author": "Evan Laird",
           "date": "Sat Nov 15 12:55:05 2025 +0800",
           "timestamp": 1763182505,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/e2b7ae674b4"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/e2b7ae674b"
         },
         {
-          "sha": "df00bcf834a",
+          "sha": "df00bcf834",
           "message": "Update dream status bar icons",
           "author": "Darrell Shi",
           "date": "Sat Nov 15 12:55:05 2025 +0800",
           "timestamp": 1763182505,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/df00bcf834a"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/df00bcf834"
         },
         {
-          "sha": "634292d9cb9",
+          "sha": "634292d9cb",
           "message": "[bat] use battery charging fg color for chip bg",
           "author": "Evan Laird",
           "date": "Sat Nov 15 12:55:04 2025 +0800",
           "timestamp": 1763182504,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/634292d9cb9"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/634292d9cb"
         },
         {
-          "sha": "d252cee215e",
+          "sha": "d252cee215",
           "message": "Add a ripple highlight for the Output Switcher list items.",
           "author": "Alex Shabalin",
           "date": "Sat Nov 15 12:55:04 2025 +0800",
           "timestamp": 1763182504,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/d252cee215e"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/d252cee215"
         },
         {
-          "sha": "f5fdf88134b",
+          "sha": "f5fdf88134",
           "message": "Make bg of QSCustomizer transparent",
           "author": "Fabián Kozynski",
           "date": "Sat Nov 15 12:55:04 2025 +0800",
           "timestamp": 1763182504,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/f5fdf88134b"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/f5fdf88134"
         },
         {
-          "sha": "e79afff4018",
+          "sha": "e79afff401",
           "message": "Fix icon scaling",
           "author": "Fabián Kozynski",
           "date": "Sat Nov 15 12:55:04 2025 +0800",
           "timestamp": 1763182504,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/e79afff4018"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/e79afff401"
         },
         {
-          "sha": "5da2d70df6e",
+          "sha": "5da2d70df6",
           "message": "Update screen record icon",
           "author": "Beth Thibodeau",
           "date": "Sat Nov 15 12:55:04 2025 +0800",
           "timestamp": 1763182504,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/5da2d70df6e"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/5da2d70df6"
         },
         {
-          "sha": "0b665fc3ffa",
+          "sha": "0b665fc3ff",
           "message": "Always update mute icon along with slider value.",
           "author": "Alex Shabalin",
           "date": "Sat Nov 15 12:55:03 2025 +0800",
           "timestamp": 1763182503,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/0b665fc3ffa"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/0b665fc3ff"
         },
         {
-          "sha": "67e84488603",
+          "sha": "67e8448860",
           "message": "Fix media state update issues",
           "author": "Beth Thibodeau",
           "date": "Sat Nov 15 12:55:03 2025 +0800",
           "timestamp": 1763182503,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/67e84488603"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/67e8448860"
         },
         {
-          "sha": "c7a92f67a73",
+          "sha": "c7a92f67a7",
           "message": "[Settingslib][Expressive] [Expressive] Update SimpleProgressBarPreference to match spec",
           "author": "David Liu",
           "date": "Sat Nov 15 12:55:03 2025 +0800",
           "timestamp": 1763182503,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/c7a92f67a73"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/c7a92f67a7"
         },
         {
-          "sha": "4b140e10ea8",
+          "sha": "4b140e10ea",
           "message": "[Settingslib][Expressive] Add SimpleProgressBar preference",
           "author": "David Liu",
           "date": "Sat Nov 15 12:55:03 2025 +0800",
           "timestamp": 1763182503,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/4b140e10ea8"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/4b140e10ea"
         },
         {
-          "sha": "740847bb0f9",
+          "sha": "740847bb0f",
           "message": "Add new tile icons",
           "author": "Fabián Kozynski",
           "date": "Sat Nov 15 12:55:03 2025 +0800",
           "timestamp": 1763182503,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/740847bb0f9"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/740847bb0f"
         },
         {
-          "sha": "08bcf237c19",
+          "sha": "08bcf237c1",
           "message": "[Expressive design] Update Switch and MainSwitch style",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:02 2025 +0800",
           "timestamp": 1763182502,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/08bcf237c19"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/08bcf237c1"
         },
         {
-          "sha": "d98046a15a6",
+          "sha": "d98046a15a",
           "message": "[MainSwitchPreference] Do not update datastore when OnPreferenceChangeListener returns false",
           "author": "Jacky Wang",
           "date": "Sat Nov 15 12:55:02 2025 +0800",
           "timestamp": 1763182502,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/d98046a15a6"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/d98046a15a"
         },
         {
-          "sha": "e5ba2b087c5",
+          "sha": "e5ba2b087c",
           "message": "[Expressive design] update UsageProgressBarPreference",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:02 2025 +0800",
           "timestamp": 1763182502,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/e5ba2b087c5"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/e5ba2b087c"
         },
         {
-          "sha": "51f284aede6",
+          "sha": "51f284aede",
           "message": "Update expressive progress bar thickness and indicator gap.",
           "author": "Garvita Jain",
           "date": "Sat Nov 15 12:55:02 2025 +0800",
           "timestamp": 1763182502,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/51f284aede6"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/51f284aede"
         },
         {
-          "sha": "bb5eb306b2a",
+          "sha": "bb5eb306b2",
           "message": "Use Linear progress indicator in UsageProgressBarPreference",
           "author": "Garvita Jain",
           "date": "Sat Nov 15 12:55:01 2025 +0800",
           "timestamp": 1763182501,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/bb5eb306b2a"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/bb5eb306b2"
         },
         {
-          "sha": "a4a2e58ac5b",
+          "sha": "a4a2e58ac5",
           "message": "[Expressive design] Update layout for StatusBannerMessage",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:01 2025 +0800",
           "timestamp": 1763182501,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/a4a2e58ac5b"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/a4a2e58ac5"
         },
         {
-          "sha": "b8cd6be3036",
+          "sha": "b8cd6be303",
           "message": "Refine Wi-Fi preferences in Internet Settings (SettingsLib)",
           "author": "Weng Su",
           "date": "Sat Nov 15 12:55:01 2025 +0800",
           "timestamp": 1763182501,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/b8cd6be3036"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/b8cd6be303"
         },
         {
-          "sha": "5b1cec2e699",
+          "sha": "5b1cec2e69",
           "message": "[Settingslib] Fix StatusBannerPreference text color",
           "author": "David Liu",
           "date": "Sat Nov 15 12:55:01 2025 +0800",
           "timestamp": 1763182501,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/5b1cec2e699"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/5b1cec2e69"
         },
         {
-          "sha": "03d55ab8da5",
+          "sha": "03d55ab8da",
           "message": "[Expressive design] Update MainSwith layout",
           "author": "Edgar Wang",
           "date": "Sat Nov 15 12:55:01 2025 +0800",
           "timestamp": 1763182501,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/03d55ab8da5"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/03d55ab8da"
         },
         {
-          "sha": "c1d6c82b35f",
+          "sha": "c1d6c82b35",
           "message": "SystemUI: TunerActivity: Switch to material expressive design",
           "author": "Pranav Vashi",
           "date": "Sat Nov 15 12:54:58 2025 +0800",
           "timestamp": 1763182498,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/c1d6c82b35f"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/c1d6c82b35"
         },
         {
-          "sha": "4b276a9a612",
+          "sha": "4b276a9a61",
           "message": "SystemUI: Restore QS Media Session control size",
           "author": "HeroBuxx",
           "date": "Sat Nov 15 02:42:54 2025 +0800",
           "timestamp": 1763145774,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/4b276a9a612"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/4b276a9a61"
         },
         {
-          "sha": "c8e6c4db758",
+          "sha": "c8e6c4db75",
           "message": "SystemUI: Refresh blurred QS style",
           "author": "rmp22",
           "date": "Sat Nov 15 02:29:48 2025 +0800",
           "timestamp": 1763144988,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/c8e6c4db758"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/c8e6c4db75"
         },
         {
-          "sha": "d585120535d",
+          "sha": "d585120535",
           "message": "SystemUI: Fix jank during high-velocity QS expansion",
           "author": "rmp22",
           "date": "Sat Nov 15 02:29:28 2025 +0800",
           "timestamp": 1763144968,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/d585120535d"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/d585120535"
         },
         {
-          "sha": "5130a1ca4ac",
+          "sha": "5130a1ca4a",
           "message": "SystemUI: Refresh tile font on theme chang",
           "author": "rmp22",
           "date": "Sat Nov 15 02:28:58 2025 +0800",
           "timestamp": 1763144938,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/5130a1ca4ac"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/5130a1ca4a"
         },
         {
-          "sha": "53a9e505c42",
+          "sha": "53a9e505c4",
           "message": "SystemUI: Fix theming for footer actions",
           "author": "rmp22",
           "date": "Sat Nov 15 02:28:36 2025 +0800",
           "timestamp": 1763144916,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/53a9e505c42"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/53a9e505c4"
         },
         {
-          "sha": "1f21c249906",
+          "sha": "1f21c24990",
           "message": "SystemUI: Fix boot failure triggered by white wallpaper",
           "author": "rmp22",
           "date": "Sat Nov 15 02:28:15 2025 +0800",
           "timestamp": 1763144895,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/1f21c249906"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/1f21c24990"
         },
         {
-          "sha": "e25756e0ed3",
+          "sha": "e25756e0ed",
           "message": "SystemUI: Prevent crash on unsupported QS tile icon",
           "author": "rmp22",
           "date": "Sat Nov 15 02:27:45 2025 +0800",
           "timestamp": 1763144865,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/e25756e0ed3"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/e25756e0ed"
         },
         {
-          "sha": "2c2a396c53d",
+          "sha": "2c2a396c53",
           "message": "SystemUI: InternetTileNewImpl: Correct behavior on secondary click",
           "author": "rmp22",
           "date": "Sat Nov 15 02:27:22 2025 +0800",
           "timestamp": 1763144842,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/2c2a396c53d"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/2c2a396c53"
         },
         {
-          "sha": "3c3756f8576",
+          "sha": "3c3756f857",
           "message": "SystemUI: ScrimController: Prevent black flash after keyguard unlock",
           "author": "rmp22",
           "date": "Sat Nov 15 02:25:55 2025 +0800",
           "timestamp": 1763144755,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/3c3756f8576"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/3c3756f857"
         },
         {
-          "sha": "1552ae49076",
+          "sha": "1552ae4907",
           "message": "core: Increase system_surface_container_high_light luminosity",
           "author": "rmp22",
           "date": "Sat Nov 15 02:25:39 2025 +0800",
           "timestamp": 1763144739,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/1552ae49076"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/1552ae4907"
         },
         {
-          "sha": "504c484010e",
+          "sha": "504c484010",
           "message": "SystemUI: Prevent marquee animation in media control guts",
           "author": "rmp22",
           "date": "Sat Nov 15 02:24:58 2025 +0800",
           "timestamp": 1763144698,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/504c484010e"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/504c484010"
         },
         {
-          "sha": "6028106f376",
+          "sha": "6028106f37",
           "message": "SystemUI: introduce configurable visibility for QS brightness slider",
           "author": "rmp22",
           "date": "Sat Nov 15 02:24:32 2025 +0800",
           "timestamp": 1763144672,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/6028106f376"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/6028106f37"
         },
         {
-          "sha": "cbf71e93cf0",
+          "sha": "cbf71e93cf",
           "message": "SystemUI: Handle unknown QS Tiles",
           "author": "rmp22",
           "date": "Sat Nov 15 02:22:47 2025 +0800",
           "timestamp": 1763144567,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/cbf71e93cf0"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/cbf71e93cf"
         },
         {
-          "sha": "d7b73d4e02c",
+          "sha": "d7b73d4e02",
           "message": "SystemUI: Apply AxionUI QS Redesign",
           "author": "rmp22",
           "date": "Sat Nov 15 02:22:44 2025 +0800",
           "timestamp": 1763144564,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/d7b73d4e02c"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/d7b73d4e02"
         },
         {
-          "sha": "78ec90c1ebc",
+          "sha": "78ec90c1eb",
           "message": "SystemUI: Apply light/dark theme to shade header elements",
           "author": "rmp22",
           "date": "Sat Nov 15 02:22:37 2025 +0800",
           "timestamp": 1763144557,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/78ec90c1ebc"
-        },
-        {
-          "sha": "7d306a9c1e1",
-          "message": "SystemUI: Hide HEVC screen recording when no HW codec is available",
-          "author": "Ido Ben-Hur",
-          "date": "Fri Nov 14 23:49:08 2025 +0800",
-          "timestamp": 1763135348,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/7d306a9c1e1"
-        },
-        {
-          "sha": "1a4d3b87175",
-          "message": "Camera: Allow setting fallback physical ID for logical camera [2/2]",
-          "author": "Adithya R",
-          "date": "Fri Nov 14 23:48:02 2025 +0800",
-          "timestamp": 1763135282,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/1a4d3b87175"
-        },
-        {
-          "sha": "3053273e3a0",
-          "message": "wm: Implement edge-to-edge display fullscreen controller [1/2]",
-          "author": "Arindam Bhattacharjee",
-          "date": "Fri Nov 14 23:48:01 2025 +0800",
-          "timestamp": 1763135281,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/3053273e3a0"
-        },
-        {
-          "sha": "0850c89f30b",
-          "message": "core: Optimize activity transition animations for low-end and MTK devices",
-          "author": "rmp22",
-          "date": "Fri Nov 14 23:48:01 2025 +0800",
-          "timestamp": 1763135281,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/0850c89f30b"
-        },
-        {
-          "sha": "8168ef5da91",
-          "message": "PropImitationHooks: A temporary workaround...",
-          "author": "Abhay Singh Gill",
-          "date": "Fri Nov 14 23:48:01 2025 +0800",
-          "timestamp": 1763135281,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/8168ef5da91"
-        },
-        {
-          "sha": "302aa9c8294",
-          "message": "core: Avoid NPE when comparing fetched PIF props",
-          "author": "Akash Srivastava",
-          "date": "Fri Nov 14 23:46:41 2025 +0800",
-          "timestamp": 1763135201,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/302aa9c8294"
-        },
-        {
-          "sha": "2b3ae610bdc",
-          "message": "PropImitationHooks: Bypass task permission for finsky as well",
-          "author": "Abhay Singh Gill",
-          "date": "Fri Nov 14 23:46:41 2025 +0800",
-          "timestamp": 1763135201,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/2b3ae610bdc"
-        },
-        {
-          "sha": "1358bc49a3e",
-          "message": "PropImitationHooks: Skip play Integrity props in isolated processes",
-          "author": "Akash Srivastava",
-          "date": "Fri Nov 14 23:46:40 2025 +0800",
-          "timestamp": 1763135200,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/1358bc49a3e"
-        },
-        {
-          "sha": "6f693dc28fb",
-          "message": "Revert \"PropImitationHooks: Only spoof required props for finsky\"",
-          "author": "Abhay Singh Gill",
-          "date": "Fri Nov 14 23:46:40 2025 +0800",
-          "timestamp": 1763135200,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/6f693dc28fb"
-        },
-        {
-          "sha": "823458c8998",
-          "message": "KeyProviderManager: Accept N >= 1 certs per key [1/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Fri Nov 14 23:46:40 2025 +0800",
-          "timestamp": 1763135200,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/823458c8998"
-        },
-        {
-          "sha": "368ffca8bd3",
-          "message": "PropImitationHooks: Only spoof required props for finsky",
-          "author": "Ido Ben-Hur",
-          "date": "Fri Nov 14 23:46:40 2025 +0800",
-          "timestamp": 1763135200,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/368ffca8bd3"
-        },
-        {
-          "sha": "46883847576",
-          "message": "PropImitationHooks: Spoof certified props to finsky as well",
-          "author": "Ghosuto",
-          "date": "Fri Nov 14 23:46:40 2025 +0800",
-          "timestamp": 1763135200,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/46883847576"
-        },
-        {
-          "sha": "0c3513bbb1c",
-          "message": "base: Add key generation for keybox spoofing [1/2]",
-          "author": "Abhay Singh Gill",
-          "date": "Fri Nov 14 23:46:39 2025 +0800",
-          "timestamp": 1763135199,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/0c3513bbb1c"
-        },
-        {
-          "sha": "1c7198198bb",
-          "message": "Initial implementation of KeyboxImitationHooks",
-          "author": "Jyotiraditya Panda",
-          "date": "Fri Nov 14 23:46:39 2025 +0800",
-          "timestamp": 1763135199,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/1c7198198bb"
-        },
-        {
-          "sha": "10464625cea",
-          "message": "[SQUASH] Introduce PropImitationHooks",
-          "author": "Omkar Chandorkar",
-          "date": "Fri Nov 14 23:46:39 2025 +0800",
-          "timestamp": 1763135199,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/10464625cea"
-        },
-        {
-          "sha": "2a13d3135c1",
-          "message": "CameraManager: Fix IllegalArgumentException on getting cameraIds",
-          "author": "afterallafk",
-          "date": "Fri Nov 14 23:46:39 2025 +0800",
-          "timestamp": 1763135199,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/2a13d3135c1"
-        },
-        {
-          "sha": "c68cd90fb2d",
-          "message": "Support dark mode for default theme",
-          "author": "Oliver Scott",
-          "date": "Fri Nov 14 23:46:38 2025 +0800",
-          "timestamp": 1763135198,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/c68cd90fb2d"
-        },
-        {
-          "sha": "ba086e2be86",
-          "message": "SettingsLib: Make all user apps cloneable [1/2]",
-          "author": "Jyotiraditya Panda",
-          "date": "Fri Nov 14 23:46:38 2025 +0800",
-          "timestamp": 1763135198,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/ba086e2be86"
-        },
-        {
-          "sha": "c162bdc2ee7",
-          "message": "camera2: StreamConfigurationMap: add another constructor for MIUI camera on A15 QPR2",
-          "author": "Pranav Vashi",
-          "date": "Fri Nov 14 23:46:38 2025 +0800",
-          "timestamp": 1763135198,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/c162bdc2ee7"
-        },
-        {
-          "sha": "d84e0a5acf6",
-          "message": "ThemeOverlayController: Remove repeated monet check",
-          "author": "Pranav Vashi",
-          "date": "Fri Nov 14 23:46:38 2025 +0800",
-          "timestamp": 1763135198,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/d84e0a5acf6"
-        },
-        {
-          "sha": "b3001ad6cf1",
-          "message": "ThemeUtils: Use current user for THEME_CUSTOMIZATION_OVERLAY_PACKAGES",
-          "author": "Pranav Vashi",
-          "date": "Fri Nov 14 23:46:38 2025 +0800",
-          "timestamp": 1763135198,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/b3001ad6cf1"
-        },
-        {
-          "sha": "ac17efef849",
-          "message": "ThemeUtils: Make it compatible for all targets",
-          "author": "Pranav Vashi",
-          "date": "Fri Nov 14 23:46:37 2025 +0800",
-          "timestamp": 1763135197,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/ac17efef849"
-        },
-        {
-          "sha": "bc20cf80080",
-          "message": "Bring back ThemeUtils for Theming",
-          "author": "sb6596",
-          "date": "Fri Nov 14 23:46:37 2025 +0800",
-          "timestamp": 1763135197,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/bc20cf80080"
-        },
-        {
-          "sha": "e61dbd0d851",
-          "message": "Set navbar color for device default settings theme * This style is used by apps like Settings and Launcher. * Keeping navbar as white/black creates mismatch with monet enabled background   and it appears different from rest of the screen * Let's match it to background color, so that navbar is also monet themed   without divider",
-          "author": "Pranav Vashi",
-          "date": "Fri Nov 14 23:46:37 2025 +0800",
-          "timestamp": 1763135197,
-          "url": "https://github.com/halcyonproject/frameworks_base/commit/e61dbd0d851"
+          "url": "https://github.com/halcyonproject/frameworks_base/commit/78ec90c1eb"
         }
       ]
     },
@@ -2940,6 +2940,287 @@
       ]
     },
     {
+      "name": "packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_Settings",
+      "remote": "halcyon",
+      "commit_count": 34,
+      "commits": [
+        {
+          "sha": "34a5d99f6",
+          "message": "Settings: Add a RemotePreference for device-specific doze settings",
+          "author": "Steve Kondik",
+          "date": "Fri Dec 5 18:34:08 2025 +0000",
+          "timestamp": 1764959648,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/34a5d99f6"
+        },
+        {
+          "sha": "7b4bd97bf",
+          "message": "Settings: Features: Add toggle to allow disabling props spoofing",
+          "author": "HeroBuxx",
+          "date": "Fri Dec 5 18:34:00 2025 +0000",
+          "timestamp": 1764959640,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/7b4bd97bf"
+        },
+        {
+          "sha": "b1bd65341",
+          "message": "Settings: Features: Verify lock screen before power off",
+          "author": "rmp22",
+          "date": "Fri Dec 5 18:33:57 2025 +0000",
+          "timestamp": 1764959637,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/b1bd65341"
+        },
+        {
+          "sha": "131ae1f82",
+          "message": "Settings: Fix typo on battery settings",
+          "author": "HeroBuxx",
+          "date": "Fri Dec 5 18:33:57 2025 +0000",
+          "timestamp": 1764959637,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/131ae1f82"
+        },
+        {
+          "sha": "d0326e23d",
+          "message": "Settings: Features: Introduce user-selectable apps spoofing",
+          "author": "HeroBuxx",
+          "date": "Fri Dec 5 18:33:56 2025 +0000",
+          "timestamp": 1764959636,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/d0326e23d"
+        },
+        {
+          "sha": "d19c990d7",
+          "message": "Settings: Features: Grey out window blurtogle if device not supported",
+          "author": "HeroBuxx",
+          "date": "Fri Dec 5 18:33:53 2025 +0000",
+          "timestamp": 1764959633,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/d19c990d7"
+        },
+        {
+          "sha": "d233930fd",
+          "message": "Settings: Drop Old QS Brightness slider options",
+          "author": "HeroBuxx",
+          "date": "Mon Nov 17 02:06:46 2025 +0800",
+          "timestamp": 1763316406,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/d233930fd"
+        },
+        {
+          "sha": "46745812e",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Settings into android-16.0",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:51:33 2025 +0800",
+          "timestamp": 1763293893,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/46745812e"
+        },
+        {
+          "sha": "0e1c1c3f2",
+          "message": "Settings: Hide Baseband version if version unknown",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:42:15 2025 +0800",
+          "timestamp": 1763293335,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/0e1c1c3f2"
+        },
+        {
+          "sha": "47e563f4e",
+          "message": "Revert \"Settings: Safeguard ringtone pref against faulty gapps\"",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:42:15 2025 +0800",
+          "timestamp": 1763293335,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/47e563f4e"
+        },
+        {
+          "sha": "102b9c673",
+          "message": "Settings: Features: Import network traffic",
+          "author": "Jon Haus",
+          "date": "Sun Nov 16 19:16:44 2025 +0800",
+          "timestamp": 1763291804,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/102b9c673"
+        },
+        {
+          "sha": "1de9d7694",
+          "message": "Settings: Add app lock pref to application settings as well",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 16 19:16:44 2025 +0800",
+          "timestamp": 1763291804,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/1de9d7694"
+        },
+        {
+          "sha": "053d985ca",
+          "message": "Settings: Do not rely on androidx.preference_preference-ktx",
+          "author": "Abhay Singh Gill",
+          "date": "Sun Nov 16 19:16:44 2025 +0800",
+          "timestamp": 1763291804,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/053d985ca"
+        },
+        {
+          "sha": "9bd27fac4",
+          "message": "Settings: AppLock: Update for kotlin errors",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 19:16:44 2025 +0800",
+          "timestamp": 1763291804,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/9bd27fac4"
+        },
+        {
+          "sha": "c961de94e",
+          "message": "Settings: Don't make app lock settings searchable",
+          "author": "Joey Huab",
+          "date": "Sun Nov 16 19:16:44 2025 +0800",
+          "timestamp": 1763291804,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/c961de94e"
+        },
+        {
+          "sha": "d5c0deed3",
+          "message": "Settings: Add app lock settings for alternate security settings provider",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 19:16:43 2025 +0800",
+          "timestamp": 1763291803,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/d5c0deed3"
+        },
+        {
+          "sha": "edc7d8546",
+          "message": "Settings: Add app lock summary for 0 protected apps",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 19:16:43 2025 +0800",
+          "timestamp": 1763291803,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/edc7d8546"
+        },
+        {
+          "sha": "dc75017b6",
+          "message": "Settings: Update AppLock API",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 19:16:43 2025 +0800",
+          "timestamp": 1763291803,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/dc75017b6"
+        },
+        {
+          "sha": "30b947444",
+          "message": "Settings: Allow locking all apps visible in launcher",
+          "author": "Pranav Vashi",
+          "date": "Sun Nov 16 19:16:43 2025 +0800",
+          "timestamp": 1763291803,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/30b947444"
+        },
+        {
+          "sha": "c5d42b255",
+          "message": "Settings: Introduce App Lock [3/3]",
+          "author": "jhonboy121",
+          "date": "Sun Nov 16 19:16:43 2025 +0800",
+          "timestamp": 1763291803,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/c5d42b255"
+        },
+        {
+          "sha": "3dbb5cf3a",
+          "message": "Settings: Features: location: Allow to override Mock Location restriction [2/2]",
+          "author": "Arindam Bhattacharjee",
+          "date": "Sun Nov 16 19:16:43 2025 +0800",
+          "timestamp": 1763291803,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/3dbb5cf3a"
+        },
+        {
+          "sha": "0e2092776",
+          "message": "Settings: Make all user apps cloneable [2/2]",
+          "author": "Jyotiraditya Panda",
+          "date": "Sun Nov 16 19:16:43 2025 +0800",
+          "timestamp": 1763291803,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/0e2092776"
+        },
+        {
+          "sha": "83a8b2cc0",
+          "message": "Settings: Make AppCloning independent of DeviceConfig",
+          "author": "Jyotiraditya Panda",
+          "date": "Sun Nov 16 19:16:43 2025 +0800",
+          "timestamp": 1763291803,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/83a8b2cc0"
+        },
+        {
+          "sha": "4aed0e4cf",
+          "message": "Settings: Import new Enchanted icon",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 24 22:09:19 2025 +0800",
+          "timestamp": 1761314959,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/4aed0e4cf"
+        },
+        {
+          "sha": "cf8b45841",
+          "message": "Settings: Features: display: Implement edge-to-edge display fullscreen controller [2/2]",
+          "author": "Arindam Bhattacharjee",
+          "date": "Fri Oct 24 22:09:15 2025 +0800",
+          "timestamp": 1761314955,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/cf8b45841"
+        },
+        {
+          "sha": "0156d7dc1",
+          "message": "Settings: Show Halcyon version",
+          "author": "HeroBuxx",
+          "date": "Wed Oct 15 23:12:06 2025 +0800",
+          "timestamp": 1760541126,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/0156d7dc1"
+        },
+        {
+          "sha": "71f93deb3",
+          "message": "Settings: Features: KeyboxDataPreference: Accept N >= 1 certs per key [2/2]",
+          "author": "Ido Ben-Hur",
+          "date": "Wed Oct 15 23:12:06 2025 +0800",
+          "timestamp": 1760541126,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/71f93deb3"
+        },
+        {
+          "sha": "c5593d69f",
+          "message": "Settings: Features: User selectable PIF [2/2]",
+          "author": "Abhay Singh Gill",
+          "date": "Wed Oct 15 23:12:06 2025 +0800",
+          "timestamp": 1760541126,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/c5593d69f"
+        },
+        {
+          "sha": "169e8ceee",
+          "message": "Settings: Features: Allow user to provide keybox data [2/2]",
+          "author": "Abhay Singh Gill",
+          "date": "Wed Oct 15 23:11:54 2025 +0800",
+          "timestamp": 1760541114,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/169e8ceee"
+        },
+        {
+          "sha": "0cb38da70",
+          "message": "Settings: Features: Add toggle for advanced reboot [2/2]",
+          "author": "Adin Kwok",
+          "date": "Wed Oct 15 12:36:50 2025 +0800",
+          "timestamp": 1760503010,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/0cb38da70"
+        },
+        {
+          "sha": "be6bbfe0f",
+          "message": "Settings: add SearchIndexProviderHolder interface",
+          "author": "rmp22",
+          "date": "Sat Sep 27 04:54:47 2025 +0800",
+          "timestamp": 1758920087,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/be6bbfe0f"
+        },
+        {
+          "sha": "ccf15c748",
+          "message": "Settings: add abstract fragment class to reduce fragments boilerplate",
+          "author": "rmp22",
+          "date": "Sat Sep 27 04:54:47 2025 +0800",
+          "timestamp": 1758920087,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/ccf15c748"
+        },
+        {
+          "sha": "10b478d2c",
+          "message": "Settings: Fixup compose preference layout",
+          "author": "Pranav Vashi",
+          "date": "Sat Sep 27 04:54:47 2025 +0800",
+          "timestamp": 1758920087,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/10b478d2c"
+        },
+        {
+          "sha": "7eff1ae30",
+          "message": "Settings: Hide development options completely when disabled",
+          "author": "Pranav Vashi",
+          "date": "Sat Sep 27 04:54:44 2025 +0800",
+          "timestamp": 1758920084,
+          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/7eff1ae30"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_Aperture",
       "path": "packages/apps/Aperture",
       "repo_url": "https://github.com/halcyonproject/packages_apps_Aperture",
@@ -3209,239 +3490,6 @@
           "date": "Tue Sep 9 14:17:51 2025 +0200",
           "timestamp": 1757420271,
           "url": "https://github.com/halcyonproject/packages_apps_Aperture/commit/81d30b3"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_Settings",
-      "path": "packages/apps/Settings",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Settings",
-      "remote": "halcyon",
-      "commit_count": 28,
-      "commits": [
-        {
-          "sha": "d233930fd",
-          "message": "Settings: Drop Old QS Brightness slider options",
-          "author": "HeroBuxx",
-          "date": "Mon Nov 17 02:06:46 2025 +0800",
-          "timestamp": 1763316406,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/d233930fd"
-        },
-        {
-          "sha": "46745812e",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Settings into android-16.0",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:51:33 2025 +0800",
-          "timestamp": 1763293893,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/46745812e"
-        },
-        {
-          "sha": "0e1c1c3f2",
-          "message": "Settings: Hide Baseband version if version unknown",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:42:15 2025 +0800",
-          "timestamp": 1763293335,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/0e1c1c3f2"
-        },
-        {
-          "sha": "47e563f4e",
-          "message": "Revert \"Settings: Safeguard ringtone pref against faulty gapps\"",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:42:15 2025 +0800",
-          "timestamp": 1763293335,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/47e563f4e"
-        },
-        {
-          "sha": "102b9c673",
-          "message": "Settings: Features: Import network traffic",
-          "author": "Jon Haus",
-          "date": "Sun Nov 16 19:16:44 2025 +0800",
-          "timestamp": 1763291804,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/102b9c673"
-        },
-        {
-          "sha": "1de9d7694",
-          "message": "Settings: Add app lock pref to application settings as well",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Nov 16 19:16:44 2025 +0800",
-          "timestamp": 1763291804,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/1de9d7694"
-        },
-        {
-          "sha": "053d985ca",
-          "message": "Settings: Do not rely on androidx.preference_preference-ktx",
-          "author": "Abhay Singh Gill",
-          "date": "Sun Nov 16 19:16:44 2025 +0800",
-          "timestamp": 1763291804,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/053d985ca"
-        },
-        {
-          "sha": "9bd27fac4",
-          "message": "Settings: AppLock: Update for kotlin errors",
-          "author": "Pranav Vashi",
-          "date": "Sun Nov 16 19:16:44 2025 +0800",
-          "timestamp": 1763291804,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/9bd27fac4"
-        },
-        {
-          "sha": "c961de94e",
-          "message": "Settings: Don't make app lock settings searchable",
-          "author": "Joey Huab",
-          "date": "Sun Nov 16 19:16:44 2025 +0800",
-          "timestamp": 1763291804,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/c961de94e"
-        },
-        {
-          "sha": "d5c0deed3",
-          "message": "Settings: Add app lock settings for alternate security settings provider",
-          "author": "Pranav Vashi",
-          "date": "Sun Nov 16 19:16:43 2025 +0800",
-          "timestamp": 1763291803,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/d5c0deed3"
-        },
-        {
-          "sha": "edc7d8546",
-          "message": "Settings: Add app lock summary for 0 protected apps",
-          "author": "Pranav Vashi",
-          "date": "Sun Nov 16 19:16:43 2025 +0800",
-          "timestamp": 1763291803,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/edc7d8546"
-        },
-        {
-          "sha": "dc75017b6",
-          "message": "Settings: Update AppLock API",
-          "author": "Pranav Vashi",
-          "date": "Sun Nov 16 19:16:43 2025 +0800",
-          "timestamp": 1763291803,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/dc75017b6"
-        },
-        {
-          "sha": "30b947444",
-          "message": "Settings: Allow locking all apps visible in launcher",
-          "author": "Pranav Vashi",
-          "date": "Sun Nov 16 19:16:43 2025 +0800",
-          "timestamp": 1763291803,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/30b947444"
-        },
-        {
-          "sha": "c5d42b255",
-          "message": "Settings: Introduce App Lock [3/3]",
-          "author": "jhonboy121",
-          "date": "Sun Nov 16 19:16:43 2025 +0800",
-          "timestamp": 1763291803,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/c5d42b255"
-        },
-        {
-          "sha": "3dbb5cf3a",
-          "message": "Settings: Features: location: Allow to override Mock Location restriction [2/2]",
-          "author": "Arindam Bhattacharjee",
-          "date": "Sun Nov 16 19:16:43 2025 +0800",
-          "timestamp": 1763291803,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/3dbb5cf3a"
-        },
-        {
-          "sha": "0e2092776",
-          "message": "Settings: Make all user apps cloneable [2/2]",
-          "author": "Jyotiraditya Panda",
-          "date": "Sun Nov 16 19:16:43 2025 +0800",
-          "timestamp": 1763291803,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/0e2092776"
-        },
-        {
-          "sha": "83a8b2cc0",
-          "message": "Settings: Make AppCloning independent of DeviceConfig",
-          "author": "Jyotiraditya Panda",
-          "date": "Sun Nov 16 19:16:43 2025 +0800",
-          "timestamp": 1763291803,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/83a8b2cc0"
-        },
-        {
-          "sha": "4aed0e4cf",
-          "message": "Settings: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 22:09:19 2025 +0800",
-          "timestamp": 1761314959,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/4aed0e4cf"
-        },
-        {
-          "sha": "cf8b45841",
-          "message": "Settings: Features: display: Implement edge-to-edge display fullscreen controller [2/2]",
-          "author": "Arindam Bhattacharjee",
-          "date": "Fri Oct 24 22:09:15 2025 +0800",
-          "timestamp": 1761314955,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/cf8b45841"
-        },
-        {
-          "sha": "0156d7dc1",
-          "message": "Settings: Show Halcyon version",
-          "author": "HeroBuxx",
-          "date": "Wed Oct 15 23:12:06 2025 +0800",
-          "timestamp": 1760541126,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/0156d7dc1"
-        },
-        {
-          "sha": "71f93deb3",
-          "message": "Settings: Features: KeyboxDataPreference: Accept N >= 1 certs per key [2/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Wed Oct 15 23:12:06 2025 +0800",
-          "timestamp": 1760541126,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/71f93deb3"
-        },
-        {
-          "sha": "c5593d69f",
-          "message": "Settings: Features: User selectable PIF [2/2]",
-          "author": "Abhay Singh Gill",
-          "date": "Wed Oct 15 23:12:06 2025 +0800",
-          "timestamp": 1760541126,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/c5593d69f"
-        },
-        {
-          "sha": "169e8ceee",
-          "message": "Settings: Features: Allow user to provide keybox data [2/2]",
-          "author": "Abhay Singh Gill",
-          "date": "Wed Oct 15 23:11:54 2025 +0800",
-          "timestamp": 1760541114,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/169e8ceee"
-        },
-        {
-          "sha": "0cb38da70",
-          "message": "Settings: Features: Add toggle for advanced reboot [2/2]",
-          "author": "Adin Kwok",
-          "date": "Wed Oct 15 12:36:50 2025 +0800",
-          "timestamp": 1760503010,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/0cb38da70"
-        },
-        {
-          "sha": "be6bbfe0f",
-          "message": "Settings: add SearchIndexProviderHolder interface",
-          "author": "rmp22",
-          "date": "Sat Sep 27 04:54:47 2025 +0800",
-          "timestamp": 1758920087,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/be6bbfe0f"
-        },
-        {
-          "sha": "ccf15c748",
-          "message": "Settings: add abstract fragment class to reduce fragments boilerplate",
-          "author": "rmp22",
-          "date": "Sat Sep 27 04:54:47 2025 +0800",
-          "timestamp": 1758920087,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/ccf15c748"
-        },
-        {
-          "sha": "10b478d2c",
-          "message": "Settings: Fixup compose preference layout",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 27 04:54:47 2025 +0800",
-          "timestamp": 1758920087,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/10b478d2c"
-        },
-        {
-          "sha": "7eff1ae30",
-          "message": "Settings: Hide development options completely when disabled",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 27 04:54:44 2025 +0800",
-          "timestamp": 1758920084,
-          "url": "https://github.com/halcyonproject/packages_apps_Settings/commit/7eff1ae30"
         }
       ]
     },
@@ -4269,6 +4317,168 @@
       ]
     },
     {
+      "name": "device_halcyon_sepolicy",
+      "path": "device/halcyon/sepolicy",
+      "repo_url": "https://github.com/halcyonproject/device_halcyon_sepolicy",
+      "remote": "halcyon",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "cc855a2",
+          "message": "sepolicy: common: Label prop to disable DPS",
+          "author": "Adithya R",
+          "date": "Mon Dec 1 10:26:50 2025 +0000",
+          "timestamp": 1764584810,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/cc855a2"
+        },
+        {
+          "sha": "83549cb",
+          "message": "sePolicy: Add vendor prebuilt policy conditions and include common rules",
+          "author": "HeroBuxx",
+          "date": "Mon Dec 1 10:26:42 2025 +0000",
+          "timestamp": 1764584802,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/83549cb"
+        },
+        {
+          "sha": "5612f43",
+          "message": "sepolicy: Add selinux policy for pocket bridge",
+          "author": "HeroBuxx",
+          "date": "Sat Nov 15 04:36:51 2025 +0800",
+          "timestamp": 1763152611,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/5612f43"
+        },
+        {
+          "sha": "b783007",
+          "message": "sepolicy: Add pocket judge selinux policy",
+          "author": "Carlo Savignano",
+          "date": "Sat Nov 15 04:35:46 2025 +0800",
+          "timestamp": 1763152546,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/b783007"
+        },
+        {
+          "sha": "56c101f",
+          "message": "sepolicy: Allow gmscore_app to set system_prop",
+          "author": "Adithya R",
+          "date": "Sat Nov 15 04:28:48 2025 +0800",
+          "timestamp": 1763152128,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/56c101f"
+        },
+        {
+          "sha": "ee3718c",
+          "message": "sepolicy: Include flipendo/turbo_adapter policy",
+          "author": "Anay Wadhera",
+          "date": "Sat Nov 15 04:28:08 2025 +0800",
+          "timestamp": 1763152088,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/ee3718c"
+        },
+        {
+          "sha": "26ce079",
+          "message": "sepolicy: introduce app lock [2/3]",
+          "author": "jhonboy121",
+          "date": "Sat Nov 15 04:25:13 2025 +0800",
+          "timestamp": 1763151913,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/26ce079"
+        },
+        {
+          "sha": "9e8c615",
+          "message": "sepolicy: common: Allow to write blur prop",
+          "author": "HeroBuxx",
+          "date": "Sat Nov 1 01:25:39 2025 +0800",
+          "timestamp": 1761931539,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/9e8c615"
+        },
+        {
+          "sha": "a5d0ddc",
+          "message": "sepolicy: common: Add support for LMOFreeform service",
+          "author": "Adithya R",
+          "date": "Thu Oct 9 19:13:46 2025 +0800",
+          "timestamp": 1760008426,
+          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/a5d0ddc"
+        }
+      ]
+    },
+    {
+      "name": "manifest",
+      "path": "manifest",
+      "repo_url": "https://github.com/halcyonproject/manifest",
+      "remote": "halcyon",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "5280a2f",
+          "message": "manifest: Add our selfhosted git remote for blobs",
+          "author": "HeroBuxx",
+          "date": "Sat Dec 6 03:08:14 2025 +0700",
+          "timestamp": 1764965294,
+          "url": "https://github.com/halcyonproject/manifest/commit/5280a2f"
+        },
+        {
+          "sha": "f0a00ef",
+          "message": "manifest: README: Remove ALPHA tag",
+          "author": "HeroBuxx",
+          "date": "Sat Dec 6 03:06:10 2025 +0700",
+          "timestamp": 1764965170,
+          "url": "https://github.com/halcyonproject/manifest/commit/f0a00ef"
+        },
+        {
+          "sha": "87a911c",
+          "message": "manifest: Tracked forked build/release",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:07:22 2025 +0700",
+          "timestamp": 1763294842,
+          "url": "https://github.com/halcyonproject/manifest/commit/87a911c"
+        },
+        {
+          "sha": "526364d",
+          "message": "manifest: Track sm8650 HALs from LineageOS",
+          "author": "PixelThrived",
+          "date": "Sun Nov 16 19:05:08 2025 +0700",
+          "timestamp": 1763294708,
+          "url": "https://github.com/halcyonproject/manifest/commit/526364d"
+        },
+        {
+          "sha": "27c5454",
+          "message": "manifest: Track more forked repos for September 2025 security update",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:03:43 2025 +0700",
+          "timestamp": 1763294623,
+          "url": "https://github.com/halcyonproject/manifest/commit/27c5454"
+        },
+        {
+          "sha": "5875d6d",
+          "message": "manifest: Track forked 'external/bouncycatle' and 'frameworks/libs/systemui'",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 31 11:56:40 2025 +0700",
+          "timestamp": 1761886600,
+          "url": "https://github.com/halcyonproject/manifest/commit/5875d6d"
+        },
+        {
+          "sha": "11ac3df",
+          "message": "manifest: Track GMS",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 24 22:08:25 2025 +0700",
+          "timestamp": 1761318505,
+          "url": "https://github.com/halcyonproject/manifest/commit/11ac3df"
+        },
+        {
+          "sha": "d265a69",
+          "message": "manifest: Fork few more apps",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 24 20:55:12 2025 +0700",
+          "timestamp": 1761314112,
+          "url": "https://github.com/halcyonproject/manifest/commit/d265a69"
+        },
+        {
+          "sha": "6b710f2",
+          "message": "manifest: Bring Halcyon 16.0",
+          "author": "HeroBuxx",
+          "date": "Mon Oct 20 21:51:32 2025 +0700",
+          "timestamp": 1760971892,
+          "url": "https://github.com/halcyonproject/manifest/commit/6b710f2"
+        }
+      ]
+    },
+    {
       "name": "android_device_qcom_sepolicy_vndr",
       "path": "device/qcom/sepolicy_vndr/sm8450",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
@@ -4545,136 +4755,6 @@
       ]
     },
     {
-      "name": "device_halcyon_sepolicy",
-      "path": "device/halcyon/sepolicy",
-      "repo_url": "https://github.com/halcyonproject/device_halcyon_sepolicy",
-      "remote": "halcyon",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "5612f43",
-          "message": "sepolicy: Add selinux policy for pocket bridge",
-          "author": "HeroBuxx",
-          "date": "Sat Nov 15 04:36:51 2025 +0800",
-          "timestamp": 1763152611,
-          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/5612f43"
-        },
-        {
-          "sha": "b783007",
-          "message": "sepolicy: Add pocket judge selinux policy",
-          "author": "Carlo Savignano",
-          "date": "Sat Nov 15 04:35:46 2025 +0800",
-          "timestamp": 1763152546,
-          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/b783007"
-        },
-        {
-          "sha": "56c101f",
-          "message": "sepolicy: Allow gmscore_app to set system_prop",
-          "author": "Adithya R",
-          "date": "Sat Nov 15 04:28:48 2025 +0800",
-          "timestamp": 1763152128,
-          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/56c101f"
-        },
-        {
-          "sha": "ee3718c",
-          "message": "sepolicy: Include flipendo/turbo_adapter policy",
-          "author": "Anay Wadhera",
-          "date": "Sat Nov 15 04:28:08 2025 +0800",
-          "timestamp": 1763152088,
-          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/ee3718c"
-        },
-        {
-          "sha": "26ce079",
-          "message": "sepolicy: introduce app lock [2/3]",
-          "author": "jhonboy121",
-          "date": "Sat Nov 15 04:25:13 2025 +0800",
-          "timestamp": 1763151913,
-          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/26ce079"
-        },
-        {
-          "sha": "9e8c615",
-          "message": "sepolicy: common: Allow to write blur prop",
-          "author": "HeroBuxx",
-          "date": "Sat Nov 1 01:25:39 2025 +0800",
-          "timestamp": 1761931539,
-          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/9e8c615"
-        },
-        {
-          "sha": "a5d0ddc",
-          "message": "sepolicy: common: Add support for LMOFreeform service",
-          "author": "Adithya R",
-          "date": "Thu Oct 9 19:13:46 2025 +0800",
-          "timestamp": 1760008426,
-          "url": "https://github.com/halcyonproject/device_halcyon_sepolicy/commit/a5d0ddc"
-        }
-      ]
-    },
-    {
-      "name": "manifest",
-      "path": "manifest",
-      "repo_url": "https://github.com/halcyonproject/manifest",
-      "remote": "halcyon",
-      "commit_count": 7,
-      "commits": [
-        {
-          "sha": "87a911c",
-          "message": "manifest: Tracked forked build/release",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:07:22 2025 +0700",
-          "timestamp": 1763294842,
-          "url": "https://github.com/halcyonproject/manifest/commit/87a911c"
-        },
-        {
-          "sha": "526364d",
-          "message": "manifest: Track sm8650 HALs from LineageOS",
-          "author": "PixelThrived",
-          "date": "Sun Nov 16 19:05:08 2025 +0700",
-          "timestamp": 1763294708,
-          "url": "https://github.com/halcyonproject/manifest/commit/526364d"
-        },
-        {
-          "sha": "27c5454",
-          "message": "manifest: Track more forked repos for September 2025 security update",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:03:43 2025 +0700",
-          "timestamp": 1763294623,
-          "url": "https://github.com/halcyonproject/manifest/commit/27c5454"
-        },
-        {
-          "sha": "5875d6d",
-          "message": "manifest: Track forked 'external/bouncycatle' and 'frameworks/libs/systemui'",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 31 11:56:40 2025 +0700",
-          "timestamp": 1761886600,
-          "url": "https://github.com/halcyonproject/manifest/commit/5875d6d"
-        },
-        {
-          "sha": "11ac3df",
-          "message": "manifest: Track GMS",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 22:08:25 2025 +0700",
-          "timestamp": 1761318505,
-          "url": "https://github.com/halcyonproject/manifest/commit/11ac3df"
-        },
-        {
-          "sha": "d265a69",
-          "message": "manifest: Fork few more apps",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:55:12 2025 +0700",
-          "timestamp": 1761314112,
-          "url": "https://github.com/halcyonproject/manifest/commit/d265a69"
-        },
-        {
-          "sha": "6b710f2",
-          "message": "manifest: Bring Halcyon 16.0",
-          "author": "HeroBuxx",
-          "date": "Mon Oct 20 21:51:32 2025 +0700",
-          "timestamp": 1760971892,
-          "url": "https://github.com/halcyonproject/manifest/commit/6b710f2"
-        }
-      ]
-    },
-    {
       "name": "android_device_qcom_sepolicy",
       "path": "device/qcom/sepolicy",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy",
@@ -4846,51 +4926,59 @@
       ]
     },
     {
-      "name": "android_hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
-      "remote": "lineage",
-      "commit_count": 5,
+      "name": "build_make",
+      "path": "build/make",
+      "repo_url": "https://github.com/halcyonproject/build_make",
+      "remote": "halcyon",
+      "commit_count": 6,
       "commits": [
         {
-          "sha": "95c5d93",
-          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
-          "author": "Ankit Mishra",
-          "date": "Mon Nov 3 12:33:59 2025 +0000",
-          "timestamp": 1762173239,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
+          "sha": "1bde2dd",
+          "message": "combo: Add cortex-a76 to known v8-2a cores",
+          "author": "Jason Edson",
+          "date": "Mon Dec 1 18:10:29 2025 +0000",
+          "timestamp": 1764612629,
+          "url": "https://github.com/halcyonproject/build_make/commit/1bde2dd"
         },
         {
-          "sha": "dacf91a",
-          "message": "qcom: Remove more obsolete board flags",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/dacf91a"
+          "sha": "14637f2",
+          "message": "build: GSI: Fix syntax issue after \"Add a GSI overlay for the framework package\"",
+          "author": "Yumi Yukimura",
+          "date": "Sun Oct 19 12:02:40 2025 +0800",
+          "timestamp": 1760846560,
+          "url": "https://github.com/halcyonproject/build_make/commit/14637f2"
         },
         {
-          "sha": "2dcc26c",
-          "message": "qcom: Add msm8998 audio soong config",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/2dcc26c"
+          "sha": "7f99677",
+          "message": "releasetools: ota_from_target_files: add FullOTA_PostValidate",
+          "author": "M1cha",
+          "date": "Sun Oct 19 12:02:22 2025 +0800",
+          "timestamp": 1760846542,
+          "url": "https://github.com/halcyonproject/build_make/commit/7f99677"
         },
         {
-          "sha": "cd562c5",
-          "message": "common: Unset MSM_VIDC_TARGET_LIST",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/cd562c5"
+          "sha": "20c12fc",
+          "message": "build: Add `USE_SOONG_DEFINED_SYSTEM_IMAGE` to `_product_single_value_vars`",
+          "author": "Yumi Yukimura",
+          "date": "Sun Oct 19 12:02:16 2025 +0800",
+          "timestamp": 1760846536,
+          "url": "https://github.com/halcyonproject/build_make/commit/20c12fc"
         },
         {
-          "sha": "f67795e",
-          "message": "qcom: Remove no longer used TARGET_USES_DRM_PP",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:16 2025 +0300",
-          "timestamp": 1757150896,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/f67795e"
+          "sha": "3c6dccf",
+          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
+          "author": "Yumi Yukimura",
+          "date": "Sun Oct 19 12:01:57 2025 +0800",
+          "timestamp": 1760846517,
+          "url": "https://github.com/halcyonproject/build_make/commit/3c6dccf"
+        },
+        {
+          "sha": "0bd0a73",
+          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
+          "author": "Dennis Kiilerich",
+          "date": "Sun Oct 19 12:01:57 2025 +0800",
+          "timestamp": 1760846517,
+          "url": "https://github.com/halcyonproject/build_make/commit/0bd0a73"
         }
       ]
     },
@@ -5038,55 +5126,6 @@
           "date": "Mon Sep 8 16:46:11 2025 -0700",
           "timestamp": 1757375171,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
-        }
-      ]
-    },
-    {
-      "name": "build_make",
-      "path": "build/make",
-      "repo_url": "https://github.com/halcyonproject/build_make",
-      "remote": "halcyon",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "14637f2",
-          "message": "build: GSI: Fix syntax issue after \"Add a GSI overlay for the framework package\"",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:02:40 2025 +0800",
-          "timestamp": 1760846560,
-          "url": "https://github.com/halcyonproject/build_make/commit/14637f2"
-        },
-        {
-          "sha": "7f99677",
-          "message": "releasetools: ota_from_target_files: add FullOTA_PostValidate",
-          "author": "M1cha",
-          "date": "Sun Oct 19 12:02:22 2025 +0800",
-          "timestamp": 1760846542,
-          "url": "https://github.com/halcyonproject/build_make/commit/7f99677"
-        },
-        {
-          "sha": "20c12fc",
-          "message": "build: Add `USE_SOONG_DEFINED_SYSTEM_IMAGE` to `_product_single_value_vars`",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:02:16 2025 +0800",
-          "timestamp": 1760846536,
-          "url": "https://github.com/halcyonproject/build_make/commit/20c12fc"
-        },
-        {
-          "sha": "3c6dccf",
-          "message": "build: Guard `system_file_diff_timestamp` with `USE_SOONG_DEFINED_SYSTEM_IMAGE`",
-          "author": "Yumi Yukimura",
-          "date": "Sun Oct 19 12:01:57 2025 +0800",
-          "timestamp": 1760846517,
-          "url": "https://github.com/halcyonproject/build_make/commit/3c6dccf"
-        },
-        {
-          "sha": "0bd0a73",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Sun Oct 19 12:01:57 2025 +0800",
-          "timestamp": 1760846517,
-          "url": "https://github.com/halcyonproject/build_make/commit/0bd0a73"
         }
       ]
     },
@@ -5469,6 +5508,39 @@
       ]
     },
     {
+      "name": "packages_apps_GameSpace",
+      "path": "packages/apps/GameSpace",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_GameSpace",
+      "remote": "halcyon",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "837cca9",
+          "message": "GameSpace: Setup material expressive design for preferences",
+          "author": "Pranav Vashi",
+          "date": "Fri Dec 5 19:22:14 2025 +0000",
+          "timestamp": 1764962534,
+          "url": "https://github.com/halcyonproject/packages_apps_GameSpace/commit/837cca9"
+        },
+        {
+          "sha": "c16d6d9",
+          "message": "GameSpace: Import new Enchanted icon",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 24 20:21:05 2025 +0800",
+          "timestamp": 1761308465,
+          "url": "https://github.com/halcyonproject/packages_apps_GameSpace/commit/c16d6d9"
+        },
+        {
+          "sha": "2543e9f",
+          "message": "GameSpace: Implement game detection by checking app category",
+          "author": "HeroBuxx",
+          "date": "Thu Oct 23 22:24:29 2025 +0800",
+          "timestamp": 1761229469,
+          "url": "https://github.com/halcyonproject/packages_apps_GameSpace/commit/2543e9f"
+        }
+      ]
+    },
+    {
       "name": "android_hardware_qcom_audio",
       "path": "hardware/qcom-caf/sm8350/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -5569,31 +5641,6 @@
       ]
     },
     {
-      "name": "packages_apps_Contacts",
-      "path": "packages/apps/Contacts",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_Contacts",
-      "remote": "halcyon",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "19f5d93",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Contacts into android-16.0",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:51:33 2025 +0800",
-          "timestamp": 1763293893,
-          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/19f5d93"
-        },
-        {
-          "sha": "614bc5f",
-          "message": "Contacts: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:08:51 2025 +0800",
-          "timestamp": 1761307731,
-          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/614bc5f"
-        }
-      ]
-    },
-    {
       "name": "frameworks_opt_telephony",
       "path": "frameworks/opt/telephony",
       "repo_url": "https://github.com/halcyonproject/frameworks_opt_telephony",
@@ -5619,6 +5666,31 @@
       ]
     },
     {
+      "name": "packages_apps_Contacts",
+      "path": "packages/apps/Contacts",
+      "repo_url": "https://github.com/halcyonproject/packages_apps_Contacts",
+      "remote": "halcyon",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "19f5d93",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/apps/Contacts into android-16.0",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:51:33 2025 +0800",
+          "timestamp": 1763293893,
+          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/19f5d93"
+        },
+        {
+          "sha": "614bc5f",
+          "message": "Contacts: Import new Enchanted icon",
+          "author": "HeroBuxx",
+          "date": "Fri Oct 24 20:08:51 2025 +0800",
+          "timestamp": 1761307731,
+          "url": "https://github.com/halcyonproject/packages_apps_Contacts/commit/614bc5f"
+        }
+      ]
+    },
+    {
       "name": "packages_apps_DocumentsUI",
       "path": "packages/apps/DocumentsUI",
       "repo_url": "https://github.com/halcyonproject/packages_apps_DocumentsUI",
@@ -5640,31 +5712,6 @@
           "date": "Fri Oct 24 21:47:15 2025 +0800",
           "timestamp": 1761313635,
           "url": "https://github.com/halcyonproject/packages_apps_DocumentsUI/commit/537b7cf"
-        }
-      ]
-    },
-    {
-      "name": "packages_apps_GameSpace",
-      "path": "packages/apps/GameSpace",
-      "repo_url": "https://github.com/halcyonproject/packages_apps_GameSpace",
-      "remote": "halcyon",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "c16d6d9",
-          "message": "GameSpace: Import new Enchanted icon",
-          "author": "HeroBuxx",
-          "date": "Fri Oct 24 20:21:05 2025 +0800",
-          "timestamp": 1761308465,
-          "url": "https://github.com/halcyonproject/packages_apps_GameSpace/commit/c16d6d9"
-        },
-        {
-          "sha": "2543e9f",
-          "message": "GameSpace: Implement game detection by checking app category",
-          "author": "HeroBuxx",
-          "date": "Thu Oct 23 22:24:29 2025 +0800",
-          "timestamp": 1761229469,
-          "url": "https://github.com/halcyonproject/packages_apps_GameSpace/commit/2543e9f"
         }
       ]
     },
@@ -5707,6 +5754,23 @@
           "date": "Mon Oct 27 20:27:57 2025 +0000",
           "timestamp": 1761596877,
           "url": "https://github.com/LineageOS/android_external_nano/commit/b83fc23"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
+      "remote": "lineage",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "95c5d93",
+          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
+          "author": "Ankit Mishra",
+          "date": "Mon Nov 3 12:33:59 2025 +0000",
+          "timestamp": 1762173239,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
         }
       ]
     },
@@ -6000,23 +6064,6 @@
       ]
     },
     {
-      "name": "packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/halcyonproject/packages_services_Telephony",
-      "remote": "halcyon",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d70d13450",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/services/Telephony into android-16.0",
-          "author": "HeroBuxx",
-          "date": "Sun Nov 16 19:51:36 2025 +0800",
-          "timestamp": 1763293896,
-          "url": "https://github.com/halcyonproject/packages_services_Telephony/commit/d70d13450"
-        }
-      ]
-    },
-    {
       "name": "packages_modules_Bluetooth",
       "path": "packages/modules/Bluetooth",
       "repo_url": "https://github.com/halcyonproject/packages_modules_Bluetooth",
@@ -6030,6 +6077,23 @@
           "date": "Sun Nov 16 19:51:34 2025 +0800",
           "timestamp": 1763293894,
           "url": "https://github.com/halcyonproject/packages_modules_Bluetooth/commit/8d633bb25"
+        }
+      ]
+    },
+    {
+      "name": "packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/halcyonproject/packages_services_Telephony",
+      "remote": "halcyon",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d70d13450",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/services/Telephony into android-16.0",
+          "author": "HeroBuxx",
+          "date": "Sun Nov 16 19:51:36 2025 +0800",
+          "timestamp": 1763293896,
+          "url": "https://github.com/halcyonproject/packages_services_Telephony/commit/d70d13450"
         }
       ]
     },

@@ -1,10 +1,10 @@
 {
   "rom_id": "crdroid",
   "branch": "15.0",
-  "generated_at": "2025-12-05T01:25:28.000451+00:00",
-  "since_date": "2025-09-06",
-  "total_projects": 83,
-  "total_commits": 905,
+  "generated_at": "2025-12-06T01:21:39.601708+00:00",
+  "since_date": "2025-09-07",
+  "total_projects": 82,
+  "total_commits": 896,
   "projects": [
     {
       "name": "crdroidandroid/android_packages_apps_Settings",
@@ -5244,135 +5244,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_packages_apps_Launcher3",
-      "path": "packages/apps/Launcher3",
-      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3",
-      "remote": "crdroid",
-      "commit_count": 15,
-      "commits": [
-        {
-          "sha": "762b526",
-          "message": "New Crowdin updates (#508)",
-          "author": "Lup Gabriel",
-          "date": "Thu Nov 20 09:04:27 2025 +0200",
-          "timestamp": 1763622267,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/762b526"
-        },
-        {
-          "sha": "5493bae",
-          "message": "Launcher3: MemInfoView: Relax computations and allocation",
-          "author": "Pranav Vashi",
-          "date": "Thu Oct 9 22:40:06 2025 +0530",
-          "timestamp": 1760029806,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/5493bae"
-        },
-        {
-          "sha": "913a918",
-          "message": "Launcher3: Quickspace: Do not load quickspace controller if disabled",
-          "author": "Pranav Vashi",
-          "date": "Thu Oct 9 22:34:44 2025 +0530",
-          "timestamp": 1760029484,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/913a918"
-        },
-        {
-          "sha": "cacbeee",
-          "message": "Launcher3: Quickspace: Defer adding listners till layout is inflated",
-          "author": "Pranav Vashi",
-          "date": "Thu Oct 9 22:34:44 2025 +0530",
-          "timestamp": 1760029484,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/cacbeee"
-        },
-        {
-          "sha": "a26866f",
-          "message": "Launcher3: Quickspace: Various fixes and improvements",
-          "author": "Pranav Vashi",
-          "date": "Thu Oct 9 22:34:44 2025 +0530",
-          "timestamp": 1760029484,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/a26866f"
-        },
-        {
-          "sha": "f5c93f0",
-          "message": "New Crowdin updates (#501)",
-          "author": "Lup Gabriel",
-          "date": "Sun Oct 5 18:08:07 2025 +0300",
-          "timestamp": 1759676887,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/f5c93f0"
-        },
-        {
-          "sha": "500b238",
-          "message": "Revert \"Launcher3: Cancel ongoing animations before entering allapps\"",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 22 23:15:02 2025 +0530",
-          "timestamp": 1758563102,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/500b238"
-        },
-        {
-          "sha": "6db03be",
-          "message": "Optimize the display speed of desktop icons when switching icon styles",
-          "author": "zaixiang xu",
-          "date": "Wed Sep 17 19:54:10 2025 +0300",
-          "timestamp": 1758128050,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/6db03be"
-        },
-        {
-          "sha": "27b74f7",
-          "message": "Launcher3: MemInfoView: Prevent accidental removal of all callbacks",
-          "author": "Pranav Vashi",
-          "date": "Mon Sep 8 06:16:02 2025 +0530",
-          "timestamp": 1757292362,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/27b74f7"
-        },
-        {
-          "sha": "4f5511e",
-          "message": "Launcher3: QuickSpace: Fix new memory leaks",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 6 21:16:37 2025 +0530",
-          "timestamp": 1757173597,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/4f5511e"
-        },
-        {
-          "sha": "fcf42ca",
-          "message": "Launcher3: Fix app info shortcut crash in recents from third party launcher",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 6 21:15:23 2025 +0530",
-          "timestamp": 1757173523,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/fcf42ca"
-        },
-        {
-          "sha": "a0e8211",
-          "message": "Launcher3: Open app info directly when opened from recents",
-          "author": "Abhay Singh Gill",
-          "date": "Sat Sep 6 21:14:56 2025 +0530",
-          "timestamp": 1757173496,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/a0e8211"
-        },
-        {
-          "sha": "8a90a0e",
-          "message": "Launcher3: Dismiss before launching app info shortcut",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 6 21:14:33 2025 +0530",
-          "timestamp": 1757173473,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/8a90a0e"
-        },
-        {
-          "sha": "978fd25",
-          "message": "Revert \"Launcher3: Do not use bottom sheet for app info in recents\"",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 6 21:10:39 2025 +0530",
-          "timestamp": 1757173239,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/978fd25"
-        },
-        {
-          "sha": "93f2ce8",
-          "message": "Launcher3: Fix recents lag and NPE with third party launchers",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 6 21:09:58 2025 +0530",
-          "timestamp": 1757173198,
-          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/93f2ce8"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Jelly",
       "path": "packages/apps/Jelly",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Jelly",
@@ -6060,6 +5931,87 @@
       ]
     },
     {
+      "name": "crdroidandroid/android_packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3",
+      "remote": "crdroid",
+      "commit_count": 9,
+      "commits": [
+        {
+          "sha": "762b526",
+          "message": "New Crowdin updates (#508)",
+          "author": "Lup Gabriel",
+          "date": "Thu Nov 20 09:04:27 2025 +0200",
+          "timestamp": 1763622267,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/762b526"
+        },
+        {
+          "sha": "5493bae",
+          "message": "Launcher3: MemInfoView: Relax computations and allocation",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 9 22:40:06 2025 +0530",
+          "timestamp": 1760029806,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/5493bae"
+        },
+        {
+          "sha": "913a918",
+          "message": "Launcher3: Quickspace: Do not load quickspace controller if disabled",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 9 22:34:44 2025 +0530",
+          "timestamp": 1760029484,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/913a918"
+        },
+        {
+          "sha": "cacbeee",
+          "message": "Launcher3: Quickspace: Defer adding listners till layout is inflated",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 9 22:34:44 2025 +0530",
+          "timestamp": 1760029484,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/cacbeee"
+        },
+        {
+          "sha": "a26866f",
+          "message": "Launcher3: Quickspace: Various fixes and improvements",
+          "author": "Pranav Vashi",
+          "date": "Thu Oct 9 22:34:44 2025 +0530",
+          "timestamp": 1760029484,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/a26866f"
+        },
+        {
+          "sha": "f5c93f0",
+          "message": "New Crowdin updates (#501)",
+          "author": "Lup Gabriel",
+          "date": "Sun Oct 5 18:08:07 2025 +0300",
+          "timestamp": 1759676887,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/f5c93f0"
+        },
+        {
+          "sha": "500b238",
+          "message": "Revert \"Launcher3: Cancel ongoing animations before entering allapps\"",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 22 23:15:02 2025 +0530",
+          "timestamp": 1758563102,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/500b238"
+        },
+        {
+          "sha": "6db03be",
+          "message": "Optimize the display speed of desktop icons when switching icon styles",
+          "author": "zaixiang xu",
+          "date": "Wed Sep 17 19:54:10 2025 +0300",
+          "timestamp": 1758128050,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/6db03be"
+        },
+        {
+          "sha": "27b74f7",
+          "message": "Launcher3: MemInfoView: Prevent accidental removal of all callbacks",
+          "author": "Pranav Vashi",
+          "date": "Mon Sep 8 06:16:02 2025 +0530",
+          "timestamp": 1757292362,
+          "url": "https://github.com/crdroidandroid/android_packages_apps_Launcher3/commit/27b74f7"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_sm8150_display",
       "path": "hardware/qcom/sm8150/display",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
@@ -6670,6 +6622,47 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_apn",
+      "path": "vendor/apn",
+      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "e09a80d",
+          "message": "Add Bait MX",
+          "author": "DqrKnzx",
+          "date": "Thu Dec 4 22:40:23 2025 +0100",
+          "timestamp": 1764884423,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/e09a80d"
+        },
+        {
+          "sha": "060d567",
+          "message": "Add WE EG",
+          "author": "keosh1",
+          "date": "Thu Nov 13 21:27:36 2025 +0000",
+          "timestamp": 1763069256,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
+        },
+        {
+          "sha": "2341ff2",
+          "message": "Add a helper to pretty format apn xmls and run it",
+          "author": "Arian",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
+        },
+        {
+          "sha": "ebf7f73",
+          "message": "Initial commit",
+          "author": "LuK1337",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_crowdin",
       "path": "vendor/crowdin",
       "repo_url": "https://github.com/LineageOS/android_vendor_crowdin",
@@ -6752,47 +6745,6 @@
       ]
     },
     {
-      "name": "crdroidandroid/android_vendor_certification",
-      "path": "vendor/certification",
-      "repo_url": "https://github.com/crdroidandroid/android_vendor_certification",
-      "remote": "crdroid",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "5adb131",
-          "message": "certification: Update from mustang BP41.250916.010.A1",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 8 11:27:20 2025 +0530",
-          "timestamp": 1762581440,
-          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/5adb131"
-        },
-        {
-          "sha": "89e4dcd",
-          "message": "certification: update to the latest A16 beta BP41.250916.009.A1",
-          "author": "Pranav Vashi",
-          "date": "Fri Oct 17 18:38:25 2025 +0530",
-          "timestamp": 1760706505,
-          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/89e4dcd"
-        },
-        {
-          "sha": "65c6e33",
-          "message": "certification: update to the latest A16 beta BP41.250822.010",
-          "author": "Pranav Vashi",
-          "date": "Tue Sep 23 08:50:54 2025 +0530",
-          "timestamp": 1758597654,
-          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/65c6e33"
-        },
-        {
-          "sha": "5083aee",
-          "message": "certification: update to the latest A16 beta BP31.250610.009",
-          "author": "Ionut",
-          "date": "Sat Sep 6 14:36:49 2025 +0300",
-          "timestamp": 1757158609,
-          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/5083aee"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_build_release",
       "path": "build/release",
       "repo_url": "https://github.com/LineageOS/android_build_release",
@@ -6859,39 +6811,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_patches",
-      "path": "external/chromium-webview/patches",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "5cb676d",
-          "message": "Update Chromium Webview to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Nov 7 15:56:50 2025 -0700",
-          "timestamp": 1762556210,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
-        },
-        {
-          "sha": "8a0b1f5",
-          "message": "Update Chromium Webview to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Oct 17 12:55:28 2025 -0600",
-          "timestamp": 1760727328,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
-        },
-        {
-          "sha": "22fb1dd",
-          "message": "Update Chromium Webview to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Fri Sep 26 09:55:19 2025 -0600",
-          "timestamp": 1758902119,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
       "path": "external/chromium-webview/prebuilt/arm",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
@@ -6921,6 +6840,39 @@
           "date": "Sat Sep 27 08:22:39 2025 -0600",
           "timestamp": 1758982959,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_patches",
+      "path": "external/chromium-webview/patches",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5cb676d",
+          "message": "Update Chromium Webview to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Nov 7 15:56:50 2025 -0700",
+          "timestamp": 1762556210,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/5cb676d"
+        },
+        {
+          "sha": "8a0b1f5",
+          "message": "Update Chromium Webview to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Oct 17 12:55:28 2025 -0600",
+          "timestamp": 1760727328,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/8a0b1f5"
+        },
+        {
+          "sha": "22fb1dd",
+          "message": "Update Chromium Webview to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Fri Sep 26 09:55:19 2025 -0600",
+          "timestamp": 1758902119,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
         }
       ]
     },
@@ -7020,39 +6972,6 @@
           "date": "Sat Sep 27 08:22:53 2025 -0600",
           "timestamp": 1758982973,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86_64/commit/856f1ce"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "4d5665c",
-          "message": "qcom: Add msm8998 audio soong config",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:54:01 2025 +0300",
-          "timestamp": 1757152441,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/4d5665c"
-        },
-        {
-          "sha": "ce680e8",
-          "message": "common: Unset MSM_VIDC_TARGET_LIST",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:11:22 2025 +0300",
-          "timestamp": 1757149882,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/ce680e8"
-        },
-        {
-          "sha": "84699a5",
-          "message": "qcom: Remove no longer used TARGET_USES_DRM_PP",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:11:22 2025 +0300",
-          "timestamp": 1757149882,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/84699a5"
         }
       ]
     },
@@ -7255,39 +7174,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_apn",
-      "path": "vendor/apn",
-      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "060d567",
-          "message": "Add WE EG",
-          "author": "keosh1",
-          "date": "Thu Nov 13 21:27:36 2025 +0000",
-          "timestamp": 1763069256,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
-        },
-        {
-          "sha": "2341ff2",
-          "message": "Add a helper to pretty format apn xmls and run it",
-          "author": "Arian",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
-        },
-        {
-          "sha": "ebf7f73",
-          "message": "Initial commit",
-          "author": "LuK1337",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
-        }
-      ]
-    },
-    {
       "name": "crdroidandroid/android_packages_apps_Backgrounds",
       "path": "packages/apps/Backgrounds",
       "repo_url": "https://github.com/crdroidandroid/android_packages_apps_Backgrounds",
@@ -7383,6 +7269,39 @@
           "date": "Mon Sep 8 05:48:28 2025 +0530",
           "timestamp": 1757290708,
           "url": "https://github.com/crdroidandroid/android_packages_apps_Messaging/commit/2e1922d"
+        }
+      ]
+    },
+    {
+      "name": "crdroidandroid/android_vendor_certification",
+      "path": "vendor/certification",
+      "repo_url": "https://github.com/crdroidandroid/android_vendor_certification",
+      "remote": "crdroid",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5adb131",
+          "message": "certification: Update from mustang BP41.250916.010.A1",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 8 11:27:20 2025 +0530",
+          "timestamp": 1762581440,
+          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/5adb131"
+        },
+        {
+          "sha": "89e4dcd",
+          "message": "certification: update to the latest A16 beta BP41.250916.009.A1",
+          "author": "Pranav Vashi",
+          "date": "Fri Oct 17 18:38:25 2025 +0530",
+          "timestamp": 1760706505,
+          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/89e4dcd"
+        },
+        {
+          "sha": "65c6e33",
+          "message": "certification: update to the latest A16 beta BP41.250822.010",
+          "author": "Pranav Vashi",
+          "date": "Tue Sep 23 08:50:54 2025 +0530",
+          "timestamp": 1758597654,
+          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/65c6e33"
         }
       ]
     },

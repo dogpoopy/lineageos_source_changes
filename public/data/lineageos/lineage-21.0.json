@@ -1,17 +1,17 @@
 {
   "rom_id": "lineageos",
   "branch": "lineage-21.0",
-  "generated_at": "2025-12-05T01:19:10.974783+00:00",
-  "since_date": "2025-09-06",
-  "total_projects": 54,
-  "total_commits": 294,
+  "generated_at": "2025-12-06T01:15:17.414130+00:00",
+  "since_date": "2025-09-07",
+  "total_projects": 52,
+  "total_commits": 289,
   "projects": [
     {
       "name": "LineageOS/lineage_wiki",
       "path": "lineage/wiki",
       "repo_url": "https://github.com/LineageOS/lineage_wiki",
       "remote": "github",
-      "commit_count": 90,
+      "commit_count": 86,
       "commits": [
         {
           "sha": "3bea55f",
@@ -700,38 +700,6 @@
           "date": "Mon Sep 8 10:57:32 2025 +0200",
           "timestamp": 1757321852,
           "url": "https://github.com/LineageOS/lineage_wiki/commit/9fe2d1b"
-        },
-        {
-          "sha": "1755668",
-          "message": "wiki: Dual speakers -> Stereo speakers",
-          "author": "LuK1337",
-          "date": "Sun Sep 7 00:45:41 2025 +0200",
-          "timestamp": 1757198741,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/1755668"
-        },
-        {
-          "sha": "fb5332e",
-          "message": "wiki: Add Adreno 810/825/830",
-          "author": "LuK1337",
-          "date": "Sun Sep 7 00:27:29 2025 +0200",
-          "timestamp": 1757197649,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/fb5332e"
-        },
-        {
-          "sha": "1b571a6",
-          "message": "wiki: Add 'Oryon' CPU",
-          "author": "LuK1337",
-          "date": "Sun Sep 7 00:18:11 2025 +0200",
-          "timestamp": 1757197091,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/1b571a6"
-        },
-        {
-          "sha": "3b8fdaa",
-          "message": "wiki: devices: Add Xiaomi Mi Note 10 (tucana)",
-          "author": "Alexander Baransky",
-          "date": "Sat Sep 6 04:54:14 2025 +0000",
-          "timestamp": 1757134454,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/3b8fdaa"
         }
       ]
     },
@@ -740,8 +708,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 42,
+      "commit_count": 43,
       "commits": [
+        {
+          "sha": "bfe0fa1",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Fri Dec 5 23:30:36 2025 +0000",
+          "timestamp": 1764977436,
+          "url": "https://github.com/LineageOS/hudson/commit/bfe0fa1"
+        },
         {
           "sha": "ac6b651",
           "message": "Regenerate device dependency mappings",
@@ -1302,7 +1278,7 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 22,
+      "commit_count": 21,
       "commits": [
         {
           "sha": "e0880f2",
@@ -1471,14 +1447,6 @@
           "date": "Mon Sep 8 00:01:43 2025 +0200",
           "timestamp": 1757282503,
           "url": "https://github.com/LineageOS/mirror/commit/8896d20"
-        },
-        {
-          "sha": "1d6eb2e",
-          "message": "Updated to 06-Sep-2025 10:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Sat Sep 6 12:01:19 2025 +0200",
-          "timestamp": 1757152879,
-          "url": "https://github.com/LineageOS/mirror/commit/1d6eb2e"
         }
       ]
     },
@@ -1768,6 +1736,47 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_apn",
+      "path": "vendor/apn",
+      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "e09a80d",
+          "message": "Add Bait MX",
+          "author": "DqrKnzx",
+          "date": "Thu Dec 4 22:40:23 2025 +0100",
+          "timestamp": 1764884423,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/e09a80d"
+        },
+        {
+          "sha": "060d567",
+          "message": "Add WE EG",
+          "author": "keosh1",
+          "date": "Thu Nov 13 21:27:36 2025 +0000",
+          "timestamp": 1763069256,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
+        },
+        {
+          "sha": "2341ff2",
+          "message": "Add a helper to pretty format apn xmls and run it",
+          "author": "Arian",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
+        },
+        {
+          "sha": "ebf7f73",
+          "message": "Initial commit",
+          "author": "LuK1337",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_crowdin",
       "path": "vendor/crowdin",
       "repo_url": "https://github.com/LineageOS/android_vendor_crowdin",
@@ -1850,39 +1859,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
-        },
-        {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
-        },
-        {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -1912,6 +1888,39 @@
           "date": "Fri Sep 26 09:55:19 2025 -0600",
           "timestamp": 1758902119,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        },
+        {
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        },
+        {
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -2180,39 +2189,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_apn",
-      "path": "vendor/apn",
-      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "060d567",
-          "message": "Add WE EG",
-          "author": "keosh1",
-          "date": "Thu Nov 13 21:27:36 2025 +0000",
-          "timestamp": 1763069256,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
-        },
-        {
-          "sha": "2341ff2",
-          "message": "Add a helper to pretty format apn xmls and run it",
-          "author": "Arian",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
-        },
-        {
-          "sha": "ebf7f73",
-          "message": "Initial commit",
-          "author": "LuK1337",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/charter",
       "path": "lineage/charter",
       "repo_url": "https://github.com/LineageOS/charter",
@@ -2471,40 +2447,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_art",
-      "path": "art",
-      "repo_url": "https://github.com/LineageOS/android_art",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "72ebd02e",
-          "message": "Merge tag 'android-security-14.0.0_r22' into staging/lineage-21.0_android-security-14.0.0_r22",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 6 14:17:11 2025 -0600",
-          "timestamp": 1757189831,
-          "url": "https://github.com/LineageOS/android_art/commit/72ebd02e"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_frameworks_av",
-      "path": "frameworks/av",
-      "repo_url": "https://github.com/LineageOS/android_frameworks_av",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "d13d76251",
-          "message": "Merge tag 'android-security-14.0.0_r22' into staging/lineage-21.0_android-security-14.0.0_r22",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 6 14:25:36 2025 -0600",
-          "timestamp": 1757190336,
-          "url": "https://github.com/LineageOS/android_frameworks_av/commit/d13d76251"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_frameworks_native",
       "path": "frameworks/native",
       "repo_url": "https://github.com/LineageOS/android_frameworks_native",
@@ -2539,23 +2481,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_AudioFX",
-      "path": "packages/apps/AudioFX",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_AudioFX",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "7caf929",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 20:08:49 2025 +0000",
-          "timestamp": 1764619729,
-          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/7caf929"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_lineage-sdk",
       "path": "lineage-sdk",
       "repo_url": "https://github.com/LineageOS/android_lineage-sdk",
@@ -2569,6 +2494,23 @@
           "date": "Wed Oct 1 21:52:16 2025 +0000",
           "timestamp": 1759355536,
           "url": "https://github.com/LineageOS/android_lineage-sdk/commit/38cf1da"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_AudioFX",
+      "path": "packages/apps/AudioFX",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_AudioFX",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "7caf929",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 20:08:49 2025 +0000",
+          "timestamp": 1764619729,
+          "url": "https://github.com/LineageOS/android_packages_apps_AudioFX/commit/7caf929"
         }
       ]
     },

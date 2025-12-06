@@ -1,10 +1,10 @@
 {
   "rom_id": "avium",
   "branch": "avium-16-qpr1-wip",
-  "generated_at": "2025-12-05T01:26:42.880022+00:00",
-  "since_date": "2025-09-06",
+  "generated_at": "2025-12-06T01:22:57.797121+00:00",
+  "since_date": "2025-09-07",
   "total_projects": 133,
-  "total_commits": 1028,
+  "total_commits": 1021,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -3974,231 +3974,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_Launcher3",
-      "path": "packages/apps/Launcher3",
-      "repo_url": "https://github.com/AviumUI/android_packages_apps_Launcher3",
-      "remote": "avium",
-      "commit_count": 27,
-      "commits": [
-        {
-          "sha": "7dd0ca9",
-          "message": "Gesture: Add Hover Up to Suspend App",
-          "author": "ruyue",
-          "date": "Fri Nov 7 16:49:29 2025 +0800",
-          "timestamp": 1762505369,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/7dd0ca9"
-        },
-        {
-          "sha": "8ea45e8",
-          "message": "Launcher3: Fixup shortcut to start floatwindowmode",
-          "author": "ruyue",
-          "date": "Thu Nov 6 20:50:29 2025 +0800",
-          "timestamp": 1762433429,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/8ea45e8"
-        },
-        {
-          "sha": "c817c38",
-          "message": "TouchInteractionService: remove unused long press intercept flag and simplify event handling",
-          "author": "ruyue",
-          "date": "Thu Oct 30 20:47:21 2025 +0800",
-          "timestamp": 1761828441,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/c817c38"
-        },
-        {
-          "sha": "c254bf6",
-          "message": "TouchEvent: support long press to recognize screen text controlled by exthmfeature",
-          "author": "ruyue",
-          "date": "Thu Oct 30 19:57:10 2025 +0800",
-          "timestamp": 1761825430,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/c254bf6"
-        },
-        {
-          "sha": "3bc0efa",
-          "message": "AviumLauncher: Based on Derplauncher",
-          "author": "ruyue",
-          "date": "Wed Oct 29 23:40:04 2025 +0800",
-          "timestamp": 1761752404,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/3bc0efa"
-        },
-        {
-          "sha": "ff10e5d",
-          "message": "Prop: change to persist.avium",
-          "author": "bin",
-          "date": "Wed Oct 29 23:21:19 2025 +0800",
-          "timestamp": 1761751279,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/ff10e5d"
-        },
-        {
-          "sha": "e9064cd",
-          "message": "Launcher3: support blur animation controlled by exthmfeature",
-          "author": "ruyue",
-          "date": "Wed Oct 29 23:20:19 2025 +0800",
-          "timestamp": 1761751219,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/e9064cd"
-        },
-        {
-          "sha": "2f237a4",
-          "message": "DerpLauncher: Quickspace: Add PSA strings",
-          "author": "ExactExampl",
-          "date": "Fri Oct 3 22:59:53 2025 +0200",
-          "timestamp": 1759525193,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/2f237a4"
-        },
-        {
-          "sha": "6f46216",
-          "message": "DerpLauncher: Add QuickSpace accent tint feature",
-          "author": "NurKeinNeid",
-          "date": "Fri Oct 3 22:53:49 2025 +0200",
-          "timestamp": 1759524829,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/6f46216"
-        },
-        {
-          "sha": "6d8d952",
-          "message": "DerpLauncher: SysUiScrim: fix memory leak",
-          "author": "rmp22",
-          "date": "Fri Oct 3 22:53:39 2025 +0200",
-          "timestamp": 1759524819,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/6d8d952"
-        },
-        {
-          "sha": "ba9f39f",
-          "message": "DerpLauncher: Improve meminfo view color",
-          "author": "Adithya R",
-          "date": "Fri Oct 3 22:53:28 2025 +0200",
-          "timestamp": 1759524808,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/ba9f39f"
-        },
-        {
-          "sha": "f31d329",
-          "message": "Merge pull request #7 from ppanzenboeck/16-morning-evening-quotes",
-          "author": "Alexander Brunswig",
-          "date": "Wed Sep 17 10:48:40 2025 +0200",
-          "timestamp": 1758098920,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/f31d329"
-        },
-        {
-          "sha": "0df67cf",
-          "message": "DerpLauncher: quotes: fixed morning/evening semantics",
-          "author": "ppanzenboeck",
-          "date": "Wed Sep 17 07:56:47 2025 +0200",
-          "timestamp": 1758088607,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/0df67cf"
-        },
-        {
-          "sha": "935616f",
-          "message": "DerpLauncher: Make search boxes look consistent across launcher",
-          "author": "NurKeinNeid",
-          "date": "Mon Sep 15 12:06:56 2025 +0200",
-          "timestamp": 1757930816,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/935616f"
-        },
-        {
-          "sha": "0f131bb",
-          "message": "DerpLauncher: Add app protection check when launching from recents and taskbar",
-          "author": "NurKeinNeid",
-          "date": "Mon Sep 15 12:06:55 2025 +0200",
-          "timestamp": 1757930815,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/0f131bb"
-        },
-        {
-          "sha": "381bf04",
-          "message": "DerpLauncher: Drop all app search hint",
-          "author": "Ghosuto",
-          "date": "Mon Sep 15 12:06:55 2025 +0200",
-          "timestamp": 1757930815,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/381bf04"
-        },
-        {
-          "sha": "46bb382",
-          "message": "DerpLauncher: Fix all app searchbar",
-          "author": "Ghosuto",
-          "date": "Mon Sep 15 12:06:55 2025 +0200",
-          "timestamp": 1757930815,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/46bb382"
-        },
-        {
-          "sha": "98ad86f",
-          "message": "DerpLauncher: Rework all apps search bar",
-          "author": "minaripenguin",
-          "date": "Mon Sep 15 12:06:55 2025 +0200",
-          "timestamp": 1757930815,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/98ad86f"
-        },
-        {
-          "sha": "ad0c125",
-          "message": "DerpLauncher: Integrate LMOFreeform to system shortcut",
-          "author": "minaripenguin",
-          "date": "Mon Sep 15 12:06:39 2025 +0200",
-          "timestamp": 1757930799,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/ad0c125"
-        },
-        {
-          "sha": "4e7d348",
-          "message": "Revert \"DerpLauncher: Integrate LMOFreeform to system shortcut\"",
-          "author": "NurKeinNeid",
-          "date": "Mon Sep 15 12:06:39 2025 +0200",
-          "timestamp": 1757930799,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/4e7d348"
-        },
-        {
-          "sha": "3892785",
-          "message": "DerpLauncher: Update floating window drawable",
-          "author": "Adithya R",
-          "date": "Mon Sep 15 12:06:39 2025 +0200",
-          "timestamp": 1757930799,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/3892785"
-        },
-        {
-          "sha": "6b3ae66",
-          "message": "DerpLauncher: Fix null check for mSeraphixDataProvider in QuickSpaceView",
-          "author": "NurKeinNeid",
-          "date": "Wed Sep 10 01:39:46 2025 +0200",
-          "timestamp": 1757461186,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/6b3ae66"
-        },
-        {
-          "sha": "a4e241a",
-          "message": "DerpLauncher: Snappier recents dismiss",
-          "author": "rmp22",
-          "date": "Wed Sep 10 01:38:12 2025 +0200",
-          "timestamp": 1757461092,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/a4e241a"
-        },
-        {
-          "sha": "2154448",
-          "message": "Merge pull request #6 from ppanzenboeck/16-four-by-six",
-          "author": "Alexander Brunswig",
-          "date": "Sun Sep 7 16:01:41 2025 +0200",
-          "timestamp": 1757253701,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/2154448"
-        },
-        {
-          "sha": "9b56d95",
-          "message": "DerpLauncher: Add 4*6 app grid",
-          "author": "ppanzenboeck",
-          "date": "Sun Sep 7 15:51:17 2025 +0200",
-          "timestamp": 1757253077,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/9b56d95"
-        },
-        {
-          "sha": "b4f3a48",
-          "message": "Merge pull request #5 from ppanzenboeck/16-six-by-seven",
-          "author": "Alexander Brunswig",
-          "date": "Sat Sep 6 13:58:47 2025 +0200",
-          "timestamp": 1757159927,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/b4f3a48"
-        },
-        {
-          "sha": "3113084",
-          "message": "DerpLauncher: Add 6*7 app grid",
-          "author": "ppanzenboeck",
-          "date": "Sat Sep 6 12:39:10 2025 +0200",
-          "timestamp": 1757155150,
-          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/3113084"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Twelve",
       "path": "packages/apps/Twelve",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Twelve",
@@ -4416,11 +4191,220 @@
       ]
     },
     {
+      "name": "android_packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "repo_url": "https://github.com/AviumUI/android_packages_apps_Launcher3",
+      "remote": "avium",
+      "commit_count": 25,
+      "commits": [
+        {
+          "sha": "7dd0ca9",
+          "message": "Gesture: Add Hover Up to Suspend App",
+          "author": "ruyue",
+          "date": "Fri Nov 7 16:49:29 2025 +0800",
+          "timestamp": 1762505369,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/7dd0ca9"
+        },
+        {
+          "sha": "8ea45e8",
+          "message": "Launcher3: Fixup shortcut to start floatwindowmode",
+          "author": "ruyue",
+          "date": "Thu Nov 6 20:50:29 2025 +0800",
+          "timestamp": 1762433429,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/8ea45e8"
+        },
+        {
+          "sha": "c817c38",
+          "message": "TouchInteractionService: remove unused long press intercept flag and simplify event handling",
+          "author": "ruyue",
+          "date": "Thu Oct 30 20:47:21 2025 +0800",
+          "timestamp": 1761828441,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/c817c38"
+        },
+        {
+          "sha": "c254bf6",
+          "message": "TouchEvent: support long press to recognize screen text controlled by exthmfeature",
+          "author": "ruyue",
+          "date": "Thu Oct 30 19:57:10 2025 +0800",
+          "timestamp": 1761825430,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/c254bf6"
+        },
+        {
+          "sha": "3bc0efa",
+          "message": "AviumLauncher: Based on Derplauncher",
+          "author": "ruyue",
+          "date": "Wed Oct 29 23:40:04 2025 +0800",
+          "timestamp": 1761752404,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/3bc0efa"
+        },
+        {
+          "sha": "ff10e5d",
+          "message": "Prop: change to persist.avium",
+          "author": "bin",
+          "date": "Wed Oct 29 23:21:19 2025 +0800",
+          "timestamp": 1761751279,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/ff10e5d"
+        },
+        {
+          "sha": "e9064cd",
+          "message": "Launcher3: support blur animation controlled by exthmfeature",
+          "author": "ruyue",
+          "date": "Wed Oct 29 23:20:19 2025 +0800",
+          "timestamp": 1761751219,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/e9064cd"
+        },
+        {
+          "sha": "2f237a4",
+          "message": "DerpLauncher: Quickspace: Add PSA strings",
+          "author": "ExactExampl",
+          "date": "Fri Oct 3 22:59:53 2025 +0200",
+          "timestamp": 1759525193,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/2f237a4"
+        },
+        {
+          "sha": "6f46216",
+          "message": "DerpLauncher: Add QuickSpace accent tint feature",
+          "author": "NurKeinNeid",
+          "date": "Fri Oct 3 22:53:49 2025 +0200",
+          "timestamp": 1759524829,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/6f46216"
+        },
+        {
+          "sha": "6d8d952",
+          "message": "DerpLauncher: SysUiScrim: fix memory leak",
+          "author": "rmp22",
+          "date": "Fri Oct 3 22:53:39 2025 +0200",
+          "timestamp": 1759524819,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/6d8d952"
+        },
+        {
+          "sha": "ba9f39f",
+          "message": "DerpLauncher: Improve meminfo view color",
+          "author": "Adithya R",
+          "date": "Fri Oct 3 22:53:28 2025 +0200",
+          "timestamp": 1759524808,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/ba9f39f"
+        },
+        {
+          "sha": "f31d329",
+          "message": "Merge pull request #7 from ppanzenboeck/16-morning-evening-quotes",
+          "author": "Alexander Brunswig",
+          "date": "Wed Sep 17 10:48:40 2025 +0200",
+          "timestamp": 1758098920,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/f31d329"
+        },
+        {
+          "sha": "0df67cf",
+          "message": "DerpLauncher: quotes: fixed morning/evening semantics",
+          "author": "ppanzenboeck",
+          "date": "Wed Sep 17 07:56:47 2025 +0200",
+          "timestamp": 1758088607,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/0df67cf"
+        },
+        {
+          "sha": "935616f",
+          "message": "DerpLauncher: Make search boxes look consistent across launcher",
+          "author": "NurKeinNeid",
+          "date": "Mon Sep 15 12:06:56 2025 +0200",
+          "timestamp": 1757930816,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/935616f"
+        },
+        {
+          "sha": "0f131bb",
+          "message": "DerpLauncher: Add app protection check when launching from recents and taskbar",
+          "author": "NurKeinNeid",
+          "date": "Mon Sep 15 12:06:55 2025 +0200",
+          "timestamp": 1757930815,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/0f131bb"
+        },
+        {
+          "sha": "381bf04",
+          "message": "DerpLauncher: Drop all app search hint",
+          "author": "Ghosuto",
+          "date": "Mon Sep 15 12:06:55 2025 +0200",
+          "timestamp": 1757930815,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/381bf04"
+        },
+        {
+          "sha": "46bb382",
+          "message": "DerpLauncher: Fix all app searchbar",
+          "author": "Ghosuto",
+          "date": "Mon Sep 15 12:06:55 2025 +0200",
+          "timestamp": 1757930815,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/46bb382"
+        },
+        {
+          "sha": "98ad86f",
+          "message": "DerpLauncher: Rework all apps search bar",
+          "author": "minaripenguin",
+          "date": "Mon Sep 15 12:06:55 2025 +0200",
+          "timestamp": 1757930815,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/98ad86f"
+        },
+        {
+          "sha": "ad0c125",
+          "message": "DerpLauncher: Integrate LMOFreeform to system shortcut",
+          "author": "minaripenguin",
+          "date": "Mon Sep 15 12:06:39 2025 +0200",
+          "timestamp": 1757930799,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/ad0c125"
+        },
+        {
+          "sha": "4e7d348",
+          "message": "Revert \"DerpLauncher: Integrate LMOFreeform to system shortcut\"",
+          "author": "NurKeinNeid",
+          "date": "Mon Sep 15 12:06:39 2025 +0200",
+          "timestamp": 1757930799,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/4e7d348"
+        },
+        {
+          "sha": "3892785",
+          "message": "DerpLauncher: Update floating window drawable",
+          "author": "Adithya R",
+          "date": "Mon Sep 15 12:06:39 2025 +0200",
+          "timestamp": 1757930799,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/3892785"
+        },
+        {
+          "sha": "6b3ae66",
+          "message": "DerpLauncher: Fix null check for mSeraphixDataProvider in QuickSpaceView",
+          "author": "NurKeinNeid",
+          "date": "Wed Sep 10 01:39:46 2025 +0200",
+          "timestamp": 1757461186,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/6b3ae66"
+        },
+        {
+          "sha": "a4e241a",
+          "message": "DerpLauncher: Snappier recents dismiss",
+          "author": "rmp22",
+          "date": "Wed Sep 10 01:38:12 2025 +0200",
+          "timestamp": 1757461092,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/a4e241a"
+        },
+        {
+          "sha": "2154448",
+          "message": "Merge pull request #6 from ppanzenboeck/16-four-by-six",
+          "author": "Alexander Brunswig",
+          "date": "Sun Sep 7 16:01:41 2025 +0200",
+          "timestamp": 1757253701,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/2154448"
+        },
+        {
+          "sha": "9b56d95",
+          "message": "DerpLauncher: Add 4*6 app grid",
+          "author": "ppanzenboeck",
+          "date": "Sun Sep 7 15:51:17 2025 +0200",
+          "timestamp": 1757253077,
+          "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/9b56d95"
+        }
+      ]
+    },
+    {
       "name": "android_vendor_lineage",
       "path": "vendor/lineage",
       "repo_url": "https://github.com/AviumUI/android_vendor_lineage",
       "remote": "avium",
-      "commit_count": 25,
+      "commit_count": 24,
       "commits": [
         {
           "sha": "f272bc0",
@@ -4613,14 +4597,6 @@
           "date": "Mon Sep 8 06:10:06 2025 +0000",
           "timestamp": 1757311806,
           "url": "https://github.com/AviumUI/android_vendor_lineage/commit/165ebd3"
-        },
-        {
-          "sha": "03fac07",
-          "message": "build: Update rust toolchain dynamically",
-          "author": "Nick Reuter",
-          "date": "Sat Sep 6 15:10:53 2025 -0500",
-          "timestamp": 1757189453,
-          "url": "https://github.com/AviumUI/android_vendor_lineage/commit/03fac07"
         }
       ]
     },
@@ -7073,55 +7049,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "95c5d93",
-          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
-          "author": "Ankit Mishra",
-          "date": "Mon Nov 3 12:33:59 2025 +0000",
-          "timestamp": 1762173239,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
-        },
-        {
-          "sha": "dacf91a",
-          "message": "qcom: Remove more obsolete board flags",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/dacf91a"
-        },
-        {
-          "sha": "2dcc26c",
-          "message": "qcom: Add msm8998 audio soong config",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/2dcc26c"
-        },
-        {
-          "sha": "cd562c5",
-          "message": "common: Unset MSM_VIDC_TARGET_LIST",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/cd562c5"
-        },
-        {
-          "sha": "f67795e",
-          "message": "qcom: Remove no longer used TARGET_USES_DRM_PP",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:16 2025 +0300",
-          "timestamp": 1757150896,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/f67795e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_thermal",
       "path": "hardware/qcom-caf/thermal-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
@@ -7269,55 +7196,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_AviumLockscreenEdit",
-      "path": "packages/apps/AviumLockscreenEdit",
-      "repo_url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit",
-      "remote": "avium",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "a31357b",
-          "message": "docs: Add copyright notice and license information",
-          "author": "ruyue",
-          "date": "Thu Nov 20 21:33:06 2025 +0800",
-          "timestamp": 1763645586,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/a31357b"
-        },
-        {
-          "sha": "221e5e2",
-          "message": "rebase preview drawable",
-          "author": "ruyue",
-          "date": "Sat Nov 1 21:58:14 2025 +0800",
-          "timestamp": 1762005494,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/221e5e2"
-        },
-        {
-          "sha": "78838b4",
-          "message": "feat: 添加新的锁屏样式配置和预览图片",
-          "author": "ruyue",
-          "date": "Mon Sep 22 19:59:06 2025 +0800",
-          "timestamp": 1758542346,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/78838b4"
-        },
-        {
-          "sha": "1e6b743",
-          "message": "AviumLockscreenEdit: Add 5 new design custom lockscreens",
-          "author": "ruyue",
-          "date": "Sun Sep 21 00:27:40 2025 +0800",
-          "timestamp": 1758385660,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/1e6b743"
-        },
-        {
-          "sha": "030f96d",
-          "message": "AviumLockscreenEdit :  Add 2 the custom lockscreen types",
-          "author": "ruyue",
-          "date": "Sat Sep 20 11:40:40 2025 +0800",
-          "timestamp": 1758339640,
-          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/030f96d"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_AviumSystemUIEX",
       "path": "packages/apps/AviumSystemUIEX",
       "repo_url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX",
@@ -7363,6 +7241,55 @@
           "date": "Sun Oct 26 17:09:06 2025 +0800",
           "timestamp": 1761469746,
           "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/d8a4b50"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_AviumLockscreenEdit",
+      "path": "packages/apps/AviumLockscreenEdit",
+      "repo_url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit",
+      "remote": "avium",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "a31357b",
+          "message": "docs: Add copyright notice and license information",
+          "author": "ruyue",
+          "date": "Thu Nov 20 21:33:06 2025 +0800",
+          "timestamp": 1763645586,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/a31357b"
+        },
+        {
+          "sha": "221e5e2",
+          "message": "rebase preview drawable",
+          "author": "ruyue",
+          "date": "Sat Nov 1 21:58:14 2025 +0800",
+          "timestamp": 1762005494,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/221e5e2"
+        },
+        {
+          "sha": "78838b4",
+          "message": "feat: 添加新的锁屏样式配置和预览图片",
+          "author": "ruyue",
+          "date": "Mon Sep 22 19:59:06 2025 +0800",
+          "timestamp": 1758542346,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/78838b4"
+        },
+        {
+          "sha": "1e6b743",
+          "message": "AviumLockscreenEdit: Add 5 new design custom lockscreens",
+          "author": "ruyue",
+          "date": "Sun Sep 21 00:27:40 2025 +0800",
+          "timestamp": 1758385660,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/1e6b743"
+        },
+        {
+          "sha": "030f96d",
+          "message": "AviumLockscreenEdit :  Add 2 the custom lockscreen types",
+          "author": "ruyue",
+          "date": "Sat Sep 20 11:40:40 2025 +0800",
+          "timestamp": 1758339640,
+          "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/030f96d"
         }
       ]
     },
@@ -8816,6 +8743,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "95c5d93",
+          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
+          "author": "Ankit Mishra",
+          "date": "Mon Nov 3 12:33:59 2025 +0000",
+          "timestamp": 1762173239,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_audio",
       "path": "hardware/qcom-caf/msm8998/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -8884,23 +8828,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8750/display/hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "572019c",
-          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD",
-          "author": "Bruno Martins",
-          "date": "Thu Nov 20 20:02:43 2025 +0000",
-          "timestamp": 1763668963,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_media",
       "path": "hardware/qcom-caf/msm8953/media",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
@@ -8914,6 +8841,23 @@
           "date": "Sun Sep 7 18:28:41 2025 +0000",
           "timestamp": 1757269721,
           "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/9861d78"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8750/display/hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "572019c",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:02:43 2025 +0000",
+          "timestamp": 1763668963,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019c"
         }
       ]
     },
@@ -8936,23 +8880,6 @@
     },
     {
       "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/sdm845/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c14d815",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 23:04:11 2025 +0000",
-          "timestamp": 1757286251,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_media",
       "path": "hardware/qcom-caf/sdm660/media",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
       "remote": "github",
@@ -8969,19 +8896,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_sm8150_gps",
-      "path": "hardware/qcom/sm8150/gps",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps",
+      "name": "LineageOS/android_hardware_qcom_media",
+      "path": "hardware/qcom-caf/sdm845/media",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "c102eca",
-          "message": "Remove obsolete os_pickup.{bp,mk}",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 16:23:52 2025 +0300",
-          "timestamp": 1757510632,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca"
+          "sha": "c14d815",
+          "message": "Fix alignment of encoder_meta_buffer_payload_type",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 7 23:04:11 2025 +0000",
+          "timestamp": 1757286251,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
         }
       ]
     },
@@ -8999,6 +8926,23 @@
           "date": "Sat Nov 8 15:27:59 2025 +0200",
           "timestamp": 1762608479,
           "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/a4298a2"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_sm8150_gps",
+      "path": "hardware/qcom/sm8150/gps",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c102eca",
+          "message": "Remove obsolete os_pickup.{bp,mk}",
+          "author": "Michael Bestas",
+          "date": "Wed Sep 10 16:23:52 2025 +0300",
+          "timestamp": 1757510632,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca"
         }
       ]
     },
@@ -9190,6 +9134,23 @@
       ]
     },
     {
+      "name": "LineageOS/android_packages_services_Car",
+      "path": "packages/services/Car",
+      "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "51ffd503a",
+          "message": "Car: Enforce EPPE",
+          "author": "Nolen Johnson",
+          "date": "Thu Oct 16 19:54:14 2025 -0400",
+          "timestamp": 1760658854,
+          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_system_logging",
       "path": "system/logging",
       "repo_url": "https://github.com/LineageOS/android_system_logging",
@@ -9220,23 +9181,6 @@
           "date": "Sun Nov 16 10:55:27 2025 +0100",
           "timestamp": 1763286927,
           "url": "https://github.com/LineageOS/android_system_media/commit/e112072"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_packages_services_Car",
-      "path": "packages/services/Car",
-      "repo_url": "https://github.com/LineageOS/android_packages_services_Car",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "51ffd503a",
-          "message": "Car: Enforce EPPE",
-          "author": "Nolen Johnson",
-          "date": "Thu Oct 16 19:54:14 2025 -0400",
-          "timestamp": 1760658854,
-          "url": "https://github.com/LineageOS/android_packages_services_Car/commit/51ffd503a"
         }
       ]
     },
@@ -9377,23 +9321,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_SystemUITools",
-      "path": "packages/apps/SystemUITools",
-      "repo_url": "https://github.com/AviumUI/android_packages_apps_SystemUITools",
-      "remote": "avium",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0fc0cbf",
-          "message": "docs: Add copyright notice and license information",
-          "author": "ruyue",
-          "date": "Thu Nov 20 19:01:15 2025 +0800",
-          "timestamp": 1763636475,
-          "url": "https://github.com/AviumUI/android_packages_apps_SystemUITools/commit/0fc0cbf"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_SetupWizard",
       "path": "packages/apps/SetupWizard",
       "repo_url": "https://github.com/AviumUI/android_packages_apps_SetupWizard",
@@ -9407,6 +9334,23 @@
           "date": "Wed Dec 3 22:02:53 2025 +0800",
           "timestamp": 1764770573,
           "url": "https://github.com/AviumUI/android_packages_apps_SetupWizard/commit/da53c88"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_SystemUITools",
+      "path": "packages/apps/SystemUITools",
+      "repo_url": "https://github.com/AviumUI/android_packages_apps_SystemUITools",
+      "remote": "avium",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0fc0cbf",
+          "message": "docs: Add copyright notice and license information",
+          "author": "ruyue",
+          "date": "Thu Nov 20 19:01:15 2025 +0800",
+          "timestamp": 1763636475,
+          "url": "https://github.com/AviumUI/android_packages_apps_SystemUITools/commit/0fc0cbf"
         }
       ]
     },

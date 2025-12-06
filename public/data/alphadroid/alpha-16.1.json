@@ -1,10 +1,10 @@
 {
   "rom_id": "alphadroid",
   "branch": "alpha-16.1",
-  "generated_at": "2025-12-05T01:26:59.081822+00:00",
-  "since_date": "2025-09-06",
+  "generated_at": "2025-12-06T01:23:09.191464+00:00",
+  "since_date": "2025-09-07",
   "total_projects": 30,
-  "total_commits": 818,
+  "total_commits": 816,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -2424,6 +2424,22 @@
       "commit_count": 100,
       "commits": [
         {
+          "sha": "5155985",
+          "message": "Fix audio config",
+          "author": "elpaablo",
+          "date": "Fri Dec 5 12:48:23 2025 +0000",
+          "timestamp": 1764938903,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/5155985"
+        },
+        {
+          "sha": "2edb656",
+          "message": "Add tablet config",
+          "author": "elpaablo",
+          "date": "Fri Dec 5 12:38:56 2025 +0000",
+          "timestamp": 1764938336,
+          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2edb656"
+        },
+        {
           "sha": "ad84daf",
           "message": "Bump AlphaDroid version to 4.2",
           "author": "elpaablo",
@@ -3206,22 +3222,6 @@
           "date": "Tue Nov 18 04:09:06 2025 +0530",
           "timestamp": 1763419146,
           "url": "https://github.com/alphadroid-project/vendor_alpha/commit/2892813"
-        },
-        {
-          "sha": "cc2bec4",
-          "message": "overlay: Allow new SystemUI clocks",
-          "author": "Dyneteve",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/cc2bec4"
-        },
-        {
-          "sha": "fda2fd3",
-          "message": "overlay: Set AOSP webview as fallback",
-          "author": "Pranav Vashi",
-          "date": "Tue Nov 18 04:09:06 2025 +0530",
-          "timestamp": 1763419146,
-          "url": "https://github.com/alphadroid-project/vendor_alpha/commit/fda2fd3"
         }
       ]
     },
@@ -6159,7 +6159,7 @@
       "path": "vendor/addons",
       "repo_url": "https://github.com/alphadroid-project/vendor_addons",
       "remote": "alpha",
-      "commit_count": 13,
+      "commit_count": 11,
       "commits": [
         {
           "sha": "8f98990",
@@ -6248,22 +6248,6 @@
           "date": "Sat Oct 4 02:24:32 2025 +0530",
           "timestamp": 1759524872,
           "url": "https://github.com/alphadroid-project/vendor_addons/commit/f45b7dd"
-        },
-        {
-          "sha": "516cd86",
-          "message": "addons: Mark few apps for not cloning",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 6 10:57:17 2025 +0530",
-          "timestamp": 1757136437,
-          "url": "https://github.com/alphadroid-project/vendor_addons/commit/516cd86"
-        },
-        {
-          "sha": "12f93db",
-          "message": "addons: Update preinstalled packages sysconfig",
-          "author": "Pranav Vashi",
-          "date": "Sat Sep 6 10:43:30 2025 +0530",
-          "timestamp": 1757135610,
-          "url": "https://github.com/alphadroid-project/vendor_addons/commit/12f93db"
         }
       ]
     },
@@ -6333,6 +6317,47 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_apn",
+      "path": "vendor/apn",
+      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "e09a80d",
+          "message": "Add Bait MX",
+          "author": "DqrKnzx",
+          "date": "Thu Dec 4 22:40:23 2025 +0100",
+          "timestamp": 1764884423,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/e09a80d"
+        },
+        {
+          "sha": "060d567",
+          "message": "Add WE EG",
+          "author": "keosh1",
+          "date": "Thu Nov 13 21:27:36 2025 +0000",
+          "timestamp": 1763069256,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
+        },
+        {
+          "sha": "2341ff2",
+          "message": "Add a helper to pretty format apn xmls and run it",
+          "author": "Arian",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
+        },
+        {
+          "sha": "ebf7f73",
+          "message": "Initial commit",
+          "author": "LuK1337",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+        }
+      ]
+    },
+    {
       "name": "bionic",
       "path": "bionic",
       "repo_url": "https://github.com/alphadroid-project/bionic",
@@ -6370,47 +6395,6 @@
           "date": "Tue Oct 21 22:03:57 2025 +0530",
           "timestamp": 1761064437,
           "url": "https://github.com/alphadroid-project/bionic/commit/1159377"
-        }
-      ]
-    },
-    {
-      "name": "crdroidandroid/android_vendor_certification",
-      "path": "vendor/certification",
-      "repo_url": "https://github.com/crdroidandroid/android_vendor_certification",
-      "remote": "crdroid",
-      "commit_count": 4,
-      "commits": [
-        {
-          "sha": "5adb131",
-          "message": "certification: Update from mustang BP41.250916.010.A1",
-          "author": "Pranav Vashi",
-          "date": "Sat Nov 8 11:27:20 2025 +0530",
-          "timestamp": 1762581440,
-          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/5adb131"
-        },
-        {
-          "sha": "89e4dcd",
-          "message": "certification: update to the latest A16 beta BP41.250916.009.A1",
-          "author": "Pranav Vashi",
-          "date": "Fri Oct 17 18:38:25 2025 +0530",
-          "timestamp": 1760706505,
-          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/89e4dcd"
-        },
-        {
-          "sha": "65c6e33",
-          "message": "certification: update to the latest A16 beta BP41.250822.010",
-          "author": "Pranav Vashi",
-          "date": "Tue Sep 23 08:50:54 2025 +0530",
-          "timestamp": 1758597654,
-          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/65c6e33"
-        },
-        {
-          "sha": "5083aee",
-          "message": "certification: update to the latest A16 beta BP31.250610.009",
-          "author": "Ionut",
-          "date": "Sat Sep 6 14:36:49 2025 +0300",
-          "timestamp": 1757158609,
-          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/5083aee"
         }
       ]
     },
@@ -6621,35 +6605,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_apn",
-      "path": "vendor/apn",
-      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
-      "remote": "github",
+      "name": "crdroidandroid/android_vendor_certification",
+      "path": "vendor/certification",
+      "repo_url": "https://github.com/crdroidandroid/android_vendor_certification",
+      "remote": "crdroid",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "060d567",
-          "message": "Add WE EG",
-          "author": "keosh1",
-          "date": "Thu Nov 13 21:27:36 2025 +0000",
-          "timestamp": 1763069256,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
+          "sha": "5adb131",
+          "message": "certification: Update from mustang BP41.250916.010.A1",
+          "author": "Pranav Vashi",
+          "date": "Sat Nov 8 11:27:20 2025 +0530",
+          "timestamp": 1762581440,
+          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/5adb131"
         },
         {
-          "sha": "2341ff2",
-          "message": "Add a helper to pretty format apn xmls and run it",
-          "author": "Arian",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
+          "sha": "89e4dcd",
+          "message": "certification: update to the latest A16 beta BP41.250916.009.A1",
+          "author": "Pranav Vashi",
+          "date": "Fri Oct 17 18:38:25 2025 +0530",
+          "timestamp": 1760706505,
+          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/89e4dcd"
         },
         {
-          "sha": "ebf7f73",
-          "message": "Initial commit",
-          "author": "LuK1337",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
+          "sha": "65c6e33",
+          "message": "certification: update to the latest A16 beta BP41.250822.010",
+          "author": "Pranav Vashi",
+          "date": "Tue Sep 23 08:50:54 2025 +0530",
+          "timestamp": 1758597654,
+          "url": "https://github.com/crdroidandroid/android_vendor_certification/commit/65c6e33"
         }
       ]
     },

@@ -1,10 +1,10 @@
 {
   "rom_id": "axion",
   "branch": "lineage-23.1",
-  "generated_at": "2025-12-05T01:24:59.604780+00:00",
-  "since_date": "2025-09-06",
+  "generated_at": "2025-12-06T01:21:10.657681+00:00",
+  "since_date": "2025-09-07",
   "total_projects": 167,
-  "total_commits": 1528,
+  "total_commits": 1518,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -1468,7 +1468,7 @@
       "path": "vendor/official_devices",
       "repo_url": "https://github.com/AxionAOSP/official_devices",
       "remote": "axion",
-      "commit_count": 133,
+      "commit_count": 132,
       "commits": [
         {
           "sha": "c1e14bc",
@@ -2525,14 +2525,6 @@
           "date": "Tue Sep 23 15:28:39 2025 +0530",
           "timestamp": 1758621519,
           "url": "https://github.com/AxionAOSP/official_devices/commit/723702a"
-        },
-        {
-          "sha": "8e17d57",
-          "message": "Merge pull request #200 from Rve27/main",
-          "author": "Lord Itachi",
-          "date": "Fri Sep 5 21:42:53 2025 -0400",
-          "timestamp": 1757122973,
-          "url": "https://github.com/AxionAOSP/official_devices/commit/8e17d57"
         }
       ]
     },
@@ -3346,735 +3338,6 @@
       ]
     },
     {
-      "name": "LineageOS/lineage_wiki",
-      "path": "lineage/wiki",
-      "repo_url": "https://github.com/LineageOS/lineage_wiki",
-      "remote": "github",
-      "commit_count": 90,
-      "commits": [
-        {
-          "sha": "3bea55f",
-          "message": "devices: Promote zizhan to 23.0",
-          "author": "Arian",
-          "date": "Wed Dec 3 10:04:05 2025 +0000",
-          "timestamp": 1764756245,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/3bea55f"
-        },
-        {
-          "sha": "9aec8e0",
-          "message": "wiki: CC 9 -> CC9",
-          "author": "LuK1337",
-          "date": "Tue Dec 2 21:57:40 2025 +0100",
-          "timestamp": 1764709060,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/9aec8e0"
-        },
-        {
-          "sha": "1b7a17b",
-          "message": "wiki: Require dtbo flash for enchilada and fajita",
-          "author": "LuK1337",
-          "date": "Mon Dec 1 01:17:51 2025 +0100",
-          "timestamp": 1764548271,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/1b7a17b"
-        },
-        {
-          "sha": "7dc3668",
-          "message": "wiki: Correct a few bits in timelm",
-          "author": "Tuan Anh",
-          "date": "Sun Nov 30 04:19:55 2025 +0000",
-          "timestamp": 1764476395,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/7dc3668"
-        },
-        {
-          "sha": "4f75f44",
-          "message": "avalon/caihong/waffle: Bump FW to match OOS 16 release",
-          "author": "chandu078",
-          "date": "Sun Nov 30 00:08:44 2025 +0000",
-          "timestamp": 1764461324,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/4f75f44"
-        },
-        {
-          "sha": "446887f",
-          "message": "wiki: Allow 15 fw for FP4",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 28 01:20:34 2025 +0200",
-          "timestamp": 1764285634,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/446887f"
-        },
-        {
-          "sha": "42682e4",
-          "message": "wiki: Allow A16 FW for dodge and erhai",
-          "author": "LuK1337",
-          "date": "Thu Nov 27 14:43:54 2025 +0000",
-          "timestamp": 1764254634,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/42682e4"
-        },
-        {
-          "sha": "ea98db6",
-          "message": "wiki: Promote sake to 23.0",
-          "author": "Michael Zh",
-          "date": "Thu Nov 27 10:07:31 2025 +0000",
-          "timestamp": 1764238051,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ea98db6"
-        },
-        {
-          "sha": "e880e36",
-          "message": "wiki: Update alioth maintainer list",
-          "author": "Christian Hoffmann",
-          "date": "Wed Nov 26 19:46:27 2025 +0100",
-          "timestamp": 1764182787,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/e880e36"
-        },
-        {
-          "sha": "e7987ee",
-          "message": "wiki: devices: Add LG V60 ThinQ (timelm)",
-          "author": "pnguyen879",
-          "date": "Wed Nov 26 05:18:49 2025 +0000",
-          "timestamp": 1764134329,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/e7987ee"
-        },
-        {
-          "sha": "4b134c2",
-          "message": "wiki: Update gauguin maintainer list",
-          "author": "Penguin766",
-          "date": "Tue Nov 25 01:50:02 2025 +0000",
-          "timestamp": 1764035402,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/4b134c2"
-        },
-        {
-          "sha": "444f8d0",
-          "message": "devices: dre: Promote to 23.0",
-          "author": "Nick Reuter",
-          "date": "Sun Nov 23 16:58:46 2025 +0000",
-          "timestamp": 1763917126,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/444f8d0"
-        },
-        {
-          "sha": "3a49e26",
-          "message": "wiki: quirks: encryption: Fix typo",
-          "author": "Ferdinand Saurenbach",
-          "date": "Wed Nov 19 19:32:09 2025 +0100",
-          "timestamp": 1763577129,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/3a49e26"
-        },
-        {
-          "sha": "4567d9f",
-          "message": "wiki: Add Changing screen resolution quirk for some devices",
-          "author": "Andrey Sprynga",
-          "date": "Wed Nov 12 20:48:56 2025 +0700",
-          "timestamp": 1762955336,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/4567d9f"
-        },
-        {
-          "sha": "2bccf08",
-          "message": "wiki: Add Nubia X",
-          "author": "Andrey Sprynga",
-          "date": "Wed Nov 12 03:53:48 2025 +0000",
-          "timestamp": 1762919628,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/2bccf08"
-        },
-        {
-          "sha": "0c60a8a",
-          "message": "wiki: Rewrite extracting proprietary blobs page",
-          "author": "Hex",
-          "date": "Mon Nov 10 19:47:28 2025 +0000",
-          "timestamp": 1762804048,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0c60a8a"
-        },
-        {
-          "sha": "0819dc7",
-          "message": "pages: {libvirt-qemu,utm}: LineageOS 23.0 is supported",
-          "author": "Yumi Yukimura",
-          "date": "Mon Nov 10 15:19:20 2025 +0000",
-          "timestamp": 1762787960,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0819dc7"
-        },
-        {
-          "sha": "3d8f6be",
-          "message": "wiki: lemonades: Update maintainers",
-          "author": "Thomas Turner",
-          "date": "Sat Nov 8 08:01:59 2025 +0000",
-          "timestamp": 1762588919,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/3d8f6be"
-        },
-        {
-          "sha": "1ebd275",
-          "message": "wiki: Correct vermeer's ram specifications to LPDDR5X",
-          "author": "Leviscape",
-          "date": "Sat Nov 8 01:37:23 2025 +0530",
-          "timestamp": 1762546043,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/1ebd275"
-        },
-        {
-          "sha": "ad5d627",
-          "message": "aston/waffle: Remove eSIM quirk",
-          "author": "Bruno Martins",
-          "date": "Fri Nov 7 08:36:57 2025 +0000",
-          "timestamp": 1762504617,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ad5d627"
-        },
-        {
-          "sha": "49347c5",
-          "message": "salami/dodge: Remove eSIM quirk",
-          "author": "Bruno Martins",
-          "date": "Thu Nov 6 15:09:27 2025 +0000",
-          "timestamp": 1762441767,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/49347c5"
-        },
-        {
-          "sha": "13276f2",
-          "message": "wiki: Update maintainer list for guacamole",
-          "author": "Nick Reuter",
-          "date": "Thu Nov 6 00:19:04 2025 +0000",
-          "timestamp": 1762388344,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/13276f2"
-        },
-        {
-          "sha": "fb603be",
-          "message": "wiki: Update maintainer list for dre",
-          "author": "Nick Reuter",
-          "date": "Wed Nov 5 17:55:00 2025 -0600",
-          "timestamp": 1762386900,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/fb603be"
-        },
-        {
-          "sha": "e56f46d",
-          "message": "wiki: Sync upgrade with download instructions",
-          "author": "LuK1337",
-          "date": "Wed Nov 5 21:56:16 2025 +0100",
-          "timestamp": 1762376176,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/e56f46d"
-        },
-        {
-          "sha": "718fb6c",
-          "message": "wiki: Fix wipe-frp/reboot commands",
-          "author": "LuK1337",
-          "date": "Tue Nov 4 10:02:28 2025 +0100",
-          "timestamp": 1762246948,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/718fb6c"
-        },
-        {
-          "sha": "9c17c89",
-          "message": "fixup! wiki: Add a faq about fixing frp",
-          "author": "Tuan Anh",
-          "date": "Tue Nov 4 03:29:43 2025 +0000",
-          "timestamp": 1762226983,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/9c17c89"
-        },
-        {
-          "sha": "bc27c3a",
-          "message": "wiki: Add a faq about fixing frp",
-          "author": "Inhishonor",
-          "date": "Mon Nov 3 18:27:19 2025 -0500",
-          "timestamp": 1762212439,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/bc27c3a"
-        },
-        {
-          "sha": "eea58c6",
-          "message": "wiki: Add faq's for gapps questions",
-          "author": "Inhishonor",
-          "date": "Mon Nov 3 23:25:56 2025 +0000",
-          "timestamp": 1762212356,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/eea58c6"
-        },
-        {
-          "sha": "cf4c291",
-          "message": "wiki: Promote Galaxy A71 to 23.0",
-          "author": "Haky86",
-          "date": "Mon Nov 3 15:13:57 2025 +0000",
-          "timestamp": 1762182837,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/cf4c291"
-        },
-        {
-          "sha": "2ec5ede",
-          "message": "wiki: Link to kernel source manifest for tensor Pixels",
-          "author": "Michael Bestas",
-          "date": "Mon Nov 3 14:33:24 2025 +0000",
-          "timestamp": 1762180404,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/2ec5ede"
-        },
-        {
-          "sha": "299347f",
-          "message": "wiki: Add Pixel 9a",
-          "author": "Michael Bestas",
-          "date": "Mon Nov 3 14:33:24 2025 +0000",
-          "timestamp": 1762180404,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/299347f"
-        },
-        {
-          "sha": "538c85e",
-          "message": "wiki: Promote tensor Pixels to 23.0",
-          "author": "Michael Bestas",
-          "date": "Mon Nov 3 14:33:24 2025 +0000",
-          "timestamp": 1762180404,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/538c85e"
-        },
-        {
-          "sha": "dff52d1",
-          "message": "aston: Add eSIM quirk",
-          "author": "Bruno Martins",
-          "date": "Sun Nov 2 14:12:21 2025 +0000",
-          "timestamp": 1762092741,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/dff52d1"
-        },
-        {
-          "sha": "0142858",
-          "message": "wiki: Promote gauguin to 23.0",
-          "author": "Hridaya Prajapati",
-          "date": "Sun Nov 2 13:06:04 2025 +0000",
-          "timestamp": 1762088764,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0142858"
-        },
-        {
-          "sha": "36cd9b4",
-          "message": "wiki: Add a note about signature verification",
-          "author": "Inhishonor",
-          "date": "Sun Nov 2 13:26:45 2025 +0100",
-          "timestamp": 1762086405,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/36cd9b4"
-        },
-        {
-          "sha": "ff9f210",
-          "message": "wiki: Fix indentation in install guide",
-          "author": "Inhishonor",
-          "date": "Sun Nov 2 12:12:53 2025 +0000",
-          "timestamp": 1762085573,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ff9f210"
-        },
-        {
-          "sha": "0541835",
-          "message": "salami/waffle/dodge: Add eSIM quirk",
-          "author": "Bruno Martins",
-          "date": "Sun Nov 2 11:00:07 2025 +0000",
-          "timestamp": 1762081207,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0541835"
-        },
-        {
-          "sha": "e2e2162",
-          "message": "wiki: Add OnePlus 13",
-          "author": "chandu078",
-          "date": "Sun Nov 2 10:22:33 2025 +0000",
-          "timestamp": 1762078953,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/e2e2162"
-        },
-        {
-          "sha": "cee05e6",
-          "message": "wiki: Fix bluejay's screen refresh rate",
-          "author": "LuK1337",
-          "date": "Sat Nov 1 22:39:42 2025 +0100",
-          "timestamp": 1762033182,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/cee05e6"
-        },
-        {
-          "sha": "5d68c6b",
-          "message": "wiki: moto-sm6225: Update maintainers & models",
-          "author": "Deivid21",
-          "date": "Tue Oct 28 00:10:06 2025 +0000",
-          "timestamp": 1761610206,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/5d68c6b"
-        },
-        {
-          "sha": "9bcfeed",
-          "message": "wiki: Add eSIM peripheral for bangkk, fogo and fogos",
-          "author": "LuK1337",
-          "date": "Tue Oct 28 02:01:29 2025 +0200",
-          "timestamp": 1761609689,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/9bcfeed"
-        },
-        {
-          "sha": "ce1c8fe",
-          "message": "wiki: Add wikipedia links to IMS quirk description",
-          "author": "LuK1337",
-          "date": "Sat Oct 25 23:23:06 2025 +0200",
-          "timestamp": 1761427386,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ce1c8fe"
-        },
-        {
-          "sha": "773dd83",
-          "message": "firmware_update_oplus: Filter out oplusstanvbk for tablets",
-          "author": "Bruno Martins",
-          "date": "Sat Oct 25 00:52:38 2025 +0200",
-          "timestamp": 1761346358,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/773dd83"
-        },
-        {
-          "sha": "b064a6b",
-          "message": "wiki: Improve bootloop definition",
-          "author": "Inhishonor",
-          "date": "Thu Oct 23 17:35:12 2025 +0000",
-          "timestamp": 1761240912,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/b064a6b"
-        },
-        {
-          "sha": "f9bc0a9",
-          "message": "wiki: Add definitions for ASB and QPR to glossary",
-          "author": "Inhishonor",
-          "date": "Thu Oct 23 17:35:12 2025 +0000",
-          "timestamp": 1761240912,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/f9bc0a9"
-        },
-        {
-          "sha": "4c0d20c",
-          "message": "wiki: Add OnePlus Pad Pro/2 (caihong)",
-          "author": "inferno0230",
-          "date": "Tue Oct 21 16:23:32 2025 +0000",
-          "timestamp": 1761063812,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/4c0d20c"
-        },
-        {
-          "sha": "e6ff66c",
-          "message": "wiki: Add POCO F6 Pro / Redmi K70 (vermeer)",
-          "author": "Lunark :3",
-          "date": "Tue Oct 21 17:09:39 2025 +0200",
-          "timestamp": 1761059379,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/e6ff66c"
-        },
-        {
-          "sha": "0f22dd4",
-          "message": "wiki: Add unit test for image ext and size",
-          "author": "LuK1337",
-          "date": "Tue Oct 21 09:16:32 2025 +0200",
-          "timestamp": 1761030992,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0f22dd4"
-        },
-        {
-          "sha": "38dde35",
-          "message": "wiki: Resize dubai/lemonade images",
-          "author": "LuK1337",
-          "date": "Tue Oct 21 09:16:32 2025 +0200",
-          "timestamp": 1761030992,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/38dde35"
-        },
-        {
-          "sha": "cc367dc",
-          "message": "wiki: Sort x1s/y2s/z3s peripherals",
-          "author": "LuK1337",
-          "date": "Sun Oct 19 18:03:59 2025 +0200",
-          "timestamp": 1760889839,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/cc367dc"
-        },
-        {
-          "sha": "d420d72",
-          "message": "wiki: Hide `fastboot` for devices using Odin install method",
-          "author": "LuK1337",
-          "date": "Fri Oct 17 14:56:15 2025 +0200",
-          "timestamp": 1760705775,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/d420d72"
-        },
-        {
-          "sha": "50f2737",
-          "message": "devices: waffle: Promote to 23.0",
-          "author": "chandu078",
-          "date": "Fri Oct 17 08:13:29 2025 +0000",
-          "timestamp": 1760688809,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/50f2737"
-        },
-        {
-          "sha": "5ab0fef",
-          "message": "wiki: Add OnePlus Nord 4 (avalon)",
-          "author": "anky894",
-          "date": "Fri Oct 17 07:46:12 2025 +0000",
-          "timestamp": 1760687172,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/5ab0fef"
-        },
-        {
-          "sha": "7987c5e",
-          "message": "wiki: Add Galaxy S20 Devices",
-          "author": "ExtremeXT",
-          "date": "Fri Oct 17 01:41:00 2025 +0000",
-          "timestamp": 1760665260,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/7987c5e"
-        },
-        {
-          "sha": "925c95c",
-          "message": "wiki: Split aston into variants",
-          "author": "inferno0230",
-          "date": "Thu Oct 16 17:50:23 2025 +0000",
-          "timestamp": 1760637023,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/925c95c"
-        },
-        {
-          "sha": "ec0106c",
-          "message": "devices: Spacewar: Promote to 23.0",
-          "author": "BrainKub",
-          "date": "Tue Oct 14 14:08:03 2025 +0000",
-          "timestamp": 1760450883,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ec0106c"
-        },
-        {
-          "sha": "b22a204",
-          "message": "devices: tucana: Promote to 23.0",
-          "author": "Alexander Baransky",
-          "date": "Mon Oct 13 22:22:43 2025 +0300",
-          "timestamp": 1760383363,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/b22a204"
-        },
-        {
-          "sha": "20218ff",
-          "message": "wiki: Initial promotions to 23.0",
-          "author": "LuK1337",
-          "date": "Sat Oct 11 18:13:36 2025 +0200",
-          "timestamp": 1760199216,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/20218ff"
-        },
-        {
-          "sha": "cd45b0f",
-          "message": "LineageOS 23.0",
-          "author": "Nolen Johnson",
-          "date": "Sat Oct 11 18:13:36 2025 +0200",
-          "timestamp": 1760199216,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/cd45b0f"
-        },
-        {
-          "sha": "e7f718e",
-          "message": "wiki: Drop LineageOS 21.0",
-          "author": "LuK1337",
-          "date": "Sat Oct 11 18:13:36 2025 +0200",
-          "timestamp": 1760199216,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/e7f718e"
-        },
-        {
-          "sha": "cb4b17e",
-          "message": "wiki: Use `ab_copy_partitions` for aston",
-          "author": "LuK1337",
-          "date": "Sat Oct 11 16:21:54 2025 +0200",
-          "timestamp": 1760192514,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/cb4b17e"
-        },
-        {
-          "sha": "cef5f92",
-          "message": "wiki: borneo: Update maintainers",
-          "author": "Deivid21",
-          "date": "Fri Oct 10 17:41:00 2025 +0000",
-          "timestamp": 1760118060,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/cef5f92"
-        },
-        {
-          "sha": "d02f323",
-          "message": "devices: deadpool: Don't rely on burn mode",
-          "author": "Nolen Johnson",
-          "date": "Tue Oct 7 00:55:38 2025 -0400",
-          "timestamp": 1759812938,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/d02f323"
-        },
-        {
-          "sha": "49d55cb",
-          "message": "wiki: Add new martini maintainer",
-          "author": "basamaryan",
-          "date": "Sun Oct 5 15:19:07 2025 -0700",
-          "timestamp": 1759702747,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/49d55cb"
-        },
-        {
-          "sha": "f816a22",
-          "message": "wiki: Fix missing space before command in `pages/libvirt-qemu.md`",
-          "author": "Benjamin Loison",
-          "date": "Sat Oct 4 21:55:02 2025 +0000",
-          "timestamp": 1759614902,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/f816a22"
-        },
-        {
-          "sha": "ee4ffa2",
-          "message": "devices: salami: Add init_boot to flash partitions before recovery",
-          "author": "Bruno Martins",
-          "date": "Thu Oct 2 22:40:54 2025 +0100",
-          "timestamp": 1759441254,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ee4ffa2"
-        },
-        {
-          "sha": "fb02924",
-          "message": "wiki: devices: aston/benz: Add init_boot to flash partitions before recovery",
-          "author": "inferno0230",
-          "date": "Thu Oct 2 15:59:06 2025 +0530",
-          "timestamp": 1759400946,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/fb02924"
-        },
-        {
-          "sha": "9264484",
-          "message": "wiki: Add erhai",
-          "author": "LuK1337",
-          "date": "Sun Sep 28 11:20:40 2025 +0200",
-          "timestamp": 1759051240,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/9264484"
-        },
-        {
-          "sha": "cd0ce91",
-          "message": "wiki: Swap aston.png to one that matches other OnePlus devices",
-          "author": "LuK1337",
-          "date": "Fri Sep 26 09:07:04 2025 +0200",
-          "timestamp": 1758870424,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/cd0ce91"
-        },
-        {
-          "sha": "0c5e787",
-          "message": "wiki: Add OnePlus 12R (aston)",
-          "author": "inferno0230",
-          "date": "Fri Sep 26 02:40:04 2025 -0400",
-          "timestamp": 1758868804,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0c5e787"
-        },
-        {
-          "sha": "afba45b",
-          "message": "wiki: Add OnePlus Nord CE4 (benz)",
-          "author": "inferno0230",
-          "date": "Thu Sep 25 14:31:35 2025 +0530",
-          "timestamp": 1758790895,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/afba45b"
-        },
-        {
-          "sha": "92b8aaa",
-          "message": "wiki: Promote NB1 to 22.2",
-          "author": "Tuan Anh",
-          "date": "Wed Sep 24 13:51:56 2025 -0400",
-          "timestamp": 1758736316,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/92b8aaa"
-        },
-        {
-          "sha": "df7977d",
-          "message": "wiki: Add instructions to install/upgrade from a non A/B RDAP to A/B RDAP build",
-          "author": "Tuan Anh",
-          "date": "Wed Sep 24 13:51:55 2025 -0400",
-          "timestamp": 1758736315,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/df7977d"
-        },
-        {
-          "sha": "7194643",
-          "message": "wiki: Sort waffle's peripherals",
-          "author": "LuK1337",
-          "date": "Mon Sep 22 11:16:06 2025 +0200",
-          "timestamp": 1758532566,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/7194643"
-        },
-        {
-          "sha": "6ba6835",
-          "message": "wiki: devices: Set device type Phone (slider) for F(x)tec devices",
-          "author": "Andrey Sprynga",
-          "date": "Fri Sep 19 23:31:01 2025 +0700",
-          "timestamp": 1758299461,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/6ba6835"
-        },
-        {
-          "sha": "f71dab2",
-          "message": "wiki: Update the push command for apps",
-          "author": "Inhishonor",
-          "date": "Wed Sep 17 23:49:10 2025 +0000",
-          "timestamp": 1758152950,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/f71dab2"
-        },
-        {
-          "sha": "17ad744",
-          "message": "wiki: Update Docker installation guide",
-          "author": "Inhishonor",
-          "date": "Wed Sep 17 23:42:54 2025 +0000",
-          "timestamp": 1758152574,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/17ad744"
-        },
-        {
-          "sha": "573ae0d",
-          "message": "wiki: fastboot reboot-recovery -> fastboot reboot recovery",
-          "author": "LuK1337",
-          "date": "Mon Sep 15 19:47:25 2025 +0200",
-          "timestamp": 1757958445,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/573ae0d"
-        },
-        {
-          "sha": "97e9a68",
-          "message": "wiki: Add schema validation for `recovery_reboot`",
-          "author": "LuK1337",
-          "date": "Sun Sep 14 09:44:48 2025 +0200",
-          "timestamp": 1757835888,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/97e9a68"
-        },
-        {
-          "sha": "2744973",
-          "message": "wiki: Unset `recovery_reboot` for m5/odroidc4/radxa0/radxa02",
-          "author": "LuK1337",
-          "date": "Sun Sep 14 09:43:08 2025 +0200",
-          "timestamp": 1757835788,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/2744973"
-        },
-        {
-          "sha": "ca24d88",
-          "message": "wiki: Update pioneer maintainers",
-          "author": "LuK1337",
-          "date": "Sat Sep 13 22:17:19 2025 +0200",
-          "timestamp": 1757794639,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ca24d88"
-        },
-        {
-          "sha": "ea3a2cb",
-          "message": "devices: nx: Update fric's name",
-          "author": "Nolen Johnson",
-          "date": "Thu Sep 11 21:55:54 2025 -0400",
-          "timestamp": 1757642154,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ea3a2cb"
-        },
-        {
-          "sha": "0aaa61c",
-          "message": "wiki: Remove `recovery_boot` from salami",
-          "author": "LuK1337",
-          "date": "Mon Sep 8 12:38:41 2025 +0200",
-          "timestamp": 1757327921,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0aaa61c"
-        },
-        {
-          "sha": "0814752",
-          "message": "wiki: Hide `recovery_boot` instructions if empty",
-          "author": "LuK1337",
-          "date": "Mon Sep 8 12:00:34 2025 +0200",
-          "timestamp": 1757325634,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/0814752"
-        },
-        {
-          "sha": "ed7ad34",
-          "message": "wiki: Add OnePlus 12",
-          "author": "chandu078",
-          "date": "Mon Sep 8 11:40:45 2025 +0200",
-          "timestamp": 1757324445,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/ed7ad34"
-        },
-        {
-          "sha": "9fe2d1b",
-          "message": "wiki: Remove `recovery_boot` from OnePlus 7/8/9/11 series",
-          "author": "LuK1337",
-          "date": "Mon Sep 8 10:57:32 2025 +0200",
-          "timestamp": 1757321852,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/9fe2d1b"
-        },
-        {
-          "sha": "1755668",
-          "message": "wiki: Dual speakers -> Stereo speakers",
-          "author": "LuK1337",
-          "date": "Sun Sep 7 00:45:41 2025 +0200",
-          "timestamp": 1757198741,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/1755668"
-        },
-        {
-          "sha": "fb5332e",
-          "message": "wiki: Add Adreno 810/825/830",
-          "author": "LuK1337",
-          "date": "Sun Sep 7 00:27:29 2025 +0200",
-          "timestamp": 1757197649,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/fb5332e"
-        },
-        {
-          "sha": "1b571a6",
-          "message": "wiki: Add 'Oryon' CPU",
-          "author": "LuK1337",
-          "date": "Sun Sep 7 00:18:11 2025 +0200",
-          "timestamp": 1757197091,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/1b571a6"
-        },
-        {
-          "sha": "3b8fdaa",
-          "message": "wiki: devices: Add Xiaomi Mi Note 10 (tucana)",
-          "author": "Alexander Baransky",
-          "date": "Sat Sep 6 04:54:14 2025 +0000",
-          "timestamp": 1757134454,
-          "url": "https://github.com/LineageOS/lineage_wiki/commit/3b8fdaa"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Settings",
       "path": "packages/apps/Settings",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Settings",
@@ -4796,6 +4059,703 @@
       ]
     },
     {
+      "name": "LineageOS/lineage_wiki",
+      "path": "lineage/wiki",
+      "repo_url": "https://github.com/LineageOS/lineage_wiki",
+      "remote": "github",
+      "commit_count": 86,
+      "commits": [
+        {
+          "sha": "3bea55f",
+          "message": "devices: Promote zizhan to 23.0",
+          "author": "Arian",
+          "date": "Wed Dec 3 10:04:05 2025 +0000",
+          "timestamp": 1764756245,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/3bea55f"
+        },
+        {
+          "sha": "9aec8e0",
+          "message": "wiki: CC 9 -> CC9",
+          "author": "LuK1337",
+          "date": "Tue Dec 2 21:57:40 2025 +0100",
+          "timestamp": 1764709060,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9aec8e0"
+        },
+        {
+          "sha": "1b7a17b",
+          "message": "wiki: Require dtbo flash for enchilada and fajita",
+          "author": "LuK1337",
+          "date": "Mon Dec 1 01:17:51 2025 +0100",
+          "timestamp": 1764548271,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/1b7a17b"
+        },
+        {
+          "sha": "7dc3668",
+          "message": "wiki: Correct a few bits in timelm",
+          "author": "Tuan Anh",
+          "date": "Sun Nov 30 04:19:55 2025 +0000",
+          "timestamp": 1764476395,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/7dc3668"
+        },
+        {
+          "sha": "4f75f44",
+          "message": "avalon/caihong/waffle: Bump FW to match OOS 16 release",
+          "author": "chandu078",
+          "date": "Sun Nov 30 00:08:44 2025 +0000",
+          "timestamp": 1764461324,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/4f75f44"
+        },
+        {
+          "sha": "446887f",
+          "message": "wiki: Allow 15 fw for FP4",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 28 01:20:34 2025 +0200",
+          "timestamp": 1764285634,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/446887f"
+        },
+        {
+          "sha": "42682e4",
+          "message": "wiki: Allow A16 FW for dodge and erhai",
+          "author": "LuK1337",
+          "date": "Thu Nov 27 14:43:54 2025 +0000",
+          "timestamp": 1764254634,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/42682e4"
+        },
+        {
+          "sha": "ea98db6",
+          "message": "wiki: Promote sake to 23.0",
+          "author": "Michael Zh",
+          "date": "Thu Nov 27 10:07:31 2025 +0000",
+          "timestamp": 1764238051,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ea98db6"
+        },
+        {
+          "sha": "e880e36",
+          "message": "wiki: Update alioth maintainer list",
+          "author": "Christian Hoffmann",
+          "date": "Wed Nov 26 19:46:27 2025 +0100",
+          "timestamp": 1764182787,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e880e36"
+        },
+        {
+          "sha": "e7987ee",
+          "message": "wiki: devices: Add LG V60 ThinQ (timelm)",
+          "author": "pnguyen879",
+          "date": "Wed Nov 26 05:18:49 2025 +0000",
+          "timestamp": 1764134329,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e7987ee"
+        },
+        {
+          "sha": "4b134c2",
+          "message": "wiki: Update gauguin maintainer list",
+          "author": "Penguin766",
+          "date": "Tue Nov 25 01:50:02 2025 +0000",
+          "timestamp": 1764035402,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/4b134c2"
+        },
+        {
+          "sha": "444f8d0",
+          "message": "devices: dre: Promote to 23.0",
+          "author": "Nick Reuter",
+          "date": "Sun Nov 23 16:58:46 2025 +0000",
+          "timestamp": 1763917126,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/444f8d0"
+        },
+        {
+          "sha": "3a49e26",
+          "message": "wiki: quirks: encryption: Fix typo",
+          "author": "Ferdinand Saurenbach",
+          "date": "Wed Nov 19 19:32:09 2025 +0100",
+          "timestamp": 1763577129,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/3a49e26"
+        },
+        {
+          "sha": "4567d9f",
+          "message": "wiki: Add Changing screen resolution quirk for some devices",
+          "author": "Andrey Sprynga",
+          "date": "Wed Nov 12 20:48:56 2025 +0700",
+          "timestamp": 1762955336,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/4567d9f"
+        },
+        {
+          "sha": "2bccf08",
+          "message": "wiki: Add Nubia X",
+          "author": "Andrey Sprynga",
+          "date": "Wed Nov 12 03:53:48 2025 +0000",
+          "timestamp": 1762919628,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/2bccf08"
+        },
+        {
+          "sha": "0c60a8a",
+          "message": "wiki: Rewrite extracting proprietary blobs page",
+          "author": "Hex",
+          "date": "Mon Nov 10 19:47:28 2025 +0000",
+          "timestamp": 1762804048,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0c60a8a"
+        },
+        {
+          "sha": "0819dc7",
+          "message": "pages: {libvirt-qemu,utm}: LineageOS 23.0 is supported",
+          "author": "Yumi Yukimura",
+          "date": "Mon Nov 10 15:19:20 2025 +0000",
+          "timestamp": 1762787960,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0819dc7"
+        },
+        {
+          "sha": "3d8f6be",
+          "message": "wiki: lemonades: Update maintainers",
+          "author": "Thomas Turner",
+          "date": "Sat Nov 8 08:01:59 2025 +0000",
+          "timestamp": 1762588919,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/3d8f6be"
+        },
+        {
+          "sha": "1ebd275",
+          "message": "wiki: Correct vermeer's ram specifications to LPDDR5X",
+          "author": "Leviscape",
+          "date": "Sat Nov 8 01:37:23 2025 +0530",
+          "timestamp": 1762546043,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/1ebd275"
+        },
+        {
+          "sha": "ad5d627",
+          "message": "aston/waffle: Remove eSIM quirk",
+          "author": "Bruno Martins",
+          "date": "Fri Nov 7 08:36:57 2025 +0000",
+          "timestamp": 1762504617,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ad5d627"
+        },
+        {
+          "sha": "49347c5",
+          "message": "salami/dodge: Remove eSIM quirk",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 6 15:09:27 2025 +0000",
+          "timestamp": 1762441767,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/49347c5"
+        },
+        {
+          "sha": "13276f2",
+          "message": "wiki: Update maintainer list for guacamole",
+          "author": "Nick Reuter",
+          "date": "Thu Nov 6 00:19:04 2025 +0000",
+          "timestamp": 1762388344,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/13276f2"
+        },
+        {
+          "sha": "fb603be",
+          "message": "wiki: Update maintainer list for dre",
+          "author": "Nick Reuter",
+          "date": "Wed Nov 5 17:55:00 2025 -0600",
+          "timestamp": 1762386900,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/fb603be"
+        },
+        {
+          "sha": "e56f46d",
+          "message": "wiki: Sync upgrade with download instructions",
+          "author": "LuK1337",
+          "date": "Wed Nov 5 21:56:16 2025 +0100",
+          "timestamp": 1762376176,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e56f46d"
+        },
+        {
+          "sha": "718fb6c",
+          "message": "wiki: Fix wipe-frp/reboot commands",
+          "author": "LuK1337",
+          "date": "Tue Nov 4 10:02:28 2025 +0100",
+          "timestamp": 1762246948,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/718fb6c"
+        },
+        {
+          "sha": "9c17c89",
+          "message": "fixup! wiki: Add a faq about fixing frp",
+          "author": "Tuan Anh",
+          "date": "Tue Nov 4 03:29:43 2025 +0000",
+          "timestamp": 1762226983,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9c17c89"
+        },
+        {
+          "sha": "bc27c3a",
+          "message": "wiki: Add a faq about fixing frp",
+          "author": "Inhishonor",
+          "date": "Mon Nov 3 18:27:19 2025 -0500",
+          "timestamp": 1762212439,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/bc27c3a"
+        },
+        {
+          "sha": "eea58c6",
+          "message": "wiki: Add faq's for gapps questions",
+          "author": "Inhishonor",
+          "date": "Mon Nov 3 23:25:56 2025 +0000",
+          "timestamp": 1762212356,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/eea58c6"
+        },
+        {
+          "sha": "cf4c291",
+          "message": "wiki: Promote Galaxy A71 to 23.0",
+          "author": "Haky86",
+          "date": "Mon Nov 3 15:13:57 2025 +0000",
+          "timestamp": 1762182837,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cf4c291"
+        },
+        {
+          "sha": "2ec5ede",
+          "message": "wiki: Link to kernel source manifest for tensor Pixels",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 14:33:24 2025 +0000",
+          "timestamp": 1762180404,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/2ec5ede"
+        },
+        {
+          "sha": "299347f",
+          "message": "wiki: Add Pixel 9a",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 14:33:24 2025 +0000",
+          "timestamp": 1762180404,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/299347f"
+        },
+        {
+          "sha": "538c85e",
+          "message": "wiki: Promote tensor Pixels to 23.0",
+          "author": "Michael Bestas",
+          "date": "Mon Nov 3 14:33:24 2025 +0000",
+          "timestamp": 1762180404,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/538c85e"
+        },
+        {
+          "sha": "dff52d1",
+          "message": "aston: Add eSIM quirk",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 2 14:12:21 2025 +0000",
+          "timestamp": 1762092741,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/dff52d1"
+        },
+        {
+          "sha": "0142858",
+          "message": "wiki: Promote gauguin to 23.0",
+          "author": "Hridaya Prajapati",
+          "date": "Sun Nov 2 13:06:04 2025 +0000",
+          "timestamp": 1762088764,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0142858"
+        },
+        {
+          "sha": "36cd9b4",
+          "message": "wiki: Add a note about signature verification",
+          "author": "Inhishonor",
+          "date": "Sun Nov 2 13:26:45 2025 +0100",
+          "timestamp": 1762086405,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/36cd9b4"
+        },
+        {
+          "sha": "ff9f210",
+          "message": "wiki: Fix indentation in install guide",
+          "author": "Inhishonor",
+          "date": "Sun Nov 2 12:12:53 2025 +0000",
+          "timestamp": 1762085573,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ff9f210"
+        },
+        {
+          "sha": "0541835",
+          "message": "salami/waffle/dodge: Add eSIM quirk",
+          "author": "Bruno Martins",
+          "date": "Sun Nov 2 11:00:07 2025 +0000",
+          "timestamp": 1762081207,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0541835"
+        },
+        {
+          "sha": "e2e2162",
+          "message": "wiki: Add OnePlus 13",
+          "author": "chandu078",
+          "date": "Sun Nov 2 10:22:33 2025 +0000",
+          "timestamp": 1762078953,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e2e2162"
+        },
+        {
+          "sha": "cee05e6",
+          "message": "wiki: Fix bluejay's screen refresh rate",
+          "author": "LuK1337",
+          "date": "Sat Nov 1 22:39:42 2025 +0100",
+          "timestamp": 1762033182,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cee05e6"
+        },
+        {
+          "sha": "5d68c6b",
+          "message": "wiki: moto-sm6225: Update maintainers & models",
+          "author": "Deivid21",
+          "date": "Tue Oct 28 00:10:06 2025 +0000",
+          "timestamp": 1761610206,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/5d68c6b"
+        },
+        {
+          "sha": "9bcfeed",
+          "message": "wiki: Add eSIM peripheral for bangkk, fogo and fogos",
+          "author": "LuK1337",
+          "date": "Tue Oct 28 02:01:29 2025 +0200",
+          "timestamp": 1761609689,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9bcfeed"
+        },
+        {
+          "sha": "ce1c8fe",
+          "message": "wiki: Add wikipedia links to IMS quirk description",
+          "author": "LuK1337",
+          "date": "Sat Oct 25 23:23:06 2025 +0200",
+          "timestamp": 1761427386,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ce1c8fe"
+        },
+        {
+          "sha": "773dd83",
+          "message": "firmware_update_oplus: Filter out oplusstanvbk for tablets",
+          "author": "Bruno Martins",
+          "date": "Sat Oct 25 00:52:38 2025 +0200",
+          "timestamp": 1761346358,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/773dd83"
+        },
+        {
+          "sha": "b064a6b",
+          "message": "wiki: Improve bootloop definition",
+          "author": "Inhishonor",
+          "date": "Thu Oct 23 17:35:12 2025 +0000",
+          "timestamp": 1761240912,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/b064a6b"
+        },
+        {
+          "sha": "f9bc0a9",
+          "message": "wiki: Add definitions for ASB and QPR to glossary",
+          "author": "Inhishonor",
+          "date": "Thu Oct 23 17:35:12 2025 +0000",
+          "timestamp": 1761240912,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/f9bc0a9"
+        },
+        {
+          "sha": "4c0d20c",
+          "message": "wiki: Add OnePlus Pad Pro/2 (caihong)",
+          "author": "inferno0230",
+          "date": "Tue Oct 21 16:23:32 2025 +0000",
+          "timestamp": 1761063812,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/4c0d20c"
+        },
+        {
+          "sha": "e6ff66c",
+          "message": "wiki: Add POCO F6 Pro / Redmi K70 (vermeer)",
+          "author": "Lunark :3",
+          "date": "Tue Oct 21 17:09:39 2025 +0200",
+          "timestamp": 1761059379,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e6ff66c"
+        },
+        {
+          "sha": "0f22dd4",
+          "message": "wiki: Add unit test for image ext and size",
+          "author": "LuK1337",
+          "date": "Tue Oct 21 09:16:32 2025 +0200",
+          "timestamp": 1761030992,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0f22dd4"
+        },
+        {
+          "sha": "38dde35",
+          "message": "wiki: Resize dubai/lemonade images",
+          "author": "LuK1337",
+          "date": "Tue Oct 21 09:16:32 2025 +0200",
+          "timestamp": 1761030992,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/38dde35"
+        },
+        {
+          "sha": "cc367dc",
+          "message": "wiki: Sort x1s/y2s/z3s peripherals",
+          "author": "LuK1337",
+          "date": "Sun Oct 19 18:03:59 2025 +0200",
+          "timestamp": 1760889839,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cc367dc"
+        },
+        {
+          "sha": "d420d72",
+          "message": "wiki: Hide `fastboot` for devices using Odin install method",
+          "author": "LuK1337",
+          "date": "Fri Oct 17 14:56:15 2025 +0200",
+          "timestamp": 1760705775,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/d420d72"
+        },
+        {
+          "sha": "50f2737",
+          "message": "devices: waffle: Promote to 23.0",
+          "author": "chandu078",
+          "date": "Fri Oct 17 08:13:29 2025 +0000",
+          "timestamp": 1760688809,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/50f2737"
+        },
+        {
+          "sha": "5ab0fef",
+          "message": "wiki: Add OnePlus Nord 4 (avalon)",
+          "author": "anky894",
+          "date": "Fri Oct 17 07:46:12 2025 +0000",
+          "timestamp": 1760687172,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/5ab0fef"
+        },
+        {
+          "sha": "7987c5e",
+          "message": "wiki: Add Galaxy S20 Devices",
+          "author": "ExtremeXT",
+          "date": "Fri Oct 17 01:41:00 2025 +0000",
+          "timestamp": 1760665260,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/7987c5e"
+        },
+        {
+          "sha": "925c95c",
+          "message": "wiki: Split aston into variants",
+          "author": "inferno0230",
+          "date": "Thu Oct 16 17:50:23 2025 +0000",
+          "timestamp": 1760637023,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/925c95c"
+        },
+        {
+          "sha": "ec0106c",
+          "message": "devices: Spacewar: Promote to 23.0",
+          "author": "BrainKub",
+          "date": "Tue Oct 14 14:08:03 2025 +0000",
+          "timestamp": 1760450883,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ec0106c"
+        },
+        {
+          "sha": "b22a204",
+          "message": "devices: tucana: Promote to 23.0",
+          "author": "Alexander Baransky",
+          "date": "Mon Oct 13 22:22:43 2025 +0300",
+          "timestamp": 1760383363,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/b22a204"
+        },
+        {
+          "sha": "20218ff",
+          "message": "wiki: Initial promotions to 23.0",
+          "author": "LuK1337",
+          "date": "Sat Oct 11 18:13:36 2025 +0200",
+          "timestamp": 1760199216,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/20218ff"
+        },
+        {
+          "sha": "cd45b0f",
+          "message": "LineageOS 23.0",
+          "author": "Nolen Johnson",
+          "date": "Sat Oct 11 18:13:36 2025 +0200",
+          "timestamp": 1760199216,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cd45b0f"
+        },
+        {
+          "sha": "e7f718e",
+          "message": "wiki: Drop LineageOS 21.0",
+          "author": "LuK1337",
+          "date": "Sat Oct 11 18:13:36 2025 +0200",
+          "timestamp": 1760199216,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/e7f718e"
+        },
+        {
+          "sha": "cb4b17e",
+          "message": "wiki: Use `ab_copy_partitions` for aston",
+          "author": "LuK1337",
+          "date": "Sat Oct 11 16:21:54 2025 +0200",
+          "timestamp": 1760192514,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cb4b17e"
+        },
+        {
+          "sha": "cef5f92",
+          "message": "wiki: borneo: Update maintainers",
+          "author": "Deivid21",
+          "date": "Fri Oct 10 17:41:00 2025 +0000",
+          "timestamp": 1760118060,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cef5f92"
+        },
+        {
+          "sha": "d02f323",
+          "message": "devices: deadpool: Don't rely on burn mode",
+          "author": "Nolen Johnson",
+          "date": "Tue Oct 7 00:55:38 2025 -0400",
+          "timestamp": 1759812938,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/d02f323"
+        },
+        {
+          "sha": "49d55cb",
+          "message": "wiki: Add new martini maintainer",
+          "author": "basamaryan",
+          "date": "Sun Oct 5 15:19:07 2025 -0700",
+          "timestamp": 1759702747,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/49d55cb"
+        },
+        {
+          "sha": "f816a22",
+          "message": "wiki: Fix missing space before command in `pages/libvirt-qemu.md`",
+          "author": "Benjamin Loison",
+          "date": "Sat Oct 4 21:55:02 2025 +0000",
+          "timestamp": 1759614902,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/f816a22"
+        },
+        {
+          "sha": "ee4ffa2",
+          "message": "devices: salami: Add init_boot to flash partitions before recovery",
+          "author": "Bruno Martins",
+          "date": "Thu Oct 2 22:40:54 2025 +0100",
+          "timestamp": 1759441254,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ee4ffa2"
+        },
+        {
+          "sha": "fb02924",
+          "message": "wiki: devices: aston/benz: Add init_boot to flash partitions before recovery",
+          "author": "inferno0230",
+          "date": "Thu Oct 2 15:59:06 2025 +0530",
+          "timestamp": 1759400946,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/fb02924"
+        },
+        {
+          "sha": "9264484",
+          "message": "wiki: Add erhai",
+          "author": "LuK1337",
+          "date": "Sun Sep 28 11:20:40 2025 +0200",
+          "timestamp": 1759051240,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9264484"
+        },
+        {
+          "sha": "cd0ce91",
+          "message": "wiki: Swap aston.png to one that matches other OnePlus devices",
+          "author": "LuK1337",
+          "date": "Fri Sep 26 09:07:04 2025 +0200",
+          "timestamp": 1758870424,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/cd0ce91"
+        },
+        {
+          "sha": "0c5e787",
+          "message": "wiki: Add OnePlus 12R (aston)",
+          "author": "inferno0230",
+          "date": "Fri Sep 26 02:40:04 2025 -0400",
+          "timestamp": 1758868804,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0c5e787"
+        },
+        {
+          "sha": "afba45b",
+          "message": "wiki: Add OnePlus Nord CE4 (benz)",
+          "author": "inferno0230",
+          "date": "Thu Sep 25 14:31:35 2025 +0530",
+          "timestamp": 1758790895,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/afba45b"
+        },
+        {
+          "sha": "92b8aaa",
+          "message": "wiki: Promote NB1 to 22.2",
+          "author": "Tuan Anh",
+          "date": "Wed Sep 24 13:51:56 2025 -0400",
+          "timestamp": 1758736316,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/92b8aaa"
+        },
+        {
+          "sha": "df7977d",
+          "message": "wiki: Add instructions to install/upgrade from a non A/B RDAP to A/B RDAP build",
+          "author": "Tuan Anh",
+          "date": "Wed Sep 24 13:51:55 2025 -0400",
+          "timestamp": 1758736315,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/df7977d"
+        },
+        {
+          "sha": "7194643",
+          "message": "wiki: Sort waffle's peripherals",
+          "author": "LuK1337",
+          "date": "Mon Sep 22 11:16:06 2025 +0200",
+          "timestamp": 1758532566,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/7194643"
+        },
+        {
+          "sha": "6ba6835",
+          "message": "wiki: devices: Set device type Phone (slider) for F(x)tec devices",
+          "author": "Andrey Sprynga",
+          "date": "Fri Sep 19 23:31:01 2025 +0700",
+          "timestamp": 1758299461,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/6ba6835"
+        },
+        {
+          "sha": "f71dab2",
+          "message": "wiki: Update the push command for apps",
+          "author": "Inhishonor",
+          "date": "Wed Sep 17 23:49:10 2025 +0000",
+          "timestamp": 1758152950,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/f71dab2"
+        },
+        {
+          "sha": "17ad744",
+          "message": "wiki: Update Docker installation guide",
+          "author": "Inhishonor",
+          "date": "Wed Sep 17 23:42:54 2025 +0000",
+          "timestamp": 1758152574,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/17ad744"
+        },
+        {
+          "sha": "573ae0d",
+          "message": "wiki: fastboot reboot-recovery -> fastboot reboot recovery",
+          "author": "LuK1337",
+          "date": "Mon Sep 15 19:47:25 2025 +0200",
+          "timestamp": 1757958445,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/573ae0d"
+        },
+        {
+          "sha": "97e9a68",
+          "message": "wiki: Add schema validation for `recovery_reboot`",
+          "author": "LuK1337",
+          "date": "Sun Sep 14 09:44:48 2025 +0200",
+          "timestamp": 1757835888,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/97e9a68"
+        },
+        {
+          "sha": "2744973",
+          "message": "wiki: Unset `recovery_reboot` for m5/odroidc4/radxa0/radxa02",
+          "author": "LuK1337",
+          "date": "Sun Sep 14 09:43:08 2025 +0200",
+          "timestamp": 1757835788,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/2744973"
+        },
+        {
+          "sha": "ca24d88",
+          "message": "wiki: Update pioneer maintainers",
+          "author": "LuK1337",
+          "date": "Sat Sep 13 22:17:19 2025 +0200",
+          "timestamp": 1757794639,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ca24d88"
+        },
+        {
+          "sha": "ea3a2cb",
+          "message": "devices: nx: Update fric's name",
+          "author": "Nolen Johnson",
+          "date": "Thu Sep 11 21:55:54 2025 -0400",
+          "timestamp": 1757642154,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ea3a2cb"
+        },
+        {
+          "sha": "0aaa61c",
+          "message": "wiki: Remove `recovery_boot` from salami",
+          "author": "LuK1337",
+          "date": "Mon Sep 8 12:38:41 2025 +0200",
+          "timestamp": 1757327921,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0aaa61c"
+        },
+        {
+          "sha": "0814752",
+          "message": "wiki: Hide `recovery_boot` instructions if empty",
+          "author": "LuK1337",
+          "date": "Mon Sep 8 12:00:34 2025 +0200",
+          "timestamp": 1757325634,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/0814752"
+        },
+        {
+          "sha": "ed7ad34",
+          "message": "wiki: Add OnePlus 12",
+          "author": "chandu078",
+          "date": "Mon Sep 8 11:40:45 2025 +0200",
+          "timestamp": 1757324445,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/ed7ad34"
+        },
+        {
+          "sha": "9fe2d1b",
+          "message": "wiki: Remove `recovery_boot` from OnePlus 7/8/9/11 series",
+          "author": "LuK1337",
+          "date": "Mon Sep 8 10:57:32 2025 +0200",
+          "timestamp": 1757321852,
+          "url": "https://github.com/LineageOS/lineage_wiki/commit/9fe2d1b"
+        }
+      ]
+    },
+    {
       "name": "android_packages_apps_Launcher3",
       "path": "packages/apps/Launcher3",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Launcher3",
@@ -5353,7 +5313,7 @@
       "path": "vendor/lineage",
       "repo_url": "https://github.com/AxionAOSP/android_vendor_lineage",
       "remote": "axion",
-      "commit_count": 52,
+      "commit_count": 51,
       "commits": [
         {
           "sha": "64efab9",
@@ -5762,14 +5722,6 @@
           "date": "Mon Sep 8 06:10:06 2025 +0000",
           "timestamp": 1757311806,
           "url": "https://github.com/AxionAOSP/android_vendor_lineage/commit/165ebd3"
-        },
-        {
-          "sha": "03fac07",
-          "message": "build: Update rust toolchain dynamically",
-          "author": "Nick Reuter",
-          "date": "Sat Sep 6 15:10:53 2025 -0500",
-          "timestamp": 1757189453,
-          "url": "https://github.com/AxionAOSP/android_vendor_lineage/commit/03fac07"
         }
       ]
     },
@@ -6155,8 +6107,16 @@
       "path": "lineage/hudson",
       "repo_url": "https://github.com/LineageOS/hudson",
       "remote": "github",
-      "commit_count": 42,
+      "commit_count": 43,
       "commits": [
+        {
+          "sha": "bfe0fa1",
+          "message": "Regenerate device dependency mappings",
+          "author": "LineageOS Infra",
+          "date": "Fri Dec 5 23:30:36 2025 +0000",
+          "timestamp": 1764977436,
+          "url": "https://github.com/LineageOS/hudson/commit/bfe0fa1"
+        },
         {
           "sha": "ac6b651",
           "message": "Regenerate device dependency mappings",
@@ -7609,7 +7569,7 @@
       "path": "lineage/mirror",
       "repo_url": "https://github.com/LineageOS/mirror",
       "remote": "github",
-      "commit_count": 22,
+      "commit_count": 21,
       "commits": [
         {
           "sha": "e0880f2",
@@ -7778,14 +7738,6 @@
           "date": "Mon Sep 8 00:01:43 2025 +0200",
           "timestamp": 1757282503,
           "url": "https://github.com/LineageOS/mirror/commit/8896d20"
-        },
-        {
-          "sha": "1d6eb2e",
-          "message": "Updated to 06-Sep-2025 10:01 UTC",
-          "author": "Tim Schumacher",
-          "date": "Sat Sep 6 12:01:19 2025 +0200",
-          "timestamp": 1757152879,
-          "url": "https://github.com/LineageOS/mirror/commit/1d6eb2e"
         }
       ]
     },
@@ -8459,119 +8411,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_AxionWidgets",
-      "path": "packages/apps/AxionWidgets",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets",
-      "remote": "axion",
-      "commit_count": 13,
-      "commits": [
-        {
-          "sha": "b82f60a",
-          "message": "[ax_scheduling] initial integrate",
-          "author": "rmp22",
-          "date": "Wed Nov 12 22:23:45 2025 +0800",
-          "timestamp": 1762957425,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b82f60a"
-        },
-        {
-          "sha": "c1fade6",
-          "message": "[ax_schedule] cpu scheduling integrate",
-          "author": "rmp22",
-          "date": "Tue Nov 11 12:27:13 2025 +0800",
-          "timestamp": 1762835233,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/c1fade6"
-        },
-        {
-          "sha": "8a1a27f",
-          "message": "fixing privapp list typo",
-          "author": "rmp22",
-          "date": "Wed Nov 5 11:06:16 2025 +0800",
-          "timestamp": 1762311976,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8a1a27f"
-        },
-        {
-          "sha": "65254e8",
-          "message": "making widgets service persistent",
-          "author": "rmp22",
-          "date": "Sun Nov 2 22:20:55 2025 +0800",
-          "timestamp": 1762093255,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/65254e8"
-        },
-        {
-          "sha": "d17a18c",
-          "message": "widgets fixes and enhancements",
-          "author": "rmp22",
-          "date": "Sun Oct 12 10:23:28 2025 +0800",
-          "timestamp": 1760235808,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/d17a18c"
-        },
-        {
-          "sha": "8ff84e7",
-          "message": "adding warmup protection to update service",
-          "author": "rmp22",
-          "date": "Wed Oct 1 19:21:49 2025 +0800",
-          "timestamp": 1759317709,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8ff84e7"
-        },
-        {
-          "sha": "1130bda",
-          "message": "add screen time widget",
-          "author": "rmp22",
-          "date": "Mon Sep 22 18:59:43 2025 +0800",
-          "timestamp": 1758538783,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/1130bda"
-        },
-        {
-          "sha": "b4a2812",
-          "message": "using ringerModeInternal to avoid activating DND on silent mode",
-          "author": "rmp22",
-          "date": "Mon Sep 22 16:17:13 2025 +0800",
-          "timestamp": 1758529033,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b4a2812"
-        },
-        {
-          "sha": "7aaad5c",
-          "message": "photo widget structure fix | update",
-          "author": "rmp22",
-          "date": "Sun Sep 21 15:51:01 2025 +0800",
-          "timestamp": 1758441061,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/7aaad5c"
-        },
-        {
-          "sha": "de964e1",
-          "message": "fix logic errors",
-          "author": "rmp22",
-          "date": "Sat Sep 13 20:14:16 2025 +0800",
-          "timestamp": 1757765656,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/de964e1"
-        },
-        {
-          "sha": "8435824",
-          "message": "fix camera callback memory leak",
-          "author": "rmp22",
-          "date": "Wed Sep 10 20:14:36 2025 +0800",
-          "timestamp": 1757506476,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8435824"
-        },
-        {
-          "sha": "93de763",
-          "message": "fix service type",
-          "author": "rmp22",
-          "date": "Wed Sep 10 20:14:08 2025 +0800",
-          "timestamp": 1757506448,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/93de763"
-        },
-        {
-          "sha": "a02f335",
-          "message": "structure finalization + lifecycle rewrite",
-          "author": "rmp22",
-          "date": "Sat Sep 6 22:14:57 2025 +0800",
-          "timestamp": 1757168097,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/a02f335"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_apps_Glimpse",
       "path": "packages/apps/Glimpse",
       "repo_url": "https://github.com/LineageOS/android_packages_apps_Glimpse",
@@ -8673,6 +8512,111 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/LineageOS/android_packages_apps_Glimpse/commit/e774392"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_AxionWidgets",
+      "path": "packages/apps/AxionWidgets",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets",
+      "remote": "axion",
+      "commit_count": 12,
+      "commits": [
+        {
+          "sha": "b82f60a",
+          "message": "[ax_scheduling] initial integrate",
+          "author": "rmp22",
+          "date": "Wed Nov 12 22:23:45 2025 +0800",
+          "timestamp": 1762957425,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b82f60a"
+        },
+        {
+          "sha": "c1fade6",
+          "message": "[ax_schedule] cpu scheduling integrate",
+          "author": "rmp22",
+          "date": "Tue Nov 11 12:27:13 2025 +0800",
+          "timestamp": 1762835233,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/c1fade6"
+        },
+        {
+          "sha": "8a1a27f",
+          "message": "fixing privapp list typo",
+          "author": "rmp22",
+          "date": "Wed Nov 5 11:06:16 2025 +0800",
+          "timestamp": 1762311976,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8a1a27f"
+        },
+        {
+          "sha": "65254e8",
+          "message": "making widgets service persistent",
+          "author": "rmp22",
+          "date": "Sun Nov 2 22:20:55 2025 +0800",
+          "timestamp": 1762093255,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/65254e8"
+        },
+        {
+          "sha": "d17a18c",
+          "message": "widgets fixes and enhancements",
+          "author": "rmp22",
+          "date": "Sun Oct 12 10:23:28 2025 +0800",
+          "timestamp": 1760235808,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/d17a18c"
+        },
+        {
+          "sha": "8ff84e7",
+          "message": "adding warmup protection to update service",
+          "author": "rmp22",
+          "date": "Wed Oct 1 19:21:49 2025 +0800",
+          "timestamp": 1759317709,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8ff84e7"
+        },
+        {
+          "sha": "1130bda",
+          "message": "add screen time widget",
+          "author": "rmp22",
+          "date": "Mon Sep 22 18:59:43 2025 +0800",
+          "timestamp": 1758538783,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/1130bda"
+        },
+        {
+          "sha": "b4a2812",
+          "message": "using ringerModeInternal to avoid activating DND on silent mode",
+          "author": "rmp22",
+          "date": "Mon Sep 22 16:17:13 2025 +0800",
+          "timestamp": 1758529033,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/b4a2812"
+        },
+        {
+          "sha": "7aaad5c",
+          "message": "photo widget structure fix | update",
+          "author": "rmp22",
+          "date": "Sun Sep 21 15:51:01 2025 +0800",
+          "timestamp": 1758441061,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/7aaad5c"
+        },
+        {
+          "sha": "de964e1",
+          "message": "fix logic errors",
+          "author": "rmp22",
+          "date": "Sat Sep 13 20:14:16 2025 +0800",
+          "timestamp": 1757765656,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/de964e1"
+        },
+        {
+          "sha": "8435824",
+          "message": "fix camera callback memory leak",
+          "author": "rmp22",
+          "date": "Wed Sep 10 20:14:36 2025 +0800",
+          "timestamp": 1757506476,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/8435824"
+        },
+        {
+          "sha": "93de763",
+          "message": "fix service type",
+          "author": "rmp22",
+          "date": "Wed Sep 10 20:14:08 2025 +0800",
+          "timestamp": 1757506448,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_AxionWidgets/commit/93de763"
         }
       ]
     },
@@ -10844,55 +10788,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "95c5d93",
-          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
-          "author": "Ankit Mishra",
-          "date": "Mon Nov 3 12:33:59 2025 +0000",
-          "timestamp": 1762173239,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
-        },
-        {
-          "sha": "dacf91a",
-          "message": "qcom: Remove more obsolete board flags",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/dacf91a"
-        },
-        {
-          "sha": "2dcc26c",
-          "message": "qcom: Add msm8998 audio soong config",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/2dcc26c"
-        },
-        {
-          "sha": "cd562c5",
-          "message": "common: Unset MSM_VIDC_TARGET_LIST",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/cd562c5"
-        },
-        {
-          "sha": "f67795e",
-          "message": "qcom: Remove no longer used TARGET_USES_DRM_PP",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:16 2025 +0300",
-          "timestamp": 1757150896,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/f67795e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_thermal",
       "path": "hardware/qcom-caf/thermal-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
@@ -11175,6 +11070,47 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/LineageOS/android_packages_apps_FlipFlap/commit/dd49d55"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_apn",
+      "path": "vendor/apn",
+      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "e09a80d",
+          "message": "Add Bait MX",
+          "author": "DqrKnzx",
+          "date": "Thu Dec 4 22:40:23 2025 +0100",
+          "timestamp": 1764884423,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/e09a80d"
+        },
+        {
+          "sha": "060d567",
+          "message": "Add WE EG",
+          "author": "keosh1",
+          "date": "Thu Nov 13 21:27:36 2025 +0000",
+          "timestamp": 1763069256,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
+        },
+        {
+          "sha": "2341ff2",
+          "message": "Add a helper to pretty format apn xmls and run it",
+          "author": "Arian",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
+        },
+        {
+          "sha": "ebf7f73",
+          "message": "Initial commit",
+          "author": "LuK1337",
+          "date": "Tue Nov 11 10:34:07 2025 +0100",
+          "timestamp": 1762853647,
+          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
         }
       ]
     },
@@ -11466,39 +11402,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
-        },
-        {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
-        },
-        {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_patches",
       "path": "external/chromium-webview/patches",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_patches",
@@ -11528,6 +11431,39 @@
           "date": "Fri Sep 26 09:55:19 2025 -0600",
           "timestamp": 1758902119,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        },
+        {
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        },
+        {
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -11759,39 +11695,6 @@
           "date": "Mon Sep 15 16:55:04 2025 +0000",
           "timestamp": 1757955304,
           "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_apn",
-      "path": "vendor/apn",
-      "repo_url": "https://github.com/LineageOS/android_vendor_apn",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "060d567",
-          "message": "Add WE EG",
-          "author": "keosh1",
-          "date": "Thu Nov 13 21:27:36 2025 +0000",
-          "timestamp": 1763069256,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/060d567"
-        },
-        {
-          "sha": "2341ff2",
-          "message": "Add a helper to pretty format apn xmls and run it",
-          "author": "Arian",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/2341ff2"
-        },
-        {
-          "sha": "ebf7f73",
-          "message": "Initial commit",
-          "author": "LuK1337",
-          "date": "Tue Nov 11 10:34:07 2025 +0100",
-          "timestamp": 1762853647,
-          "url": "https://github.com/LineageOS/android_vendor_apn/commit/ebf7f73"
         }
       ]
     },
@@ -12475,31 +12378,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_EmergencyInfo",
-      "path": "packages/apps/EmergencyInfo",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "86afd3a",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:36:34 2025 +0200",
-          "timestamp": 1763105794,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo/commit/86afd3a"
-        },
-        {
-          "sha": "6946b93",
-          "message": "Revert \"Fix activity name for EmergencyGestureAction\"",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:36:24 2025 +0200",
-          "timestamp": 1763105784,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo/commit/6946b93"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Dialer",
       "path": "packages/apps/Dialer",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Dialer",
@@ -12521,6 +12399,31 @@
           "date": "Wed Sep 24 20:06:41 2025 +0000",
           "timestamp": 1758744401,
           "url": "https://github.com/AxionAOSP/android_packages_apps_Dialer/commit/a2c61d62"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_EmergencyInfo",
+      "path": "packages/apps/EmergencyInfo",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "86afd3a",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:36:34 2025 +0200",
+          "timestamp": 1763105794,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo/commit/86afd3a"
+        },
+        {
+          "sha": "6946b93",
+          "message": "Revert \"Fix activity name for EmergencyGestureAction\"",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:36:24 2025 +0200",
+          "timestamp": 1763105784,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_EmergencyInfo/commit/6946b93"
         }
       ]
     },
@@ -12575,31 +12478,6 @@
       ]
     },
     {
-      "name": "android_packages_apps_Stk",
-      "path": "packages/apps/Stk",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Stk",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "3577a45",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Thu Nov 13 18:17:44 2025 +0200",
-          "timestamp": 1763050664,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Stk/commit/3577a45"
-        },
-        {
-          "sha": "ffb951e",
-          "message": "Fxied edge-to-edge UX support for StkLauncherActivity.",
-          "author": "arunvoddu",
-          "date": "Fri Sep 26 14:18:22 2025 +0200",
-          "timestamp": 1758889102,
-          "url": "https://github.com/AxionAOSP/android_packages_apps_Stk/commit/ffb951e"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_Seedvault",
       "path": "packages/apps/Seedvault",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Seedvault",
@@ -12621,6 +12499,31 @@
           "date": "Sat Nov 22 02:07:32 2025 +0200",
           "timestamp": 1763770052,
           "url": "https://github.com/AxionAOSP/android_packages_apps_Seedvault/commit/ddb05a0"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_apps_Stk",
+      "path": "packages/apps/Stk",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_apps_Stk",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "3577a45",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Thu Nov 13 18:17:44 2025 +0200",
+          "timestamp": 1763050664,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Stk/commit/3577a45"
+        },
+        {
+          "sha": "ffb951e",
+          "message": "Fxied edge-to-edge UX support for StkLauncherActivity.",
+          "author": "arunvoddu",
+          "date": "Fri Sep 26 14:18:22 2025 +0200",
+          "timestamp": 1758889102,
+          "url": "https://github.com/AxionAOSP/android_packages_apps_Stk/commit/ffb951e"
         }
       ]
     },
@@ -12700,31 +12603,6 @@
       ]
     },
     {
-      "name": "android_packages_providers_MediaProvider",
-      "path": "packages/providers/MediaProvider",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "abf0d8748",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:49:45 2025 +0200",
-          "timestamp": 1763110185,
-          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/abf0d8748"
-        },
-        {
-          "sha": "0138b508f",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/providers/MediaProvider into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 18:00:27 2025 +0300",
-          "timestamp": 1757689227,
-          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/0138b508f"
-        }
-      ]
-    },
-    {
       "name": "android_system_bpf",
       "path": "system/bpf",
       "repo_url": "https://github.com/AxionAOSP/android_system_bpf",
@@ -12746,6 +12624,31 @@
           "date": "Mon Nov 17 17:59:10 2025 +0530",
           "timestamp": 1763382550,
           "url": "https://github.com/AxionAOSP/android_system_bpf/commit/cb8c845"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_providers_MediaProvider",
+      "path": "packages/providers/MediaProvider",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "abf0d8748",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:49:45 2025 +0200",
+          "timestamp": 1763110185,
+          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/abf0d8748"
+        },
+        {
+          "sha": "0138b508f",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/providers/MediaProvider into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 18:00:27 2025 +0300",
+          "timestamp": 1757689227,
+          "url": "https://github.com/AxionAOSP/android_packages_providers_MediaProvider/commit/0138b508f"
         }
       ]
     },
@@ -12775,31 +12678,6 @@
       ]
     },
     {
-      "name": "android_packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_services_Telephony",
-      "remote": "axion",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "855ea3845",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:55:04 2025 +0200",
-          "timestamp": 1763110504,
-          "url": "https://github.com/AxionAOSP/android_packages_services_Telephony/commit/855ea3845"
-        },
-        {
-          "sha": "03a1c33b9",
-          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/services/Telephony into lineage-23.0",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 12 18:01:22 2025 +0300",
-          "timestamp": 1757689282,
-          "url": "https://github.com/AxionAOSP/android_packages_services_Telephony/commit/03a1c33b9"
-        }
-      ]
-    },
-    {
       "name": "android_system_media",
       "path": "system/media",
       "repo_url": "https://github.com/AxionAOSP/android_system_media",
@@ -12821,6 +12699,31 @@
           "date": "Sun Nov 16 10:55:27 2025 +0100",
           "timestamp": 1763286927,
           "url": "https://github.com/AxionAOSP/android_system_media/commit/e112072"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_services_Telephony",
+      "remote": "axion",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "855ea3845",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:55:04 2025 +0200",
+          "timestamp": 1763110504,
+          "url": "https://github.com/AxionAOSP/android_packages_services_Telephony/commit/855ea3845"
+        },
+        {
+          "sha": "03a1c33b9",
+          "message": "Merge branch 'android16-security-release' of https://android.googlesource.com/platform/packages/services/Telephony into lineage-23.0",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 12 18:01:22 2025 +0300",
+          "timestamp": 1757689282,
+          "url": "https://github.com/AxionAOSP/android_packages_services_Telephony/commit/03a1c33b9"
         }
       ]
     },
@@ -12901,19 +12804,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_audio",
-      "path": "hardware/qcom-caf/sdm845/audio",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "name": "LineageOS/android_hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "d5ad5c1",
-          "message": "hal: audio_extn: Add argument to pthread routines",
-          "author": "danielml",
-          "date": "Sun Sep 7 15:27:16 2025 +0000",
-          "timestamp": 1757258836,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1"
+          "sha": "95c5d93",
+          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
+          "author": "Ankit Mishra",
+          "date": "Mon Nov 3 12:33:59 2025 +0000",
+          "timestamp": 1762173239,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
         }
       ]
     },
@@ -12931,6 +12834,23 @@
           "date": "Sun Sep 7 15:27:04 2025 +0000",
           "timestamp": 1757258824,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/717b078"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio",
+      "path": "hardware/qcom-caf/sdm845/audio",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "d5ad5c1",
+          "message": "hal: audio_extn: Add argument to pthread routines",
+          "author": "danielml",
+          "date": "Sun Sep 7 15:27:16 2025 +0000",
+          "timestamp": 1757258836,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/d5ad5c1"
         }
       ]
     },
@@ -12969,23 +12889,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_display",
-      "path": "hardware/qcom-caf/sm8750/display/hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "572019c",
-          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD",
-          "author": "Bruno Martins",
-          "date": "Thu Nov 20 20:02:43 2025 +0000",
-          "timestamp": 1763668963,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019c"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_media",
       "path": "hardware/qcom-caf/msm8953/media",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
@@ -13003,19 +12906,19 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_media",
-      "path": "hardware/qcom-caf/sdm845/media",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
+      "name": "LineageOS/android_hardware_qcom_display",
+      "path": "hardware/qcom-caf/sm8750/display/hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_display",
       "remote": "github",
       "commit_count": 1,
       "commits": [
         {
-          "sha": "c14d815",
-          "message": "Fix alignment of encoder_meta_buffer_payload_type",
-          "author": "Luca Stefani",
-          "date": "Sun Sep 7 23:04:11 2025 +0000",
-          "timestamp": 1757286251,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
+          "sha": "572019c",
+          "message": "Merge tag 'DISPLAY.LA.5.0.r1-06900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD",
+          "author": "Bruno Martins",
+          "date": "Thu Nov 20 20:02:43 2025 +0000",
+          "timestamp": 1763668963,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019c"
         }
       ]
     },
@@ -13050,6 +12953,23 @@
           "date": "Mon Sep 8 02:04:40 2025 +0300",
           "timestamp": 1757286280,
           "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/125f0e3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_media",
+      "path": "hardware/qcom-caf/sdm845/media",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_media",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "c14d815",
+          "message": "Fix alignment of encoder_meta_buffer_payload_type",
+          "author": "Luca Stefani",
+          "date": "Sun Sep 7 23:04:11 2025 +0000",
+          "timestamp": 1757286251,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_media/commit/c14d815"
         }
       ]
     },
@@ -13292,23 +13212,6 @@
       ]
     },
     {
-      "name": "android_external_zstd",
-      "path": "external/zstd",
-      "repo_url": "https://github.com/AxionAOSP/android_external_zstd",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "614a5b7f",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 02:15:24 2025 +0200",
-          "timestamp": 1763684124,
-          "url": "https://github.com/AxionAOSP/android_external_zstd/commit/614a5b7f"
-        }
-      ]
-    },
-    {
       "name": "android_external_cronet",
       "path": "external/cronet",
       "repo_url": "https://github.com/AxionAOSP/android_external_cronet",
@@ -13322,6 +13225,23 @@
           "date": "Mon Nov 24 12:50:44 2025 +0800",
           "timestamp": 1763959844,
           "url": "https://github.com/AxionAOSP/android_external_cronet/commit/09fbedc9"
+        }
+      ]
+    },
+    {
+      "name": "android_external_zstd",
+      "path": "external/zstd",
+      "repo_url": "https://github.com/AxionAOSP/android_external_zstd",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "614a5b7f",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 02:15:24 2025 +0200",
+          "timestamp": 1763684124,
+          "url": "https://github.com/AxionAOSP/android_external_zstd/commit/614a5b7f"
         }
       ]
     },
@@ -13343,23 +13263,6 @@
       ]
     },
     {
-      "name": "android_hardware_google_pixel-sepolicy",
-      "path": "hardware/google/pixel-sepolicy",
-      "repo_url": "https://github.com/AxionAOSP/android_hardware_google_pixel-sepolicy",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "fbd845f",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 09:01:10 2025 +0200",
-          "timestamp": 1763103670,
-          "url": "https://github.com/AxionAOSP/android_hardware_google_pixel-sepolicy/commit/fbd845f"
-        }
-      ]
-    },
-    {
       "name": "android_hardware_google_pixel",
       "path": "hardware/google/pixel",
       "repo_url": "https://github.com/AxionAOSP/android_hardware_google_pixel",
@@ -13373,6 +13276,23 @@
           "date": "Fri Nov 14 08:59:47 2025 +0200",
           "timestamp": 1763103587,
           "url": "https://github.com/AxionAOSP/android_hardware_google_pixel/commit/b02b8ba"
+        }
+      ]
+    },
+    {
+      "name": "android_hardware_google_pixel-sepolicy",
+      "path": "hardware/google/pixel-sepolicy",
+      "repo_url": "https://github.com/AxionAOSP/android_hardware_google_pixel-sepolicy",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "fbd845f",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 09:01:10 2025 +0200",
+          "timestamp": 1763103670,
+          "url": "https://github.com/AxionAOSP/android_hardware_google_pixel-sepolicy/commit/fbd845f"
         }
       ]
     },
@@ -13496,23 +13416,6 @@
       ]
     },
     {
-      "name": "android_packages_modules_Nfc",
-      "path": "packages/modules/Nfc",
-      "repo_url": "https://github.com/AxionAOSP/android_packages_modules_Nfc",
-      "remote": "axion",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "20bdcc9e",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 14 10:32:57 2025 +0200",
-          "timestamp": 1763109177,
-          "url": "https://github.com/AxionAOSP/android_packages_modules_Nfc/commit/20bdcc9e"
-        }
-      ]
-    },
-    {
       "name": "android_packages_apps_WallpaperPicker2",
       "path": "packages/apps/WallpaperPicker2",
       "repo_url": "https://github.com/AxionAOSP/android_packages_apps_WallpaperPicker2",
@@ -13526,6 +13429,23 @@
           "date": "Thu Nov 13 18:17:55 2025 +0200",
           "timestamp": 1763050675,
           "url": "https://github.com/AxionAOSP/android_packages_apps_WallpaperPicker2/commit/73ff0b64"
+        }
+      ]
+    },
+    {
+      "name": "android_packages_modules_Nfc",
+      "path": "packages/modules/Nfc",
+      "repo_url": "https://github.com/AxionAOSP/android_packages_modules_Nfc",
+      "remote": "axion",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "20bdcc9e",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android-16.0.0_r3",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 14 10:32:57 2025 +0200",
+          "timestamp": 1763109177,
+          "url": "https://github.com/AxionAOSP/android_packages_modules_Nfc/commit/20bdcc9e"
         }
       ]
     },

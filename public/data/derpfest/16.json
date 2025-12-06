@@ -1,10 +1,10 @@
 {
   "rom_id": "derpfest",
   "branch": "16",
-  "generated_at": "2025-12-05T01:21:28.261000+00:00",
-  "since_date": "2025-09-06",
-  "total_projects": 118,
-  "total_commits": 1307,
+  "generated_at": "2025-12-06T01:17:39.194745+00:00",
+  "since_date": "2025-09-07",
+  "total_projects": 117,
+  "total_commits": 1295,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -7009,7 +7009,7 @@
       "path": "packages/apps/Launcher3",
       "repo_url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpLauncher",
       "remote": "derp",
-      "commit_count": 20,
+      "commit_count": 18,
       "commits": [
         {
           "sha": "2f237a4",
@@ -7154,22 +7154,6 @@
           "date": "Sun Sep 7 15:51:17 2025 +0200",
           "timestamp": 1757253077,
           "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpLauncher/commit/9b56d95"
-        },
-        {
-          "sha": "b4f3a48",
-          "message": "Merge pull request #5 from ppanzenboeck/16-six-by-seven",
-          "author": "Alexander Brunswig",
-          "date": "Sat Sep 6 13:58:47 2025 +0200",
-          "timestamp": 1757159927,
-          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpLauncher/commit/b4f3a48"
-        },
-        {
-          "sha": "3113084",
-          "message": "DerpLauncher: Add 6*7 app grid",
-          "author": "ppanzenboeck",
-          "date": "Sat Sep 6 12:39:10 2025 +0200",
-          "timestamp": 1757155150,
-          "url": "https://github.com/DerpFest-AOSP/android_packages_apps_DerpLauncher/commit/3113084"
         }
       ]
     },
@@ -9628,112 +9612,6 @@
       ]
     },
     {
-      "name": "android_system_sepolicy",
-      "path": "system/sepolicy",
-      "repo_url": "https://github.com/DerpFest-AOSP/android_system_sepolicy",
-      "remote": "derp",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "fb83519",
-          "message": "sepolicy: Update variable name for disabling treble sepolicy tests",
-          "author": "NurKeinNeid",
-          "date": "Sun Sep 7 02:08:04 2025 +0200",
-          "timestamp": 1757203684,
-          "url": "https://github.com/DerpFest-AOSP/android_system_sepolicy/commit/fb83519"
-        },
-        {
-          "sha": "7eae749",
-          "message": "sepolicy: Allow to disable treble sepolicy tests",
-          "author": "NurKeinNeid",
-          "date": "Sun Sep 7 00:59:48 2025 +0200",
-          "timestamp": 1757199588,
-          "url": "https://github.com/DerpFest-AOSP/android_system_sepolicy/commit/7eae749"
-        },
-        {
-          "sha": "d78267b",
-          "message": "sepolicy: address media_quality_service selinux denial",
-          "author": "COSMIC",
-          "date": "Sat Sep 6 22:21:49 2025 +0200",
-          "timestamp": 1757190109,
-          "url": "https://github.com/DerpFest-AOSP/android_system_sepolicy/commit/d78267b"
-        },
-        {
-          "sha": "e4d8ad5",
-          "message": "Allow permissive backuptool domain on user builds",
-          "author": "Alexander Winkowski",
-          "date": "Sat Sep 6 22:21:49 2025 +0200",
-          "timestamp": 1757190109,
-          "url": "https://github.com/DerpFest-AOSP/android_system_sepolicy/commit/e4d8ad5"
-        },
-        {
-          "sha": "3f2b0f8",
-          "message": "Allow permissive domains on user builds for recovery",
-          "author": "Alexander Winkowski",
-          "date": "Sat Sep 6 22:21:49 2025 +0200",
-          "timestamp": 1757190109,
-          "url": "https://github.com/DerpFest-AOSP/android_system_sepolicy/commit/3f2b0f8"
-        },
-        {
-          "sha": "eca5079",
-          "message": "Allow adb root on user builds",
-          "author": "Alexander Winkowski",
-          "date": "Sat Sep 6 22:21:49 2025 +0200",
-          "timestamp": 1757190109,
-          "url": "https://github.com/DerpFest-AOSP/android_system_sepolicy/commit/eca5079"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "95c5d93",
-          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
-          "author": "Ankit Mishra",
-          "date": "Mon Nov 3 12:33:59 2025 +0000",
-          "timestamp": 1762173239,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
-        },
-        {
-          "sha": "dacf91a",
-          "message": "qcom: Remove more obsolete board flags",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/dacf91a"
-        },
-        {
-          "sha": "2dcc26c",
-          "message": "qcom: Add msm8998 audio soong config",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/2dcc26c"
-        },
-        {
-          "sha": "cd562c5",
-          "message": "common: Unset MSM_VIDC_TARGET_LIST",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:19 2025 +0300",
-          "timestamp": 1757150899,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/cd562c5"
-        },
-        {
-          "sha": "f67795e",
-          "message": "qcom: Remove no longer used TARGET_USES_DRM_PP",
-          "author": "Michael Bestas",
-          "date": "Sat Sep 6 12:28:16 2025 +0300",
-          "timestamp": 1757150896,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/f67795e"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_thermal",
       "path": "hardware/qcom-caf/thermal-legacy-um",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_thermal",
@@ -11045,6 +10923,23 @@
           "date": "Thu Sep 11 09:50:46 2025 +0300",
           "timestamp": 1757573446,
           "url": "https://github.com/LineageOS/android_hardware_knowles_athletico_sound_trigger_hal/commit/fcbd955"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "95c5d93",
+          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
+          "author": "Ankit Mishra",
+          "date": "Mon Nov 3 12:33:59 2025 +0000",
+          "timestamp": 1762173239,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
         }
       ]
     },
